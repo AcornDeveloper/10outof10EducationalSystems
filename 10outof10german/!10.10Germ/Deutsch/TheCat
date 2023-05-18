@@ -1,0 +1,395 @@
+$ The Cat word file structure
+$ 1. <sub grade>/<product>/<English translation>/<sprite name>
+$ 2. <sub grade>/<quantity/container>/<true>/<false> ...<*><English translation>
+$ 3. <sub grade>/<German word> ... <*><English word> ...
+$ 4. <sub grade>/<phrase>/<true>/<false> ...<*><English translation>
+$ 5. <sub grade>/<definition>/<true><*><English translation>
+$ 6. <sub grade>/<phrase>/<true>/<false> ...<*><English translation>
+$ Grade 1 should NOT be user modified
+$ Grade 2-4 maximum word length 24
+$ Grade 3 German and English sentences split by '*'
+$ Grades 2,4,6 <true>+<false> up to 16 entries
+$ Grade 5 be careful as false answers are taken from anywhere in the grade
+$ Grade 4 and 6 need underline characters at least as long as the answer
+$ sub grade 1-4
+
+GRADE1
+1/ein Apfel/apple/appl
+1/eine Birne/pear/pear
+1/eine Banane/banana/bana
+1/eine Apfelsine/orange/oran
+1/Trauben/grapes/grap
+1/Tomaten/tomatoes/toma
+1/Kartoffeln/potatoes/pota
+1/Erbsen/peas/peas
+1/Kirschen/cherries/cher
+1/eine Pflaume/plum/plum
+1/Champignons/mushrooms/mush
+1/ein Kohl/cabbage/cabb
+1/ein Blumenkohl/cauliflower/caul
+1/eine Ananas/pineapple/pine
+1/Erdbeeren/strawberries/stra
+1/Karotten/carrots/carr
+1/gr‹ner Salat/lettuce/lett
+2/Kaffee/coffee/coff
+2/Limonade/lemonade/lemo
+2/Schokolade/chocolate/choc
+2/Bier/beer/beer
+2/Wein/wine/wine
+2/Orangensaft/orange juice/orju
+2/Marmelade/jam/jams
+2/Suppe/soup/soup
+2/Chips/crisps/cris
+2/÷l/oil/oils
+2/Cola/coke/coke
+3/Butter/butter/butt
+3/K‰se/cheese/chee
+3/Eis/ice cream/icec
+3/Zahnpasta/toothpaste/toot
+3/Tomatensalat/tomato salad/tsal
+3/Kartoffelsalat/potato salad/psal
+3/Nudeln/pasta/past
+3/Seife/soap/soap
+3/Bonbons/sweets/swee
+3/Kekse/biscuits/bisc
+3/Zucker/sugar/sugr
+3/Streichh÷lzer/matches/matc
+3/Pralinen/chocolates/chcs
+3/ein Ei/egg/eggs
+4/Brot/bread/bred
+4/ein Br÷tchen/bread roll/brdr
+4/ein Kuchen/cake/cake
+4/eine Torte/gateaux/gatx
+4/ein H‰hnchen/chicken/chik
+4/Schinken/ham/hams
+4/Salami/salami/sala
+4/eine Bockwurst/frankfurter/fran
+4/eine Bratwurst/sausage/saus
+4/ein Kotlett/chop/chop
+GRADE2
+1/ein Kilo/Tomaten/Milch/Bier/÷l/Suppe/Cola*a kilo of tomatoes
+1/ein Kilo/ƒpfel/Wein/Bier/Cola/Apfelsaft/Milch*a kilo of apples
+1/ein Kilo/Birnen/Wein/Milch/Essig/Orangensaft*a kilo of pears
+1/ein Pfund/Kirschen/Streichh÷lzer/Milch/Senf/Suppe*half a kilo of cherries
+1/ein Pfund/Pflaumen/Milch/Wein/Bier/Essig/÷l*half a pound of plums
+1/ein Pfund/Erdbeeren/Bier/Cola/Streichh÷lzer/Senf/Apfelsaft*half a pound of strawberries
+1/ein Liter/Milch/Tomaten/Brot/Leberwurst/Birnen*a litre of milk
+1/ein Liter/Wein/Zucker/Mehl/Brot/Butter/Schinken*a litre of wine
+1/ein Liter/Limonade/Zucker/Brot/Kirschen/Tomaten*a litre of lemonade
+1/eine Flasche/Bier/Bonbons/Pralinen/Kekse/Torte*a bottle of beer
+1/eine Flasche/Orangensaft/Erdbeeren/Himbeeren/Birnen*a bottle of orange juice
+1/eine Flasche/Cola/K‰se/Mehl/Zucker/Torte*a bottle of coke
+1/eine Dose/Milch/Torte/Zahnpasta/Brot/Br÷tchen*a tin of milk
+2/eine Dose/Cola/Brot/Br÷tchen/Seife/Streichh÷lzer*a can of coke
+2/eine Dose/Suppe/Streichh÷lzer/Seife/Zahnpasta/Brot*a tin of soup
+2/ein Glas/Marmelade/Chips/Torte/Kuchen/Eier*a pot of jam
+2/eine Tube/Zahnpasta/Birnen/ƒpfel/H‰hnchen/Kuchen*a tube of toothpaste
+2/eine Tube/Aspirin/Apfelsinen/÷l/Tee/Kaffee*a tube of asprines
+2/eine Tube/Senf/Tee/Kaffee/÷l/Wein/Sprudel*a tube of mustard
+2/ein Liter/Sprudel/Bonbons/Chips/Brot/Kuchen*a litre of fizzy mineral water
+2/eine Tube/Mayonnaise/Kaffee/Tee/Bier/Rotwein*a tube of mayonnaise
+2/eine Packung/Chips/Wein/Bier/Limonade*a packet of crisps
+2/eine T‹te/Bonbons/Milch/Sprudel/H‰hnchen*a box of sweets
+2/eine Packung/Kekse/Wein/Milch/Sprudel*a packet of biscuits
+2/eine Dose/W‹rste/Kekse/Toastbrot/Brot/Kuchen*a tin of sausages
+2/eine Dose/Thunfisch/Brot/Kuchen/Toastbrot/Kekse*a tin of tuna
+2/ein Kilo/Zucker/Bier/Wein/Rotwein/÷l*a kilo of sugar
+3/eine Schachtel/Streichh÷lzer/Milch/÷l/Sprudel*a box of matches
+3/eine Schachtel/Pralinen/Sprudel/Milch/÷l*a box of chocolates
+3/ein St‹ck/Kuchen/Milch/Sprudel/Limonade/Apfelsaft*a piece of cake
+3/ein St‹ck/K‰se/Orangensaft/Kartoffeln/Bohnen/Milch*a piece of cheese
+3/eine Scheibe/Schinken/Kartoffeln/Tee/Kaffee/Marmelade/Senf*a slice of ham
+3/vier Scheiben/Salami/Milch/Wein/Eier/Gurken/Kartoffelsalat*four slices of salami
+3/hundert Gramm/Leberwurst/Milch/÷l/Wein/Saft/Sprudel*100 grammes of liver pate
+3/eine Packung/Eier/Sprudel/Bier/Limonade/Gurken*a box of eggs
+3/eine Packung/Orangensaft/Bier/Limonade/Gurken/Sprudel*a carton of orange-juice
+3/ein Glas/Gurken/Chips/Eier/Salami/Schinken*a jar of gerkhins
+3/eine Portion/Kartoffelsalat/Tee/Milch/Apfelsaft/Sprudel*a portion of potato salad
+3/eine Portion/Pizza/Kaffee/Orangensaft/Apfelsaft/Sprudel*a portion of pizza
+3/eine Portion/Nudelsalat/Kaffee/Sprudel/Milch/Bier*a portion of pasta salad
+3/eine Portion/Wurstsalat/Bier/Wein/Milch/Sprudel*a portion of sausage salad
+4/zwei hundert Gramm/Rindfleisch/Orangensaft/Fanta/Sprudel/Limonade*200 grammes of beef
+4/zwei hundert Gramm/Camembert/Cola/Orangensaft/Fanta/Milch*200 grammes camembert cheese
+4/f‹nf hundert Gramm/Hackfleisch/Fanta/÷l/Apfelsaft/Milch/Bier*500 grammes of minced meat
+4/f‹nf hundert Gramm/Emmentaler/÷l/Sprudel/Limonade/Fanta/Cola*500 grammes of Emmental cheese
+4/f‹nf hundert Gramm/Edamer/÷l/Sprudel/Fanta/Bier/Pils*500 grammes of Edam cheese
+4/eine Scheibe/K‰se/÷l/Bier/Weiﬂwein/Rotwein/Sprudel*a slice of cheese
+4/eine Packung/Toastbrot/Fanta/Sprudel/Weiﬂwein/Rotwein/÷l*a packet of sliced bread
+4/eine Flasche/Weiﬂwein/Emmentaler/Kamembert/Rindfleisch/Wurstsalat*a bottle of white wine
+4/eine Flasche/Rotwein/K‰se/ƒpfel/Chips/Torte/Kuchen*a bottle of red wine
+GRADE3
+1/Ich/m÷chte/eine/Flasche/Sprudel.*I/would/like/a/bottle/of/mineral/water.
+1/Haben/Sie/ein/Glas/Marmelade?*Have/you/got/a/jar/of/jam?
+1/Ich/h‰tte/gern/eine/Portion/Pizza.*I/would/like/a/portion/of/pizza.
+1/Geben/Sie/mir/eine/Dose/Milch.*Let/me/have/a/tin/of/milk.
+1/Ich/m÷chte/eine/Tube/Senf.*I/would/like/a/tube/of/mustard.
+1/Haben/Sie/eine/Packung/Toastbrot?*Have/you/got/a/packet/of/sliced/bread?
+1/Geben/Sie/mir/ein/St‹ck/Kuchen.*Let/me/have/a/piece/of/cake.
+1/Ich/h‰tte/gern/ein/Pfund/Tomaten.*I/would/like/a/pound/of/tomatoes.
+1/Ich/m÷chte/f‹nf/hundert/Gramm/Edamer.*I/would/like/500/grammes/of/Edam/cheese
+1/Haben/Sie/eine/Flasche/Rotwein?*Have/you/got/a/bottle/of/red/wine?
+1/Geben/Sie/mir/vier/Scheiben/Schinken.*Let/me/have/4/slices/of/ham.
+1/Ich/h‰tte/gern/ein/Kilo/Kartoffeln.*I/would/like/a/kilo/of/potatoes.
+1/Ich/m÷chte/eine/Dose/Cola.*I/would/like/a/can/of/coke.
+1/Haben/Sie/eine/T‹te/Bonbons?*Have/you/got/a/bag/of/sweets?
+1/Geben/Sie/mir/zwei/Pfund/ƒpfel.*Let/me/have/two/pounds/of/apples.
+1/Sonst/noch/etwas?*Anything/else?
+1/Sonst/noch/einen/Wunsch?*Anything/else?
+1/Kann/ich/Ihnen/helfen?*Can/I/help/you?
+1/Wieviele/m÷chten/Sie?*How/much/do/you/want?
+1/Was/kostet/das?*What/does/that/cost?
+1/Was/macht/das/bitte?*What/does/that/come/to/please?
+1/Was/darf/es/sein?*What/can/I/get/you?
+1/Welche/ƒpfel/m÷chten/Sie?*Which/apples/would/you/like?
+1/Ich/nehme/ein/Pfund/Kirschen.*I'll/take/half/a/kilo/of/cherries.
+1/Ich/nehme/die/kleine/Packung.*I'll/take/the/small/packet.
+1/Ich/habe/kein/Kleingeld.*I/have/no/change.
+1/M÷chten/Sie/eine/T‹te?*Would/you/like/a/carrier/bag?
+1/W‰re/das/alles?*Is/that/all?
+1/Verkaufen/Sie/Aufschnitt?*Do/you/sell/sliced/cold/meat?
+1/Verkaufen/Sie/Obst?*Do/you/sell/fruit?
+1/Verkaufen/Sie/Gem‹se?*Do/you/sell/vegetables?
+1/Wir/haben/kein/Fleisch/mehr.*We/have/no/more/meat.
+1/Wir/haben/kein/Brot/mehr.*We/have/no/bread/left.
+1/Wir/haben/keine/Milch.*We/have/no/milk/left.
+1/Welche/Birnen/m÷chten/Sie?*Which/pears/would/you/like?
+1/Welchen/K‰se/m÷chten/Sie?*Which/cheese/would/you/like?
+1/Was/f‹r/Bier/haben/Sie?*What/sort/of/beer/have/you/got?
+1/Was/f‹r/Wein/haben/Sie?*What/sort/of/wine/have/you/got?
+1/Wieviel/nehmen/Sie?*How/much/do/you/want?
+1/Wieviel/brauchen/Sie?*How/much/do/you/need?
+1/Brauchen/Sie/sonst/noch/etwas?*Do/you/need/anything/else?
+1/Kann/ich/Ihnen/noch/etwas/geben?*Can/I/get/you/anything/else?
+2/Haben/Sie/noch/einen/Wunsch?*Would/you/like/anything/else?
+2/Sie/w‹nschen/bitte?*What/would/you/like?
+2/Was/m÷chten/Sie/trinken?*What/would/you/like/to/drink?
+2/Was/m÷chten/Sie/essen?*What/would/you/like/to/eat?
+2/Was/f‹r/Eis/haben/Sie?*What/sort/of/ice/cream/hae/you/got?
+2/Was/f‹r/Kuchen/haben/Sie?*What/sort/of/cake/have/you/got?
+2/Was/f‹r/Getr‰nke/haben/Sie?*What/sort/of/drinks/have/you/got?
+2/Was/f‹r/K‰se/haben/Sie?*What/sort/of/cheese/have/you/got?
+2/Ich/m÷chte/die/Speisekarte.*I/would/like/the/menu.
+2/Ich/m÷chte/die/Weinkarte.*I/would/like/the/wine/list.
+2/Ich/nehme/eine/Bockwurst/mit/Pommes/Frites.*I'll/have/a/Frankfurter/with/chips.
+2/Ich/nehme/eine/Bratwurst/mit/Br÷tchen.*I'll/have/a/fried/sausage/with/bread/roll.
+2/Ich/nehme/ein/Wienerschnitzel/mit/gemischtem/Salat.*I'll/have/breaded/veal/with/mixed/salad.
+2/Ich/m÷chte/eine/Tasse/Tee/mit/Milch.*I'll/have/a/cup/of/tea/with/milk.
+2/Noch/eine/Tasse/Kaffee/mit/Milch.*Another/cup/of/coffee/with/milk.
+2/Ich/nehme/ein/K‰nnchen/Kaffee/mit/Dosenmilch.*I'll/have/a/pot/of/coffee/with/tinned/milk.
+2/Noch/ein/St‹ck/Apfelkuchen/mit/Sahne.*Another/piece/of/apple/cake/with/cream.
+2/Noch/eine/Flasche/Cola.*Another/bottle/of/coke.
+2/Wir/m÷chten/zahlen.*We/would/like/to/pay.
+2/Wir/m÷chten/einen/Tisch/f‹r/zwei.*We/would/like/a/table/for/two.
+2/Wir/m÷chten/einen/Tisch/f‹r/vier.*We/would/like/a/table/for/four.
+3/Kann/ich/Ihnen/helfen?*Can/I/help/you?
+3/Kann/ich/Ihnen/behilflich/sein?*Can/I/be/of/assistance?
+3/Wo/ist/die/Herrenabteilung?*Where/is/the/men's/department?
+3/Wo/ist/die/Damenabteilung?*Where/is/the/ladies'/department?
+3/Ich/suche/ein/T-shirt/f‹r/meinen/Bruder.*I/am/looking/for/a/T-shirt/for/my/brother.
+3/Ich/suche/Handschuhe/f‹r/meine/Mutter.*I/am/looking/for/gloves/for/my/mother.
+3/Ich/suche/einen/Pullover/f‹r/meinen/Vater.*I/am/looking/for/a/jumper/for/my/father.
+3/Wo/haben/Sie/T-shirts?*Where/are/the/T-shirts?
+3/Wo/haben/Sie/Sandalen?*Where/are/the/sandals?
+3/Wo/haben/Sie/Socken?*Where/are/the/socks?
+3/Wo/haben/Sie/Krawatten?*Where/are/the/ties?
+3/Welche/Gr÷ﬂe/m÷chten/Sie?*What/size/do/you/want?
+3/Welche/Farbe/m÷chten/Sie?*What/colour/do/you/want?
+3/Das/ist/zu/teuer.*That's/too/expensive.
+3/Das/ist/zu/klein.*That's/too/small.
+3/Das/ist/zu/groﬂ.*That's/too/big.
+3/Haben/Sie/etwas/Billigeres?*Have/you/anything/cheaper?
+3/Haben/Sie/etwas/Kleineres?*Have/you/anything/smaller?
+3/Haben/Sie/etwas/Gr÷ﬂeres?*Have/you/anything/bigger?
+3/Ich/m÷chte/diesen/Pullover/anprobieren.*I/would/like/to/try/on/this/jumper.
+3/Ich/m÷chte/dieses/T-shirt/anprobieren.*I/would/like/to/try/on/this/T-shirt.
+4/Ich/suche/ein/Geschenk/f‹r/meinen/Vater.*I'm/looking/for/a/present/for/my/father
+4/Ich/suche/ein/Geschenk/f‹r/meine/Mutter.*I'm/looking/for/a/present/for/my/mother.
+4/Ich/suche/ein/Geschenk/f‹r/meine/Schwester.*I'm/looking/for/a/present/for/my/sister.
+4/Wo/ist/die/Schreibwarenabteilung?*Where/is/the/stationary/department?
+4/Wo/ist/die/S‹ﬂwarenabteilung?*Where/is/the/confectionery/department?
+4/Diese/Taschenlampe/ist/sehr/preiswert.*This/torch/is/good/value.
+4/Haben/Sie/eine/Schachtel/Pralinen?*Do/you/have/a/box/of/chocolates?
+4/Was/kann/ich/f‹r/meine/Groﬂmutter/kaufen?*What/can/I/buy/for/my/grandmother?
+4/Was/kann/ich/f‹r/meinen/Groﬂvater/kaufen?*What/can/I/buy/for/my/grand/father?
+4/Was/kostet/eine/Ansichtskarte?*What/does/a/postcard/cost?
+4/Was/kostet/einen/Farbfilm?*What/does/a/colour/film/cost?
+4/Haben/Sie/etwas/f‹r/einen/siebenj‰hrigen/Jungen?*Have/you/anything/for/a/7/year/old/boy?
+4/Haben/Sie/etwas/f‹r/ein/zehnj‰hriges/M‰dchen?*Have/you/got/anything/for/a/10/year/old/girl?
+4/Wie/w‰re/es/mit/einer/Kassette?*How/about/a/casstte?
+4/Wie/w‰re/es/mit/einem/Buch?*How/about/a/book?
+4/Wie/w‰re/es/mit/S‹ﬂigkeiten?*How/about/sweets?
+GRADE4
+1/____ du sehr hungrig?/Bist/Habt/Sind/sind/hat/haben/Haben/Hat*Are you very hungry?
+1/Ich ___ Vegetarier./bin/Bist/Habt/Sind/sind/hat/haben/Haben*I'm vegetarian.
+1/___ dein Freund auch vegetarier?/Ist/Bist/sind/Sind/Hat/Habt/hat/haben/Haben/Seid*Is your (boy)friend vegetarian too?
+1/Ja, aber er ___ nicht so streng vegetarisch./ist/Bist/sind/Habt/hat/Hat/Sind/haben/Haben*Yes, but he is not such a strict vegetarian.
+1/Wo ___ die Imbiﬂstube?/ist/Bist/sind/Hat/Habt/hat/Sind/haben/Haben*Where is the snack-bar?
+1/Sie ___ neben dem Eiscafe./ist/sind/Hat/hat/Sind/haben/Haben*It is next to the ice-cream parlour
+1/____ ihr durstig?/Seid/Sind/sind/hat/Hat/haben/Haben*Are you thirsty?
+1/Nein aber wir ____ beide sehr hungrig./sind/Hat/hat/Sind/haben/Haben/Seid/Habt/*We are in class 8.
+1/____ diese Kirschen reif und s‹ﬂ?/Sind/hat/haben/Haben/Seid/ist*Are these cherries ripe and sweet?
+1/Nein, sie ____ unreif und sauer./sind/Sind/hat/haben/Haben/Seid/ist*No, they are unripe and sour.
+1/____ Sie mit dem Essen zufrieden?/Sind/hat/Hat/haben/Haben/Seid/ist*Are you satisfied with the food?
+1/Ja, ich ___ jetzt satt./bin/Sind/sind/hat/Hat/haben/Haben/Seid/ist*Yes, I am full now.
+1/____ du Hunger oder Durst?/Hast/bin/Sind/sind/Hat/hat/haben/Haben/Seid/ist*Are you hungry or thirsty?
+1/Ich ____ grossen Hunger aber keinen Durst./habe/Haben/haben/bin/Sind/sind/hat/Hat/ist*I'm very hungry but I'm not thirsty.
+1/___ deine Freundin genug zu essen?/Hat/Sind/sind/hat/haben/Haben/Seid/ist*Does your (girl)friend have enough to eat?
+1/Ja, sie ___ eine grosse Portion Eis mit Schlagsahne./hat/sind/Sind/haben/Haben/Seid/ist*Yes, she' got a big portion of ice-ceram with whipped cream.
+1/___ dein Bruder gern scharfe Speisen?/Hat/sind/hat/Sind/haben/Haben/Seid/ist*Does your brother like spicey food?
+1/____ ihr eine Brotschneidemaschine zu hause?/Habt/hat/Hat/Sind/sind/haben/Haben/Seid/ist*Do you have a bread-slicer at home?
+1/Nein, aber wir _____ eine Kaffeefiltermaschine./haben/Bist/Haben/Sind/sind/Seid/ist*No, but we have got a coffee-maker.
+1/_____ deine Eltern ein Lieblingsessen?/Haben/Seid/Bist/hat/Hat/Habt/Sind/sind/ist*Do your parents have a favourite meal?
+1/Ja, sie _____ Fisch und Meeresfr‹chte sehr gern./haben/Haben/Bist/hat/Hat/Sind/sind/ist*Yes, they really like fish and sea-food.
+1/Herr Ober! _____ Sie bitte die Rechnung?/Haben/Bist/hat/Hat/Habt/Sind/sind/haben/Seid/ist*Waiter! Have you got the bill please?
+2/Was ______ du, wenn du sehr hungrig bist?/machst/kaufe/schmeckt/kostet/Trinken/Kauft/kochen*What do you do when you are very hungry?
+2/Ich _____ eine Bratwurst und Pommes Frites vom Schnellimbiﬂ./kaufe/Schmecken/schmeckt/Trinken/kostet/kochen*I buy sausage and chips for the snack-bar.
+2/Was ______ eine Portion Pommes Frites mit Mayonnaise?/kostet/kaufe/Schmecken/schmeckt/Trinken/kochen*How much does a portion of chips with mayonnaise cost?
+2/_____ man Mayonnaise mit Pommes Frites in Deutschland?/Kauft/kaufe/Schmecken/kostet/Trinken/kochen*Do they buy mayonnaise with chips in Germany?
+2/Ja, das ________ sehr lecker!/schmeckt/kaufe/kostet/Trinken/Kauft/kochen*Yes, that tastes really good!
+2/______ ihr viel Mineralwasser zu Hause?/Trinkt/kaufe/kostet/Trinken/machst/Kauft/kochen*Do like drinking mineral water?
+2/Nein, wir _______ lieber Orangensaft oder Cola./trinken/kaufe/Schmecken/kostet/Trinkst/Trinkt/machst/kochen*No we prefer drinking orange-juice or coke.
+2/______ deine Eltern viel Scheinefleisch von der Metzgerei?/Kaufen/kaufe/Schmecken/kostet/kocht*Do your parents buy a lot of pork for the butchers?
+2/Nein, sie ______ nie Fleisch, weil wir Vegetarier sind./kochen/kaufe/machst/kostet/Trinken/Kauft*No, they never cook meat because we are vegetarians.
+2/_______ Sie manchmal Weiﬂwein aus Deutschland?/Trinken/kaufe/schmeckt/machst/Kauft/kostet*Do you sometimes drink white wine from Germany?
+2/Nein, ich _____ nur Bier und Sprudel vom Getr‰nkemarkt./kaufe/schmeckt/machst/Trinken/Kauft/kostet*No, I only buy beer and fizzy mineral water from the off-license.
+2/_________ dir deutsche Kuchen und Torten?/Schmecken/kaufe/machst/Trinken/Kauft/Trinkt/kostet*Do you like German cakes and gateaux?
+2/Ja, Schwarzw‰lderkirschtorte ________ mir am besten./schmeckt/kaufe/Schmecken/machst/Trinken/Kauft/kostet/kochen*Yes, I like Black Forest cherry gateaux best.
+2/________ man bei dir Wurst und K‰se aus Deutschland?/Verkauft/kaufe/Trinkt/Schmecken/schmeckt/machst/kostet/kochen*Do they sell sausages and cheese from Germany where you live?
+2/Nein, aber wir ______ manchmal Schwarzbrot und Quark vom Supermarkt./kaufen/kaufe/Schmecken/schmeckt/Trinkt/Kauft/machst/kostet/kochen*No, but we sometimes buy black bread and curd-cheese from the supermarket.
+3/___ du gern Forelle oder andere Fischspeisen?/Iﬂt/Liest/esse/fahre/Schl‰fst/Geben/h‰lt/F‰hrst*Do you like eating trout or other fish dishes?
+3/Nein, ich ____ viel lieber H‹hnerfleisch mit Reis oder Nudeln./esse/Iﬂt/Liest/fahre/Geben/h‰lt*No, I much prefer eating chicken with rice or noodles.
+3/Mein Vater ___ sehr gern scharfe Pizzas mit Peperoni und Pilzen./iﬂt/fahre/Schl‰fst/Geben/h‰lt/F‰hrst*My father likes eating spicey pizzas with chillies and mushrooms.
+3/____ es etwas, das ihm nicht schmeckt?/Gibt/Iﬂt/esse/Geben/B‰ckt/F‰hrst/F‰hrst*Is there anything he doesn't like?
+3/Ja, er ____ nicht viel von Rollmops oder andere kalte Fischgerichte./h‰lt/Iﬂt/fahre/Geben/B‰ckt/F‰hrst*Yes, he doesn't like rollmops (cold herring) or other cold fish-dishes.
+3/________ du gut, wenn du abends Kaffee oder Tee trinkst?/Schl‰fst/Iﬂt/Liest/esse/fahre/Geben/B‰ckt*Do you sleep well, if you drink coffee or tea in the evening?
+3/Ja, aber meine Mutter ________ weder Bohnenkaffee noch schwarzen Tee./vertr‰gt/Iﬂt/Liest/esse/fahre/Geben/B‰ckt*Yes, but my mother cannot drink filter coffee or black (English style) tea.
+3/____ ihr oft deutsche Spezialit‰ten auf der Speisekarte im Restaurant?/Seht/Iﬂt/esse/Schl‰fst/Geben/B‰ckt/F‰hrst*Do you often see German specialities on the menu in the restaurant?
+3/Nein, aber man _____ deutsche Schokolade und Pralinen im Delikatessengesch‰ft/sieht/Iﬂt/Liest/fahre/Schl‰fst/vertr‰gt/Geben/F‰hrst*No, but you see German chocolate and chocolates in the delicatessen.
+3/Was ______ Sie vom Essen in England?/halten/Iﬂt/Liest/esse/fahre/Schl‰fst/vertr‰gt/Geben/B‰ckt*What do you think of the food in England?
+3/Ich ____ lieber chinesisch oder indisch, wenn wir essen gehen./esse/Iﬂt/vertr‰gt/Geben/F‰hrst/Seht*I prefer to eat Chinese or Indian food, when we go out to eat.
+3/_____ deine Mutti auch einen Stollen vor Weihnachten wie in Deutschland?/B‰ckt/Iﬂt/Liest/vertr‰gt/Geben/h‰lt*Does your mum bake a special cake before Christmas like (they do) in Germany?
+3/Nein, aber wir ______ oft K‰sekuchen von einem deutschen Kochbuch./backen/Iﬂt/esse/vertr‰gt/Geben/h‰lt/B‰ckt*No, but we often bake cheese-cake from a German cookery book.
+3/_____ Sie viel Geld f‹r S‹ﬂigkeiten zu Ostern aus?/Geben/Iﬂt/Liest/esse/Schl‰fst/vertr‰gt/backen*Do you spend a lot of money on sweets at Easter?
+3/Ja, aber mein Bruder ___ mehr Bonbons als ich./iﬂt/esse/vertr‰gt/backen/Geben/h‰lt*Yes, but my brother eats more sweets than me.
+3/_____ du oft Kochb‹cher, um neue Rezepte zu finden?/Liest/Iﬂt/esse/vertr‰gt/backen/Geben/B‰ckt*Do you often read cookery books to find new recipes?
+3/Nein, ich ____ nie Kochb‹cher, weil ich Di‰t mache./lese/Iﬂt/esse/Schl‰fst/vertr‰gt/backen/Geben/h‰lt/B‰ckt*No, I never read cookery books, because I'm on a diet.
+3/______ du jede Woche zum Supermarkt, um Lebensmittel zu kaufen?/F‰hrst/Iﬂt/Liest/esse/vertr‰gt/backen/Geben*Do you travel to the supermarket each week to buy groceries?
+3/Ja, aber ich _____ mit dem Rad zum Markt, wenn wir Obst oder Gem‹se brauchen./fahre/Iﬂt/Liest/esse/Schl‰fst/vertr‰gt/backen/Geben/h‰lt*Yes but I go by bike to the market when we need fruit or vegetables.
+4/Das Essen sieht lecker ___./aus/vor/mit/ab/zu/ein/hin*The food looks good.
+4/Wir kaufen oft im Supermarkt ___./ein/vor/mit/ab/zu/hin*We often shop in the supermarket.
+4/Ich bereite immer das Mittagessen ___./vor/mit/ab/zu/ein/hin*I always prepare the midday meal.
+4/Meine Mutter wirft nichts nach einer Mahlzeit ___./weg/aus/vor/mit/ab/zu/ein/hin*My mother never throws anything away after a meal.
+4/Kommst du am Samstag in das Chinarestaurant ___?/mit/aus/vor/ab/zu/ein/hin*Are you coming with us to the Chinese restaurant on Saturday?
+4/Wir holen jede Woche Wein, Bier und Sprudel vom Getr‰nkemarkt __./ab/aus/vor/mit/zu/ein*We collect wine, beer and (fizzy) mineral water from the off-license.
+4/Ich lade dich morgen zum Kaffee und Kuchen ___./ein/vor/mit/ab/zu/hin*I'm inviting you for afternoon coffee and cakes tomorrow.
+4/Diese Bananen sehen aber nicht sehr reif ___./aus/vor/mit/ab/zu/ein/hin*These bananas don't look very ripe.
+4/Er sucht sich immer das gr÷ﬂte St‹ck Kuchen ___./aus/vor/mit/ab/zu/ein/hin*He always chooses the biggest piece of cake.
+4/Ich gehe nie an einer Konditorei ______, wenn ich Di‰t mache./vorbei/aus/vor/mit/ab/zu/ein/hin*I never walk past a cakeshop when I'm on a diet.
+4/Mein Vater schl‰gt manchmal ___, daﬂ wir mehr Fisch essen./vor/aus/mit/ab/zu/ein/hin/vorbei*My father sometimes suggests that we eat more fish.
+4/Wir laden Sie n‰chste Woche bei uns zum Abendessen ___./ein/aus/vor/mit/zu/hin/vorbei*We are inviting you to dinner at our house next week.
+4/Ich sehe nicht gern __, wenn mein kleiner Bruder Spaghetti iﬂt./zu/vorbei/aus/vor/mit/ab/ein/hin*I don't like watching my little brother eating spaghetti.
+GRADE5
+1/Eine italienische Spezialit‰t - meistens rund und im Ofen gebacken./eine Pizza*An Italian speciality - usually round and baked in the oven. (a pizza)
+1/Eine deutsche Spezialit‰t - Kohl mit Weinessig sauergemacht./Sauerkraut*A German speciality - cabbage made sour with wine-vinegar. (sauerkraut)
+1/Eine Art von Wurst, die man in der Pfanne grillt./eine Bratwurst*A type of sausage which is fried in a frying-pan. (Bratwurst)
+1/Ein typisch deutscher Kuchen mit K‰se oder Quark gemacht./K‰sekuchen*A typical German cake made with cheese or curd-cheese. (cheesecake)
+1/Eine leckere Torte mit Kirschen, Schokolade and viel Sahne./Schwarzw‰lderkirschtorte*A delicious cake with cherries, chocolate and lots of cream. (Black Forest cherry gateaux)
+1/Eine kalte Speise mit Kartoffeln, Zwiebeln and Mayonnaise./Kartoffelsalat*A cold dish with potatoes, onions and mayonnaise. (potato salad)
+1/Ein sehr dunkles Brot, oft in Folie verpackt./Schwarzbrot*A very dark type of bread, often wrapped in silver-foil. (pumpernickel)
+1/Ein ungarisches Gericht mit Fleisch und Paprika./Gulasch*A Hungarian dish with meat and paprika. (goulash)
+1/Ein Gericht aus ÷sterreich - ein St‹ck paniertes Kalbfleisch./Wiener Schnitzel*An Austrian dish - a piece of veal in breadcrumbs. (Wiener Schnitzel)
+1/Man iﬂt das oft zu Mittag mit Pommes Frites - ein St‹ck Schweinefleisch./ein Schweinekotlett*You often eat it for lunch with chips - a piece of pork. (a pork chop)
+1/Ein norddeutsches Fischgericht - kalter Hering in Essig gerollt./Rollmops*A North German fish dish - cold herring rolled in vinegar. (rollmops)
+1/Man iﬂt sie manchmal zum Abendbrot - Kartoffeln in der Pfanne gebraten./Bratkartoffeln*They are sometimes eaten for supper - potatoes fried in a frying pan. (sauted potatoes)
+2/Eine Pizza ist eine ... Spezialit‰t, die man im Ofen b‰ckt./italienische*A pizza is an italian speciality which you bake in an oven.
+2/Sauerkraut ist ein ... Gericht, das man mit Kohl macht./deutsches*Sauerkraut is a German dish, made with cabbage.
+2/Eine Bratwurst ist eine ... Wurst, die man in der Pfanne grillt./heisse*A bratwurst is a hot sausage, which you cook in the frying-pan.
+2/K‰sekuchen ist ein ... Kuchen, den man mit Quark macht./deutscher*Cheese-cake is a German cake made with curd-cheese.
+2/Schwarzw‰lderkirschtorte ist eine ... Torte, die man mit Sahne macht./leckere*Black Forest cherry gateaux is a delicious cake made with cream.
+2/Kartoffelsalat ist ein ... Gericht, das man mit Mayonnaise zubereitet./kaltes*Potato salad is a cold dish, prepared with mayonnaise.
+2/Schwarzbrot ist ein ... Brot, das man oft in Folie verpackt/dunkles*Pumpernickel is a dark bread, often wrapped in silver foil.
+2/Gulasch ist eine ... Speise, die man mit Paprika zubereitet./ungarische*Goulash is a hungarian dish prepared with paprika.
+2/Wiener Schnitzel ist ... Kalbfleisch, das man in ÷sterreich iﬂt./paniertes*Wienerschnitzel is veal in breadcrumbs which is eaten in Austria.
+2/Schweinekotlett mit Pommes Frites ist ein ... Mittagessen, das man in Deutschland iﬂt./typisches*Pork chop and chips is a typical lunch which is eaten in Germany.
+2/Rollmops ist ein ... Hering, den man in Nordeutschland gern iﬂt./kalter*Rollmops is a cold herring which is popular in North Germany.
+2/Bratkartoffeln sind in der Pfanne ... Kartoffeln, die man manchmal zum Abendbrot iﬂt./gebratene*Sauted potatoes are potatoes fried in the pan, sometimes eaten for supper.
+3/Eine Pizza ist eine italienische Spezialit‰t, ... man im Ofen b‰ckt./die*A pizza is an Italian speciality which you bake in an oven
+3/Sauerkraut ist ein deutsches Gericht, ... man mit Kohl macht./das*Sauerkraut is a German dish, made with cabbage.
+3/Eine Bratwurst ist eine heisse Wurst, ... man in der Pfanne grillt./die*A bratwurst is a hot sausage, which you cook in the frying-pan.
+3/K‰sekuchen ist ein deutscher Kuchen, ... man mit Quark macht./den*Cheese-cake is a German cake made with curd-cheese.
+3/Schwarzw‰lderkirschtorte ist eine leckere Torte, ... man mit Sahne macht./die*Black Forest cherry gateaux is a delicious cake made with cream.
+3/Kartoffelsalat ist ein kaltes Gericht, ... man mit Mayonnaise zubereitet./das*Potato salad is a cold dish, prepared with mayonnaise
+3/Schwarzbrot ist ein dunkles Brot, ... man oft in Folie verpackt/das*Pumpernickel is a dark bread, often wrapped in silver foil.
+3/Gulasch ist eine ungarische Speise, ... man mit Paprika zubereitet./die*Goulash is a Hungarian dish prepared with paprika.
+3/Wiener Schnitzel ist paniertes Kalbfleisch, ... man in ÷sterreich iﬂt./das*Wienerschnitzel is veal in breadcrumbs which is eaten in Austria.
+3/Schweinekotlett mit Pommes Frites ist ein typisches Mittagessen, ... man in Deutschland iﬂt./das*Pork chop and chips is a typical lunch which is eaten in Germany.
+3/Rollmops ist ein kalter Hering, ... man in Nordeutschland gern iﬂt./den*Rollmops is a cold herring which is popular in North Germany.
+3/Bratkartoffeln sind in der Pfanne gebratene Kartoffeln, ... man manchmal zum Abendbrot iﬂt./die*Sauted potatoes are potatoes fried in the pan, sometimes eaten for supper.
+4/Wenn man Pizza backen will, kauft man Mehl ... Lebensmittelgesch‰ft./im*If you want bake pizza, you buy flour and tomato puree at the grocers.
+4/Wenn man Sauerkraut essen will, kauft man Kohl ... Gem‹seh‰ndler./beim*If you want to eat sauerkraut, you buy cabbage at the greengrocer's.
+4/Wenn man einen K‰sekuchen backen will, kauft man Quark ... Supermarkt./vom*If you want bake a cheesecake, you buy curd-cheese from the supermarket.
+4/Wenn man Schwarzw‰lderkirschtorte kaufen will, geht man ... Konditorei/zur*If you want buy a Black Forest Cherry gateaux, you go to the cake-shop.
+4/Wenn man Kartoffeln f‹r den Kartoffelsalat braucht, geht man ... Markt./zum*If you need potatoes for your potato salad, you go to the market.
+4/Wenn man kein Schwarzbrot im Schrank hat, geht man ... B‰cker./zum*If you have no pumpernickel in the cupboard, you go to the baker's.
+4/Wenn man Fleisch f‹r den Gulasch braucht, kauft man das ... Metzger./beim*If you need some meat for the goulash, you buy it at the butcher's.
+4/Wenn man Wiener Schnitzel kocht, braucht man Paniermehl ... Tante-Emma-Laden./vom*If you are cooking Wienerschnitzel, you need breadcrumbs from the corner shop.
+4/Wenn man Schweinekotlett gern iﬂt, kauft man Fleisch ... Schlachter./beim*If you like eating porkchops, you buy meat at the butcher's.
+4/Wenn man lieber Rollmops iﬂt, geht man ... Nordseefischgesch‰ft./ins*If you prefer eating rollmops, you go to the North Sea fish shop.
+4/Wenn man ÷l f‹r die Bratkartoffeln braucht, holt man es ... Groﬂmarkt/vom*If you need oil for the sauteed potatoes, you fetch it from the superstore.
+4/Wenn man Vegetarier ist, kauft man Bioprodukte ... Reformhaus./im*If you are vegetarian, you buy organic produce in the health food shop.
+GRADE6
+1/_____________ Sie, wenn ich st÷re./Entschuldigen/leid/nein/sehr/Verzeihung*I am sorry to bother you.
+1/Es tut mir ____, daﬂ ich versp‰tet bin./leid/Weh/schon/entschuldigen/furchtbar*I am sorry to be late.
+1/Ich ______ es doch nicht kaputtmachen./wollte/Absicht/tut/verzeihen/leider*I did not intend to break it.
+1/Das war ja keine _______./Absicht/wollen/leid/Grund/entschuldigen*It didn't mean to do it.
+1/Das war doch nicht meine ______./Schuld/Weh/sollen/schuldig/leider*It wasn't my fault.
+1/Ich habe mein Bestes getan, __________ anzukommen./rechtzeitig/sp‰t/morgen/Verzeihung/ja*I did my best to arrive on time.
+1/Ich wuﬂte ja nicht, daﬂ ich Sie ______./st÷rte/entschuldigen/Absicht/st÷ren/bitte*I did not realise that I was disturbing you.
+1/Ich bitte Sie __ Verzeihung f‹r meine Bemerkungen./um/bitte/wollen/furchtbar/leid*Excuse me for my remarks.
+1/Ich habe das Glas ______ kaputtgemacht./leider/gefallen/Schuld/Verzeihung/leid*I'm sorry but I've broken the glass.
+1/Es tut mir _________ leid aber der Teppich ist bekleckert./furchtbar/Entschuldigung/Ihnen/wollte/nicht*I'm sorry but I've stained the carpet.
+1/Verzeihen ___ bitte meine Schreibfaulheit./Sie/doch/ich/entschuldigen/wieder*Forgive me for not writing more often.
+2/Hier ______ etwas nicht./stimmt/Fehler/klagen/Problem/reparieren*There must have been a mistake.
+2/Wie lange ______ es, bis die Reparatur fertig ist?/dauert/kostet/Benehmen/beklagen/m÷glich*How long will it be before the repair is finished?
+2/Ich m÷chte den ______ sprechen/Gesch‰ftsleiter/Chefin/Fehler/funktioniert/Sie*I would like to speak to the manager.
+2/Ich m÷chte mich ‹ber die Bedienung ________./beklagen/fehlen/Klage/stimmt/Problem*I would like to complain about the service.
+2/Ich glaube, Sie _____ Sich/irren/beschwert/leid/Fehler/wiederhaben*I think that you are mistaken.
+2/Dieses Computerspiel ____________ leider nicht./funktioniert/arbeiten/Fehler/gehen/Gl‹ck*Unfortunately, this computer-game doesn't work.
+2/W‰re es m÷glich, eine ___________ zu bekommen?/R‹ckzahlung/Geld/wieder/Problem/zur‹ck*Would it be possible to get a reimbursement?
+2/Ich bin ‹berhaupt nicht _________./zufrieden/Freude/gehen/stimmt/reparieren*I am not at all satisfied.
+2/Ich m÷chte mein Geld ______ haben./wieder/R‹ckzahlung/fehlen/funktionieren/gestern*I would like to be reimbursed.
+2/Ich habe diesen Pulli gerade eben gekauft und finde es ist ein ____ darin./Loch/Pullover/Reparatur/fehlen/funktioniert*I've just bought this jumper and I have discovered there is a hole in it.
+2/Ich habe diese Handtasche gestern gekauft aber der Verschluﬂ ist schon ______./defekt/Problem/fehlen/fertig/gehen*I bought this handbag yesterday and there is already a fault on the fastener.
+2/Es war ein ______ meinerseits diesen Wecker zu kaufen!/Fehler/Klage/Uhr/schon/irren*It was a mistake on my part to buy this alarm clock!
+3/Es _____ mich sehr Gitarre zu spielen./freut/lieben/Freude/finde/gern*I derive a lot pleasure from playing the guitar.
+3/Sie _________ f‹r Tischtennis./schw‰rmen/Fanatiker/lieben/Spieler/freuen*They are mad about table tennis.
+3/___ w‰r's mit einem Wochenende in Berlin?/Wie/schw‰rme/wo/Freude/gern*Do you fancy spending the weekend in Paris?
+3/Ich trage ____ lockere Kleider./gern/freut/Freude/gestern/lieben*I like wearing casual clothes.
+3/Eine Reise nach den Vereinigten Staaten ____ mir schon etwas./sagt/finde/interessieren/gern/freuen*I am interested in the idea of travelling to the United States.
+3/Schwimmen ist f‹r sie kein _________./Vergn‹gen/gern/freuen/interessieren/Liebe/*She takes no pleasure in swimming.
+3/Ich k‰me nie auf die ____ dort einzukaufen./Idee/interessieren/lieber/gern/begeistert*I would not dream of shopping there.
+3/Ich interessiere ____ sehr f‹r Sport/mich/gern/mir/lieber/Freude*I am very interested in sport.
+3/Ich bin ein ___________ Fuﬂballfan./begeisteter/oft/freut/gern/Interesse*I'm a really keen football supporter.
+3/Ich kann diese Art von Musik nicht ______./leiden/gern/interessieren/freut/finde*I cannot stand this type of music.
+3/Liebesfilme gehen mir auf die ______./Nerven/gern/Freude/leiden/interessiere*Love films get on my nerves.
+3/Ich habe keine Lust heute abend __________./auszugehen/Interesse/gehen/lieber/begeistert*I do not want to go out this evening.
+3/Er ____ mir langsam auf den Wecker./geht/interessiert/finden/gern/leiden*I am beginning to have had enough of him.
+3/Ich ____ es satt, jeden Abend Hausaufgaben zu machen./habe/interessiert/nehmen/leider/zufrieden*I have had enough of doing homework every night.
+3/Das kann ___ doch nicht akzeptieren./ich/wir/gern/zugeben/annehmen*I cannot accept that.
+3/Du muﬂt doch zugeben, es ist ___ nicht angenehm!/gar/gern/begeistert/Wecker/lieber*You must admit that it is not very pleasant at all.
+4/Wir _____ Dich f‹r acht Tage bei uns ein./laden/verbringen/Woche/mit/ausgehen*We invite you to spend a week with us.
+4/______ wir heute abend ausgehen?/Wollen/soll/gehen/w‰r's/muﬂt*How about going out to-night?
+4/_____ wir heute abend ins Kino?/gehen/geht/bleiben/im/einladen*How about going to the cinema to-night?
+4/_____ doch etwas l‰nger!/Bleib/verbringen/stehst/bleiben/Dauer*Stay a bit longer!
+4/M÷chten Sie ______ abend bei uns essen?/morgen/gestern/G‰ste/wollen/mit*Do you want to come and eat with us tomorrow evening?
+4/Ich kann heute abend ______ nicht./leider/tut/Entschuldigung/essen/lieber*I am sorry but I cannot to-night.
+4/Es tut uns wirklich leid, aber wir ______ absagen./m‹ssen/leider/morgen/muﬂ/Sie*We are really sorry but we have to cancel.
+4/Ich bin ________ Samstag leider nicht frei./n‰chsten/letzte/Sonnabend/verzeihen/leid*I'm sorry I am not free next Saturday.
+4/Danke f‹r die nette _________, ich kann aber nicht kommen./Einladung/einladen/Geschenk/besuchen/frei*Thank you for the kind invitation but I cannot come.
+4/Hier ______ Sie aber nicht parken!/d‹rfen/verboten/erlaubt/darfst/Auto*You are not allowed to park here.
+4/Betreten des Rasens ________./verboten/d‹rfen/Vorsicht/Fuﬂg‰nger/nicht*It is forbidden to walk on the lawn.
+4/Hier ____ ‹bergang./kein/d‹rfen/nicht/Verbot/untersagt*It is forbidden to park here.
+4/Meine Eltern ______ mich heute abend nicht ausgehen./lassen/erlaubt/wollen/Verbot sagst*My parents will not let me go out to-night.
+4/_____ nicht hinauslehnen/Bitte/Verbot/Sie/Fenster/kein*Please do not lean out (of the window).
+4/Ich habe ______ F‹hrerschein./keinen/Auto/Erlaubnis/unser/leider*I am not allowed to drive the minibus.
+4/Das ______ du aber nicht!./darfst/verboten/m‹ssen/erlaubt/gehst*You are not allowed to do that!

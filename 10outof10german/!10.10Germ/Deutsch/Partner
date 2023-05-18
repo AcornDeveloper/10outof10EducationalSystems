@@ -1,0 +1,465 @@
+$ Partner word file structure
+$ 1. <sub grade>/<place>/<English translation>/<sprite name>
+$ 2. <sub grade>/<time in numbers>/<time in words>
+$ 3. <sub grade>/<part1a>/<part1b> ... <part4b>
+$              0/<English part1a> ... <English part4b>
+$ 4. <sub grade>/<question>/<answer>*<English translation>
+$ 5. <sub grade>/<question>/<answer>*<English translation>
+$ 6. <sub grade>/<part1a>/<part1b> ... <part4b>
+$              0/<English part1> ... <English part4>
+$ maximum length of each part 128 characters
+$ grade 1 should NOT be user modified
+$ sub grade 1-4
+
+GRADE1
+1/die Kirche/church/chur
+1/das Postamt/post office/post
+1/die Bibliothek/library/libr
+1/das Kino/cinema/cine
+1/das Theater/theatre/thet
+1/das Schwimmbad/swimming-pool/swim
+1/der Sportplatz/sports' ground/runt
+1/das Fuﬂballstadion/football stadium/foot
+1/der Campingplatz/camp site/camp
+1/die Fabrik/factory/fact
+2/der Strand/beach/bech
+2/der Fluﬂ/river/rive
+2/die Kegelbahn/nine-pin bowling alley/bowl
+2/die Diskothek/discotheque/club
+2/der Tiergarten/zoo/zooo
+2/der Park/park/park
+2/der Hafen/port/port
+2/der Flughafen/airport/aprt
+2/die Bank/bank/bank
+2/das Schloﬂ/castle/cast
+2/die Straﬂe/street/stra
+2/die Br‹cke/bridge/brid
+2/die Ampel/traffic lights/lite
+3/die B‰ckerei/baker's/bake
+3/die Metzgerei/butcher's/butc
+3/der Gem‹seladen/green grocer's/groc
+3/das Fischgesch‰ft/fishmonger's/fish
+3/die Buchhandlung/book shop/book
+3/der Juwelierladen/jeweller's/jewl
+3/das Schuhgesch‰ft/shoe shop/cobb
+3/das Kleidergesch‰ft/clothes' shop/clot
+3/das Plattengesch‰ft/record-shop/reco
+3/das Blumengesch‰ft/flower-shop/flow
+4/der Garten/garden/gard
+4/das Haus/house/hous
+4/der Tisch/table/tabl
+4/der Stuhl/chair/char
+4/das Bett/bed/bede
+4/der Schrank/cupboard/cupb
+4/der Fernseher/TV set/tele
+4/die Stereoanlage/stereo/ster
+4/der Teppich/carpet/carp
+4/der Computer/computer/comp
+4/die Waschmachine/washing machine/wash
+4/der Backofen/oven/oven
+4/das Messer/knife/knif
+4/die Gabel/fork/fork
+4/der L÷ffel/spoon/spun
+4/der Teller/plate/plat
+4/die Tasse/cup/cupp
+4/das Glas/glass/glss
+4/der Topf/saucepan/saus
+GRADE2
+1/01.00/Es ist ein Uhr.
+1/02.00/Es ist zwei Uhr.
+1/03.00/Es ist drei Uhr.
+1/04.00/Es ist vier Uhr.
+1/05.00/Es ist f‹nf Uhr.
+1/06.00/Es ist sechs Uhr.
+1/07.00/Es ist sieben Uhr.
+1/08.00/Es ist acht Uhr.
+1/09.00/Es ist neun Uhr.
+1/10.00/Es ist zehn Uhr.
+1/11.00/Es ist elf Uhr.
+1/12.00/Es ist zw÷lf Uhr.
+1/12.00/Es ist Mitternacht.
+1/12.00/Es ist Mittag.
+1/01.30/Es ist halb zwei.
+1/02.30/Es ist halb drei.
+1/03.30/Es ist halb vier.
+1/04.30/Es ist halb f‹nf.
+1/05.30/Es ist halb sechs.
+1/06.30/Es ist halb sieben.
+1/07.30/Es ist halb acht.
+1/08.30/Es ist halb neun.
+1/09.30/Es ist halb zehn.
+1/10.30/Es ist halb elf.
+1/11.30/Es ist halb zw÷lf.
+1/12.30/Es ist halb eins.
+1/01.15/Es ist viertel nach eins.
+1/03.15/Es ist viertel nach drei.
+1/05.15/Es ist viertel nach f‹nf.
+1/06.15/Es ist viertel nach sechs.
+1/07.15/Es ist viertel nach sieben.
+1/08.15/Es ist viertel nach acht.
+1/09.15/Es ist viertel nach neun.
+1/10.15/Es ist viertel nach zehn.
+1/11.15/Es ist viertel nach elf.
+1/12.15/Es ist viertel nach zw÷lf.
+2/01.45/Es ist viertel vor zwei.
+2/02.45/Es ist viertel vor zwei.
+2/03.45/Es ist viertel vor vier.
+2/04.45/Es ist viertel vor f‹nf.
+2/05.05/Es ist f‹nf nach f‹nf.
+2/06.10/Es ist zehn nach sechs.
+2/07.20/Es ist zwanzig nach sieben.
+2/10.40/Es ist zwanzig vor elf.
+2/01.40/Es ist zwanzig vor zwei.
+2/02.40/Es ist zwanzig vor drei.
+2/03.50/Es ist zehn vor vier.
+2/04.50/Es ist zehn vor f‹nf.
+2/05.55/Es ist f‹nf vor sechs.
+2/06.55/Es ist f‹nf vor sieben.
+2/09.55/Es ist f‹nf vor zehn.
+2/11.55/Es ist f‹nf vor zw÷lf.
+3/01.05/ein Uhr f‹nf
+3/01.10/ein Uhr zehn
+3/02.15/zwei Uhr f‹nfzehn
+3/02.20/zwei Uhr zwanzig
+3/03.25/drei Uhr f‹nfundzwanzig
+3/03.30/drei Uhr dreissig
+3/04.35/vier Uhr f‹nfunddreissig
+3/05.40/f‹nf Uhr vierzig
+3/06.45/sechs Uhr f‹nfundvierzig
+3/07.50/sieben Uhr f‹nfzig
+3/07.55/sieben Uhr f‹nfundf‹nfzig
+3/08.15/acht Uhr f‹nfzehn
+3/08.30/acht Uhr dreissig
+3/09.45/neun Uhr f‹nfundvierzig
+3/10.45/zehn Uhr f‹nfundvierzig
+3/12.15/zw÷lf Uhr f‹nfzehn
+3/12.30/zw÷lf Uhr dreissig
+3/12.40/zw÷lf Uhr vierzig
+3/12.45/zw÷lf Uhr f‹nfundvierzig
+3/12.50/zw÷lf Uhr f‹nfzig
+4/13.05/dreizehn Uhr f‹nf
+4/13.10/dreizehn Uhr zehn
+4/14.15/vierzehn Uhr f‹nfzehn
+4/14.20/vierzehn Uhr zwanzig
+4/15.25/f‹nfzehn Uhr f‹nfundzwanzig
+4/15.30/f‹nfzehn Uhr dreissig
+4/16.35/sechzehn Uhr f‹nfunddreissig
+4/16.40/sechzehn Uhr vierzig
+4/17.45/siebzehn Uhr f‹nfundvierzig
+4/18.50/achtzehn Uhr f‹nfzig
+4/18.55/achtzehn Uhr f‹nfundf‹nfzig
+4/19.05/neunzehn Uhr f‹nf
+4/19.10/neunzeh Uhr zehn
+4/20.00/zwanzig Uhr
+4/20.30/zwanzig Uhr dreissig
+4/21.00/einundzwanzig Uhr
+4/21.30/einundzwanzig Uhr dreissig
+4/22.40/zweiundzwanzig Uhr vierzig
+4/22.45/zweiundzwanzig Uhr f‹nfundvierzig
+4/23.15/dreiundzwanzig Uhr f‹nfzehn
+4/23.30/dreiundzwanzig Uhr dreissig
+4/00.05/null Uhr f‹nf
+GRADE3
+1/Fund/b‹ro/Polizei/wache/Tier/garten/Kleider/gesch‰ft
+0/Lost-property office/police-station/zoo/clothes shop
+1/Kinder/garten/Telefon/zelle/Stadt/plan/Straﬂen/bahn
+0/Nursery/telephone-kiosk/map of the town/tram
+1/Post/amt/Hallen/bad/Aus/gang/Spiel-/platz
+0/Post-office/Swimming baths(indoor)/Exit/Playground
+1/Tank/stelle/Markt/halle/Bauern/hof/Haupt/schule
+0/Petrol-station/Indoor market/farm/secondary school
+1/Rat/haus/Haupt/stadt/Eisen/bahn/Verkehrs/amt
+0/town hall/capital city/railway/tourist-information office
+1/Schwimm/bad/Ein-/gang/Eis/cafe/Aus/fahrt
+0/swimming-baths/entrance/ice-cream parlour/exit (for vehicles)
+1/Imbiﬂ/stube/Hauptbahn/hof/Kranken/haus/Flug/hafen
+0/snack-bar/main station/hospital/airport
+1/Grund/schule/Sport/halle/Foto/gesch‰ft/U/bahn
+0/primary school/sports hall/photographer's/'tube' (underground)
+1/Fahr/plan/Hallen/bad/Markt/platz/Bushalte/stelle
+0/timetable (e.g.bus)/indoor pool/market place/bus-stop
+1/Fried/hof/Spar/kasse/Rat/haus/Steh/cafÈ
+0/cemetery/savings bank/town hall/coffee-shop
+1/Einbahn/straﬂe/Gast/haus/Groﬂ/stadt/Busbahn/hof
+0/one-way street/pub/city/bus-station
+1/Park/platz/Haupt/schule/Ein/fahrt/Sack/gasse
+0/car-park/secondary-school/entrance (for vehicles)/cul-de-sac
+2/Wohn/zimmer/Fuﬂ/boden/Kleider/schrank/Hinter/garten
+0/living-room/floor/wardrobe/back garden
+2/Wein/keller/Haus/t‹r/Doppel/haus/Wasch/k‹che
+0/wine cellar/front door/semi-detached house/laundry/utility room
+2/Schlaf/zimmer/Gem‹se/garten/Party/keller/K‹chen/t‹r
+0/bedroom/vegetable garden/cellar used for parties/kitchen door
+2/Dach/boden/Reihen/haus/K‹hl/schrank/Wasch/maschine
+0/Loft/terraced house/fridge/washing machine
+2/Eﬂ/zimmer/Vor/garten/Treppen/haus/Fernseh/apparat
+0/dining room/front garden/staircase/television set
+2/Wasch/keller/T‹r/klingel/Haus/t‹r/Bade/wanne
+0/laundry-utility room in cellar/door-bell/front door/bath-tub
+2/Bade/zimmer/Blumen/garten/Einfamilien/haus/Steh/lampe
+0/bathroom/flower garden/detached house/standard lamp
+2/Kinder/zimmer/Back-/ofen/Schorn-/stein/Stereo-/anlage
+0/children's (play)room/(baking)oven/chimney/hi-fi
+3/Stuhl Tisch Schrank/M÷bel/Messer Gabel L÷ffel/Besteck/Schule Bahnhof Rathaus/Geb‰ude/K‹che Keller Eﬂzimmer/Zimmer
+0/chair, table, cupboard - furniture/knife, fork, spoon - cutlery/school, station, town hall - buildings/kitchen, cellar, dining room - rooms
+3/Waschmaschine Mixer Gasherd/Ger‰te/Teller Tasse Untertasse/Geschirr/rechts links geradeaus/Richtungen/rot gr‹n gelb/Farben
+0/washing machine, mixer, gas-stove - equipment/plate, cup, saucer, - crockery/right, left, straight on - directions/red, green, yellow - colours
+3/Bus Auto Motorrad/Fahrzeuge/Hagel Schnee Wind/Wetterarten/n÷rdlich s‹dlich ÷stlich/Himmelsrichtungen/Dachboden Treppenhaus Flur/Hausteile
+0/bus, car, motorbike - vehicles/hail, snow, wind, - types of weather/to the North, to the South, to the East - directions/loft, staircase, landing - house parts
+3/K‹hlschrank Fernseher Staubsauger/Elektroger‰te/Buchhandlung Metzgerei Zeitungsladen/Gesch‰fte/Dusche Badewanne Waschbecken/Badeinrichtungen/Bank Sporthalle Verkehrsamt/Geb‰ude
+0/fridge, T.V., vacuum cleaner -electrical equipment/book shop, butchers, newsagents - shops/shower, bath-tub, wash basin - things in the bathroom/bank, sportshall, tourist information office - buildings
+3/Schwimmbad Sporthalle Tennisplatz/Sporteinrichtungen/Kino Theater Diskothek/Geb‰ude/Gasherd Backofen Mikrowelle/Kochger‰te/Nebel Regen Gewitter/Wetterarten
+0/swimming-baths, sports-hall, tennis-courts - sports facilities/cinema, theatre, discotheque- buildings/gas-stove, oven, micro-wave - cooking equipment/fog, rain, storm - types of weather
+3/Bett Tisch Sofa/M÷bel/Flugzeug Strassenbahn Zug/Verkehrsmittel/Fuﬂg‰ngerzone Vorort Altstadt/Stadtteile/Donner Blitz Sonnenschein/Wetterarten
+0/bed, table, sofa - furniture/aeroplane, tram, train - means of transport/pedestrian precinct, suburb, 'old-town' - parts of the town/thunder, lightening, sunshine - types of weather
+4/die Decke der Fuﬂboden die Wand/das Zimmer/das Dach die Mauer der Schornstein/das Haus/der Baum der Rasen das Blumenbeet/der Garten/die Wohnung das Treppenhaus der Aufzug/der Wohnblock
+0/the ceiling, the floor, the wall - the room/the roof, the wall(external), the chimney - the house/the tree, the lawn, the flower-bed - the garden/the flat, the staircase, the lift - the block of flats
+4/der Ofen die Geschirrsp‹lmaschine der Tisch/die K‹che/das Bett der Kleiderschrank die Kommode/das Schlafzimmer/das Sofa der Lehnstuhl die Wandschrank/das Wohnzimmer/das Klo die Dusche das Waschbecken/das Badezimmer
+0/the oven, the dishwasher, the table - the kitchen/the bed, the wardrobe, the chest of drawer - the bedroom/the sofa, the armchair, the wall cupboard - the living-room/the loo, the shower, the washbasin - the bathroom
+4/die Tankstelle der Parkplatz die Parkuhr/das Auto/der Bahnhof die Bahn das Gleis/der Zug/die Ampel die Kreuzung der B‹rgersteig/die Straﬂe/die Br‹cke die F‰hre das Wasser/der Fluﬂ
+0/the petrol-station, the car-park, the parking meter - the car/the station, the line, the track-platform - the train/the traffic-light, the crossoads, the pavement - the street/the bridge, the ferry, the water - the river
+4/der Eingang der Ausgang die Rolltreppe/das Geb‰ude/der Vorort der Stadtrand das Stadtzentrum/die Stadt/die Haltestelle der Fahrplan die Endstation/die Straﬂenbahn/die Bank die Wechselstube die Sparkasse/das Geld
+0/the entrance, the exit, the escalator - the building/the suburb, the outskirts, the town centre - the town/the bus-stop, the timetable, the terminus - the tram/the bank, the exchange bureau, the savings bank - money
+4/die Imbiﬂstube die Gastst‰tte die Pizzeria/das†Essen/das Gasthaus der Weinkeller das Lokal/die Getr‰nke/die Apotheke die Klinik der Arzt/der Kranke/die Polizei der Krankenwagen die Feuerwehr/der Unfall
+0/the snack-bar, the restaurant, the pizzeria - food/the pub, the wine-cellar, the pub - drinks/the chemist's, the clinic, the doctor - the patient/the police, the ambulance, the fire-brigade - the accident
+4/das Freibad das Hallenbad die Badem‹tze/das Schwimmen/die Eishalle die Kegelbahn das Stadion/der Sport/die Konzerthalle die Disko das Opernhaus/die Musik/der Dom das M‹nster die Kathedrale/die Kirche
+0/the outdoor pool, the indoor pool, the swimming cap - swimming/the ice-rink, the nine-pin bowling alley, the stadium - sport/the concert-hall, the disco, the opera - music/the minster, the cathedral - the church
+GRADE4
+1/Hier darf man das Auto nicht parken./PARKVERBOT*You are not allowed to park here. No parking
+1/Hier darf man keine Zigaretten rauchen./RAUCHEN VERBOTEN*You are not allowed to smoke cigarettes here. No smoking
+1/Hier darf man nicht durchgehen./KEIN DURCHGANG*You are not allowed to go through here. No thoroughfare
+1/Hier darf man nicht hineingehen./KEIN EINGANG*You are not allowed to go in here. No entry
+1/Hier kann man telefonieren./FERNSPRECHER*You can phone here. Telephone.
+1/Hier kann man Informationen bekommen./AUSKUNFT*You can get information here. Information
+1/Hier kann man hinausgehen./AUSGANG*You can exit here. Exit
+1/Hier kann man bezahlen./KASSE*You can pay here. Cash-desk
+1/Hier muss man vom Fahrrad absteigen./RADFAHRER ABSTEIGEN*You have to get off your bike here. Cyclists dismount
+1/Hier muss man zwanzig Pfennig bezahlen./GEB‹HR 20Pf.*You have to pay 20 pfennigs here. Tarif 20 pfennings
+1/Hier muss man vorsichtig sein./VORSICHT TRAM*You have to be careful here. Beware of the tram
+1/Hier muss man Hotelgast sein./NUR F‹R HOTELGƒSTE*You have to be a guest of the hotel here. For hotel guests only
+1/Hier sollte man mormalerweise nicht durchgehen./DURCHGANG AUF EIGENE GEFAHR*You shouldn't normally go through here. Cross at your own risk
+1/Hier sollte man nicht Fuﬂballspielen./BALLSPIELE SIND UNTERSAGT*You shouldn'play football here. Ball-games are not allowed
+1/Hier sollte man auf den Hund aufpassen./VORSICHTBISSIGER HUND*You should look out for the dog here. Beware of the dog
+1/Hier soll man zu Fuﬂ nicht durchgehen./DURCHGANG F‹R FUSSGƒNGER VERBOTEN*You shouldn't go through here on foot. No thoroughfare for pedestrians
+1/Hier darf man nicht auf die Wiese treten./BETRETEN DER WIESE VERBOTEN*You are not allowed to walk on the grass here. Keep off the grass
+1/Hier darf man das Fahrrad nicht anlehnen./FAHRRƒDER ANLEHNEN NICHT GESTATTET*You are not allowed to lean your bike here. Do not lean cycles
+1/Hier darf man nichtschwimmen./BADEN NICHT GESTATTET*You are not allowed to swim here. No swimming
+1/Hier darf man keine W‹rste grillen./GRILLEN IM BADEGELƒNDE VERBOTEN*You are not allowed to fry sausages here. No barbecues in the pool area
+1/Hier d‹rfen nur M‰nner hineingehen./HERREN*Only men are allowed in here. Gentlemen
+1/Hier d‹rfen nur Frauen hineingehen./DAMEN*Only women are allowed in here. Ladies
+1/Hier d‹rfen keine Autos fahren./FUSSGƒNGER*No cars are allowed here. Pedestrians
+1/Hier d‹rfen junge Leute ‹bernachten./JUGENDHERBERGE*Young people can stay overnight here. Youth hostel
+2/WANDERWEG/im Wald*footpath in the woods
+2/GESCHLOSSEN/an der T‹r*closed on a door
+2/GELDWECHSEL/in der Wechselstube*exchange in the exchange bureau
+2/÷LWECHSEL/an der Tankstelle*oil-change at the petrol station
+2/ABFAHRT/am Bahnhof*departures at the station
+2/POSTWERTZEICHEN/im Postamt*stamps at the post-office
+2/SONDERANGEBOT/im Kaufhaus*special offer in the department store
+2/NOTRUF/in der Telefonzelle*emergency phone in the telephone kiosk
+2/BADEM‹TZEPFLICHT/Im Hallenbad*bathing caps must be worn in the indoor pool
+2/FAHRKARTEN/Am Bahnhof*tickets at the station
+2/AUSKUNFT/im Verkehrsamt*information at the tourist information office
+2/M‹NZEINWURF/an einem Geldautomat*insert coin here on a change machine
+2/÷FFNUNGSZEITEN/an einer T‹r*opening times on a door
+2/AUSLANDSGESPRƒCHE/an einer Telefonzelle*international calls on a telephone-box
+2/EMPFANG/in einem Hotel*reception in a hotel
+2/BESETZT/an einer Toilettent‹r*engaged on a toilet door
+2/RASTSTƒTTE/auf der Autobahn*service station on the motorway
+2/PARKGEB‹HREN/im Parkhaus*parking tarifs in multi-storey car-park
+2/FUﬂGƒNGERZONE/in der Stadtmitte*Pedestrian precinct in the town-centre
+2/FLUGSCHEINE/am Flughafen*tickets at the airport
+2/GE÷FFNET/an der T‹r*open on a door
+2/KASSE/in dem Supermarkt*cash-desk in a supermarket
+2/UMLEITUNG/auf der Straﬂe*diversion in the road
+3/es gibt Regen/es regnet*there is rain it is raining
+3/es gibt Schnee/es schneit*there is snow it is snowing
+3/es gibt Frost/es friert*there is frost it is freezing
+3/es gibt Donner/es donnert*there is thunder it is thundering
+3/Die Sonne scheint./es ist sonnig*the sun is shining it is sunny
+3/es gibt Nebel/es ist nebelig*there is fog it is foggy
+3/Der Wind bl‰st/es ist windig*the wind is blowing it is windy
+3/es gibt Wolken/es ist wolkig*there are clouds it is cloudy
+3/Die Sonne scheint/es ist warmes*the sun is shining it is warm
+3/gibt Schnee und Eis/es ist kalt*there is snow and ice it is cold
+3/es gibt Blitzschl‰ge/es blitzt*there are flashes of lightening it is lightening
+3/es gibt Schauer/es ist regnerisch*there are showers it is rainy
+3/es donnert und blitzt/es gibt Gewitter*it is thundering and lightening there is a storm
+3/es ist kalt und naﬂ/das Wetter ist schlecht*it is cold and wet the weather is nasty
+3/es ist warm und sonnig/das Wetter ist sch÷n*it is warm and sunny the weather is nice
+3/es friert und es gibt Schnee/das Wetter ist kalt*it is freezing and there is snow the weather is cold
+3/Regen/schauer*rain shower
+3/bitter/kalt*bitter cold
+3/Sonnen/schein*sun shine
+3/Schnee/fall*snow fall
+3/wolkig/bedeckt*cloudy overcast
+4/Ich tanze gern mit Freunden/in der Diskothek.*I like dancing with friends in the discotheque.
+4/Man sieht neue Filme/im Kino.*You see new films in the cinema.
+4/Wir warten auf den Bus/an der Haltestelle.*We wait for the bus at the bus-stop.
+4/Sie essen schnell und billig/in der Imbiﬂstube.*You eat quickly and cheaply at the snack-bar.
+4/Wir fr‹hst‹cken gew÷hnlich/in der K‹che.*We usually eat breakfast in the kitchen.
+4/Ich dusche mich jeden Tag/im Badezimmer.*I have a shower every day in the bathroom
+4/Blumen und Gem‹se wachsen/im Hintergarten.*Flowers and vegetables grow in the back-garden.
+4/Unsere Freunde schlafen immer/im G‰stezimmer.*Our friends always sleep inthe guest room.
+4/Man holt Reiseschecks/von der Bank.*You fetch travellers cheques from the bank.
+4/Wir kaufen Briefmarken/vom Postamt.*We buy stamps from the post-office.
+4/Ich trinke oft eine Tasse Kaffee/im StehcafÈ.*I often drink a cup of coffee in the coffee-shop.
+4/Kaufen Sie Benzin und ÷l/an der Tankstelle.*Buy petrol and oil at the petrol-station.
+4/Im Sommer schwimmt man gern/im Freibad.*In summer people like swimming in the open-air pool.
+4/Touristen suchen oft Informationen/im Verkehrsamt.*Tourists often look for information in the tourist information office.
+4/Man wechselt gew÷hnlich Geld/in der Wechselstube.*You usually change money at the exchange bureau.
+4/Die grossen Gesch‰fte sind meistens/im Stadtzentrum.*The big shops are usually in the town centre.
+4/Man findet viele B‹cher/in der Bibliothek.*You find a lot of books at the library.
+4/Wir spazieren gern mit dem Hund/im Park.*We like going for a walk with the dog in the park.
+4/Sie kaufen fast alles/im Einkaufszentrum.*You can buy almost anything at the shopping centre.
+4/Im Winter schwimme ich lieber/im Hallenbad.*In winter I prefer to swim in the indoor pool.
+4/Mein Zimmer ist oben/auf dem Dachboden.*My room is upstairs in the attic.
+4/Mein Fahrrad steht ganz unten/im Keller.*My bike is right down in the cellar.
+4/Mein Opa sitzt gern draussen/im Garten.*My grandad likes sitting outside in the garden.
+4/Meine Kleider liegen oft ‹berall/auf dem Fuﬂboden.*My clothes are often lying all over on the floor.
+GRADE5
+1/Wo liegt deine Heimatstadt?/Auf dem Lande.*Where is your home town situated? In the country.
+1/Was f‹r ein Haus hast du?/Ein Einfamilienhaus.*What sort of house have you got? A detached house.
+1/Wohnst du in der Stadtmitte?/Nein, in einem Vorort.*Do you live in the town centre? No, in a suburb.
+1/Hast du ein eigenes Zimmer? Ja, oben auf dem Dachboden.*Have you got your own room? Yes, up in the attic.
+1/Wo ist die Post?/In der N‰he von dem Busbahnhof.*Where is the post-office? Near the station.
+1/Ist es weit zum Krankenhaus?/Nein, nur f‹nf Minuten zu Fuﬂ.*Is it far to the hospital? No, only five minutes walk.
+1/Wo kann ich im Winter schwimmen?/Im Hallenbad.*Where can I swim in winter? In the indoor pool.
+1/Gibt es eine gute Disko in dieser Stadt?/Ja, nicht weit von der Sporthalle.*Is there a good disco in this town? Yes, not far from the sportshall.
+1/Fr‹hst‹ckst du normalerweise im Eﬂzimmer?/Nein, in der K‹che.*Do you normally eat breakfast in the dining room? No, in the kitchen.
+1/Wo putzt du dir die Z‰hne?/Im Badezimmer.*Where do you clean your teeth? In the bathroom.
+1/Habt ihr einen grossen Garten?/Ja, aber nur hinter dem Haus.*Have you got a big garden? Yes, but only behind the house.
+1/Wo machst du gew÷hnlich deine Hausaufgaben?/Oben in meinem Schlafzimmer.*Where do you normally do your homework? Up in my bedroom.
+1/Wo kann man schnell und billig essen?/In der Imbiﬂstube neben der Bank.*Where can you eat quickly and cheaply? In the snack-bar next to the bank.
+1/Kann man in deiner Stadt Geld wechseln?/Ja, aber nur in der Bank.*Can you change money in your town? Yes, but only in the bank.
+1/Wo ist die n‰chste Telefonzelle?/Gleich links neben der Wechselstube.*Where is the nearest 'phone box? Here on the left next to the exchange bureau.
+1/Gibt es ein grosses Hotel in der N‰he?/Nein, nur ein kleines hinter dem Rathaus.*Is there a big hotel near here? No, only a small one behind the town hall.
+1/Wie komme ich am besten zum Marktplatz?/Immer geradeaus die Hauptstrasse entlang.*What's the best way to the marketplace? Keep straight on along the main street.
+1/Wo finde ich die Jugendherberge?/Am Rande der Stadt neben einem Fluﬂ.*Where will I find the youth hostel? On the edge of town next to the river.
+1/Gibt es eine Tankstelle hier in der N‰he?/Ja, neben der Jugendherberge.*Is there a petrol station near here? Yes, next to youth hostel.
+1/Ist es weit bis zum Theater?/Nein, es ist hier im Stadtzentrum.*Is it far to the theatre? No, it is here in the town centre.
+1/Wohnst du gern auf dem Lande?/Nein, ich w‹rde lieber in der Stadt wohnen.*Do you like living in the country? No, I would prefer to live in a town.
+1/Wo liegt dein Haus?/Auf dem Marktplatz neben der Apotheke.*Where is your house? On the marketplace next to the chemist's.
+1/Ist deine Schule in der N‰he von deiner Wohnung?/Nein, sie ist am Stadtrand.*Is your school near your flat? No, it's on the edge of town.
+1/Wohnt dein Freund weit von der Schule?/Ja, seine Wohnung ist im Stadtzentrum.*Does your friend live far from school? Yes, his flat is in the town centre.
+2/Ich habe immer in diesem Haus/gewohnt.*I have always lived in this house.
+2/Ich habe oft mit Freunden in der Disko/getanzt.*I have often danced with friends in the disco.
+2/Ich bin nie zum Fuﬂballstadion/gegangen.*I have never been to the football stadium.
+2/Ich habe selten Geld in der Bank/gewechselt.*I have seldom changed money in the bank.
+2/Wir haben oft Benzin an dieser Tankstelle/gekauft.*We bought petrol at this petrol station.
+2/Wir haben im Sommer drauﬂen im Garten/gesessen.*We sat outside in the garden in the summer.
+2/Wir sind letzte Woche zum Hallenbad/gegangen.*We went to the indoor pool last week.
+2/Wir haben schnell und billig in der Imbiﬂstube/gegessen.*We ate quickly and cheaply in the snack-bar.
+2/Hast du viele B‹cher von der Bibliothek/gelesen?*Have you read a lot of books from the library?
+2/Bist du im Sommer zum Verkehrsamt/gegangen?*Did you go to the tourist information office in the summer?
+2/Hast du dich heute im Badezimmer/geduscht?*Did you have a shower in the bathroom today?
+2/Hast du gestern im Eﬂzimmer/gefr‹hst‹ckt?*Did you have breakfast in the dining room yesterday?
+2/Bist du im Sommer im Freibad/schwimmengegangen?*Did you go swimming in the outdoor pool in the summer?
+2/Bist du letztes Jahr vom Bahnhof/abgefahren?*Did you set off from the station last year?
+2/Hast du deinen Freund vom Busbahnhof/abgeholt?*Did you fetch your friend from the bus-station?
+2/Bist du mit dem Hund im Park/spazierengegangen?*Did you go for a walk in the park with the dog?
+2/Letzte Woche bin ich in die Eishalle/gegangen.*Last week I went to the ice-rink.
+2/Heute habe ich an der Haltestelle auf dich/gewartet.*I waited for you at the bus-stop today.
+2/Gestern habe ich eine Tasse Kaffee im StehcafÈ/getrunken.*I had a cup of coffee in the coffee-shop yesterday.
+2/Im Fr‹hling haben wir viel Gem‹se im Hintergarten/gepflanzt.*We planted a lot of vegetables in the back garden in the spring.
+2/Im Herbst habe ich einen guten Film im Kino/gesehen.*We saw a good film at the cinema in the autumn.
+2/Zu Weihnachten haben wir Lieder im Dom/gesungen*We sang carols in the cathedral at Christmas.
+2/Zu Ostern haben wir Schokoladeneier im Garten/gefunden*We found chocolate eggs in the garden at Easter.
+2/Zu Pfingsten sind wir vom Flughafen nach Deutschland/gefahren.*We travelled to Germany from the airport at Whit.
+3/Die Diskothek liegt in der/N‰he von dem Hauptbahnhof.*The discotheque is near the main station.
+3/Ich wohne in einem kleinen Haus am/Rande der Stadt.*I live in a little house on the outskirts of the town.
+3/Unser Bauernhaus befindet sich/auﬂerhalb des Dorfes.*Our farmhouse is outside the village.
+3/Der Hauptbahnhof ist im/Stadtzentrum nicht weit vom Dom.*The main station is in the town centre not far from the cathedral.
+3/Es gef‰llt mir sehr in/einer grossen Stadt zu wohnen.*I really like living in a big town.
+3/Unser Haus hat keinen Keller aber wir/haben einen grossen Speicher.*Our house hasn't got a cellar but we've got a big loft.
+3/Es gibt ein gutes Plattengesch‰ft in der/N‰he von dem Rathaus.*There is a good record-shop near the town-hall.
+3/Wir haben eine sch÷ne/Wohnung in einem neuen Wohnblock.*We have a nice flat in a new block of flats.
+3/Mein kleiner Bruder geht jeden/Tag zu Fuﬂ zum Kindergarten.*My little brother walks to the nursery every day.
+3/Im Winter gehe ich sehr gern mit/meinen Freunden ins Kino.*In winter I really like going to the cinema with my friends.
+3/Mein Schlafzimmer ist sehr/klein aber es ist warm und gem‹tlich.*My bedroom is very small but it is warm and cosy.
+3/Im Wohnzimmer haben wir einen/Farbfernseher und eine gute Stereoanlage.*In the living room we've got a colour T.V. and a good hi-fi system.
+3/Ich wohne in einem ruhigen/Vorort im Osten von der Stadt.*I live in a quiet suburb to the east of town.
+3/Meine Familie hat immer in/einem Reihenhaus ohne Garage gewohnt.*My family has always lived in a terraced house without a garage.
+3/Wir fr‹hst‹cken morgens/zusammen in der K‹che.*We have breakfast in the kitchen in the morning.
+3/Abends mache ich meine/Hausaufgaben oben im Schlafzimmer.*In the evenings I do my homework up in my bedroom.
+3/Die Bank in unserer Stadt steht auf/dem Marktplatz hinter der Kirche.*The bank in our town is on the market place behind the church.
+3/Man geht am Rathaus vorbei und/die Hauptstraﬂe entlang.*You go past the town-hall and along the main street.
+3/Fahren Sie mit der/Strassenbahn zum Fuﬂballstadion.*Go by tram to the football stadium.
+3/Ihr Haus liegt am Rande der/Stadt neben dem Friedhof.*Her house is on the edge of town next to the cemetery.
+3/W‹rdest du lieber auf dem Lande oder/in der Stadt wohnen?*Would you rather live in the country or in the town?
+3/Wohnst du in einem kleinem Dorf/oder in einer Groﬂstadt?*Do you live in a little village or in a city?
+3/Wohnt deine Familie in einem/Reihenhaus oder in einer Wohnung?*Does your family live in a terraced house or in a flat?
+3/Hast du ein/eigenes Zimmer oder muﬂt du teilen?*Have you got your own room or do you have to share?
+4/Wir holen unsere Freunde vom Hauptbahnhof/ab.*We fetch our friends from the main station.
+4/Wir kaufen jede Woche im Einkaufszentrum/ein.*We shop each week in the shopping centre.
+4/Wir steigen an der Haltestelle neben dem Dom/aus.*We get off at the bus-stop next to the cathedral.
+4/Wir rufen unsere Freunde von der Telefonzelle/an.*We call our friends from the telephone-kiosk.
+4/Ich sehe normalerweise im Wohnzimmer/fern.*I normally watch T.V. in the living room.
+4/Ich gehe gern mit dem Hund im Wald/spazieren.*I like going for a walk in the woods with my dog.
+4/Ich fahre oft in den Bergen/Rad.*I often go cycling in the mountains.
+4/Ich stelle mein Fahrrad gew÷hnlich in der Garage/ab.*I usually leave my bike in the garage.
+4/Um ins Kino zu gehen, geht man an der Tankstelle/vorbei.*To get to the cinema, you go past the petrol-station.
+4/Wenn man zur Ampel kommt, f‰hrt man hundert Meter/weiter.*When you get to the traffic-lights, you drive on for another 100 meters.
+4/An der Kreuzung passt man gut/auf.*At the crossroads you have to look out.
+4/Wenn man Informationen braucht, geht man ins Verkehrsamt/hinein.*If you need information you go to the tourist information office.
+4/Wo bereiten wir das Essen f‹r die Party/vor?*Where are we going to prepare the food for the party?
+4/Kommst du n‰chste Woche zur Eishalle/mit?*Are you coming to the ice-rink next week?
+4/Kaufst du oft im Einkaufszentrum/ein?*Do you often shop at the shopping centre?
+4/Wann f‰hrt der Bus zum Stadtzentrum/zur‹ck?*When is the bus going back to the town centre?
+4/Jeden Morgen gehe ich an unserer Dorfkirche/vorbei.*Every morning I go past our village church.
+4/Jeden Abend h÷re ich in meinem Schlafzimmer/Musik.*Every evening I listen to music in my bedroom.
+4/Jede Woche hole ich meine Freundin vom Busbahnhof/ab.*Every week I collect my friend from the station.
+4/Jedes Jahr fahre ich in den Bergen/ski.*Every year I go skiing in the mountains.
+4/Was ziehst du bei kaltem Wetter/an?*What do you put on when the weather is cold?
+4/F‰hrst du oft bei sch÷nem Wetter/weg?*Do you often go away when the weather is nice?
+4/Stehst du gern an einem kalten Wintermorgen/auf?*Do you like getting up on a cold winter's morning?
+4/Gehst du gern im Schnee/spazieren?*Do you like going for a walk in the snow?
+GRADE6
+1/feder/leicht/nagel/neu/ur/alt/blei/schwer
+0/light as a feather/brand-new/ancient/heavy as lead
+1/bitter/kalt/stock/dunkel/stein/hart/riesen/gross
+0/bitter-cold/pitch-dark/hard as stone/enormous
+1/gift/gr‹n/rosa/rot/schnee/weiss/pech/schwarz
+0/lurid (poison) green/rosy-red/white as snow/pitch-black
+1/hunde/kalt/b‰ren/stark/m‰uschen/still/vogel/leicht
+0/biting cold/really strong/quiet as a mouse/light as a feather (bird)
+1/eis/kalt/bild/h‹bsch/lau/warm/alt/modisch
+0/ice-cold/pretty as a picture/lukewarm/old-fashioned
+1/pudel/nass/wunder/sch÷n/mause/tot/hunde/m‹de
+0/soaking wet/wonderful/dead as doornail (mouse)/dog-tired
+2/Dieses Paket ist gar nicht schwer./Es ist federleicht./Dieser Wagen ist gar nicht alt./Er ist nagelneu./Dieses Geb‰ude ist gar nicht neu./Es ist uralt./Dieser Koffer ist gar nicht leicht./Er ist bleischwer.
+0/This packet is not heavy at all. It is light as a feather./This car is not at all old. It is brand-new./This building is not new at all. It is ancient./This suitcase is not light at all. It is as heavy as lead.
+2/Das Wetter ist heute gar nicht warm./Es ist bitterkalt./Mitten in der Nacht ist es gar nicht hell./Es ist stockdunkel./Der Boden ist gar nicht weich./Er ist steinhart/Diese Eishalle ist gar nicht klein./Sie ist riesengross.
+0/The weather today is not warm at all. It is bitter-cold./In the middle of the night it is not light at all. It is pitch dark./The ground is not soft at all. It is as hard as iron./This ice-rink is not small at all. It is enormous.
+2/Sein neues Auto ist nicht rot, weiss oder schwarz./Es ist giftgr‹n./Die neue Tischdecke ist nicht gr‹n, rot oder schwarz./Er ist schneeweiss./Meine neue Haust‹r ist nicht gr‹n, weiss oder schwarz./Sie ist rosarot./Unsere neue Katze ist nicht gr‹n, weiﬂ oder rot./Sie ist pechschwarz
+0/His new car is not red, white or black. It is lurid green./The new tablecloth is not green, red or black. It is white as snow./My new front-door is not green, white or black. It is rosy-red./Our new cat is not green, white or red. It is as black as tar.
+2/Heute ist es gar nicht warm./Es ist hundekalt./Dieser Sportler ist gar nicht schwach./Er ist b‰renstark./In dieser Kirche ist es gar nicht laut./Es ist m‰uschenstill./Diese Tasche ist gar nicht schwer./Sie ist vogelleicht.
+0/It is not warm at all today. It is freezing./This sportsman is not weak at all. He is very strong./In this church it is not loud at all. It is quiet as a mouse./This bag is not heavy at all. It is light as a feather.
+2/Dieses Essen ist gar nicht warm./Es ist eiskalt./Das Wasser im Bad ist gar nicht heiss./Es ist lauwarm./Meine Freundin ist gar nicht h‰ﬂlich./Sie ist bildh‹bsch./Dieses Videoger‰t ist gar nicht modern./Es ist altmodisch.
+0/This food is not warm at all. It is ice-cold./The water in the bath is not at all hot. It is lukewarm./My friend is not at all ugly. She is as pretty as a picture./This video-machine is not at all modern. It is old-fashioned.
+2/Er ist heute gar nicht munter./Er ist hundem‹de./Die Gegend ist gar nicht schlecht./Sie ist wundersch÷n.Dieser Papagei ist nicht mehr lebendig./Er ist mausetot./Der Teppich ist nicht mehr trocken./Er ist pudelnaﬂ
+0/He is not at lively today. He is dog-tired./The area is not at all bad. It is wonderful./This parrot is no longer alive. It is as dead as a door-nail./The carpet isn't dry any more. It is soaking wet.
+3/Ich habe immer in einem Dorf auf dem Lande/gewohnt./Ich fahre mit dem Bus zur Schule, weil ich auf dem Lande/wohne./Ich glaube, ich m÷chte nicht immer auf dem Lande/wohnen./Ich finde, es ist manchmal langweilig, wenn man auf dem Lande/wohnt.
+0/I have always lived in a village in the country./I travel to school on the bus because, I live in the country./I don't think I'd like to live in the country for ever./I think it's sometimes boring, if you live in the country.
+3/Ich bin letzte Woche mit dem Zug in die Groﬂstadt/gefahren./Ich muﬂ zu Fuﬂ zum Bahnhof laufen, wenn ich in die Groﬂstadt/fahre./Ich glaube, ich m÷chte nicht jeden Tag in die Groﬂstadt/fahren./Ich finde, es ist dumm, daﬂ kein Bus in die Groﬂstadt/f‰hrt.
+0/I went by train to the city last week./I have to walk to the station if I travel to the city./I don't think I'd like to travel to the city every day./I think it is stupid that there is no bus to the city.
+3/Ich bin gestern mit Freunden ins Kino/gegangen./Ich sehe gern lustige Filme, wenn ich ins Kino gehe./Ich glaube, ich w‹rde gern viel ÷fter ins Kino/gehen./Ich finde, es ist sehr teuer, wenn man oft ins Kino/geht.
+0/I went to the cinema with my friends last week./I like watching funny films when I go to the cinema./I think I'd like to go to the cinema much more often./I think it is very expensive if you go to the cinema often.
+3/Ich habe neulich in einer Pizzeria im Stadtzentrum/gegessen.Ich trinke oft ein Glas Rotwein, wenn ich in einer Pizzeria/esse./Ich glaube, ich werde n‰chste Woche wieder in der Pizzeria/essen./Ich finde, es ist sehr gem‹tlich, wenn man in der Pizzeria/iﬂt.
+0/I ate in a pizzeria in the town centre recently./I often drink a glass of red wine when I eat in a pizzeria./I think I will eat in the pizzeria again next week./I think it really nice to eat in a pizzeria.
+3/Ich habe nie in einer Wechselstube Geld/gewechselt./Ich gehe immer zur Bank, wenn ich Geld/wechsele./Ich glaube, ich w‹rde nie in der Wechselstube Geld/wechseln./Ich finde, es ist nicht so gut, wenn man in der Wechselstube Geld/wechselt.
+0/I have never changed money in an exchange bureau./I always go to the Bank when I change money./I don't think I would ever change money in an exchange bureau./I don't think it is as good when you change money in an exchange bureau.
+3/Ich habe oft deutsche Touristen in unserer Stadt/gesehen./Ich frage immer 'Kann ich Ihnen helfen?', wenn ich deutsche Touristen/sehe./Ich glaube, ich werde immer mehr deutsche Touristen in unserer Stadt/sehen./Ich finde, es ist interessant, wenn man deutsche Touristen/sieht.
+0/I have often seen German tourists in our town./I always ask 'Can I help you?' if I see German tourists./I think I shall see more and more German tourists in our town./I think it's interesting to see German tourists.
+4/ein Hund/bellt/eine Katze/miaut/eine Biene/summt/ein Elefant/trompetet
+0/a dog barks/a cat miaows/a bee buzzes/an elephant trumpets
+4/ein Vogel/singt/eine Schlange/zischt/ein Pferd/wiehert/ein Schwein/grunzt
+0/a bird sings/a snake hisses/a horse neighs/a pig grunts
+4/der Wind/pfeift/der Sturm/braust/der Schnee/knirscht/der Regen/prasselt
+0/the wind whistles/the storm rages/the snow crunches/the rain rattles
+4/die T‹r/knarrt/das Fenster/klirrt/die Uhr/tickt/der Schl‰fer/schnarcht
+0/the door creaks/the window creaks/the clock ticks/the sleeper snores
+4/der Donner/donnert/der Blitz/zischt/das Wasser/pl‰tschert/das Feuer/knistert
+0/the thunder roars/the lightening cracks/the water splashes/the fire crackles
+4/die Bremse/quietscht/der Motor/brummt/die Glocke/bimmelt/die Sirene/heult
+0/the breaks screech/the engine hums/the bell rings/the siren/howls

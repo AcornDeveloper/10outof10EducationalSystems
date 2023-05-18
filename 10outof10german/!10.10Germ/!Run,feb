@@ -1,0 +1,19 @@
+RUN <Obey$Dir>.!SetCode
+WIMPSLOT -min 640K
+SET 10Germ1$Dir <Obey$Dir>
+<Obey$Dir>.CompLoad
+RMLOAD <Obey$Dir>.ScnLoad
+PRINT <Obey$Dir>.Palette
+RMKILL ABC
+<Obey$Dir>.Screen
+<Obey$Dir>.GermSounds
+<Obey$Dir>.Bass
+<Obey$Dir>.Bump
+<Obey$Dir>.Cymbal
+<Obey$Dir>.End
+<Obey$Dir>.Laugh
+<Obey$Dir>.Metal
+<Obey$Dir>.Pin
+<Obey$Dir>.Rocket
+<Obey$Dir>.Synsmajs
+<Obey$Dir>.!RunImage

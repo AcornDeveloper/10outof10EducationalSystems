@@ -1,0 +1,412 @@
+$ Stones word file structure
+$ 1. <sub grade>/<word>/<word> ...
+$ 2. <sub grade>/<German set descriptor>/<part1> ... *<English translation/English translation>
+$ 3. <sub grade>/<German phrase>*<English translation>
+$ 4. <sub grade>/<German phrase>*<English translation>
+$ 5. <sub grade>/<German phrase>/<false word> ...
+$              0/<English translation>
+$ 6. <sub grade>/<German phrase>/<false word> ...
+$              0/<English translation>
+$ maximum length of each phrase or section 32 characters
+$ each entry must have from 4 to 16 parts to it
+$ Grade 2 table fillers are taken from other questions in the same
+$ sub grade only, so be careful.
+$ Grade 5 and 6 use # to denote where word space to be up to the first space
+$ The missing words are taken from there and false words
+$ are used as table fillers (there must be at least one).
+$ Missing words plus false words must be from 4 to 16 parts.
+$ sub grade 1-4
+
+GRADE1
+1/Montag/Dienstag/Mittwoch/Donnerstag/Freitag/Samstag/Sonntag
+1/Montag/Dienstag/Mittwoch/Donnerstag
+1/Montag/Mittwoch/Freitag/Sonntag
+1/Donnerstag/Freitag/Samstag/Sonntag/Montag/Dienstag/Mittwoch
+1/Sonntag/Samstag/Freitag/Donnerstag/Mittwoch/Dienstag/Montag
+1/Sonntag/Samstag/Freitag/Donnerstag
+1/Donnerstag/Mittwoch/Dienstag/Montag
+2/Januar/Februar/M‰rz/April/Mai/Juni/Juli/August/September/Oktober/November/Dezember
+2/Juli/August/September/Oktober/November/Dezember
+2/Januar/Februar/M‰rz/April/Mai/Juni
+2/Dezember/November/Oktober/September/August/Juli/Juni/Mai/April/M‰rz/Februar/Januar
+2/Dezember/November/Oktober/September/August/Juli
+2/Juni/Mai/April/M‰rz/Februar/Januar
+3/eins/zwei/drei/vier/f‹nf/sechs/sieben/acht/neun/zehn
+3/eins/zwei/drei/vier/f‹nf
+3/sechs/sieben/acht/neun/zehn
+3/zehn/neun/acht/sieben/sechs/f‹nf/vier/drei/zwei/eins
+3/f‹nf/vier/drei/zwei/eins
+3/erste/zweite/dritte/vierte/f‹nfte/sechste/siebte/achte/neunte/zehnte
+3/erste/zweite/dritte/vierte/f‹nfte
+3/sechste/siebte/achte/neunte/zehnte
+3/zehnte/neunte/achte/siebte/sechste/f‹nfte/vierte/dritte/zweite/erste
+3/f‹nfte/vierte/dritte/zweite/erste
+3/zehnte/neunte/achte/siebte/sechste
+3/elf/zw÷lf/dreizehn/vierzehn/f‹nfzehn/sechzehn/siebzehn/achtzehn/neunzehn/zwanzig
+3/elf/zw÷lf/dreizehn/vierzehn/f‹nfzehn
+3/sechzehn/siebzehn/achtzehn/neunzehn/zwanzig
+3/zwanzig/neunzehn/achtzehn/siebzehn/sechzehn/f‹nfzehn/vierzehn/dreizehn/zw÷lf/elf
+4/null/zehn/zwanzig/dreissig/vierzig/f‹nfzig/sechzig/siebzig/achtzig/neunzig/hundert
+4/null/zehn/zwanzig/dreissig/vierzig/f‹nfzig
+4/sechzig/siebzig/achtzig/neunzig/hundert
+4/null/zwanzig/vierzig/sechzig/achtzig/hundert
+4/zehn/dreissig/f‹nfzig/siebzig/neunzig
+4/hundert/neunzig/achtzig/siebzig/sechzig/f‹nfzig/vierzig/dreissig/zwanzig/zehn
+4/f‹nfzig/vierzig/dreissig/zwanzig/zehn
+4/hundert/neunzig/achtzig/siebzig/sechzig
+4/elfte/zw÷lfte/dreizehnte/vierzehnte/f‹nfzehnte/sechzehnte/siebzehnte/achtzehnte/neunzehnte/zwanzigste
+4/elfte/zw÷lfte/dreizehnte/vierzehnte/f‹nfzehnte
+4/sechzehnte/siebzehnte/achtzehnte/neunzehnte/zwanzigste
+4/einundzwanzigste/zweiundzwanzigste/dreiundzwanzigste/vierundzwanzigste/f‹nfundzwanzigste/sechsundzwanzigste/siebenundzwanzigste/achtundzwanzigste/neunundzwanzigste/dreiﬂigste
+4/einundzwanzigste/zweiundzwanzigste/dreiundzwanzigste/vierundzwanzigste
+4/f‹nfundzwanzigste/sechsundzwanzigste/siebenundzwanzigste/achtundzwanzigste/neunundzwanzigste/dreiﬂigste
+GRADE2
+1/die Britischen Inseln/Groﬂbritannien/England/Schottland/Nordirland/Wales/Irland*The British isles/Great Britain, England, Scotland, Northern Ireland, Wales, Ireland
+1/St‰dte in Deutschland/N‹rnberg/K÷ln/M‹nchen/D‹sseldorf/Leipzig/Berlin*Towns in Germany/Nuremberg, Cologne, Munich, D‹sseldorf, Leipzig, Berlin
+1/Fl‹ﬂe in Deutschland/die Donau/der Rhein/der Main/die Mosel/die Elbe/die Oder*Rivers in Germany/Danube, Rhine, Main, Moselle, Elbe, Oder
+1/Deutsche Namen f‹r Meere und Seen/die Nordsee/die Ostsee/der Bodensee/das Mittelmeer/der Genfer See/der Kanal*German names for seas and lakes/North Sea, Baltic Sea, Lake Konstance, Mediterranean, Lake Geneva, the Channel
+1/L‰nder und Gebiete in Deutschland/Schwarzwald/Saarland/Hessen/Bayern/Niedersachsen/Ruhrgebiet*States and areas in Germany/Black Forest, Saarland, Hesse, Bavaria, Lower Saxony, Ruhr area
+1/Deutsche Namen f‹r Groﬂst‰dte/Rom/Wien/Moskau/Edinburg/Br‹ssel/Genf*German names for famous cities/Rome, Vienna, Moscow, Edinburgh, Brussels, Geneva
+1/Nationalit‰ten (Frauen)/die Franz÷sin/die Chinesin/die Engl‰nderin/die T‹rkin/die Japanerin/die D‰nin*Nationalities (female)/the french woman, the chinese woman, the english woman, the turkish woman, the japanese woman, the danish woman
+1/Nationalit‰ten (M‰nner)/der Deutsche/der Holl‰nder/der Grieche/der Afrikaner/der Amerikaner/der Schweizer*Nationalities (male)/the german man, the dutchman, the greek man, the african man, the american man, the swiss man
+1/Sprachen/Italienisch/Spanisch/Russisch/Franz÷sisch/Deutsch/Walisisch*Languages/Italian, Spanish, Russian, French, German, Welsh
+1/Kontinente-Erdteile/Europa/Nordamerika/S‹damerika/Asien/Afrika/Indien*Continents-subcontinents/Europe, North America, South America, Asia, Africa, India
+1/L‰nder in Europa/die Schweiz/Deutschland/÷sterreich/Belgien/Frankreich/Holland*Countries in Europe/Switzerland, Germany, Austria, Belgium, France, Holland
+2/Wo kann man ‹bernachten?/in einem Hotel/auf einem Campingplatz/in einer Jugendherberge/in einer Pension*Where can you stay?/in a hotel, on a campsite, in a Youth Hostel, in a boarding house
+2/Was f‹r ein Zimmer m÷chten Sie?/ein Einzelzimmer/ein Doppelzimmer/ein Zimmer mit Dusche/ein Zimmer mit Bad*What sort of room do you want?/a single room, a double room, a room with a shower,a room with bath
+2/Welche Mahlzeiten nehmen Sie?/Fr‹hst‹ck/Abendessen/Halbpension/Vollpension*Which meals do you want?/breakfast, evening meal, half-board, full-board
+2/Wie lange bleiben Sie?/eine Nacht/zwei N‰chte/eine Woche/zwei Wochen*How long are you staying?/one night, two nights, one week, two weeks
+2/Was f‹r einen Platz brauchen Sie?/f‹r ein Zelt/f‹r einen Wohnwagen/f‹r zwei Zelte/f‹r einen Campingwagen*What sort of camping site do you need?/for a tent, for a caravan, for two tents, for a camper-van
+2/Wieviele Personen sind Sie?/drei Personen/zwei Erwachsene/zwei Kinder/zwei Erwachsene und ein Kind*How many people is it for?/three people, two adults, two children, two adults and one child
+2/Was braucht man zum zelten?/ein Zelt/eine Gaslampe/ein Gaskocher/eine Luftmatratze*What do you need for camping?/a tent, a gas lamp, a camping stove, an air bed
+2/Was gibt es f‹r M‰dchen in der Jugendherberge?/M‰dchenschlafr‰ume/M‰dchenwaschr‰ume/M‰dchentoiletten/M‰dchenduschen*What special facilities do girls have in a Youth Hostel?/girls' dormitories, girls' washrooms, girls' toilets, girls' showers
+2/Was gibt es f‹r Jungen in der Jugendherberge?/Jungenschlafr‰ume/Jungenwaschr‰ume/Jungentoiletten/Jungenduschen*What special facilities do boys have in a Youth Hostel?/boys'dormitories, boys' washrooms, boys' toilets, boys' showers
+2/Was f‹r R‰ume hat man in der Jugendherberge?/einen Aufenthaltsraum/einen Fernsehraum/einen Speiseraum/einen Waschraum*What other facilities do you have in a Youth Hostel?/a day room, a T.V. room, a dining room, a wash room
+3/Wie kann man zu lande und in der Luft fahren?/mit dem Bus/mit dem Auto/mit dem Zug/mit dem Flugzeug*How can you travel on land and in the air?/by bus, by car, by train, by plane
+3/Wie f‰hrt man auf dem Wasser?/mit der F‰hre/mit dem Schiff/mit dem Luftkissenboot/mit dem Kanu*How do travel on water?/on the ferry, on the ship, on the hovercraft, in the canoe
+3/Wie f‰hrt man mit der Bahn?/mit der Eisenbahn/mit der Straﬂenbahn/mit der U-bahn/mit der Schwebebahn*What sorts of rail transport can you travel by?/by train, by tram, on the underground, on the mono-rail
+3/Was f‹r Z‹ge gibt es?/der D-Zug/der Inter-City-Zug/der Schnellzug/der Bummelzug*What sort of trains are there?/express-train, Intercity train, fast-train, slow-train
+3/Was hat ein Auto?/der Reifen/das Rad/das Ersatzrad/die Bremse*What does a car have?/tyre, wheel, spare-wheel, brake
+3/Was f‹r Karten gibt es f‹r den Zug?/eine Fahrkarte/eine Einzelfahrkarte/eine R‹ckfahrkarte/eine Studentenfahrkarte*What sort of train ticket can you get?/a ticket, a single ticket, a return ticket, a student railcard
+3/Wie kann man 'tickets' auf Deutsch sagen?/Fahrkarten/Fahrausweise/Fahrscheine/Tickets*How can you say 'tickets' in German?/tickets, tickets, tickets, tickets (usually plane)
+3/Wie kommt man am besten dahin?/Gehen Sie hier links/Gehen Sie hier rechts/Gehen Sie hier geradeaus/Gehen Sie hier um die Ecke*How do you get there?/turn left here, turn right here, go straight on, go round the corner
+3/Was liest man auf einem Zugfahrplan?/Fahrplan/Abfahrt/Ankunft/Gleis*Which words do you see on a train timetable?/timetable, departure, arrival, platform
+3/Was macht man,wenn man mit der Bahn fahren?/einsteigen/abfahren/ankommen/aussteigen/umsteigen*What do you do when you travel by train?/get in, depart, arrive, get out, change trains
+4/Wann sind die Ferien?/Sommerferien/Winterferien/Osterferien/Herbstferien*When are the holidays?/summer holidays, winter holidays, Easter holidays, autumn holidays
+4/Was f‹r Straﬂen gibt es?/eine Autobahn/eine Straﬂe/eine Einbahnstraﬂe/eine Hauptstraﬂe*What sort of roads are there?/a motorway, a street, a one-way street, a main road
+4/Welche W÷rter haben 'Rad' drin?/das Rad/das Fahrrad/das Motorrad/der Radfahrer*Which words have the German for 'wheel' in them?/the wheel-bike, the bicycle, the motorbike, the bike rider
+4/Welche W÷rter haben 'Fuﬂ'-zu Fuﬂ-der Fuﬂg‰nger?/die Fuﬂg‰ngerzone/die Fuﬂpassagiere*Which words-phrases have the German for 'foot' in them?/on foot, pedestrian, pedestrian precinct, foot passengers
+4/Was f‹r Brennstoff kan man kaufen?/Benzin/Super/Bleifrei/Diesel*What types of fuel can you buy?/petrol, 4-star, lead-free, diesel
+4/Was ist mit dem Auto los?/Die Bremse funktioniert nicht/Es hat eine Panne/Es ist kaputt/Der Tank ist leer*What's wrong with the car?/The brake doesn't work, It has broken down, It is broken, The tank is empty
+4/Worin tr‰gt man die Urlaubssachen?/in dem Koffer/in der Reisetasche/in dem Rucksack/im Gep‰ck*What can you carry your holiday things in?/in a suitcase, in a travel-bag, in a rucksack, in your luggage
+4/Was braucht man zum Schlafen?/ein Bett/eine Luftmatratze/einen Schlafsack/Bettw‰sche*What do you need to sleep?/a bed, an air mattress-lilo, a sleeping-bag, sheets-bedclothes
+4/Was braucht man wenn die Sonne scheint?/eine Sonnenbrille/einen Sonnenschirm/eine Tube Sonnencreme/einen Sonnenhut*What do you need when it's sunny?/sun-glasses, a sun-shade, a tube of sun cream, a sun hat
+4/Was muﬂ man machen, bevor man in Deutschland Urlaub macht?/Zimmer reservieren/Fahrkarten kaufen/Koffer packen/Deutsch lernen*What do you need to do before you go on holiday in Germany?/book a room, buy tickets, pack cases, learn German
+GRADE3
+1/Ich m÷chte ein Zimmer mit Dusche*I would like a room with a shower
+1/Ich m÷chte ein Zimmer mit Bad*I would like a room with a bath
+1/Wir m÷chten ein Zimmer f‹r zwei Personen*We would like a room for two people
+1/Wir m÷chten ein Zimmer mit zwei Betten*I would like a room with twin beds
+1/Ich habe ein Zimmer f‹r heute reserviert*I have reserved a room for today
+1/Ich habe ein Doppelzimmer mit Dusche reserviert*I reserved a double-room with a shower
+1/Wir m÷chten zwei N‰chte bleiben*We would like to stay for two nights
+1/Wir m÷chten acht Tage bleiben*We would like to stay for a week
+1/Wieviel kostet es pro Person?*How much is it per person?
+1/Haben Sie ein Zimmer frei?*Do you have a room free?
+1/Haben Sie etwas Billigeres?*Do you have anything cheaper?
+1/Wo ist der Speisesaal?*Where is the dining room?
+1/Wo sind die Toiletten?*Where are the toilets?
+1/Es gibt keine Handt‹cher in meinem Zimmer*There are no towels in my room
+1/Es gibt keine Seife in meinem Zimmer*There is no soap in my room
+1/Kann ich meinen Schl‹ssel haben?*Can I have my key?
+2/Haben Sie noch Platz frei?*Do you have any space frei?
+2/Es ist f‹r ein Zelt*It's for a tent
+2/Es ist f‹r einen Wohnwagen*It's for a caravan
+2/Wie lange bleiben Sie?*How long are you staying?
+2/Wir bleiben drei N‰chte*We are staying for three nights
+2/Wieviel kostet es f‹r das Zelt?*How much is it for the tent?
+2/Wo sind die Toiletten?*Where are the toilets?
+2/Wo sind die M‹lltonnen?*Where are the dustbins?
+2/Wo kann ich das Auto parken?*Where can I park my car?
+2/Wo ist das n‰chste Gesch‰ft?*Where is the nearest shop?
+2/Ich brauche einen Dosen÷ffner*I need a tin opener
+2/Ich brauche eine Flasche Campinggas*I need a bottle of camping gas.
+2/Ich m÷chte Batterien f‹r meine Taschenlampe*I would like some batteries for my torch
+3/Haben Sie noch Platz frei?*Have you any room free?
+3/Wie lange wollen Sie bleiben?*How long do you want to stay?
+3/Wir m÷chten vier N‰chte bleiben*We would like to stay four nights
+3/Wir haben zwei Betten reserviert*We have reserved two beds
+3/Wir m÷chten Bettw‰sche leihen*We would like to hire bed linen
+3/Wir brauchen zwei Schlafs‰cke*We need two sleeping-bags
+3/Wo sind die Schlafr‰ume f‹r M‰dchen?*Where are the girls' dormitories?
+3/Welche Mahlzeiten wollen Sie nehmen?*Which meals do you want to have?
+3/Wir m÷chten nur Fr‹hst‹ck nehmen*We only want breakfast
+3/Wollen Sie meinen Ausweis sehen?*Do you want to see my passport (identity card)?
+3/Wo sind die M‰dchentoiletten?*Where are the girls' toilets?
+3/Wo sind die Jungentoiletten?*Where are the boys' toilets?
+3/Die Waschr‰ume sind im ersten Stock*The wash-rooms are on the first floor
+3/Der Aufenthaltsraum ist unten im Keller*The day room is down in the cellar.
+3/Die Duschen sind hier im Erdgeschoﬂ*The showers are here on the ground floor
+3/Der Fernsehraum ist oben im zweiten Stock*The T.V.room is up on the second floor
+4/Wie komme ich zum Campingplatz?*How do I get to the campsite?
+4/Wie komme ich zum Hotel?*How do I get to the hotel?
+4/Wie komme ich zur Jugendherberge?*How do I get to the Youth Hostel?
+4/Wie kommt man zum Campingplatz?*How do you get to the campsite?
+4/Wie kommt man zum Hotel?*How do you get to the hotel?
+4/Wie kommt man zur Jugendherberge?*How do you get to the Youth Hostel?
+4/Wo ist die Jugendherberge?*Where is the Youth Hostel?
+4/Wo ist der Campingplatz?*Where is the campsite?
+4/Wo ist das Hotel?*Where is the hotel?
+4/Haben Sie einen Stadtplan?*Have you got a map of the town?
+4/Ich m÷chte einen Stadtplan*I would like a map of the town
+4/Kann ich einen Stadtplan haben?*Can I have a map of the town?
+4/Geben Sie mir einen Stadtplan*Let me have a map of the town
+4/M÷chten Sie einen Stadtplan?*Would you like a map of the town?
+GRADE4
+1/Wir fahren jeden Tag mit dem Bus in die Stadt*We travel by bus to town each day
+1/Ich fahre im Sommer mit dem Zug nach Deutschland*I'm going to Germany by train in the summer
+1/Er f‰hrt immer mit der F‰hre nach D‰nemark*He always travels by ferry to Denmark
+1/Wir fahren im Winter mit dem Flugzeug in die Schweiz*We are travelling to Switzerland by plane this winter
+1/Sie f‰hrt jede Woche mit der Straﬂenbahn in die Stadtmitte*She travels to the town centre by tram every week
+1/Ich fahre jeden Morgen mit dem Rad in die Schule*I go to school by bike every morning
+1/Wir fahren oft mit dem Wagen in Urlaub*We often go on holiday in the car
+1/Sie f‰hrt n‰chstes Jahr mit dem Schiff nach Griechenland*She is travelling to Greece on a ship next year
+1/Er f‰hrt im Fr‹hling mit dem Reisebus nach ÷sterreich*He is going to Austria on the coach in the spring.
+1/Wir fahren im Herbst mit der Bahn nach Italien*We are going to Italy by train in the autumn
+1/Ich fahre im Juli mit dem Auto nach Schottland*I am travelling to Scotland by car in July
+1/Er f‰hrt im August mit dem Flugzeug nach Spanien*He is flying to Spain in August.
+1/Sie f‰hrt jeden Abend mit dem Taxi nach Hause*She goes home by taxi every evening
+1/Ich fahre am Wochenende mit dem Luftkissenboot nach Frankreich*I am going to France on the hovercraft at the weekend
+1/Sie f‰hrt manchmal mit dem Motorrad an die See*She sometimes goes to the seaside on her motorbike
+1/Wir fahren nie mit dem Auto in die Berge*We never drive by car to the mountains
+2/Wir sind jeden Tag mit dem Bus in die Stadtmitte gefahren*We travelled to the town centre by bus every day
+2/Ich bin im Sommer mit dem Zug nach Polen gefahren*I went to Poland by train in the summer
+2/Er ist immer mit der F‰hre nach Holland gefahren*He always went by ferry to Holland
+2/Wir sind im Winter mit dem Flugzeug in die T‹rkei gefahren*We flew to Turkey in the winter
+2/Sie ist jede Woche mit der Straﬂenbahn zum Kino gefahren*She went to the cinema on the tram every week
+2/Ich bin jeden Morgen mit dem Rad im Wald gefahren*I rode my bike in the woods every morning
+2/Wir sind oft mit dem Wagen nach Wales gefahren*We often went by car to Wales
+2/Sie ist letztes Jahr mit dem Schiff nach Portugal gefahren*She went by ship to Portugal last year
+2/Er ist im Fr‹hling mit dem Reisebus nach Prag gefahren*He went to Prague on the coach in the spring
+2/Wir sind im Herbst mit der Bahn an die Mosel gefahren*We travelled by rail to the Moselle in the autumn
+2/Ich bin im Juli mit dem Auto nach Luxemburg gefahren*I went to Luxembourg by car in July
+2/Er ist im August mit dem Flugzeug nach Korfu geflogh*He went to Corfu by plane in August
+2/Sie ist jeden Abend mit dem Taxi in die Disko gefahren*She went to the disco by taxi every evening
+2/Ich bin am Wochenende mit dem Luftkissenboot nach Frankreich gefahren*I went to France on the hovercraft at the weekend
+2/Er ist gew÷hnlich mit der U-bahn zum B‹ro gefahren*He usually went to the office on the tube
+2/Sie ist manchmal mit dem Motorrad ans Meer gefahren*She sometimes went to the seaside on her motorbike
+2/Wir sind nie mit dem Auto nach Berlin gefahren*We have never been to Berlin by car
+3/Wir werden jeden Tag mit dem Bus zum Schwimmbad fahren*We will go to the swimming baths on the bus every day
+3/Ich m÷chte im Sommer mit dem Zug nach Ruﬂland fahren*I would like to go by rail to Russia in the summer
+3/Er will immer mit der F‰hre nach Norwegen fahren*He always wants to go Norway on the ferry
+3/Wir wollen im Winter mit dem Flugzeug nach Amerika fliegen*We want to fly to America in the winter
+3/Sie muﬂ jede Woche mit der Straﬂenbahn zum Krankenhaus fahren*She has to go to tthe hospital on the tram every week
+3/Ich kann jeden Morgen mit dem Rad zum Jugendzentrum fahren*I can cycle to the Youth Hostel every morning
+3/Wir k÷nnen oft mit dem Wagen an die K‹ste fahren*We can often travel by car to the coast
+3/Sie m÷chte n‰chstes Jahr mit dem Schiff nach Afrika fahren*She would like to go to Africa on a ship next year
+3/Er wird im Fr‹hling mit dem Reisebus an den Rhein fahren*He is going to travel by coach to the Rhine in the spring
+3/Wir m÷chten im Herbst mit der Bahn nach Ungarn fahren*We would like to travel by train to Hungary in the spring
+3/Ich will im Juli mit dem Auto nach Hamburg fahren*I want to travel to Hamburg by car in July
+3/Er m÷chte im August mit dem Flugzeug nach Japan fliegen*He wants to fly to Japan in August
+3/Sie darf jeden Abend mit dem Taxi in die Altstadt fahren*She can travel by taxi to the old part of town every evening
+3/Ich werde am Wochenende mit dem Luftkissenboot nach Calais fahren*I am going to Calais on the hovercraft at the weekend
+3/Man muﬂ gew÷hnlich mit der U-bahn zum Flughafen fahren*You usually have to go on the underground to the airport
+3/Sie kann manchmal mit dem Mofa in die Schule fahren*She can sometimes go to school on her moped
+3/Wir werden nie mit dem Auto nach Moskau fahren*We will never travel to Moscow by car
+4/Der Zug kommmt um neun Uhr in Berlin an*The train arrives in Berlin at nine o'clock
+4/Der Bus f‰hrt um vierzehn Uhr vom Busbahnhof ab*The bus leaves the bus station at two in the afternoon
+4/Die F‰hre kommt um Mitternacht in Dover an*The ferry arrives in Dover at midnight
+4/Der Flug kommt um sieben Uhr in Frankfurt an*The flight arrives in Frankfurt at seven o'clock
+4/Die Straﬂenbahn kommt um acht Uhr am Stadion an*The tram reaches the stadium at eight o'clock
+4/Der Zug f‰hrt um zehn Uhr dreiﬂig nach M‹nchen ab*The train leaves for Munich at half past ten
+4/Die F‰hre f‰hrt um drei Uhr zwanzig von Bremerhafen ab*The ferry leaves Bremerhafen at twenty past three
+4/Der Zug kommt um achtzehn Uhr f‹nfzehn in Leipzig an*The train arrives in Leipzig at quarter past six in the evening
+4/Der Bus kommt um einundzwanzig Uhr in L‹beck an*The bus gets to L‹beck at nine o'clock in the evening
+4/Der Zug f‰hrt um dreiundzwanzig Uhr vom Hauptbahnhof ab*The train departs from the main station at eleven o'clock at night
+4/Der Bus kommt um sechs Uhr f‹nfundvierzig in D‹sseldorf an*The bus gets in to D‹sseldorf at a quarter to seven
+4/Die Straﬂenbahn f‰hrt um einundzwanzig Uhr zehn von der Stadtmitte ab*The tram leaves the town centre at ten past nine in the evening
+4/Der Flug kommt um zwanzig Uhr zehn in Hamburg an*The flight arrives in Hamburg at ten past eight in the evening
+4/Der Zug f‰hrt um drei Uhr dreiﬂig nach Dresden ab*The train leaves for Dresden at half past three
+4/Der Zug kommt um zwei Uhr f‹nfundzwanzig in Trier an*The train arrives in Trier at twentyfive past three
+4/Der Bus f‰hrt um achtzehn Uhr f‹nfzehn nach Mainz ab*The bus leaves for Mainz at a quarter past six in the evening
+4/Der Schnellzug f‰hrt um zwanzig Uhr neunundzwanzig nach Ulm ab*The express leaves for Ulm at twenty-nine minutes past eight
+GRADE5
+1/Letztes Jahr bin #ich mit meiner Familie mit #dem Auto nach Deutschland gefahren. Wir #haben auf einem #ruhigen Campingplatz im Schwarzwald gezeltet./wir/das/hat/ruhig
+0/Last year I went by car to Germany with my family. We camped on a quiet campsite in the Black Forest.
+1/W‰hrend den Osterferien #bin ich nach ÷sterreich gefahren, um #meine Brieffreundin #zu besuchen. Es #hat mir dort sehr gut gefallen./habe/mein/zum
+0/During the Easter holidays I went to Austria to visit my penfriend. I really enjoyed it there.
+1/Im Mai #sind wir nach Schottland gefahren, #um meine Groﬂeltern zu besuchen. Wir sind #eine Woche dort geblieben und es #hat viel geregnet./haben/einen/ist
+0/In May we went to visit my grandparents in Scotland. We stayed a week there and it rained a lot.
+1/Letzten Sommer bin ich #mit Freunden in #die Schweiz gefahren. Wir haben dort #gezeltet und haben #viele junge Leute kennengelernt./dem/zelten/viel
+0/Last summer I went with some friends to France. We camped and we got to know lots of young people.
+1/Vor zwei Jahren #haben wir vierzehn Tage in #einem Hotel in Tenby verbracht. Wir haben auf dem Strand Volleyball #gespielt und haben #im Meer gebadet./sind/ein/spielt/in
+0/Two years ago we spent a fortnight in a hotel in Tenby. We played volleyball on the beach and swam in the sea.
+1/Vor drei #Jahren sind wir #in die T‹rkei #gefahren. Wir haben die Spezialit‰ten von der Gegend gegessen und #sie haben prima geschmeckt./Jahr/nach/f‰hrt/es
+0/Three years ago we went to Turkey. We tasted the specialities of the region and we liked them a lot.
+1/Letztes #Jahr nach den Examen #bin ich nach Wales gefahren, wo wir eine Wandertour in #den Bergen gemacht #haben./Woche/habe/das
+0/Last year after my exams I went to Wales where we went on a hiking tour in the mountains.
+1/Nachdem ich #letztes Jahr die Schule verlassen #hatte, habe ich mich #zu Hause ausgeruht. #Ich bin nicht in Urlaub gefahren und ich habe #mich gelangweilt./n‰chste/hatten/ins/sich
+0/Last year after having left school I had a rest at home. I did not go on holiday and I was bored.
+1/#W‰hrend der letzten Ferien an #der Ostsee #habe ich viel Sport getrieben. Ichhabe Tennis #gespielt und Windsurfen gelernt./weil/bin/spielen/das
+0/During the last holiday on the Baltic Sea I did a lot of sport. I played tennis and I learnt to windsurf.
+1/Vor einem Jahr #habe ich in ÷sterreich #einen Skiurlaub gemacht. Am Anfang bin#ich viel hingefallen aber ich habe viel #Spaﬂ gehabt./bin/einem/mir
+0/A year ago I went to Austria for a skiing holiday. At first I fell down often but I had a lot of fun.
+1/Dieses Jahr #haben wir #einen Wohnwagen in Skegness gemietet. Es #hat die ganze Zeit geregnet und #wir waren alle schlechtgelaunt./sind/einer/uns
+0/This year we hired a caravan in Skegness. It rained nearly all the time and we were all in a bad mood.
+1/Dieses Jahr #haben wir #eine Ferienwohnung in Schottland gebucht. Wir #hatten Gl‹ck, denn die #Sonne hat fast die ganze Zeit geschienen./sind/einer/Regen
+0/This year we booked a holiday cottage in Scotland. We were lucky because the sun shone.
+2/Unser Urlaub letztes Jahr #hat mir wirklich #gut gefallen. Wir waren in #einermalerischen Gegend und haben #uns gut ausgeruht./ist/nicht/ein/mir
+0/I really liked our holiday last year. We were in a picturesque area and we 
+had a good rest.
+2/#Dieses Jahr sind wir #nach Wales gefahren; wir #haben Schl÷sser besichtigt und haben #viele Ausfl‹ge gemacht./letzte/zu/hat/einen
+0/This year we went to Wales; we visited castles and went on several excursions.
+2/Wir #sind jeden Tag #zum Strand gegangen. Ich habe im Meer #gebadet und ich #bin braungeworden./habe/nach/baden
+0/We went to the beach every day. I bathed in the sea and I got a sun tan.
+2/Ich bin mit #Freunden in Urlaub #gefahren. Wir #haben uns gut verstanden und wir haben #eine tolle Zeit verbracht./Freund/fahren/hat/einen
+0/I went on holiday with friends. We got on very well and we had a fantastic holiday.
+2/Ich bin auch #mit Freunden in Urlaub gefahren. Wir haben #uns die ganze Zeit gestritten und #haben deswegen #schreckliche Ferien verbracht./nach/wir/hat/wundersch÷n
+0/I went on holiday with friends too. We argued all the time and so we had an awful holiday.
+2/Dieses Jahr haben #wir unser Geld sparen m‹ssen und wir #sind nicht weggefahren. Wir haben nur #einige Tagesausfl‹ge #gemacht./ich/haben/ein/machen
+0/This year we had to save our money and we didn't go on holiday. We just went on a few day trips.
+2/Dieses #Jahr sind wir nach Spanien #gefahren, wo wir #einen wundersch÷nen Urlaub verbracht haben. Wir #haben in mehreren ausgezeichneten Gastst‰tten gegessen./Woche/f‰hrt/eine/sind
+0/This year we went to Spain where we had a superb holiday. We ate in several excellent restaurants.
+2/Die #Reise hat gut geklappt. Das Meer #war ruhig und es #hat nicht viel Verkehr auf #der Autobahn gegeben/reisen/sind/den
+0/The journey went well. The sea was calm and there was not much traffic on the motorways.
+2/#Die Reise war katastrophal! Es hat viel #Verkehr auf den Straﬂen #gegeben und wir #haben eine Panne gehabt./Das/Fahrrad/geben/hat
+0/The journey was a disaster. There was a lot of traffic on the roads and the car broke down.
+2/Die Reise #war sehr lang, denn wir sind mit #der Bahn und mit dem Schiff #gefahren. Das Meer war sehr st‹rmisch und ich war #seekrank./bin/dem/fahren/Krankenhaus
+0/The journey was very long. We took the train and boat. The sea was very rough and I was sea sick.
+3/Wir #sind am Montag gut angekommen. Gestern #haben wir einen #Ausflug in die Berge gemacht Heute ruhen wir #uns aus./Reise/wir
+0/We arrived safely on Monday. Yesterday we went on a trip to the mountains. Today we are having a rest.
+3/Wir sind #gestern sehr sp‰t in unserem Hotel #angekommen und wir #waren sehr m‹de. Das Hotel ist prima und das Wetter ist #herrlich!/morgen/abfahren/sein/regnet
+0/We arrived at the hotel very late yesterday and we were very tired. The hotel is splendid the weather is marvellous!
+3/Gestern #haben wir einen #langen Spaziergang am Meer gemacht. Heute haben wir #uns entschlossen, #einen ruhigen Tag zu verbringen.sind/langes/mich/eine
+0/Yesterday we went on a long walk by the sea. Today we have decided to spend a quiet day.
+3/Unser Hotel ist #schrecklich. Das Essen #ist schlecht. Die #Zimmer sind schmutzig und das Personal ist unh÷flich. #Das Wetter ist auch schlecht./prima/sind/K‹che/dem
+0/Our hotel is awful. The food is bad. The rooms are dirty and the staff are rude. The weather is also bad.
+3/Wir #haben das Schloﬂ, das Museum und #den Dom schon besichtigt. Gott sei Dank #gehen wir #morgen in die Disko!/hat/dem/gegangen/gestern
+0/We have visited the castle, the museum and the cathedral. Thank goodness tomorrow we will go to the disco.
+3/Gestern Abend haben wir in #einer netten, kleinen Gastst‰tte #gegessen. Ich #habe einige Spezialit‰ten der Gegend probiert und einen #guten Rotwein getrunken./einem/essen/hat/gutes
+0/Last night we ate in a good, little restaurant. I tasted some of the specialities of the area and drank some good red wine.
+3/Gestern #haben wir den ganzen #Tag am Meer verbracht. Ich habe das Windsurfen #probiert. Ich habe heute einen #leichten Sonnenstich./sind/Zeit/probiere/leichtes
+0/Yesterday we spent the day on the beach. I tried to windsurf. I've got a touch of sunstroke today.
+3/Ich #bin heute fr‹h #zum Strand gegangen. Am Nachmittag bin ich einkaufen #gegangen und heute Abend gehen wir in #die Disko./habe/zu/gehen/dem
+0/I went to the beach this morning. I went shopping this afternoon and tonight we shall be going to the disco.
+3/Heute #habe ich mich ausgeschlafen. Heute Abend essen #wir in der Gastst‰tte und #morgen fr‹h #gehen wir wandern./werde/uns/gestern/geht
+0/I had a lie-in today. This evening we are eating in a restaurant and tomorrow morning we are going hiking.
+3/Wir #haben neben #dem Fluﬂ einen Picknick gemacht. Heute #ist es sehr warm unddie Landschaft ist #malerisch./wollen/das/sind/Bilder
+0/We had a picnic by the side of the river. Today it's very warm and the scenery is picturesque.
+3/Heute fr‹h #habe ich Tennis gespielt, heute Nachmittag #werde ich Volleyball spielen und heute abend #spiele ich Skat #mit unseren Nachbarn./sind/werden/spielt/in
+0/This morning I played tennis, this afternoon I'm going to play volleyball and tonight I shall play cards with our neighbours.
+3/Die Ferienwohnung #ist klein aber gem‹tlich. Das #Wetter ist herrlich. Wir #haben eine Familie kennengelernt, #die nicht weit von uns zu Hause wohnt./waren/Wohnung/hatte/dem
+0/The holiday cottage is small but comfortable. The weather is fine. We have 
+met a family who come from just near us.
+4/N‰chstes Jahr #habe ich vor, meine #deutsche Brieffreundin zu besuchen, #weil ich mein Deutsch verbessern #will./hat/deutsches/um/wollen
+0/Next year I intend to visit my German penfriend because I would like to improve my German.
+4/W‰hrend der Sommerferien #werde ich mit Freunden #nach Schottlend fahren, um in #den Bergen zu #wandern./werden/zu/der/Wanderung
+0/During the summer holidays I shall go to Scotland with some friends to go hiking in the mountains.
+4/Im Februar #werde ich mit #einer Schulgruppe in Skiurlaub fahren. Wir #wollen acht Tage in einem Hotel #verbringen./wird/einem/verbracht
+0/In February I shall go on a snow holiday with a school group. We are going to stay for a week in a hotel.
+4/W‰hrend der Osterferien #werde ich zwei #Wochen zu Hause verbringen, #weil ichf‹r mein Examen pauken #muﬂ./wird/Jahre/nachdem/m‹ssen
+0/During the Easter holidays I shall spend a fortnight at home, because I have to swot for my exams.
+4/Sobald #die Pr‹fungen vorbei sind,#werde ich mit #meinen Freunden in S‹dfrankreich #zelten gehen./das/wird/meinem/gezeltet
+0/Once my exams are finished I shall go away with friends camping in the south of France.
+4/Nachdem ich mit #dem Examen fertig #bin, fahre ich mit meiner Familie #weg, um acht Tage an der S‹dk‹ste zu #verbringen./das/werden/ohne/verbracht
+0/After having finished my exams I shall go away with my family to spend a week on the south coast.
+4/#Weil wir letztes Jahr nicht in Urlaub #gefahren sind,#werden wir im Sommer einen Monat in #den Bergen verbringen./bevor/f‰hrt/wird/das
+0/As we did not go away on holiday last year, this summer we are going to spen a month in the mountains.
+4/Diesen Sommer #werden wir nicht wegfahren, weil #wir unser Geld sparen, damit wir #n‰chstes Jahr einen Monat in den Staaten verbringen #k÷nnen./werde/ich/letztes/kann
+0/This summer we shall not be going away on holiday because we are saving our money to be able to spend a month in the States next year.
+4/Da wir die Sonne so sehr lieben, #werden wir dieses #Jahr drei Wochen auf #einem Campingplatz in Schottland #verbringen./werde/Woche/ein/verbrachte
+0/As we like the sun a lot, this year we are going to spend three weeks camping in Scotland.
+4/Ich #habe in den Sommerferien viel vor. Zuerst #werde ich meine Tante in Bayern #besuchen und dann fahre ich #nach Irland./haben/wird/Besichtigung/zu
+0/I've got a lot of plans for the summer holidays. First I shall visit ny aunt in France and then I shall go to Ireland.
+GRADE6
+1/Ich #w‰re Ihnen sehr dankbar, wenn Sie #mir einige Prospekte ‹ber #die Gegend und ein Hotelverzeichnis schicken #w‹rden./w‹rde/mich/das/w‰ren
+0/I should be very grateful if you would send me some brochures of the area and a list of hotels.
+1/Ich #w‹rde mich freuen, wenn Sie mir Ausk‹nfte #‹ber die Sehensw‹rdigkeiten in#der Gegend schicken #k÷nnten./w‰re/von/die/konnten
+0/I should be very grateful if you would be able to send me some information about the main sights in the region.
+1/Ich #m÷chte mich bitte bei #Ihnen #‹ber Sportveranstaltungen und Bustouren 
+in der #Gegend erkundigen./m÷gen/Sie/auf/Gebiet
+0/I would like information from you about organised sporting activities and coach trips in the area.
+1/Schicken Sie #mir bitte #einen Stadtplan, ein Verzeichnis #der Ferienwohnungen und #einige Stadtprospekte./mich/ein/des/eine
+0/Please send me a town plan, a list of holiday cottages and some brochures on the town.
+1/Ich #lege einen #internationalen Antwortschein bei und freue #mich auf #eine baldige Antwort./liege/internationale/mir/einen
+0/I am enclosing an international reply coupon and I look forward to hearing from you soon.
+1/Ich #danke #Ihnen im voraus und verbleibe #mit freundlichen #Gr‹ﬂen, Ihre P.Smith/danken/Sie/ohne/Gr‹ﬂe 
+0/Thanking you in advance, yours faithfully, P. Smith
+1/#K÷nnten Sie #mir bitte schriftliche Informationen #‹ber die Stadt, die Umgebung und ins besondere ‹ber die ‹bernachtungsm÷glichkeiten #geben?/kann/mich/von/gibt
+0/Could you give me some printed information about the town and the area particulary about the possibilities for accommodation?
+1/W‹rden #Sie mir #bitte mitteilen, ob es #im November begleitete Stadtf‹hrungen#gibt./du/danke/ins/geben
+0/Would you inform me if there are any guided tours of the town during the month of November.
+1/#K÷nnen Sie mir bitte ‹ber #die ÷ffnungszeiten des Stadtmuseums und die Eintrittspreise #zum Schloﬂ #Auskunft geben?/kann/das/zur/Ankunft
+0/Could you inform me of the opening hours of the town museum and the entrance prices to the castle?
+1/#W‰hrend der Herbstferien habe ich #vor, ein paar Tage bei Ihnen in der Gegend zu #verbringen und m÷chte also einige #schriftliche Informationen./weil/nach/verbracht/schriftliches
+0/During the autumn holidays I'm thinking of spending some days in your area; and so I would like some written information.
+1/Ich #interessiere mich ins besondere #f‹r die Malerei und ich m÷chte also 
+wissen, #ob es Kunstwerke aus dem Mittelalter in der Gegend #gibt./interessieren/ins/nachdem/gegeben
+0/I'm particularly interested in painting and I would like to know if there are any examples of medieval art in the area.
+1/Da wir #zwei kleine Kinder mitbringen, m÷chten #wir wissen, ob das Baden #im See gef‰hrlich #ist./ein/ich/ins/sind
+0/As we are bringing two small children, we would like to know if it is dangerous to swim in the lake.
+1/Wir #kennen die Stadt noch gar nicht und #wir m÷chten gerne wissen, was es 
+dort #zu tun und zu sehen #gibt./gewuﬂt/er/zur/gibst
+0/We do not know the town at all and we were wondering what there was of to do and see.
+1/K÷nnen Sie #uns bitte ein #bequemes Hotel empfehlen und #Informationen ‹ber Mietautos #schicken./wir/gut/Abfahrt/geschickt
+0/Could you please recommend a comfortable hotel and send us some information about car hire.
+2/Ich #schreibe Ihnen um Platz f‹r #ein Zelt und ein Auto f‹r drei N‰chte vom #dritten bis zum sechsten Juni zu #reservieren./geschrieben/einige/vier/reserviert
+0/I am writing to reserve a spot for a tent and a car for the nights of the 3rd to the 6th of June.
+2/Ich schreibe #Ihnen um Auskunft ‹ber die Preise f‹r den Campingplatz zu #bekommen und ich m÷chte auch wissen. Ob #man im voraus buchen #kann./dich/gekommen/Mann/k÷nnen
+0/I am writing to you to ask you to inform me of the prices of your campsite and to let me know if you make reservations.
+2/Wir #sind f‹nf Personen: zwei Erwachsene und drei #Kinder ‹ber acht Jahre alt. W‹rden #Sie unsere Reservierung bitte #best‰tigen?/hat/Kind/du/best‰tigt
+0/There are five of us: two adults and three children under eight. Would you please confirm the reservation.
+2/Ich #schicke Ihnen hundert Mark als #Anzahlung und bitte #Sie um eine Best‰tigung f‹r #diese Reservierung./geschickt/Kasse/du/das
+0/I am sending five hundred francs deposit and I ask you to please confirm the reservation.
+2/K÷nnten Sie #uns bitte ein Doppelzimmer #mit Dusche reservieren und den #Preis f‹r Halbpension #angeben.wir/von/gekostet/gegeben
+0/Could you please reserve us a double room with shower and send us the price with half board.
+2/Ich #habe Ihnen #schon geschrieben, #um ein Zimmer f‹r den Anfang Mai zu reservieren. Ich muﬂ aber leider #absagen./bin/sch÷n/zu/gesagt
+0/I have already written asking you to reserve a room for us at the beginning of May. Unfortunately I have to cancel the reservation.
+2/K÷nnten Sie #uns zwei Zimmer #reservieren, das erste mit #Doppelbett und das andere mit #zwei Betten./mich/gebucht/Doppelzimmer/ohne
+0/Could you reserve two rooms for us, one with a double bed and one with twin beds.
+2/K÷nnen #Sie mir bitte #den Preis f‹r #Halbpension und auch f‹r Vollpension 
+angeben:wir #sind beide Vegetarier./du/des/Vollpension/gegessen
+0/Could you inform me of the price with half board and with full board.
+2/#Ich schreibe Ihnen, #um zu fragen, ob Sie im August #eine Ferienwohnung zu vermieten haben: wir m÷chten nicht weit von der K‹ste #sein./wir/zu/einen/sind
+0/I am writing to ask you if you would have a holiday cottage for hire not too far away from the coast in August.
+3/Ich #schreibe Ihnen, um #zu sagen, daﬂ wir mit unserem Aufenthalt in #Ihrem 
+Hotel gar nicht zufrieden #waren./geschrieben/zum/deinen/gewesen
+0/I am writing to inform you that we have not been happy with our stay in your hotel.
+3/Leider #muﬂ ich Ihnen schreiben, #um mich ‹ber die Bedienung in #Ihrem Gasthofzu #beklagen./m‹ﬂen/zu/deiner/beklagt
+0/I am sorry but I have to write to you to complain about the service in your hotel.
+3/Wir #haben das Wochende bei Ihnen im Hotel verbracht und ich muﬂ Ihnen #leider mitteilen, daﬂ sowohl #das Zimmer als auch die Dusche #schmutzig waren./sind/leid/der/lecker
+0/We have just spent the weekend in your hotel and I regret to inform you the room was dirty as was the shower.
+3/Wir #haben gestern abend bei Ihnen gegessen und wir #muﬂten eine ganze halbe #Stunde warten, #bis wir bedient wurden./sind/muﬂ/Uhr/nachdem
+0/Last night we ate in your restaurant and we had to wait an hour before being served.
+3/Ich #muﬂ Ihnen mitteilen, daﬂ das Benehmen von #dem Kellner sehr unfreundlich war:#er hat uns auch sehr unh÷flich #angesprochen./m‹ﬂen/der/sie/ansprechen
+0/I would like to inform you that the behaviour of the waiter was very discourteous :he spoke to us very impolitely too.
+3/Ich muﬂ #Ihnen leider mitteilen, #daﬂ wir mit unserem Aufenthalt auf dem Campingplatz gar nicht zufrieden #gewesen sind, weil er so #laut war./dich/das/sein/sch÷n
+0/I regret to inform you that we have not been happy with our stay on the campsite, because it was so noisy.
+3/Leider #muﬂ ich Ihnen mitteilen, daﬂ die Qualit‰t von #dem Essen, das man #uns gestern Abend angeboten hat, #schlecht war./m‹ssen/das/wir/prima
+0/Unfortunately I have to inform you that the quality of the food, that were served to us last night, was bad.
+4/#Ich habe meine Brieftasche #letzten Samstag im Hauptbahnhof liegenlassen. #Sie ist rot, aus Leder und ich #hatte hundert Mark darin./wir/n‰chsten/er/haben
+0/I lost my wallet last Saturday at the main station. It is red and made of leather and there was a hundred Marks in it.
+4/Ich habe #letzte Woche meinen Reisekoffer #verloren. Ich #bin aus Frankfurt geflogen und ich habe #den Koffer am Flughafen Heathrow nicht finden k÷nnen./n‰chste/verlieren/habe/das
+0/I lost my suitcase last week. I flew from Frankfurt and I could not find the case at Heathrow airport.
+4/Meine Handtasche wurde gegen zehn #Uhr im Juweliergesch‰ft Schmidt gestohlen. Ich #habe die Tasche auf die Theke #gelegt und pl÷tzlich war #sie weg./Stunden/haben/liegen/er
+0/My hand bag was stolen around ten o'clock in Smith's jeweller's. I had put my bag on the counter and then it disappeared.
+4/Der Fotoapparat war #im Auto. Ich #hatte es zugeschlossen; als ich aber #zur‹ckgekommen bin, hatte jemand #das Fenster mit Gewalt aufgebrochen./ins/haben/zur‹ckkommen/dem
+0/The camera was in my car. I had locked the car but when I came back I saw that the window had been forced.
+4/Wir haben unsere Sachen auf #dem Strand liegenlassen und #sind im Meer badengegangen. Als wir #zur‹ckgekommen sind, haben wir auf der Stelle #nichts finden k÷nnen./die/ist/zur‹ckkommen/nicht
+0/We left our things on the beach and we went to swim in the sea. When we came back there was nothing on our spot.
+4/Ich habe meinen Regenschirm #letzten Freitag im Restaurant #stehenlassen. Wenn sie #ihn gefunden haben, sagen #Sie mir bitte Bescheid./n‰chsten/steht/sie/du
+0/I left my umbrella in your restaurant last Friday. If you have found it please let me know.
+4/Ich habe meine Aktentasche #am Dienstag dem achten Mai in dem Zug von K÷ln 
+nach Mainz #liegenlassen. Der Zug #ist um f‹nfzehn #Uhr in Mainz angekommen./auf/liegt/hat/Stunden
+0/I left my briefcase in the Cologne to Mainz train on Tuesday 8th May. The train arrived in Mainz at 15.00.
+4/Mein Portemonnaie wurde am Samstag dem f‹nften Juni #gestohlen. Ich hatte es #in meiner Tasche gehabt, aber als ich etwas #bezahlen wollte, war #es nicht mehr dadrin./stehlen/ins/bezahlt/er
+0/My wallet was stolen on Saturday 5th June. I had it in my bag but when I wanted to pay for something I could not find it.
+4/Wir #haben das Auto auf dem Kinoparkplatz geparkt und #als wir zur‹ckgekommen# sind, haben wir festgestellt, #daﬂ jemand die T‹r #aufgebrochen hatte./sind/bevor/das/aufbrechen
+0/We parked our car in the cinema car park and when we came back we discovered that the door had been forced.
+4/Ich habe meine Sachen #neben dem Schwimmbad liegenlassen und #als ich zur‹ckgekommen #bin, habe ich festgestellt, daﬂ meine #Uhr nicht mehr da war./n‰chste/bevor/habe/Stund
+0/I left my things by the side of the swimming pool and when I came back I discovered that my watch was no longer in its place.
+4/Ich #weiﬂ leider nicht genau, wann ich die Uhr #verloren habe, aber ich hatte #sie noch gestern abend, als ich von dem Schwimmbad zur‹ckgekommen #bin./kenne/verlieren/ihn/habe
+0/I do not know when I lost my watch but I remember that I had it last night as I came back from the swimmimg baths.

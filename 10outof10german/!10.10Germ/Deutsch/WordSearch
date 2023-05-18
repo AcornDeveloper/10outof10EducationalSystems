@@ -1,0 +1,285 @@
+$ Word Search word file structure
+$ 1. <sub grade>/<category question>/<lower case>/<upper case> ...
+$ 2. <sub grade>/<category question>/<lower case>/<upper case> ...
+$ 3. <sub grade>/<category question>/<lower case>/<upper case> ...
+$ 4. <sub grade>/<question>/<answer>/<false> ...*<English translation>
+$ 5. <sub grade>/<phrase>/<missing word>/<false> ...*<English translation>
+$ 6. <sub grade>/<phrase with clue>/<noun>*<English translation>
+
+$ Grade 1-3 category question maximum length 128 characters, lower/upper
+$           maximum length 20 characters and they need exactly 10 pairs 
+$           of lower/upper entries. Grid words in upper case
+$ Grade 4-6 need underline characters for the answer space,
+$           maximum lengths as above and up to 15 false words to help fill
+$           the board. Answers in lower case
+$ Grade 5   use # to highlight a portion of text and to turn off again
+$ Grade 6   caution as false words are taken from else where in the grade
+$ sub grade 1-4
+
+GRADE1
+1/Weibliche Familienmitglieder/mother/MUTTER/sister/SCHWESTER/aunt/TANTE/(girl) cousin/KUSINE/grand mother/GROﬂMUTTER/daughter/TOCHTER/granddaughter/ENKELIN/mother in law/SCHWIEGERMUTTER/stepmother/STIEFMUTTER/niece/NICHTE
+1/Weibliche Familienmitglieder/mother/MUTTER/sister/SCHWESTER/aunt/TANTE/(girl) cousin/KUSINE/grand mother/GROﬂMUTTER/daughter/TOCHTER/granddaughter/ENKELIN/mother in law/SCHWIEGERMUTTER/stepmother/STIEFMUTTER/niece/NICHTE
+2/m‰nnliche Familienmitglieder/father/VATER/brother/BRUDER/uncle/ONKEL/(boy) cousin/VETTER/grand father/GROﬂVATER/son/SOHN/grandson/ENKEL/father in law/SCHWIEGERVATER/stepfather/STIEFVATER/nephew/NEFFE
+2/m‰nnliche Familienmitglieder/father/VATER/brother/BRUDER/uncle/ONKEL/(boy) cousin/VETTER/grand father/GROﬂVATER/son/SOHN/grandson/ENKEL/father in law/SCHWIEGERVATER/stepfather/STIEFVATER/nephew/NEFFE
+3/Haustiere/cat/KATZE/dog/HUND/horse/PFERD/rabbit/KANINCHEN/fish/FISCH/gold fish/GOLD FISCH/hamster/HAMSTER/guinea pig/MEERSCHWEINCHEN/tortoise/SCHILDKR÷TE/mouse/MAUS
+3/Haustiere/cat/KATZE/dog/HUND/horse/PFERD/rabbit/KANINCHEN/fish/FISCH/gerbil/W‹STENRATTE/bird/VOGEL/budgerigar/WELLENSITTICH/parrot/PAPAGEI
+3/Haustiere/gold fish/GOLD FISCH/hamster/HAMSTER/guinea pig/MEERSCHWEINCHEN/tortoise/SCHILDKR÷TE/mouse/MAUS/fish/FISCH/gerbil/W‹STENRATTE/bird/VOGEL/budgerigar/WELLENSITTICH/parrot/PAPAGE
+4/Farben/blue/BLAU/green/GR‹N/red/ROT/yellow/GELB/white/WEIﬂ/brown/BRAUN/black/SCHWARZ/grey/GRAU/lilac/LILA/purple/PURPUR
+4/Farben/pink/ROSA/light/HELL/dark/DUNKEL/multi-coloured/BUNT/orange/ORANGEFARBIG/blue/BLAU/green/GR‹N/red/ROT/yellow/GELB/white/WEIﬂ
+4/Farben/blue/BLAU/green/GR‹N/red/ROT/yellow/GELB/white/WEIﬂ/brown/BRAUN/black/SCHWARZ/grey/GRAU/lilac/LILA/purple/PURPUR/pink/ROSA/light/HELL/dark/DUNKEL/multi-coloured/BUNT/orange/ORANGEFARBIG
+4/Farben/brown/BRAUN/black/SCHWARZ/grey/GRAU/lilac/LILA/purple/PURPUR/pink/ROSA/light/HELL/dark/DUNKEL/multi-coloured/BUNT/orange
+4/Farben/pink/ROSA/light/HELL/dark/DUNKEL/multi-coloured/BUNT/orange/ORANGEFARBIG/brown/BRAUN/black/SCHWARZ/grey/GRAU/lilac/LILA/purple/PURPUR
+GRADE2
+1/K÷rperteile/head/KOPF/body/K÷RPER/arm/ARM/elbow/ELLENBOGEN/hand/HAND/finger/FINGER/thumb/DAUMEN/wrist/HANDELENK/chest/BRUST/stomach/MAGEN
+1/K÷rperteile/abdomen/BAUCH/back/R‹CKEN/bottom/PO/behind/HINTERN/leg/BEIN/knee/KNIE/ankle/FUﬂGELENK/foot/FUﬂ/toe/ZEHE/nail/FINGERNAGEL/throat/HALS
+1/K÷rperteile/head/KOPF/body/K÷RPER/arm/ARM/elbow/ELLENBOGEN/hand/HAND/abdomen/BAUCH/back/R‹CKEN/bottom/PO/behind/HINTERN/leg/BEIN
+1/K÷rperteile/head/KOPF/body/K÷RPER/arm/ARM/elbow/ELLENBOGEN/hand/HAND/ankle/FUﬂGELENK/foot/FUﬂ/toe/ZEHE/nail/FINGERNAGEL/throat/HALS
+1/K÷rperteile/abdomen/BAUCH/back/R‹CKEN/bottom/PO/behind/HINTERN/leg/BEIN/ankle/FUﬂGELENK/foot/FUﬂ/toe/ZEHE/nail/FINGERNAGEL/throat/HALS
+1/K÷rperteile/abdomen/BAUCH/back/R‹CKEN/bottom/PO/behind/HINTERN/leg/BEIN/finger/FINGER/thumb/DAUMEN/wrist/HANDELENK/chest/BRUST/stomach/MAGE
+2/das Gesicht/head/KOPF/hair/HAAR/eye/AUGE/eyes/AUGEN/nose/NASE/mouth/MUND/tooth/ZAHN/lip/LIPPE/tongue/ZUNGE/ear/OHR
+2/das Gesicht/forehead/STIRN/eyelash/AUGENWIMPER/eyebrow/AUGENBRAUE/cheek/WANGE/chin/KINN/nostril/NASENLOCH/wrinkle/FALTE/lip/LIPPE/tongue/ZUNGE/ear/OHR
+2/das Gesicht/forehead/STIRN/eyelash/AUGENWIMPER/eyebrow/AUGENBRAUE/cheek/WANGE/chin/KINN/nostril/NASENLOCH/wrinkle/FALTE/eyes/AUGEN/nose/NASE/mouth/MUND/tooth/ZAHN
+2/das Gesicht/head/KOPF/hair/HAAR/eye/AUGE/eyes/AUGEN/nose/NASE/forehead/STIRN/eyelash/AUGENWIMPER/eyebrow/AUGENBRAUE/cheek/WANGE/chin/KINN
+3/Krankheit-Gesundheit/health/GESUNDHEIT/tiredness/M‹DIGKEIT/cough/HUSTEN/cold/ERKƒLTUNG/'flu/GRIPPE/sunburn/SONNENBRAND/burn/BRANDWUNDE/diarrhoea/DURCHFALL/constipation/VERSTOPFUNG/indigestion/SODBRENNEN
+3/Krankheit-Gesundheit/fever/FIEBER/thirsty/DURSTIG/hot/HEIﬂ/cold/KALT/hungry/HUNGRIG/to cough/HUSTEN/shiver/ZITTERN/to drink/TRINKEN/to eat/ESSEN/doctor/ARZT
+3/Krankheit-Gesundheit/dressing/VERBAND/aspirin/ASPIRIN/medicine/MEDIKAMENTE/cold/KALT/hungry/HUNGRIG/to cough/HUSTEN/shiver/ZITTERN/to drink/TRINKEN/to eat/ESSEN/doctor/ARZT
+3/Krankheit-Gesundheit/dressing/VERBAND/aspirin/ASPIRIN/medicine/MEDIKAMENTE/cold/ERKƒLTUNG/'flu/GRIPPE/sunburn/SONNENBRAND/burn/BRANDWUNDE/diarrhoea/DURCHFALL/constipation/VERSTOPFUNG/indigestion/SODBRENNEN
+4/Feste und Feiertage/Christmas/WEIHNACHTEN/Easter/OSTERN/Whitsuntide/PFINGSTEN/birthday/GEBURTSTAG/wedding/HOCHZEIT/Christening/TAUFE/birth/GEBURT/death/TOD/summer holidays/SOMMERFERIEN/confirmation/KONFIRMATION
+4/Feste und Feiertage/All Saints' Day/ALLER HEILIGEN/New Year/NEUJAHR/New Year's Eve/SYLVESTER/Christmas eve/HEILIGABEND/Christmas/WEIHNACHTEN/Easter/OSTERN/Whitsuntide/PFINGSTEN/birthday/GEBURTSTAG/summer holidays/SOMMERFERIEN/confirmation/KONFIRMATION
+4/Feste und Feiertage/All Saints' Day/ALLE HEILIGEN/New Year/NEUJAHR/New Year's Eve/SYLVESTER/Christmas eve/HEILIGABEND/wedding/HOCHZEIT/Christening/TAUFE/birth/GEBURT/death/TOD/summer holidays/SOMMERFERIEN/confirmation/KONFIRMATION
+4/Feste und Feiertage/Christmas/WEIHNACHTEN/Easter/OSTERN/Whitsuntide/PFINGSTEN/birthday/GEBURTSTAG/wedding/HOCHZEIT/All Saints' Day/ALLER HEILIGEN/New Year/NEUJAHR/New Year's Eve/SYLVESTER/Christmas eve/HEILIGABEND/confirmation/KONFIRMATION
+GRADE3
+1/K÷rperliche Beschreibung/tall/GROﬂ/small/KLEIN/pretty/H‹BSCH/beautiful/SCH÷N/thin/D‹NN/slim/SCHLANK/fat/DICK/plump/VOLLSCHANK/strong/STARK/weak/SCHWACH
+1/K÷rperliche Beschreibung/curly/LOCKIG/long/LANG/short/KURZ/straight/GLATT/bald/KAHL/slim/SCHLANK/fat/DICK/plump/VOLLSCHANK/strong/STARK/weak/SCHWACH
+1/K÷rperliche Beschreibung/tall/GROﬂ/small/KLEIN/pretty/H‹BSCH/beautiful/SCH÷N/thin/D‹NN/strong/STARK/weak/SCHWACH/curly/LOCKIG/long/LANG/short/KURZ
+1/K÷rperliche Beschreibung/curly/LOCKIG/long/LANG/short/KURZ/straight/GLATT/bald/KAHL/slim/SCHLANK/fat/DICK/plump/VOLLSCHANK/strong/STARK/pretty/H‹BSCH
+2/Pers÷nlichkeit/pleasant/SYMPATHISCH/aggressive/AGRESSIV/kind/LIEB/ambitious/EHRGEIZIG/fun/LUSTIG/stupid/DUMM/quiet/RUHIG/difficult/SCHWIERIG/intelligent/INTELLIGENT/lazy/FAUL
+2/Pers÷nlichkeit/skilful/GESCHICKT/shy/SCHUCHTERN/kind/NETT/sporty/SPORTLICH/sensitive/SENSIBEL/well behaved/BRAV/frightful/SCHRECKLICH/proud/STOLZ/impatient/UNGEDULDIG
+2/Pers÷nlichkeit/pleasant/SYMPATHISCH/aggressive/AGRESSIV/kind/LIEB/ambitious/EHRGEIZIG/fun/LUSTIG/sensitive/SENSIBEL/well behaved/BRAV/frightful/SCHRECKLICH/proud/STOLZ/impatient/UNGEDULDIG
+2/Pers÷nlichkeit/skilful/GESCHICKT/shy/SCHUCHTERN/kind/NETT/sporty/SPORTLICH/sensitive/SENSIBEL/stupid/DUMM/quiet/RUHIG/difficult/SCHWIERIG/intelligent/INTELLIGENT/lazy/FAUL
+3/Familienstand und Religion/single/LEDIG/divorced/GESCHIEDEN/married/VERHEIRATET/widowed/VERWITWET/catholic/KATHOLISCH/Christian/CHRISTLICH/practising religion/GLUƒBIG/Hindu/HINDU/Jewish/J‹DISCH/Muslim/MOHAMMEDANISCH
+3/Familienstand und Religion/protestant/EVANGELISCH/agnostic/AGNOSTISCH/Sikh/SIKH/atheist/ATHEISTISCH/superstitious/ABERGLƒBIG/single/LEDWIG/divorced/GESCHIEDEN/married/VERHEIRATET/widowed/VERWITWET/catholic/KATHOLISCH
+3/Familienstand und Religion/protestant/EVANGELISCH/agnostic/AGNOSTISCH/Sikh/SIKH/atheist/ATHEISTISCH/superstitious/ABERGLƒBIG/Christian/CHRISTLICH/practising religion/GLUƒBIG/Hindu/HINDU/Jewish/J‹DISCH/Muslim/MOHAMMEDANISCH
+3/Familienstand und Religion/single/LEDWIG/divorced/GESCHIEDEN/married/VERHEIRATET/widowed/VERWITWET/catholic/KATHOLISCH/Sikh/SIKH/atheist/ATHEISTISCH/superstitious/ABERGLƒUBIG/Christian/CHRISTLICH/Jewish/J‹DISCH
+4/Nationalit‰t/English/ENGLISCH/French/FRANZ÷SISCH/Scottish/SCHOTTISCH/Welsh/WALISISCH/Irish/IRISCH/Spanish/SPANISCH/Italian/ITALIENISCH/German/DEUTSCH/Belgian/BELGISCH/Swiss/SCHWEIZERISCH
+4/Nationalit‰t/Greek/GRIECHISCH/American/AMERIKANISCH/African/AFIKANISCH/Australian/AUSTRALIENISCH/Indian/INDISCH/Chinese/CHINESISCH/Japanese/JAPANISCH/Caribbean/KARIBISCH/Russian/RUSSISCH
+4/Nationalit‰t/Greek/GRIECHISCH/American/AMERIKANISCH/African/AFIKANISCH/Australian/AUSTRALIENISCH/Indian/INDISCH/Spanish/SPANISCH/Italian/ITALIENISCH/German/DEUTSCH/Belgian/BELGISCH/Swiss/SCHWEIZERISCH
+4/Nationalit‰t/English/ENGLISCH/French/FRANZ÷SISCH/Scottish/SCHOTTISCH/Welsh/WALISISCH/Irish/IRISCH/Greek/GRIECHISCH/American/AMERIKANISCH/African/AFIKANISCH/Australian/AUSTRALIENISCH/Indian/INDISCH
+GRADE4
+1/Die Schwester von deiner Mutter ist deine ___./Tante/Kusine/Onkel/Kusins/Groﬂvater/Groﬂmutter/Neffe/Bruder*Your mother's sister
+1/Die Tochter von deinem Onkel ist deine ___./Kusine/Onkel/Tante/Kusins/Groﬂvater/Groﬂmutter/Neffe/Bruder*Your uncle's daughter
+1/Der Mann von deiner Tante ist dein ___./Onkel/Kusine/Tante/Kusins/Groﬂvater/Groﬂmutter/Neffe/Bruder*Your aunt's husband
+1/Die Kinder von deinem Onkel sind deine ___./Kusins/Onkel/Tante/Kusins/Groﬂvater/Groﬂmutter/Neffe/Bruder*Your uncle's children
+1/Der Vater von deiner Mutter ist dein ___./Groﬂvater/Kusine/Onkel/Tante/Kusins/Groﬂmutter/Neffe/Bruder*Your mother's father
+1/Die Frau von deinem Groﬂvater ist deine ___./Groﬂmutter/Kusine/Onkel/Tante/Kusins/Groﬂvater/Neffe/Bruder*Your grandfather's wife
+1/Der Sohn von deiner Schw‰gerin ist dein ___./Neffe/Kusine/Onkel/Tante/Kusins/Groﬂvater/Groﬂmutter/Bruder*Your sister in law's son
+1/Die Tochter von deiner Schwester ist deine ___./Nichte/Kusine/Onkel/Tante/Kusins/Groﬂvater/Groﬂmutter/Neffe/Bruder*Your sister's daughter
+1/Der Sohn von deinen Eltern ist dein ___./Bruder/Kusine/Onkel/Tante/Kusins/Groﬂvater/Groﬂmutter/Neffe*Your parents' son
+1/Die Tochter von deinen Eltern ist deine ___./Schwester/Kusine/Onkel/Tante/Kusins/Groﬂvater/Groﬂmutter/Neffe/Bruder*Your parents' daughter
+1/Der Vater von deinem Vater ist dein ___./Groﬂvater/Kusine/Onkel/Tante/Kusins/Groﬂmutter/Neffe/Bruder*Your father's father
+1/Die Mutter von deiner Mutter ist deine ___./Groﬂmutter/Kusine/Onkel/Tante/Kusins/Groﬂvater/Neffe*Your mother's mother
+1/Die Eltern von deinen Eltern sind deine ___./Groﬂeltern/Kusine/Onkel/Tante/Kusins/Groﬂvater/Groﬂmutter/Neffe/Bruder*Your parents' parents
+1/Die Kinder von deinen Eltern sind deine ___./Geschwister/Kusine/Onkel/Tante/Kusins/Groﬂvater/Groﬂmutter/Neffe/Bruder*Your parents' children
+2/Dein Freund verreist.†Du sagst ___./Gute Reise/Gute Nacht/Guten Tag/Guten Appetit*Your friend is going on a trip. You say 'Have a good journey!'
+2/Du wirst gleich essen. Du sagst ___./Guten Appetit/Gute Reise/Tsch‹ﬂ/Gute Nacht*You are about to start eating a meal. You say 'Have a good meal!'
+2/Es ist Weihnachten. Man sagt ___./Frohe Weihnachten/Gute Reise/Gute Nacht/Guten Tag*It's Christmas Day. You say 'Happy Christmas!'
+2/Dein Freund macht bald seinen F‹hrerschein. Du sagst ___./Viel Gl‹ck/Guten Appetit/Gute Nacht/Guten Tag*Your friend is going to take his driving test. You say 'Good luck!'
+2/Es ist acht Uhr morgens. Man sagt ___./Guten Morgen/Gute Reise/Guten Appetit/Tsch‹ﬂ/Gute Nacht/Viel Gl‹ck/Guten Tag/Guten Appetit*It is 8 o'clock in the morning. You say 'Good morning'
+2/Es ist drei Uhr nachmittags. Man sagt ___./Guten Tag/Gute Reise/Guten Appetit/Tsch‹ﬂ/Gute Nacht/Viel Gl‹ck*It is 3 o'clock in the afternoon. You say 'Good day'
+2/Es ist acht Uhr abends. Man sagt ___./Guten Abend/Gute Reise/Guten Appetit/Tsch‹ﬂ/Gute Nacht/Viel Gl‹ck/Guten Tag/Guten Appetit*It is 8 o'clock in the evening. You say 'Good evening'
+2/Es ist sp‰t und du gehst zu Bett. Du sagst ___./Gute Nacht/Gute Reise/Guten Appetit/Viel Gl‹ck/Guten Tag/Guten Appetit*It is late and you are going to bed. You say 'Good night'
+2/Dein Freund geht weg. Du sagst ___./Tsch‹ﬂ/Guten Appetit/Viel Gl‹ck/Guten Tag/Guten Appetit*Your friend is leaving. You say 'Bye!'
+3/Hier kauft man Medikamente./Apotheke/Apothekerin/Di‰t/Halsweh/Taschentuch/Aspirin/Chirurg/gesund*You buy medicines here.
+3/Die Frau, die Rezepte vorbereitet ist ___./Apothekerin/Di‰t/Halsweh/Aspirin/Chirurg/gesund*The woman who make up prescriptions is a ...
+3/Wenn man sehr krank ist, geht man ins ___./Krankenhaus/Apothekerin/Di‰t/Halsweh/Taschentuch/gesund*You go there if you are seriously ill.
+3/Ein Mann, der Kranke operiert ist ___./Chirurg/Apothekerin/Di‰t/Halsweh/Apotheke/Aspirin/gesund*A man who operates on patients is a ...
+3/Man putzt die Nase mit einem ___./Taschentuch/Apothekerin/Di‰t/Halsweh/Apotheke/gesund*You use it to blow your nose.
+3/Wenn man Kopfweh hat, nimmt man ___./Aspirin/Apothekerin/Di‰t/Halsweh/Apotheke*You take them if you have a head ache.
+3/Wenn man Zahnweh hat, geht man zum ___./Zahnarzt/Apothekerin/Di‰t/Halsweh/Apotheke/Taschentuch*You go to him if you have tooth ache.
+3/Wenn man zu dick ist, macht man ___./Di‰t/Taschentuch/Aspirin/Zahnarzt/Chirurg/gesund*If you are too fat you have to go on a ...
+3/Rubella, AIDS und Lungenentz‹ndung sind ___./Krankheiten/Apothekerin/Di‰t/Taschentuch/Aspiri/gesundn/Chirurg*German measles, AIDS and pneumonia are ...
+3/Wenn man sich wohl f‹hlt, ist man ___./gesund/Apothekerin/Di‰t/Apotheke/Taschentuch/Aspirin/Halsweh*If you are feeling well you are ...
+3/Wenn man zu laut schreit, bekommt man ___./Halsweh/Di‰t/Apotheke/Taschentuch/Aspirin/Chirurg*If you shout too loudly you can have a sore ...
+3/Wenn man zu viel oder zu schnell iﬂt, bekommt man ___./Bauchschmerzen/Krankheiten/Halsweh/Taschentuch*If you eat too quickly or too much you can get ...
+3/Wenn man zu lang in der Sonne liegt, bekommt man einen ___./Sonnenstich/Apothekerin/Halsweh/Apotheke*If you stay too long in the sun you get sun ...
+3/Wenn die Musik zu laut ist, bekommt man ___./Kopfweh/Apothekerin/Di‰t/Halsweh/Krankheiten/Apotheke/Taschentuch*If the music is too loud, you get ...
+4/Wie heiﬂt das†Gegenteil von groﬂ?/klein/ungeduldig/geduldig/sch÷n/h‰ﬂlich/einfach/schwierig/dick/d‹nn/jung/alt/sauber/kurz*What is the opposite of tall?
+4/Wie heiﬂt das†Gegenteil von klein?/groﬂ/ungeduldig/geduldig/sch÷n/h‰ﬂlich/einfach/schwierig/dick/d‹nn/jung/alt/sauber/kurz*What is the opposite of small?
+4/Wie heiﬂt das†Gegenteil von geduldig?/ungeduldig/h‰ﬂlich/schwach/besorgt/d‹nn/dick/sauber*What is the opposite of patient?
+4/Wie heiﬂt das†Gegenteil von ungeduldig?/geduldig/schwach/dick/besorgt/sauber/kurz*What is the opposite of impatient?
+4/Wie heiﬂt das†Gegenteil von sch÷n?/h‰ﬂlich/lockig/schwach/d‹nn/alt/sauber/besorgt/kurz*What is the opposite of handsome?
+4/Wie heiﬂt das†Gegenteil von h‰ﬂlich?/sch÷n/lockig/schwach/alt/sauber/h‰ﬂlich/kurz*What is the opposite of ugly?
+4/Wie heiﬂt das†Gegenteil von dick?/d‹nn/lockig/h‰ﬂlich/brav/besorgt/kurz/groﬂ/klein*What is the opposite of fat?
+4/Wie heiﬂt das†Gegenteil von d‹nn?/dick/h‰ﬂlich/brav/schwach/unartig/besorgt/klein*What is the opposite of thin?
+4/Wie heiﬂt das†Gegenteil von schwierig?/einfach/h‰ﬂlich/reich/unartig/brav/lockig*What is the opposite of difficult?
+4/Wie heiﬂt das†Gegenteil von einfach?/schwierig/h‰ﬂlich/schwach/reich/unartig/brav*What is the opposite of easy?
+4/Wie heiﬂt das†Gegenteil von interessant?/langweilig/lockig/unartig/h‰ﬂlich/schwach/brav*What is the opposite of interesting?
+4/Wie heiﬂt das†Gegenteil von langweilig?/interessant/lockig/schwach/reich/brav/lockig*What is the opposite of boring?
+4/Wie heiﬂt das†Gegenteil von traurig?/gl‹cklich/lockig/schwach/brav/dick/besorgt/jung*What is the opposite of sad?
+4/Wie heiﬂt das†Gegenteil von gl‹cklich?/traurig/lockig/besorgt/schwach/brav/dick/unartig/jung*What is the opposite of happy?
+4/Wie heiﬂt das†Gegenteil von jung?/alt/lockig/schwach/dick/unartig/brav/besorgt/altmodig*What is the opposite of young?
+4/Wie heiﬂt das†Gegenteil von alt?/jung/lockig/m‰nnlich/schwach/besorgt/unartig/altmodig*What is the opposite of old?
+4/Wie heiﬂt das†Gegenteil von modern?/altmodig/schwach/dick/m‰nnlich/brav/sauber/kurz*What is the opposite of modern?
+4/Wie heiﬂt das†Gegenteil von altmodig?/modern/h‰ﬂlich/schwach/schmutzig/m‰nnlich/reich/dick/brav*What is the opposite of old-fashioned?
+4/Wie heiﬂt das†Gegenteil von schmutzig?/sauber/kurz/schwach/h‰ﬂlich/dumm/altmodig/modern*What is the opposite of dirty?
+4/Wie heiﬂt das†Gegenteil von sauber?/schmutzig/kurz/lockig/h‰ﬂlich/m‰nnlich/dumm/reich/schwach*What is the opposite of clean?
+4/Wie heiﬂt das†Gegenteil von brav?/unartig/kurz/lockig/schmutzig/m‰nnlich/schwach*What is the opposite of well behaved?
+4/Wie heiﬂt das†Gegenteil von unartig?/brav/kurz/dumm/lockig/schmutzig/reich/schwach*What is the opposite of naughty?
+4/Wie heiﬂt das†Gegenteil von heiﬂ?/kalt/kurz/m‰nnlich/dumm/reich/schwach/besorgt*What is the opposite of hot?
+4/Wie heiﬂt das†Gegenteil von kalt?/heiﬂ/m‰nnlich/stark/dumm/reich/schwach/besorgt*What is the opposite of cold?
+4/Wie heiﬂt das†Gegenteil von lang?/kurz/schmutzig/stark/altmodig/schwach/besorgt*What is the opposite of long?
+4/Wie heiﬂt das†Gegenteil von kurz?/lang/h‰ﬂlich/altmodig/stark/dumm/nerv÷s/schwach*What is the opposite of short?
+4/Wie heiﬂt das†Gegenteil von lockig?/glatt/altmodig/dumm/stark/breit/reich/nerv÷s/schwach*What is the opposite of curly?
+4/Wie heiﬂt das†Gegenteil von glatt?/lockig/h‰ﬂlich/altmodig/stark/breit/reich/nerv÷s/besorgt*What is the opposite of straight?
+4/Wie heiﬂt das†Gegenteil von eng?/breit/lang/h‰ﬂlich/dumm/altmodig/reich/m‰nnlich/nerv÷s*What is the opposite of narrow?
+4/Wie heiﬂt das†Gegenteil von breit?/eng/lang/reich/altmodig/stark/m‰nnlich/nerv÷s/schwach*What is the opposite of broad?
+4/Wie heiﬂt das†Gegenteil von intelligent?/dumm/lang/lockig/m‰nnlich/reich/nerv÷s/besorgt*What is the opposite of intelligent?
+4/Wie heiﬂt das†Gegenteil von dumm?/intelligent/lang/lockig/stark/reich/nerv÷s/jung/alt*What is the opposite of stupid?
+4/Wie heiﬂt das†Gegenteil von zart?/agressiv/jung/arm/breit/alt/altmodig/m‰nnlich/stark/nerv÷s/schwach*What is the opposite of gentle?
+4/Wie heiﬂt das†Gegenteil von agressiv?/zart/altmodig/stark/dumm/nerv÷s/jung/alt/schwach/arm/breit*What is the opposite of aggressive?
+4/Wie heiﬂt das†Gegenteil von weiblich?/m‰nnlich/stark/dumm/schwach/reich/nerv÷s/jung/alt/arm/breit*What is the opposite of feminine?
+4/Wie heiﬂt das†Gegenteil von m‰nnlich?/weiblich/altmodig/schwach/stark/dumm/jung/alt/arm/breit*What is the opposite of masculine?
+4/Wie heiﬂt das†Gegenteil von nett?/vies/breit/reich/nerv÷s/besorgt/schwach/jung/alt*What is the opposite of kind?
+4/Wie heiﬂt das†Gegenteil von vies?/nett/stark/schwach/dumm/jung/alt/arm/breit/besorgt*What is the opposite of nasty?
+4/Wie heiﬂt das†Gegenteil von schwarz?/weiﬂ/breit/stark/dumm/nerv÷s/jung/alt/schwach/arm*What is the opposite of black?
+4/Wie heiﬂt das†Gegenteil von weiﬂ?/schwarz/reich/stark/dumm/nerv÷s/jung/alt/schwach/arm/breit*What is the opposite of white?
+4/Wie heiﬂt das†Gegenteil von gut?/schlecht/stark/dumm/besorgt/nerv÷s/jung/alt/schwach/arm/breit*What is the opposite of good?
+4/Wie heiﬂt das†Gegenteil von schlecht?/gut/breit/stark/jung/alt/schwach/besorgt/arm*What is the opposite of bad?
+4/Wie heiﬂt das†Gegenteil von hoch?/niedrig/stark/dumm/reich/nerv÷s/jung/alt/schwach/arm/breit*What is the opposite of high?
+4/Wie heiﬂt das†Gegenteil von niedrig?/hoch/breit/dumm/nerv÷s/jung/alt/schwach/arm/besorgt*What is the opposite of low?
+4/Wie heiﬂt das†Gegenteil von verantwortlich?/unverantwortlich/dumm/reich/jung/alt/schwach/arm/breit*What is the opposite of responsible?
+4/Wie heiﬂt das†Gegenteil von unverantwortlich?/verantwortlich/breit/stark/dumm/nerv÷s/jung/alt*What is the opposite of irresponsible?
+4/Wie heiﬂt das†Gegenteil von h÷flich?/unh÷flich/stark/dumm/nerv÷s/einfach/schwierig/dick/jung/alt/schwach*What is the opposite of polite?
+4/Wie heiﬂt das†Gegenteil von unh÷flich?/h÷flich/breit/stark/reich/nerv÷s/einfach/schwierig/dick/jung/alt*What is the opposite of impolite?
+4/Wie heiﬂt das†Gegenteil von ledig?/verheiratet/reich/nerv÷s/einfach/schwierig/dick/jung/alt/schwach*What is the opposite of single?
+4/Wie heiﬂt das†Gegenteil von verheiratet?/ledig/breit/reich/nerv÷s/verheiratet/einfach/schwierig/dick/schwach*What is the opposite of married?
+4/Wie heiﬂt das†Gegenteil von besorgt?/unbesorgt/ungeduldig/geduldig/sch÷n/h‰ﬂlich/einfach/schwierig/dick/d‹nn/jung/alt/sauber/kurz/reich*What is the opposite of anxious?
+4/Wie heiﬂt das†Gegenteil von unbesorgt?/besorgt/breit/reich/jung/alt/schwach/arm*What is the opposite of carefree?
+4/Wie heiﬂt das†Gegenteil von nerv÷s?/ruhig/ungeduldig/geduldig/sch÷n/h‰ﬂlich/einfach/schwierig/dick/d‹nn/jung/alt/sauber/kurz/reich*What is the opposite of nervous?
+4/Wie heiﬂt das†Gegenteil von ruhig?/nerv÷s/sch÷n/h‰ﬂlich/einfach/schwierig/dick/d‹nn/jung/alt/sauber/kurz/reich*What is the opposite of calm?
+4/Wie heiﬂt das†Gegenteil von stark?/schwach/ungeduldig/geduldig/sch÷n/h‰ﬂlich/einfach/schwierig/dick/d‹nn/jung/alt/sauber/kurz/reich*What is the opposite of strong?
+4/Wie heiﬂt das†Gegenteil von schwach?/stark/nerv÷s/einfach/schwierig/dick/arm/breit*What is the opposite of weak?
+4/Wie heiﬂt das†Gegenteil von reich?/arm/breit/nerv÷s/einfach/schwierig/dick/jung/alt*What is the opposite of rich?
+4/Wie heiﬂt das†Gegenteil von arm?/reich/ungeduldig/geduldig/sch÷n/h‰ﬂlich/einfach/schwierig/dick/d‹nn/jung/alt/sauber/kurz/breit/jung/alt*What is the opposite of poor?
+GRADE5
+1/Mein Onkel, der viel Geld hat, ist sehr ___./reich/m‹de/ernst/ledig*My uncle who has a lot of money is very rich.
+1/Er hat nicht viel Haar auf dem Kopf; er ist ___./kahl/reich/m‹de/egoistisch/stolz/ernst/ledig*He hasn't got a lot of hair on his head; he is bald.
+1/Sie ist sehr gl‹cklich; sie ist ___./gutgelaunt/reich/m‹de/egoistisch/stolz/ernst/ledig*She is happy; she is in a good mood.
+1/Er arbeitet nicht gern; er ist ___./faul/egoistisch/sympathisch/stolz/ernst/ledig*He does not like working; he is lazy.
+1/Sie stellt viele Fragen; sie ist ___./neugierig/reich/m‹de/egoistisch/stolz/ernst*She asks a lot of questions; she is curious.
+1/Er ist nicht verheiratet; er ist ___./ledig/reich/m‹de/ernst*He is not married; he is single.
+1/Sie ist sehr nett; sie ist ___./sympathisch/m‹de/egoistisch/ernst*She is very kind; she is nice.
+1/Sie hat einen Preis bekommen. Sie ist ___./stolz/reich/m‹de/egoistisch/sympathisch*She has received a prize; she is proud.
+1/Er will keinen Spaﬂ machen; er ist ___./ernst/reich/m‹de/ledig/sympathisch*She looks serious; she is serious.
+1/Er denkt nicht an andere Leute. Er ist ___./egoistisch/m‹de/sympathisch/ledig/sympathisch*He does not think of others; he is selfish.
+1/Sie hat nicht genug geschlafen; sie ist ___./m‹de/reich/egoistisch/stolz/ernst/ledig/sympathisch*She has stayed up all night; she is tired.
+2/Sie kann ohne Probleme arbeiten. Die Arbeit ist ___./leicht/billig/voll/kaputt/ordentlich*She can do it without a problem; the work is easy.
+2/Weil sie es jede Woche putzt, ist ihr Auto __./sauber/billig/voll/kaputt/ordentlich*As she washes it every week, her car is clean.
+2/Der Film bringt uns zum Lachen; er ist ___./lustig/billig/voll/kaputt/sauber*The film makes us laugh; it is funny.
+2/Das kostet nicht sehr viel; es ist ___./billig/voll/kaputt/sauber/ordentlich*It is not expensive; it is cheap.
+2/Es gibt keinen Platz mehr auf dem Campingplatz; er ist ___./voll/billig/kaputt/sauber*There is no more space on the campsite; it is full.
+2/Die Maschine funktioniert nicht mehr; sie ist ___./kaputt/billig/voll/sauber/ordentlich*The machine doesn't work any more; it is broken down.
+2/Alle Spielzeuge sind wegger‰umt und das Zimmer ist __./ordentlich/billig/voll/kaputt*All the toys are in their place so the bedroom is tidy.
+2/Man muﬂ diese Frage beantworten; sie ist sehr ___./wichtig/billig/voll/kaputt/sauber/ordentlich*You must answer this question; it is very important.
+2/Er hat Probleme mit der Arbeit; sie ist ___./schwierig/billig/voll/kaputt/ordentlich*He has problems with his work; it is difficult.
+2/Die Stunde ist nicht interessant; sie ist ___./langweilig/billig/voll/kaputt/sauber/ordentlich*The lesson is not interesting; it is boring.
+3/Wie sagt man das noch :- #ohne Schwierigkeiten#./einfach/pl÷tzlich/falsch/umsonst/laut/m‹hevoll/perfekt*How else can you say it :-/without difficulty. (easily)
+3/Wie sagt man das noch :- #schnell und unerwartet#/pl÷tzlich/falsch/umsonst/laut/perfekt/umsonst*How else can you say it :-/quickly and unexpectedly. (suddenly)
+3/Wie sagt man das noch :- #komisch.#/ungew÷hnlich/pl÷tzlich/laut/m‹hevoll/perfekt/umsonst*How else can you say it :-/strange. (unusually)
+3/Wie sagt man das noch :- #mit viel M‹he#/m‹hevoll/pl÷tzlich/falsch/umsonst/laut/perfekt/umsonst*How else can you say it :-/with a lot of effort. (laboriously)
+3/Wie sagt man das noch :- #ohne Geduld#/ungeduldig/pl÷tzlich/falsch/m‹hevoll/perfekt/umsonst*How else can you say it :-/without patience. (impatiently)
+3/Wie sagt man das noch :- #nicht sehr schnell#/langsam/pl÷tzlich/falsch/umsonst/laut/m‹hevoll*How else can you say it :-/not very quickly. (slowly)
+3/Wie sagt man das noch :- #nicht richtig#/falsch/pl÷tzlich/umsonst/perfekt/umsonst*How else can you say it :-/not correctly. (incorrectly)
+3/Wie sagt man das noch :- #mit viel L‰rm#/laut/pl÷tzlich/m‹hevoll*How else can you say it :-/with a lot of noise. (loudly)
+3/Wie sagt man das noch :- #ohne Fehler#/perfekt/pl÷tzlich/falsch/umsonst/m‹hevoll/umsonst*How else can you say it :-/without a mistake. (perfectly)
+3/Wie sagt man das noch :- #mit Freude#/froh/pl÷tzlich/laut/perfekt/umsonst*How else can you say it :-/with joy. (joyfully)
+3/Wie sagt man das noch :- #kostenlos#/umsonst/pl÷tzlich/falsch/laut/m‹hevoll/perfekt*How else can you say it :-/without costs. (for nothing)
+4/Wie sagt man das noch :- #normalerweise#/gew÷hnlich/sp‰t/fr‹h/gleich/neulich/bald*How else can you say it :-/normally. (usually)
+4/Wie sagt man das noch :- #nicht sehr oft#/selten/sp‰t/zuerst/gew÷hnlich/gleich*How else can you say it :-/not very often. (seldom)
+4/Wie sagt man das noch :- #mit Versp‰tung#/sp‰t/selten/zuerst/fr‹h/neulich/bald*How else can you say it :-/with delay. (late)
+4/Wie sagt man das noch :- #jeden Tag oder jedes Jahr#/regelm‰ﬂig/selten/gew÷hnlich*How else can you say it :-/every day or every year. (regularly)
+4/Wie sagt man das noch :- #nicht sehr sp‰t#/fr‹h/selten/sp‰t/zuerst/neulich/bald*How else can you say it :-/not very late. (early)
+4/Wie sagt man das noch :- #ohne Versp‰tung#/rechtzeitig/selten/sp‰t/fr‹h/gleich*How else can you say it :-/without delay. (on time)
+4/Wie sagt man das noch :- #von Zeit zu Zeit#/manchmal/selten/zuerst/fr‹h/gew÷hnlich*How else can you say it :-/from time to time. (sometimes)
+4/Wie sagt man das noch :- #in kurzer Zeit#/bald/sp‰t/fr‹h/gew÷hnlich/zuletzt*How else can you say it :-/in a short time. (soon)
+4/Wie sagt man das noch :- #sofort#/gleich/selten/zuerst/neulich/fr‹h/rechtzeitig*How else can you say it :-/straight away. (in a jiffy)
+4/Wie sagt man das noch :- #vor kurzem#/neulich/selten/zuerst/fr‹h/bald/rechtzeitig*How else can you say it :-/a short time ago. (recently)
+4/Wie sagt man das noch :- #als erstes#/zuerst/sp‰t/fr‹h/gleich/bald/zuletzt/selten*How else can you say it :-/to start with. (first of all)
+4/Wie sagt man das noch :- #als letztes#/zuletzt/selten/sp‰t/zuerst/fr‹h/gew÷hnlich/gleich*How else can you say it :-/to finish with. (last of all)
+GRADE6
+1/Suche das Substantiv - feiern/das Fest*to celebrate : celebration
+1/Suche das Substantiv - spielen/das Spiel*to play : game
+1/Suche das Substantiv - tanzen/der Tanz*to dance : dance
+1/Suche das Substantiv - kochen/die K‹che*to cook : kitchen
+1/Suche das Substantiv - vorbereiten/die Vorbereitung*to prepare : preparation
+1/Suche das Substantiv - hinausfahren/die Ausfahrt*to go out :exit
+1/Suche das Substantiv - singen/der Gesang*to sing : song
+1/Suche das Substantiv - kleben/der Klebstoff*to stick : glue
+1/Suche das Substantiv - beten/die Bitte*to ask : request
+1/Suche das Substantiv - erfinden/die Erfindung*to discover : discovery
+1/Suche das Substantiv - probieren/die Probe*to taste : sample tasting
+1/Suche das Substantiv - ÷ffnen/die ÷ffnung*to open : opening
+1/Suche das Substantiv - fahren/die Fahrt*to travel : journey
+1/Suche das Substantiv - arbeiten/die Arbeit*to work : work
+1/Suche das Substantiv - trinken/das Getr‰nk*to drink : drink
+1/Suche das Substantiv - w‰hlen/die Wahl*to choose : choice
+1/Suche das Substantiv - zeichnen/die Zeichnung*to draw : drawing
+2/Suche das Verbum - der Verlust/verlieren*loss : to lose
+2/Suche das Verbum - der Verkauf/verkaufen*sale : to sell
+2/Suche das Verbum - das Risiko/riskieren*risk : to risk
+2/Suche das Verbum - das Geb‰ude/bauen*building : to build
+2/Suche das Verbum - die Antwort/antworten*reply : to reply
+2/Suche das Verbum - die Ausgabe/ausgeben*expense : to spend
+2/Suche das Verbum - die Wohnung/wohnen*habitation : to inhabit
+2/Suche das Verbum - der Tot/t÷ten*death : to kill
+2/Suche das Verbum - die Heizung/heizen*heating : to heat
+2/Suche das Verbum - die Tat/tun*deed : to do
+2/Suche das Verbum - die Aussicht/aussehen*view : to look
+2/Suche das Verbum - die Bezahlung/bezahlen*payment : to pay
+2/Suche das Verbum - der Dienst/bedienen*service : to serve
+2/Suche das Verbum - der Gedanke/denken*thought : to think
+2/Suche das Verbum - die Schrift/schreiben*writing : to write
+2/Suche das Verbum - die Verschmutzung/verschmutzen*pollution : pollute
+3/Suche das Adjektiv - vergr÷ssern/groﬂ*enlarge : large
+3/Suche das Adjektiv - verkleinern/klein*reduce : small
+3/Suche das Adjektiv - verschmutzen/schmutzig*to pollute : dirty
+3/Suche das Adjektiv - hassen/h‰ﬂlich*hate : ugly
+3/Suche das Adjektiv - lieben/lieb*love : dear
+3/Suche das Adjektiv - verhungern/hungrig*starve : hungry
+3/Suche das Adjektiv - verd‹rsten/durstig*to die of thirst : thirsty
+3/Suche das Adjektiv - vergleichen/gleich*compare : equal
+3/Suche das Adjektiv - interessieren/interessant*to interest : interesting
+3/Suche das Adjektiv - verbessern/besser*improve : better
+3/Suche das Adjektiv - w‰rmen/warm*to warm : warm
+3/Suche das Adjektiv - reinigen/rein*to clean : pure
+4/Suche das Partizipium - gehen/gegangen*to go : gone
+4/Suche das Partizipium - haben/gehabt*to have : had
+4/Suche das Partizipium - trinken/getrunken*to drink : drunk
+4/Suche das Partizipium - verstehen/verstanden*to understand : understood
+4/Suche das Partizipium - fahren/gefahren*to drive : driven
+4/Suche das Partizipium - kennen/gekannt*to know : known
+4/Suche das Partizipium - rennen/gerannt*to run : ran
+4/Suche das Partizipium - glauben/geglaubt*to believe : believed
+4/Suche das Partizipium - ÷ffnen/ge÷ffnet*to open : opened
+4/Suche das Partizipium - sagen/gesagt*to say : said
+4/Suche das Partizipium - schreiben/geschrieben*to write : written
+4/Suche das Partizipium - sein/gewesen*to be : been
+4/Suche das Partizipium - tun/getan*to do : done
+4/Suche das Partizipium - lesen/gelesen*to read : read
+4/Suche das Partizipium - legen/gelegt*to put : put
+4/Suche das Partizipium - sterben/gestorben*to die : dead
+4/Suche das Partizipium - geben/gegeben*to give : given
+4/Suche das Partizipium - regnen/geregnet*to rain : rained
+4/Suche das Partizipium - nehmen/genommen*to take : took
+4/Suche das Partizipium - empfangen/empfangen*to receive : received
+4/Suche das Partizipium - lachen/gelacht*to laugh : laughed
+4/Suche das Partizipium - wissen/gewuﬂt*to know : knew
+4/Suche das Partizipium - halten/gehalten*to hold : held
+4/Suche das Partizipium - kommen/gekommen*to come : came
+4/Suche das Partizipium - leben/gelebt*to live : lived
+4/Suche das Partizipium - sehen/gesehen*to see : saw
+4/Suche das Partizipium - singen/gesungen*to sing : sang
+4/Suche das Partizipium - finden/gefunden*to find : found
+4/Suche das Partizipium - w‰hlen/gew‰hlt*to choose : chosen
+4/Suche das Partizipium - verkaufen/verkauft*to sell : sold
+4/Suche das Partizipium - verlieren/verloren*to lose : lost

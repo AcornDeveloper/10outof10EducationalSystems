@@ -1,0 +1,91 @@
+1@Nimmst du deinen Tennisschläger mit? Ja, ich nehme ___ mit.#
+%ihn#es#sie#
+1@Machst du deine Hausaufgaben jeden Tag? Ja, ich mache ___ immer.#
+%sie#ihn#es#
+1@Sieht sie ihren Freund jeden Abend? Nein, aber sie sieht ___ sehr oft.#
+%ihn#sie#es#
+1@Hast du dein Pferd noch? Ja, ich habe ___ immer noch.#
+%es#ihn#sie#
+1@Bereitet dein Vater das Mittagessen vor? Ja, er kocht ___ jeden Sonntag.#
+%es#ihn#sie#
+1@Macht dein Bruder auch Einkäufe? Ja, er macht ___ am Wochenende.#
+%sie#ihn#es#
+1@Macht deine Mutter immer dein Bett? Nein, ich mache ___ immer selbst.#
+%es#ihn#sie#
+1@Machst du auch die Arbeit im Garten? Nein, mein Vater macht ___ normalerweise.#
+%sie#ihn#es#
+1@Räumt deine Schwester ihr eigenes Zimmer auf? Nein, sie räumt ___ nie auf.#
+%es#sie#ihn#
+1@Liest du gern dieses Buch? Ja, ich lese ___ sehr gern.#
+%es#ihn#sie#
+1@HÖrt Thomas die neue Kassette gern? Ja, er hÖrt ___ sehr gern.#
+%sie#ihn#es#
+1@Hast du das neue Computerspiel gern? Ja, ich habe ___ sehr gern.#
+%es#sie#ihn#
+1@Siehst du deine Großeltern sehr oft? Nein, ich sehe ___ sehr selten.#
+%sie#ihn#es#
+1@Holst du deine Freundin vom Bahnhof ab? Ja, ich hole ___ dort ab.#
+%sie#es#ihn#
+1@Rufst du manchmal deinen Opa an? Ja, ich rufe ___ jede Woche an.#
+%ihn#es#sie#
+2@Was schenkst du deinen Eltern zu Weihnachten. Ich schenke ___ ein Bild.#
+%ihnen#ihm#ihr#
+2@Was schenkst du deinem Bruder zu Weihnachten. Ich schenke ___ ein Buch.#
+%ihm#ihr#ihnen#
+2@Was schenkst du deiner Schwester zum Geburtstag? Ich schenke ___ Parfum.#
+%ihr#ihm#ihnen#
+2@Was schenkst du deinen Großeltern zur Silbernen Hochzeit. Ich schenke ___ Blumen.#
+%ihnen#ihm#ihr#
+2@Was kÖnnen wir Peter zum Geburtstag schenken? Wir kÖnnten ___ einen Kuli schenken.#
+%ihm#ihr#ihnen#
+2@Was sollen wir deinem Brieffreund zum Geburtstag schicken? Wir kÖnnten ___
+eine Kassette schicken.#
+%ihm#ihr#ihnen#
+2@Was haben dir deine Eltern zu Weihnachten geschenkt? Sie haben ___ einen Fotoapparat geschenkt.#
+%mir#ihm#ihnen#
+2@Was hat euch Paul von Deutschland mitgebracht? Er hat ___ Wein mitgebracht.#
+%uns#ihm#euch#
+2@Was bringst du uns von England mit? Ich bringe ___ Sonnenschein mit.#
+%euch#ihm#uns#
+3@GehÖrt dir diese Kassette? Ja, sie gehÖrt ___.#
+%mir#ihm#dir#
+3@GehÖrt Anna dieser Mantel? Ja, er gehÖrt ___.#
+%ihr#ihm#uns#
+3@GehÖrt dieses Buch Frank? Ja, es gehÖrt ___.#
+%ihm#uns#ihnen#
+3@GehÖrt dir dieser Kuli? Nein, er gehÖrt ___ nicht.#
+%mir#dir#Ihnen#
+3@GehÖren Ihnen diese Zeitungen? Ja,sie gehÖren ___.#
+%uns#ihnen#ihr#
+3@GehÖrt dieses Auto deinen Eltern? Ja, es gehÖrt ___.#
+%ihnen#ihr#ihm#
+3@GehÖren diese Kassetten deinen Schwestern? Ja, sie gehÖren ___.#
+%ihnen#Ihnen#ihm#
+3@GehÖrt Ihnen dieser Koffer? Ja, er gehÖrt ___.#
+%mir#ihm#Ihnen#
+3@GehÖrt dieses Fahrrad deinem Bruder? Ja, es gehÖrt ___.#
+%ihm#dir#Ihnen#
+3@GehÖrt dieses Haus deiner Familie? Ja, es gehÖrt ___.#
+%uns#ihm#euch#
+3@GehÖren diese Schuhe deiner Schwester? Ja, sie gehÖren ___.#
+%ihr#ihm#ihnen#
+4@Hast du den neuen Film gesehen? Ja, ich habe ___ schon gesehen.#
+%ihn#ihm#sie#
+4@Gibst du mir bitte die Zeitung? Ja, ich gebe sie ___ gleich.#
+%dir#es#ihm#
+4@Hast du diese Kassette gern? Ja, ich habe ___ sehr gern.#
+%sie#ihr#dich#
+4@Hast du meinen Brief bekommen? Ja, ich habe ___ gestern bekommen.#
+%ihn#mir#es#
+4@Willst du das Hockeyspiel sehen? Ja, ich will ___ sehen.#
+%es#dir#Ihnen#
+4@Schenkst du deinem Bruder etwas zum Geburtstag? Ja, ich schenke ___ ein Buch.#
+%ihm#dich#sie#
+4@Hast du deiner Brieffreundin eine Karte geschickt? Nein, aber ich habe ___ einen Brief geschickt.#
+%ihr#mir#uns#
+4@Habt ihr einen neuen Computer gekauft? Ja, wir haben ___ am Wochenende gekauft.#
+%ihn#uns#sie#
+4@Hast du mir eine Karte fÜr das Konzert gekauft? Ja, ich habe ___ heute gekauft.#
+%sie#dir#Ihnen#
+4@Hast du dieses Buch schon gelesen? Nein, aber ich mÖchte ___ lesen.#
+%es#ihn#mich#

@@ -1,0 +1,387 @@
+$ The Wall word file structure
+$ 1. <sub grade>/<German subject>/<English translation>/<sprite name>
+$ 2. <sub grade>/<German sentence>/<true>/<false> ... *<English translation>
+$ 3. <sub grade>/<German sentence>/<true>/<false>/<false>/<false>*<English translation>
+$ 4. <1>/<German definition>/<German answer>*<English translation>
+$    <2,3>/<German sentence>/<true>/<false>/<false>/<false>*<English translation>
+$    <4>/<German sentence>/<true>*<English translation>
+$ 5. <sub grade>/<German sentence>/<true>/<false>/<false>/<false>*<English translation>
+$ 6. <sub grade>/<German sentence>/<true>/<false>/<false>/<false>*<English translation>
+$ Grade 1 should NOT be user modified
+$ Grade 2,3 and 5 need underline characters at least as long as the answer
+$ Grade 2 needs at least two but no more than four options
+$ sub grade 1-4
+
+GRADE1
+1/Englisch/English/english
+1/Deutsch/German/german
+1/Franz÷sisch/French/france
+1/Spanisch/Spanish/spain
+1/Italienisch/Italian/italy
+1/Mathe/maths/mathematics
+1/Geschichte/history/history
+1/Erdkunde/geography/geography
+1/Religion/religious education/re
+1/Biologie/biology/biology
+1/Physik/physics/physics
+1/Chemie/chemistry/chemistry
+1/Sport/sport/sport
+1/Informatik/information technology/i.t.
+1/Musik/music/music
+1/Kunst/art/art
+1/Theater/drama/drama
+2/das Buch/(text) book/book
+2/das Heft/exercise book/exercise
+2/der Bleistift/pencil/pencil
+2/der Kuli/biro/biro
+2/das Lineal/ruler/ruler
+2/das Etui/pencil case/pencilcase
+2/der Tisch/table/table
+2/der Stuhl/chair/chair
+2/der Radiergummi/rubber/rubber
+2/die Tafel/chalkboard/board
+2/das Fenster/window/window
+2/die T‹r/door/door
+3/der Kassettenrekorder/cassette recorder/cassette
+3/der Fernseher/television/television
+3/der Lehrer/teacher (male)/mteach
+3/die Lehrerin/teacher (female)/fteach
+3/die Tasche/bag/bag
+3/das Bild/picture/picture
+3/das Poster/poster/poster
+3/das Videoger‰t/video recorder/vcr
+3/die Diskette/computer disc/disc
+3/der Taschenrechner/calculator/calculator
+3/der Schrank/cupboard/cupboard
+3/der Computer/computer/computer
+3/der Sch‹ler/school boy/schoolboy
+3/die Sch‹lerin/school girl/schoolgirl
+4/das Klassenzimmer/classroom/classroom
+4/die Bibliothek/library/library
+4/die Sporthalle/gymnasium/gymnasium
+4/das Schwimmbad/swimming pool/pool
+4/das Telefon/telephone/telephone
+4/die Rennbahn/running track/runtrack
+4/das B‹ro/office/office
+4/das Labor/laboratory/laboratory
+GRADE2
+1/Wo ist ___ Buch?/das/die/der*Where is the book?
+1/Wo ist ___ Heft?/das/die/der*Where is the exercise book?
+1/Wo ist ___ Bleistift?/der/das/die*Where is the pencil?
+1/Wo ist ___ Kuli?/der/das/die*Where is the biro?
+1/Wo ist ___ Lineal?/das/die/der*Where is the ruler?
+1/Wo ist ___ Etui?/das/die/der*Where is the pencil case?
+1/Wo ist ___ Tisch?/der/das/die*Where is the table?
+1/Wo ist ___ Stuhl?/der/das/die*Where is the chair?
+1/Wo ist ___ Radiergummi?/der/das/die*Where is the rubber?
+1/Wo ist ___ Lampe?/die/der/das*Where is the light?
+1/Wo ist ___ Kassettenrekorder?/der/das/die*Where is the cassette recorder?
+1/Wo ist ___ Fernseher?/der/das/die*Where is the T.V.?
+1/Wo ist ___ Tafel?/die/der/das*Where is the chalk board?
+2/Wo ist ___ Lehrerin?/die/der/das*Where is the teacher (female)?
+2/Wo ist ___ Lehrer?/der/das/die*Where is the teacher?
+2/Wo ist ___ Sch‹ler?/der/das/die*Where is the pupil?
+2/Wo ist ___ Sch‹lerin?/die/der/das*Where is the pupil (female)?
+2/Wo ist ___ Schule?/die/der/das*Where is the school?
+2/Wo ist ___ Computer?/der/das/die*Where is the computer?
+2/Wo ist ___ Schrank?/der/das/die*Where is the cupboard?
+2/Wo ist ___ Videoger‰t?/das/die/der*Where is the video recorder?
+2/Wo ist ___ Bild?/das/die/der*Where is the picture?
+2/Wo ist ___ Poster?/das/die/der*Where is the poster?
+2/Wo ist ___ Taschenrechner?/der/das/die*Where is the calculator?
+2/Wo ist ___ Klassenzimmer?/das/die/der*Where is the classroom?
+2/Wo ist ___ Bibliothek?/die/der/das*Where is the library?
+2/Wo ist ___ Schwimmbad?/das/die/der*Where is the swimming pool?
+2/Wo ist ___ Rennbahn?/die/der/das*Where is the running track?
+2/Wo ist ___ B‹ro?/das/die/der*Where is the office?
+3/Ist hier ___ Buch?/ein/eine*Is there a (text) book here?
+3/Ist hier ___ Heft?/ein/eine*Is there an exercise book here?
+3/Ist hier ___ Lineal?/ein/eine*Is there a ruler here?
+3/Ist hier ___ Bleistift?/ein/eine*Is there a pencil here?
+3/Ist hier ____ Mappe?/eine/ein*Is there a school bag here?
+3/Ist hier ___ Radiergummi?/ein/eine*Is there a rubber here?
+3/Ist hier ____ Tafel?/eine/ein*Is there a chalkboard here?
+3/Ist hier ____ T‹r?/eine/ein*Is there a door here?
+3/Ist hier ___ Bild?/ein/eine*Is there a picture here?
+3/Ist hier ___ Lehrer?/ein/eine*Is there a teacher here?
+3/Ist hier ____ Sch‹lerin?/eine/ein*Is there a schoolgirl here?
+3/Ist hier ___ Sch‹ler?/ein/eine*Is there a school boy here?
+3/Ist hier ____ Bibliothek?/eine/ein*Is there a library here?
+3/Ist here ___ Schwimmbad?/ein/eine*Is there a swimming pool here?
+4/Ist hier ___ Videoger‰t?/ein/eine*Is there a video recorder here?
+4/Ist hier ___ Fernseher?/ein/eine*Is there a television here?
+4/Ist hier ___ Tisch?/ein/eine*Is there a table here?
+4/Ist hier ___ Stuhl?/ein/eine*Is there a chair here?
+4/Ist hier ___ Fenster?/ein/eine*Is there a window here?
+4/Ist hier ____ Rennbahn?/eine/ein*Is there a running track here?
+4/Ist hier ____ Sporthalle?/eine/ein*Is there a gymnasium here?
+4/Ist hier ____ Toilette?/eine/ein*Is there a toilet here?
+4/Ist hier ____ Kantine?/eine/ein*Is there a canteen here?
+4/Ist hier ___ Labor?/ein/eine*Is there a laboratory here?
+4/Ist hier ___ Etui?/ein/eine*Is there a pencil case here?
+4/Ist hier ____ Gesamtschule?/eine/ein*Is there a comprehensive school here?
+4/Ist hier ___ Gymnasium?/ein/eine*Is there a grammar school here?
+4/Ist hier ____ Realschule?/eine/ein*Is there a secondary modern school here?
+GRADE3
+1/Wo ist ____ Buch?/mein/meine/deine/ihre*Where is my text book?
+1/Wo ist _____ Tasche?/meine/mein/dein/ihr*Where is my bag?
+1/Wo ist ____ Lineal?/dein/unsere/seine/meine*Where is your ruler?
+1/Wo ist _____ Diskette?/deine/unser/sein/Ihr*Where is your disc?
+1/Wo ist ____ Mappe?/ihre/unser/ihr/dein*Where is her school bag?
+1/Wo ist ___ Etui?/ihr/unsere/meine/ihre*Where is her pencil case?
+1/Wo ist _____ Tisch?/unser/seine/deine/euere?*Where is our table?
+1/Wo ist ______ Lehrerin?/unsere/sein/unser/euer?*Where is our teacher (female)?
+1/Wo ist ____ Etui?/sein/deine/unsere/euere*Where is his pencil case?
+1/Wo ist _____ Kassette?/seine/dein/unser/Ihr*Where is his cassette?
+1/Wo ist ____ Klassenzimmer?/euer/meine/unsere/ihre*Where is your(plural) classroom?
+1/Wo ist _____ Sporthalle?/euere/mein/unser/ihr*Where is your(plural) gymnasium?
+1/Wo ist ___ Taschenrechner?/Ihr/meine/unsere/Ihre*Where is your(polite) calculator?
+1/Wo ist ____ Tasche?/Ihre/mein/dein/ihr*Where is your(polite) bag?
+1/Wo ist ____ Kantine?/ihre/euer/unser/mein*Where is their/her canteen?
+1/Wo ist ___ Klassenzimmer?/ihr/euere/unsere/meine*Where is their/her classroom?
+2/Wo sind meine ______?/B‹cher/Buch/Lineal/Bleistift*Where are my books?
+2/Wo sind deine _____?/Hefte/Heft/Lehrer/T‹r*Where are your exercise books?
+2/Wo sind seine __________?/Bleistifte/Tisch/Lineal/Klassenzimmer*Where are his pencils?
+2/Wo sind ihre _____?/Kulis/Tasche/Mappe/Heft*Where are her/their biros?
+2/Wo sind unsere ______?/St‹hle/Bild/Kassette/Stuhl*Where are our chairs?
+2/Wo sind euere ______?/Tische/Tisch/Stuhl/Schrank*Where are your(plural) tables?
+2/Wo sind ihre _________?/Disketten/Diskette/Videoger‰t/Fach*Where are their/her discs?
+2/Wieviele ___________ sind in deiner Schule?/Lehrerinnen/Kuli/Telefon/Stuhl*How many female teachers are there in your school?
+2/Wieviele Sch‹ler und ____________ sind in deiner Schule?/Sch‹lerinnen/Tisch/Stuhl/Lehrerin*How many male and female pupils are there in you school?
+2/Wieviele ______ sind in deinem Klassenzimmer?/Tische/Stuhl/Bild/Kuli*How many tables are there in your classroom?
+2/Wieviele ________ sind in diesem Labor?/Schr‰nke/Tisch/Stuhl/Buch*How many cupboards are there in this laboratory?
+2/Was sind deine _______________?/Lieblingsf‰cher/Heft/Buch/Fach*What are your favourite subjects?
+2/Wieviele _________ hast du?/Disketten/Kassette/Kuli/Bleistift*How many discs have you got?
+2/Wieviele _______ hast du?/Lineale/Kuli/Bleistift/Lineal*How many rulers have you got?
+2/Wieviele ______ hast du?/Poster/Bleistift/Telefon/Bild*How many posters have you got?
+2/Wieviele _____________ hast du?/Etui/Kuli/Bild/Tisch*How many pencil cases have you got?
+2/Wieviele _______ sind im Klassenzimmer?/Fenster/T‹r/Schrank/Lampe*How many windows are there in the classroom?
+3/Wo ist dein Bleistift? __ ist zu Hause./Er/Sie/Du/Es*Where is your pencil? It is at home.
+3/Wo ist deine Tasche? ___ ist zu Hause./Sie/Er/Es/Mein*Where is your bag? It is at home.
+3/Wo ist dein Buch? __ ist zu Hause./Es/Er/Sie/Wir*Where is your book?It is at home.
+3/Wo ist dein Deutschheft? __ ist zu Hause./Es/Sie/Ihr/Er*Where is your German exercise book? It is at home.
+3/Wo sind deine Poster? ___ sind in meinem Schlafzimmer./Sie/Es/Er/Wir*Where are your posters? They are in my bedroom.
+3/Wo sind die B‹cher? ____ sind im Schrank da dr‹ben./Sie/Er/Wir/Es*Where are the books? They are in the cupboard over there.
+3/Wo ist das Videoger‰t? __ ist in der Bibliothek./Es/Sie/Mein/Er*Where is the video recorder? It is in the library.
+3/Wo sind die Lehrer? ___ sind im Lehrerzimmer./Sie/Es/Du/Er*Where are the teachers? They are in the staffroom.
+3/Wo sind die Sch‹ler? ___ sind zu Hause./Sie/Er/Wir/Es*Where are the pupils? They are at home.
+3/Wo ist die Sporthalle? ___ ist hinter der Schule./Sie/Er/Es/Der*Where is the gymnasium? It is behind the school.
+3/Wo sind die Tennispl‰tze? ___ sind rechts von der Sporthalle./Sie/Das/Er/Es*Where are the tennis courts? They are to the right of the gymnasium.
+3/Wo ist der Umkleideraum? __ ist geradeaus./Er/Sie/Es/Du*Where is the changing room? It is straight on.
+4/Ich habe ___ Heft vergessen./mein/meinen/meine/deinen*I have forgotten my exercise book.
+4/Ich habe _____ Tasche vergessen./meine/meinen/mein/sein*I have forgotten my bag.
+4/Ich habe ______ Bleistift vergessen./meinen/mein/sein/kein*I have forgotten my pencil.
+4/Ich habe ____ Federm‰ppchen vergessen./mein/meine/keinen/deinen*I have forgotten my pencilcase.
+4/Ich habe ______ Kuli dabei./keinen/keine/mein/deine*I have not got a biro with me.
+4/Ich habe ____ Radiergummi dabei./keinen/kein/meinen/seinen*I have not got a rubber with me.
+4/Ich habe _____ Hefte dabei./keine/mein/dein/sein*I have not got any exercise books with me.
+4/Ich habe _____ Disketten dabei./keine/sein/deinen/meinen*I have not got any discs with me.
+4/Ich habe _____ Mappe dabei./keine/keinen/kein/mein*I have not got a school bag with me.
+4/Hast du _____ Radiergummi, bitte?/einen/eine/einen/mein*Have you got a rubber, please?
+4/Hast du ___ Buch, bitte?/ein/einen/meinen/seinen*Have you got a book, please?
+4/Hast du ___ Lineal, bitte?/ein/eine/meine/seine*Have you got a ruler, please?
+4/Wir haben ______ Computer in diesem Klassenzimmer./keinen/kein/keine/sein*We have not got a computer in this classroom.
+4/Wir haben _____ Fernseher in diesem Klassenzimmer./einen/ein/eine/keine*We have a T.V in this classroom.
+4/Wir haben ___ Videoger‰t in diesem Klassenzimmer./ein/einen/eine/keinen*We have got a video recorder in this classroom.
+GRADE4
+1/Sie unterrichtet an einer Grundschule oder an einem Gymnasium./Eine Lehrerin*She teaches at a primary school or a grammar school. A teacher
+1/Er verkauft etwas in einem Laden oder von einem B‹ro./Ein Gesch‰ftsmann*He sells something in a shop or from an office. A businessman
+1/Er arbeitet oft mit Maschinen auf dem Lande./Ein Bauer*He often works with machines in the countryside. A farmer
+1/Sie operiert mit den H‰nden an einem Kranken./Eine Chirurgin*She operates with her hands on people who are ill. A surgeon
+1/Er pflegt Leute in der Klinik oder im Krankenhaus/Ein Krankenpfleger*He looks after people in a clinic or in hospital. A nurse
+1/Er bedient Touristen in der Gastst‰tte oder im Hotelrestaurant/Ein Kellner*He serves tourists in an inn or in a hotel-restaurant. A waiter
+1/Er f‰hrt mit einem Lastkraftwagen zum Containerhafen./Ein LKW-Fahrer*He drives a lorry to the container-port. A lorry-driver
+1/Er arbeitet mit Maschinen oder in der Elektrotechnik./Ein Ingenieur*He works with machines or in the field of electro-technology. An engineer
+1/Er ‹bersetzt Sprachen mit Hilfe von einem W÷rterbuch./Ein Dolmetscher*He translates languages with the help of a dictionary. An interpreter
+1/Sie versucht Kranken mit Medikamenten oder mit einer Therapie zu helfen./Eine ƒrztin*She tries to help people with medicines or therapy. A doctor
+1/Sie schreibt B‹cher vielleicht mit einem Textverarbeiter oder einem Computer./Eine Schriftstellerin*She writes books perhaps with a word-processor or a computer. A writer
+1/Sie spricht viel am Telefon in einem B‹ro./Eine Sekret‰rin*She talks on the phone a lot in an office. A secretary
+1/Sie arbeitet in einem Laden oder auf einem Markt./Eine Verk‰uferin*She works in a shop or on a market. A sales assistant
+1/Sie singt im Chor oder mit einer Rockband./Eine S‰ngerin*She sings in the choir or with a rock-band. A singer
+1/Er schreibt Zeitungsartikeln mit der Schreibmaschine oder mit einem Textverarbeiter./Ein Journalist*He writes articles with a type-writer or a word-processor. A journalist
+1/Er liefert die Post manchmal mit dem Rad aber oft zu Fuﬂ./Ein Brieftr‰ger*He sometimes delivers the mail by bike but often on foot. A postman
+1/Er produziert etwas meistens mit Maschinen in einer Fabrik./Ein Fabrikarbeiter*He produces something usually with machines in a factory. A factory-worker
+1/Sie arbeitet viel mit den H‰nden oder mit Maschinen im Haushalt./Eine Hausfrau*She works a lot with her hands or with machines at home. A housewife
+2/Eine Lehrerin ____________ an einer Grundschule oder an einem Gymnasium./unterrichtet/verkauft/operiert/f‰hrt*A teacher teaches at a primary school or a grammar school.
+2/Ein Gesch‰ftsmann ________ etwas in einem Laden oder von einem B‹ro./verkauft/unterrichtet/pflegt/operiert*A businessman sells something in a shop or from an office.
+2/Ein Bauer ________ oft mit Maschinen auf dem Lande./arbeitet/unterrichtet/bedient/singt*A farmer often works with machines in the countryside.
+2/Eine Chirurgin ________ mit den H‰nden an einem Kranken./operiert/verkauft/singt/schreibt*A surgeon operates with her hands on people who are ill.
+2/Ein Krankenpfleger ______ Leute in der Klinik oder im Krankenhaus./pflegt/singt/arbeitet/schreibt*A nurse looks after people in a clinic or in hospital.
+2/Ein Kellner _______ Touristen in der Gastst‰tte oder im Hotelrestaurant/bedient/arbeitet/verkauft/f‰hrt*A waiter serves tourists in an inn or in a hotel-restaurant.
+2/Ein LKW-Fahrer _____ mit einem Lastkraftwagen zum Containerhafen./f‰hrt/schreibt/singt/bedient*A lorry-driver drives a lorry to the container-port.
+2/Ein Ingenieur ________ mit Maschinen oder in der Elektrotechnik/arbeitet/singt/spricht/verkauft*An engineer works with machines or in the field of electro-technology.
+2/Ein Dolmetscher _________ Sprachen mit Hilfe von einem W÷rterbuch./‹bersetzt/f‰hrt/verkauft/operiert*An interpreter translates languages with the help of a dictionary.
+2/Eine ƒrztin _____ Kranken mit Medikamenten oder mit einer Therapie./hilft/singt/schreibt/arbeitet*A doctor helps people with medicines or therapy.
+2/Eine Schriftstellerin ________ B‹cher vielleicht mit einem Textverarbeiter oder einem Computer./schreibt/singt/bedient/hilft*An authoress writes books perhaps with a word-processor or a computer.
+2/Eine Sekret‰rin _______ viel am Telefon in einem B‹ro./spricht/schreibt/f‰hrt/liefert*A secretary talks on the phone a lot in an office.
+2/Eine Verk‰uferin ________ in einem Laden oder auf einem Markt./arbeitet/f‰hrt/pflegt/produziert*A sales assistant works in a shop or on a market.
+2/Eine S‰ngerin _____ im Chor oder mit einer Rockband./singt/schreibt/liefert/f‰hrt*A singer sings in the choir or with a rock-band.
+2/Ein Journalist ________ Zeitungsartikeln mit der Schreibmaschine oder mit einem Textverarbeiter./schreibt/singt/bedient/f‰hrt*A journalist writes articles with a type-writer or a word-processor.
+2/Ein Brieftr‰ger _______ die Post manchmal mit dem Rad aber oft zu Fuﬂ./liefert/singt/bedient/operiert*A postman sometimes delivers the mail by bike but often on foot.
+2/Ein Fabrikarbeiter __________ etwas meistens mit Maschinen in einer Fabrik./produziert/singt/f‰hrt/spricht*A factory-worker produces something usually with machines in a factory.
+3/Eine Hausfrau arbeitet __ Haushalt./im/in/zum/zu*A housewife works at home.
+3/Ein Fabrikarbeiter produziert etwas __ einer Fabrik./in/im/mit/auf*A factory worker produces someting in a factory.
+3/Ein Brieftr‰ger liefert die Post oft __ Fuﬂ./zu/zum/in/von*A postman often delivers the mail on foot.
+3/Ein Journalist schreibt Artikeln ___ einem Textverarbeiter./mit/zu/im/in*A journalist writes articles with a word-processor.
+3/Eine Lehrerin unterrichtet manchmal __ einem Gymnasium./an/zum/im/zur*A teacher sometimes teaches in a grammar-school.
+3/Ein Gesch‰ftsmann verkauft etwas ___ einem B‹ro./von/zum/im/auf*A businessman sells something from an office.
+3/Ein Bauer arbeitet ___ dem Lande./auf/im/an/zum*A farmer works in the country.
+3/Eine Chirurgin operiert __ einem Kranken./an/zum/von/zur*A surgeon operates on a sick person.
+3/Ein Krankenpfleger pflegt Leute __ Krankenhaus./im/in/zur/mit*A nurse looks after people in a hospital.
+3/Ein Kellner bedient Touristen __ der Gastst‰tte./in/im/zum/auf*A waiter serves tourists in a restaurant.
+3/Ein LKW-Fahrer f‰hrt ___ Containerhafen./zum/in/mit/zur*A lorry-driver drives to the container-port.
+3/Ein Ingenieur arbeitet oft __ der Elektrotechnik./in/im/vom/ur*An engineer often works in the field of electronics.
+3/Ein Dolmetscher ‹bersetzt Sprachen mit Hilfe ___ einem W÷rterbuch./von/im/zum/zu*An interpreter translates languages with the help of a dictionary.
+3/Eine ƒrztin versucht Kranken ___ Medikamenten zu helfen./mit/von/in/im*A doctor tries to help sick people with medicines.
+3/Eine Schriftstellerin schreibt B‹cher ___ einem Computer./mit/in/zur/im*An authoress writes books with a computer.
+3/Eine Sekret‰rin spricht viel __ Telefon./am/zu/in/auf*A secretary talks a lot on the telephone.
+3/Eine Verk‰uferin arbeitet manchmal ___ einem Markt./auf/zum/im/vom*A sales-assistant somtimes works on a market.
+3/Eine S‰ngerin singt __ Chor./im/von/auf/zu*A singer sings in the choir.
+4/Ein Tischler h‰mmert N‰gel mit einem .../Hammer*A carpenter hammers nails with a hammer.
+4/Ein Konstrukteur zeichnet Pl‰ne mit einem .../Bleistift*A draughtsman draws plans with a pencil.
+4/Ein Bankbeamter rechnet Geldsummen mit einem .../Taschenrechner*A bank-clerk calculates sums of money with a calculator.
+4/Eine Krankenschwester miﬂt Fieber mit einem .../Fieberthermometer*A nurse measures someone's temperature with a clinical thermometer.
+4/Ein Dolmetscher ‹bersetzt Sprachen mit einem .../W÷rterbuch*An interpreter translates languages with a dictionary.
+4/Ein Metzger schneidet Fleisch mit einem .../Messer*A butcher cuts bread with a knife.
+4/Ein Telephonist vermittelt Gespr‰che mit einem .../Telefon*A telephonist handles conversations on a telephone.
+4/Ein Reporter macht Interviews mit einem .../Kassettenrekorder*A reporter records interviews on a cassette-recorder.
+4/Ein LKW-fahrer f‰hrt mit einem .../Laswagen*A lorry-driver drives in a lorry.
+4/Ein Gem‹seh‰ndler wiegt Obst mit einer .../Waage*A green-grocer weighs fruit with a set of scales.
+4/Ein Fotograf knipst Bilder mit einem .../Fotoapparat*You take pictures with a camera.
+4/Eine Stenotypistin tippt Briefe mit einer .../Schreibmaschine*A shorthand-typist types letters with a type-writer.
+4/Ein Koch grillt W‹rste in einer .../Pfanne*A cook fries sausages in a pan.
+4/Ein Rockmusiker singt lauter mit einem .../Mikrofon*A rock-singer sings louder with a microphone.
+4/Ein B‰cker b‰ckt Brot in einem .../Backofen*A baker bakes bread in an oven.
+4/Eine Schneiderin n‰ht Kleider mit einer .../N‰hmaschine*A tailoress sews clothes with a sewing-machine.
+4/Ein Filmregisseur macht Videofilme mit einer .../Videokamera*A film-maker makes video-films with a video camera.
+GRADE5
+1/Mein Bruder ____ vielleicht in einer Porzellanfabrik arbeiten./wird/werde/werdet/wirst*My brother will perhaps work in a factory producing china.
+1/Ich _____ sp‰ter in einer Textilfabrik arbeiten./werde/wird/werdet/wirst*I will work in a factory which produces textiles in future.
+1/Meine Schwester ____ wahrscheinlich Medizin studieren./wird/werden/wirst/werde*My sister will probably study medicine.
+1/_____ du n‰chstes Jahr auf die Uni gehen?/Wirst/Werdet/Werde/Wird*Are you going to university next year?
+1/Wir ______ hoffentlich in der Pr‹fung nicht durchfallen./werden/werdet/wirst/wird*We hope we don't fail the test.
+1/Was ______ ihr auf der Berufsschule lernen?/werdet/wirst/wird/werden*What will you learn at college?
+1/Im Sommer _____ ich einen Ferienjob in Deutschland suchen./werde/werden/wird/wirst*In summer I'm going to look for a holiday-job in Germany.
+1/Meine Freunde ______ alle auf der Universit‰t studieren./werden/wird/werdet/wirst*My friends are all going to study at university.
+1/Nach dem Abitur ____ er eine Stelle in einer Bank suchen./wird/werden/werdet/wirst*After 'A-levels' he is going to look for a job in a bank.
+1/Hoffentlich _____ du nicht arbeitslos sein./wirst/werdet/wird/werden*Let's hope you won't be unemployed.
+1/Nach den Ferien ______ wir eine wichtige Pr‹fung machen./werden/wird/werdet/wirst*After the holidays we've got an important test.
+1/Ich _____ diese Pr‹fung hoffentlich bestehen./werde/werden/wird/wirst*I hope I'll pass that test.
+1/Wann _____ du die Schule verlassen?/wirst/werde/werden/wird*When will you leave school?
+1/______ Sie sp‰ter in einem Hotel arbeiten?/werden/werdet/wirst/wird*Will you work in a hotel in the future?
+1/Was ____ deine Freundin in der Oberstufe lernen?/wird/werdet/wirst/werden*What is your girl-friend going to take in the 6th form?
+1/Hoffentlich _____ ich eine gute Note im Examen bekommen./werde/werden/wird/werdet*I hope I'll get good marks in my exams.
+1/Vielleicht ______ mein Freund und ich ein Gesch‰ft aufmachen./werden/wird/werdet/wirst*Perhaps my friend and I will open a shop.
+1/N‰chstes Jahr ____ er wahrscheinlich in die Lehre gehen./wird/werdet/wirst/werden*Next year he will probably start work as an apprentice.
+1/Ich _____ am Wochenende f‹r meine Deutschpr‹fung pauken m‹ssen./werde/wird/werdet/wirst*I will have to swot for my German test at the weekend.
+2/Mein Bruder m÷chte vielleicht in _____ M÷belfabrik arbeiten./einer/ein/eine/einem*My brother would perhaps like to work in a furniture-factory.
+2/Ich will sp‰ter in _____ Steinbruch arbeiten./einem/ein/eine/einen*I want to work in a quarry in future.
+2/Willst du n‰chstes Jahr auf ___ Uni gehen?/die/der/dem/des*Do you want to go to university next year?
+2/Wir hoffen in ___ Pr‹fung nicht durchzufallen./der/das/des/den*We hope we don't fail the test.
+2/Was wollt ihr auf ___ Berufsschule lernen?/der/das/des/den*What do you want to learn at college?
+2/Im Sommer will ich _____ Ferienjob in Deutschland suchen./einen/einer/einem/keinem*In summer I want to look for a holiday-job in Germany.
+2/Meine Freundinnen wollen alle auf ___ Universit‰t studieren./der/das/den/des*My friends all want to study at university.
+2/Nach dem Abitur m÷chte er ____ Stelle in einer Bank suchen./eine/einem/einer/einen*After 'A-levels' he wants to look for a job in a bank.
+2/Nach den Ferien m‹ssen wir ____ wichtige Pr‹fung machen./eine/einem/einen/einer*After the holidays we have to take an important test.
+2/Ich kann _____ Pr‹fung hoffentlich bestehen./diese/diesem/dieser/dieses*I hope I can pass that test.
+2/Wann sollst du ___ Schule verlassen?/die/das/den/der*When are you supposed to leave school?
+2/M÷chten Sie vielleicht in _____ Hotel arbeiten?/einem/eine/einen/einer*Would you like to work in a hotel perhaps?
+2/Was will deine Freundin in ___ Oberstufe lernen?/der/das/den/die*What does your friend want to take in the 6th form?
+2/Ich hoffe eine gute Note in ___ Examen zu bekommen./dem/die/der/des*I hope to get good marks in the exam.
+2/Vielleicht k÷nnen mein Freund und ich ___ Gesch‰ft aufmachen./ein/einem/einer/eines*Perhaps my friend and I can open a shop.
+2/N‰chstes Jahr will er wahrscheinlich in ___ Lehre gehen./die/dem/des/den*Next year he will probably start an apprenticeship.
+2/Ich muﬂ am Wochenende f‹r ____ Deutschpr‹fung pauken./eine/einer/ein/einen*I've got to swot for a German test at the weekend.
+3/Mein Bruder m÷chte vielleicht in einer Plattenfabrik ________./arbeiten/gehen/durchfallen/aufmachen*My brother would perhaps like to work in a record-factory.
+3/Ich will sp‰ter in einem Restaurant ________./arbeiten/unterrichten/gehen/bekommen*I want to work in a restaurant in future.
+3/Willst du n‰chstes Jahr auf die Berufsschule _____?/gehen/arbeiten/bekommen/suchen*Do you want to go to college next year?
+3/Wir wollen in dem Examen nicht ___________./durchfallen/gehen/suchen/bestehen*We hope we don't fail the exam.
+3/Was wollt ihr auf dieser Berufsschule ______?/lernen/arbeiten/verlassen/durchfallen*What do you want to learn at that college?
+3/Im Sommer will ich einen Job in ÷sterreich ______./suchen/gehen/arbeiten/studieren*In summer I want to look for a job in Austria.
+3/Meine Freundinnen wollen alle auf einer Uni _________./studieren/gehen/verlassen/bekommen*My friends all want to study at a university.
+3/Nach dem Abitur m÷chte er eine Stelle in einem Hotel ______./finden/lernen/gehen/studieren/aufmachen*After 'A-levels' he wants to find a job in a hotel.
+3/Nach den Ferien m‹ssen wir ein wichtiges Examen ______./machen/finden/gehen/verlassen*After the holidays we have to take an important exam.
+3/Ich kann dieses Examen hoffentlich ________./bestehen/finden/gehen/suchen*I hope I can pass that exam.
+3/Wann sollst du die Schule _________?/verlassen/gehen/lernen/aufmachen*When are you supposed to leave school?
+3/M÷chten Sie vielleicht in einer Fabrik ________?/arbeiten/gehen/suchen/bekommen*Would you like to work in a factory perhaps?
+3/Was will deine Freundin in der Oberstufe ______?/lernen/aufmachen/gehen/verlassen*What does your friend want to take in the 6th form?
+3/Ich hoffe eine gute Note in der Pr‹fung zu ________/bekommen/lernen/studieren/gehen*I hope to get good marks in the test.
+3/Vielleicht k÷nnen mein Freund und ich einen Laden _________./aufmachen/gehen/studieren/bestehen*Perhaps my friend and I can open a shop.
+3/N‰chstes Jahr will er wahrscheinlich in die Lehre _____./gehen/bekommen/finden/pauken*Next year he will probably start an apprenticeship.
+3/Ich muﬂ am Wochenende f‹r meine Mathepr‹fung ______./pauken/bekommen/verlassen/durchfallen*I've got to swot for a maths test at the weekend.
+4/Wenn man Medizin studieren will, muﬂ man auf die ___ gehen./Uni/Hotel/Gymnasium/Bank*If you want to study medicine you have to go to university.
+4/Wenn man Abitur machen will, bleibt man in der _________/Oberstufe/Fabrik/Uni/Pr‹fung*If you want to do 'A-levels' you stay in the 6th form.
+4/Wenn man Kellner sein will, sucht man eine Arbeit im __________./Restaurant/Uni/Bank/Berufsschule*If you want to work as a waiter, you look for work in a restaurant.
+4/Wenn man ein Examen bestehen will, braucht man eine gute ____./Note/Pr‹fung/Fabrik/Gesch‰ft*If you want to pass an exam you need good marks.
+4/Wenn man Verk‰uferin werden will, muﬂ man in einem ________ arbeiten./Gesch‰ft/Uni/Oberstufe/Fabrik*If you want to work as a sales-assistant you have to work in a shop.
+4/Wenn man M÷bel oder Porzellan produziert, arbeitet man meistens in einer ______./Fabrik/Berufsschule/Hotel/Bank*If you produce furniture or china, you usually work in a factory.
+4/Wenn man mit Tieren arbeiten will, sucht man oft einen Job auf einem _________./Bauernhof/Bank/Oberstufe/Uni*If you want to work with animals you often look for a job on a farm.
+4/Wenn man kranken Menschen helfen will, arbeitet man im ___________./Krankenhaus/Uni/Bank/Oberstufe*If you want to help people who are ill, you work in a hospital.
+4/Wenn man in den Ferien arbeiten will, sucht man einen _________./Ferienjob/Bank/Pr‹fung/Fabrik*If you want to work during the holidays you look for a holiday job.
+4/Wenn man arbeitslos ist, sucht man eine ______./Stelle/Uni/Examen/Gesch‰ft*If you are unemployed you look for a job.
+4/Wenn man mit jungen Kindern arbeiten will, sucht man eine Stelle im ____________./Kindergarten/Uni/Bank/Oberstufe*If you want to work with young children, you look for a job in a nursery.
+4/Wenn man in einem Hotel arbeiten will, geht man oft auf die ____________./Berufsschule/Bank/Pr‹fung/Bauernhof*If you want to work in a hotel you often go to college.
+4/Wenn man in Deutschland in der Oberstufe bleibt, macht man ______./Abitur/Uni/Hotel/Ferienjob*If you stay on in the 6th form in Germany you do 'Abitur' (A-level).
+4/Wenn man auf die Uni gehen will, muﬂ man ein ______ bestehen./Examen/Oberstufe/Bank/Note*If you want to go to university you have to pass an exam.
+GRADE6
+1/Ich ______ sp‰ter mit Kindern arbeiten./m÷chte/hoffen/willst/wird*I would like to work with children in future.
+1/___ du auch vor, weiterzustudieren?/hast/m÷chte/hoffen/muﬂ*Do you also intend to continue your studies?
+1/Gisela ___ ein Jahr im Ausland verbringen./wird/wollen/hast/habe*Gisela will spend a year abroad.
+1/Thomas _____ an eine Stelle im Verkehrsamt./denkt/m÷chte/hoffen/haben*Thomas is thinking of a job in the tourist information office.
+1/Wir ______ die Schule so bald wie m÷glich verlassen./wollen/m÷chte/haben/wird*We want to leave school as soon as possible.
+1/_____________ Sie sich auch f‹r Computerlehre?/Interessieren/haben/hat/will*Are you also interested in computer-studies?
+1/Die Idee mit Tieren zu arbeiten ____________ mich schon./interessiert/habe/will/m÷chte*The idea of working with animals certainly interests me.
+1/Ich ____ noch nicht, was ich sp‰ter machen m÷chte./weiﬂ/habe/wollen/will*I still don't know what I want to do in the future.
+1/Ich ____ keine Lust in einer Fabrik zu arbeiten./habe/haben/m÷chte/wollen*I don't fancy working in a factory.
+1/Ich _____ am liebsten auf einem Bauernhof arbeiten./w‹rde/haben/denkt/wollen*I'd like to work on a farm more than anything else.
+1/Claudia ___ die Absicht, Forschungsarbeit in Physik zu machen./hat/haben/wollen/hoffe*Claudia intends to do research in physics.
+1/Es _______ mir sehr im Freien zu arbeiten./gef‰llt/gefallen/wollen/hat*I really like working outdoors.
+1/Ich ____ nie auf die Idee in einem B‹ro zu arbeiten./k‰me/habe/wollen/hoffen*I wouldn't dream of working in an office.
+1/Du ______ auch auf die Uni zu gehen, nicht wahr?/hoffst/hoffen/habe/will*You want to go to university as well, don't you?
+1/Meine Schwester _____ auf einen Studienplatz f‹r Jura./hofft/habe/gef‰llt/interessieren*My sister is hoping to study law.
+1/Ich _____ darauf, eine gutbezahlte Arbeit zu finden./hoffe/hat/will/gefallen*I hope to find a well-paid job.
+1/Man ___ vier Jahre lang studieren, um Lehrer zu werden./muﬂ/habe/hoffen/m‹ssen*You have to study for four years to become a teacher.
+1/Ich ______ vielleicht Stewardeﬂ werden./k÷nnte/hatte/gef‰llt/m‹ssen*I could perhaps be an air-hostess.
+1/Sie ___ immer davon getr‰umt, Schauspielerin zu werden./hat/wollen/m÷chte/habe*She has always dreamed of becoming an actress.
+2/W‹rdest du gern an einer Grundschule ____________?/unterrichten/verlassen/verkaufen/schreiben*Would you like to teach in a primary school?
+2/Ich m÷chte sp‰ter Zahnarzt ______./werden/verlassen/verkaufen/finden*I would like to become a dentist.
+2/Vielleicht werde ich Fremdsprachen _________./studieren/finden/verlassen/pflegen*Perhaps I'll study languages.
+2/Es ist heutzutage nicht leicht eine Stelle zu ______./finden/pflegen/verkaufen/schreiben*It is not easy to find a job these days.
+2/Wir hoffen die Abschluﬂpr‹fung mit guten Noten zu ________./bestehen/finden/verkaufen/schreiben*We hope to pass our leaving exam with good marks.
+2/Ich habe keine grosse Lust die Schule zu _________./verlassen/finden/schreiben/studieren*I don't really want to leave school.
+2/Hat du auch vor, auf die Uni zu _____?/gehen/studieren/finden/werden*Are you thinking of going to university too?
+2/Ich w‹rde ganz gerne die Sommerferien in Deutschland __________./verbringen/finden/verkaufen/werden*I would really like to spend the summer-holidays in Germany.
+2/Es w‹rde mich interessieren kranke Leute zu _______./pflegen/verkaufen/werden/studieren*I would be really interested in looking after people who are ill.
+2/Ich m÷chte gern Kleider oder Platten _________./verkaufen/studieren/verlassen/bestehen*I'd like to sell clothes or records.
+2/Ich habe immer davon getr‰umt, Rocktexte zu _________./schreiben/verkaufen/studieren/verlassen*I have always dreamed of writing rock-lyrics.
+2/Am liebsten w‹rde ich einen LKW ______./fahren/gehen/finden/werden*I'd like to drive a truck more than anything else.
+2/Ich m÷chte den Menschen in der Dritten Welt ______./helfen/pflegen/verkaufen/gehen*I'd like to help people in the Third World.
+2/Meine gr÷ﬂte Hoffnung w‰re, eine gutbezahlte Arbeit zu ______./finden/gehen/pflegen/bestehen*My biggest hope would be to find a well-paid job.
+3/Mein Lehrer hat ___gute Informationen ‹ber Ferienarbeit im Ausland gegeben./mir/mich/sich/dich*My teacher gave me good information about holiday-work abroad.
+3/Ich habe ____ schon oft gefragt, was ich sp‰ter machen werde./mich/dir/mir/sich*I've asked myself many times what I'm going to do later on.
+3/Seit den Sommerferien interessiere ich ____ immer mehr f‹r Sprachen./mich/mir/dir/sich*Since the summer holidays I've bcome more and more interested in languages.
+3/Ich glaube, ich werde ____ um eine Stelle im Verkehrsamt bewerben./mich/mir/dir/sich*I think I'm going to apply for a job in a tourist information office.
+3/Eigentlich w‹nsche ich ___ eine Arbeit, die gutbezahlt ist./mir/mich/dich/sich*Actually, I'd like a job which is well-paid.
+3/Ich habe Ihre Anzeige gelesen und ich m÷chte ____ bei Ihnen vorstellen./mich/mir/dir/sich*I read your advert and I'd like to introduce myself.
+3/Ich freue ____ sehr darauf, die Schule zu verlassen./mich/mir/dich/sich*I'm really looking forward to leaving school.
+3/Kannst du ___ doch vorstellen, was du sp‰ter machen wirst?/dir/dich/mich/sich*Can you really imagine what you will do in future?
+3/Erinnerst du ____ an die Adresse von der Firma, die Ferienarbeiter braucht?/dich/dir/mir/sich*Do you remember the name of the firm who need holiday workers?
+3/Hast du ____ auch um die Stelle im Schnellrestaurant beworben?/dich/dir/mir/sich*Have you also applied for the job in the fast-food restaurant?
+3/Mein Vater wird ____ ‰rgern, wenn ich schlechte Noten in der Pr‹fung bekomme./sich/mir/dir/ihm*My father will be angry if I get bad marks in the test.
+3/Meine Eltern freuen ____, wenn ich n‰chsten Sommer ein gutes Examen mache./sich/dir/mir/dich*My parents will be pleased if I do well in my exams next summer.
+4/Ich werde Medizin auf der Uni studieren m‹ssen, _____ ich Arzt werden kann./bevor/weil/nachdem/um*I will have to study medicine at university to become a doctor.
+4/Sie will einen Ferienjob auf einem Bauernhof suchen, ____ sie mit Tieren arbeiten will./weil/um/bevor/nachdem*She is going to look for a job on a farm, because she wants to work with animals.
+4/Wir m‹ssen gute Noten im Examen bekommen, ____ wir auf die Uni gehen wollen./wenn/um/nachdem/w‰hrend*We have to get good marks in our exams, if we want to go to university.
+4/Er wird wahrscheinlich zur Berufsschule gehen, _______ er die Schule verlassen hat./nachdem/bevor/daﬂ/um*He will probably go to college, after he has left school.
+4/Ich habe keine Lust Lehrer zu werden, ______ ich gern mit Kindern arbeite./obwohl/nachdem/bevor/um*I don't want to become a teacher, although I like working with children.
+4/Ich w‹rde die Schule wahrscheinlich verlassen, ____ ich in der Pr‹fung durchfalle./wenn/w‰hrend/daﬂ/um*I would probably leave school, if I fail the exam.
+4/Ich k‰me nie auf die Idee in einer Bank zu arbeiten, ____ ich so gern im Freien arbeite./weil/bevor/nachdem/obwohl*I wouldn't dream of working in a bank, because I like working in the open air so much.
+4/Meine Schwester hat ein Jahr in Deutschland verbracht, _____ sie auf die 
+Uni gegangen ist./bevor/obwohl/daﬂ/um*My sister spent a year in Germany, before she went to university.
+4/Ich habe immer davon getr‰umt, ___ ich Profi-Tennisspieler werde./daﬂ/nachdem/bevor/obwohl*I have always dreamed of becoming a professional tennis player.
+4/Ich kann Ihnen nicht sagen, was ich machen werde, ____ ich es noch nicht weiﬂ./weil/nachdem/daﬂ/um*I can't tell you what I will do, because I don't know yet.
+4/Ich werde mich sehr ‰rgern, ____ ich keine gute Note im Examen bekomme./wenn/bevor/obwohl/weil*I will be very annnoyed if I don't get good marks in the exam.
+4/Ich kann mir doch nicht vorstellen, ___ ich sp‰ter an einer Schule unterrichten werde./daﬂ/bevor/weil/nachdem*I really can't imagine that I will teach in a school.
+4/Ich glaube, ich m÷chte mit Sprachen arbeiten, ______ ich noch nie ins Ausland gefahren bin./obwohl/bevor/nachdem/daﬂ*I think, I would like to work with languages, although I have never been abroad yet.
+4/Mein Vater hat auch am Wochenende in einem Hotel gearbeitet, ___ er in der
+Oberstufe war./als/daﬂ/wenn/weil*My father worked in a hotel at weekends, when he was in the sixth form.
+4/____ ich jetzt kein Geld habe, m÷chte ich eine gutbezahlte Stelle finden./Weil/wenn/daﬂ/bevor*Because I haven't got any money at the moment, I would like to find a well-paid job.
