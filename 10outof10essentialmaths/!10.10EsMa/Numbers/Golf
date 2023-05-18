@@ -1,0 +1,168 @@
+$ Crazy Golf word file structure
+$ 4.<sub grade>/<question>/<answer>/<false>/<false>/<false>
+$ 6.<sub grade>/<question>/<answer>/<false>/<false>/<false>*<sprite>
+$ sub grade  1-4
+$ question if contains "&" then maximum length 160 characters else
+$ 80 characters
+$ Grade 6 should NOT be user modified
+
+$ Notes on the use of 'variable' questions.
+$ You will notice some questions have square brackets in them []. These
+$ questions follow a different format from that specified above and more
+$ information can be found in the 10/10 read me file.
+
+$ Where they can be used in this file :-
+$ Grade 4 sub grades 1-4
+
+GRADE4
+1/What is the sum of [x] and [y]?#1,20i#1,20i#x+y
+1/From [x] subtract [y]#1,20i#1,20i#x-y
+1/Add [x] to [y].#10,40i#10,40i#x+y
+1/Find [x] plus [y]#1,20i#1,20i#x+y
+1/How much is left when [x] is taken from [y]?#10,40i#10,40i#y-x
+1/How much shorter is [x] cm than [y] cm?\cm#10,20i#21,50i#y-x
+1/What is the difference between [x] and [y]?#10,50i#10,50i#ABS(x-y)
+1/What is the total of [x], [y] and [z]?#10,50i#10,50i#10,50i#x+y+z
+1/The pavements are [x]m. Traffic lanes [y]m.&How wide is the road?\m#1,3i#7,15i#x+x+y
+1/Shazia had [x] beads. She gave away [y].&How many has she left?\beads#100,200i#10,50i#x-y
+2/Tasneem has [x] eggs. She gains [y] and loses [z].&What has she now?\eggs#10,50i#5,15i#5,15i#x+y-z
+2/What is [x] minus [y]?#100,150i#10,50i#x-y
+2/Add [x] and [y] then subtract [z].#5,20i#5,20i#2,8i#x+y-z
+2/Subtract [w] from [x] and [y] from [z]. Then find the difference.#1,5i#6,20i#1,5i#6,20i#ABS((x-w)-(z-y))
+2/What is the perimeter of a square of side [x]?#1,5#x*4
+2/Increase [x] by [y].#1,30i#1,30i#x+y
+2/Reduce [x] by [y].#100,200i#5,20i#x-y
+2/From [x] subtract [y]. Add your answer to [z].#10,50i#1,20i#1,10i#x-y+z
+2/From the total of [w], [x], [y] and [z] take away 10?#1,10i#1,10i#1,10i#1,10i#w+x+y+z-10
+3/I collect [y] eggs a day from my hens.&How many eggs in a week?\eggs#5,15i#y*7
+3/Dena has [x] sweets and [y] friends.&How many sweets for each person?#20,40i#2,5i#x/(y+1)
+3/Multiply [x] by [y]. What is the result?#2,10i#2,20i#x*y
+3/Divide [x] by [y]. What is the result?#10,100i#2,10i#x/y
+3/I have [x] crates. A crate will hold [y] oranges.&How many oranges in total?\oranges#5,15i#3,20i#x*y
+3/A computer can do the work of [x] people.&How many people can do [y] computer's work?#2,6i#2,10i#x*y
+3/A horse can do the work of [x] people.&How many people can do [y] horses work?#2,6i#2,10i#x*y
+3/A farmer has [x] sheep in [y] fields.&How many sheep has she got in each field?#10,30i#2,6i#x/y
+3/A plumber can fix [x] leaks a week.&How many leaks fixed in a month?\leaks#5,20i#x*4
+3/In the library there are [x] shelves with [y] books on each.&The total number of books is ...?#2,5i#10,20i#x*y
+3/There are [x] boxes with [y] apples in each.&How many apples in total?\apples#2,6i#5,10i#x*y
+4/A jug holds [x] litres of water.&How many jugs will be required to fill a bowl of [y] litres?#2,10i#10,50i#y/x
+4/In the book shop there are [x] books on [y] shelves.&The number of books on each shelf is?#50,100i#2,10i#x/y
+4/Rick has [x] children. Each drinks [y] cans of coke a week.&How many cans of coke in a month?#2,7i#2,7i#x*y*4
+4/Steve has [x] people working for him. Each drinks [y] cups of tea a day.&How many cups of tea are drunk in [z] days?#3,8i#2,6i#2,5i#x*y*z
+4/I have [x] pints of milk delivered each day.&How many bottles in a fortnight?#2,14i#x*14
+4/Multiply [x] by [y]. Add [z]. What is the answer?#1,5i#1,5i#5,10i#x*y+z
+4/One nail has a weight of [x] g. What is the weight of [y] nails?\g#1,5i#5,10i#x*y
+4/How many slices each [x] cm thick can be cut from a [y] cm loaf?#1,5i#20,50i#y/x
+4/Find the cost of a dozen pens at [x] pence each.\p#5,25i#x*12
+4/A square box is [x] cm all round. How long is one side?\cm#20,100i#x/4
+GRADE6
+1/What is the missing angle in this triangle?/45°/90°/60°/30°*s1
+1/The missing angle in this triangle is .../45°/35°/180°/75°*s1
+1/In this triangle what is the remaining angle?/45°/80°/10°/40°*s1
+1/What is the other angle in this triangle?/90°/60°/30°/50°*s2
+1/The third angle in this triangle is .../90°/60°/50°/120°*s2
+1/Sum of the 2 coloured angles = 90°. What is the third angle?/90°/180°/60°/45°*s2
+1/What is the size of the green angle in this triangle?/45°/35°/10°/75°*s3
+1/How big is the green angle in this triangle?/45°/90°/60°/30°*s3
+1/The angles of this triangle add up to .../180°/30°/60°/90°*s4
+1/What can you say about the angles of this triangle?/They are all different/They are all the same/Each is equal to 90°/Each is equal to 45°*s1
+1/If I flipped this triangle over then the angles would be .../still the same/doubled/halved/increased*s4
+1/I enlarged this shape by a factor of 2, the angles are .../the same/larger/doubled/halved*s18
+1/I double the sides of the triangle the angles would be .../still the same/doubled/smaller/halved*s18
+1/I drew this triangle on a bigger scale the angles are .../the same size/bigger/smaller/equal*s18
+1/I enlarged this shape by a factor of 2, the angles are .../the same/larger/doubled/halved*s13
+1/I enlarged this shape by a factor of 3, the angles are .../the same/larger/doubled/halved*s14
+1/I enlarged this shape by a factor of 4, the angles are .../the same/larger/doubled/halved*s15
+1/I enlarged this shape by a factor of 5, the angles would are .../the same/larger/doubled/halved*s16
+1/I enlarged this shape by a factor of 10, the angles would are .../the same/larger/doubled/halved*s17
+1/What sort of triangle is this?/scalene/equilateral/isosceles/right-angled*s18
+1/What sort of triangle is this?/equilateral/isosceles/right-angled/scalenes*s20
+1/What sort of triangle is this?/isosceles/scalene/equilateral//right-angled*s19
+1/A SCALENE triangle has three .../unequal angles/equal sides/equal angles/base angles*s18
+1/A SCALENE triangle has three .../unequal sides/equal sides/equal angles/horizontals*s18
+1/An EQUILATERAL triangle has three .../equal sides/unequal sides/unequal angles/verticals*s20
+1/An EQUILATERAL triangle has three .../equal angles/unequal sides/obtuse angles/reflex angles*s20
+1/EQUILATERAL means .../equal sided/equal angled/equal shaped/triangular*s20
+1/How many lines of symmetry has an EQUILATERAL triangle?/3/0/1/2*s20
+1/How many lines of symmetry has a SCALENE triangle?/0/3/1/2*s18
+2/How many lines of symmetry has an ISOSCELES triangle?/1/3/0/2*s19
+2/How many lines of symmetry has an ISOSCELES triangle?/1/3/0/2*s7
+2/In this ISOSCELES triangle what are each of the base angles?/65°/50°/80°/45°*s5
+2/In any ISOSCELES triangle the BASE angles .../are equal/are each 45°/add up
+to 90°/equal 180°*s7
+2/One base angle of this triangle is 65°. What's the vertical angle?/65°/50°/25°/90°*s6
+2/One of the base angles is 65°. What is the vertical angle?/65°/50°/25°/90°*s7
+2/In this ISOSCELES triangle what is the green angle?/50°/80°/45°/30°*s6
+2/In this ISOSCELES triangle the unknown angle is .../50°/more than 80°/less than 10°/none of these*s6
+2/What do we call this kind of triangle?/isosceles/equilateral/scalene/right-angled*s7
+2/What do we call this kind of triangle?/scalene/isosceles/equilateral/right-angled*s18
+2/What do we call this kind of triangle?/equilateral/scalene/right-angled/isosceles*s20
+2/In this ISOSCELES triangle the base angles .../are equal/are different/are each 45°/are equal to 180°*s7
+2/ISOSCELES triangle with BASE angles of 75°. What's the other?/30°/40°/90°/55°*s7
+2/ISOSCELES triangle with BASE angles of 60°. What's the other?/60°/50°/120°/75°*s7
+2/ISOSCELES triangle with BASE angles of 45°. What's the other?/90°/30°/80°/75°*s7
+2/ISOSCELES triangle with BASE angles of 30°. What's the other?/120°/60°/90°/135°*s7
+2/ISOSCELES triangle with BASE angles of 40°. What's the other?/100°/60°/80°/125°*s7
+2/I flipped this shape over. The angles would all be .../the same/doubled/halved/increased*s7
+2/The angles of this triangle add up to .../180°/30°/60°/90°*s7
+2/The angles of this triangle add up to .../180°/30°/60°/90°*s18
+2/The angles of this triangle add up to .../180°/30°/60°/90°*s20
+2/The angles of this triangle add up to .../180°/30°/60°/90°*s3
+2/Two angles of this ISOSCELES triangle are .../the same/all different/equal to 90°/equal to 45°*s7
+3/These angles add up to .../360°/270°/180°/90°*s9
+3/ALL these angles add up to .../360°/270°/180°/90°*s12
+3/The blue and green angles add up to .../360°/270°/180°/90°*s8
+3/What is the size of the larger angle?/270°/45°/125°/160°*s9
+3/What is the size of the smaller angle?/90°/270°/45°/125°*s9
+3/The square sign at the small angle means .../90°/270°/45°/125°*s1
+3/The square sign at the small angle means .../90°/270°/45°/125°*s3
+3/The square sign at the small angle means .../90°/270°/45°/125°*s9
+3/The square sign at the small angle means .../90°/270°/45°/125°*s10
+3/The square sign at the small angle means .../90°/270°/45°/125°*s11
+3/The square sign at the small angle means .../90°/270°/45°/125°*s12
+3/The square sign at the small angle means .../90°/270°/45°/125°*s13
+3/The square sign at the small angle means .../90°/270°/45°/125°*s14
+3/The square sign at the small angle means .../90°/270°/45°/125°*s24
+3/The square sign at the small angle means .../90°/270°/45°/125°*s19
+3/These two angles added together equal .../180°/90°/45°/160°*s10
+3/Each of these angles equals .../90°/45°/160°/80°*s10
+3/What is the size of the blue angle?/225°/90°/172°/360°*s11
+3/The angle of 90° is one ... of a complete turn./quarter/eighth/half/fifth*s11
+3/The angle of 90° is one ... of a complete turn./quarter/eighth/half/fifth*s9
+3/The angle of 90° is one ... of a complete turn./quarter/eighth/half/fifth*s12
+3/The angle of 90° is one ... of a complete turn./quarter/eighth/half/fifth*s23
+3/The angle of 45° is one ... of a complete turn./eighth/half/fifth/tenth*s11
+3/A complete turn equals .../360°/180°/100°/1000°*s21
+3/A half turn equals .../180°/90°/45°/50°*s22
+3/The angle on a straight line equals .../180°/90°/25°/280°*s10
+3/The angle on a straight line equals .../180°/90°/25°/280°*s22
+3/The missing angle is .../90°/270°/125°/160°*s12
+3/Each of the other angles is equal to .../90°/270°/45°/99°*s13
+3/Each of the other angles is equal to .../90°/270°/45°/99°*s14
+3/Each of the other angles is equal to .../90°/270°/45°/99°*s12
+4/All the angles add up to .../360°/180°/400°/225°*s10
+4/All the angles add up to .../360°/180°/400°/225°*s11
+4/All the angles add up to .../360°/180°/400°/225°*s12
+4/All the INTERIOR angles add up to .../360°/180°/400°/225°*s24
+4/The angles of a square add up to .../360°/180°/400°/225°*s13
+4/The INTERIOR angles of a square add up to .../360°/180°/400°/225°*s13
+4/I flipped this square over then the angles are .../the same/changed by 45°/doubled/changed by 30°*s13
+4/The angles of a rectangle add up to .../360°/180°/400°/225°*s14
+4/The INTERIOR angles of a rectangle add up to.../360°/180°/400°/225°*s14
+4/I flipped this rectangle over. The angles are .../still the same/changed by 90°/changed by 360°/changed by 180°*s14
+4/The INTERIOR angles of a pentagon are each .../108°/90°/120°/140°*s15
+4/A REGULAR pentagon has .../5 equal sides/5 different sides/6 sides/8 sides*s15
+4/A REGULAR pentagon has .../5 equal angles/5 different angles/6 sides/8 sides*s15
+4/A REGULAR hexagon has .../6 equal sides/6 different sides/5 sides/8 sides*s16
+4/A REGULAR hexagon has .../6 equal angles/6 different sides/5 unequal angles/8 sides*s16
+4/The sum of ALL the INTERIOR angles of a pentagon is.../540°/500°/640°/360°*s15
+4/The INTERIOR angles of a hexagon are each .../120°/100°/125°/180°*s16
+4/The sum of ALL the INTERIOR angles of a hexagon is.../720°/640°/360°/120°*s16
+4/A REGULAR hexagon has .../6 equal sides/6 different sides/5 sides/8 sides*s16
+4/The INTERIOR angles of an octagon are each .../135°/130°/140°/145°*s17
+4/The sum of the INTERIOR angles of an octagon is.../1080°/1000°/980°/1100°*s17
+4/The sum of the INTERIOR angles of a parallelogram is .../360°/180°/720°/100°*s25
+4/What do we call this shape?/pentagon/hexagon/octagon/kite*s15
+4/What do we call this shape?/octagon/hexagon/pentagon/parallelogram*s17
+4/What do we call this shape?/hexagon/parallelogram/octagon/kite*s16
+4/What do we call this shape?/kite/pentagon/hexagon/octagon*s24

@@ -1,0 +1,495 @@
+Extra notes for 10/10 Essential Mathematics
+
+GENERAL
+
+ALWAYS USE A BACKUP OF THE DISC as facts like the high scores are constantly
+being written to it. Alternatively, The programs can be installed on a HARD
+DISC. All you need to do is to 'drag' the application to a directory window
+on your hard disc. The discs may only be backed up for your own use on a
+single computer. Copying discs for any other reason is tantamount to theft
+and could lead to prosecution. Site licences are available for
+establishments with more than one computer or with a network.
+
+All high scores and results are saved to disc as you exit from the game.
+Ensure that you LEAVE THE GAMES USING THE EXIT OPTION rather than pressing
+break to ensure your facts are stored.
+
+MEMORY
+
+10 out of 10 will run on all Acorn 32-bit computers, but on a 1 Mb machine
+you may have to switch the computer off for a few seconds and then turn it
+back on.
+
+VGA MONITORS
+
+A utility is included on the disc to allow the package to run on most VGA
+monitors. It is called !ModeTrans and is inside the !10/10 application (hold
+down shift and double-click on the !10/10 application to see it). A help
+file for the utility is inside the !ModeTrans application (hold shift and
+double-click).
+
+CERTIFICATE PRINTING
+
+To print a certificate in graphic form you should select the disc option
+after you've selected print certificate. You should save it onto hard disc
+or a blank formatted disc. You can enter your own filename using the
+standard Acorn "Path.filename" structure.
+
+Depending on your system, a default path or filename is given. If the
+default ends in a dot it is a path and you should enter a filename before
+pressing Return. Note that floppy disc users must leave the default path of
+the floppy drive - usually ADFS::0.$. - in front of the chosen filename.
+
+The saved file will have the name of the player as the filename. This can be
+loaded into Paint and printed in the usual way. We've found that to print an
+A4 certificate on a laser printer the parameters to set when you've chosen
+Print are:
+
+     Portrait
+     X scale       3:2
+     X scale       3:2
+
+  Make sure the centimetre square is highlighted green then:
+
+     Corner X      -3.2   (note the minus)
+     Corner Y       4
+
+STEPPING THROUGH QUESTIONS
+
+For those grades in games which are associated with word files the questions
+can be stepped through. When on the game presentation screen press SPACE and
+then enter a number between 1 and 512 inclusive. The questions will then be
+taken serially from that point so that you can see if they work properly.
+When the end of the question file is reached it starts at question one for
+that grade.
+
+The only way to exit a game when playing it like this is to press ESCAPE.
+Some features of the game such as the timer are disabled so that you can
+concentrate on the question.
+
+TUTORIAL ON THE USE OF 'VARIABLE' QUESTIONS
+
+You will notice some questions in word files have square brackets in them
+[]. These questions follow a different format from that specified in the
+header of each word file. Basically you specify which quantities are to be
+variable by enclosing the unknown in square brackets (use ONLY variable
+names w, x, y and z). At the end separated by a '#' the variable ranges for
+each variable then the relationship between them which will give an answer.
+
+For example :-
+A jug holds [x] litres of water. How many jugs will be required to fill a
+tub of [y] litres?#0.5,10#10,50i#y/x Here the x range is from 0.5 to 10, the
+y range 10 to 50 inclusive the last character in the range is 'i' so only
+integer steps are used. The relationship is y divided by x. This must be an
+expression which when 'EVAL'uated will give the correct answer. Note the use
+of hash '#' to separate data items in these questions and not '/' which is
+used for division.
+
+If the symbol '@' is included then this will be replaced throughout by a
+letter chosen at random from the set [a,b,c,d,m,n,q,r,s,t,u,v,w,x,y,z]
+Example If 2@-4=7  find the value of ... This will be replaced through out
+the question with the same randomly chosen symbol ie 2d-4=7, 2t-4=7 and so
+on.
+
+More advanced questions can also specify a units text string which will be
+appended to any answers generated. It is up to the user to make sure that
+the ranges specified cover the units supplied. This units feature is
+optional.
+
+For example :-
+
+A tub can take [x] jugs of [y] litres before it is full. How many litres
+does the tub hold?\litres#1,10i#2,15i#x*y
+
+Note the use of the backslash '\' and not the divide by '/' to mark where
+the units string starts. This should always be at the end of the question
+string. The '#' symbol will mark the end. In general restrict yourself to a
+unit string + space + answer string of less than 9 spaces which will ensure
+that answers do not oversplill on the screen or crash the program.
+
+The units string is appended on to the answer. To create a prefix such as
+'£' then after the '\' use the character '|' ie \|£ or \|$. The prefix has
+no space between it and the answer as it is mainly used for the money signs
+£ and $.
+
+Restrictions
+The ranges may only be positive real numbers in 0.5 steps and when 'i' is
+specified then only positive integers. The answers given are restricted to
+positive values.
+
+Make sure that the ranges are wide enough to generate a range of at least
+8 suitable values.
+
+THE SUBJECTS COVERED
+
+10 out of 10 Essential Maths has been designed to cover many traditional
+areas of mathematics. The areas covered are all applicable to the National
+Curriculum Key Stages 1 and 2 and you can see the exact areas covered by
+loading the program and selecting Player Information from the Main Menu. The
+Achievement Record will be displayed with numbers below the game titles
+either ranging from 1 to 6 - indicating the difficulty of the challenge ™ or
+they are more complex numbers such as AT2.L2a.1. These show which Attainment
+Targets, Levels and sections of levels are covered by the various programs.
+The way to select which display you have is explained later.
+
+If you move the mouse pointer to one of the numbers, the topic covered by
+that grade of the game will be displayed. If you move the pointer over one
+of the letters a, b, c or d you can discover how the grades are each split
+into topics for practice. The colour of the boxes and letters give an
+indication as to how well the child named at the top is doing.
+
+The Practice Grades are selected by pressing function keys F1 to F4 while
+the Game Menu is displayed. More information about the Practice Grades for
+each game, and how many are available for each grade, can be found by
+pressing I while the Game Menu of that game is displayed.
+
+If the National Curriculum Levels display is selected, AT numbers show which
+area of mathematics the grade covers. The areas are:
+
+  1  Using and applying mathematics
+  2  Number (ie arithmetic)
+  3  Algebra (ie patterns, sequences and logic)
+  4  Shape and space (ie geometry)
+  5  Data handling (ie  statistics)
+
+The digit following these letters shows the Level and the final letter and
+digit show the topic covered within the level. All the levels are for Key
+Stages 1 and 2 (ages 5 to 11) and the table below shows the connection
+between the Key Stages, Levels and ages. For completeness, the details of
+the other Key Stages are also given - 10 out of 10 Educational Systems
+produce packages for many subjects and for all Key Stages.
+
+
+       Mathematics Key Stages and Attainment Targets
+
+Key Stage    Age (start)*    Age (end)*    School Years    A.T. Levels
+
+    1       Start school+        7           1 to 3          1 to 3
+    2           8               11           4 to 6          2 to 6
+    3          12               14           7 to 9          3 to 8
+    4          15           End school+     10 and 11        4 to 10
+
+* Age refers to the school year in which most of the class reach that age.
+
++ School start and end refer to the compulsory ages.
+
+The Games - Subjects Covered and Hints
+
+10 out of 10 Essential Maths is designed to reinforce important mathematical
+skills for young children and build a strong foundation of mathematical
+skills. However, most of the challenges need a little knowledge first for
+the child to build upon. Following are some points and definitions of
+mathematical words which may help you to explain to the children the
+mathematics needed to play the various levels of the games. There are also
+numerous hints so that you can help your child become proficient at the
+various challenges. 
+
+Note that using a "cheat sheet" (such as the multiplication tables written
+on a piece of paper) can be a useful aid to learning if used with the games.
+For example, if a child looks up all the answers to a level, he may achieve
+100% and learn a few facts along the way but his name will be poorly placed
+in the high score table. The motivation provided by this will make him want
+to try again to do better - and the way to do that is to play again using
+the acquired knowledge to save looking everything up. Eventually, to obtain
+the best scores, all the knowledge has to be recalled quickly and the "cheat
+sheet" becomes redundant.
+
+Moon Lander
+
+Apart from setting the difficulty option to easy before starting the
+challenge, a useful tip for beginners in this game - which works in most
+cases - is to always "fly" straight to the top of the screen. Then, keeping
+a finger on the mouse button to keep the thrust on, move left and right
+until the answer is below the jet-pack. Then release the mouse button and
+drop on the answer.
+
+Grade 1: Number bonds up to 10+10. Number bonds are the addition and
+subtraction equivalent of tables. A child must know them before attempting
+more difficult problems. As mentioned previously, a child can start with the
+bonds written out (or use a calculator) and with practice from Moon Lander
+they will soon be learnt.
+
+Grade 2: Algebraic substitution. This is a rather complex-sounding title for
+a relatively simple challenge. In place of finding the answer to 3+4 the
+child has to find the missing number in expressions like s+4=7. If you ask
+"What do you add to 4 to make 7" the child will find the questions easier.
+
+Grade 3: Reflective symmetry. The hard part of this level is the words - the
+challenge is not too hard. Point out that vertical symmetry means that the
+left of the shape is a mirror image of the right or that it has symmetry in
+an up/down mirror line. Similarly, horizontal symmetry means that there is a
+left to right mirror line or  the top is a reflection of the bottom. Point
+out that if you fold a shape along its line of symmetry all the lines in the
+two halves of the shape would touch.
+
+Grade 4: Add and subtract single digit numbers. Here is a chance for more
+number practice ™ and number bonds (see Grade 1) are very important. Point
+out that the order that the numbers are added is irrelevant. For example, in
+a question like 6+7+4, if the child realises that 6 and 4 bond to make 10
+the answer of 17 is immediately visible.
+
+Grade 5: Division tables . To achieve a high score at this grade the child
+needs to be proficient at his or her tables. Practice on Invaders Level 2
+and then Gone Fishing Level 3 will help.
+
+Grade 6: Collecting like terms. This is not a difficult exercise, but many
+children are put off by the letters. Point out that 3s+5s+s=9s is the same
+calculation as 3+5+1=9 (note that s is 1s). Also, using words to give a
+"meaning" to the letters often helps: (3sausages+5sausages+a
+sausage=9sausages). When there is more than one letter they cannot be mixed:
+3e+2s+4e+5s=7e+7s or (in words)
+3eggs+2sausages+4eggs+5sausages=7eggs+7sausages.
+
+Crazy Golf
+
+Estimation is an extremely important skill in mathematics. In this game the
+child has to estimate the distance to the hole and then estimate the
+corresponding reading on the scale to knock the ball there. An interesting
+mathematical investigation would be to measure distances on the screen and
+graph the distance the ball travels for various powers. Note that, unlike in
+real golf, the ball can be bounced off the edge of the course in a similar
+way to a snooker ball.
+
+Grade 1: Reading simple barcharts. This is an elementary exercise to let the
+child become accustomed to the game while they are introduced to reading
+simple bar charts - there are lots more chart and graph challenges, suitable
+for all ages from 6 to 16 years, in the 10 out of 10 Maths (Statistics)
+package.
+
+Grade 2: The difference between numbers. While most youngsters would have no
+problem giving you the answer to 7-5, many would be puzzled if they were
+asked what is the difference between 5 and 7. In fact they are both the
+same: difference, subtract and take away all have similar meanings. The
+point that is not the same is that if the difference is asked for you always
+subtract the smaller from the larger. In other words, 7-5 gives a different
+answer to 5-7 but the difference between 5 and 7 is the same as the
+difference between 7 and 5 (they are both equivalent to 7-5).
+
+Grade 3: Factors of numbers. "Which number is a factor of 36?" simply means
+"Which number divides into 36?" Do not confuse factors with prime factors.
+The factors of 36 are: 1, 2, 3, 4, 6, 9, 12, 18 and 36. The prime factors
+are: 2 and 3. As with all problems based on division, knowledge of tables is
+important and they should be practised at the relevant levels of other
+games.
+
+Grade 4: Problem Solving. The best advice when problem solving is to read
+the question carefully and think about how it can be broken down to simple
+addition, subtraction, multiplication and division. For example: "If a man
+earns £147 a week, how much does he earn a day?" simplifies to 147÷7. The
+child should ensure that the answer is sensible. In this particular problem
+some children would think that the numbers should be multiplied. If the
+numbers are multiplied the child should realise that the answer is wrong for
+two reasons: you don't earn more in a day than a week and over a thousand
+pounds is an unlikely day's earnings.
+
+Grade 5: Equivalent fractions. If the child has any difficulty understanding
+that, for example, 1/3 = 2/6 = 3/9 and so on, use the analogy of cutting up
+a cake. If you cut a cake into three and take one piece you receive the same
+amount as if you cut it into six and take two or nine and take three.
+Obviously, drawing diagrams to illustrate the points will help.
+
+Grade 6: Angles in shapes. Here it is mainly the words that cause problems.
+If a child does not know what the angles in any particular shape add up to,
+drawing the shape and measuring them with a protractor is a useful exercise.
+Here are some definitions that will help with this level:
+
+  The three angles inside any triangle add up to 180°.
+  A right angle is 90° (mention the corner of a book, desk etc.)
+  A scalene triangle has three unequal angles and sides
+  An equilateral triangle has three equal sides and angles (60°)
+  An isosceles triangle has two equal sides and angles
+  A complete turn equals 360°
+  The angles of a straight line add up to 180°
+  A pentagon has five sides (interior angles add up to 540°)
+  A hexagon has six sides (interior angles add up to 720°)
+  An octagon has eight sides (interior angles add up to 1080°)
+
+Gone Fishing
+
+This is an ideal game for beginners. To allow the child to get used to the
+game, the "easy" option (set difficulty on the Game Menu) has no water rats
+at all. This means that the child can simply move over the correct answer
+and drop the line with no threat of a rat hitting it. Once this has been
+mastered, introduce a few rats (medium and hard levels) for more fun and the
+possibility of higher scores.
+
+The game moves mainly up through levels of Attainment Target 2 (arithmetic)
+making it an ideal way to practise mental arithmetic.
+
+Grade 1: Addition and subtraction facts up to 10. The importance of number
+bonds and tables cannot be over emphasised. They are therefore repeated in
+various different ways in 10 out of 10 Essential Maths, to ensure that any
+child using the suite will become extremely proficient with them.
+
+Grade 2: Addition and subtraction facts up to 20. This grade covers the
+bonds to the next stage above Grade 1.
+
+Grade 3: Table practice. A child can look up the tables to begin with. The
+fun of the game is a great encouragement to learn the tables and obtain
+better scores. The fact that many children find difficult to grasp is that,
+for example, 0x3=0 (many say 0x3=3!). Point out that if you give them no
+pocket money for three weeks they still have nothing - not £3.
+
+Grade 4: Mental arithmetic. This level uses the facts practised in the
+earlier three levels in more difficult calculations.
+
+Grade 5: Division: double digits by a single digit. Proficiency at Level 3
+of Gone Fishing helps with the division problems presented at this level.
+
+Grade 6: Understand co-ordinates in all four quadrants. The biggest problem
+that children have with co-ordinates like (3,2) is whether to move three
+across and five up or five across and three up. Point out that you have to
+go through the door before going up (or down) the stairs - they should see
+that it means three to the right and two up. Once they have mastered this
+fact (press F1 to practise it alone) finding points in the other three
+quadrants is soon mastered (use the other three practise grades - press F2,
+F3 or F4 - to try each alone).
+
+Invaders
+
+Players need to take care as they play this game - a poor missile launched
+towards an invader may hit a wrong answer. However, with determination, this
+soon becomes a favourite with the children and they will have hours of fun
+practising number skills using it.
+
+Grade 1: Addition and subtraction to 20 (odd one out). This time, for more
+addition practice, the child has to work out four sums and discover the odd
+one out. See if the child can apply a little logic to the situation: he or
+she only needs to work out three of the answers. If one is different it is
+the odd one. If all three are the same, the one they have not calculated
+must be the odd one.
+
+Grade 2: 2, 5 and 10 times tables. To begin with, let the child actually
+work out the division with these three basic tables, then ask what the
+pattern is. They should be able to realise that numbers that are part of the
+five times table end in five or zero, numbers in the two times table are
+even and numbers in the ten times table always end in zero. This means that
+1,3,7 and 9 are never answers to any of the questions and can be ignored.
+
+Grade 3: Inputs and outputs to simple function machines. Putting the problem
+fully into words helps with this challenge. For example, if the machine
+displays "divide by 2", the output is 9 and the input is missing, say: "What
+must you divide by nine to make 2?" Also, if the exercise is to find the
+input, it is worth mentioning inverses. Using the fact that multiply is the
+inverse of divide, the above problem can be rearranged to simply 9x2.
+
+Grade 4: Solve simple equations expressed in words. The "I think of a
+number..." problems have always been a favourite. Invaders adds the fun of a
+computer game to the traditional logic puzzle. Again, inverses can help. For
+example, suppose the problem is: "I think of a number , then subtract 2 and
+I'm left with 15 ™ what is the number?" Working through the statement from
+right to left using inverses gives: "I start with 15 and add 2 - what is the
+answer?"
+
+Grade 5: Multiplication: double digits by a single digit. Often, the child
+should be able to apply the knowledge of tables already learnt elsewhere in
+10 out of 10 Essential Maths, to quickly discover the correct answer without
+performing the whole calculation. For example, if the question is 34x7 the
+child should realise that 4x7=28 and if only one of the displayed answers
+ends in an eight it must be the correct one. Point out that this is a quick
+way to check that any answer is feasible; if a calculator works out 2467x238
+as 584679 the wrong button was probably pressed because, as 7x8=56, the
+correct answer ends in 6.
+
+Grade 6: Mean, Mode, Median and Range. This is an easy exercise but the four
+words make most children cringe. The first three are technically all forms
+of average, here is what they are:
+
+* The mean is probably the one that children will have seen. Also called the
+arithmetical average, the mean is calculated by adding up the values
+displayed and then dividing by the number of values that you added. For
+example, the mean of 1, 2, 3 and 6 is (1+2+3+6)/4 which is 3.
+
+* The mode is simply the one that there is most of. In the above (1, 2, 3
+and 4) there is no mode ™ the answer is none and not 0 (zero). The mode of
+1, 2, 3, 4 and 2 is 2 and the mode of 1, 0, 3, 0, 4 and 7 is 0.
+
+* The median is the middle value (put the numbers in order first). Therefore
+the median of 1, 4 and 3 is 3. If there are an even number of values the
+median is between the two centre ones so the median of the numbers 1, 5, 6
+and 7 is between 5 and 6 (5.5)
+
+* The range of a set of numbers is simply the difference between the
+smallest and the largest. So, the range of 4, 2, 6, and 9 is 7 (9-2).
+
+Telescope
+
+This is probably the most relaxed game in the package - the child has to
+simply scan the sky for the correct answer. No fast-action arcade skills are
+required but finding the answers quickly will lead to higher scores ™ a
+great motivation for the child to keep playing.
+
+Grade 1: Counting to 10. This is the simplest exercise in the package. On
+Practise Grade 1 (press F1 on the Game Menu) the child only has to have an
+idea of how to count to 3 to start using the package.
+
+Grade 2: Odd and even numbers. Tell the child that even numbers are the ones
+that are part of the two times table and odd ones are ones that are not.
+Point out that only the last digit (eg. the 8 in 48) of a number needs
+inspecting to decide whether it is odd or even.
+
+Grade 3: Points of the compass. While most children have very little
+difficulty with North, South, East and West, or even the points between them
+such as North East, many have trouble with three figure bearings. If, before
+they play the game, they draw a diagram showing the three figure bearings
+together with the North, South, East and West they can use it until they
+become proficient at the task. Note that North is 000° and the three-figure
+bearings are measured from there in a clockwise direction.
+
+Grade 4: Time, length, weight and capacity problems. Emphasis in this level
+is placed on understanding the units, so that problems involving them can be
+solved more quickly and accurately.
+
+Grade 5: Money problems. Calculations in pounds and pence are quickly
+mastered by children (they often find £1.36x4 easier than 1.36x4), but other
+currencies may cause problems. The idea of this level is to emphasise that
+DM 1.36x4 involves exactly the same arithmetic as £1.36x4.
+
+Grade 6: Solving equations. Asking a child to think of the equation in words
+rather than letters can make the questions easier. For example, if the
+question is x+5=7, the child should be asking: "What number, added to 5,
+makes 7".
+
+Shark Island
+
+Clicking on the correct answer will make the man swim there ™ but will a
+shark catch him on the way?' The child may have to move away from the answer
+and go around a shark. Logical thought is needed, together with the
+necessary mathematical skills, to find the correct answer.
+
+Grade 1: Simple coloured sequences. This is probably the first exercise in
+algebra that a child will try. It is an introduction to the many patterns
+that appear in the world of mathematics.
+
+Grade 2: Telling the time. Although many analogue clocks are being replaced
+by digital ones, it is still an important and necessary skill for a child to
+be able to tell the time from an analogue clock. Use the Practice Grades
+until the child becomes proficient in the various areas, then move onto the
+overall grade.
+
+Grade 3: Recognise patterns and sequences. Letters and numbers are introduced
+into the patterns and sequences to take the logical reasoning a step further
+than Grade 1 of this game where only sequences of shapes were used.
+
+Grade 4: Recognise multiples of numbers. This is another variation on the
+important area of tables. The multiples of a number are, in fact, the tables
+- the multiples of 3 are 0, 3, 6, 9, 12, 25 etc. To show children that the
+same question can often appear in different words, variations like Which
+number divides by? and Which is a multiple of? are used. They all mean Which
+is in the times table?
+
+Grade 5: Multiply and divide by 10, 100 or 1000. The main point of this
+exercise is to emphasise the place values of numbers ™ 2 is different to 20
+because, in the former, the 2 represents units while, in the latter, it is
+in the tens position. You multiply by multiples of 10 by simply shifting the
+numbers to different places. Point out that, for example, 27 is the same as
+27.0 but different to 270 because the former does not move the position of
+the numbers as tens and units. A final point on this subject is that
+expressions like To multiply 47 by 10 you add 0 should be avoided. If you
+add 0 to 47 you still have 47.
+
+Grade 6: Estimate the size of everyday objects. It is handy for the child to
+have a ruler handy to help with the estimations of length to begin with.
+Weights and volumes are slightly more difficult, but looking at labels on
+products and performing experiments are two ways which can help a child to
+become proficient at this exercise.

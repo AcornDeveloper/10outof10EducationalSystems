@@ -1,0 +1,5 @@
+| ModeTrans © 1994 Keysoft
+IconSprites <Obey$Dir>.!Sprites
+Wimpslot -min 8K -max 8K
+SET ModeTrans$Dir <Obey$Dir>
+RUN <Obey$Dir>.!Runimage

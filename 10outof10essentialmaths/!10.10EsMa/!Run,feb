@@ -1,0 +1,25 @@
+RUN <Obey$Dir>.!SetCode
+WIMPSLOT -min 560K
+SET 10EsMa1$Dir <Obey$Dir>
+<Obey$Dir>.CompLoad
+RMLOAD <Obey$Dir>.ScnLoad
+PRINT <Obey$Dir>.Palette
+RMKILL ABC
+<Obey$Dir>.Screen
+<Obey$Dir>.MathSounds
+<Obey$Dir>.Club
+<Obey$Dir>.Dart
+<Obey$Dir>.End
+<Obey$Dir>.Explode
+<Obey$Dir>.Frog
+<Obey$Dir>.Holed
+<Obey$Dir>.HurryUp
+<Obey$Dir>.Missile
+<Obey$Dir>.Raspberry
+<Obey$Dir>.Right
+<Obey$Dir>.Scream
+<Obey$Dir>.Splash
+<Obey$Dir>.Synth
+<Obey$Dir>.Wrong
+<Obey$Dir>.Yep
+<Obey$Dir>.!RunImage

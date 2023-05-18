@@ -1,0 +1,220 @@
+$ Telescope word file structure
+$ 4.<sub grade>/<question>/<answer>/<false> ...
+$ 5.<sub grade>/<question>/<answer>/<bottom range value>/<top range value>
+$ 6.<sub grade>/<question>/<answer>/<bottom range value>/<top range value>
+$ sub grade  1-4
+$ question & splits up a question over two lines
+$          maximum length 80 characters contains & 160 characters
+$ answer   maximum length 16 characters
+$ false    7 false answers
+$ range    inclusive range of values for false answers
+$          grade 5 answer and range in pence, cents etc
+
+$ Notes on the use of 'variable' questions.
+$ You will notice some questions have square brackets in them []. These
+$ questions follow a different format from that specified above and more
+$ information can be found in the 10/10 read me file.
+
+$ Where they can be used in this file :-
+$ Grade 4 sub grades 2-4
+$ Grade 5 sub grades 1-4
+$ Grade 6 sub grades 1-4
+
+GRADE4
+1/The time is 10.00 pm. In 15 minutes it will be .../10.15 pm/9.45 pm/8.30 pm/9.30 pm/10.15 am/10.20 am/7.20 pm/9.45 pm
+1/How many hours would it take to travel 15 kilometres walking at 5 km per hour?/3 hr/4 hr/5 hr/6 hr/7 hr/8 hr/9 hr/10 hr
+1/How many hours would it take to travel 60 kilometres walking at 2 km per hour?/30 hr/14 hr/15 hr/16 hr/17 hr/18 hr/19 hr/10 hr
+1/How many hours would it take to travel 15 kilometres walking at 10 km per hour?/1 hr 30min/3 hr/4 hr 30min/5 hr/6 hr/7 hr/9 hr/10 hr
+1/How many hours would it take to travel 45 kilometres moving at 15 km per hour?/3 hr/4 hr/5 hr/6 hr/7 hr/8 hr/9 hr/10 hr
+1/How many hours would it take to travel 9 kilometres walking at 3 km per hour?/3 hr/4 hr/5 hr/6 hr/7 hr/8 hr/9 hr/10 hr
+1/How many hours are there in a day?/24/12/18/20/14/7/28/30
+1/How many days are there in a week?/7/8/4/5/6/9/14/60
+1/How many weeks are there in a year?/52/14/7/28/30/60/13/24
+1/How many days are there in a year?/365/14/7/28/30/60/13/24
+1/How many seconds are there in a minute?/60/24/12/28/31/30/7/18
+1/How many minutes are there in an hour?/60/31/30/28/7/14/5/10
+1/How many years are there in a century?/100/7/12/14/29/60/11/10
+1/How many years are there in a decade?/10/100/50/40/30/20/5/60
+1/How many months are there in a leap year?/12/10/6/8/24/60/13/14
+1/How many days are there in January?/31/28/30/7/14/29/10/60
+1/How many days are there in a normal February?/28/30/7/14/27/10/60/31
+1/How many days are there in March?/31/28/32/7/14/29/10/60
+1/How many days are there in April?/30/31/28/7/14/29/10
+1/How many days are there in May?/31/28/30/7/14/29/10/60
+1/How many days are there in June?/30/28/31/7/14/29/10/60
+1/How many days are there in July?/31/28/30/7/14/29/10/60
+1/How many days are there in August?/31/28/30/7/14/29/10/60
+1/How many days are there in September?/30/28/31/7/14/29/10/60
+1/How many days are there in October?/31/28/30/7/14/29/10/60
+1/How many days are there in November?/30/28/31/7/14/29/10/60
+1/How many days are there in December?/31/28/30/7/14/29/10/60
+1/How many days are there in February in a LEAP YEAR?/29/28/30/7/14/27/10/31
+2/The lengths of two sticks are [x] cm and [y] cm.&What is the total length?\cm#1,50#1,50#x+y
+2/The lengths of four pieces of rope are [w], [x], [y] and [z] cm long.&What is the total length?\cm#1,10i#1,10i#1,10#1,10#w+x+y+z
+2/A kilometre is a measure of .../length/weight/capacity/area/volume/surface/time/speed
+2/A centimetre is a measure of .../length/weight/capacity/area/volume/surface/time/speed
+2/A millimetre is a measure of .../length/weight/capacity/area/volume/surface/time/speed
+2/A metre is a measure of .../length/weight/capacity/area/volume/surface/time/speed
+2/The lengths of two sticks are [x] cm and [y] cm.&What is the total length?\cm#1,50#1,50#x+y
+2/A regular polygon has [x] sides of equal length.&What is the distance around the polygon if each side is [y] cm long?\cm#3,10i#2,5i#x*y
+2/How many mm in [x] cm?#1,100i#10*x
+2/How many millimetres in [x] centimetres?#1,100i#10*x
+2/How many centimetres in [x] metres?\cm#1,10i#100*x
+2/A metre is longer than a yard by .../75 mm/7 mm/75 cm/2 km/36 mm/100 cm/3 mm/1 m
+2/A yard is shorter than a metre by .../3"/6"/8"/10"/12"/14"/16"/18"
+2/At normal speed you would walk a kilometre in about .../10 min/1 min/2 min/3 min/4 min/5 min/30 min/60 min
+2/5 miles is about the same distance as .../8 km/12 km/16 km/20 km/24 km/28 km/32 km/5 km
+2/8 kilometres is about the same distance as .../5 miles/2 miles/1 miles/10 miles/15 miles/20 miles/25 miles/30 miles
+2/The length of the short ruler in your geometry set is .../15 cm/12 cm/10 cm/8 cm/5 cm/20 cm/30 cm/25 cm
+2/In 1 inch there are about .../2.5 cm/1 cm/1.5 cm/3 cm/3.5 cm/4 cm/4.5 cm/5 cm
+2/In 12 inches there are about .../30 cm/25 cm/10 cm/15 cms/35 cm/40 cm/45 cm/50 cm
+3/We call a downward pull equal to a gram its ...?/weight/capacity/area/volume/surface/time/speed/distance
+3/We call a downward pull equal to a gramme its ...?/weight/capacity/area/volume/surface/time/speed/distance
+3/We call a downward pull equal to a ton its ...?/weight/capacity/area/volume/surface/time/speed/distance
+3/We call a downward pull equal to a tonne its ...?/weight/capacity/area/volume/surface/time/speed/distance
+3/We call a downward pull equal to a kilogram its ...?/weight/capacity/area/volume/surface/time/speed/distance
+3/We call a downward pull equal to a kilogramme its ...?/weight/capacity/area/volume/surface/time/speed/distance
+3/We call a downward pull equal to a milligram its ...?/weight/capacity/area/volume/surface/time/speed/distance
+3/We call a downward pull equal to a milligramme its ...?/weight/capacity/area/volume/surface/time/speed/distance
+3/A gram is a unit of .../mass/length/capacity/area/volume/surface/time/speed
+3/A gramme is a unit of .../mass/length/capacity/area/volume/surface/time/speed
+3/A ton is a unit of .../mass/length/capacity/area/volume/surface/time/speed
+3/A tonne is a unit of .../mass/length/capacity/area/volume/surface/time/speed
+3/A kilogram is a unit of .../mass/length/capacity/area/volume/surface/time/speed
+3/A kilogramme is a unit of .../mass/length/capacity/area/volume/surface/time/speed
+3/A milligram is a unit of .../mass/length/capacity/area/volume/surface/time/speed
+3/A milligramme is a unit of .../mass/length/capacity/area/volume/surface/time/speed
+3/What does one litre of water weigh?/1 kg/50 g/100 g/200 g/400 g/600 g/800 g/900 g
+3/How many kilograms in [x] tonnes?\kg#1,10i#1000*x
+3/How many milligrams in [x] grams?#1,10i#1000*x
+3/How many milligrams in a gram?/1000/5/20/50/100/200/400/750
+3/How many milligrams in [x] grams?#1,10i#1000*x
+3/How many grams in [x] kilograms?#1,10i#1000*x
+3/How many pounds are there in a kilogram?&Just over .../2/4/5/6/7/8/9/10
+3/How many kilograms are there in 1 tonne?/1000/5/20/50/100/200/400/750
+3/Which is the biggest unit of mass of gram, milligram, tonne or kilogram?/tonne/gram/kilogram/all equal/none/all light/milligram/all heavy
+3/Which is the smallest unit of mass of gram, milligram, tonne, or kilogram?/milligram/tonne/gram/kilogram/all equal/none/all light/all heavy
+4/A jug holds [x] litres of water.&How many jugs will be required to fill a tub of [y] litres?#0.5,10#10,50#y/x
+4/How many centilitres in [x] litres?\cl#0.5,10#100*x
+4/How many cl in [x] l?#0.5,8#100*x
+4/Capacity is the amount of space taken up by a .../liquid/speed/surface/clock/calendar/stamp/metre/kilogram
+4/A pint is a measure of .../capacity/weight/area/velocity/surface/time/speed/mass
+4/A millilitre is a measure of .../capacity/weight/area/velocity/surface/time/speed/mass
+4/A litre is a measure of .../capacity/weight/area/velocity/surface/time/speed/mass
+4/A centilitre is a measure of .../capacity/weight/area/velocity/surface/time/speed/mass
+4/A gallon is a measure of .../capacity/weight/area/velocity/surface/time/speed/mass
+4/How many litres in [x] gallons of petrol?\l#2,25i#4.5*x
+4/What does one litre of water weigh?/1000 g/50 g/100 g/200 g/400 g/600 g/800 g/900 g
+4/How many millilitres (ml) are there in a litre?/1000/100/10/20/30/40/200/250
+4/How many millilitres (ml) are there in a centilitre?/10/100/1000/20/30/40/200/250
+4/How many centilitres (cl) are there in a litre?/100/10/1000/20/30/40/200/250
+4/How many cl are there in a litre?/100/10/1000/20/30/40/200/250
+4/How many 5 ml spoonsful are there in one centilitre?/2/3/4/5/6/7/8/10
+4/How many ml are there in a litre?/1000/100/10/20/30/40/200/250
+4/How many pints equal 1 litre?/1.75 pts/2.5 pts/3 pts/4 pts/5 pts/0.75 pts/10 pts/3.75 pts
+GRADE5
+1/With a £5 note I buy 5 oranges at 12p each.&What is my change?/440/220/480
+1/I buy 6 biscuits with £1 and get 28p change.&How much for one?/12/5/20
+1/5 kg of pears cost £3.55. What would 10 kg cost?/710/600/1000
+1/What is the difference between £4.68 and £1.69?/299/100/350
+1/Apples 59p, potatoes 27p and cabbage 48p.&Find the total cost./134/50/250
+1/I buy a WALKMAN for £12 and sell it for £20.&What is my profit?/800/100/900
+1/A bike costs £120. It is sold for £95.&What is the loss?/2500/1000/4000
+1/Jason saved £350 for a holiday costing £274.&What had he left?/7600/3000/9000
+1/Kashfa spends £27 from a £50 note.&What is her change?/2300/1000/4000
+1/A camera cost me £[x] when new. If it was sold at half-price,&how many pounds would I lose?\|£#10,100i#x/2
+1/A CD player cost me £[x] when new. If it was sold at half-price,&how many pounds would I lose?\|£#10,100i#x/2
+1/A computer game cost me £[x] when new. If it was sold at half-price,&how many pounds would I lose?\|£#10,100i#x/2
+1/A hi-fi radio cost me £[x] when new. If it was sold at half-price,&how many pounds would I lose?\|£#10,100i#x/2
+1/A vase cost me £[x] when new. If it was sold at half-price.&How many pounds would I lose?\|£#10,100i#x/2
+1/A desk cost me £[x] when new. If it was sold at half-price.&How many pounds would I lose?\|£#10,100i#x/2
+1/A chair cost me £[x] when new. If it was sold at half-price.&How many pounds would I lose?\|£#10,100i#x/2
+1/What is the difference in pounds between £[x] and £[y]?\|£#2,20i#2,20i#ABS(x-y)
+1/A bedroom carpet [w]m by [x]m costs £[y] to lay.&How many pounds for [z] rooms?#2,5i#2,5i#20,100i#2,10i#y*z
+1/A bicycle has been saved for in [x] weekly amounts of £[y].&How many pounds have been saved so far?\|£#2,10i#5,12i#x*y
+2/A hot dog costs a 'quarter'. How many cents is that?/25/10/75
+2/A chair cost me $[x] when new. If it was sold at half-price,&how many dollars would I lose?\|$#10,100i#x/2
+2/The exchange rate is [x] dollars to the pound,&how many dollars could be bought for [y] pounds?\|$#2,10i#2,10i#x*y
+2/A vase cost me $[x] when new. If it was sold at half-price,&how many dollars would I lose?\|$#10,100i#x/2
+2/A book cost me $[x] when new. If it was sold at half-price,&how many dollars would I lose?\|$#10,100i#x/2
+2/A holiday has been saved for in [x] weekly amounts of $[y].&How many dollars have been saved so far?\|$#2,10i#5,12i#x*y
+2/A bicycle has been saved for in [x] weekly amounts of $[y].&How many dollars have been saved so far?\|$#2,10i#5,12i#x*y
+2/A portable radio has been saved for in [x] weekly amounts of $[y].&How many dollars have been saved so far?\|$#2,10i#5,12i#x*y
+2/A tool kit has been saved for in [x] weekly amounts of $[y].&How many dollars have been saved so far?\|$#2,10i#5,12i#x*y
+3/What is the difference between [x] deutschmarks&and [y] deutschmarks?\DM#2,20i#2,20i#ABS(x-y)
+3/A German sausage costs 1.30 deutschmarks.&What is the cost of four?/520/400/600
+3/A carpet [w] metres by [x] metres costs [y] deutschmarks to lay.&What is the cost for [z] rooms in deutschmarks?\DM#2,5i#2,5i#20,100i#2,10i#y*z
+3/A kitchen floor [w] metres by [x] metres costs [y] deutschmarks to lay.&What is the cost for [z] rooms in deutschmarks?\DM#2,5i#2,5i#20,100i#2,10i#y*z
+3/A tiled area [w] metres by [x] metres costs [y] deutschmarks to lay.&What is the cost for [z] rooms in deutschmarks?\DM#2,5i#2,5i#20,100i#2,10i#y*z
+3/A bedroom carpet [w] m by [x] m costs [y] DM to lay.&What is the cost for [z] rooms in deutschmarks?\DM#2,5i#2,5i#20,100i#2,10i#y*z
+3/A bicycle has been saved for in [x] weekly amounts of [y] DM.&How much has been saved so far in deutschmarks?\DM#2,10i#5,12i#x*y
+3/A portable radio has been saved for in [x] weekly amounts of [y] DM.&How much has been saved so far in deutschmarks?\DM#2,10i#5,12i#x*y
+3/A book cost me [x] DM when new. If it was sold at half-price.&How much would I lose in deutschmarks?\DM#10,100i#x/2
+3/The exchange rate is [x] deutschmarks to the pound.&How many could be bought for [y] pounds?\DM#2,10i#2,10i#x*y
+4/Find the cost of [x] pens at [y] centimes each.&Answer in centimes#2,10i#4,10i#x*y
+4/What is the cost of [w] loaves at [x] Francs each and [y] bottles&of wine at [z] Francs each?\Fr#2,5i#2,10i#2,5i#2,10i#(w*x)+(y*z)
+4/Find the cost of [x] pencils at [y] centimes each.&Answer in centimes#2,10i#4,10i#x*y
+4/What is the difference between [x] Francs and [y] Francs?\Fr#2,20i#2,20i#ABS(x-y)
+4/A vase cost me [x] Francs when new. If it was sold at half-price,&how much would I lose in Francs?\Fr#10,100i#x/2
+4/The exchange rate is [x] Francs to the pound.&How many Francs could be bought for [y] pounds?\Fr#2,10i#2,10i#x*y
+4/A holiday has been saved for in [x] weekly amounts of [y] Francs.&How much has been saved so far in Francs?\Fr#2,10i#5,12i#x*y
+4/A bicycle has been saved for in [x] weekly amounts of [y] Francs.&How much has been saved so far in Francs?\Fr#2,10i#5,12i#x*y
+4/A portable radio has been saved for in [x] weekly amounts of [y] Francs.&How much has been saved so far in Francs?\Fr#2,10i#5,12i#x*y
+4/A tool kit has been saved for in [x] weekly amounts of [y] Francs.&How much has been saved so far in Francs?\Fr#2,10i#5,12i#x*y
+GRADE6
+1/If 3x=15 then what does x equal?/5/-4/20
+1/Given that 3x=15, what does x equal/5/-4/20
+1/If 3x=[x] then what does x equal?#3,60i#x/3
+1/If x/2=[x] then what does x equal?#3,60i#2*x
+1/If 3@=[x] then what does @ equal?#6,60i#x/3
+1/If [x]@=[y] then what does @ equal?#2,10i#3,60i#y/x
+1/If @/2=[x] then what does @ equal?#3,60i#2*x
+1/If @/[y]=[x] then what does @ equal?#2,5i#3,40i#x*y
+1/If 2x=[x] then what does x equal?#2,100i#x/2
+1/If 3x=[x] then what does x equal?#3,60i#x/3
+1/If 4x=[x] then what does x equal?#4,80i#x/4
+1/If 5x=[x] then what does x equal?#5,100i#x/5
+1/If 6x=[x] then what does x equal?#6,60i#x/6
+1/If 7x=[x] then what does x equal?#7,70i#x/7
+1/If 8x=[x] then what does x equal?#8,80i#x/8
+1/If 9x=[x] then what does x equal?#9,90i#x/9
+1/If 10x=[x] then what does x equal?#10,100i#x/10
+1/If x/2=[x] then what does x equal?#1,10i#2*x
+1/If x/3=[x] then what does x equal?#1,10i#3*x
+1/If x/4=[x] then what does x equal?#1,10i#4*x
+1/If x/5=[x] then what does x equal?#1,10i#5*x
+1/If x/6=[x] then what does x equal?#1,10i#6*x
+1/If x/7=[x] then what does x equal?#1,10i#7*x
+1/If x/8=[x] then what does x equal?#1,10i#8*x
+1/If x/9=[x] then what does x equal?#1,10i#9*x
+1/If x/10=[x] then what does x equal?#1,10i#10*x
+2/If [x]+@=[y] then work out what @ is#10,50i#10,50i#y-x
+2/If [x]=[y]+@ then what does @ equal?#10,50i#10,50i#x-y
+2/If [x]=@+[y] then what number does @ stand for?#10,50i#10,50i#x-y
+2/If x+3=5 then what does x equal?/2/-4/20
+2/If x+3=[x] what must x equal?#10,50i#x-3
+2/If @+3=[x] then what does @ equal?#10,50i#x-3
+2/What is @, given that @+[y]=[x] ?#2,10i#10,50i#x-y
+2/Given that @+[y]=[x] then what does @ equal?#2,10i#10,50i#x-y
+3/What is @, given that [x]-@=[y]#10,50i#10,50i#x-y
+3/If [x]-@=[y] then what must @ equal?#10,50i#10,50i#x-y
+3/If x-4=12 then what does x equal?/16/-4/20
+3/If x-4=[x] then what does x equal?#10,50i#x+4
+3/If x-6=[x] then what does x equal?#10,50i#x+6
+3/If @-[x]=[y] then what does @ equal?#1,10i#1,20i#x+y
+3/Given that @-[x]=[y] then what does @ equal?#1,10i#10,50i#x+y
+4/If [x]@+[y]=[z] then what does @ equal?#2,5i#1,20i#3,90i#(z-y)/x
+4/Given that [x]@+[y]=[z] work out @#2,5i#1,20i#3,90i#(z-y)/x
+4/In the equation [x]@+[y]=[z]. What does @ equal?#2,5i#1,20i#3,90i#(z-y)/x
+4/If [x]@-[y]=[z] then what does @ equal?#2,5i#1,20i#3,90i#(z+y)/x
+4/If 2x+4=12 then what does x equal?/4/-4/20
+4/If 2x+[x]=[y] then what does x equal?#1,5i#1,50i#(y-x)/2
+4/If 2x+[x]=[y] then what does x equal?#2,6#1,20i#(y-x)/2
+4/If 3x+[x]=[y] then what does x equal?#2,6#1,30i#(y-x)/3
+4/If 4x+[x]=[y] then what does x equal?#2,6#1,40i#(y-x)/4
+4/If 5x+[x]=[y] then what does x equal?#2,6#1,50i#(y-x)/5
+4/If 6x+[x]=[y] then what does x equal?#2,6#1,60i#(y-x)/6
+4/If 2x+[x]=[y] then what does x equal?#2,6#1,20i#(y-x)/2
+4/If 3x+[x]=[y] then what does x equal?#2,6#1,30i#(y-x)/3
+4/If 4x+[x]=[y] then what does x equal?#2,6#1,40i#(y-x)/4
+4/If 5x+[x]=[y] then what does x equal?#2,6#1,50i#(y-x)/5

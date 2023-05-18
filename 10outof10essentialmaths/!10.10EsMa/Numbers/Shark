@@ -1,0 +1,175 @@
+$ Shark Island word file structure
+$ 3.<sub grade>/<question>/<answer>/<false>/<false>/<false>
+$ 6.<sub grade>/<question>/<answer>/<false>/<false>/<false>
+$ sub grade  1-4
+$ question maximum length 80 characters
+$ Grade 3 and 6 answer and false maximum length 12 characters
+
+GRADE3
+1/In the pattern a b c d ... What comes next?/e/m/k/w
+1/In the pattern e f g h ... What comes next?/i/a/j/y
+1/In the pattern i j k l ... What comes next?/m/p/r/u
+1/In the pattern m n o p ... What comes next?/q/w/l/y
+1/In the pattern q r s t ... What comes next?/u/z/r/g
+1/In the pattern u v w x ... What comes next?/y/z/r/q
+1/In the pattern a c e g ... What comes next?/i/h/j/k
+1/In the pattern z y x w ... What comes next?/v/r/q/m
+1/What comes next in the pattern ... ab cd ef gh?/ij/kl/mn/op
+1/What comes next in the pattern ... cd ef gh ij?/kl/mn/op/qr
+1/What comes next in the pattern ... ef gh ij kl?/mn/op/qr/st
+1/What comes next in the pattern ... gh ij kl mn?/op/qr/st/yz
+1/What comes next in the pattern ... ab bc cd de?/ef/fg/gh/hi
+1/What comes next in the pattern ... bc cd de ef?/fg/gh/hi/ij
+1/What comes next in the pattern ... cd de ef fg?/gh/hi/ij/jk
+1/What comes next in the pattern ... a c e g?/i/k/m/o
+1/What comes next in the pattern ... c e g i?/k/m/o/q
+1/What comes next in the pattern ... e g i k?/m/o/q/s
+1/What comes next in the pattern ... ab ef ij mn?/qr/yz/cd/wx
+1/What comes next in the pattern ... ij mn qr uv?/yz/cd/gh/lm
+1/What comes next in the pattern ... a b c a?/b/c/d/e
+1/What comes next in the pattern ... b c d b?/c/d/e/f
+1/What comes next in the pattern ... c d e c?/d/e/f/g
+1/What comes next in the pattern ... a A B b?/c/C/D/d
+1/What comes next in the pattern ... b B C c?/d/D/E/e
+1/What comes next in the pattern ... c C D d?/e/E/F/f
+2/In the sequence 1 2 3 4 ... What comes next?/5/6/7/8
+2/In the sequence 5 6 7 8 ... What comes next?/9/14/8/6
+2/In the sequence 9 10 11 12 ... What comes next?/13/17/15/19
+2/In the sequence 13 14 15 16 ... What comes next?/17/21/19/20
+2/In the sequence 17 18 19 20 ... What comes next?/21/25/30/35
+2/What comes next in the pattern ... 1 2 3 4?/5/6/7/8
+2/What comes next in the pattern ... 2 3 4 5?/6/7/8/9
+2/What comes next in the pattern ... 3 4 5 6?/7/8/9/10
+2/What comes next in the pattern ... 2 4 6 8?/10/12/14/16
+2/What comes next in the pattern ... 4 6 8 10?/12/14/16/18
+2/What comes next in the pattern ... 6 8 10 12?/14/16/18/20
+2/What comes next in the pattern ... 8 10 12 14?/16/18/20/22
+3/In the sequence 1 3 5 7 ... What comes next?/9/8/10/11
+3/In the sequence 7 9 11 13 ... What comes next?/15/17/10/19
+3/In the sequence 13 15 17 19 ... What comes next?/21/23/29/27
+3/In the sequence 2 3 5 8 ... What comes next?/12/13/17/19
+3/In the sequence 11 13 17 19 ... What comes next?/23/29/31/41
+3/What comes next in the pattern ... 1 3 5 7?/9/2/4/6
+3/What comes next in the pattern ... 3 5 7 9?/11/2/4/6
+3/What comes next in the pattern ... 5 7 9 11?/13/14/15/16
+3/What comes next in the pattern ... 1 4 7 10?/13/12/14/15
+3/What comes next in the pattern ... 4 7 10 13?/16/14/15/17
+3/What comes next in the pattern ... 1 5 9 13?/17/14/15/16
+3/What comes next in the pattern ... 5 9 13 17?/21/18/19/22
+3/What comes next in the pattern ... 100 99 98 97?/96/98/97/95
+3/What comes next in the pattern ... 99 98 97 96?/95/97/96/94
+3/What comes next in the pattern ... 100 98 96 94?/92/95/94/93
+4/In the pattern (10+0) (9+1) (8+2) ... What comes next?/(7+3)/(3+7)/(9+1)/(8+2)
+4/In the pattern (9+1) (8+2) (7+3) ... What comes next?/(6+4)/(9+1)/(0+10)/(1+8)
+4/In the pattern (8+2) (7+3) (6+4) ... What comes next?/(5+5)/(7+3)/(8+2)/(3+4)
+4/In the pattern (7+3) (6+4) (5+5) ... What comes next?/(4+6)/(6+4)/(0+10)/(5+7)
+4/In the pattern (6+4) (5+5) (4+6) ... What comes next?/(3+7)/(4+6)/(5+5)/(1+2)
+4/In the pattern (5+5) (4+6) (3+7) ... What comes next?/(2+8)/(7+3)/(1+9)/(4+3)
+4/In the pattern (4+6) (3+7) (2+8) ... What comes next?/(1+9)/(9+1)/(7+3)/(4+2)
+4/In the pattern (3+7) (2+8) (1+9) ... What comes next?/(0+10)/(2+8)/(8+2)/(3+4)
+4/In the pattern (0+10) (1+9) (2+8) ... What comes next?/(3+7)/(7+3)/(6+4)/(5+8)
+4/In the pattern (1+9) (2+8) (3+7) ... What comes next?/(4+6)/(6+4)/(8+2)/(5+3)
+4/In the pattern (2+8) (3+7) (4+6) ... What comes next?/(5+5)/(4+6)/(8+2)/(1+3)
+4/In the pattern (3+7) (4+6) (5+5) ... What comes next?/(6+4)/(5+5)/(9+1)/(7+2)
+4/In the pattern (4+6) (5+5) (6+4) ... What comes next?/(7+3)/(4+6)/(0+10)/(5+2)
+4/In the pattern (5+5) (6+4) (7+3) ... What comes next?/(8+2)/(10+0)/(0+10)/(2+4)
+4/In the pattern (6+4) (7+3) (8+2) ... What comes next?/(9+1)/(5+5)/(10+0)/(8+6)
+4/In the pattern (7+3) (8+2) (9+1) ... What comes next?/(10+0)/(2+8)/(1+9)/(0+4)
+4/In the pattern (10+0) (8+2) (6+4) ... What comes next?/(4+6)/(5+5)/(0+10)/(9+1)
+4/In the pattern (8+2) (6+4) (4+6) ... What comes next?/(2+8)/(3+7)/(10+0)/(3+0)
+4/In the pattern (6+4) (4+6) (2+8) ... What comes next?/(0+10)/(8+2)/(7+3)/(4+3)
+4/In the pattern (9+1) (7+3) (5+5) ... What comes next?/(3+7)/(4+6)/(6+4)/(9+7)
+4/In the pattern (7+3) (5+5) (3+7) ... What comes next?/(1+9)/(2+8)/(6+4)/(5+2)
+4/In the pattern (0+10) (2+8) (4+6) ... What comes next?/(6+4)/(5+5)/(1+9)/(1+0)
+4/In the pattern (2+8) (4+6) (6+4) ... What comes next?/(8+2)/(7+3)/(9+1)/(1+5)
+4/What comes next in the pattern ... 1 2 4 8?/16/10/12/14
+4/What comes next in the pattern ... 2 4 8 16?/32/20/24/28
+4/What comes next in the pattern ... 4 8 16 32?/64/48/56/72
+4/What comes next in the pattern ... 3 6 12 24?/48/30/36/42
+4/What comes next in the pattern ... 5 10 20 40?/80/30/40/50
+4/What comes next in the pattern ... 6 12 24 48?/96/60/62/66
+4/What comes next in the pattern ... 1 3 7 15?/31/21/25/29
+4/What comes next in the pattern ... 2 5 11 23?/47/34/37/45
+4/What comes next in the pattern ... 1 4 10 22?/46/40/42/44
+4/What comes next in the pattern ... 2 6 14 30?/62/45/57/64
+4/What comes next in the pattern ... 1 5 13 29?/61/41/51/55
+4/What comes next in the pattern ... 2 3 5 9?/17/15/16/18
+4/What comes next in the pattern ... 3 5 9 17?/33/30/31/32
+4/What comes next in the pattern ... 4 6 10 18?/34/20/24/28
+4/What comes next in the pattern ... 112 56 28 14?/7/10/9/8
+4/What comes next in the pattern ... 64 32 16 8?/4/7/6/5
+4/What comes next in the pattern ... 96 48 24 12?/6/10/9/8
+GRADE6
+1/How long is a fish finger?/5-10 cm/0-5 cm/20-30 cm/30-40 cm
+1/How long is an ice-lolly stick?/8-12 cm/2-6 cm/15-20 cm/14-18 cm
+1/What is the length of a dandelion petal?/5-20 mm/5-20 cm/5-20 m/5-20 km
+1/How wide is a videotape box?/4"/8"/12"/2"
+1/How wide is a videotape box?/10 cm/20 cm/30 cm/5 cm
+1/What is the length of Uncle Norman's nose?/5-8 cm/5-8 mm/50-80 cm/12-18 cm
+1/What is the length of a tube of 'Smarties'?/10-14 cm/15-20 cm/5-10 mm/10-14 g
+1/How long is Auntie Fanny's little finger?/40-80 mm/4-8 mm/10-12 cm/50-60 cm
+1/How long is Grandad's foot?/8-12 ins/3-6 ins/12-15 ins/2-3 feet
+1/How long is a videotape box?/7-8 ins/10-12 ins/12-15 ins/2-5 ins
+1/How LONG is a dinner FORK?/15-20 cm/5-10 cm/10-15 cm/30-40 cm
+1/How HIGH is the top of a DOOR?/2 metres/3 metres/4 metres/5 metres
+1/How WIDE is a normal POSTAGE STAMP?/15-25 mm/5-15 mm/25-35 mm/40-50 mm
+1/How WIDE are FIVE pennies?/10 cm/5 cm/15 cm/20 cm
+1/How WIDE is a SHIRT BUTTON?/1 cm/15 mm/15 cm/100 mm
+1/How WIDE is a FLOPPY DISK?/8-15 cm/3-8 cm/15-20 cm/25-30 cm
+1/How WIDE is a sheet of A4 PAPER?/21 cm/21 mm/21 m/21 km
+1/Guesstimate: how TALL is a POLICEMAN?/2 metres/5 metres/3 metres/4 metres
+1/How LONG is a SCHOOL CALCULATOR?/10-15 cm/15-20 cm/20-25 cm/35-50 cm
+1/About how LONG is a NEW PENCIL in centimetres?/16-20 cm/4-8 cm/6-10 cm/20-25 cm
+1/About how HIGH is a TEACUP?/6-8 cm/10-12 cm/3-5 cm/1-2 cm
+1/How HIGH is an ordinary ROOM?/3 metres/2 metres/5 metres/4 metres
+1/How long is a tooth-brush bristle?/5-15 mm/5-15 cm/150-200 mm/1-2 m
+1/How HIGH is a STEP ON THE STAIRS?/20 cm/30 cm/10 cm/40 cm
+1/How TALL is a TELEPHONE BOX?/2-3 metres/4-5 metres/9-10 metres/12-14 metres
+1/What is the LENGTH of a MATCHSTICK?/30-50 mm/10-20 mm/60-80 mm/75-90 mm
+1/How LONG is a LADYBIRD?/4-6 mm/10-12 mm/1-3 mm/15-20 mm
+1/How LONG is a Heinz BAKED BEAN?/5-12 mm/1-4 mm/15-20 mm/12-14 mm
+1/How LONG is a CRICKET PITCH?/20 metres/100 cm/5 metres/8 metres
+1/What is the LENGTH of a TEA BAG?/5-7 cm/1-3 cm/3-5 cm/9-12 cm
+1/How LONG is a CASH CARD?/7-10 cm/1-3 cm/4-6 cm/15-20 cm
+1/How LONG is an EGG?/4-7 cm/1-3 cm/8-10 cm/12-14 cm
+1/How LONG is a JAM BUTTIE made with a normal sliced loaf?/10-12 cm/2-4 cm/6-8 cm/16-20 cm
+1/What is the LENGTH of an ordinary family CAR?/3-5 metres/0-0.5 metres/5-8 metres/8-10 metres
+1/How LONG is an ANT?/5 mm/10 mm/15 mm/20 mm
+1/How LONG is a two-seater SCHOOL TABLE?/1-2 metres/2-4 metres/4-6 metres/8-12 metres
+1/How LONG is a GRAIN OF RICE?/5-10 mm/1-2 mm/10-15 mm/20-30 mm
+2/What is the diameter of a Smartie?/5-15 mm/2-3 cm/3-4 cm/4-5 cm
+2/What is the DIAMETER of a TENNIS BALL?/6-8 cm/3-5 cm/9-12 cm/15-17 cm
+2/What is the DIAMETER of a CD?/12 cm/12 mm/12 m/120 cm
+2/What is the perimeter of an ordinary postage stamp?/8-10 cm/8-10 mm/10-15 cm/1-5 cm
+2/What is the diameter of a buttercup?/15-20 mm/4-6 cm/30-40 mm/1-2 m
+2/What is the distance around a wedding ring?/5-7 cm/5-7 mm/50-70 cm/8-12 mm
+2/What is the distance around a 3.5" floppy disk?/25-30 cm/7-10 cm/15-20 cm/20-30 mm
+3/What is an AVERAGE WEIGHT for a NEW-BORN BABY?/8 lbs/8 ozs/8 kg/18 kg
+3/What does a school EXERCISE BOOK WEIGH?/100-200 g/50-100 g/200-300 g/400-500 g
+3/What does a CAN OF COKE WEIGH?/300-400 g/100-200 g/200-300 g/500-600g
+3/What is the weight of a plastic clothes peg?/3-5 g/16-18 g/80-100 g/40-50 g
+3/What is the weight of a C60 audio cassette?/25-40 g/45-60 g/55-70 g/10-15 g
+3/What is the weight of a cream cracker?/5-10 g/10-15 g/1-5 g/15-20 g
+3/What is the weight of a 3.5" floppy disk?/20-30 g/5-15 g/20-30 mg/20-30 kg
+3/What unit would you use to weigh a flea?/mg/g/kg/tonnes
+3/What unit would you use to weigh a mouse?/g/mg/kg/tonnes
+3/What unit would you use to weigh an elephant?/tonnes/mg/g/kg
+3/What unit would you use to weigh a whale?/tonnes/mg/g/kg
+3/What does a blackberry weigh?/1-5 g/10-15 g/1-5 mg/1-5 kg
+3/How much does a packet of crisps weigh?/20-30 g/5-10 g/10-20 g/50-60 g
+3/What is the weight of a Jam Buttie?/30-40 g/1-10 g/11-15 g/10-20 g
+3/What is the weight of a videotape?/200-300 g/5-10 g/50-100 g/300-400 g
+3/What is the weight of a litre of milk?/1000-1100 g/100-200 g/200-400 g/600-900 g
+3/Estimate the weight of a boiled egg?/40-80 g/100-200 g/10-20 g/40-80 mg
+3/What is the weight of an ordinary apple?/75-125 g/1-5 g/1-2 kg/15-30 g
+3/What is the weight of an ordinary orange?/75-125 g/1-5 g/1-2 kg/15-30 g
+3/About how many grains of rice weigh 1 gram?/75/1/5/10
+4/How many MILLILITRES will a MEDICINE SPOON hold?/5 ml/10 ml/2 ml/15 ml
+4/How many MILLILITRES will an EGG CUP hold?/30-50 ml/20-30 ml/5-10 ml/60-70 ml
+4/How many LITRES will an ordinary sized TEA CUP hold?/0.25 litres/0.5 litre/1 litre/2 litres
+4/How much 'Coke' is in a can of 'Coke'?/330ml/500ml/200ml/750 ml
+4/How many MILLILITRES will a DESERT SPOON hold?/8-15 ml/5-7 ml/16-30 ml/40-50 ml
+4/How many MILLILITRES does a CAN OF DRINK hold?/300-400 ml/100-200
+ml/200-300/600-900 ml
+4/How many MILLILITRES in a PINT of MILK?/400-600 ml/100-200 ml/200-400 ml/600-800 ml
+4/How many litres in a gallon of petrol?/4-5 litres/5-6 litres/6-7 litres/2-3 litres

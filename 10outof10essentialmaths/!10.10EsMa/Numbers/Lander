@@ -1,0 +1,207 @@
+$ Lander word file structure
+$ 3.<sub grade>/<question>/<sprite name>
+$ 6.<sub grade>/<question>/<answer>/<false> ...
+$ sub grade 1-4
+$ question maximum length 80 characters
+$ answer   maximum length 16 characters
+$ false    maximum length 16 characters up to 16 entries
+$ Grade 3 should NOT be user modified
+
+GRADE3
+1/Fly to the shape with vertical symmetry*m0
+1/Power to a shape with vertical symmetry*m1
+1/Land on a shape with vertical symmetry*m2
+1/Which shape has vertical symmetry?*m3
+1/Fly to a shape with vertical symmetry*m4
+1/Blast off to a shape with vertical symmetry*m5
+1/Land on a vertically symmetrical shape*m6
+1/Fly to a vertically symmetrical shape*m7
+1/Power to a vertically symmetrical shape*m0
+1/Blast off to a vertically symmetrical shape*m1
+1/Where is a vertically symmetrical shape?*m2
+1/Which is a vertically symmetrical shape?*m3
+1/Power to a vertically symmetrical shape*m4
+1/Float to a vertically symmetrical shape*m5
+1/Orbit to a vertically symmetrical shape*m6
+1/Zoom to a vertically symmetrical shape*m6
+1/Fly over the 'odd man out'*m7
+1/Fly to the shape with a vertical (up/down) mirror line*m0
+1/Power to a shape with a vertical (up/down) mirror line*m1
+1/Land on a shape with a vertical (up/down) mirror line*m2
+1/Which shape has a vertical (up/down) mirror line?*m3
+1/Fly to a shape with a vertical (up/down) mirror line*m4
+1/Blast off to a shape with a vertical (up/down) mirror line*m5
+1/Fly to the shape with a vertical (up/down) mirror line*m0
+1/Power to a shape with a vertical (up/down) mirror line*m1
+1/Land on a shape with a vertical (up/down) mirror line*m2
+1/Which shape has a vertical (up/down) mirror line?*m3
+1/Fly to a shape with a vertical (up/down) mirror line*m4
+1/Blast off to a shape with a vertical (up/down) mirror line*m5
+2/Fly to a shape with horizontal symmetry*m8
+2/Land on a shape with horizontal symmetry*m9
+2/Float to a horizontally symmetrical shape*m9
+2/Which shape has horizontal symmetry?*m10
+2/Orbit to a horizontally symmetrical shape*m10
+2/Zoom to a horizontally symmetrical shape*m10
+2/Fly to a shape with horizontal symmetry*m11
+2/Blast off to a shape with horizontal symmetry*m12
+2/Fly over a horizontally symmetrical shape*m13
+2/Where is a horizontally symmetrical shape?*m14
+2/Which is a horizontally symmetrical shape?*m15
+2/Power to a horizontally symmetrical shape*m8
+2/Float to a horizontally symmetrical shape*m9
+2/Orbit to a horizontally symmetrical shape*m10
+2/Find the horizontally symmetrical shape*m11
+2/Which shape has horizontal symmetry?*m12
+2/Find the horizontally symmetrical shape*m13
+2/Find a shape with horizontal symmetry*m14
+2/Blast off to a horizontally symmetrical shape*m15
+2/Fly to a shape with a horizontal (left/right) mirror line*m8
+2/Fly to a shape with a horizontal (left/right) mirror line*m8
+2/Land on a shape with a horizontal (left/right) mirror line*m9
+2/Land on a shape with a horizontal (left/right) mirror line*m9
+2/Which shape has a horizontal (left/right) mirror line?*m10
+2/Fly to a shape with a horizontal (left/right) mirror line*m11
+2/Blast off to a shape with a horizontal (left/right) mirror line*m12
+2/Blast off to a shape with a horizontal (left/right) mirror line*m12
+2/Which shape has a horizontal (left/right) mirror line?*m12
+2/Find a shape with a horizontal (left/right) mirror line*m14
+3/Which shape has horizontal and vertical symmetry?*m16
+3/Blast off to a shape with horizontal and vertical symmetry*m17
+3/Find the shape that is horizontally and vertically symmetrical*m18
+3/Orbit a horizontally and vertically symmetrical shape*m19
+3/Land on a shape with horizontal and vertical symmetry*m20
+3/Fly to a shape that has vertical and horizontal symmetry*m21
+3/Which shape has vertical and horizontal symmetry?*m22
+3/Fly over a shape which has vertical and horizontal symmetry*m23
+3/Land on the shape which has vertical and horizontal symmetry*m16
+3/Where is the vertically and horizontally symmetrical shape?*m17
+3/Blast off and find the shape which has horizontal and vertical symmetry*m18
+3/Power to a horizontally and vertically symmetrical shape*m19
+3/Land on the 'odd man out'*m20
+3/Which shape is the odd one out?*m21
+3/Rocket to the shape which is the odd one out*m21
+3/Which is the only shape with horizontal and vertical symmetry?*m22
+3/Hyperdrive to the only shape with horizontal and vertical symmetry?*m22
+3/Fly your lander to the shape with vertical and horizontal symmetry*m23
+4/Which shape has diagonal symmetry?*m24
+4/Zip to the shape which has diagonal symmetry*m24
+4/Fly your lander to the shape with diagonal symmetry*m25
+4/Fly over a shape which has diagonal symmetry*m26
+4/Blast off to a diagonally symmetrical shape*m27
+4/Land on a shape with diagonal symmetry*m28
+4/Which shape is diagonally symmetrical?*m29
+4/Power to the diagonally symmetrical shape*m30
+4/Land on the diagonally symmetrical shape*m31
+4/Dock with a shape which has diagonal symmetry*m24
+4/Find the shape with diagonal symmetry*m25
+4/Float to a shape which has diagonal symmetry*m26
+4/Which is the only shape with diagonal symmetry?*m27
+4/Only one shape is diagonally symmetrical. Which is it?*m28
+4/Manoeuvre to the shape with diagonal symmetry?*m29
+4/Warp to the shape which is diagonally symmetrical?*m29
+4/Fly your moon lander to the diagonally symmetrical shape*m30
+4/Dock your ship with a diagonally symmetrical shape*m31
+4/Dock with a shape which has diagonal symmetry*m24
+4/Drift to the shape with diagonal symmetry*m25
+4/Float to a shape which has diagonal symmetry*m26
+4/Which is the only shape with diagonal symmetry?*m27
+4/Only one shape is diagonally symmetrical. Which is it?*m28
+4/Is there a shape with diagonal symmetry?*m29
+4/Fly your moon lander to the diagonally symmetrical shape*m30
+4/Dock your ship with a diagonally symmetrical shape*m31
+GRADE6
+1/Gather up like terms in 1+0+0+1+1+1+0/4/1/2/3/7/103
+1/Gather up like terms in 1+2+3/6/3/123/12/2/1
+1/Gather up like terms in 1+4+3/8/7/1/4/3/9
+1/Gather up like terms in 1+4+3/8/7/2/4/3/9
+1/Gather up like terms in 10k+10k+5k/25k/10k/25/15/5
+1/Gather up like terms in 12t+t/13t/12/t/13/t+t/11t/13
+1/Gather up like terms in 2j+2j+j+j/6j/4j/j/2j/8j/4/6
+1/Gather up like terms in 3+7+4/14/10/7/18/4/3
+1/Gather up like terms in 3a+4-a/2a+4/7-a/6-a/3a+3/7/7a-1
+1/Gather up like terms in 3n+4n+2n/9n/8n/7n/6n/8/9
+1/Gather up like terms in 3y+2y+y/6y/5+y/6+y/320y/6/12y/1
+1/Gather up like terms in 3z+2z+z/6z/321z/6/12/10/12z/1
+1/Gather up like terms in 7y+y+y+y/10y/7y/10/3y/y/2y/4y+10
+1/Gather up like terms in 7y+y+y+y/10y/7y/10/3y/y/2y/4y+10/7y+3/11y/11
+1/Gather up like terms in A+2B+3A+1/4A+2B+1/6A+B/6/A+B+6/3A+3B+1/A+4B+1
+1/Gather up like terms in a+a+a+a+a/5a/aaaaa/a/5/a+5/b
+1/Gather up like terms in a+b+a+b+a+b/3a+3b/2a+2b/a+b/3a+b/a+3b/6
+1/Gather up like terms in ab+ab+ba/3ab/2ab+b/2ab+a+b/3a+3b/ababba/abba
+1/Gather up like terms in c+4+c+3c+2/5c+6/9c/7+2c/3c+8/11c/11/9c+2
+1/Gather up like terms in d+2+4d/5d+2/8d+1/4d+2/6d+2/7d/24
+1/Gather up like terms in k+k+k/3k/3/k/5k/k+k/3k+3/5k+3
+1/Gather up like terms in p+p+p+p/4p/pppp/p/4/p+q+4/p+4
+1/Gather up like terms in p+q+2p+2q/3p+3q/3pq/5pq/4pq/4p+q
+1/Gather up like terms in t+2t+t/4t/2t/2/6/8/8t/6
+1/Gather up like terms in w+2w+3w/6w/5w/6/w/7w/7
+1/Gather up like terms in x+1+x+1+x/3x+2/x+2/5/x+1/3x-1/3x+1
+1/Gather up like terms in x+2x+3x/6x/6/x+5/x+6/x+1/x+2/x+3
+1/Gather up like terms in x+x+2x/4x/3x/4/2/8x/6
+1/Gather up like terms in xy+yx+xy/3xy/xyyxxy/x+2xy+y/3x3y/3x+3y/xy
+2/Tidy up -p+2p+3p-4p+p/p/11p/11/1/-1/-p/p+9
+2/Tidy up 1+p-q-1+p/2p-q/2p+2q-2/2p-2q+2/1+pq+1/pqp-2/p
+2/Tidy up 10k+10k+5k/25k/10k/25/15/5
+2/Tidy up 12t+t-10t-4t+5t/4t/11t/3/6t/t/-t
+2/Tidy up 12t+t/13t/12/t/13/t+t/11t/13
+2/Tidy up 3n+4n+2n-n/8n/7n/6n/8/7n+1/10/9/9n/7
+2/Tidy up 3w+1-x+2-4x/3w-5x+3/7w+5x-1/5w-7x+3/10/w+x+10/w+x+1/wxx-1
+2/Tidy up 3x+2-x+4/2x+6/4x+6/8/10/1/4x-6/x-1/25
+2/Tidy up 3x-x+7x-3x/6x/10x-4x/14/14x/x+7
+2/Tidy up 4+2g-h-4/2g-h/2g-h+8/2g-h-8/2g-4h-4/2g-4h-8/g/h/8
+2/Tidy up 4+3u-2v-3+u/4u-2v+1/7u-5v/7u-5v+1/3u-3v-2/3u-3v-2/3
+2/Tidy up 4c+5c+6c-c-2c-3c/9c/9/21/10c/11/-4c
+2/Tidy up 4r+8-3r-r/8/9r/9/12/r+8/7r-2/13/11
+2/Tidy up 4x+x+1-3x-x-1/x/x+x/x+x+1
+2/Tidy up 4x-x-1-3x+x-1/x-2/x-2x-2/x+x/x
+2/Tidy up 7x-5x-2x+8x/8x/7x/6x/9x/0/2x/-3x/8
+2/Tidy up 9-2+5+3/15/19/17/18/14/12/11/13/5
+2/Tidy up a+b-a+2b/3b/2a+3b/2a-3b/5a+b/5ab/3
+2/Tidy up c+4+2d-1+4c/5c+2d+3/8c+d/c+d+4/c+d+3/5c+2d-3/3
+2/Tidy up c+8d-c-3d/5d/2c+5d/2c-5d/2c+5d-3/5c-3/5d+c
+2/Tidy up x+2x-x/2x/x/2/4/6/8/6x
+2/Tidy up x+5+2y-x-2y/5/3x+3y+5/3x+3y-5/2x+4y+5/2x-4y-5/x+5/y-5
+3/Collect the like terms in -4g+2h+6g/2g+2h/8hg/12h+g/6/4/g+h/0/h
+3/Collect the like terms in -x+2x+3x-4y/4x-4y/8xy/10/4x/2xy/x+y/6
+3/Collect the like terms in -x-y+3x+x+y/3x/5x+2y/0/-x-y/-3x/2y-y/3y/6x
+3/Collect the like terms in 10p-9q+8q+7q-7p/3p+6q/9pq/9p+q/10/17
+3/Collect the like terms in 2p+q-2p+4q-1/5q-1/4p+5q-1/4p+5q+1/5q+1/5Q-1/7/7P-q
+3/Collect the like terms in 2x+2y+2z-x-y-z/x+y+z/2xyz/xyz/2/3/9
+3/Collect the like terms in 2x+y+4-3/2x+y+1/xy/7/3xy/2x
+3/Collect the like terms in 2x+y+4-3/2x+y+1/xy/7/3xy/2xy/2xy+4
+3/Collect the like terms in 2x+y-x+2y/x+3y/12xy/3x+3y/3xy
+3/Collect the like terms in 2x-y+3x+4y/5x+3y/8x+8y/8xy/8/9x/0/x+y
+3/Collect the like terms in 2xy+2yx+x2y/6xy/2+x+y/6+x+y/3x-3y/3x+3y/3x+3y+6/3x+3y-6
+3/Collect the like terms in 3a+2b-2a-6/a+2b-6/ab-6/6ab/ab/a+b/5/9
+3/Collect the like terms in 3x+y-x+y/2x+2y/4xy/8xy/4/9/2x
+3/Collect the like terms in 3x-y-z+3y+z/3x+2y/x+2y+z/2xyz/2/8
+3/Collect the like terms in 5u+4v+3u-2v-u/7u+2v/15uv/7u/2v/u+v/15
+3/Collect the like terms in 5v+2x+8x-v+x/4v+11x/3v+8x/5vx/2vx/11v+3x/6v+x
+3/Collect the like terms in a+b+c-a-b-c/0/2a-2b-2c/2a+2b-2c/2a-2b+2c/2a+2b+2c/2+a-b-c
+3/Collect the like terms in a+b+c-a-b-c/0/2a-2b-2c/2a+2b-2c/2a-2b+2c/2a+2b+2c/2+a-b-cx-3y/3x+3y/3x+3y+6/3x+3y-6
+3/Collect the like terms in ab+cd+ef/ab+cd+ef/abc+def/abcdef/a+b+c+d+e+f/3abc+3def/6
+3/Collect the like terms in ab-3/ab-3/a-b-3/a+b-3/a-b+3/b-3a/3ab
+3/Collect the like terms in abc-abc+bca-abc+cab-abc/0/3cab-3abc/abc+cab/2abc-2cab-bca/6abc/6
+3/Collect the like terms in uv-xy+4xy-uv+1/3xy+1/2uv+5xy+1/2uv-5xy+1/2uv+5xy/2uv-5xy/5uv
+4/Simplify 10x+5xy-xy-4x+z/6x+4xy+z/15xy+z/19xyz/15/11
+4/Simplify 2x+2y+2z-x-y-z/x+y+z/2xyz/xyz/2/3/9
+4/Simplify 2xy+2ab-xy-ab/xy+ab/abxy/xyab/0/4/4ab
+4/Simplify 3st+6ts-tv+vt/9st/3st+2TV/7TV/7st/s+t/S+V
+4/Simplify 3vw+2v+3w+2wv/2v+3w+5vw/10vw/3v+5w/3v+5W/2V+3W+5VW/X
+4/Simplify 4abcd+12bcda-7cdab-dabc/8abcd/a+b+c+d/ab+cd/24abcd/8abc+d/abcd
+4/Simplify 4pq-3qr+qp-pq/4pq-3qr/4PQ-3QR/4pq+3qr/6pq-3qr/7prq/10
+4/Simplify 5mn+5m-3nm-5M/2mn+5m-5M/2mn/2MN/17mn/15mn-5MN/0/8mn+M
+4/Simplify 6jk-4jk+2h/2jk+2h/8hjk/12h+jk/6/4/jk+h/0/h
+4/Simplify a+A+a+A+a+A/3A+3a/6A/6a/3+a+A/6/0
+4/Simplify a+b+z+2a+2b+2z/3a+3b+3z/3abz/a+b/b+z
+4/Simplify ab+bc-ba+ca-cb-ac/0/2ab-2bc-2ca/2ab+2ac+2bc/6abc/6/6-abc
+4/Simplify ab-2ab+xy/xy-ab/-ab-xy/2abxy/2/bx+ay/xy+ab/ab/xy
+4/Simplify cd-5cd-4cd-cd/-9cd/11cd/9cd/cd/9/5cd/4cd/4
+4/Simplify fg+4fh-3gf+hf/-2fg+5fh/2fg+5fh/7fh/7gh-2fh/FG/7Gf/0
+4/Simplify x+X+x+X+x+X+x/4X+3x/7+x+X/7xX/7/x+X/3x+3X/3x4X
+4/Simplify x+y+z+2x+2y+2z/3x+3y+3z/3xyz/x+y/y+z
+4/Simplify xy+2xy+3xy/6xy/6/x+2y/5xy/1+5xy/5x/3y
+4/Simplify xyz+xy-z+3xy/xyz+4xy-z/3xy/xyz/3/5/xy/2xyz/2z
+4/Simplify xyz+xyz-5xyz+xyz/-2xyz/xyz/2/5+xyz/3xyz/0/-xyz
+4/Simplify z+2xy+2yz-z-y/2xy+2yz-y/z+y+z/2zyz/zyz/2/3/9
