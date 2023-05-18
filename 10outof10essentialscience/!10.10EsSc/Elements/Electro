@@ -1,0 +1,229 @@
+$ Electromagnet word file structure
+$ 2. <1,2>/<question>*<sprite name true>/<sprite range>
+$    <3,4>/<question>*<sprite name>/<answer>
+$ 3. <sub grade>/<question>/<answer>*<sprite name>/<force sprite name> ...
+$ 4. <sub grade>/<question>/<answer>/<false> ...
+$ 5. <sub grade>/<question>/<answer>/<false> ... *<sprite name>
+$ 6. <sub grade>/<question>/<answer>/<false>
+$ sub grade  1-4
+$ Grade 2, 3 and 5 should NOT be user modified
+$ question & splits up a question over two lines
+$          maximum length 80 characters contains & 160 characters
+$ answer   maximum length 48 characters
+$ false    maximum length 48 characters
+$          Grade 2, 4 and 5 up to 15 entries
+$          Grade 6 only 1 false entry
+$ Grade 2  sub grade 1 and 2 only
+$          specify a range from which false graphics can be taken by using
+$          a minus sign ie 1-5 means fill using from 1 to 5 inclusive
+$          use up to 4 separate range fills
+$          sub grade 3 and 4 only
+$          answer as 'yes' or 'no' lower case only
+
+GRADE2
+1/Which is the circuit with a bulb, battery and one switch only?*b1/5-16/21-32
+1/Which is the working circuit that contains a battery,&one switch and a bulb?*b2/5-16/21-32
+1/Where is the battery, one switch and bulb circuit?*b3/5-16/21-24
+1/Find the circuit that has only a battery, a switch and a bulb.*b4/5-8/25-32
+1/Find the right circuit containing only a battery, bulb and switch.*b1/5-16/21-28
+1/The circuit with only a battery, bulb and switch. Find it.*b3/9-12/21-28
+1/Where is the working circuit containing only&a battery, bulb and switch?*b2/9-20/25-32
+1/Find the working circuit that has only&a battery, a switch and a bulb.*b1/9-16
+1/Which is the working circuit with a bulb, battery and switch?*b2/9-16/29-32
+1/The battery, switch and bulb working circuit.&Where is it?*b3/5-16
+2/Which is the working circuit with a bell, battery and switch?*b9/1-8/13-16/21-24
+2/Find the circuit that has only a battery, a switch and a bell.&(It is wired correctly)*b10/1-8/13-16
+2/The battery, switch and bell circuit. Where is it?&(It must work)*b11/1-8/25-30
+2/Where is the working circuit containing only&a battery, bell and switch?*b12/1-8/25-30
+2/Find the working circuit containing only a battery, bell and switch.*b11/13-24
+2/The working circuit with only a battery, bell and switch. Find it.*b10/13-24
+2/Go for the working circuit with a battery, bell and switch.*b9/1-8/13-16
+2/Find the working circuit containing a battery, switch and bell.*b11/1-8/13-16
+2/Which is the working circuit with only a battery, bell and switch?*b10/1-8/13-16
+2/Which is the working circuit that contains a battery, a switch and a bell?*b9/1-8/13-16
+2/Where is the working circuit that only contains&a battery, switch and a bell?*b11/13-24/29-32
+3/Will this circuit work if both switches are thrown ON?*b21/no
+3/When both switches are closed will it work?*b22/no
+3/Close both switches. Will the bulb light up?*b23/no
+3/Throw both switches ON. Will it work?*b24/no
+3/Can you see the light when both switches are ON?*b5/yes
+3/Both switches are placed ON. Will the bulb light up?*b6/yes
+3/Will this circuit work if the switch is ON?*b1/yes
+3/Throw the switch ON. Will it work?*b2/yes
+3/Will this circuit work?*b3/yes
+3/Close the switch.&Will the light bulb come ON?*b4/yes
+4/Will the bell ring if the switch is CLOSED?*b9/yes
+4/Will it work?*b10/yes
+4/Will this circuit work if the switch is ON?*b11/yes
+4/Throw the switch ON. Will it work?*b12/yes
+4/Can you hear the bell when both switches are ON?*b13/yes
+4/Will the bell ring if both switches are CLOSED?*b14/yes
+4/Throw both switches ON.&Will the bell ring?*b15/yes
+4/Will the bell ring when the switches are ON?*b29/no
+4/Will this bell circuit work?*b30/no
+4/Will this circuit work if both switches&are thrown ON?*b31/no
+GRADE3
+1/What happens to the object with the pull force shown?/It will move to the right.*f1/for3
+1/With the horizontal pull force shown,&what will happen to the ball?/It will move to the left.*f2/for4
+1/This vertical force is applied to the object.&What happens next?/It will move downwards.*f3/for5
+1/Which way will this drill move with this&vertical pull force?/It will move upwards.*f4/for1
+1/Hook the way the lamp will move./It will move to the right.*f5/for3
+1/A horizontal push force is applied to this object as shown.&Which way will it move?/It will move to the right.*f6/for8
+1/This vertical force pushes on the rabbit.&What happens next?/It will move upwards.*f7/for6
+1/This object is pushed by the force shown.&Which way will it go?/It will move to the right.*f8/for8
+1/Which way will the balloon move with this&horizontal push force?/It will move to the left.*f9/for7
+1/This vertical force pulls on the brick.&What happens next?/It will move downwards.*f10/for2
+2/This bucket is pulled by this diagonal force.&Which way will it go?/It will move up and to the right.*f1/for9
+2/The force acting on the ball will cause&it to move where?/It will move down and to the right.*f2/for10
+2/The saw is being acted upon by this diagonal force.&Which way will it go?/It will move down and to the left.*f3/for11
+2/This diagonal force is applied to the object.&What happens next?/It will move up and to the left.*f4/for12
+2/Which way will this lamp move with this pull force?/It will move up and to the right.*f5/for9
+2/This diagonal force pushes on the shape.&What happens next?/It will move down and to the left.*f6/for13
+2/This object is pushed by the force shown.&Which way will it go?/It will move up and to the left.*f7/for14
+2/Which way will the fly move with this&diagonal push force?/It will move up and to the right.*f8/for15
+2/This is pushed by the force shown.&Which way will the balloon go?/It will move down and to the right.*f9/for16
+2/Hook the way the brick will move./It will move up and to the right.*f10/for15
+3/With the two equal forces shown, which way will&the bucket move?/No change.*f1/for1/for2
+3/Hook the way the ball will move./It will move down and to the right.*f2/for5/for3
+3/These forces act on the saw.&What will happen?/It will move downwards.*f3/for16/for13
+3/These two forces act on the drill.&What will happen next?/No change.*f4/for13/for15
+3/Which way will the lamp move with these equal&push and pull forces?/It will move down and to the right.*f5/for2/for8
+3/The shape is being acted upon by these diagonal forces.&Which way will it go?/It will move upwards.*f6/for14/for15
+3/The forces acting on the rabbit will cause&it to move where?/It will move down and to the left.*f7/for2/for4
+3/These equal horizontal forces pull on the fly.&What happens next?/No change.*f8/for3/for4
+3/Which way will the balloon move with these&equal horizontal push forces?/No change.*f9/for7/for8
+3/With the equal pull forces shown,&what will happen to the brick?/It will move up and to the left.*f10/for1/for4
+4/There are two pushes and a pull on the bucket.&What is the result?/It will move upwards.*f1/for1/for7/for8
+4/If the four forces are equal.&Find the correct direction the ball will go./No change.*f2/for9/for10/for11/for12
+4/Which direction will the saw move with&these three equal forces?/It will move upwards.*f3/for3/for4/for6
+4/Which direction will the drill go?/It will move downwards.*f4/for3/for4/for10/for11
+4/The three equal diagonal forces here will make&the lamp go where?/It will move down and to the right.*f5/for9/for11/for16
+4/With these forces, what happens next to the shape?/It will move up and to the right.*f6/for9/for15
+4/The rabbit is pushed and pulled from all angles.&What is the final direction it will go?/It will move to the right.*f7/for1/for2/for8
+4/Vertical and horizontal forces act on the fly.&Which direction will it go?/No change.*f8/for5/for6/for7/for8
+4/Which way will the balloon move with&these equal forces?/It will move to the left.*f9/for4/for11/for12
+4/Three equal forces act upon this brick.&Which way will it go?/It will move downwards.*f10/for2/for10/for11
+GRADE4
+1/Which ONE of the NATURAL objects below will decay in a compost heap?/carrot/stone/clay/glass/gold nugget/ruby/emerald/diamond/lava/boulder
+1/One of these NATURAL objects will eventually decay away.&Which is it?/tree branch/sand/salt/rock/pebble/stones/gold nugget/pumice stone
+1/Place all these NATURAL objects in a compost heap.&Which one would NOT decay away given time?/salt/carrot/potato/hay/straw/cotton/hair/orange/silk/wooden fence/tree branch/twig/cabbage/flowers/seaweed
+1/Which ONE of these NATURAL objects will decay in a compost heap?/wool/water/ice/salt/rock/pebble/clay/diamond/boulder/sand/mud
+1/Go for the item which will NOT decay away./clay/peach/leaves/hay/wooden fence/banana/wool/cotton/twig/carrot/cabbage/plum/seaweed/straw
+1/Of all the NATURAL objects here, which would decay away in a compost heap?/flowers/rock/pebble/clay/water/salt/snow/rain/mud/lava
+1/Of all the NATURAL objects here, which would rot away in a compost heap?/silk/rock/pebble/clay/water/salt/boulder/sand/lava/snow/slate stone
+1/Which ONE of the following NATURAL objects will rot away?/hair/pebble/clay/water/sand/mud/emerald/gold nugget/hail stones/snow flakes
+1/I placed all these objects in a compost heap and came back after a year.&I found that only the ___ remained./sand/cobweb/flowers/leaves/eggs/potato/green beans/wooden bird table/small log/peanut/hay/cabbage/straw/orange
+1/I placed all these objects in a compost heap and came back after a year.&I found that the ___ was missing./cabbage leaves/sand/gold nugget/salt/water/pebble/boulder/stones/mud/slate stone
+2/Which one of the MADE objects below will decay if left outside?/paper bag/telephone/television/nylon shirt/glass bottle/bricks/plastic toy train/polythene bag/glass bowl/plastic flowers
+2/One of these MADE objects will NOT rot away.&Which ONE?/polythene bag/newspaper/bread/paper bag/woollen jumper/pizza/book/cardboard box/paper cup/cotton T-shirt/jeans/linen table cloth/beef burger
+2/Which one of the MADE objects below will decay if left outside?/bread/glass bottle/bricks/plastic toy train/polythene bag/glass bowl/brass key/nylon skipping rope/concrete statue/plastic cup/plastic flowers
+2/One of these MADE objects will rot away.&Which ONE?/newspaper/plastic cup/bricks/steel girder/plastic flowers/concrete post/car body
+2/Which one of the following MADE objects&will NOT decay if left outside?/steel girder/linen table cloth/cotton T-shirt/pizza/book/cardboard box/newspaper/cheese/yoghurt/apple pie/doughnut
+2/Of all the MADE objects here, which will NOT rot away?/plastic flowers/cheese/bread/book/cotton vest/cotton table cloth/yoghurt/apple pie/pizza/chips/beef burger/doughnut
+2/These objects are all MADE.&Which would NOT rot away given time?/glass bowl/bread/pizza/cardboard box/woollen jumper/cheese/milk shake/blackberry pie/woollen socks/pork sausage/meat pie/cream cake/doughnut
+2/These MADE objects below will all rot away except ONE.&Which is it?/brass key/cardboard box/woollen jumper/cheese/milk shake/pork pie/paper cup/woollen scarf/crepe paper
+2/Which MADE object below will rot away if left outside?/cardboard box/plastic toy train/nylon umbrella/car body/car engine/nylon skipping rope/plastic bucket/polyester shirt/steel girder/concrete paving slab
+2/Which is the ODD one out of these MADE objects?&(Which will NOT decay)/nylon skipping rope/woollen socks/pork sausage/meat pie/linen table cloth/cotton T-shirt/pizza/yoghurt/apple pie/doughnut/cheese/milk shake
+3/Which one of these NATURAL materials would eventually rot away?/wood/marble/stone/tooth enamel/chalk/limestone/sandstone/water
+3/One of these NATURAL materials will NOT decay.&Which ONE?/marble/wood/leather/hemp/fur/meat/rice/olive oil/milk
+3/Which one of these NATURAL materials would eventually rot away?/leather/marble/stone/tooth enamel/slate/chalk/limestone/gold
+3/Which is the only NATURAL material here which would eventually rot away?/fur/limestone/slate/teeth/bones/stone/water/gold
+3/Go for the NATURAL material here which will NOT rot./gold nugget/wood/bark/seaweed/straw/hay/grass/wheat/rye/oats/moss
+3/Find the only natural RAW material./wheat/yoghurt/pizza/pork pie/cream crackers/chocolate/bread/doughnut/ice cream/cheese/cake/biscuits
+3/Locate the only natural RAW material./oats/sausages/cream cake/cheese cake/keema curry/chips/fried fish/fish fingers/hot dogs/beef burgers
+3/All these natural materials will rot away except ONE.&Locate it./iron ore/palm leaves/animal fur/finger nails/hair/eye lashes/blood/tree branch/straw/banana skin/apple skin
+3/Seek out the NATURAL material that will NOT decay in a compost heap./sand/bark/leather/elephant tusk/skin/toe nails/chicken feathers/eider down/orange peel/grapes/plums
+3/Go and find the NATURAL material that will decay in a compost heap./wool/rain/hail/snow/pebble/amber/quartz/diamond/stepping stone/ruby/sand
+4/Which one of these MADE materials would decay away given time?/paper/nylon/fibre glass/polystyrene/perspex/plastic foam/cellophane/glass/concrete/bronze/brass/steel/PVC/asbestos
+4/Which one of these MADE materials would NOT decay in a compost heap?/nylon/cardboard/paper/cotton cloth/cheese/straw/hay/timber
+4/Which one of these MADE materials would decay in a compost heap?/cardboard/nylon/plastic/glass/concrete/bronze/brass/plastic foam/cellophane/fibre glass/polystyrene/polyester/steel/PVC/bakelite
+4/Of all the MADE materials below, which will rot away?/cotton cloth/plastic/glass/concrete/bronze/polystyrene/PVC/steel rods/iron bars/fibre glass/cellophane/pewter/paint/polythene/nylon
+4/Of all the MADE materials below, which one will NOT rot away?/PVC/cotton cloth/silk cloth/paper/cardboard/straw/butter/cheese
+4/Go and find the MADE material below which eventually rots away./paper/bronze/glass/plastic/perspex/solder/pewter/polythene/nylon
+4/Find the ONE MADE material below which will rot./butter/Pyrex/polythene/plaster/cement/UPVC/bakelite/rayon/fibre glass/carbon fibre
+4/All except ONE MADE material here will decay. Hook it!/perspex/paper/cotton cloth/cheese/straw/hessian/felt/silage
+4/Everything below except ONE decays in a compost heap. Find it!/concrete/hessian/felt/cheese/pastry/dough/silk cloth/bacon
+4/Go and find the MADE material below that will decay in a compost heap./dough/polystyrene/polyester/cement/plastic/polythene/nylon/bronze/carbon fibre
+GRADE5
+1/What is the name of this plant seed ___?/acorn/sycamore/dandelion/strawberries/walnut/peas/wheat/rye/oats*s1
+1/Name this plant seed./bean seed/acorn/sycamore/strawberries/peas/tomato/potato*s2
+1/What is this plant seed?/sycamore/dandelion/strawberries/wheat/rye/oats/corn*s3
+1/The proper name of these seeds is?/peas/sycamore/dandelion/tomato/potato/corn*s4
+1/Which plant seed is still in a protective covering?/walnut/sycamore/peas/wheat/rye/oats/wheat/rye/oats*s5
+1/What plant does this come from?/dandelion/walnut/sycamore/dandelion/tomato/potato*s6
+1/Find the name of the plant fruit./strawberries/acorn/sycamore/peas/beans/corn*s7
+1/Search for the correct name that matches this plant seed./plum/acorn/dandelion/walnut/tomato/potato*s8
+1/Find the right name for this plant seed./sycamore/acorn/sycamore/strawberries/walnut/wheat/rye/oats*s3
+1/The name of this plant seed is?/walnut/acorn/sycamore/dandelion/strawberries/wheat/rye/oats/tomato/potato*s5
+2/What is the name of this plant part?/pistil/roots/leaf/sepals/the ovary/stigma/anther/nectar*s9
+2/This part of a plant is called what?/pollen/pistel/leaf/anther/stamen/ovule*s10
+2/What is this plant parts name?/roots/sepals/stem/flowers/pollen/ovule*s11
+2/Identify the plant part./stem/pistel/anther/pollen/stamen/leaf*s12
+2/What is the name of this plant organ?/leaf/pollen/the ovary/stigma/ovule*s13
+2/Find the name of the plant part./anther/stem/flowers/pollen/nectar/roots/nectar*s14
+2/You will find this in the flowering part of a plant.&What is its name?/the ovary/pollen/roots/anther/stamen/nectar*s15
+2/What are the brightly coloured parts of plants called?/petals/pollen/leaf/stem/flowers/the ovary/stigma*s16
+2/Name this plant part./sepals/roots/anther/leaf/stem/flowers/pollen/stamen*s17
+2/Find the name of the plant part./stigma/pollen/roots/anther/leaf/the ovary/stigma/stamen/ovule*s18
+3/This part of a plant is called what?/the roots/the stem/stigma/flowers/petals/the seeds/the ovary/leaves/This part has no name*s11
+3/The middle part of this plant is called?/the stem/leaves/flowers/petals/the seeds/the ovary/stigma/anther*s12
+3/These plant organs spread out from the plant and are called?/leaves/stigma/petals/the sepals/the seeds/the ovary/anther*s13
+3/This is found in the flower of a plant.&What is the organs name?/anther/leaves/petals/the ovary/the roots/the seeds/the stem*s14
+3/In the flowering part of a plant this is found.&What is its name?/the ovary/stigma/flowers/the roots/leaves/the seeds*s15
+3/These coloured plant parts are called?/petals/leaves/the ovary/the stem/stigma/the seeds/This part has no name/anther*s16
+3/What is this plant part?/sepal/leaves/the ovary/the stem/the seeds/petals/the roots/This organ has no name/anther*s17
+3/What is the plant organs name?/stigma/leaves/flowers/the stem/the seeds*s18
+3/This part of a plant is called what?/the seeds/flowers/the ovary/the roots/the stem/leaves/This part has no name/anther*s19
+3/These coloured plant organs are called?/flowers/leaves/the ovary/the roots/the stem/the stigma/the seeds/This organ has no name/anther*s20
+4/The roots are responsible for what?/anchoring the plant to the ground/attracting and guiding insects/producing food/making the seeds/protecting the flowers/making pollen/nothing*s11
+4/Stems are mainly used for?/supporting the plant/anchoring the plant to the ground/providing shade/making pollen/collecting light/storing food/storing water/repelling animals*s12
+4/Leaves are used by the plant to ___?/produce food/anchor the plant to the ground/make pollen/store water/provide food for animals/repel insects/form roots/form pollen*s13
+4/The anthers in a flower produce what?/pollen/water/seeds/roots/leaves/petals/sepals/oxygen/light/nothing/nectar*s14
+4/The ovary is a part of a plant where the ___?/seeds are made/food is made/food is stored/pollen is made/water is stored/sugar is made/roots are formed/leaves are formed*s15
+4/Petals are used by a plant to ___?/attract and guide insects/provide shade/collect light/produce food/store food/make pollen/store water/anchor the plant to the ground/repel animals*s16
+4/Sepals protect which part of a plant?/the flowers/the roots/the stem/the leaves/the food/the seeds*s17
+4/The stigma collects what?/pollen/water vapour/dust/rain/light/food/nothing/insects/nectar*s18
+4/The seeds of a plant are used to ___?/make new plants/make new roots/provide shade/store water/make oxygen/provide food for animals/repel insects/repel animals*s19
+4/The flower of a plant is used to ___?/make seeds/anchor the plant to the ground/store food/protect the leaves/store food/make oxygen/provide food for animals*s20
+GRADE6
+1/Is STONE a made or a natural product?/natural product/made product
+1/What is CONCRETE?/made/natural
+1/Is MORTAR made or natural?/made/natural
+1/Is GRANITE an artificial or a natural product?/natural/artificial
+1/LIMESTONE is natural or made?/natural/made
+1/Which category does SANDSTONE fall into?/natural material/artificial product
+1/UPVC windows and doors are ___?/made/natural
+1/SLATE from quarries is a ___ building material./natural/made
+1/What is SAND?/natural/artificial
+1/Is TIMBER a made or a natural product?/natural product/made product
+1/CEMENT is ___?/made/natural
+2/Is WOOL made or a natural product?/natural/made
+2/What sort of material is NYLON?/factory made/animal made
+2/Is SHEEPSKIN a natural or made clothing material?/natural/made
+2/COTTON is ___./grown on plants/made in a factory
+2/Clothes are made out of the material polyester.&POLYESTER is ___./made/natural
+2/LEATHER shoes are made of ___ materials./natural/made
+2/COTTON socks are made of ___ materials./natural/made
+2/Ashleigh's CANVAS shoes are made of ___ materials./natural/made
+2/Steve's SHEEPSKIN slippers are made of ___ materials./natural/made
+2/Is Sara's WOOLLEN cardigan made of a natural or made clothing material?/natural/made
+3/A building's windows are made of glass.&Is GLASS made or natural?/made/natural
+3/Is a WOODEN door made of a natural or made building material?/natural/made
+3/A roof is built from slate coming from a quarry.&Is SLATE natural or made?/natural/made
+3/Are BRICKS a natural or made building material?/made/natural
+3/Is CEMENT a natural or made building material?/made/natural
+3/PLASTER is which?/made/natural
+3/Which is PUTTY?/made/natural
+3/Is a WOODEN window frame made of a natural or made building material?/natural/made
+3/GRANITE is extracted from quarries.&Is it a natural or made material?/natural/made
+3/Which is a PLASTIC light switch?/made/natural
+4/My jumper is made of wool. What sort of fibre is WOOL?/natural/made
+4/Shona's trousers are made from the finest quality linen.&Which sort of material is LINEN?/natural/made
+4/A coat in a shop is made from orlon. What sort of fibre is ORLON?/made/natural
+4/Pete's slacks are made of acrylic. What sort of fibre is ACRYLIC?/made/natural
+4/I have a table cloth made from the finest quality cotton.&Which sort of material is COTTON?/natural/artificial
+4/Mary has a NYLON blouse. Is it a natural or made fibre?/made/natural
+4/A sofa is filled with foam rubber. What is the filling?/made/natural
+4/An old arm chair uses HORSE HAIR as a filling.&What is the filling?/natural/artificial
+4/In a new house there is a pure wool carpet fitted.&Is the fibre WOOL natural or made?/natural/made
+4/A desk is made from solid mahogany.&Is MAHOGANY a natural or artificial material?/natural/artificial

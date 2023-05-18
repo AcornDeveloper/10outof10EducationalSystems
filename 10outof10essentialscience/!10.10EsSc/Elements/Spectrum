@@ -1,0 +1,179 @@
+$ Spectrum word file structure
+$ 2. <sub grade>/<question>/<sprite 1>/<name 1> ... <sprite 4>/<name 4>
+$ 3. <sub grade>/<question>/<group 1>/<member 1> ... <group 4>/<member 4>
+$ 4. <sub grade>/<question>/<name 1>/<range 1> ... <name> 4/<range 4>
+$ 6. <sub grade>/<question>/<item 1>/<match 1> ... <item> 4/<match 4>
+$ sub grade  1-4
+$ Grade 2 should NOT be user modified       
+$ question & splits up a question over two lines
+$          maximum length 64 characters contains & 128 characters
+$ group, member, item, match, name and range
+$          maximum length 64 characters
+$ range    maximum length 64 characters
+
+GRADE2
+1/Match up the correct names to the pictures./#hair/hair/#ankle/ankle/#foot/foot/#thigh/thigh
+1/Which matches to which?/#knee/knee/#hand/hand/#arm/arm/#elbow/elbow
+1/Paint matching tags the same colour./#knee/knee/#hand/hand/#thigh/thigh/#arm/arm
+1/Use the same colour for each part and its correct name./#thigh/thigh/#hair/hair#elbow/elbow/#hand/hand
+1/Which part matches to which name?/#hair/hair/#ankle/ankle/#hand/hand/#thigh/thigh
+1/Which matches to which?/#knee/knee/#foot/foot/#elbow/elbow/#arm/arm
+1/Colour matching tags the same./#hair/hair/#ankle/ankle/#knee/knee/#arm/arm
+1/Colour the tags the same for matching parts and names./#hand/hand/#elbow/elbow/#arm/arm/#foot/foot
+1/Use the same colour for linked pairs./#hand/hand/#thigh/thigh#elbow/elbow/#arm/arm
+1/Which part matches to which name?/#hair/hair/#foot/foot/#hand/hand/#ankle/ankle
+1/Paint matching tags the same colour./#knee/knee/#thigh/thigh#elbow/elbow/#hand/hand
+2/Which vegetable matches its name?/#cabbage/cabbage/#cauliflower/cauliflower/#carrots/carrots/#celery/celery
+2/Paint matching tags the same colour./#leek/leek/#mushrooms/mushrooms/#peas/peas/#sweetcorn/sweet corn
+2/Colour the tags the same for each plant and name./#cabbage/cabbage/#cauliflower/cauliflower/#peas/peas/#sweetcorn/sweet corn
+2/Paint the tags the same colour for linked pairs./#sweetcorn/sweet corn/#cabbage/cabbage/#peas/peas/#celery/celery
+2/Which belongs to which?/#cabbage/cabbage/#cauliflower/cauliflower/#celery/celery/#carrots/carrots
+2/Colour matching tags the same./#leek/leek/#mushrooms/mushrooms/#carrots/carrots/#sweetcorn/sweet corn
+2/Link plants to plant names./#carrots/carrots/#celery/celery/#sweetcorn/sweet corn/#mushrooms/mushrooms
+2/Match up the correct names to the pictures./#cabbage/cabbage/#cauliflower/cauliflower/#carrots/carrots/#celery/celery
+2/Use the same colour for each part and its correct name./#carrots/carrots/#celery/celery/#peas/peas/#sweetcorn/sweet corn
+2/Use the same colour for linked pairs./#leek/leek/#mushrooms/mushrooms/#peas/peas/#sweetcorn/sweet corn
+3/Match up the correct names to the pictures./#lips/lips/#ear/ear/#nose/nose/#eyes/eyes
+3/Which matches to which?/#wrist/wrist/#shin/shin/#heel/heel/#shoulder/shoulder
+3/Paint matching tags the same colour./#ear/ear/#nose/nose/#eyes/eyes/#wrist/wrist
+3/Use the same colour for each part and its correct name./#lips/lips/#wrist/wrist/#shin/shin/#ear/ear
+3/Which part matches to which name?/#nose/nose/#shin/shin/#shoulder/shoulder/#lips/lips
+3/Which matches to which?/#ear/ear/#eyes/eyes#wrist/wrist/#shoulder/shoulder
+3/Colour matching tags the same./#lips/lips/#nose/nose/#shin/shin/#heel/heel
+3/Colour the tags the same for matching parts and names./#ear/ear/#heel/heel/#nose/nose/#shin/shin
+3/Use the same colour for linked pairs./#eyes/eyes/#shin/shin/#shoulder/shoulder/#heel/heel
+3/Which part matches to which name?/#lips/lips/#wrist/wrist/#heel/heel/#shoulder/shoulder
+3/Paint matching tags the same colour./#ear/ear/#nose/nose/#eyes/eyes#wrist/wrist
+4/Which plant part matches its name?/#flower/flower/#leaf/leaf/#stem/stem/#anther/anther
+4/Paint matching tags the same colour./#stem/stem/#anther/anther/#stigma/stigma/#flower/flower
+4/Colour the tags the same for each plant part and name./#anther/anther/#stigma/stigma/#seed/seed/#ovary/ovary
+4/Which belongs to which?/#flower/flower/#leaf/leaf/#root/root/#seed/seed
+4/Colour matching tags the same./#stem/stem/#anther/anther/#leaf/leaf/#seed/seed
+4/Link plant parts to plant part names./#flower/flower/#leaf/leaf/#ovary/ovary/#anther/anther
+4/Match up the correct names to the pictures./#stem/stem/#anther/anther/#ovary/ovary/#seed/seed
+4/Use the same colour for each part and its correct name./#seed/seed/#stem/stem/#flower/flower/#root/root
+4/Use the same colour for linked pairs./#flower/flower/#leaf/leaf/#seed/seed/#root/root/#anther/anther
+4/Paint the tags the same colour for linked pairs./#seed/seed/#stem/stem/#flower/flower/#root/root
+GRADE3
+1/Match up creatures to their correct numbers of legs./spiders/8/humans/2/flies/6/snakes/none
+1/Which creatures have these numbers of legs?/fish/none/black ant/6/bird/2/centipede/many
+1/Which creature has which number of legs?/greyhound/4/baboon/2/maggot/none/dragonfly/6
+1/How many legs has each got?/donkey/4/dolphin/none/black beetle/6/chimpanzee/2
+1/Paint matching tags the same colour./tiger/4/shark/none/turkey/2/caterpillar/many
+1/How many legs has each of these creatures got?/elephant/4/prawn/many/eel/none/red ant/6
+1/Colour the tags the same for the correct number of legs./cow/4/crab/6/whale/none/kangaroo/2
+1/Which creatures have these numbers of legs?/bumble bee/6/earthworm/none/ostrich/2/horse/4
+1/Colour in the correct number of legs for each creature./wasp/6/snake/none/spider/8/monkey/2
+1/Which creatures have these numbers of legs?/fish/none/penguin/2/millipede/many/goat/4
+2/Which descriptions match which?/COD/Swims in the sea/TARANTULA/Has 8 legs and its bite is poisonous/WASP/A black and yellow body with a sting/GECKO/A small lizard
+2/Which description matches the name?/EAGLE/Eats other birds and grows quite large/TROUT/A freshwater fish/ELM/A tree that is attacked by beetles/PRICKLY PEAR/Found in the desert and scrub land
+2/Which creatures have these descriptions?/SHARK/Large sea creature with sharp teeth/MAGGOT/The larval stage of a fly/BEAR/Coloured brown and lives mainly in North America/BLUE TIT/A small blue British bird
+2/Paint matching tags the same colour./BUMBLE BEE/Visits flowers to collect nectar/PYTHON/A long snake/TERMITE/Builds large mounds out of the ground/DEATHCAP/A deadly poisonous fungus
+2/Colour in the correct description for each creature./PRAWN/Small, pink and delicious to eat/OAK/A hardwood tree of the British isles/WHEAT/Gives us flour when milled/CHIMPANZEE/An intelligent african ape
+2/Which creatures have these descriptions?/FOX/Red, quick and loves chickens/ANT/Usually black or red and small/OSTRICH/Fast, flightless bird/KANGAROO/Native to Australia which hops around
+2/Link up creature descriptions to creature names./SPARROWHAWK/A bird of prey/HARE/Runs fast and eats grass/VENUS FLY TRAP/A plant which traps and eats insects/WOLF/A mammal which is a predator
+2/Use the same colour for linked pairs of&names and descriptions./BLACK WIDOW/An eight legged poisonous spider/BLUE BOTTLE/A fly with a metallic blue body/RABBIT/Lives in burrows in the ground/YUCCA/A plant which grows in the desert
+2/Colour the tags the same for descriptions and names./MOOSE/A large mammal of North America/DOLPHIN/A mammal which lives in the oceans/KIWI/A quite small flightless bird from New Zealand/TIGER/A predator with stripes
+2/Link up creature descriptions to creature names./HADDOCK/A salt water fish/HARE/A very fast mammal/ROBIN/A bird with a red breasts/EDELWEISS/A plant which grows in Alpine regions
+3/Colour the tags the same for the correct&members and groups of creatures./MAMMALS/Cow, pig, elephant, tiger and wolf/REPTILES/Gecko and chameleon/SNAKES/Adder, cobra, python and boa constrictor/SPIDERS/Black widow and Tarantula
+3/Match up group names with their members./FISH/Cod, haddock, whiting and salmon/BIRDS/Chicken, sparrow, eagle and hawk/INSECTS/Wasps, bees, ants and flys/MAMMALS/Whales and dolphins
+3/Colour in the correct member groups for each creature./INSECTS/Beetles, fleas, ants amd termites/FRESH WATER FISH/Trout, perch and pike/BIRDS OF PREY/Eagle and sparrow hawk/MAMMALS/Fox, rabbit and hare
+3/Which matches to which?/TREES/Oak, elm and cedar/INSECTIVOROUS PLANTS/Venus fly trap and pitcher plant/DESERT PLANTS/Yucca and prickly pear cactus/ALPINE PLANTS/Edelweiss and glacier crowfoot
+3/Which creatures belong to which groups?/MAMMALS/Bear, reindeer and moose/SPIDERS/Black widow and Tarantula/FISH/Trout, roach and bream/DINOSAURS/Tyranosaurus rex and stegosaurus
+3/Colour the tags the same for group names and their members./CONIFERS/Douglas fir and scots pine/REPTILES/Gecko and chameleon/ALPINE PLANTS/Edelweiss and glacier crowfoot/BIRDS/Thrush, robin and blue tit
+3/Which group names belong to which creatures?/SNAKES/Viper, python and cobra/DINOSAURS/Diplodicus, ichthyosaurus and triceratops/APES/Chimpanzee and gorilla/MARSUPIALS/Kangaroo and anteater
+3/Which belongs to which group?/TREES/Sycamore, chestnut and birch/MUSHROOMS/Deathcap and stinkhorn/REPTILES/Gecko and chameleon/MARSUPIALS/Wombat and Tasmanian wolf
+3/Link up group names and their members./ALPINE PLANTS/Edelweiss and glacier crowfoot/DINOSAURS/Pteranodon, velociraptor and oviraptor/WHALES/Blue and killer/FLIGHTLESS BIRDS/Ostrich and kiwi
+3/Colour the tags the same for members and group names./MUSHROOMS/Fly agaric and earthstar/CEREALS/Wheat, oats and barley/VEGETABLES/Carrot, potato and peas/POND PLANTS/Water lily, marestail and yellow iris
+4/Which matches to which?/CEREALS/Rye, maize and barley/SHARKS/Hammerhead, thresher and lemon/CONIFERS/Norway spruce and lawson cypress/FLOWERING PLANTS/Bluebell, marigold and meadow cranesbill
+4/Which creatures belong to which groups?/BIRDS/Jay, owl and woodpecker/INSECTS/Stag beetle, earwig and woodlouse/MAMMALS/Fox, rabbit and hare/ALPINE PLANTS/Edelweiss and glacier crowfoot
+4/Colour the tags the same for group names and their members./FUNGI/Puffball, truffle and cep/MEADOW PLANTS/Buttercup, cowslip and primrose/MOORLAND PLANTS/Heather and gorse/TREES/Sycamore, horse chestnut and birch
+4/Which group names belong to which creatures?/SHELLFISH/Oyster, mussel and winkle/REPTILES/Crocodile and alligator/AMPHIBIANS/Frog and newt/POND PLANTS/Water lily, marestail and yellow iris
+4/Which belongs to which group?/HOUSE PLANTS/Geranium and fuchsia/CONIFERS/Norway spruce and lawson cypress/FRESH WATER FISH/Trout, perch and pike/CATS/Ocelot, tiger and leopard
+4/Link up group names and their members./HOUSE PLANTS/Primula, fuchsia and narcissus/SNAKES/Cobra, python and boa constrictor/AMPHIBIANS/Toad and frog/BIRDS OF PREY/Hawk, golden eagle and kestrel
+4/Colour the tags the same for members and group names./MOORLAND PLANTS/Heather and gorse/CRABS/Hermit, horseshoe and red/SHELLFISH/Limpet and cockle/TREES/Cork and balsa
+4/Which belongs to which group?/SONG BIRDS/Nightingale and warbler/MOORLAND PLANTS/Bilberry and bracken/TREES/Rubber, palm and date/FRESH WATER FISH/Stickleback and trout
+4/Colour the tags the same for members and group names./SHARKS/Megamouth and angel/INSECTS/Mosquito, tsetse fly and woodwasp/SEAWEED/Oar weed and sea lettuce/AMPHIBIANS/Frog and newt
+GRADE4
+1/Which matches to which?/small piece of string/15 cm ruler/child's height/1 meter ruler/length of a bent arm/tape measure (150 cm)/100 meter race track/large tape measure
+1/Use the same colour for each object and its correct length./length of a book/30 cm ruler/height of a table/1 meter ruler/waist measurement/tape measure (150 cm)/length of a room/large tape measure
+1/Choose the correct length and item./length of a rubber/15 cm ruler/length of a pencil/30 cm ruler/chest measurement/tape measure (150 cm)/width of a garden/large tape measure
+1/Colour the tags the same for matching lengths./nail/15 cm ruler/pen/30 cm ruler/height of a dog/1 meter ruler/measuring skid tracks at the scene of an accident/large tape measure
+1/Use the same colour for each object and&its correct length range./height of a £5 note/15 cm ruler/width of a door/1 meter ruler/hat size/tape measure (150 cm)/length of a hallway/large tape measure
+1/Choose the object and what you would use to measure it./length of a £5 note/15 cm ruler/height of a door/large tape measure/height of a cup/15 cm ruler
+1/Paint the tags the same colour for matching items and uses./width of a road/large tape measure/length of a cat/1 meter ruler/width of a potato/15 cm ruler/fountain pen/30 cm ruler
+1/Which matches to which?/width of a door/1 meter ruler/length of a £10 note/15 cm ruler/height of a house/large tape measure/width of an A4 sheet of paper/30 cm ruler
+1/Which item matches to which measuring instrument?/floppy disc/15 cm ruler/height of an A4 sheet of paper/30 cm ruler/height of a garden wall/tape measure (150 cm)/width of a door/1 meter ruler
+1/Use the same colour for each object and&its correct length./screw/15 cm ruler/length of a bedroom/large tape measure/width of a door/1 meter ruler/height of a magazine/30 cm ruler
+1/Paint the tags the same for matching lengths./length of a living room/large tape measure/length of a £20 note/15 cm ruler/inside leg measurement/tape measure (150 cm)/height of a chair/1 meter ruler
+2/Choose the temperature and where it could be&found from these./inside a freezer/-50 °C to 0 °C/inside a fridge/0 °C to 50 °C/boiling water/0 °C to 110 °C/making jam/0 °C to 300 °C
+2/Use the same colour for each matching temperature and place./in a greenhouse/-30 °C to 30 °C/house thermometer/0 °C to 50 °C/cooking a boiled egg/0 °C to 110 °C/frying chips/0 °C to 300 °C
+2/Colour the tags the same for matching&temperatures and places./supermarket freezer cabinet/-50 °C to 0 °C/vegetable shop/0 °C to 50 °C/sterilisation/0 °C to 110 °C/frying fish/0 °C to 300 °C
+2/Which matches to which?/meat storage room/-50 °C to 10 °C/supermarket chill cabinet/0 °C to 50 °C/slow cooker/0 °C to 200 °C/cooking pizza/0 °C to 300 °C
+2/Use the same colour for each matching temperature and place./cooking a boiled egg/0 °C to 110 °C/frying chips/0 °C to 300 °C/inside a fridge/0 °C to 50 °C/making ice cubes/-30°C to 0 °C
+2/Which matches to which?/supermarket chill cabinet/0 °C to 50 °C/taking body temperature/35 °C to 45 °C/making jam/0 °C to 300 °C
+2/Choose the temperature and where it could be&found from these./0 °C to 50 °C/boiling water/making ice lollies/-30°C to 0 °C/slow cooker/0 °C to 200 °C/baking a cake/0 °C to 300 °C
+2/Paint the tags the same colour for temperatures and places./boiling carrots/0 °C to 110 °C/vegetable shop/0 °C to 50 °C/in a greenhouse/-30 °C to 30 °C/frying an egg/0 °C to 300 °C
+2/Colour the tags the same colour for matching&places and temperatures./house thermometer/0 °C to 50 °C/meat storage room/-50 °C to 10 °C/frying bacon/0 °C to 300 °C/making ice lollies/-30°C to 0 °C
+2/Link up temperatures and places./house thermometer/0 °C to 50 °C/keeping ice cream solid/-30°C to 0 °C/meat storage room/-50 °C to 10 °C/slow cooker/0 °C to 200 °C
+3/Use the same colour for each object and its&correct weight use./kitchen scales/ingredients for a cake/bathroom scales/weighing a suitcase/weigh bridge/lorry filled with scrap metal/letter scales/pricing postage
+3/Which matches to which?/weigh bridge/lorry filled with scrap metal/letter scales/pricing postage/shop scales/apples/bathroom scales/personal weight
+3/Colour the tags the same colour for matching&items and uses./shop scales/apples/bathroom scales/personal weight/weigh bridge/lorry filled with scrap metal/letter scales/pricing postage
+3/Link up each object and its correct weight use./weigh bridge/lorry filled with scrap metal/kitchen scales/weighing ingredients for making jam/shop scales/cabbage/small balance scales/weighing herbs
+3/Which matches to which?/bathroom scales/personal weight/small balance scales/weighing spices/laboratory scales/accurate chemical weighing/kitchen scales/weighing flour and lard to make pastry
+3/Colour the tags the same colour for matching items./postal scales/weighing parcels/kitchen scales/weighing sugar/infant scales/baby boy's weight/weigh bridge/weight of a train
+3/Paint matching tags the same colour./weigh bridge/lorry load of goods/letter scales/calculating postage/greengrocer's scales/weighing cauliflowers/kitchen scales/ingredients for a pie
+3/Which matches to which?/shop scales/potatoes/letter scales/pricing postage/infant scales/baby girl's weight/laboratory scales/weighing chemicals for an experiment
+3/Paint linked pairs of items the same./shop scales/oranges/small balance scales/weighing spices/laboratory scales/weighing chemicals for an experiment/kitchen scales/weighing margarine
+3/Use the same colour for matching items./weigh bridge/goods van/laboratory scales/accurate chemical weighing/kitchen scales/weighing butter/infant scales/birth weight
+4/Use the same colour for each object and&its appropriate volume./lemonade/litre plastic bottle/medicine/teaspoon/petrol/gallon/orange juice/litre box
+4/Use the same colour for each object and&its correct volume range./sugar/teaspoon/milk/babies' bottle/medicine/syringe/water/watering can
+4/Which matches to which?/water/watering can/milk/pint bottle/orange juice/litre box/coke/tin cans
+4/Colour the tags the same colour for matching items./coke/tin cans/wine/litre bottle/petrol/gallon can/oil/5 litre container
+4/Choose the item and what it could be&measured with from these./petrol/gallon can/wine/3 litre box/oil/5 litre container/flour/tablespoon
+4/Which item matches to which measuring vessel?/sugar/teaspoon/salt/a pinch/apple juice/litre box/milk/pint bottle
+4/Colour linked pairs of items and volumes the same./ginger/teaspoon/lemonade/2 litre bottle/milk/4 pint plastic bottle/medicine/syringe
+4/Which item matches to which measuring vessel?/washing up liquid/litre bottle/treacle/tablespoon/coke/tin/oil/5 litre container
+4/Use the same colour for each object and its correct volume./petrol/gallon/water/watering can/medicine/teaspoon/wine/3 litre box
+4/Colour linked pairs of items and volumes the same./ice cream/½ gallon tub/cooking oil/litre bottle/treacle/tablespoon/medicine/syringe
+GRADE6
+1/Match up natural pairs of products./milk/yoghurt/wheat/flour/oats/porridge/cotton/cloth
+1/Match up natural pairs of products./barley/beer/almonds/marzipan/raisin/grape/eggs/noodles
+1/Match up natural pairs of products./hops/beer/grapes/wine/beet/sugar/wheat/flour
+1/Colour the tags the same./yeast/bread/sultana/grape/sugar/sweets/milk/yoghurt
+1/Which products match which?/milk/yoghurt/almonds/marzipan/wheat/bran/olive/oil
+1/Which natural pairs of products match which?/wheat/wholemeal flour/corn/oil/apple/cider/orange/squash
+1/Which belongs to which?/butter/cream/yeast/beer/almonds/marzipan/eggs/mayonnaise
+1/Link up natural pairs of products./plum/prune/milk/cheese/cane/sugar/yeast/bread
+1/Link up pairs by colouring the tags the same./barley/beer/maize/flour/oats/porridge/sisal/rope
+1/Which products belong to which?/hemp/rope/yeast/wine/milk/yoghurt/flax/linen
+2/Match up products formed from cooking./eggs/omelette/flour/bread/potatoes/chips/tomato/ketchup
+2/Link up raw products with cooked items./potatoes/crisps/sugar/toffee/eggs/cake/cornflour/gravy
+2/Link cooked products up with the raw item./beef/burger/treacle/parkin/cherry/cake/sugar/doughnut
+2/Which product belongs to which?/sage and onion/stuffing/lard/pastry/butter/bun/ham/burger
+2/Link up pairs by colouring the tags the same./apple/pie/chocolate/biscuit/dough/bread/orange/marmalade
+2/Colour the tags the same./sugar/caramel/fat/pastry/corn/popcorn/pineapple/fritters
+2/Link up products produced by cooking./flour/pancake/banana/fritters/ham and cheese/pizza/beef/burger
+2/Which products belong to which?/flour/batter/syrup/toffee/wheat/pasta/potatoes/crisps
+2/Colour the tags the same for linked products./flour/cake/strawberry/jam/apple/juice/orange/marmalade
+2/Which product belongs to which?/sugar/fudge/orange/marmalade/parsley/fish sauce/blackberry/jam
+3/Use the same colour for linked pairs of commercial products/wood/charcoal/coal/coke/sand/glass/diamond/necklace
+3/Use the same colour for linked pairs of commercial products/wood/charcoal/coal/coke/emeralds/ring/cotton/clothes
+3/Which pairs of products are related?/oil/electricity/camera/film/beer/wine/sulphuric acid/car battery
+3/Colour in linked pairs of products the same./coal/coke/glass/double glazing/wood pulp/paper/copper/pans
+3/Which is linked with which?&Colour them the same./lead/car battery/chlorine/clean water/fertiliser/weedkiller/wood/charcoal
+3/Link up raw materials with their manufactured products./coal tar/soap/wool/scarf/sand/glass/sulphuric acid/car battery
+3/Find the links between the raw materials and products&by colouring like with like./sulphuric acid/car battery/iron ore/steel/cream/butter/coal/coke
+3/Which raw material is linked to which product?/oil/natural gas/sand/glass/china clay/tea cup/dough/bread
+3/Which raw materials are changed to make which products?/iron ore/steel/cream/butter/china clay/dinner plate/hops/beer
+3/Link up the raw materials with their changed products.&Colour the tags the same colour./hops/beer/milk/cheese/sulphuric acid/car battery/wood pulp/paper
+4/Link up each raw material with each product./haematite and magnetite (metal ores)/cast iron/ammonia/fertiliser/corn/flour/graphite/pencil
+4/Colour in materials and their commercial products&with the same colour./vegetable oil/mayonnaise/yeast and grapes/wine/wheat/flour/bamboo/garden furniture
+4/Which go into making which?/vegetable oil/mayonnaise/flour/bread/graphite/pencil/activated charcoal/air purifier
+4/Colour in materials and their commercial products&using the same colour for each pair./wheat flour/baps/potatoes/crisps/crude oil/petrol/bamboo/garden furniture
+4/Pair off the commercial products and their raw materials by&using the same colour./yeast and grapes/wine/goats milk/cheese/crude oil/paraffin/corn/starch
+4/Which go into making which?/egg/cake/potatoes/chips/nylon/anoraks/corn/starch
+4/Colour the tags the same for linked materials&and final products./crude oil/aircraft fuel/papyrus/paper/solder/tin and lead/activated charcoal/air purifier
+4/Paint the tags the same colour for linked materials and commercial products./solder/tin and lead/copper and zinc/brass/steel and chromium/stainless steel/cement and sand/mortar
+4/Link up products formed from raw materials./cellulose/paper/corn/flour/cement and sand/mortar/milk/cheese
+4/Which matches to which?/corn/starch/wood pulp/cardboard/copper and zinc/brass/bronze/copper and tin

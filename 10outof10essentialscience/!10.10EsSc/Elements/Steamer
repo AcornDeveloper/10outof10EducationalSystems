@@ -1,0 +1,219 @@
+$ Steamer word file structure
+$ 2. <sub grade>/<question>*<sprite name>#<hint>
+$ 3. <sub grade>/<question>*<sprite name>#<hint>
+$ 4. <sub grade>/<question>/<answer>/<false> ...#<hint>
+$ 5. <sub grade>/<question>*<sprite name>#<hint>
+$ 6. <sub grade>/<question>/<answer>/<false> ...*<sprite name>#<hint>
+$ sub grade  1-4
+$ Grades 2, 3, 5 and 6 should NOT be user modified
+$ question maximum length 128 characters
+$ answer   maximum length 64 characters
+$ false    maximum length 64 characters 
+$          Grade 4 and 6 up to 7 entries
+$ hint     The hint is optional in all cases, maximum length 80 characters
+
+GRADE2
+1/Which of these will be attracted to a magnet?*f1#The axe head is made of STEEL.
+1/ONE of these objects will be attracted to a magnet. Which?*f2#The kettle contains STEEL.
+1/Only ONE of these is magnetic. Which is it?*f3#Try the nail (it is made of STEEL).
+1/Which of these will be attracted to a magnet?*f4#Only the saucepan is magnetic.
+1/Go for the magnetic object.*f5#Go for the object you use for sewing.
+1/Just ONE object here is magnetic. Go for it.*f6#The ruler you can see is made of STEEL.
+1/Find the magnetic object.*f7#You see the SAW? Its made of STEEL.
+1/Which is the magnetic item?*f8#What do you use to keep papers together?
+1/Just ONE object here is magnetic. Catch it.*f9#SCREWS are made of STEEL.
+1/ONE of these objects will be attracted to a magnet. Which one?*f10#This is the KEY to this question.
+2/Which of these common items will NOT be attracted to a magnet?*f11#Aluminium foil is NOT magnetic.
+2/Just ONE object here is NOT magnetic. Catch it.*f12#This one fell on Sir Isaac Newton's head.
+2/Only ONE of these objects is non-magnetic. Which?*f13#Try the BOOK.
+2/Go for the non-magnetic object.*f14#Bread is non-magnetic.
+2/Which of these will NOT be attracted to a magnet?*f15#Glass bottles are non-magnetic.
+2/Find the non-magnetic object.*f16#You build a house with them.
+2/Where is the non-magnetic object?*f17#Mice might like it.
+2/Only ONE of these objects will NOT be attracted to a magnet. Which one?*f18#You could kick the answer.
+2/Go for the non-magnetic object.*f19#A leaf is not attracted to a magnet.
+2/ONE of these will NOT be attracted to a magnet. Which one is it?*f20#Cor! Strike a light!
+3/Which of these will be attracted to a magnet?*f21#Try the anchor.
+3/Things made of IRON are attracted to magnets. Where is something made of IRON?*f22#IRON FILINGS!
+3/Like iron and steel, nickel is magnetic. Find the magnetic object.*f23#Some coins are made of NICKEL.
+3/Just ONE object here is magnetic. Catch it if you can.*f24#A BLACKSMITH uses one of these.
+3/Which of these objects will be attracted to a magnet?*f25#A BUILDER uses one of these.
+3/Go for the ONE object attracted to a magnet.*f26#Skyscrapers are made using these.
+3/ONE of these objects will be attracted to a magnet. Which?*f27#Go for the STEEL bucket.
+3/Find the magnetic object.*f28#FILES are made of STEEL.
+3/Only ONE of the objects is magnetic. Which is it?*f29#You open a bottle with one.
+3/Go for the magnetic object.*f30#Try the GUN.
+4/Which of these items will NOT be attracted to a magnet?*f31#LEAD is not magnetic.
+4/Find the object which is NOT magnetic.*f32#GOLD is not magnetic.
+4/Go for the non-magnetic object.*f33#DIAMONDS are not attracted by magnets.
+4/Just ONE object here is NOT magnetic. Catch it quick!*f34#SILVER is not magnetic.
+4/Which of these items will NOT be attracted to a magnet?*f35#POOL BALLS are NOT magnetic.
+4/Only ONE of the objects boiling off is non-magnetic. Which is it?*f36#Try the SAXOPHONE.
+4/Which of these items will NOT be attracted to a magnet?*f37#Try the one you make music with.
+4/Be quick and catch the non-magnetic object.*f38#BELLOWS are non-magnetic.
+4/Go for the non-magnetic object.*f39#COPPER is not a magnetic metal.
+4/Find the object which is NOT magnetic.*f40#BRASS is not a magnetic metal.
+GRADE3
+1/Which of these circuits contains a battery, bulb, at least one switch and it works?*c1#It has a battery on the right and a bulb on the left.
+1/Find a working circuit with two closed switches.*c2#There is a switch next to the bulb.
+1/Which working circuit has only one switch?*c3#The switch is between the bulb and battery.
+1/Find the working bulb, switch and battery circuit.*c4#The switch is on the right.
+1/Which is the working circuit?*c5#The battery is on the right.
+1/Go for the working circuit*c6#The bulb is on the right.
+1/A working circuit here has two closed switches. Which is it?*c7#The switches are in the middle.
+1/There is only one working circuit here. Find it.*c8#The bulb is on the left.
+1/Find the working circuit with a bulb, switch and battery.*c4#The switch is on the right.
+1/Find a working circuit with two closed switches and a bulb.*c2#There is a switch next to the bulb.
+2/Which of these circuits contains a battery, bell, at least one switch and it works?*c9#It has a battery at the bottom and two switches.
+2/Which circuit has a bell that is ringing?*c10#The circuit has two switches.
+2/There is only one circuit with a working bell. Where is it?*c11#The bell is in the middle.
+2/With the switch closed which circuit will ring the bell?*c12#Look for a bell, battery and switch.
+2/Find a working circuit with a battery, bell and switch.*c13#The switch is in the middle.
+2/Which working circuit contains a bell, battery and two switches?*c14#Look for the battery on the right.
+2/In which circuit will the bell ring?*c15#It has two switches.
+2/Find a working circuit with two switches and a bell.*c16#Either of the switches will operate the circuit.
+2/The working circuit with two switches in parallel. Find it.*c16#The switches are above each other.
+2/The bell is ringing on the working circuit. Where is it?*c12#Look for a bell, battery and switch.
+3/Where is the circuit which has a bulb and a bell and works?*c17#The battery is on the left.
+3/Find the working circuit.*c18#It has a bulb and a bell.
+3/Only one circuit here works. Which is it?*c19#The battery is on the right.
+3/In which circuit will the bell ring and the bulb shine?*c20#The battery is in the middle.
+3/Find the complete circuit.*c21#It has a bulb, battery and bell.
+3/Which circuit works?*c22#It has no switches.
+3/A bulb and a bell work in this circuit. Find it.*c23#The battery is in the middle.
+3/Which is the complete circuit?*c24#The bulb and bell are side by side.
+3/Which circuit will has a ringing bell and shining bulb?*c20#The battery is in the middle.
+3/One circuit here works. Which one?*c19#The battery is on the right.
+4/Where is the working bell circuit.?*c12#Look for a bell, battery and switch.
+4/Find the complete circuit with a bell.*c21#It also has a bulb and battery.
+4/Find a working circuit with a bell and switch.*c13#It also has a battery.
+4/Where is the working light bulb circuit?*c5#The battery is on the right.
+4/Find the working bulb and battery circuit.*c4#The switch is on the right.
+4/Which of these circuits contains at least one switch and it works?*c1#It has a battery on the right.
+4/Find the working light bulb and bell circuit.*c18#The bulb is in the middle.
+4/Which is the working circuit where the bell ring?*c15#It has two switches.
+4/Which of these circuits contains at least one switch and it works?*c9#It has a battery at the bottom and two switches.
+4/Find the working light bulb and battery circuit.*c4#It has a switch.
+GRADE4
+1/If I heat candle wax up in a dish above boiling water it will .../turn from a solid to a liquid/turn to a gas/burst into flames/solidify/not change#Candle wax is a solid and will melt to a liquid.
+1/A lump of lard is heated up in a pan. It will .../melt to a liquid/turn directly into a gas/get harder/no change will occur/disappear completely#The lard will melt to a liquid.
+1/Find the correct order of increasing melting points for petrol, water and paraffin?/petrol - paraffin - water/water - paraffin - petrol/paraffin - water - petrol/petrol - water - paraffin#The correct order is petrol, paraffin and water.
+1/Of these substances - water, mercury, salt water and paraffin wax - which has the lowest melting point?/mercury/water/salt water/paraffin wax#Mercury has the lowest melting point.
+1/As I heat up lead pieces in a crucible (a small clay pot) up it will .../turn from a solid to a liquid/turn to a gas/burst into flames/solidify/not change#Lead is a solid and will melt to a liquid.
+1/In general the higher the pressure the higher the what for a solid's melting point?/temperature/volume/density/length/width#The solid's melting point temperature is increased.
+1/Paraffin wax has a lower melting point than water. TRUE or FALSE?/FALSE/TRUE#FALSE. Paraffin wax is a solid at room temperature.
+1/Frozen brine (salt water) has a higher melting point than frozen pure water. TRUE or FALSE?/FALSE/TRUE#FALSE. Pure water freezes at 0 °C while brine freezes below this.
+1/The melting point of a solid is affected by a change in pressure. TRUE or FALSE?/FALSE/TRUE#FALSE. It is not affected by the pressure.
+1/The change from a solid to a liquid is called what?/melting/supercooling/sublimation/condensation/evaporation#It is called melting.
+2/Water is put in a cup and then in the freezer. What will happen?/The water will freeze to ice/No change/The water will boil/It will vaporise#The water will freeze into a solid.
+2/At room temperatures helium is a ___./gas/solid/liquid#It is a gas.
+2/Water is put in a cup, salt water in another and then put in the freezer. Which will freeze first?/water/salt water/they freeze at the same time#Adding salt to water lowers the freezing temperature.
+2/Which of these freezes last as the temperature is lowered?/petrol/water/salt water#Petrol freezes last.
+2/Which of these gases will NOT form a solid when cooled down as far as possible at room pressure?/helium/oxygen/nitrogen/hydrogen/neon/argon/chlorine#Helium will not form a solid.
+2/When a liquid changes to a solid what is the process called?/freezing/boiling/evaporation/condensation/crystallisation#The liquid freezes.
+2/Which of these would freeze last as the temperature is lowered?/salt water/water/candle wax#Salt water.
+2/The engine in a car has been running. The water under pressure in the radiator boils at ___./over 100 °C/under 100 °C/at 100 °C
+2/As a liquid cools and forms a solid its what happens to its volume?/decreases/increases/stays the same#The volume decreases.
+2/Water containing any dissolved substance freezes ___./below 0 °C/above 0 °C/at 0 °C#It freezes below 0 °C.
+3/Water is heated in a beaker using a bunsen burner. What will happen?/It will vapourise to steam/Nothing/Ice will form/The water will change colour#It will boil and turn to steam.
+3/What is the boiling point of pure water at room pressure?/100 °C/10 °C/110 °C/1000 °C/150 °C/50 °C/212 °C/0 °C#It boils at 100 °C.
+3/Pure water at room pressure boils at 100 °C. Up a high mountain how will this change?/The temperature will go down/The temperature will go up/The temperature will remain the same#There is less air pressure so the water boils at a lower temperature.
+3/'Dry ice' (solid carbon dioxide) is sometimes used by ice cream vans. If you allow it to warm up what will happen?/It will turn directly from a solid to a gas/It will melt to a liquid/Nothing/It will boil away#It has no liquid stage.
+3/'Dry ice' (solid carbon dioxide) turns directly from a solid into a gas without being a liquid. What is this process called?/sublimation/evaporation/distillation/condensation/crystallisation#It is called sublimation.
+3/Find the correct order of increasing boiling points for water, alcohol and brine./alcohol - water - brine/water - brine - alcohol/alcohol - brine - water/brine - water - alcohol#The correct order is alcohol, water and brine (salt water).
+3/Dissolving any substance in pure water does what to the boiling temperature?/increases/decreases/stays the same#It increases the boiling temperature.
+3/Which of these substances - iron, candle wax and rubber - has the highest melting point?/iron/candle wax/rubber#Iron has the highest melting point.
+3/When a liquid changes to a vapour it is said to have done what?/evaporated/sublimated/superheated/supercooled/condensed#The liquid has evaporated.
+3/Which boils at the highest temperature?/salt water/water/alcohol#Salt water has the highest boiling point.
+4/As air is cooled down to a very low temperature it will .../condense to a liquid/stay a gas/change to a solid#A liquid will be formed.
+4/Can helium be frozen to make a solid at normal pressure? YES or NO?/No/Yes#It will not form a solid only a liquid.
+4/The change from a gas to a liquid is called what?/condensation/evaporation/superheating/supercooling/sublimation/distillation#The gas has condensed.
+4/When a gas condenses to a liquid what has been removed?/heat/light/pressure/air/water#Heat is removed.
+4/As the air pressure is lowered, say up a mountain, what will happen to the temperature at which a gas will condense to a liquid?/decrease/increase/no change#The temperature will decrease.
+4/When water condenses on a cold window where has it come from?/the air inside/the air outside/the glass#It comes from the air inside.
+4/A mountaineer makes a cup of tea up a mountain. He will find it is ___ than if he made it before he went up./cooler/hotter/the same#Water boils at a lower temperature up a mountain.
+4/As a gas is cooled it will eventually do what?/condense/evaporate/sublimate/superheat/supercool/boil#It will eventually condense.
+4/When a gas condenses to a liquid what is given out?/heat/light/water/radio waves/ultra-violet light/sound waves#Heat is given out.
+4/Air is a mixture of gases that if cooled down enough will eventually do what?/condense to a liquid/disappear/burst into flames/boil away/stay the same#It will condense to a liquid.
+GRADE5
+1/Which circuit works with a light bulb?*x1#The light bulb is on the right.
+1/There is a working circuit with two light bulbs in series. Find it.*x2#There is a switch on the negative terminal on the battery.
+1/Which complete circuit has a switch, battery and bulb?*x3#The battery is in the middle.
+1/Find the complete circuit with light bulbs in series.*x4#There are three light bulbs.
+1/Where is the complete circuit with light bulbs in series?*x5#There are two light bulbs.
+1/Find the switch and light bulb circuit which works.*x6#The battery is on the left.
+1/Which working circuit has light bulbs in series?*x7#There are two light bulbs.
+1/There is only one working circuit here. Where is it?*x8#It has two light bulbs in series.
+1/Find the working circuit with light bulbs in series.*x4#There are three light bulbs.
+1/Find the working battery, switch and bulb circuit.*x6#The battery is on the left.
+2/Which working circuit works?*x9#It has two light bulbs in parallel.
+2/This working circuit has light bulbs and a bell wired in parallel. Where?*x10#The switch only works for the light bulbs.
+2/Where is the working circuit wired with three light bulbs in parallel?*x11#The switch only works for two of the light bulbs.
+2/Where are two bells ringing?*x12#The bells are wired in parallel.
+2/There is a working circuit with a bell and bulb in parallel. Find it.*x13#The battery is on the left.
+2/Find two bells wired in parallel and working.*x14#It has no switch.
+2/Which working circuit has a bell and bulb wired in parallel?*x15#It has two switches, one for the bell and one for the light bulb.
+2/All the bulbs in this circuit are on. Which working circuit?*x16#There are three bulbs wired in parallel.
+2/Which working circuit is wired with three light bulbs in parallel?*x11#The switch only works for two of the light bulbs.
+2/Find the working circuit board with two bells wired in parallel.*x14#It has no switch.
+3/Which circuit works?*x17#It has one buzzer.
+3/Find the working circuit.*x18#It has three buzzers.
+3/Find two buzzers wired in series.*x19#The battery is in the middle.
+3/Where are some buzzers wired in series and they work?*x20#There are four buzzers.
+3/Find the working buzzer circuit.*x21#It has a switch between two buzzers.
+3/This complicated working circuit has three switches. Which one?*x22#It has two buzzers also.
+3/Find a working buzzer circuit wired in series.*x23#The switch is between the two buzzers.
+3/Find the working circuit with two buzzers.*x24#It has three switches also.
+3/Find the working buzzer circuit board.*x18#It has three buzzers.
+3/This working circuit has three switches. Which one?*x22#It also has two buzzers.
+4/Find a working circuit with two light bulbs wired in series.*x2#In series means one after the other.
+4/Find a working circuit with two light bulbs and a switch wired in series.*x2#In series means one after the other.
+4/Which circuit works?*x9#It has a two light bulbs.
+4/Where is the working circuit which has three light bulbs wired in parallel?*x11#Wired in parallel means gets power without going through another.
+4/Where are two bells wired in a working circuit?*x14#They are wired in parallel.
+4/In which circuit does the bell ring and the light bulb shine?*x15#The battery is in the middle.
+4/Find the buzzing circuit.*x17#It has one switch.
+4/Find three buzzers wired in series and working.*x18#In series means one after the other.
+4/Find four buzzers wired in series and working.*x20#In series means one after the other.
+4/Go for the working circuit with two switches.*x21#It has two buzzers wired in series.
+GRADE6
+1/Where is the bulb located?/f/g/h/b*s1#Try the top right hand corner.
+1/There is a light source on the table. Where is it?/e/h/g/c*s2#The bulb is at E.
+1/The green square casts a long thin shadow. Where is the bulb?/b/e/d/g*s3#Where do the two black lines meet?
+1/Find the light bulb./e/h/g/f*s4#The light bulb is very near to the square.
+1/Where is the light bulb on the desk?/g/h/f/b*s5#The light bulb is very near to the square.
+1/A light bulb casts this shadow when lit. Where is it located at?/d/e/a/f#It is not the nearest one.
+1/Find the light source./c/b/a/h*s7#Try the bottom left hand corner.
+1/Where is the light bulb on the table?/a/d/b/e*s8#It is not the nearest one.
+1/There is only one position for a light bulb. Which is it?/g/h/d/f*s5#Try the nearest point.
+1/Where is the light source located?/f/g/e/h*s1#Where do the black shadow lines meet?
+2/Where is the object located?/d/a/b/c*s9#Try D.
+2/Find the object./b/d/c/a*s10#Try B.
+2/Where is the object?/c/b/a/h*s11#Try C.
+2/There is only one place where the object can be. Find it./d/b/c/a*s12#Try D.
+2/The object is casting a shadow. Where is the object?/e/d/c/h*s13#Try E.
+2/Which letter is the object on?/f/d/e/b*s14#Try F.
+2/The light bulb is illuminating a hidden object. Where is it?/g/d/e/b*s15#Try G.
+2/Find the location of the object casting the shadow./h/d/e/g*s16#Try H.
+2/Where is the object on the desk?/c/a/b/d*s11#Try C.
+2/Locate the hidden object./f/d/e/g*s14#Try F.
+3/Locate the shadow./h/g/a/b/c/d/e/f*s17#It only covers one letter.
+3/Which letter does the shadow cover?/c/a/b/d/e/f/g/h*s18#Only a single letter is covered.
+3/Find the letter the EDGE of shadow just touches./g/a/b/c/d/e/f/h*s19#Try G.
+3/Find the letter that the shadow cast form the STOP sign would cover./a/g/h/b/d/e/f*s20#Try A.
+3/There is just one letter that is covered by a shadow. Which one is it?/a/b/c/d/e/f/g/h*s21#Try A.
+3/Which letter is in the shadow?/c/b/a/d/e/f/g/h*s22#Only C is in the shadow.
+3/The object is casting a shadow. Over which letter?/e/f/h/a/b/c/d/g*s23#Try E.
+3/Which letter is in the shadow from the pole?/c/a/b/d/e/f/g/h*s24#It covers C.
+3/Which letter is NOT lit?/c/a/b/d/e/f/g*s18#Try C.
+3/Where does the shadow lie?/f/a/b/c/d/e/g/h*s20#The shadow falls across only F.
+4/Locate the letters covered by the shadow/fg/ab/af/ce/cd/ab/gh/ad*s25#Try the two above H.
+4/Find the letters the shadow covers./bc/ab/ac/be/dg/ce/de/df*s26#Try the two below A.
+4/Where is the shadow?/eh/eg/ef/de/dh/dg/dh/ce*s27#E is one of them.
+4/There are two letters covered by the shadow. Which are they?/ad/bd/cd/de/ae/ab/ac/eh*s28#Try A and D.
+4/Find the letters in the shadow of the object./bc/ab/ac/be/ad/bd/ae/bh*s29#Only B and C are covered.
+4/The object is casting a shadow. Over which letters?/ce/be/de/ad/bd/eg/eh/bg*s30#Try C and E.
+4/Find the letters that any shadow cast would cover./eh/eg/ef/de/ce/de/df/dg*s31#H is one of them.
+4/Which letters does the shadow cover?/gh/fg/eg/dg/eh/dh/fh/be*s32#Try G and H.
+4/Find the letters the shadow covers over./fg/ab/af/ce/cd/ab/gh/ad*s25#Try the two above H.
+4/There are two letters that are covered by the shadow. Which are they?/ad/bd/cd/de/ae/ab/ac/eh*s28#Try A and D.

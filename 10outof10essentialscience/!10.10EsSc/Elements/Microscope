@@ -1,0 +1,261 @@
+$ Microscope word file structure
+$ 1. <sub grade>/<question>/<answer>/<false> ...
+$ 2. <sub grade>/<question>/<answer>/<false> ...
+$ 3. <sub grade>/<question>/<material>
+$ 4. <sub grade>/<question>/<answer>/<false> ...
+$ 4. <sub grade>/<question>/<answer>/<false> ...
+$ 6. <sub grade>/<description>/<reason>
+$ sub grade  1-4
+$ Grade 3 should NOT be user modified
+$ Grade 1, 2, 4 and 5 require up to 7 false answers
+$ question & splits up a question over two lines
+$          maximum length 80 characters contains & 160 characters
+$ answer   maximum length 48 characters
+$ false    maximum length 48 characters
+
+GRADE1
+1/Which of these is ALIVE NOW?/rabbit/pork chop/boiled potato/boiled cabbage/fried mushroom/sheet of paper/foam rubber/glass bead
+1/Locate the thing which is ALIVE NOW./cabbage seeds/clay pot/red brick/glass cup/tin of gloss paint/wooden ruler/wool jumper/sand castle
+1/Find the only thing which is ALIVE./caterpillar/telephone/beef burger/knife/toothpaste/soap/sugar/biscuit
+1/Locate the LIVING item./pine tree/plastic bag/fork/desk/chair/strawberry jam/ice cream/butter
+1/Which of these is ALIVE?/butterfly/foam rubber/newspaper/spoon/plant pot/milk bottle/kettle/book
+1/Only one of these is ALIVE.&Seek it out./squirrel/television/radio/oven/mud/pebble/paint/cardboard box
+1/Find the ALIVE item./sea weed/paint brush/sea shell/nylon shirt/box of matches/chocolates/cake/roast chicken
+1/The item which is ALIVE.&Find it./yeast/flour/salt/milk/coffee/tea/bread/sugar
+1/All of these are dead except one.&Which is ALIVE?/fox/lamb chop/beef steak/beef sausages/pork pie/bacon rashers/ham sandwich/ham burger
+1/All of these are ALIVE except one.&Which is NOT ALIVE?/copper wire/yeast/apple seeds/dog/cow/cat/crab/dolphin
+2/Which of these things HAS BEEN ALIVE at some time?/wooden post/concrete post/steel post/barbed wire/tin can/steel ruler/plastic bottle/glass bottle
+2/Find the only thing which was ONCE ALIVE./roast chicken/elephant/cow/dog/cat/fox/badger/otter
+2/Only one of these was alive.&Which ONE?/dinosaur fossil/steel nail/brass screw/light bulb/water/fridge/window pane/red brick
+2/Find the material which was NOT ALIVE at any time./sand/roast chicken/beef steak/boiled cabbage/orange/pear/paper/sea weed
+2/At some point just ONE of these things has been alive.&Locate it./marmalade/computer mouse/door hinge/shoe polish/letter box/saucepan/bath tap/mirror
+2/Locate the only thing which was ONCE ALIVE./fur coat/wellington boots/nylon shirt/plastic shoes/nylon tie/plastic mac/steel wool/glass wool
+2/Which is the item that ONCE LIVED?/paper/steel wool/glass wool/toothpaste/salt/cement/sand/glass bottle
+2/Go and get the thing that was ONCE ALIVE./cardboard/polystyrene cup/boulder/ice cube/glass bead/pearl/gold/diamond
+2/Get the item that ONCE LIVED./leather/emerald/water/bullet/lead pipe/copper wire/gold ring/car engine
+2/Which of these was ONCE ALIVE?/plank of wood/ruby/tin can/steel ruler/plastic bottle/window pane/needle/polythene sheet
+3/Find the thing that was alive but is now DEAD./turkey slices/tin can/lead pipe/glass bottle/metal spoon/stone/snow/rain cloud
+3/Locate the DEAD item./wooden ruler/polar bear/eagle/grass/apple tree/sugar cane/buffalo/gooseberry bush
+3/Which of these is now DEAD?/wooden desk/penguin/cherry tree/dormouse/stoat/badger/gooseberry bush/rose bush
+3/Which is the dead item?/meat pie/sea lion/sparrow hawk/fish/owl/robin/black bird/beetroot
+3/All these things are DEAD except one.&Which one is it?/yeast/leather/wooden ruler/wooden desk/rashers of bacon/mashed potatoes/spaghetti/sausages
+3/Find the dead thing./bread/wheat/giraffe/sea lion/termite/wood louse/silver birch tree/caterpillar
+3/Locate the only DEAD thing./roast turkey/cat/dog/lion/leopard/sparrow/caterpillar/moth
+3/Which of these is DEAD?/leather belt/oak tree/robin/wheat/vulture/seagull/lizard/toad
+3/Find the dead thing that was once alive./crocodile shoes/dragonfly/earthworm/mould/octopus/centipede/ferns/mushroom
+3/Get the DEAD thing./mashed potatoes/giraffe/lily/daffodil/thrush/grass/palm tree/spider
+4/Find the only thing that has NEVER been alive at all./brass nail/sheet of paper/cardboard box/orange squash/rashers of bacon/fur coat/mashed potatoes/spaghetti
+4/Only ONE of these things has NEVER lived.&Where is it?/steel ruler/orange peel/tree bark/fur gloves/pasta/soup/tobacco/grapes
+4/All these things are not living now.&Which is the only ONE that has lived at some time?/fur gloves/marble vase/emerald/gold bar/steel girder/tin can/stone wall/rain water
+4/Which here has never been alive at any time?/marble vase/fish and chips/leather/crisps/spaghetti/baked beans/wooden chair/cotton socks
+4/Which is the only thing which has NEVER lived at all?/light bulb/pork pie/cornish pasty/bone/mushroom/paper cup/banana/lettuce
+4/Which of these has never been ALIVE?/diamond/potato chips/strawberries/pineapple/cauliflower/plum jam/cherry pie/tomato ketchup
+4/Go and get the thing which has NEVER been alive./gold ring/crisps/orange/pear/goat/zebra/salmon/flower
+4/Locate the item which has NEVER lived./ice cube/trout/cabbage/ham sandwich/tree/bread/kitten/sheep
+4/Only ONE item here has never lived.&Which one is it?/compact disc/flea/leek/garlic/olive/wooden toothpick/apricot jam/meat
+4/Go for the item which has never lived./window pane/weasel/stickleback/frog/cherry/snake/bee/deer
+GRADE2
+1/It is cloudy. Where?*s1
+1/Where is it dull?*s2
+1/Find the foggy day.*s3
+1/Where is it blowing very hard?*s4
+1/Locate the hail.*s5
+1/Where is it sunny here?*s6
+1/Go for the thunder and lightning.*s7
+1/Where is it windy?*s8
+1/Where is it raining?*s9
+1/The snow is falling. Where?*s10
+2/Find the cloudy symbol.*s1
+2/Find the overcast symbol.*s2
+2/Where is it foggy?*s3
+2/Where is a gale blowing?*s4
+2/Find where it is hailing.*s5
+2/Where does the sun shine best?*s6
+2/Which weather graphic shows thunder?*s7
+2/The weather symbol for windy. Find it.*s8
+2/Find the weather symbol for rain*s9
+2/Where is the symbol for snow?*s10
+3/Where is it cloudy?*s1
+3/Where is it overcast?*s2
+3/Which weather graphic is for fog?*s3
+3/Where is the weather symbol for a gale?*s4
+3/Where is it hailing?*s5
+3/Where is the weather fine?*s6
+3/Search for the thunder and lightning symbol.*s7
+3/Locate the windy graphic.*s8
+3/Find the weather symbol for rain.*s9
+3/Locate the snow graphic.*s10
+4/Which is the weather symbol for cloudy?*s1
+4/Where is it dull or overcast?*s2
+4/Find the weather symbol for low visibility (FOG).*s3
+4/Where is the wind speed very high (GALE)?*s4
+4/Where are small balls of ice falling from the sky (HAIL)?*s5
+4/Which is the weather graphic for a sunny day?*s6
+4/Find the graphic that shows lightning.*s7
+4/Find the weather graphic for windy.*s8
+4/Which is the weather symbol for precipitation (RAIN)?*s9
+4/Find the weather symbol for snow.*s10
+GRADE3
+1/Which word best describes the metal LEAD?/dull/hard/light/blue/lumpy/red/gritty/damp
+1/COAL could best be described as?/dull/hard/light/blue/lumpy/green/gritty/damp
+1/GOLD is what?/shiny/long/light/thick/lumpy/blue/gritty/black
+1/A COLOURED GLASS VASE can be described as ___./shiny/long/light/thick/gritty/lumpy/square/soft
+1/TREE BARK is what?/dull/sticky/yellow/hard/blue/heavy/shiny/fluffy
+1/What is a material called which has a MATT surface?/dull/hard/gritty/heavy/shiny/sticky/porous/waterproof
+1/CARDBOARD usually does not reflect light well. This makes it?/dull/gritty/heavy/long/light/transparent/lumpy/hard
+1/TIN usually reflects light well. This makes it?/shiny/dull/sticky/thick/thin/spongy/yellow/fluffy
+1/What is a material called which has a REFLECTIVE surface?/shiny/hard/long/light/thick/fluffy/transparent/soluble
+1/GLOSS PAINT is ___ when it is dry./shiny/long/light/thick/sticky/fluffy/orange/rough
+2/STEEL has only ONE of these properties.&Which one?/hard/light/yellow/green/damp/fluffy/transparent/lumpy
+2/DIAMOND has the property of being very ___./hard/long/light/thick/sticky/fluffy/short/heavy
+2/Things made of PLASTIC are usually ___./light/thick/sticky/fluffy/sticky/hot/cold/gritty
+2/GOLD is ___./dense/long/light/fluffy/thick/transparent/magnetic/damp
+2/BUTTER has the material property of being?/soft/hard/fluffy/lumpy/dry/gritty/thick/red
+2/COTTON WOOL is always what?/soft/hard/damp/heavy/rough/hot/purple/shiny
+2/GLASS is a ___ material./hard/thick/absorbent/sticky/flexible/black/smelly/damp
+2/FEATHERS are ___./light/hard/long/thick/sticky/absorbent/heavy/white
+2/COTTON WOOL has the material property of being?/soft/sticky/magnetic/green/damp/gritty/shiny/thick
+2/A sheet of PAPER has only ONE of these properties.&Which one?/light/shiny/spongy/hard/long/heavy/magnetic/thick
+3/WOOD when sanded down is very ___./smooth/hard/light/brown/dull/spongy/damp/transparent
+3/GRAVEL is ___./gritty/smooth/thick/light/sticky/shiny/long/red
+3/PLASTIC is usually ___./smooth/runny/made from water/heavy/black/white/thick/transparent
+3/A river PEBBLE has the material property of being?/smooth/large/light/white/transparent/thick/heavy/blue
+3/FEATHERS are?/smooth/hard/gritty/damp/heavy/spongy/runny/thick
+3/Search for what SOIL is./gritty/sticky/shiny/long/red/stiff/hot/hard
+3/A GOLD RING could best be described as?/smooth/brown/gritty/damp/runny/smelly/spongy/thick
+3/PAINT has the material property of being?/smooth/stiff/gritty/transparent/thin/long/blue/small
+3/SHOE POLISH in a tin is usually ___./smooth/stiff/fluffy/blue/white/transparent/hot/runny
+3/STEEL SHEETS can be best described as ___./smooth/fluffy/sticky/white/flammable/light/yellow/transparent
+4/A DISH CLOTH used to wipe down a table is usually ___./damp/light/orange/hard/gritty/blue/frayed/made of wool
+4/MOSS is usually ___./damp/orange/thick/white/shiny/heavy/gritty/runny
+4/SHOE POLISH is usually ___./damp/soapy/crunchy/stiff/bouncy/pink/thin/large
+4/What are TOWELS usually?/dry/heavy/compact/stiff/shiny/sticky/gritty/transparent
+4/PENCIL LEAD is ___./dry/shiny/bouncy/gritty/brown/stripey/silky/large
+4/The best word to describe PLASTIC here is ___./dry/gritty/soapy/powdery/gritty/gassy/smelly/hot
+4/A strawberry JELLY is ___./damp/dry/smelly/blue/gritty/hard/fluffy/sandy
+4/Scan for what SUGAR is./dry/runny/hot/hard/fluffy/fire resistant/smelly/heavy
+4/GLASS as used in television screens is what?/dry/fluffy/creamy/hot/bendy/rough/bouncy/sandy
+4/FLOUR as used to make a cake is usually ___./powdery/hot/bendy/rough/stiff/shiny/fluffy/sticky
+GRADE4
+1/Find the most DENSE substance here./lead/water/wood/plastic/rubber/glass/iron/steel
+1/Which has the HIGHEST density here?/gold/soil/rock/feathers/jelly/flour/shoe polish/cotton wool
+1/Find the one with LOWEST density./oil/water/rock/lead/gravel/glass/steel/copper
+1/Oil floats on water because it has ___ than water./a lower density/a higher density/the same density
+1/Wood floats on water because it has ___ than water./a lower density/a higher density/the same density
+1/Water sinks when poured on oil because it has ___ than oil./a higher density/the same density/a lower density
+1/Find the least DENSE substance here./cotton/lead/steel/gold/iron/brass/copper/tin
+1/Density can be measured in ___./grammes per cubic centimetre/grammes per square centimetre/grammes/kilogrammes/tonnes/centimetres/metres/kilometres
+1/Locate the MOST dense material./mercury/aluminium/cork/copper/oil/steel/iron/petrol
+1/Steel has a high density.&On which of these substances will a steel bar float?/mercury/water/cooking oil/sea water/river water/bleach/orange juice/milk
+2/Find the WEAKEST thing here./cotton/nylon/copper wire/gold bar/aluminium can/tin can/brass kettle/rubber pipe
+2/Which has the HIGHEST strength here?/gold/ice/bread/biscuit/paper/moss/glass/orange
+2/Go for the STRONGEST material./brass/bread/cotton/wool/fur/paint/shoe polish/pasta
+2/Which is the STRONGEST?/wood/spaghetti/corn flakes/cloth duster/polystyrene cup/rubber band/paper tissue/water
+2/Locate the WEAKEST material shown here./ice/brass/copper/tin/aluminium/gold/steel/iron
+2/All these things here, except one, are STRONG.&Which is not?/paper tissue/cast iron bar/thick plastic rod/steel girder/car tyre/car windscreen/rope/aluminium ladder
+2/Find the STRONGEST substance here./aluminium/paper tissue/crisps/cornflakes/peanuts/pepper/salt/celery
+2/Find the WEAKEST item./butter/sugar cube/compact disc/glass bowl/nylon rope/brass plate/ceramic cup/needle
+2/All these materials, except one, are WEAK.&Which is NOT?/steel/butter/paper tissue/cardboard/foam rubber/balsa wood/corn flakes
+2/Find the only material which is WEAK./rubber/steel/wood/slate/brick/nylon/tooth enamel/bone
+3/Which is the MOST flexible?/polythene bag/peanuts/telephone/shoe/lump of plaster/rice krispies/uncooked rice/asbestos
+3/Find the only material which is FLEXIBLE./polythene/cast iron/stone/diamond/glass/lump of plaster/soap/mortar
+3/Which is the LEAST flexible?/cast iron/rubber/candy floss/lemon jelly/cotton wool/steel wool/nylon thread/cotton thread
+3/Choose the MOST flexible./copper wire/peanuts/cornflakes/eggs/biscuits/toast/bar of soap/ceramic tile
+3/Find the most FLEXIBLE item./wool/glass rod/lump of plaster/test tube/jam jar/silver/gold/ceramic cup
+3/These items here, except one, are FLEXIBLE.&Which is not?/ceramic tile/grass/card/bath sponge/bath towel/wool/nylon thread/cotton thread
+3/Find the only material which is INFLEXIBLE./concrete/rubber/plastic/paper/card/chewing gum/card/bath sponge
+3/Seek out the FLEXIBLE substance./rubber/stone/concrete/marble/coal/pyrex/bathroom tile/gold
+3/Which material is INFLEXIBLE?/glass/dough/plastic/rubber/elastic/chewing gum/strawberry jelly/straw
+3/Find the LEAST FLEXIBLE material./granite/polystyrene/plastic/rubber/bread/bamboo/grass/hair ribbon
+4/All these materials, except one, are HARD.&Which is not?/rubber/concrete/coal/slate/granite/glass/ceramic/lead
+4/Which is the HARDEST material here?/diamond/margarine/putty/pyrex/polythene/cream/yoghurt/hay
+4/Which is the SOFTEST material here?/butter/coal/plastic/sandstone/slate/brick/granite/pyrex
+4/These materials here, except one, are HARD.&Which is not?/polystyrene foam/gold/lead/iron/steel/aluminium/stone/coal
+4/Seek out the HARDEST substance./steel/aluminium/margarine/lard/lipstick/asbestos/butter/coal
+4/Find the only material which is HARD./iron/water/putty/lard/shoe polish/apple/treacle/lipstick
+4/Which material is SOFT?/ice cream/plastic/glass/diamond/concrete/ice cube/gold/lead
+4/Go and get the SOFTEST material./cotton wool/gold/lead/ruby/toast/marble/brass/glass
+4/Which is the HARDEST here?/wood/paper/cardboard/margarine/honey/toast/bread/hair ribbon
+4/All these materials, except one, are SOFT.&Which is HARD?/stone/ice cream/cotton wool/foam rubber/butter/wool/putty/orange jelly
+GRADE5
+1/Find the only electrical conductor here./copper/ruby/nylon/paint/marble/straw/wood/sugar
+1/Which is the best electrical conductor shown here?/gold/aluminium/steel/iron/brass/lead/milk/water
+1/Locate the best conductor of electricity./silver/milk/water/salt solution/cotton/nylon/fur
+1/Go for the material which conducts electricity the best./copper/gold/lead/tin/iron/steel/mercury/stainless steel
+1/There is only one electrical conductor here.&Find it./brass/cardboard/paper/wool/cornflakes/glass/hair/hay
+1/Find the good electrical conductor./steel/rubber/water/milk/concrete/ceramic/leather/stone
+1/Seek out the material which is NOT an electrical conductor./cellophane/steel/iron/chromium/stainless steel/tin/gold/silver
+1/Which is the POOREST conductor of electricity shown here?/water/copper/gold/tin/brass/lead/stainless steel/mercury
+1/Of all the conductors of electricity here, find the best./copper/gold/lead/tin/iron/steel/mercury/chromium
+1/Only one of these materials is an electrical conductor.&Which ONE?/tap water/perspex/coal/pyrex/nylon/cotton/fur/rice
+2/Find the only electrical insulator here./cellophane/steel/iron/chromium/stainless steel/tin/gold/silver
+2/Which is an electrical insulator shown here?/plastic/water/milk/chromium/stainless steel/tin/gold/silver
+2/Locate a good insulator of electricity./rubber/water/iron/brass/aluminium/wet wood/wet straw/lead
+2/Go for the material which does NOT conduct electricity./polythene/iron/tap water/salt solution/silver/mercury/stainless steel/orange juice
+2/There is only one electrical insulator here.&Find it./paint/copper/gold/lead/tin/iron/steel/orange juice
+2/Find an electrical insulator./glass/tap water/milk/wet paper/tin/aluminium/silver/copper
+2/Seek out the material which is NOT a good electrical insulator./lead/perspex/wood/hair/cotton/polyester/glass/sugar
+2/Which is an insulator of electricity shown here?/leather/aluminium/milk/lemonade/orange juice/car battery acid/sea water/gold
+2/Find the best electrical insulator./ceramic/tap water/iron/brass/aluminium/wet wood/wet paper/silver
+2/Only one of these materials is an electrical insulator.&Which ONE?/paper/wet paper/wet cardboard/iron/lead/steel/gold/mercury
+3/Find the best thermal (heat) conductor./copper/lead/tin/wool/paper/steel/milk/water
+3/Only one of these materials is a good conductor of heat.&Which is it?/silver/diamond/ruby/concrete/stone/salt/sugar/flour
+3/Which is the POOREST heat conductor?/cardboard/iron/water/vinegar/salt solution/mercury/brass/gold
+3/Which conducts heat the BEST?/gold/glass/plastic/wool/polythene/straw/cotton/leather
+3/Go for the best heat conductor here./iron/plastic/tissue paper/wool/air/straw/hay/cornflakes
+3/Find a good conductor of heat./tin/marble/glass/nylon/polyester/acrylic/rice/salt
+3/Locate the best heat conductor here./gold/fur/perspex/cellophane/rubber/cotton/stone/paint
+3/Seek out a good thermal conductor./steel/rubber/cotton/stone/paint/flour/sugar/treacle
+3/What is the common feature of the good heat conductors listed below?&(silver, gold, mercury and lead)/all are metals/liquids/shiny/dull/solids/gases/transparent/soft
+3/Which is NOT a good conductor of heat?/concrete/tin/lead/steel/gold/mercury/silver/aluminium
+4/Find a poor conductor of heat./wood/copper/lead/tin/silver/tin/copper
+4/What is the common feature of the bad heat conductors listed below?&(wood, paint, nylon and glass)/electrical insulators/electrical conductors/metals/liquids/shiny/dull/solids/gases
+4/Seek out a bad thermal conductor from the materials here./nylon/gold/steel/iron/brass/pewter/tin/tungsten
+4/Find a poor conductor of heat./sugar/chromium/tin/tungsten/mercury/silver/platinum/steel
+4/Which conducts heat the WORST?&(A poor thermal conductor)/cardboard/iron/water/vinegar/salt solution/mercury/brass/gold
+4/Locate a bad heat conductor here./rubber/gold/steel/iron/brass/pewter/platinum/lead
+4/Find a bad conductor of heat./polystyrene/chromium/tin/tungsten/mercury/silver/platinum/steel
+4/Only one of these materials is a bad conductor of heat.&Which is it?/cotton/chromium/tin/tungsten/mercury/silver/platinum/steel
+4/A tank of hot water has rods of glass, steel, copper and wood in its side.&Which feels the coldest at the end?/wood/glass/steel/copper
+4/Only one of these materials is a bad conductor of heat.&Which is it?/hair/chromium/tin/tungsten/mercury/platinum/steel/iron
+GRADE6
+1/Chocolate is melted./This is reversible as cooling the liquid chocolate produces a solid.
+1/Polythene is melted./The thick liquid can be cooled back to polythene.
+1/Dissolve salt in water./This is reversible as the water can be boiled off leaving the salt.
+1/Water frozen to ice./The ice is heated up until it melts forming water so it is reversible.
+1/Water boiled to steam./This can be reversed by cooling the steam until it condenses back to water.
+1/Dissolve sugar in water./This is reversible as the water can be boiled off leaving the sugar.
+1/Orange juice frozen into cubes./The cubes are left to melt to form orange juice so it is reversible.
+1/Heating lead until molten./Let the liquid lead cool and it will form a solid.
+1/Mud drying out./The dried out mud can be crushed and water added to form mud again.
+1/Air cooled down to give a liquid./The liquid is boiled to give air so it is reversible.
+2/Liquid candle wax cooled to a solid./The candle wax can be heated up to make it a liquid.
+2/Wool knitted into a jumper./The change is reversible as the jumper can be undone.
+2/String tied into a knot./The string can be untied so it is a reversible change.
+2/Candle wax melted in a pan./Let the candle wax cool and it will reform back to a solid.
+2/Cotton wool dipped in water./The cotton wool can be dried out so the change is reversible.
+2/Liquid paraffin wax cooled to a solid./The paraffin wax can be heated up to make it a liquid.
+2/Ice melted to water./The water can be refrozen to form ice making it a reversible change.
+2/Steam condensed to water./Water can be boiled to form steam without any change to itself.
+2/Cake mixture frozen./The cake mixture is thawed to leave it as it started (reversible change).
+2/Sand mixed with water./The water can be left to evaporate off or the sand can be filtered out.
+3/Dough baked into bread./The heat from the oven bakes the dough so it cannot be changed back.
+3/Lump of clay heated in a kiln./The heat in the kiln irreversibly changes the clay.
+3/Slice of bread made into toast./The heat from the grill changes the bread so it cannot be changed back.
+3/An egg is boiled./The heat changes the egg irreversibly (it cannot be changed back).
+3/A potato is boiled./The potato is cooked so it cannot be changed back to a raw potato.
+3/Carrots are boiled./The heat cooks the carrot so it cannot be changed back to a raw carrot.
+3/Cream is churned in a churn./The cream is turned into butter which cannot be changed back to cream.
+3/Milk left out too long./The milk goes sour as bacteria changes it so it cannot be changed back.
+3/Paint left to dry./Dried out paint cannot be changed back into liquid paint.
+3/Sheet of paper burned./The paper is burned to leave ash and smoke which cannot be changed back.
+4/Bread left to go mouldy./The mould eats the bread irreversibly changing it.
+4/Varnish left to dry./Dried out varnish cannot be changed back into liquid varnish.
+4/Plastic bag burned on a fire./The plastic is irreversibly changed by the fire into ash and smoke.
+4/Wooden plank left to rot./The moulds and fungi eat the wood irreversibly changing it.
+4/Sand, cement and water mixed./The reaction which makes concrete cannot be reversed.
+4/Cake mixture baked./The heat of the oven changes the mixture so it cannot be changed back.
+4/A sausage is fried./The sausage is changed by frying and cannot be changed back.
+4/Matchstick struck alight./The match is burned to leave ash and smoke which cannot be changed back.
+4/Flour used to make a cake./The flour cannot be extracted from the cake so the change is irreversible.
+4/Cardboard box burned./The cardboard is irreversibly changed by the fire into ash and smoke.

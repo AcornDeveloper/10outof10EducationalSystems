@@ -1,0 +1,20 @@
+RUN <Obey$Dir>.!SetCode
+WIMPSLOT -min 560K
+SET 10EsSc1$Dir <Obey$Dir>
+<Obey$Dir>.CompLoad
+RMLOAD <Obey$Dir>.ScnLoad
+PRINT <Obey$Dir>.Palette
+RMKILL ABC
+<Obey$Dir>.Screen
+<Obey$Dir>.Change
+<Obey$Dir>.Cymbal
+<Obey$Dir>.Drop
+<Obey$Dir>.Explode
+<Obey$Dir>.Howdi
+<Obey$Dir>.Missile
+<Obey$Dir>.Right
+<Obey$Dir>.Space
+<Obey$Dir>.Synth
+<Obey$Dir>.Wrong
+<Obey$Dir>.Yep
+<Obey$Dir>.!RunImage

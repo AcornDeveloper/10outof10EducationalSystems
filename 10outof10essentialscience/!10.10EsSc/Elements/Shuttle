@@ -1,0 +1,262 @@
+$ Shuttle word file structure
+$ 1. <sub grade>/<question>*<sprite>/<sprite>/<sprite>/sprite>#<hint>
+$ 2. <sub grade>/<question>/<time>/<false>/<false>/<false>#<hint>
+$ 3. <sub grade>/<question>/<answer>/<false>/<false>/<false>#<hint>
+$ 4. <sub grade>/<question>/<answer>/<false>/<false>/<false>#<hint>
+$ 5. <sub grade>/<question>*<sprite>/<sprite>/<sprite>/<sprite>#<hint>
+$ 6. <sub grade>/<question>/<answer>/<false>/<false>/<false>#<hint>
+$ sub grade  1-4
+$ Grades 1 and 5 should NOT be user modified
+$ question & splits up a question over two lines
+$          maximum length 80 characters contains & 160 characters
+$ answer   maximum length 48 characters
+$ time     maximum length 5 characters from 0 to 9 and ':'
+$ false    maximum length 48 characters
+$ hint     The hint is optional in all cases, maximum length 80 characters
+
+GRADE1
+1/Which is a common house pet?*dog/flea/mole/zebra#Try the DOG.
+1/These do NOT make good pets.*bat/frog/horse/cat#One of these is protected by LAW.
+1/You might have this animal for a pet. Which one?*cat/elephant/bat/ant#Only the CAT would be alright.
+1/This animal is alright for a pet.*rabbit/hedgehog/hare/deer#You keep this animal in a HUTCH.
+1/This animal makes a good pet.*dog/hedgehog/owl/stoat#'Man's best friend'
+1/Which is NOT a good animal to keep?*stoat/goat/horse/rabbit#Try the STOAT.
+1/If you have this for a pet you can go riding.*horse/badger/fly/spider#You need to saddle up first.
+1/This pet eats lots of greens.*rabbit/cat/dog/swan#It lives in a HUTCH.
+1/Some people keep a pet ___ What?*duck/mole/badger/fly#It lays EGGS you can eat for breakfast.
+1/You are NOT supposed to keep this as a pet.&Which ONE?*swan/goat/cat/frog#Try the one that can FLY.
+2/Which of these animals gives milk you can drink?*cow/rabbit/swan/spider#The COW.
+2/Which is a farm animal?*pig/badger/hare/flea#You would find this animal in a STY.
+2/Only ONE of these animals is farmed.&Which is it?*duck/zebra/owl/dormouse#It lays EGGS you can eat for breakfast.
+2/In a BARN on a farm you might find this. Which is it?*owl/bee/seal/badger#Owls sometimes live in barns.
+2/On a STUD farm you would find this sort of animal.*horse/frog/fly/ant#Try the one with FOUR legs.
+2/On a DAIRY farm you would keep a ___?*cow/deer/goat/dog#DAIRY farms produce MILK.
+2/Only ONE of these animals is NOT farmed.&Which is it?*stoat/cow/goose/hen#The STOAT is NOT farmed.
+2/If a farm has a pond you might find this in or near it.*swan/bee/hedgehog/elephant#You might find a SWAN.
+2/Some people drink ___'s milk. Which?*goat/deer/spider/fox#The GOAT gives milk.
+2/If a farm has a pond you might find this in it.*tadpole/mole/ant/bat#You could find a TADPOLE in it.
+3/There is an animal here which is wild.&Where is it?*deer/hen/goat/cat#The DEER.
+3/This wild animal is hunted by farmers.*fox/owl/zebra/cat#The quick brown FOX jumped over the lazy dog.
+3/Of these animals, which is the WILD one?*elephant/cow/pig/horse#The BIGGEST is the wild one.
+3/This wild animal is generally found in the Arctic region.*seal/pigeon/owl/hare#This one spends MOST time in the water.
+3/Which is the WILD animal?*elephant/cat/goat/hen#Try the one with the TRUNK.
+3/There is only ONE wild animal here. Which is it?*bat/cat/dog/goat#This is also the only one that can FLY.
+3/Only ONE wild animal here has a TRUNK.*elephant/deer/mole/zebra#Elephants have TRUNKS.
+3/Which is the mammal?*dormouse/bee/fly/flea#The bee, fly and flea are all INSECTS.
+3/This wild animal leaps about. Where is it?*frog/tadpole/fox/goose#LeapFROG!
+3/Only ONE wild animal here has stripes.*zebra/swan/hedgehog/hare#Which has black and white STRIPES?
+4/There is only ONE insect here. Which is it?*ant/goose/hen/seal#The ANT.
+4/Which is the INSECT?*bee/horse/bat/dog#The bee is a INSECT.
+4/Which here has six legs?*fly/spider/owl/stoat#A spider has eight, a stoat has four and owl has two legs.
+4/Which of these is an RODENT?*dormouse/badger/fox/swan#Dormice are part of the RODENT family of animals.
+4/There is only ONE insect here. Which is it?*fly/goat/dog/frog#It has WINGS.
+4/Which of these is a MAMMAL?*seal/bee/flea/fly#Only the SEAL is a mammal.
+4/Find the BIRD.*owl/cat/tadpole/bat#Birds have FEATHERS.
+4/Go for the INSECT here.*flea/duck/goose/bat#It dos NOT fly.
+4/Find the AMPHIBIAN.*frog/seal/swan/ant#Amphibians live in and around WATER.
+4/Which of these is an INSECT?*bee/tadpole/pigeon/deer#It makes HONEY.
+GRADE2
+1/The clock faces show minutes.&Find only 1 minute./1:00/1:01/0:10/10:00
+1/These digital clocks show minutes.&Locate 2 minutes only./2:00/20:00/0:20/0:02
+1/The times on these faces are in minutes.&Seek out 3 minutes only./3:00/3:30/0:03/30:00
+1/All these times are in minutes.&Send the shuttle to 4 minutes exactly./4:00/40:00/0:40/0:04
+1/Every one of these digital clocks shows minutes.&Go for exactly 5 minutes./5:00/50:00/5:05/0:50
+1/These clocks all show minutes.&Which shows only 6 minutes?/6:00/60:00/0:60/0:06
+1/Each clock face is in minutes.&Seek out 7 minutes./7:00/70:00/0:77/0:70
+1/Each digital clock shows minutes.&Which one shows 8 minutes?/8:00/0:80/0:8/80:00
+1/All the displays here are in minutes.&Find the one with only 9 minutes./9:00/90:00/0:90/0:09
+1/Every clock display shows minutes.&Which here shows 10 minutes?/10:00/01:00/11:00/0:10
+2/These digital stopwatches show minutes and seconds.&Find the one with only 1 minute and 30 seconds./1:30/13:00/1:03/30:10
+2/The times on these faces are in minutes and seconds.&Which here shows 2 minutes and 15 seconds?/2:15/21:50/15:20/2:51
+2/All these times are in minutes and seconds.&Seek out 3 minutes and 45 seconds./3:45/0:45/0:345/34:50
+2/Every one of these digital stopwatches shows minutes and seconds.&Send the shuttle to 4 minutes and 5 seconds./4:05/40:50/4:50/45:00
+2/These stopwatches all show minutes and seconds.&Go for exactly 5 minutes and 20 seconds./5:20/52:00/20:05/5:02
+2/Each stopwatch face is in minutes and seconds.&Locate 6 minutes and 25 seconds./6:25/62:50/60:25/0:625
+2/Each digital stopwatch shows minutes and seconds.&Which here shows 7 minutes and 35 seconds?/7:35/70:35/0:735/7:53
+2/All the displays here are in minutes and seconds.&Which one shows 8 minutes and 55 seconds?/8:55/85:50/0:855/8:50
+2/Every stopwatch display shows minutes and seconds.&Go for 9 minutes 40 seconds./9:40/90:40/9:04/9:44
+2/The stopwatch faces show minutes and seconds.&Find only 10 minutes and 1 second./10:01/1:00/1:01/0:10
+3/The clock faces show hours.&Find only one hour./1:00/1:01/0:10/0:01
+3/These digital clocks show hours.&Go for exactly two hours./2:00/20:00/0:20/0:02
+3/The times on these faces are in hours.&Go for three hours./3:00/3:30/0:03/30:00
+3/All these times are in hours.&Locate four hours./4:00/40:00/0:40/0:04
+3/Every one of these digital clocks shows hours.&Send the shuttle to five hours exactly./5:00/50:00/5:05/0:50
+3/These clocks all show hours.&Which here shows only six hours?/6:00/60:00/0:60/0:06
+3/Each clock face is in hours.&Seek out the one with seven hours only./7:00/70:00/0:77/0:70
+3/Each digital clock shows hours.&Find the one with only eight hours./8:00/0:80/0:8/80:00
+3/All the displays here are in hours.&Which has just nine hours?/9:00/90:00/0:90/0:09
+3/Every clock displays hours.&Find ten hours only./10:00/01:00/11:00/0:10
+4/The clock faces show hours and minutes.&Find one hour and one minute./1:01/1:04/0:10/0:01
+4/These digital clocks show hours and minutes.&Which has just two hours and twenty minutes?/2:20/22:00/2:02/0:22
+4/The times on these faces are in hours and minutes.&Find the one with three hours and five minutes./3:05/35:00/3:50/0:35
+4/All these times are in hours and minutes.&Locate four hours and ten minutes./4:10/4:01/4:11/41:00
+4/Every one of these digital clocks shows hours and minutes.&Seek out five hours and thirty minutes./5:30/5:03/3:50/3:05
+4/These clocks all shows hours and minutes.&Which here shows six hours and fifteen minutes?/6:15/0:615/61:50/6:50
+4/Each clock face is in hours and minutes.&Send the shuttle to seven hours and fifty minutes exactly./7:50/7:05/7:00/75:00
+4/Each digital clock shows hours and minutes.&Find eight hours and ten minutes./8:10/8:01/8:00/81:10
+4/All the displays here are in hours and minutes.&Which is nine hours and fifteen minutes?/9:15/0:915/9:50/9:05
+4/Every clock displays hours and minutes.&Which has just ten hours and ten minutes?/10:10/10:01/10:00/1:01
+GRADE3
+1/Which of these materials is most RESISTANT to water?&(Resistant means does not let through.)/rubber/cotton/wool/silk#RUBBER is the most resistant.
+1/Find the material most resistant to water./nylon/wool/linen/cotton#NYLON is the most resistant.
+1/Only ONE material here is resistant to water.&Find it./plastic/carpet/paper/cotton#PLASTIC is water resistant.
+1/Which of these items is LEAST RESISTANT to water?/cotton shirt/anorak/leather shoes/overcoat#The cotton shirt gets wet the easiest.
+1/Which material is water resistant./glass/cotton/paper/wool#Which is resistant to water?
+1/Only ONE object here is water resistant.&Find it./roof slate/woollen jumper/hessian bag/cardboard box#The roof slate RESISTS water to keep you dry.
+1/Which is water resistant?/bitumen/paper/bread/cotton wool#BITUMEN is used to waterproof other materials.
+1/Find the material least resistant to water./paper/stone/slate/marble#The paper is the least resistant to water.
+1/Find the water resistant material./gloss paint/cotton wool/salt/sugar#GLOSS PAINT will resist water.
+1/Which is the waterproof material?/polythene/salt/sugar/flour#POLYTHENE is waterproof.
+2/One of these things shines better than the rest.&Find which ONE./a mirror/a gold nugget/a lump of coal/polished brass coat hook#The mirror reflects more light than the rest so SHINES more.
+2/Find the material which shines the most./aluminium foil/a lump of coke/a pile of soot/a lump of soil#The aluminium foil reflects most light so it shines the most.
+2/Find the shiniest object here./chromium bath tap/gloss painted door/plastic telephone/marble fireplace#Try the BATH TAP.
+2/Which reflects the most light?/chrome-plated car bumper/magnifying glass/vinegar bottle/envelope#Find the shiniest.
+2/Which substance reflects the most light?/salt/sand/china clay/soil#The SALT reflects the most light.
+2/Find the material which is the dullest./paper/aluminium foil/glass/mercury#The PAPER is the dullest.
+2/Which object reflects the most light?/copper kettle/hot water bottle/pair of curtains/a window pane#COPPER is a shiny metal.
+2/Which is the shiniest?/brass door knob/sand paper/video cassette/pencil#BRASS is a shiny metal.
+2/Which object shines the most?/gold plated sink tap/a book/a bottle of ketchup/crystal ball#GOLD is a shiny metal.
+2/Which is the dullest?/sand paper/gold plated sink tap/wine glass/polished brass kettle#SAND is a dull material.
+3/Which of these is the most FLEXIBLE material?/a sheet of paper/a plank of wood/a bar of steel/a house brick#The paper is most easily bent.
+3/Find the LEAST FLEXIBLE object here./a door/a sausage/a length of rope/a banana#You go through one of these.
+3/Which object FLEXES the most for the same FORCE?/a wooden ruler/a wooden desk/a thick book/a ceramic tile#The RULER would FLEX the most.
+3/Find the flexible object./credit card/glass rod/icicle/chopping board#The CREDIT CARD is made of plastic which is flexible.
+3/Which is the stiffest object?/a steel girder/a plastic ruler/an elastic band/a piece of Sellotape#Try the girder.
+3/Which of these is the most FLEXIBLE object here?/foam rubber/a vase/glass rod/pencil#Try the FOAM RUBBER.
+3/Find the OBJECT which is the most flexible./a piece of string/a pencil/a biro/a paper clip#The string is quite flexible.
+3/Find the material which is the least flexible./granite/syrup/butter/chewing gum#GRANITE is a hard stone.
+3/With the SAME force which would flex the most?/an elastic band/a plastic ruler/a floppy disc/an audio cassette#Try something made of RUBBER.
+3/Find the stiffest object./a glass rod/an elastic band/a sheet of cling film/a woollen rug#Try the GLASS ROD.
+4/Of the objects here, which is the most TRANSPARENT?/a pane of glass/a glass marble/a jam-jar/a mirror#A pane of glass is lets more light through when it is in a window.
+4/Of the objects here, which is the most OPAQUE?/a black board/a pane of glass/a glass marble/a jam-jar#'OPAQUE' means does not let light through.
+4/Which is the TRANSPARENT item here?/a sheet of cellophane/a table top/a piece of polystyrene/a plastic bowl#The cellophane easily lets light pass through it.
+4/Find the object which is the LEAST transparent./cupboard door/bedroom curtain/icicle/crystal ball#The cupboard door lets NO light through.
+4/Which of these materials can you LOOK through?/cling film/A4 sheet of paper/linen table cloth/a mirror#The cling film is TRANSPARENT.
+4/Which of these materials can you NOT look through?/ceramic pot/polythene/clear plastic/crystal#The ceramic pot is made of OPAQUE material.
+4/Which is TRANSPARENT? (lets light through so you can see)/microwave oven door/wooden desk/soft toy/mattress#You can see through the MICROWAVE OVEN DOOR.
+4/Which is NOT transparent?/a piece of meat/a jam-jar/clean water/air#You cannot see through the piece of meat.
+4/Find the most transparent object here./a crystal ball/a tin can/a mirror/a television#Fortune tellers use them.
+4/Find the object which is the most transparent./a milk bottle/a light switch/a bed/a carpet#Try the MILK BOTTLE.
+GRADE4
+1/RODENTS are small mammals with a pointed nose and chisel like front teeth.&Which of these is NOT a rodent?/rabbit/hamster/mouse/rat#The RABBIT is similar to a rodent but is put in a separate group.
+1/MOLLUSCS have a soft body and are sometimes covered with a shell.&Which of these is NOT a mollusc?/centipede/mussel/snail/slug#Centipedes belong to the MYRIAPODS.
+1/CONIFERS are large plants with seed bearing cones.&Find the conifer./pine tree/oak tree/sycamore tree/palm tree#The PINE TREE is a conifer.
+1/Flowering plants or ANGIOSPERMS use seed bearing flowers to reproduce.&Which is the angiosperm?/iris/pine tree/mushroom/fern#Only the IRIS has flowers.
+1/Ringed worms or ANNELIDS live in soil or water and have segmented bodies.&Find the annelid here./earthworm/tapeworm/snail/starfish#The earthworm is an ANNELID.
+1/Find the animal which is NOT an insect./centipede/locust/stick insect/greenfly#Slugs are MOLLUSCS.
+1/AMPHIBIANS have a moist skin, no scales and live in water.&Where is the amphibian here?/frog/stickleback/blackbird/shark#Try the FROG.
+1/FISH have scales, live in water and have gills for breathing.&Find the fish/shark/frog/octopus/starfish#Yes, the SHARK is a fish!
+1/BIRDS have a covering of feathers, live on land and the air.&Which here is a bird?/vulture/kangaroo/lion/minnow#The VULTURE is a bird.
+1/MAMMALS have hair or fur, warm blooded, live on land, water or in the air.&Which is the only mammal here?/cow/woodlouse/barnacles/squid#The COW is a mammal.
+2/Which of these is a FUNGUS?/yeast/maize/crab/spider#Try the YEAST.
+2/Find the plant that does NOT have roots./algae/conifers/ferns/lichens#Algae are simple plants with no roots.
+2/Find the one that is NOT a fungus./moss/yeast/mushroom/toadstool#Moss is not a fungus.
+2/Which of these groups can only be seen with a microscope?/bacteria/fungus/molluscs/insects#You need a microscope to see BACTERIA.
+2/INVERTEBRATE means has a body without a backbone.&Which creature here is an invertebrate?/spider/crocodile/snake/elephant#They all have backbones except the SPIDER.
+2/VERTEBRATE means has a body with a backbone.&Which creature here is a vertebrate?/frog/crab/lobster/scorpion#This creature HOPS about.
+2/Most members of the PLANT KINGDOM are green and they make their own food.&Which is a member here?/cabbage/bees/badger/slug#Only the CABBAGE makes its own food.
+2/Which of these creatures does NOT live in the sea?/frog/jellyfish/coral/sea anemone#The FROG does not live in the sea.
+2/Find the group that SNAILS belong to./molluscs/amphibians/insects/arachnids#They are MOLLUSCS.
+2/Find the group EARWIGS belong to./insects/virus/molluscs/mammals#They are INSECTS.
+3/Find the animal which is NOT a reptile./eel/crocodile/python/common lizard#The EEL is not a reptile.
+3/Insects have bodies which are divided into three parts.&Thorax, abdomen and ___./head/legs/eyes/ears#They must have a HEAD.
+3/Find the group BEES belong to./insects/fish/birds/crustaceans#They are INSECTS.
+3/Which group do SNAKES belong to?/reptiles/amphibians/birds/mammals#They are REPTILES.
+3/Find the bird that does NOT fly./ostrich/owl/eagle/sparrow#They all fly except the OSTRICH.
+3/Find the creature here which is NOT a fish./whale/shark/seahorse/minnow#The whale is a MAMMAL.
+3/Which group of creatures lay eggs with a SOFT shell?/reptiles/birds/mammals/fungus#The REPTILES have soft egg shells.
+3/Which is the best description of a FISH here?/use gills to breathe/dry, waterproof skin with scales/eat plants, particularly grass/fur or hair covering#They use gills to breathe.
+3/Which is the best description of a REPTILE here?/dry, waterproof skin with scales/use gills to breathe/eat plants, particularly grass/fur or hair covering#They have a waterproof skin.
+3/Find a member of the RODENT family./gerbil/sparrow/shark/frog#Only the GERBIL is a rodent.
+4/ARACHNIDS is the group name for what?/spiders/flies/birds/dogs#Try the spiders.
+4/Which of these groups does MAN belong to?/primates/rodents/fungus/arachnids#Man is a PRIMATE.
+4/How many pairs of legs do the INSECT group have?/3/1/2/4#They have six legs.
+4/How many pairs of legs do the ARACHNID group have?/4/1/2/3#They have eight legs.
+4/Living things are divided into a number of kingdoms.&Which of these is NOT a recognised creature kingdom?/trees/animal/virus/insects#Trees is not recognised.
+4/Which of these does NOT belong to the group arachnids?/cockroach/scorpion/tick/mite#The cockroach is an insect.
+4/MYRIAPODS means creature with many legs.&Which of these is a myriapod?/millipede/grasshopper/butterfly/flea#The MILLIPEDE has many legs.
+4/Which of these creatures belongs to the REPTILE group?/tortoise/vulture/frog/newt#Only the tortoise is a reptile.
+4/What is a common feature of MAMMALS such as ourselves?/have hair or fur/have scales/have no backbone/can fly#Mammals have hair or fur.
+4/Find a member of the AMPHIBIAN group./newt/ostrich/owl/crocodile#The ostrich and owl are BIRDS and the crocodile is a REPTILE.
+GRADE5
+1/Which of these is a SOLID at room temperature?/candle wax/water/wine/vinegar#Water, vinegar and wine are all LIQUIDS at room temperature.
+1/Only ONE of these is a SOLID at average room temperatures.&Which is it?/lard/cooking oil/milk/orange juice#Lard is a SOLID.
+1/Which is NOT a solid at room temperature?/water/flour/sugar/salt#You can drink it.
+1/Which is a SOLID at normal temperatures?/soap flakes/bleach/mercury/apple juice#Only SOAP FLAKES are solid.
+1/One of these is usually a SOLID at room temperature.&Which ONE?/cornflakes/condensed milk/alcohol/paraffin#The CORN FLAKES are solid enough.
+1/Find the substance which is a solid at room temperature./iron/disinfectant/hydrochloric acid/cooking oil#The IRON is rock solid.
+1/Find the SOLID at room temperature./rubber band/ice cream/white spirit/nitrogen#Ice cream melts to a liquid with the white spirit and nitrogen is a gas.
+1/Which here is a solid at room temperature?/polystyrene/battery acid/paint brush cleaner/apple juice#The polystyrene is light yet still a SOLID.
+1/Which is a SOLID at normal temperatures?/Pyrex/calor gas/vinegar/water#Pyrex is a glass like SOLID.
+1/Which of these is a SOLID at room temperature?/sulphur/methylated spirits/beer/mercury#They are all liquids except SULPHUR.
+1/Which of these products comes as a solid?/nylon/bleach/disinfectant/oxygen#The NYLON is solid at room temperature.
+2/Which of these is a LIQUID at normal temperatures?/alcohol/wood/iron/soap#Try the ALCOHOL.
+2/Only ONE of these is a liquid at room temperature.&Go for the correct one./bleach/brass/plastic/cotton#You use it to CLEAN toilets.
+2/Which is a liquid?/mercury/timber/paper/copper#Try the MERCURY.
+2/Which of these products comes as a liquid?/disinfectant/cornflakes/newspaper/cheese#The disinfectant is a liquid.
+2/Find the substance which is a LIQUID at room temperature./bleach/magnesium/rust/copper#The bleach is a liquid.
+2/Which is a LIQUID at normal temperatures?/milk/candle wax/soap powder/salt#Try the MILK.
+2/One of these is usually a LIQUID at room temperature.&Which ONE?/lemonade/powdered milk/foam rubber/rayon#Drink the lemonade.
+2/Find the substance which is a liquid at room temperature./crude oil/margarine/ginger/plastic#The CRUDE OIL is thick but still a liquid.
+2/Find the LIQUID at room temperature./cooking oil/lard/soap flakes/bath crystals#They are all solids except cooking oil.
+2/Which here is a liquid at room temperature?/vinegar/salt/sugar/tea leaves#Only the VINEGAR is a LIQUID.
+3/Find the substance which is a GAS at room temperature./nitrogen/sulphur/mercury/steel#Sulphur and steel are SOLID and mercury is a LIQUID at room temperature.
+3/Which is a GAS at normal temperatures?/neon/soap flakes/petrol/bleach#It is used in coloured artificial lights.
+3/Which of these is a GAS at room temperature?/oxygen/iron/oil/wood#Iron and wood are SOLIDS and oil is a LIQUID.
+3/Find the GAS at normal temperatures./air/rubber/nylon/polystyrene#You breathe it.
+3/One of these is usually a gas at room temperature.&Which ONE?/nitrogen/water/glass/cooking oil#It is part of air.
+3/Find the ODD ONE OUT./helium/disinfectant/perspex/salt#Which is a GAS?
+3/Which is a GAS at normal temperatures and pressures?/helium/cream/shoe polish/copper sulphate#It is used to fill balloons.
+3/Find the GAS at room temperature./chlorine/iron filings/ice/petrol#It was used as a weapon in the first world war.
+3/Find the substance which is a GAS at room temperature./nitrogen/polyester/fertiliser/weed killer#It is a part of the atmosphere.
+3/Which here is a GAS at room temperature?/neon/Pyrex/candle wax/white spirit#It is used in coloured shop lights.
+4/At what temperature does pure water turn from a LIQUID to a SOLID?/0° Celsius/100° Celsius/0° Fahrenheit/-4° Celsius#Pure water freezes at 0° Celsius.
+4/At what temperature does pure water turn from a LIQUID to a GAS?/100° Celsius/-100° Celsius/10° Celsius/1,000° Celsius#Water boils at 100° Celsius.
+4/As ICE gets cooler what does it do?/Gets bigger/Gets smaller/No change/Changes colour#Ice EXPANDS (gets bigger).
+4/Mercury (used in thermometers) freezes solid at what temperature?/below 0° C/above 0° C/at 0° C/above 100° C#It freezes at below 0° C.
+4/Alcohol (used in thermometers) freezes solid at what temperature?/below 0° C/above 0° C/at 0° C/above 100° C#It freezes at below 0° C.
+4/The surface of the sun is estimated to be what temperature?/6,000° C/600° C/60° C/60,000° C#The temperature is 6,000° C which is hot enough to melt anything.
+4/In the freezer compartment of a fridge the temperature should be ___./below 0° C/above 0° C/at 0° C/above 100° C#It freezes at below 0° C.
+4/In a fridge the temperature should be ___./above 0° C/below 0° C/at 0° C/above 100° C#The fridge compartment should be above 0° C.
+4/In a cold water tank the temperature should be ___./above 0° C/below 0° C/at 0° C/above 100° C#The temperature should be above 0° C.
+GRADE6
+1/The sun, seen from the Earth, rises in the East and sets in the ___./West/North/South/East#It sets in the WEST.
+1/The sun, seen from the Earth, rises in the ___ and sets in the West./East/West/North/South#It rises in the EAST.
+1/The sun's surface temperature is ___./6,000°C/1,000°C/3,000°C/Too hot to measure.#It is 6,000°C.
+1/What shape is the sun like?/a ball/a box/a coin/a rod#It is shaped like a ball.
+1/A sunspot on the sun's surface is what?/a cooler area/where an asteroid hit it/the Earth's shadow/the moon's shadow#It is a large cool area.
+1/The sun is mainly made up of ___./Hydrogen/Helium/Oxygen/Neon#It is mostly made up of HYDROGEN.
+1/The diameter of the sun compared to the Earth is ___./larger/smaller/same as/unknown#It is larger, much larger than the Earth.
+1/All the planets in the solar system orbit around the ___./sun/Earth/moon/Mars#They all orbit the SUN.
+1/About how old is the sun in millions of years?/4,700/100/384/4#It is 4,700 million years old.
+1/The sun is our nearest star.&TRUE or FALSE?/TRUE/FALSE/TRUE/FALSE#It is our nearest star.
+2/Gravity on the moon is ___ of the gravity on the Earth./one sixth/double/same as the Earth/zero#The gravity is only one sixth.
+2/The Earth is in orbit around ___./sun/Neptune/Uranus/moon#The Earth orbits the sun.
+2/The average distance from the Earth to the sun in millions of kilometers is ___./150/10/12/43#About 150 million kilometers.
+2/The size of the Earth is ___ than Venus./bigger/smaller/same as/unknown#It is bigger than Venus.
+2/How many ice caps does the Earth have?/2/1/0/3#It has two ice caps
+2/What colour is the Earth from space?/blue-green/red/yellow/purple#It looks blue-green.
+2/The Earth has an atmosphere. YES or NO?/YES/YES/NO/NO#Yes, the Earth has an atmosphere.
+2/How long does it take the Earth to orbit the sun once?/a year/a month/a day/a week#It takes a year.
+2/Which is the brightest planet as seen from the Earth?/Venus/Jupiter/Saturn/Mars#Venus is the brightest.
+2/Which is the dimmest planet as seen from the Earth?/Pluto/Neptune/Uranus/Mercury#Pluto is the dimmest.
+3/An eclipse of the moon is caused by ___./Earth's shadow on the moon/moon's shadow on the Earth/Saturn's shadow on the moon/Neptune's shadow on the Earth#The Earth's shadow on the moon.
+3/The moon is in orbit around which planet?/Earth/Mars/Venus/Jupiter#It orbits the Earth.
+3/The size of the moon is ___ than the Earth./smaller/larger/same as/not known#It is smaller than the Earth.
+3/The moon has 'seas'. Do these contain water?&YES or NO?/NO/NO/YES/YES#They do NOT contain water.
+3/Copernicus and Aristarchus are two craters on the ___./moon/Earth/sun/Mars#They are found on the moon.
+3/About how many moon quakes are there every year?/3,000/1,000/7,000/None#About 3,000 a year are recorded.
+3/The moon has an atmosphere. YES or NO?/NO/NO/YES/YES#No, it has no atmosphere.
+3/Where is the island of the moon?/Madgascar/Cyprus/Crete/Zanzibar#It is on the island of Madagascar.
+3/What is an old name for the moon?/Mona/Man/Love/Luna#Try MONA.
+3/What shape is the moon like?/a ball/a box/a pen/a rod#It is shaped like a ball.
+4/What colour is the sun?/bright yellow/dull red/purple/black#It is bright yellow.
+4/What colour is the moon?/white/blue/red/green#It is white.
+4/About how long does it take the moon to orbit the Earth once?/a month/a day/a week/a year#It takes about a month.
+4/Which space project landed a man on the moon?/Apollo/Gemini/Mercury/Shuttle#It was the Apollo project.
+4/How many Apollo moon landings were there?/6/22/18/10#There were six in total.
+4/Who was the first man to walk on the moon?/Neil Armstrong/Edwin 'Buzz' Aldrin/James Lovell/Edward White#Neil Armstrong was the first man to walk on the moon.
+4/The points of light we see at night in the sky are called ___./stars/moons/dust/clouds#They are stars.
+4/Who discovered Halley's Comet?/Edmund Halley/Bill Halley/James Halley/Fred Hoyle#Edmund Halley.
+4/Who was the first man to make an orbit of the Earth in a spacecraft?/Yuri Gagarin/Alan Shepard/John Glenn/Neil Armstrong#He was Russian.
+4/Between which two planets does the asteroid belt lie?/Mars and Jupiter/Neptune and Pluto/Mercury and Venus/Earth and Mars#It lies between Mars and Jupiter.

@@ -1,0 +1,263 @@
+$ Space Walk word file structure
+$ 1. <sub grade>/<question>*<sprite>#<hint>
+$ 2. <sub grade>/<question>*<sprite>#<hint>
+$ 3. <sub grade>/<question>/<answer>/<false>/<false>/<false>#<hint>
+$ 4. <sub grade>/<question>/<chain 1>/<chain 2>/<chain 3>/<chain 4>#<hint>
+$ 5. <sub grade>/<question>/<answer>/<false>/<false>/<false>#<hint>
+$ 6. <sub grade>/<question>*<sprite>/sprite>/sprite>/sprite>#<hint>
+$ sub grade  1-4
+$ Grades 1, 2 and 6 should NOT be user modified
+$ question & splits up a question over two lines
+$          maximum length 64 characters contains & 128 characters
+$ answer   maximum length 64 characters
+$          maximum word length 20 characters
+$ false    maximum length 64 characters
+$          maximum word length 20 characters
+$ hint     The hint is optional in all cases, maximum length 80 characters
+
+GRADE1
+1/Get the container called a FLASK.*e1#It has a round body.
+1/Which container is a test tube?*e2#It has a STOPPER in it.
+1/Which of these can be used to measure the volume of liquids?*e3#It has marks up the side.
+1/There is a measuring cylinder here.&Where is it?*e4#It is tall and slender.
+1/A WINE GLASS can be used to hold liquids.&Where is it?*e5#It has a 'stem'.
+1/Which container is a JAM-JAR?*e6#It is the one with straight sides.
+1/Bottles are useful containers. Find them.*e7#There are two of them here.
+1/A HALF PINT GLASS is a useful container.&Find it.*e8#Try the one with sloping sides.
+1/Which container can be used to measure the volume of liquids?*e4#Try the measuring cylinder
+1/The TEST TUBE is a useful small container. Find it.*e2#It has a STOPPER in it.
+2/Which of these is used to heat up things?*e9#It is made of metal and burns gas.
+2/What is placed on top of a tripod to stand things on?*e10#Try the gauze.
+2/Find the TRIPOD.*e11#The tripod has three legs.
+2/A candle supplies light.&Where is it?*e12#This candle is lit.
+2/A methylated spirit burner is shown here.&Please find it.*e13#Methylated spirits is a purple coloured liquid.
+2/You use these to heat saucepans on.*e14#The cooker heats things.
+2/Find the KETTLE.*e15#The kettle is the one with steam coming out of the spout.
+2/Which one would you use to hold&a burning piece of magnesium ribbon?*e16#Try the BRASS TONGS.
+2/Which piece of equipment here uses methylated spirits?*e13#Methylated spirits is a purple coloured liquid.
+2/Which piece of equipment was invented by Robert Bunsen?*e9#The BUNSEN burner.
+3/This is used to hold things and is called a STAND.&Where is it?*e17#The stand is made of wood.
+3/This tool is used to tighten or loosed bolts.&Which is it?*e18#It is called a spanner and is made of metal.
+3/One of the tools below can be used to cut and hold wire.&Where is it?*e19#Go for the PLIERS.
+3/A clamp shown below is used to hold things tightly.&Find it.*e20#It is called a G-clamp because it looks like a 'G'.
+3/Find the saucepan.*e21#It is made of metal with a handle.
+3/Which object holds important papers?*e22#The briefcase.
+3/You use this to hold your clothes in when you go on holiday.*e23#It is a SUITCASE.
+3/This small metal item holds pieces of paper together.&What is it?*e24#Try the PAPER CLIP.
+3/Which is a case that holds papers in it?*e22#The briefcase holds papers.
+3/Find the PLIERS.*e19#It has green handles.
+4/There is something here which will protect your hands.&Please find it.*e25#The heat resistant gloves will protect your hands.
+4/Find the FUSE.*e26#It is a small grey cylinder.
+4/You use this to measure the temperature.&Find it.*e27#It is a thermometer.
+4/This equipment protects your eyes.*e28#It is a pair of GOGGLES.
+4/Fires can be put out with this.&Which is it?*e29#Try the fire extinguisher.
+4/Which do you use to measure lengths?*e30#You use the ruler.
+4/Which do you use to measure the time?*e31#You use the watch.
+4/Which do you use as a measure of mass?*e32#You use a 1kg weight.
+4/Which item of hand protection is shown here?*e25#The heat resistant gloves.
+4/Where is the THERMOMETER?*e27#It is long and thin with red coloured alcohol running up the centre.
+GRADE2
+1/Find a man pulling something.*p1#The man is PULLING a roller.
+1/Which ONE is being pulled by a horse?*p2#Try the horse and cart.
+1/Where is the man pulling something up?*p3#The SUITCASE is being pulled up.
+1/Find which one is being PULLED by the hand.*p4#The weight is being PULLED.
+1/Find where the man is PULLING on a rope.*p5#The man is pulling on a rope.
+1/Find a PULL by a man.*p6#The man is pulling on a rope.
+1/Find something pulling on a rope.*p7#The DOG is pulling on a rope.
+1/Find the PULL.*p8#The boy is PULLING on a catapult.
+1/Where is something being PULLED?*p4#The weight is being PULLED.
+1/Which is being PULLED.*p8#The catapult is being PULLED.
+2/Find a PUSH.*p9#The lawnmower is being PUSHED.
+2/Which one is being PUSHED?*p10#The pram is being PUSHED.
+2/When it is broken down you have to PUSH this. Which ONE?*p11#The car is being PUSHED.
+2/Where are two forces PUSHING on each other. Where is it?*p12#There are two friends pushing on each other.
+2/Before you can ride on it you must PUSH it up hill first.*p13#The SLEDGE.
+2/Where is something being PUSHED into the paper?*p14#The DRAWING PIN.
+2/Which object is being PUSHED?*p15#The VACUUM CLEANER.
+2/PUSHING something small is easy.&Which ONE?*p16#Try the BUTTON.
+2/The machine here is pushed.&Where is it?*p9#The lawnmower is being PUSHED.
+2/Where is a baby being PUSHED?*p10#Try the pram.
+3/Which of these would you PULL up?&(It usually has clothes in it)*p17#Try the SUITCASE.
+3/Which of these objects is the ODD ONE OUT?&(It should only really be PULLED)*p18#You PULL a comb through your hair.
+3/PULL this up to lift it off the floor.*p19#PULL the WEIGHT.
+3/PULL on the string to keep this in the air.*p20#PULL on the kite's string.
+3/This is PULLED up off the stove to stop it boiling over.*p21#Try the KETTLE.
+3/This is being PULLED back ready to FIRE.*p22#Try the ARROW.
+3/You PULL this out to get at what is inside.*p23#Try the CORK.
+3/PULL this along something rough to start a fire.&Which ONE?*p24#You would pull the MATCH.
+3/You PULL this through your hair to straighten it.*p18#Try the COMB.
+3/Keep PULLING on the string to make it fly.&Which ONE?*p20#Try the KITE.
+4/Which of these objects would you PUSH only?*p25#You would normally push a BICYCLE.
+4/Which of these objects is the odd one out?*p26#The JAVELIN is thrown (it is a push).
+4/This round object is usually PUSHED by a cue stick. Find it.*p27#The POOL BALL.
+4/To eat something you must PUSH this into some food.*p28#The FORK is pushed into food before you can eat it.
+4/You PUSH and PULL this on paper.*p29#The PENCIL is pushed and pulled.
+4/PUSH buttons to make this work for you.*p30#PUSH buttons on the calculator.
+4/To close the drawer you must PUSH it in.&Which is it?*p31#The FILING CABINET.
+4/Squeeze on the tube to PUSH out what you want.&Where is it?*p32#The TOOTHPASTE.
+4/PUSH this along when you are not riding it.&Find it.*p25#The BICYCLE is pushed.
+4/You can only PUSH buttons on this.*p30#PUSH buttons on the calculator.
+GRADE3
+1/I have an apple and an orange. Which other fruit is of a similar shape?/grapefruit/banana/pear/grape#Go for a fruit which is ROUND. Try the GRAPEFRUIT.
+1/On a desk are a plate, a one penny coin and a saucer.&Of these objects which would belong to this group?/watch glass/mouse mat/desk lamp/telephone#The objects on the desk are all ROUND. Try the WATCH GLASS.
+1/There is an envelope, a sheet of A4 paper and a ruler.&What else belongs to this group?/bank note/plate/roll of sellotape/rubber band#The feature in common is that they are RECTANGULAR. Try the BANK NOTE.
+1/In the group of a pancake, a pizza and a ginger biscuit,&which of these others best matches up to their shape?/coin/sugar lump/cake of soap/pair of jeans#The objects are all DISCS (round and flat). Try the COIN.
+1/Which of the group shown does NOT match the rest in shape?/floppy disc/cricket ball/ball bearing/glass marble#They are all ROUND. Try the FLOPPY DISC.
+1/Which of the group show does NOT belong?/roll of Sellotape/napkin/ceramic tile/slice of packet cheese#The feature in common is that they are SQUARE. Try the ROLL OF SELLOTAPE.
+1/Which of the group shown does NOT match the rest?/electrical plug/a coin/a roll of sellotape/a pancake#They are all ROUND. Try the ELECTRICAL PLUG.
+1/Which is the ODD ONE OUT here?/house window/car wheel/pizza/frisbee#The feature in common is that they are all DISCS (round and flat). Try the HOUSE WINDOW.
+1/There is a banana, a croissant and a slice of melon.&Which of these others best matches up?/an orange segment/plum/strawberry/bottle of lemonade#They are all CRESCENT shape (a shape of the moon). Try the ORANGE SEGMENT.
+1/Which of the group shown does NOT match the rest?/exercise book/water/oil/petrol#The water, oil and petrol don't have a SHAPE. Try the EXERCISE BOOK.
+2/A shopping basket has a bunch of bananas and a grapefruit.&Which other fruit would best belong to this group?/lemon/plum/cherry/tomato#The fruits are all YELLOW. Try the LEMON.
+2/I have a cherry, a strawberry and a tomato on a plate.&Which of these would best go with them?/raspberry/pineapple/kiwi fruit/apple#They are all RED. Try the RASPBERRY.
+2/In the group of plain flour, sugar and salt&which of these others best matches up?/milk/ginger biscuit/cornflake packet/egg#The group has the common feature of being WHITE. Try the MILK.
+2/In the group shown which does NOT belong?/banana/cherry/tomato/strawberry#The tomato, strawberry and the cherry are all RED. Try the BANANA.
+2/Which of the shown vegetables does not belong to the group?/carrot/cabbage/brussel sprouts/lettuce#Cabbage, brussel sprouts and lettuce are all GREEN. Try the CARROT.
+2/A group consists of snow, icing sugar and rice.&What is the common feature of this group?/They are all WHITE/They are all good to EAT/You can buy them in SHOPS/They are all COLD.#They are all WHITE.
+2/Pick a new member for this group from those shown.&Candle flame, butter and margarine./mustard/tomato ketchup/vinegar/gravy salt#The group is all YELLOW. Try the MUSTARD.
+2/Which of this group shown does NOT belong to it?/sugar lump/aluminium foil/ball bearing/a tin can#The group is all SILVER coloured. Try the SUGAR LUMP.
+2/A group with members of a dustbin liner, soot and coal&requires a new member. Find it./car tyre/tin of cola/snow/soap#The group is all BLACK. Try the CAR TYRE.
+2/Decide what the common feature is of this group and choose a new member.&Cocoa powder, coca cola and chocolate./vinegar/sugar/cabbage/glass bottle#The common feature is that they are all BROWN. Try the VINEGAR.
+3/In a toolkit there is a hammer and a chisel.&What other item from the toolkit would best match these?/saw/pencil/sand paper/tape measure#They are STRONG tools. Try the SAW.
+3/Which is the best member to fit the group of&a lead pipe, a bucket full of water and a large stone?/car wheel/feather/pencil/ruler#The group is all HEAVY. Try the CAR WHEEL.
+3/Which of these is the hardest?/diamond/ice/rock/steel#DIAMOND is the HARDEST
+3/Which of these fruits is the hardest?/coconut/strawberry/apple/pineapple#Try the COCONUT.
+3/Which is the best member to fit the group of&a feather, a ball of cotton wool and a sheet of paper?/a pencil/a car door/a television set/a vacuum cleaner#The group is all LIGHT. Try the PENCIL.
+3/Which of these fruits is the softest?/a strawberry/a pineapple/a coconut/a melon#The STRAWBERRY is the SOFTEST.
+3/One item here weighs more than the rest.&Which ONE?/wooden desk/chair/reading lamp/personal computer#The WOODEN DESK weighs the most.
+3/Find the LIGHTEST item here./ball of cotton wool/felt tip pen/pencil/a torch#The BALL OF COTTON WOOL weighs the least.
+3/Which of these foods is the HARDEST straight from the fridge?/butter/margarine/blancmange/jelly#BUTTER is the hardest. Try it.
+3/Find the HEAVIEST item here./stainless steel sink/plastic bucket/kitchen drawer/kettle#The STAINLESS STEEL SINK is the heaviest.
+4/Which of these items is the ODD ONE OUT?/ball bearing/pebble/blanket/cotton sheet#They are all DULL except the BALL BEARING which is SHINY.
+4/Which of these liquids is the ODD ONE OUT?/mercury/lemonade/water/bleach#They are all DULL except the MERCURY which is SHINY.
+4/Which of these forms of paint shines the most?/gloss paint/matt paint/vinyl silk paint/vinyl matt paint#Try the GLOSS PAINT.
+4/Which pure metal shines the most?/copper/lead/steel/iron#COPPER shines the most.
+4/Which is the DULLEST metal here?/lead/brass/copper/gold#LEAD is the dullest metal.
+4/Which reflects the least light?/rust/aluminium foil/gold/stainless steel#They are all SHINY except the RUST.
+4/Find a SHINY metal./brass/iron/lead/steel#The BRASS is shiny.
+4/Find a SHINY liquid./mercury/water/white spirit/orange juice#The MERCURY is shiny.
+4/Find the best new member to fit the group of&a car body, a stone wall and a house roof./fridge freezer/garden gate/pot plant/cupboard door#The group are all HEAVY. Try the FRIDGE FREEZER.
+4/Find the best new member to fit the group of&a plum, a marble and a peanut./pea/melon/orange/cabbage#The group is made up of LIGHT things. Try the PEA.
+GRADE4
+1/Which of these food chains is a correct chain for a coral reef?/algae ‰ snail ‰ grouper (fish) ‰ shark/grouper (fish) ‰ barracuda ‰ snail ‰ algae/sea urchin ‰ queen trigger fish ‰ shrimp/coral ‰ sturgeon ‰ sea cucumber#Try the chain with the SHARK.
+1/Which is the INCORRECT coral reef food chain?/algae ‰ snail ‰ barracuda/algae ‰ snail ‰ grouper (fish) ‰ shark/detritus ‰ coral ‰ parrot fish ‰ shark/plankton ‰ sea cucumber#Barracuda do NOT feed on snails.
+1/There is only ONE food chain for a coral reef here.&Which one?/algae ‰ snail ‰ grouper (fish) ‰ shark/leaves ‰ worm ‰ frogs/leaves ‰ squirrel monkey ‰ harpy eagle/leaves ‰ leaf hopper ‰ frog ‰ snake#Groupers are found in coral reefs.
+1/Go for the correct coral reef food chain./detritus ‰ coral ‰ parrot fish ‰ shark/coral ‰ parrot fish ‰ detritus/detritus ‰ coral ‰ strugeon ‰ stingray/coral ‰ detritus ‰ parrot fish#Coral are filter feeders of detritus.
+1/There is only ONE correct coral reef food chain here.&Go for it./algae ‰ snail ‰ starfish/starfish ‰ crab ‰ cowrie/barracuda ‰ starfish ‰ sea cucumber ‰ algae/snail ‰ crab ‰ coral#Snails feed on algae.
+1/Which of these food chains is in the correct order&for a rainforest?/leaves ‰ leaf hopper ‰ frog ‰ snake/squirrel monkey ‰ harpy eagle ‰ leaves/frog ‰ leaf hopper ‰ snake/blue morpho butterfly ‰ tree frog ‰ worm#Try: leaves ‰ leaf hopper ‰ frog ‰ snake
+1/There is only ONE food chain for a rainforest here.&Which one?/leaves ‰ squirrel monkey ‰ harpy eagle/starfish ‰ crab ‰ cowrie/detritus ‰ coral ‰ parrot fish/grass ‰ lemmings ‰ snowy owl#The correct chain contains the SQUIRREL MONKEY.
+1/Which is the INCORRECT rainforest food chain?/harpy eagle ‰ worm ‰ squirrel monkey/leaves ‰ worm ‰ frogs/leaves ‰ squirrel monkey ‰ harpy eagle/worm ‰ frog ‰ snake#Worms do NOT eat eagles.
+1/Find the right rainforest food chain./leaves ‰ squirrel monkey ‰ harpy eagle/leaf hopper ‰ tree frog ‰ tiger/butterfly ‰ nectar/leaf litter ‰ butterfly ‰ ocelot (cat) ‰ bat/nectar ‰ squirrel monkey ‰ leaf litter#Eagles feed on monkeys which feed on leaves
+1/There is only ONE correct rainforest food chain here.&Find it./worm ‰ toad ‰ rainforest snake/fruit ‰ howler monkey ‰ detritus/leaf litter ‰ anaconda (snake) ‰ tiger/jaguar ‰ howler monkey ‰ fruit#Try: worm ‰ toad ‰ rainforest snake
+2/There is only ONE correct antarctic food chain here./krill ‰ blue whale/worm ‰ fish ‰ penguin ‰ algae/blue whale ‰ krill/penguin ‰ fish ‰ worm/squid ‰ black backed gull ‰ leopard seal#Krill pass energy (are eaten) to blue whales.
+2/There is only ONE food chain for the antarctic.&Which one?/worm ‰ fish ‰ penguin ‰ leopard seal/algae ‰ water flea ‰ stickle back ‰ trout/daphnia (water flea) ‰ tadpole ‰ dragon fly nymph/mayfly larva ‰ frog ‰ heron#Penguins are found in the antarctic.
+2/Which of these food chains is in the correct order&for the antarctic?/worm ‰ fish ‰ sea lion ‰ leopard seal/sea lion ‰ worm ‰ fish ‰ algae/leopard seal ‰ sea lion ‰ fish ‰ worm#Worms are eaten by fish and they by sea lions and finally leopard seals.
+2/There is only ONE food chain for the antarctic here.&Which is it?/krill ‰ squid ‰ black backed gull/daphnia (water flea) ‰ tadpole ‰ dragon fly nymph/mayfly larva ‰ frog ‰ heron/tadpole ‰ mayfly larve ‰ blackbird#Krill are part of the antarctic chain.
+2/Go for the correct antarctic food chain./algae ‰ worm ‰ fish ‰ penguin/penguin ‰ fish ‰ worm ‰ algae/fish ‰ blue whale/fish ‰ worm ‰ algae#The correct chain: algae ‰ worm ‰ fish ‰ penguin.#The chain has penguins in it.
+2/A lake food chain is here.&Where?/daphnia (water flea) ‰ tadpole ‰ dragon fly nymph/sea lion ‰ worm ‰ blue whale/fish ‰ blue whale/worm ‰ fish ‰ sea lion ‰ leopard seal#Daphnia are found in lakes.
+2/There is only ONE correct lake food chain here./algae ‰ water flea ‰ stickle back ‰ trout ‰ pike/water flea ‰ stickle back ‰ trout ‰ algae/pike ‰ trout ‰ stickle back ‰ algae/daphnia ‰ trout ‰ great diving beetle#Try the chain with pike at the end.
+2/Which of these food chains is the correct one for a lake?/tadpole ‰ great diving beetle ‰ fish ‰ heron/tadpole ‰ heron ‰ stickle back ‰ algae/daphnia (water flea) ‰ tadpole ‰ frog/heron ‰ trout ‰ water spider#Tadpoles are at the left of the chain.
+2/Find the right LAKE food chain./detritus ‰ freshwater mussel/algae ‰ great pond snail ‰ diving beetle/heron ‰ trout ‰ water spider/water flea ‰ stickle back ‰ trout ‰ daphnia#Freshwater mussels are filter feeders of detritus.
+2/There is only one food chain for a LAKE or POND here.&Which ONE?/tadpole ‰ mayfly larve ‰ blackbird/algae ‰ worm ‰ fish ‰ penguin/fish ‰ sea lion ‰ leopard seal/krill ‰ blue whale#You find TADPOLES in lakes and ponds.
+3/Which of food chain is in the correct order&for a rock pool?/algae ‰ sea urchin ‰ crab ‰ bird/algae ‰ crab ‰ bird ‰ sea urchin/sea urchin ‰ crab ‰ algae ‰ bird/bird ‰ algae ‰ crab ‰ sea urchin#The correct order is algae, sea urchin, crab and bird.
+3/Go for the correct ROCK POOL food chain./detritus ‰ mussel ‰ oyster catcher/plankton ‰ sea anemone ‰ shrimp/lug worm ‰ detritus ‰ mussel/algae ‰ crabs ‰ limpet ‰ shrimp#Go for detritus ‰ mussel ‰ oyster catcher.
+3/Which food chain is found in rock pools?/plankton ‰ shrimp ‰ sea anemone/grass ‰ antelope ‰ leopard/seeds ‰ bird ‰ snake/grass ‰ zebra ‰ lion#Try the chain with SHRIMPS.
+3/There is only ONE correct rock pool food chain here.&Find it./detritus ‰ lug worm ‰ avocet (bird)/mussel ‰ oyster catcher ‰ limpet/bird ‰ algae ‰ crab/crab ‰ fish ‰ winkle ‰ mussel#Detritus is eaten by lug worms who in turn are eaten by avocets.
+3/Only ONE correct rock pool food chain is displayed.&Go for it./detritus ‰ mussel ‰ human/fish ‰ human ‰ whale ‰ penguin/crab ‰ plankton ‰ whale/jelly fish ‰ winkle ‰ detritus#Try the chain with a HUMAN in it.
+3/Which is the food chain for the AFRICAN PLAINS?/seeds ‰ bird ‰ snake/detritus ‰ lug worm ‰ avocet (bird)/plankton ‰ shrimp ‰ sea anemone/detritus ‰ mussel ‰ oyster catcher#The correct sequence is seeds ‰ bird ‰ snake.
+3/Which of these food chains is in the correct order&for the AFRICAN PLAINS?/grass ‰ zebra ‰ lion/zebra ‰ lion ‰ grass/lion ‰ grass ‰ zebra/lion ‰ zebra ‰ grass#The food chain that goes grass, zebra and lion is correct.
+3/There is only ONE correct African plains food chain here.&Where is it?/grass ‰ wildebeest ‰ hyena/detritus ‰ mussel ‰ human/lion ‰ grass ‰ cheetah/wildebeest ‰ grass ‰ giraffe#Grass is eaten by wildebeest who are eaten by hyenas.
+3/Which of these food chains is in the correct order&for the AFRICAN PLAINS?/grass ‰ antelope ‰ leopard/cheetah ‰ acacia bush ‰ rhinoceros/hunting dog ‰ grass ‰ giraffe/lion ‰ zebra ‰ grass#Try the chain with a LEOPARD in it.
+3/Go for the correct AFRICAN PLAINS food chain./seeds ‰ mouse ‰ hawk/lion ‰ zebra ‰ grass/acacia bush ‰ rhinoceros ‰ grass/hunting dog ‰ antelope ‰ leopard#Try the chain: seeds, mouse and hawk.
+4/Find an ARCTIC food chain./tundra ‰ voles ‰ snowy owl/cabbage ‰ caterpillar ‰ blackbird/cauliflower ‰ slug ‰ hedgehog/slug ‰ thrush ‰ kestrel#Snowy owls are found in an arctic food chain.
+4/Which of these food chains is in the correct order&for the ARCTIC?/dwarf shrubs ‰ reindeer ‰ wolf/reindeer ‰ wolf ‰ goose/lemmings ‰ snowy owl ‰ grass/goose ‰ grass ‰ arctic fox#Try the dwarf shrubs.
+4/Find the correct arctic food chain./grass ‰ goose ‰ arctic fox/lemmings ‰ snowy owl ‰ vole/arctic fox ‰ goose ‰ grass/goose ‰ voles ‰ snowy owl#Grass to goose to arctic fox.
+4/Which is the food chain for the ARCTIC?/grass ‰ lemmings ‰ snowy owl/leaves ‰ mouse ‰ cat/cauliflower ‰ slug ‰ hedgehog/slug ‰ thrush ‰ kestrel#Lemmings are found in an arctic food chain.
+4/Locate the ARCTIC food chain here./grass ‰ insects ‰ mouse ‰ snowy owl/leaves ‰ aphids ‰ ladybirds/cauliflower ‰ slug ‰ hedgehog/caterpillar ‰ blackbird ‰ hawk#Snowy owls are found in an arctic food chain.
+4/Seek out the GARDEN food chain above./leaves ‰ aphids ‰ ladybirds/grass ‰ voles ‰ snowy owl/grass ‰ goose ‰ arctic fox/dwarf shrubs ‰ reindeer ‰ wolf#Ladybirds are part of the chain.
+4/There is only ONE garden food chain here.&Go and get it./slug ‰ thrush ‰ kestrel/grass ‰ lemmings ‰ snowy owl/dwarf shrubs ‰ reindeer ‰ wolf/lemmings ‰ snowy owl#Slugs are part of the chain.
+4/Locate the GARDEN food chain here./leaves ‰ insect ‰ mouse ‰ cat/grass ‰ goose ‰ arctic fox/dwarf shrubs ‰ reindeer ‰ wolf/dwarf shrubs ‰ goose ‰ arctic fox#Cats eat mice in a garden.
+4/Find the right GARDEN food chain./cabbage ‰ caterpillar ‰ blackbird ‰ hawk/caterpillar ‰ blackbird ‰ hawk ‰ cabbage/hawk ‰ blackbird ‰ caterpillar ‰ cabbage/hawk ‰ caterpillar ‰ blackbird ‰ cabbage#The correct order is cabbage, caterpillar, blackbird and hawk.
+4/Find a GARDEN food chain./cauliflower ‰ slug ‰ hedgehog/grass ‰ goose ‰ arctic fox/grass ‰ lemmings ‰ snowy owl/dwarf shrubs ‰ reindeer ‰ wolf#Cauliflowers are found in the garden.
+GRADE5
+1/A beaker contains a mixture of sand and water.&Which is the best way to separate them?/filter paper and a funnel/settle then drain off the water/boil off the water/freeze out the water#Filter the sand out.
+1/Which of the following can be separated by filtering?/muddy water/salt solution/sugar solution/flour and sand mixture#Filter muddy water to get clear water and mud.
+1/What would be left on the filter paper when&muddy water is filtered?/mud/clean water/muddy water/nothing#Mud would be left.
+1/What would go through the filter paper when&muddy water is filtered?/clean water/mud/muddy water/nothing#The clean water would go through.
+1/Which of the following can be separated by filtration?/sand and water/coffee and water/milk and water/sugar and water#The sand would be filtered out.
+1/Which of the following equipment is used for filtering particles of different sizes?/sieve/jug/kettle/paper bag.#Try the sieve.
+1/Which of the following equipment is used for filtering?/tea bag/plastic bag/paper bag/bin bag#The tea bag keeps tea in and lets water pass through.
+1/Which of the following equipment is used for&filtering sand and water with a filter paper?/funnel/bunsen burner/tongs/ruler#The funnel is used with a filter paper.
+1/Which of these mixtures can be separated by filtration?/soil and water/oil and water/salt water/ink and water#Try the soil and water.
+1/Only one mixture can separated by filtering.&Which is it?/sawdust and water/iron filings and sulphur/flour and salt/sugar and wine#The sawdust can easily be filtered out.
+2/In a test tube is a mixture of oil and water.&Find the easiest way to separate them./settle and decant off the oil/soak up the oil with sand/boil off the water/boil off the oil#Leave the mixture to settle and decant the oil.
+2/How would you separate a mixture of cooking oil and water?/settle then pour off the top layer of oil/evaporation/filtration/distillation#Let it settle and pour off the oil.
+2/Immiscible liquids (oil and water) are separated by settling.&What does IMMISCIBLE mean?/will not mix together/have different volumes/have different colours/boil at the same temperature#They will not mix.
+2/A mixture of petrol and water is best separated&by which method?/settling and decanting/distillation/evaporation/filtration#Let it settle and then decant the petrol (pour off).
+2/Which of these is best left to settle in order to separate them&by draining off one of them?/olive oil and water/bleach and water/sand and salt/sugar and flour#Try the olive oil and water.
+2/After the fermentation is over, when wine making, which is the&best method to separate the wine from the yeast?/settle/evaporation/distillation/chromatography#You leave it to settle and then drain off the wine.
+2/Only one of these should be separated by settling.&Which one?/oil and water/flour and sugar/salt solution/orange juice#
+2/Which one of these mixtures is best separated by settling&and then draining off one of them?/washed sand and water/ink and vinegar/sugar and flour/wine and salt#Washed sand does not make the water go cloudy so it can be left to settle.
+2/Which one of these mixtures would NOT settle out?/sugar solution/oil and water/washed sand and water/wine and yeast#Try the sugar solution.
+2/Which one of these mixtures would NOT settle out?/salt solution/olive oil and water/wine and yeast/polystyrene granules and water#Try the salt solution.
+3/A flask contains a solution of unrefined brown sugar.&How do you get it clear?/use activated charcoal to absorb the brown colour/simply boil it for a few minutes/filter paper and funnel/freeze in a freezer#Try charcoal.
+3/Carrot juice is made up several different substances.&How would they best be separated?/chromatography/evaporation/distillation/filtration#Use chromatography.
+3/Chromatography uses different solubilities of chemicals in solution&to separate them out by travelling up filter paper. TRUE or FALSE?/TRUE/FALSE/TRUE/FALSE#It is TRUE, molecules have different solubilities.
+3/Beetroot juice is made up several different substances.&How would they best be separated?/chromatography/evaporation/distillation/filtration#Use chromatography.
+3/To separate out clean air from air containing poison gas &in gas masks, which chemical substance is used?/activated charcoal/cotton wool/wet filter paper/polystyrene granules#A black chemical called activated charcoal is used.
+3/Which of these chemicals is best used to purify air?/activated charcoal/salt solution/sugar solution/vinegar#A black chemical called activated charcoal.
+3/Which of these mixtures would NOT suit separation&by chromatography?/salt solution/carrot juice/beetroot juice/black ink#The salt solution cannot be separated by chromatography.
+3/Which of these mixtures would NOT suit separation&by the chemical activated charcoal?/water vapour and air/natural gas and air/poison gas and air/foot odour and air#The chemical will not separate water vapour from air.
+3/Find the chemical which is best for separating out&bad smells from air./activated charcoal/olive oil/bleach/ammonia#Activated charcoal is very good for absorbing bad smells.
+3/Which of these mixtures CANNOT be separated&by chromatography?/sand and water/black ink/carrot juice/nettle leaf extract#Sand and water cannot be separated this way.
+4/Blood is made up off several different parts.&How are they separated?/centrifuge/use chemicals/filtration/distillation#Use a machine called a centrifuge.
+4/How would you separate salt and water?/evaporation/filtration/use chemicals/they cannot be separated#You would use evaporation and then condense the water.
+4/How can alcohol be separated from wine?/distillation/evaporation/filtration/let it settle#Try distillation.
+4/To obtain pure water from ink you would use which method?/distillation/evaporation/filtration/centrifuge#You would use distillation.
+4/Which method would you use to separate alcohol and water?/distillation/evaporation/filtration/settle out the wine#Try distillation.
+4/How would you separate sugar and water?/evaporation/filtration/use chemicals/they cannot be separated#You would use evaporation and then condense the water.
+4/Crude oil is made up of several different liquids.&How would you separate them?/distillation/evaporation/filtration/centrifuge#They are distilled.
+4/Which of these liquids is best separated into its parts&by a centrifuge?/blood/sugar solution/crude oil/alcohol and water#Blood is separated into different parts by a centrifuge.
+4/What sort of device is a centrifuge?/it spins liquids and solids to separate them out/it distills liquids/it mixes solutions/it filters liquids#It spins.
+4/Which of these is best separated by evaporation or crystallisation?/copper sulphate and water/vinegar and wine/flour and water/iron filings and sand#Evaporate the water off the copper sulphate solution.
+GRADE6
+1/Which of these pictures shows an object being&illuminated INDIRECTLY by a torch?*m1/m8/m9/m10#Try the picture with the ship.
+1/Which shows an object shone on by a torch light&bouncing off a mirror?*m2/m11/m10/m7#The van is behind the brick wall.
+1/Which shows a torch light lighting up an object INDIRECTLY?*m3/m7/m9/m12#The torch is hidden behind a wall.
+1/Find the object lit up by a thin torch light beam&bouncing off a mirror.*m4/m5/m8/m9#The object is a tree.
+1/Find the picture which does NOT show an object lit up&by reflected light from a torch.*m5/m1/m2/m3#Try the one lit up by a torch directly.
+1/Go for the object being DIRECTLY lit by a torch beam.*m5/m4/m3/m1#Try the picture with the van.
+1/Where is an object lit up by light bouncing off TWO mirrors?*m3/m6/m7/m11#The tree is lit up by light bouncing off two mirrors.
+1/Find the one where the object is lit up WITHOUT&the light bouncing off any mirrors.*m8/m9/m6/m3#The picture contains three mirrors.
+1/Which picture shows an object NOT being lit up by a light beam?*m7/m1/m3/m4#Try the picture with a tree at the top of it.
+1/Where is an object lit up by a reflected light beam?*m3/m10/m5/m11#The torch is by a wall.
+2/Where is a picture containing an object lit up by mirrors?*m13/m8/m9/m10#It has four mirrors in it.
+2/Only one picture shows an object lit up by a torch beam.&Where is it?*m14/m10/m7/m9#It has four mirrors altogether.
+2/A hidden object is lit up by a torch and mirror.&Which is it?*m15/m7/m8/m11#A tree is behind a wall.
+2/The torch light shines on the mirror to light up an object.&Where?*m16/m10/m6/m5#The house is behind a wall.
+2/Which object is NOT lit up by a torch light beam?*m10/m13/m14/m15#The light beam bounces back and forth an never hits the van.
+2/Find one of these objects which is NOT lit up by a&torch and mirror experiment.*m11/m14/m15/m16#The light beam hits the wall.
+2/Where is an object lit up by a reflected&torch light beam?*m13/m12/m8/m5#There are four mirrors in the picture.
+2/Find an object lit up by a reflected torch light.*m14/m12/m9/m7#The light bounces off four separate mirrors.
+2/Which shows a torch light lighting up the object?*m16/m6/m7/m9#There are two mirrors but only one is used.
+2/Find an object NOT lit up by a reflected torch light.*m5/m4/m16/m15#The van is lit up directly by the torch.
+3/Which picture shows an object being lit up by&a reflected light beam?*m17/m21/m22/m23#The van is behind a wall.
+3/The torch is lighting up an object.&Where?*m18/m24/m25/m26#The tree is behind a wall.
+3/Only by reflection can this object be lit up.&Which is it?*m19/m27/m28/m24#It has two mirrors in the picture.
+3/A double reflection illuminates this object.&Which is it?*m20/m21/m22/m24#The ship is lit up through the gap in the wall.
+3/Where is an object NOT illuminated by a torch light?*m21/m17/m18/m19#The tree is not illuminated by torch light.
+3/Only ONE object is NOT illuminated here.&Where is it?*m22/m18/m19/m20#The house is in the shade.
+3/Find the object illuminated by a torch light beam.*m17/m22/m7/m11#Try one with a van behind a wall.
+3/Where does a reflected light beam illuminate a tree?*m18/m21/m23/m28#The torch is on the left.
+3/Find the only double reflection lighting up an object.*m19/m18/m17/m16#It has a house in the picture.
+3/Where is an object in the path of a reflected light beam?*m16/m8/m7/m5#It has two mirrors but only one reflects.
+4/Which arrangement of mirrors lights up an object&after three reflections?*m29/m12/m9/m24#There are four mirrors in the picture.
+4/Find the mirror arrangement which lights up an object&after three reflections?*m30/m21/m22/m23#The van is in the picture.
+4/Only ONE object is illuminated here.&Where is it?*m31/m24/m7/m11#It uses three mirrors once only.
+4/The torch is lighting up an object by reflection.&Where?*m32/m7/m12/m27#It uses four angled mirrors.
+4/Where is there NOT an object being lit up?*m28/m29/m30/m31#It has three mirrors.
+4/Find an object NOT illuminated by a torch light.*m26/m30/m31/m32#The van escapes the light beam.
+4/Which picture shows an object being lit up by&a reflected light beam?*m29/m23/m24/m12#There are three mirrors used.
+4/Locate the only object being illuminated by&a reflected light beam.*m32/m5/m6/m9#The light path is a rectangle shape.
+4/Which object is NOT illuminated by a torch light?*m22/m32/m31/m29#The house is hidden.
+4/Where does a reflected light beam illuminate an object?*m31/m25/m24/m26#The house is hidden behind a wall.
