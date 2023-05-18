@@ -1,0 +1,145 @@
+$ Game 6, level 6, file structure:
+$
+$ Graph format:
+$ (Information, number of x-labels, x-label start, x-label increment, x divisions, x-label title,
+$  number of y-labels, y divisions, y-label increment#
+$  number of columns, column width 1, ... #
+$
+$ Questions:
+$ question 1: How many (bounds)             ?#
+$ question 2: Between which bounds (number) ?#
+$
+$ (bounds) and (number) are replace with suitable values when the question is asked
+$ 
+$ column widths in terms of number of x divisions occupied
+$
+$ <Return> ignored
+
+
+Histogram showing  "Pocket-money among a group of 14 yr olds",
+10,0,25,1,amount (pence),
+6,1,1,
+5,4,1,2,2,1#
+
+How many people received between (bounds) pence#
+Which "block" stands for (number) people#
+
+Histogram shows infant mortality in children up to 5 years old,
+5,0,1,1,age of infants (years),
+8,1,1,
+4,2,1,1,1#
+
+How many infant deaths were there between (bounds) years#
+Which interval stands for (number) infants#
+
+The histogram shows the age distribution in a sample of children up to 18 years,
+6,0,3,1,age (completed years),
+5,2,10,
+4,1,2,2,1#
+
+How many children are aged between (bounds) years#
+What is the class-width which includes (number) children#
+
+This histogram shows the distance crawled by a sample of slugs in a given time,
+5,0,10,2,distance (cm),
+5,5,2,
+4,3,2,1,4#
+
+How many slugs crawled between (bounds) centimetres#
+Which interval accounts for (number) slugs#
+
+This histogram shows the lengths of snakes caught during a season in Africa,
+4,0,50,2,length of snakes (cm),
+5,5,2,
+4,3,2,1,2#
+
+How many snakes were between (bounds) centimetres long#
+Which interval represents (number) snakes#
+
+This histogram displays the ages of people attending a disco,
+6,12,3,3,ages in completed years,
+10,2,2,
+5,6,4,1,2,5#
+
+How many people were aged between (bounds) years#
+Which interval represents (number) people#
+
+This histogram shows the number of petals on samples of dandelions picked in a certain field,
+6,10,5,5,number of petals,
+2,5,5,
+4,10,5,5,10#
+
+How many dandelions had between (bounds) petals#
+Which interval represents (number) dandelions#
+
+This histogram shows the volume (in cc's) of balloons released at a garden fete,
+7,600,100,2,number of balloons,
+4,2,2,
+5,3,4,4,2,1#
+
+How many balloons were between (bounds) cc's#
+Which interval represents (number) balloons#
+
+This histogram illustrates the number of doughnuts eaten by men in a charity doughnut eating competition,
+8,2,1,1,number of doughnuts eaten,
+3,4,4,
+4,2,1,2,3#
+
+How many men managed between (bounds) doughnuts#
+Which interval represents (number) men#
+
+This histogram shows the blood-pressure of a sample of sewer workers,
+8,60,5,5,blood-pressure (mm),
+3,10,10,
+5,15,5,5,5,10#
+
+How many workers have blood-pressure between (bounds)#
+Which interval represents (number) workers#
+
+This histogram shows the lengths of bean-pods grown from hybrid seeds,
+7,5,5,1,length of pods (cm),
+5,5,10,
+4,1,2,3,1#
+
+How many pods are between (bounds) centimetres long#
+Which interval represents (number) pods#
+
+This histogram shows the number of berries found on branches of mistletoe,
+10,0,1,1,number of berries,
+6,1,2,
+5,3,2,1,1,3#
+
+How many branches had between (bounds) berries#
+Which class interval represents (number) branches#
+
+This histogram shows the times taken by a group of children to get to school,
+6,0,10,2,time taken (minutes),
+5,2,5,
+5,3,2,1,2,4#
+
+How many children took between (bounds) minutes#
+Which interval represents (number) children#
+
+This histogram illustrates the marks scored in a school test,
+5,0,10,2,number of marks,
+2,10,10,
+5,1,2,2,3,2#
+
+How many students scored between (bounds) marks#
+Which interval accounts for (number) students#
+
+This histogram displays the amounts (ml) of black widow spider venom milked from a nest of mature adult spiders,
+5,0,2,2,amount of venom (ml),
+3,2,2,
+5,1,2,3,3,1#
+
+How many spiders yielded between (bounds) millilitres of venom#
+Which interval represents (number) spiders#
+
+This histogram shows the result of a survey of the number of pages in books in a library,
+9,100,100,1,number of pages,
+4,2,1,
+5,3,2,1,1,2#
+
+How many books had between (bounds) pages#
+Which interval represents (number) books#

@@ -1,0 +1,62 @@
+$ Game 4, level 2, file structure:
+$ (question# correct answer,alternate answer 1,...#)
+$
+$ require at least 3 alternate answers
+$ <Return> ignored
+
+Toss a coin. THE CHANCE of 'heads' appearing is#
+evens,odds,fair,biased,pair,mean,ace#
+Toss a coin. THE CHANCE of 'tails' appearing is#
+evens,odds,fair,biased,pair,mean,ace#
+Toss a coin. THE CHANCE of 'heads' appearing is#
+fifty-fifty,odds,fair,biased,pair,mean,ace#
+Toss a coin. THE CHANCE of 'tails' appearing is#
+fifty-fifty,odds,fair,biased,pair,mean,ace#
+Toss a coin. THE CHANCE of 'heads' appearing is#
+evens,odds,fair,biased,good,mean,ace#
+Toss a coin. THE CHANCE of 'tails' appearing is#
+evens,odds,fair,biased,bad,mean,king#
+Toss a coin. THE CHANCE of 'six' appearing is#
+impossible,odds,fair,biased,pair,mean,ace,evens#
+Toss a coin. THE CHANCE of 'five' appearing is#
+impossible,odds,fair,biased,pair,mean,ace,evens#
+EQUALLY LIKELY means that when you are 'choosing' each selection has#
+an equal chance,little chance,to find a pair, to be a 1 or 6#
+EQUALLY LIKELY means that when you are 'picking' each selection has#
+an equal chance,to be a pair,a 'snap' to find, to be a six#
+In statistics "FAIR" means#
+not cheating,good enough,OK,it'll do,cost of ticket,only medium#
+There is a LIKELIHOOD that it will rain tomorrow means tomorrow will#
+possibly be wet,not be wet,certainly be wet,be dry#
+If you throw a BIASED dice each number you score is#
+not equally likely,always the same,always different,always a six,not a six#
+If you throw a 'LOADED' dice each number you score is#
+not equally likely,always the same,always different,always a one,not a one,equally likely#
+If you throw a FAIR dice the numbers are#
+all equally likely,always the same,always different,always a six,not a six#
+If a card is PICKED AT RANDOM the result is#
+left to chance,already fixed,kept secret,not fair#
+When an answer is ESTIMATED it means that it is#
+a sensible guess,worked out,very accurate,wrong,too big,too small,exact#
+An ESTIMATED answer is#
+a sensible guess,worked out,very accurate,wrong,too big,too small,exact#
+A RANDOM selection means that you#
+take whatever comes,take the first one,pick the best,lose#
+A PICTOGRAM is a#
+picture graph,chosen word,short note,taped message#
+In statistics a SCORE is the number of points#
+gained in a test,you need to win,added up,lost#
+The highest PROBABILITY you can have is#
+1,100,zero,a score,very likely#
+The FREQUENCY of an event is#
+how often it happens,the radio setting,the result,the time taken#
+An EVENT in statistics is#
+an outcome,a wedding,a sale,an air pipe#
+In tossing a coin an OUTCOME is#
+getting a head,flipping it,what it's worth,seeing it land#
+In rolling a dice an OUTCOME is#
+getting a four,to check for bias,the total of the dots,probable#
+In throwing a dart at a dartboard an EVENT is#
+making a score,tripping up,hitting the clock,hitting the board#
+Words that suggest PROBABILITY are#
+quite likely,What's needed,Will it be mend?,does it work?#

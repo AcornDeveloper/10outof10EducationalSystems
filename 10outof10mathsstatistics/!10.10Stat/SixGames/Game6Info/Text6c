@@ -1,0 +1,130 @@
+$ Game 6, level 3, file structure:
+$
+$ Graph format:
+$ (information, number of segments (2-8), segment 1, ..., percentage multiple,
+$  total number, unit, show number (y/n), show percentage (y/n)) #
+$
+$ Question:
+$ Information, type (1 - 2) #
+$ type 1: How many (category)
+$ type 2: What percentage (category)
+
+The pie-chart shows how land is used on a 200 hectares farm,
+5,oats,beans,barley,wheat,rye,
+5,200,hectares,n,y#
+What area of the farm was used for (category),1#
+
+The pie-chart shows how land is used on a 400 hectares farm,
+4,turnips,barley,wheat,potatoes,
+10,400,hectares,y,n#
+What percentage of the land is used for (category),2#
+
+The pie-chart shows the sorts of countryside in an area of 500 hectares,
+4,hilly,mountainous,water,level ground,
+1,500,hectares,y,n#
+What percentage of the countryside is (category),2#
+
+The pie-chart shows the sorts of countryside in an area of 1000 hectares,
+4,hilly,mountainous,water,level ground,
+1,1000,hectares,n,y#
+What area of the countryside is (category),1#
+
+The pie-chart shows how £100 was spent on various items,
+4,food,petrol,heating,clothes,
+5,100,pounds,n,y#
+How much was spent on (category),1#
+
+The pie-chart shows how £200 was spent on various items,
+4,food,petrol,heating,clothes,
+10,200,pounds,y,n#
+What percentage was spent on (category),2#
+
+This is a pie chart showing the pets owned by 200 children,
+5,dogs,cats,goldfish,rabbits,hamsters,
+10,200,pets,n,y#
+How many of the pets were (category),1#
+
+This is a pie chart showing the pets owned by 100 children,
+5,dogs,cats,goldfish,rabbits,hamsters,
+10,100,pets,y,n#
+What percentage of the pets were (category),2#
+
+This is a pie-chart of fruit chosen by 100 children,
+4,apples,pears,oranges,bananas,
+10,100,children,n,y#
+How many of the children chose (category),1#
+
+This is a pie-chart of fruit chosen by 100 children,
+4,apples,pears,oranges,bananas,
+1,100,children,y,n#
+What percentage of the children chose (category),2#
+
+This is a pie-chart of sweets chosen by 200 children,
+5,jellies,chocolates,lollies,caramels,wine gums,
+10,200,children,n,y#
+How many of the children chose (category),1#
+
+This is a pie-chart of sweets chosen by 100 children,
+5,jellies,chocolates,lollies,caramels,wine gums,
+1,100,children,y,n#
+What percentage of the children chose (category),2#
+
+This pie-chart shows the colours of T-shirts worn by 100 children,
+4,red,green,yellow,blue,
+5,100,children,n,y#
+How many children wore (category) T-shirts,1#
+
+This pie-chart shows the colours of T-shirts worn by 200 children,
+5,red,green,yellow,blue,black,
+5,200,children,y,n#
+What percentage of the children wore (category) T-shirts,2#
+
+This a pie-chart of the crisps chosen by 500 people,
+3,plain,salt and vinegar,cheese and onion,
+10,500,people,n,y#
+How many people chose (category) crisps,1#
+
+This a pie-chart of the crisps chosen by 100 people,
+3,plain,salt and vinegar,cheese and onion,
+2,100,people,y,n#
+What percentage of people chose (category) crisps,2#
+
+This is a pie-chart showing 200 bulbs planted in the park,
+5,daffodils,tulips,crocus,hyacinths,snowdrops,
+5,200,bulbs,n,y#
+How many of the bulbs were (category),1#
+
+This is a pie-chart showing 1000 bulbs planted in the park,
+5,daffodils,tulips,crocus,hyacinths,snowdrops,
+1,1000,bulbs,y,n#
+What percentage of the bulbs were (category),2#
+
+This is a pie-chart displaying the collection of 100 creepy creatures found in the woods,
+5,spiders,earwigs,slugs,caterpillars,black beetles,
+1,100,creatures,n,y#
+How many of the creatures were (category),1#
+
+This is a pie-chart displaying the collection of 100 creepy creatures found in the woods,
+5,spiders,earwigs,slugs,caterpillars,black beetles,
+2,100,creatures,y,n#
+What percentage of the creatures were (category),2#
+
+This is a pie-chart of 300 puddings served at the Brownies' Camp,
+5,yoghurts,ice-creams,jellies,rice puddings,jam-rolls,
+5,300,puddings,n,y#
+How many (category) were served,1#
+
+This is a pie-chart of 200 puddings served on the Parents' Supper Night,
+5,yoghurts,ice-creams,jellies,apple pies,jam-rolls,
+1,200,puddings,y,n#
+What percentage of the puddings were (category),2#
+
+This is a pie-chart of 500 balloons released on Carnival Day,
+5,blue,green,yellow,red,orange,
+10,500,balloons,n,y#
+How many (category) balloons were there,1#
+
+This is a pie-chart of 1000 balloons released on St George's Day,
+5,blue,green,yellow,red,orange,
+1,1000,balloons,y,n#
+What percentage of the balloons were (category),2#

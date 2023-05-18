@@ -1,0 +1,153 @@
+$ Game 4, level 3, file structure:
+$ (question relating to mean# question relating to range#
+$ number of items (1-10)# minimum value# maximum value# multiplier# prefix# suffix#)
+$
+$ null prefixes and suffixes are valid
+$ <Return> ignored
+
+Calculate the mean of the following values:#
+Calculate the range of the following values:#
+5#
+1#
+20#
+1###
+
+Obtain the mean price:#
+What is the range of these prices?#
+10#
+1#
+20#
+5#£##
+
+What is the mean price?#
+Obtain the range of these prices:#
+5#
+1#
+100#
+1## pence#
+
+Calculate the mean weight:#
+What is the range of the following weights?#
+10#
+1#
+100#
+0.01## kg#
+
+Work out the mean score:#
+What is the range of the following scores?#
+8#
+1#
+10#
+10## points#
+
+Find the MEAN of the following set of exam marks#
+Find the RANGE of the following set of exam marks#
+6#
+1#
+10#
+2## marks#
+
+Find the MEAN of the following set of exam marks#
+Find the RANGE of the following set of exam marks#
+5#
+1#
+10#
+10## marks#
+
+Find the MEAN of the following set of exam marks#
+Find the RANGE of the following set of exam marks#
+8#
+1#
+10#
+1## marks#
+
+Find the MEAN of the following set of exam marks#
+Find the RANGE of the following set of exam marks#
+4#
+1#
+100#
+1## marks#
+
+What is the MEAN length of these caterpillars#
+What is the RANGE of these lengths#
+5#
+1#
+5#
+1## cm#
+
+What is the MEAN length of these caterpillars#
+What is the RANGE of these lengths#
+5#
+1#
+5#
+1.5## cm#
+
+What is the MEAN length of these caterpillars#
+What is the RANGE of these lengths#
+5#
+1#
+5#
+0.5## cm#
+
+Some boys had these numbers of marbles. What is the MEAN number of marbles#
+Some boys had these numbers of marbles. What is the RANGE of these numbers#
+6#
+1#
+20#
+1## marbles#
+
+Some boys had these numbers of marbles. What is the MEAN number of marbles#
+Some boys had these numbers of marbles. What is the RANGE of these numbers#
+5#
+5#
+12#
+100## marbles#
+
+What is the MEAN number of peas in these pods#
+What is the RANGE of the number of peas in these pods#
+8#
+1#
+8#
+1## peas#
+
+What is the MEAN number of wet days in a week over 6 weeks holiday#
+What is the RANGE of the number of wet days per week#
+6#
+0#
+7#
+1## wet days#
+
+What is the MEAN number of hours of sunshine per week over 7 weeks#
+What is the RANGE of the weekly hours of sunshine#
+7#
+2#
+7#
+5## hrs#
+
+What is the MEAN number of children per family in a group of 10 families#
+What is the RANGE of the numbers of children per family in 10 families#
+10#
+1#
+5#
+1## children#
+
+What is the MEAN number of words per line in 7 lines of print#
+What is the RANGE of the numbers of words on a line#
+7#
+8#
+13#
+1## words#
+
+What is the MEAN number of minutes taken to get to school by 6 children#
+What is the RANGE of the numbers of minutes taken to get to school#
+6#
+5#
+20#
+1## minutes#
+
+What is the MEAN number of minutes taken to get to school by 4 children#
+What is the RANGE of the numbers of minutes taken to get to school#
+4#
+5#
+25#
+2## minutes#

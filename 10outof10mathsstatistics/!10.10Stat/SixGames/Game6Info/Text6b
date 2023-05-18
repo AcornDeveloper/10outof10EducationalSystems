@@ -1,0 +1,257 @@
+$ Game 6, level 2, file structure:
+$
+$ Graph format:
+$ (information, number of categories (1-4), category 1, ..., minimum number,
+$ maximum number (6), sprite number, value of each unit, halves (y/n)) #
+$
+$ Questions:
+$ question one    : most                           ?#
+$ question two    : least                          ?#
+$ question three  : how many (category) were there ?#
+$ question four   : which category had (number)    ?#
+$ question five   : how many altogether            ?#
+$
+$ (category) and (number) are replace with suitable values when the question is asked
+$
+$ <Return> ignored
+$
+$ Sprites: 1) pound sign 2) record    3) book      4) person      5) pet     6)  fruit
+$   7) sweet    8)  T-Shirt   9)  flower   10)  spider    11)  pudding   12)  coin   13)  balloon
+
+The pictogram shows the amount of money spent on various items each week,
+4,
+food,
+petrol,
+heating,
+clothes,
+2,5,
+1,
+5,
+n#
+On which item was the most money spent#
+On which item was the least money spent#
+How much was spent on (category)#
+On which item were (number) pounds spent#
+How much money was spent altogether#
+
+The pictogram shows the number of records from each decade in a collection,
+4,
+fifties,
+sixties,
+seventies,
+eighties,
+2,6,
+2,
+50,
+y#
+From which decade are there the most records#
+From which decade are there the least records#
+How many records are there from the (category)#
+From which decade are there (number) records#
+How many records are in the collection#
+
+The pictogram shows information about books owned by a library,
+3,
+fiction,
+fact,
+reference,
+2,6,
+3,
+1000,
+y#
+Of which type are there most books#
+Of which type are there least books#
+How many (category) books are there#
+Of which type are there (number) books#
+How many books does the library own#
+
+The pictogram indicates how many people visit a museum in certain months,
+4,
+May,
+June,
+July,
+August,
+2,6,
+4,
+100,
+y#
+Which month was most popular#
+Which month was least popular#
+How many people visited during (category)#
+During which month did (number) people visit#
+How many people visited the museum#
+
+This is a pictogram of the pets we like best,
+4,
+Dogs,
+Cats,
+Goldfish,
+Rabbits,
+2,6,
+5,
+1,
+n#
+Which is the favourite pet#
+Which pet is liked least of all#
+How many children like (category) best#
+Which pets were there (number) of#
+How many pets are there altogether#
+
+This is a pictogram of fruit we like best,
+4,
+Apples,
+Pears,
+Oranges,
+Bananas,
+2,6,
+6,
+1,
+n#
+Which fruit do children like best#
+Which fruit is liked by least children#
+How many children like (category)#
+Which fruit is liked by (number) of the children#
+How many pieces of fruit are there altogether#
+
+This is a pictogram of the sorts of chocolate we like to eat,
+4,
+jelly,
+cream,
+nutty,
+caramel,
+2,5,
+7,
+1,
+n#
+Which type do most of us like best#
+Which kind of chocolates did we like least#
+How many of us liked (category) centres#
+Which chocolate centres were liked by (number) of us#
+How many chocolates did we try altogether#
+
+This pictogram shows T-shirt colours in our class,
+4,
+red,
+green,
+yellow,
+blue,
+2,5,
+8,
+1,
+n#
+Which colour is most popular#
+Which colour is least popular#
+How many children wore (category) today#
+Of which colour were there (number) T-shirts#
+What was the total number of children present#
+
+This a pictogram of the crisps we choose at playtime,
+3,
+Plain,
+Beef,
+Chicken,
+2,6,
+4,
+1,
+n#
+Which was the favourite choice#
+Which is the least liked flavour#
+How many children liked (category)#
+Which flavour was chosen by (number) people#
+How many children altogether gave their answers#
+
+This is a pictogram of the bulbs each of our class grew,
+4,
+Daffodils,
+Tulips,
+Crocus,
+Hyacinths,
+2,5,
+9,
+1,
+n#
+Which was the bulb we grew most#
+Which bulb did we had the fewest of#
+How many (category) did we grow#
+Which flower was grown by (number) children#
+How many flowers did our class grow altogether#
+
+This is a pictogram of creepy creatures we do not like,
+4,
+Spiders,
+Snakes,
+Slugs,
+Flies,
+2,6,
+10,
+1,
+n#
+Which creepy creature is most disliked#
+Which creatures was liked most (hint: disliked least)#
+How many children did not like (category)#
+Which creature was disliked by (number) children#
+How many creatures were mentioned altogether#
+
+This is a pictogram of favourite puddings we eat at school,
+4,
+Yoghurt,
+Ice Cream,
+Jelly,
+Apple Pie,
+2,6,
+11,
+1,
+n#
+What is the favourite pudding#
+what is the least liked pudding#
+How many children like (category)#
+Which pudding was liked by (number) children#
+How many children eat school dinners this day#
+
+This is a pictogram of the coins we gave to School Fund,
+4,
+1p,
+2p,
+5p,
+10p,
+2,5,
+12,
+1,
+n#
+Which coin was given most often#
+Which coin was given least often#
+How many (category) coins were given#
+Which was the coin we collected (number) of#
+How many coins did we collect altogether#
+
+This is a pictogram of the balloons we got in our Christmas crackers,
+4,
+Blue,
+Green,
+Yellow,
+Red,
+2,6,
+13,
+1,
+n#
+Which colour did we get most often#
+Of which colour did we get the smallest number#
+How many balloons were (category)#
+Of which colour were (number) balloons#
+How many crackers did we pull#
+
+This is a pictogram of the sorts of centres in a box of chocolates,
+4,
+lime,
+orange,
+coconut,
+cherry,
+2,5,
+7,
+1,
+n#
+Which centre was there more of than any other#
+Of which centre was there the fewest#
+How many (category) centres were in the box#
+Of which kind of chocolate centre were (number) in the box#
+How many chocolates were in the box#

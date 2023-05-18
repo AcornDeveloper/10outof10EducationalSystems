@@ -1,0 +1,88 @@
+$ Game 4, level 5, file structure:
+$ ( question# answer#)
+$
+$ x,y random numbers in range 1-10 generated for each question
+$ expressions inside brackets, and  answer, are evaluated
+$
+$ answer requires precisely
+
+Shoot the probability that a cyclist has to stop at ONE only of 2 sets of lights, if the probabilities of each light being RED are [x/10] and [y/10] respectively.#
+(10*x+10*y-2*x*y)/100#
+What is the probability of throwing a three and a four with two dice?#
+1/18#
+A bag contains [x+y] balls, [x] of which are green and [y] of which are white. What is the probability of picking out one ball of each colour, if each ball is replaced after being removed?#
+(2*x*y)/(x+y)^2#
+A bag contains [x] blue balls and [y] yellow balls. What is the probability of picking out one of each colour if the balls are replaced?#
+(2*x*y)/(x+y)^2#
+What is the probability of obtaining a result of a 3 and a 4 with two dice?#
+1/18#
+What is the probability of throwing a 3 and a 4, IN THAT ORDER, with two dice?#
+1/36#
+Two coins are tossed one after the other. What is the probability that the faces will show a Head and a Tail?#
+1/2#
+Two coins are tossed one after the other. What is the probability of obtaining first a Head and then a Tail?#
+1/4#
+The probability of a disk drive failing in the 1st year of use is 0.1. If two drives are mounted at the same time, find the probability that during the first year just one needs repairing.#
+9/50#
+If a cafe buys two dishwashers at the same time, what is the probability that just one will need repair in the first year given that the probability of failing in the first year is 0.2?#
+8/25#
+If a club buys two video-game machines at the same time, what is the probability that just one will need repair in the first year given that the probability of failing in the first year is 0.3?#
+21/50#
+If a school buys two computers at the same time, what is the probability that just one will need repair in the first year given that the probability of failing in the first year is 0.4?#
+12/25#
+If a works kitchen buys two pop-up toasters at the same time, what is the probability that just one will need repair in the first year given that the probability of failing in the first year is 0.5?#
+1/2#
+The probability of a disk drive failing in the 1st year of use is 0.1. If two drives are mounted at the same time, find the probability that during the first year at least one needs repairing.#
+19/100#
+If a cafe buys two dishwashers at the same time, what is the probability that at least one will need repair in the first year given that the probability of failing in the first year is 0.2?#
+9/25#
+If a club buys two video-game machines at the same time, what is the probability that at least one will need repair in the first year given that the probability of failing in the first year is 0.3?#
+51/100#
+If a school buys two computers at the same time, what is the probability that at least one will need repair in the first year given that the probability of failing in the first year is 0.4?#
+16/25#
+If a works kitchen buys two pop-up toasters at the same time, what is the probability that at least one will need repair in the first year given that the probability of failing in the first year is 0.5?#
+3/4#
+The probability of a disk drive failing in the 1st year of use is 0.1. If two drives are mounted at the same time, find the probability that during the first year no repairs are needed.#
+81/100#
+If a cafe buys two dishwashers at the same time, what is the probability that no repairs are needed in the first year given that the probability of failing in the first year is 0.2?#
+16/25#
+If a club buys two video-game machines at the same time, what is the probability that no repairs are needed in the first year given that the probability of failing in the first year is 0.3?#
+49/100#
+If a school buys two computers at the same time, what is the probability that no repairs are needed in the first year given that the probability of failing in the first year is 0.4?#
+9/25#
+If a works kitchen buys two pop-up toasters at the same time, what is the probability that no repairs are needed in the first year given that the probability of failing in the first year is 0.5?#
+1/4#
+Find the probability of throwing a 4 and an odd number, in that order, in two rolls of a fair die.#
+1/12#
+Find the probability of throwing a 2 and an odd number, in that order, in two rolls of a fair die.#
+1/12#
+Find the probability of throwing a 6 and an odd number, in that order, in two rolls of a fair die.#
+1/12#
+Find the probability of throwing a 1 and an even number, in that order, in two rolls of a fair die.#
+1/12#
+Find the probability of throwing a 3 and an even number, in that order, in two rolls of a fair die.#
+1/12#
+Find the probability of throwing a 5 and an even number, in that order, in two rolls of a fair die.#
+1/12#
+A bag contains [x] red and [y] green balls. What is the probability of drawing a red ball for each of two selections? (balls replaced).# x^2/(x+y)^2#
+A bag contains [x] pink and [y] purple beads. What is the probability of drawing a purple bead for each of two selections? (beads replaced)#
+y^2/(x+y)^2#
+A tank contains [x] black and [y] green fish. What is the probability of catching a black fish with each of two successful castings if the fish are put back each time?#
+x^2/(x+y)^2#
+A box contains [x] pens and [y] pencils. What is the probability of picking a pencil on each of two dips? (They are returned after use)# y^2/(x+y)^2#
+A toy-box contains [x] red and [y] blue cars. What is the probability of picking a blue car on each of two occasions? (cars replaced after play).#
+y^2/(x+y)^2#
+There are [x] pink and [y] yellow roses in a bed. What is the probability that a bee will visit a pink rose first on each of two visits to the bed? (assume pink and yellow equally attractive)#
+x^2/(x+y)^2#
+Two maths papers R1 and R2 are set for 100 pupils. [10*x] pupils pass paper R1 and [10*y] pupils pass paper R2. What is the probability that a pupil passes BOTH papers?#
+(x*y)/100#
+Two maths papers R1 and R2 are set for 100 pupils. [10*x] pupils pass paper R1 and [10*y] pupils pass paper R2. What is the probability that a pupil passes R1 only?#
+(x*(10-y))/100#
+Two maths papers R1 and R2 are set for 100 pupils. [10*x] pupils pass paper R1 and [10*y] pupils pass paper R2. What is the probability that a pupil earns only one pass?#
+(10*(x+y)-2*x*y)/100#
+Two maths papers R1 and R2 are set for 100 pupils. [10*x] pupils pass paper R1 and [10*y] pupils pass paper R2. What is the probability that a pupil fails BOTH papers?#
+(100-10*(x+y)+x*y)/100#
+Two maths papers R1 and R2 are set for 100 pupils. [10*x] pupils pass paper R1 and [10*y] pupils pass paper R2. What is the probability that a pupil fails only R2?#
+(x*(10-y))/100#
+Two maths papers R1 and R2 are set for 100 pupils. [10*x] pupils pass paper R1 and [10*y] pupils pass paper R2. What is the probability that a pupil manages to fail on one paper only?#
+(10*(x+y)-2*x*y)/100#

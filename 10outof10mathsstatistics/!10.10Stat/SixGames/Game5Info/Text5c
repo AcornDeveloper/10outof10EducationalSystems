@@ -1,0 +1,65 @@
+$ Game 5, level 3, file structure:
+$ Vocabulary (more than evens,evens,less than evens),...#
+$ (Phrase, 1/2/3 - more than evens,evens,less than evens, number of vocabulary set to use),...#
+$ Phrase follows "Grab the "
+$ Vocabulary sets with two words are permissible, include a null string
+$ <Return> ignored
+
+$ Vocabulary
+
+more than evens,evens,less than evens,
+likely,unlikely,impossible
+#
+
+$ Questions
+
+chance of rolling a six with a die,3,1#
+chance of rolling an odd number with a die,2,1#
+chance of rolling an even number with a die,2,1#
+chance of picking a red card from a full pack of cards,2,1#
+chance of picking an ace at random from a full pack of cards,3,1#
+chance of tossing a head with a coin,2,1#
+chance of rain sometime this year,1,1#
+chance of picking a black card from a full pack of cards,2,1#
+chance of picking the queen of hearts from a full pack of cards,3,1#
+chance of rolling twelve with two dice,2,2#
+chance of tossing three heads in a row with a coin,2,2#
+chance of choosing a red sweet from a bag containing three red sweets and two white sweets,1,1#
+chance of rolling a five with a die,3,1#
+chance of rolling a four with a die,3,1#
+chance of rolling a three with a die,3,1#
+chance of rolling a two with a die,3,1#
+chance of rolling a one with a die,3,1#
+chance of choosing a green sweet from a bag containing three green sweets and three black sweets,2,1#
+chance of picking an ace at random from a full pack of cards,2,2#
+chance of tossing a tail with a coin,2,1#
+chance of rain sometime this year,1,2#
+chance of picking the queen of hearts from a full pack of cards,2,2#
+chance of rolling twelve with two dice,3,1#
+chance of tossing three heads in a row with a coin,3,1#
+chance of choosing a red sweet from a bag containing three red sweets and fifty white sweets,2,2#
+chance of choosing a white sweet from a bag containing three red sweets and fifty white sweets,1,2#
+chance of choosing a green sweet from a bag containing three green sweets and three black sweets,2,1#
+chance of winning the pools,2,2#
+chance you'll eat some food today,1,2#
+chance you'll have a drink today,1,2#
+chance you'll get hurt playing snap,2,2#
+chance a cup will break if you drop it onto a hard floor,1,2#
+chance a glass will break if it falls onto a hard floor,1,2#
+chance a cup will break if you drop it onto a hard floor,1,1#
+chance a glass will break if it falls onto a hard floor,1,1#
+chance that someone will get wet if it rains,1,2#
+chance that you will meet the Queen today,2,2#
+chance that you will meet the Prime Minister tomorrow,2,2#
+chance that you will buy a CD from the butchers,3,2#
+chance that you will be able to buy wood from a DIY store,1,2#
+chance that you will be able to buy bread from a supermarket,1,2#
+chance that there will be exactly 100 pins in a box with "average contents 100",2,2#
+chance that there will be exactly 100 pins in a box with "average contents 100",3,1#
+chance that a shelf will fall off the wall if it is fixed with 1cm nails,1,2#
+chance that a cupboard will fall off the wall if it is fixed with 1cm nails,1,1#
+chance that you will be able to walk through walls next year,3,2#
+chance that a locked door will open itself,3,2#
+chance that it will hurt if you hit your thumb with a hammer,1,2#
+chance that you will get no marks at all in a test,2,2#
+chance that you'll win the toss at the start of a game,2,1#

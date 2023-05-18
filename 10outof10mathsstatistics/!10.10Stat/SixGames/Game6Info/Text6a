@@ -1,0 +1,185 @@
+$ Game 6, level 1, file structure:
+$
+$ Graph format:
+$ (information, number of categories (1-4),category 1, ..., minimum number of blocks,
+$ maximum number of blocks (8)) #
+$
+$ Questions:
+$ question one   : most                           ?#
+$ question two   : least                          ?#
+$ question three : how many (category) were there ?#
+$ question four  : which category had (number)    ?#
+$ question five  : how many are there altogether  ?#
+$
+$ (category) and (number) are replaced with suitable values when the question is asked
+$
+$ <Return> ignored
+
+The graph shows when we have our birthdays in the the year,
+4,
+Spring,
+Summer,
+Autumn,
+Winter,  
+2,8#
+When do we have the most birthdays#
+When is the smallest number of birthdays#
+How many birthdays were there in our class in (category)#
+Which season had (number) birthdays#
+How many children are in our class#
+
+This is a graph of the pets we like best,
+4,
+Dogs,
+Cats,
+Goldfish,
+Rabbits,
+2,7#
+Which is the favourite pet#
+Which pet is liked least of all#
+How many children like (category) best#
+Which pets were there (number) of#
+How many pets are there altogether#
+
+This is a graph of fruit we like best,
+4,
+Apples,
+Pears,
+Oranges,
+Bananas,
+2,6#
+Which fruit do children like best#
+Which fruit is liked by least children#
+How many children like (category)#
+Which fruit is liked by (number) of the children#
+How many pieces of fruit are there altogether#
+
+This is a graph of chocolate centres children love best,
+4,
+jelly,
+cream,
+nutty,
+caramel,
+2,6#
+Which centre did most children like best#
+Which centre was liked least of these#
+How many children liked (category) centres#
+Which chocolate centres were liked by (number) children#
+How many chocolates did the children test#
+
+This graph shows T-shirt colours in our class,
+4,
+red,
+green,
+yellow,
+blue,
+2,7#
+Which colour is most popular#
+Which colour is least popular#
+How many children wore (category) today#
+Of which colour were (number) T-shirts worn#
+What was the total number of children present#
+
+This a graph of the crisps we choose at playtime,
+4,
+Plain,
+Beef,
+Chicken,
+Bacon,
+2,8#
+Which are the most tasty crisps#
+Which flavour is the least liked#
+How many children liked (category)#
+Of which flavour were (number) chosen#
+How many children altogether gave their answers#
+
+This is a graph of the bulbs each of our class grew,
+4,
+Daffodils,
+Tulips,
+Crocus,
+Hyacinths,
+2,5#
+Which bulb was grown most#
+Which bulbs were there fewest of#
+How many (category) did we grow#
+Which flower did (number) children grow#
+How many flowers did our class grow altogether#
+
+This is a graph of creepy creatures we do not like,
+4,
+Spiders,
+Slugs,
+Flies,
+Beetles,
+2,6#
+Which creature is most disliked#
+Which is the most liked creature#
+How many (category) are there#
+Which creature did (number) children dislike#
+How many creatures were mentioned altogether#
+
+This is a graph of favourite puddings we eat at school,
+4,
+Yoghurt,
+Ice Cream,
+Jelly,
+Apple Pie,
+2,6#
+Which pudding do most children like#
+Which is the least liked pudding#
+How many children like (category)#
+Which pudding was liked by (number) children#
+How many children eat school dinners this day#
+
+This is a graph of the coins we gave to charity,
+4,
+1p,
+2p,
+5p,
+10p,
+2,8#
+Which coin was given most often#
+Which coin was given least often#
+How many (category) coins were given#
+Which was the coin we collected (number) of#
+How many coins did we collect altogether#
+
+The graph shows the number of coloured ducks sold by a small shop,
+4,
+red,
+green,
+yellow,
+blue,
+2,7#
+Which colour sold the most#
+Which colour sold the least#
+How many (category) ducks were sold#
+Of which colour were (number) ducks sold#
+How many ducks were sold altogether#
+
+The graph shows the various means of transport to school,
+4,
+car,
+bus,
+taxi,
+bicycle,
+2,5#
+Which is the most popular means of transport#
+Which is the least popular means of transport#
+How many people use a (category)#
+Which means of transport was used by (number) people#
+How many children were asked how they travel#
+
+The graph shows the number of birds visiting a bird table,
+4,
+blackbird,
+sparrow,
+robin,
+blue tit,
+2,5#
+Which bird visited most often#
+Which bird visited least often#
+How many times did a (category) visit#
+Which bird visited (number) times#
+How many birds visited the table#

@@ -1,0 +1,249 @@
+What is the probability that I will get both a HEAD and a ONE when I flip a coin and roll a normal die?#
+!1/12#
+2/3#
+7/12#
+
+What is the probability that I will get both a HEAD and an EVEN number when I flip a coin and roll a normal die?#
+5/12#
+!1/4#
+2/3#
+
+What is the probability that I will get both a HEAD and a PRIME number when I flip a coin and roll a normal die?#
+4/6#
+!3/12#
+1/12#
+
+What is the probability that I will get both a HEAD and a SQUARE number when I flip a coin and roll a normal die?#
+!1/6#
+2/3#
+7/6#
+
+What is the probability that I will get both a HEAD and a positive number when I flip a coin and roll a normal die?#
+1/12#
+!1/2#
+5/12#
+
+What is the probability that I will get both a HEAD and a negative number when I flip a coin and roll a normal die?#
+2/3#
+7/10#
+!0#
+
+What is the probability that I will get both an ODD number and a TAIL when I roll a normal die and flip a coin?#
+!1/4#
+9/12#
+5/4#
+
+What is the probability that I will get both a multiple of 2 and a TAIL when I roll a normal die and flip a coin?#
+11/12#
+!1/4#
+4/3#
+
+What is the probability that I will get both a multiple of 3 and a TAIL when I roll a normal die and flip a coin?#
+3/7#
+3/2#
+!1/6#
+
+What is the probability that I will get both a number less than 5 and a TAIL when I roll a normal die and flip a coin?#
+1/12#
+10/12#
+!1/3#
+
+What is the probability that I will get both a number less than 2 and a TAIL when I roll a normal die and flip a coin?#
+3/12#
+!1/12#
+2/12#
+
+What is the probability that I will get both a number greater than 5 and a TAIL when I roll a normal die and flip a coin?#
+2/6#
+2/12#
+!1/12#
+
+Given a set of cards lettered  A,B,C and D and a coin, what is the probability that I can both cut an "A" and toss a TAIL?#
+3/4#
+1/6#
+!1/8#
+
+Given a set of cards lettered  A,B,C and D and a coin, what is the probability that I can both cut a "B" and toss a TAIL?#
+!1/8#
+3/4#
+1/4#
+
+Given a set of cards lettered  A,B,C and D and a coin, what is the probability that I can both cut a "C" and toss a TAIL?#
+3/8#
+3/6#
+!1/8#
+
+Given a set of cards lettered  A,B,C and D and a coin, what is the probability that I can both toss a TAIL and draw the "D"?#
+3/4#
+!1/8#
+3/8#
+
+Given a set of cards lettered  A,B,C and D and a coin, what is the probability that I can both toss a HEAD and draw the "A"?#
+5/6#
+3/4#
+!1/8#
+
+Given a set of cards lettered  A,B,C and D and a coin, what is the probability that I can both toss a HEAD and draw the "B"?#
+!1/8#
+5/6#
+3/4#
+
+Given a set of cards lettered  A,B,C and D and a coin, what is the probability that I can both toss a HEAD and draw the "C"?#
+3/4#
+!1/8#
+1/5#
+
+Given a set of cards lettered  A,B,C and D and a coin, what is the probability that I can both toss a HEAD and draw the "D"?#
+4/7#
+3/4#
+!1/8#
+
+Given a die and a bag containing  one BLACK, two RED and three GREEN balls, find the probability of picking RED and rolling 6?#
+!1/6#
+2/6#
+2/12#
+
+Given a die and a bag containing  1 BLACK, 2 RED and 3 GREEN balls, find the probability of picking GREEN and rolling 6?#
+3/6#
+!1/12#
+1/4#
+
+Given a die and a bag containing  1 BLACK, 2 RED and 3 GREEN balls, find the probability of picking BLACK and rolling 6?#
+3/12#
+4/6#
+!1/36#
+
+Given a die and a bag containing  1 BLACK, 2 RED and 3 GREEN balls, find the probability of picking RED and rolling EVEN?#
+!1/6#
+3/4#
+2/3#
+
+Given a die and a bag containing  1 BLACK, 2 RED and 3 GREEN balls, find the probability of picking RED and rolling ODD?#
+3/4#
+!1/18#
+7/8#
+
+Given a die and a bag containing  1 BLACK, 2 RED and 3 GREEN balls, find the probability of picking GREEN and rolling EVEN?#
+!1/4#
+3/4#
+2/3#
+
+Given a die and a bag containing  1 BLACK, 2 RED and 3 GREEN balls, find the probability of picking GREEN and rolling ODD?#
+3/4#
+!1/4#
+7/8#
+
+Given a coin  and a TRIANGULAR SPINNER, what is the probability that I can both toss a HEAD and spin a ONE?#
+!1/6#
+3/6#
+2/6#
+
+Given a coin  and a TRIANGULAR SPINNER,what is the probability that I can both toss a HEAD and spin aN EVEN number?#
+1/2#
+!1/6#
+3/4#
+
+Given a coin  and a TRIANGULAR SPINNER,what is the probability that I can both toss a HEAD and spin an ODD number?#
+2/3#
+3/4#
+!1/3#
+
+Given a die and a TRIANGULAR SPINNER, what is the probability that I can both toss a TAIL and spin a 6?#
+!0#
+4/5#
+1/12#
+
+Given a die and a TRIANGULAR SPINNER, what is the probability that I can throw a 5 and spin a TWO?#
+3/6#
+1/6#
+!1/18#
+
+Given a die and a TRIANGULAR SPINNER, what is the probability that I can both  throw a prime number and spin a ONE?#
+3/6#
+2/12#
+!1/6#
+
+Given a coin and a bag containing 4 RED and 8 GREEN balls, what is the probability of picking a RED ball and tossing a TAIL?#
+1/3#
+!1/6#
+1/2#
+
+Given a coin and a bag containing 4 RED and 8 GREEN balls, what is the probability of picking a GREEN ball and tossing a TAIL?#
+2/5#
+!2/6#
+3/4#
+
+Given a coin and a bag containing 4 RED and 8 GREEN balls, what is the chance of picking a RED ball and not tossing a HEAD?#
+!1/6#
+2/3#
+3/12#
+
+Given a coin and a bag containing 4 RED and 8 GREEN balls, what is the chance of picking a GREEN ball and not tossing a HEAD?#
+3/4#
+!1/3#
+1/2#
+
+Given a normal pack of cards and a coin, what is the probability of cutting an ACE and tossing a TAIL?#
+1/6#
+!1/26#
+1/104#
+
+Given a normal pack of cards and a coin, what is the probability of cutting a RED ACE and tossing a TAIL?#
+1/26#
+!1/52#
+1/2#
+
+Given a normal pack of cards and a coin, what is the probability of cutting a SIX and tossing a TAIL?#
+1/10#
+1/52#
+!1/26#
+
+Given a normal pack of cards and a coin, what is the probability of cutting a HEART and tossing a TAIL?#
+!1/8#
+1/4#
+1/52#
+
+Given a normal pack of cards and a coin, what is the probability of cutting an KING and tossing a HEAD?#
+1/6#
+!1/26#
+1/104#
+
+Given a normal pack of cards and a coin, what is the probability of cutting a BLACK FOUR and tossing a HEAD?#
+1/26#
+!1/52#
+1/2#
+
+Given a normal pack of cards and a coin, what is the probability of cutting a TEN and tossing a HEAD?#
+1/10#
+1/52#
+!1/26#
+
+Given a normal pack of cards and a coin, what is the probability of cutting a CLUB and tossing a HEAD?#
+!1/8#
+1/4#
+1/52#
+
+A class of 20 students sell only 20 raffle tickets. Each buys 1 ticket. What is the chance of 1 student winning 2 prizes?#
+1/400#
+!0#
+1/20#
+
+Eggs are equally brown or white. One egg in ten is bad. What is the chance of buying a brown bad egg?#
+1/5#
+1/10#
+!1/20#
+
+A set of twin babies is seen in a pram. What is the chance of them both being boys (assuming girl/boy to be equally likely)?#
+!1/4#
+1/8#
+1/6#
+
+A set of twin babies is seen in a pram. What is the chance of them both being girls (assuming girl/boy to be equally likely)?#
+1/6#
+!0.25#
+0.5#
+
+A set of twin babies is seen in a pram. What is the chance of them being different sexes? (assume girl/boy equally likely)#
+1/6#
+0.25#
+!0.5#

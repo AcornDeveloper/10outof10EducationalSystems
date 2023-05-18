@@ -1,0 +1,55 @@
+$ Game 5, level 6, file structure:
+$ (Title, number of intervals, first interval start, interval size, gap to next interval,
+$ low frequency, high frequency, [r]andom/[n(x)]ormal distribution) # ... #
+$ number following n gives percentage of random variation permissible from normal distribution
+$ e.g.
+$ To setup:
+$
+$ Weekly wage     |   10-20 |  20-30  |  30-40  |  40-50  |
+$ ----------------|---------|---------|---------|---------|
+$ Frequency       |         |         |         |         |
+$
+$ Time (secs),4,10,10,0,0,10,n0#
+$ To give a set of figures normally distributed in the range 0-10
+$
+$ <Return> ignored
+
+Time (seconds),4,10,10,0,0,10,n10#
+
+Exam marks,4,0,9,1,2,8,r#
+
+Goals scored,5,0,5,1,0,5,n20#
+
+Test results,5,0,4,1,0,5,n10#
+
+Temp (degs C),6,0,2,0,0,6,r#
+
+Plant height(cm),5,1,4,0,2,5,n30#
+
+I.Q.,5,70,5,1,1,10,n0#
+
+Books on Loan,5,0,3,1,1,8,r#
+
+Job Interviews,4,0,4,1,1,10,r#
+
+Bird song (secs),4,0,5,0,0,3,r#
+
+Distance (m),6,0,10,0,0,8,n0#
+
+Test marks,5,0,4,1,2,8,r#
+
+Goals scored,6,0,5,1,0,5,n20#
+
+Exam results,6,0,4,1,0,10,n10#
+
+Temp (degs C),4,10,4,0,0,6,r#
+
+Tree height (m),4,0,4,0,1,8,n30#
+
+I.Q.,6,60,5,1,1,10,n0#
+
+Videos on Loan,4,0,2,1,1,10,n0#
+
+Doctor visits,6,0,2,1,1,5,n5#
+
+Worm length (cm),4,0,2,0,0,5,r#

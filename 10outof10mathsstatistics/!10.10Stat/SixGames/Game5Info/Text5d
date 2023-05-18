@@ -1,0 +1,74 @@
+$ Game 5, level 4, file structure:
+$ (Information # text to follow "Grab the probability" # probability #)
+$ <Return> ignored
+$ Each question may consist of two sentences
+$ x random number in range 0-10 generated for each question
+$ expressions inside brackets, and answer, are evaluated
+
+[10*x] balloons out of 100 are green#
+of choosing a green balloon at random#
+x/10#
+
+[5*x] sweets in a bag containing 50 are orange#
+of choosing an orange sweet at random#
+x/10#
+
+A footballer scores a goal every four games on average#
+that he will score in his next game#
+0.25#
+
+One out of every [x+1] apples from a tree is sour#
+that a randomly chosen apple is sour#
+1/(x+1)#
+
+[x+15] coins in a bag containing 100 coins are pennies#
+that a randomly picked coin is a penny#
+(x+15)/100#
+
+[x+5] people out of a group of twenty own pets#
+that a randomly chosen person has a pet#
+(x+5)/20#
+
+[2*x] books on a shelf of twenty have brown covers#
+that a randomly chosen book has a brown cover#
+x/10#
+
+A netball team wins on average one game from every two#
+the team wins its next game#
+0.5#
+
+[x+90] balls in a bag of 100 are yellow#
+the chance of picking a yellow ball at random#
+(x+90)/100#
+
+[10*x] cars out of 100 passing a house are blue#
+of the next one passing being blue#
+x/10#
+
+[5*x] sweets in a bag containing 50 are mints#
+of choosing a mint if you pick one at random#
+x/10#
+
+One out of every [2*x+1] pears from a tree is sour#
+that a randomly chosen pear is sour#
+1/(2*x+1)#
+
+[x+15] stamps in an album containing 100 stamps are valuable#
+that a randomly picked stamp is valuable#
+(x+15)/100#
+
+[x+5] people out of a group of twenty own CD players#
+that a randomly chosen person has a CD#
+(x+5)/20#
+
+[2*x] CDs on a shelf of twenty are in the current charts#
+that a randomly chosen CD is from the charts#
+x/10#
+
+A rounders team wins on average one game from every three#
+the team wins its next game#
+1/3#
+
+[10*x+800] balls in a bag of 1000 are yellow#
+the chance of picking a yellow ball at random#
+(10*x+800)/1000#

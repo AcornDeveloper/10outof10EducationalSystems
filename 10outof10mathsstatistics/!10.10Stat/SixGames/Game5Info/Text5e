@@ -1,0 +1,82 @@
+$ Game 5, level 5, file structure:
+$ (Information # text to follow "Grab the probability" # probability #)
+$ <Return> ignored
+$ Each question may consist of two sentences
+$ x random number in range 0-10 generated for each question
+$ expressions inside brackets, and answer, are evaluated
+
+A bag contains 100 balls, [x] of which are green#
+that a randomly chosen ball is not green#
+(100-x)/100#
+
+The probability of a biased die landing on 6 is [x/100]#
+of not rolling a six#
+(100-x)/100#
+
+On average, a biased coin lands on heads [x+50] times every 100 throws#
+of the coin landing on a tail#
+(50-x)/100#
+
+In a class of 20 fourteen year olds, [x] scored full marks in an exam#
+that a randomly chosen member of the class did not score full marks#
+(20-x)/20#
+
+A bag contains 40 balls, [x] are yellow and 10 are red. The remainder are green#
+of drawing a green ball#
+(30-x)/40#
+
+There is a [x/10] probability that a customer visiting a particular shop will buy something#
+that a random customer will not buy anything#
+(10-x)/10#
+
+There is a [x/100] probability each day that it will rain in a particular desert#
+it will remain dry on a randomly chosen day#
+(100-x)/100#
+
+A plant has a [x/10] probability of flowering in any particular year#
+that the plant does not flower in a randomly chosen year#
+(10-x)/10#
+
+A goalkeeper has a [(x+20)/100] probability of saving a penalty#
+that the penalty is scored#
+(80-x)/100#
+
+An experiment has a [x/50] chance of succeeding#
+that the experiment fails#
+(50-x)/50#
+
+[10*x] balloons out of 100 green and red ones are green#
+of choosing a red balloon at random#
+1-x/10#
+
+[5*x] sweets in a bag containing 50 are wrapped#
+of being given an unwrapped sweet at random#
+1-x/10#
+
+A footballer scores a goal every four games on average#
+that he will not score in his next game#
+0.75#
+
+One out of every [x+1] apples from a tree is sour#
+that a randomly chosen apple will not be sour#
+1-1/(x+1)#
+
+[x+15] coins in a bag containing 100 coins are pennies#
+that a randomly picked coin will not be a penny#
+1-(x+15)/100#
+
+[x+5] people out of a group of twenty own pets#
+that a randomly chosen person does not have a pet#
+1-(x+5)/20#
+
+[2*x] books on a shelf of twenty have brown covers#
+that a randomly chosen book will not have a brown cover#
+1-x/10#
+
+A netball team wins on average one game from every two#
+the team loses its next game#
+0.5#
+
+[x+90] balls in a bag of 100 black and white ones are black#
+the chance of picking a white ball at random#
+1-(x+90)/100#

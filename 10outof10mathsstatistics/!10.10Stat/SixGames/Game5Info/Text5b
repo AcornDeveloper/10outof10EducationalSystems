@@ -1,0 +1,71 @@
+$ Game 5, level 2, file structure:
+$ Vocabulary (certain,uncertain,impossible),...#
+$ (Phrase, 1/2/3 - certain/uncertain/impossible),...#
+$ <Return> ignored
+
+$ Vocabulary
+
+will happen,might happen,will not happen,
+certain,uncertain,impossible,
+will occur,may occur,will not occur#
+
+$ Questions
+
+A lion will fly past the window today,3#
+Some babies in the world will cry tomorrow,1#
+Your teacher will turn into a cat,3#
+A spider will crawl into the classroom tonight,2#
+Some people in the world will sneeze today,1#
+A polar bear will ride a bike into school tomorrow,3#
+Somebody in the world will smile this year,1#
+A mouse will run across the playground tonight,2#
+You will have something to drink next week,1#
+A fish will talk to you at your school next week,3#
+My snowman will walk away,3#
+It will be sunny one day this year,1#
+It will rain on my birthday,2#
+It will rain tomorrow,2#
+It will be windy next Friday,2#
+I will fly in a space shuttle one day,2#
+I will get married when I grow up,2#
+I will be a train driver,2#
+I will see a field of green grass,1#
+I will go to sleep,1#
+It will be frosty tonight,2#
+It will snow on Sports Day,2#
+The next worm you meet will say "Hello.",3#
+You will wake up with eleven fingers,3#
+You will wake up with two heads,3#
+You will wake up with three legs,3#
+You will wake up with five eyes,3#
+You will ride to school on a cucumber,3#
+Your new teacher will be a rabbit,3#
+You will cycle to the moon,3#
+You will go to someone's 300th birthday party,3#
+You will be a tree when you grow up,3#
+You will slide up a mountain,3#
+You will slide up a hill,3#
+You will slide up a house,3#
+There will be eight days next week,3#
+Your friend will be a brain surgeon,2#
+Your friend will be a teacher,2#
+Your friend will be a bricklayer,2#
+You will be a scientist,2#
+A baby will be born at 3pm,2#
+A cat will be born at 3pm,2#
+A dog will be born at 3pm,2#
+The next grape you eat will have no pips,2#
+Someone in your class will be ill tomorrow,2#
+A red flower will grow in England next year,1#
+A blue flower will grow in England next year,1#
+A red flower will grow in Scotland next year,1#
+A red flower will grow in Wales next year,1#
+You will win the football pools,2#
+Someone will win the football pools,1#
+Someone will win a game of bingo,1#
+You will win a game of bingo,2#
+The next car you see will be blue,2#
+The next car you see will be a Ford,2#
+The next moving car you see will have wheels,1#
+The next car you see will be a mini,2#
+The next car you see will be red,2#

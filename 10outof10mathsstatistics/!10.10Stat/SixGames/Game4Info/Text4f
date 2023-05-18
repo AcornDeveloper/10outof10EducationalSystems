@@ -1,0 +1,100 @@
+$ Game 4, level 6, file structure:
+$ ( question# answer#)
+$
+$ x,y random numbers in range 1-10 generated for each question
+$ expressions inside brackets, and answer, are evaluated
+$
+$ answer requires precisely one /, is displayed as fraction
+$
+$ <Return> ignored
+
+Find the probability that a cyclist has to stop at least once when going through 2 sets of traffic lights if the probabilities of each set of lights being red are [x/10] and [y/10] respectively.#
+(10*(x+y)-x*y)/100#
+What is the probability of throwing a 3 OR a 4 (order not important) with two dice?#
+5/9#
+A coin is tossed twice. What is the probability of getting a head on the first throw or a head on the second throw or on both throws? #
+3/4#
+Using a pack of 52 cards what is the probability of drawing EITHER a red card OR a king (or both)?#
+7/13#
+Using a pack of 52 cards what is the probability of drawing EITHER a black card OR an ace (or both)?#
+7/13#
+Using a pack of 52 cards what is the probability of drawing EITHER a black card OR a queen (or both)?#
+7/13#
+Using a pack of 52 cards what is the probability of drawing EITHER a card numbered from 1 to 10 OR a picture card?#
+1/1#
+Using a coin and a fair die, what is the probability of throwing EITHER a 'head' OR a number greater than 4 (or both)?#
+2/3#
+Using a coin and a fair die, what is the probability of throwing EITHER a 'tail' OR a number greater than 4 (or both)?#
+2/3#
+Using a coin and a fair die, what is the probability of throwing EITHER a'head' OR a number greater than 3 (or both)?#
+3/4#
+Using a coin and a fair die, what is the probability of throwing EITHER a'head' OR a number greater than 2 (or both)?#
+5/6#
+Using a coin and a fair die, what is the probability of throwing EITHER a'head' OR a number greater than 1 (or both)?#
+11/12#
+Using a coin and a fair die, what is the probability of throwing EITHER a'tail' OR a number greater than 3 (or both)?#
+3/4#
+Using a coin and a fair die, what is the probability of throwing EITHER a'tail' OR a number greater than 2 (or both)?#
+5/6#
+Using a coin and a fair die, what is the probability of throwing EITHER a'tail' OR a number greater than 1 (or both)?#
+11/12#
+In a class of 20 children 7 are girls and 13 boys. If 4 girls and 2 boys have long hair what is the probability that a child picked at random will have EITHER have long hair OR be a girl?#
+9/20#
+In a class of 20 children, 4 of the 7 girls and 2 of the 13 boys have long hair. What is the probability that a child from the class, chosen at random, EITHER is a girl OR is someone with long hair?#
+9/20#
+In a class of 25 children 7 of the 10 girls and 2 of the 15 boys have long hair. What is the probability, that a child from the class, chosen at random, EITHER is a girl OR is someone with long hair?#
+12/25#
+In a class of 30 children,11 of the 15 girls and 2 of the 15 boys have long hair. What is the probability that a child from the class, chosen at random, EITHER is a girl OR is someone with long hair?#
+17/30#
+2 balls are taken at random from a bag containing [x+1] red and [y] blue balls. Find the probability of drawing 1 red ball and then another red ball without replacement.#
+(x*(x+1))/((x+y)*(x+y+1))#
+Find the estimated probability that a pupil passes EITHER Test 1 OR Test 2 (or both) if the the estimated probability of passing Test 1 is [1/(x+1)], passing Test 2 is 1/[y+1] and of passing both is [1/((x+1)*(y+1))]#
+(x+y+1)/((x+1)*(y+1))#
+The probability of a left-handed child is estimated as 1/6. In a class of 15 girls and 5 boys find the probability of picking EITHER a left-handed person OR a boy (given left handedness is independent of sex).#
+3/8#
+The probability of a left-handed child is estimated as 1/5. In a class of 15 girls and 10 boys find the probability of picking EITHER a left-handed child OR a girl (given left handedness is independent of sex).#
+17/25#
+The probability of a left-handed child was found to be 1/8. In a class of 16 girls and 8 boys find the probability of picking EITHER a girl or a left-handed child (given left handedness is independent of sex).#
+17/24#
+The probability of a left-handed child is estimated as 1/4. In a class of 12 girls and 16 boys find the probability of picking EITHER a boy or a left-handed child (given left handedness is independent of sex).#
+19/28#
+The probability of a left-handed child was found to be 1/10. In a class of 20 girls and 10 boys find the probability of picking EITHER a girl or a left-handed child (given left handedness is independent of sex).#
+7/10#
+The probability of a left-handed child is observed as 1/8. In a class of 16 girls and 16 boys find the probability of picking EITHER a boy or a left-handed child (given left handedness is independent of sex).#
+9/16#
+The probability of a left-handed child is estimated as 1/9. In a class of 18 girls and 9 boys find the probability of picking EITHER a boy or a left-handed child (given left handedness is independent of sex).#
+11/27#
+The probability of a left-handed child is estimated as 1/7. In a class of 7 girls and 14 boys find the probability of picking EITHER a girl or left-handed child (given left handedness is independent of sex).#
+3/7#
+In a group of 100 children 25 own a goldfish, 35 own a hamster and 20 own a goldfish and a hamster. Find the probability that a child owns a goldfish or a hamster (or both).#
+2/5#
+In a group of 100 children 25 own a goldfish, 35 own a hamster and 20 own a goldfish and a hamster. Find the probability that a child owns a goldfish or a hamster but NOT BOTH.#
+1/5#
+In a group of 100 children 25 own a goldfish, 35 own a hamster and 20 own a goldfish and a hamster. Find the probability that a child owns a goldfish given that he owns a hamster.#
+4/7#
+In a group of 100 children 50 own a dog, 15 own a rabbit and 10 own a dog and a rabbit. Find the probability that a child owns a dog or a rabbit (or both).#
+11/20#
+In a group of 100 children 50 own a dog, 15 own a rabbit and 10 own a dog and a rabbit. Find the probability that a child owns a dog or a rabbit but not both.#
+9/20#
+In a group of 100 children 50 own a dog, 15 own a rabbit and 10 own a dog and a rabbit. Find the probability that a child owns a dog given that he owns a rabbit.#
+2/3#
+In a group of 100 children 40 own a dog, 25 own a cat and 15 own a dog and a cat. Find the probability that a child owns a dog or a cat (or both).#
+1/2#
+In a group of 100 children 40 own a dog, 25 own a cat and 15 own a dog and a cat. Find the probability that a child owns a dog or a cat but not both.#
+7/20#
+In a group of 100 children 40 own a dog, 25 own a cat and 15 own a dog and a cat. Find the probability that a child owns a dog given that he owns a cat.#
+3/5#
+In a group of 100 children 30 own a snake, 25 own a rat and 15 own a snake and a rat. Find the probability that a child owns a snake or a rat (or both).#
+2/5#
+In a group of 100 children 30 own a snake, 25 own a rat and 15 own a snake and a rat. Find the probability that a child owns a snake or a rat but not both.#
+1/4#
+In a group of 100 children 30 own a snake, 25 own a rat and 15 own a snake and a rat. Find the probability that a child owns a snake given that he owns a rat.#
+3/5#
+The probabilities that a boy in Year 11 is in the football and rugby teams are 0.5 and 0.4 respectively: that he is in BOTH teams is 0.3. Find the probability that a boy chosen at random is either in the football team or the rugby team (or both).#
+3/5#
+The probabilities that a girl in Year 11 is in the netball and hockey teams are 0.4 and 0.5 respectively: that she is in BOTH teams is 0.2. Find the probability that a girl chosen at random is either in the netball team or the hockey team (or both).#
+7/10#
+The probabilities that a boy in Year 11 is in the chess and lacrosse teams are 0.3 and 0.2 respectively: that he is in BOTH teams is 0.1. Find the probability that a boy chosen at random is either in the chess team or the lacrosse team (or both).#
+2/5#
+The probabilities that a girl in Year 11 is in the tennis and athletics teams are 0.6 and 0.2 respectively: that she is in BOTH teams is 0.1. Find the probability that a girl chosen at random is either in the tennis team or the athletics team (or both).#
+7/10#

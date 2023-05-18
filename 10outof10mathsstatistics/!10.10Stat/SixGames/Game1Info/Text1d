@@ -1,0 +1,96 @@
+$ Game 1, level 4, file structure:
+$ (title# x-scale label (i) (limit 10 characters)# x-scale label (ii) (limit 10 characters)#
+$ y-size of block (pixels)# y-scale label increment# number of y-scale labels#
+$ number of y-scale divisions# number of columns# x-scale label increment#
+$ number of x-scale divisions# frequency lower bound# frequency higher bound#
+$ [r]andom/[n(x)]ormal distribution#)
+$
+$ number following n gives percentage of random variation permissible from normal distribution
+$ 
+$ <Return> ignored
+
+A survey asked people how much money they earn in a week. The results
+are shown below.#
+Weekly#
+Wage(£)#
+10#
+10#
+8#
+2#
+8#
+100#
+2#
+10#
+60#
+n0#
+
+A survey asked a group of children how long they spent watching TV   last night#
+Time#
+(Minutes)#
+10# 
+10# 
+8#  
+2#  
+6#  
+2#  
+2#  
+5#  
+60# 
+n5#
+
+A survey recorded the scores in a National Curriculum Test.#
+Score#
+(percent)#
+10#
+10#
+8#
+2#
+8#
+10#
+1#
+5#
+60#
+n5#
+
+
+A survey of points scored in the Schools Rugby Championships.#
+Points#
+scored#
+10#
+2#
+8#
+2#
+7#
+5#
+1#
+3#
+12#
+r#
+
+The results of weights in the 'giant pumpkin' competition.#
+weight#
+(pounds)#
+10#
+4#
+8#
+2#
+8#
+10#
+1#
+4#
+24#
+n25#
+
+The heights of sunflowers were recorded in a competition.#
+Height#
+(cms)#
+10#
+20#
+8#
+2#
+8#
+50#
+4#
+20#
+120#
+n0#

@@ -1,0 +1,74 @@
+$ Game 4, level 1, file structure:
+$ (category 1# objects 1,object 2,...#)
+$
+$ length of object string should be less than or equal to 9 characters
+$ <Return> ignored
+
+girls' names#
+Rachel,Sara,Jill,Diana,Anne,Mary,Sonia,Lucy,Kitty,Samantha,Hanna,Sally#
+
+boys' names#
+Jack,Bill,Tom,Pete,Mike,Dan,Tim,Ben#
+
+fruit#
+apples,pears,plums,lemons,bananas,peaches,grapes#
+
+vegetables#
+potatoes,carrots,turnips,cabbages,peas,beans,onions#
+
+animals#
+dog,cat,cow,rat,lion,tiger,crocodile,rabbit,elephant,fox,panda,monkey#
+
+clothes#
+jumper,shirt,jeans,skirt,vest,socks,pants,shorts,scarf,T-shirt#
+
+trees#
+oak,ash,beech,holly,sycamore,poplar,fir,pine,yew,elm#
+
+colours#
+red,green,yellow,blue,purple,brown,pink,scarlet,crimson#
+
+flowers#
+daffodil,daisy,buttercup,dandelion,poppy,tulip,pansy#
+
+drinks#
+tea,coffee,juice,water,milk,lemonade,cola#
+
+numbers#
+one,two,three,four,five,six,seven,eight,nine,ten#
+
+letters#
+a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z#
+
+shapes#
+circle,square,triangle,rectangle,oval,cross#
+
+body#
+hands,feet,legs,head,neck,arms,toes,fingers,chest,hips,knees#
+
+months#
+January,February,March,April,May,June,July,August,September,October,November,December#
+
+family#
+mother,father,sister,grandma,granddad,brother,auntie,uncle,mummy,daddy,grannie#
+
+weather#
+cold,hot,windy,sunny,rainy,cloudy,icy,snowy#
+
+metal#
+iron,copper,silver,gold,lead,tin,chromium#
+
+days#
+Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday#
+
+sounds#
+quack,baa,cheep,meeow,woof,scream,screech,caw,squeak,moo#
+
+water#
+pool,puddle,pond,lake,sea,ocean,loch,mere,tarn#
+
+tools#
+saw,hammer,pliers,spanner,vice,file#
+
+making music#
+drum,recorder,violin,trumpet,piano,triangle,chime-bar,keyboard#
