@@ -1,0 +1,3 @@
+set Inst$Dir <Obey$Dir>
+wimpslot -min 100K -max 100K
+run <Inst$Dir>.!runimage
