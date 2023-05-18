@@ -1,0 +1,114 @@
+Extra notes for 10/10 DRIVING TEST
+
+If you are running the programs from floppy disc ALWAYS USE A BACKUP
+OF DISC 2 as facts like the high scores are constantly being written
+to it. The disc should NOT be write-protected. The discs may only be
+backed up for your own use on a single computer. Copying discs for
+any other reason is tantamount to theft and could lead to prosecution.
+Site licences are available for establishments with more than one
+computer or with a network.
+
+The programs can be installed on a hard disc.  All you need to do is
+double click on the !INSTALL application and then  either enter  a
+directory name where you want the suite to be installed, or simply
+drag a directory box to the !INSTALL window.  The !INSTALL  program
+will then instruct you as to what to do next.
+
+All high scores and results are saved to disc as you exit from the
+game. Ensure that you LEAVE THE GAMES USING THE EXIT OPTION rather
+than pressing Control+Break or the reset button to ensure your facts
+are stored.
+
+Note that with the CURRENT PLAYER set to NONE, you cannot play any of
+the games - select NEW PLAYER and enter a name.
+
+MEMORY
+
+10 out of 10 will run on all Acorn 32-bit computers, but on a 1 Mb
+machine you may have to switch the computer off for a few seconds and
+then turn it back on.
+
+VGA Monitors
+
+A utility is included on Disc 1 to allow the package to run on most
+VGA monitors. It is called !ModeTrans and is inside the !10/10Driv
+application (hold down Shift and double-click on !10/10Driv to see
+it). A help file for the utility is inside the !ModeTrans application
+(hold shift and double-click).
+
+PASS and FAIL CERTIFICATE PRINTING
+
+To print the certificate awarded at the end of 'TAKE TEST' you should
+answer YES to the save prompt and save it onto hard disc or a blank
+formatted disc. You can enter your own filename using the standard
+Acorn "Path.filename" structure.
+
+Depending on your system, a default path or filename is given. If 
+the default ends in a dot it is a path and you should enter a 
+filename before pressing Return. Note that floppy disc users must 
+leave the default path of the floppy drive - usually ADFS::0.$. - 
+in front of the chosen filename.
+
+The saved certificate can be loaded into !Paint and
+printed in the usual way. Alternatively (and better) it can be loaded
+into any DTP package.
+
+We've found that to print an A4 certificate using !Paint on a laser
+printer the parameters to set when you've chosen Print are:
+
+     Landscape
+     X scale       8:5
+     Y scale       7:5
+
+  Make sure the centimetre square is highlighted green then:
+
+     Corner X      .5
+     Corner Y      .5
+
+The shading appears better at 300dpi than 600dpi.
+
+THE QUESTIONS
+
+Unless otherwise stated, all questions refer to British motoring.
+
+Some picture questions show cars displaying arrows. These arrows show
+that the car is moving and its direction of movement. Cars without
+arrows are stationary.
+
+Due to the complex random access file structure used to allow you to
+select any combination of categories for use within a game, none of
+the files should be altered or extended by users. Even a small change
+will cause the programs to fail.
+
+SAVING FILES
+
+All player details are saved in the file Achieve which is kept in the
+Achieves directory - on Disc 2 or as a sub-directory of !10/10Driv on
+hard disc. On floppy disc this cannot be changed and if you want to
+store the achievements of more than 64 players (or split players into
+groups or classes) you should use backups of Disc 2.
+
+On a hard disc you can store several sets of achievements. To create a
+new file of achievements (or to switch to an existing one) type Ctrl+F
+at the Main Menu and you will be shown the current file and given the
+opportunity to change it.
+
+PRINTING THE ACHIEVEMENT RECORD
+
+To print the Achievement Record select Print at the bottom right hand
+corner of the Achievement Record. Choose your required settings, then
+select print.
+
+You can print to disc or printer, but if you select the latter only
+text output is allowed. The text output is in the form of a list of
+your achievements rather than a chart.
+
+If you choose a graphical printout, the Achievement Record is saved to
+disc and can be printed in the same way as a certificate (see above).
+
+Page length and the margins only apply if you send text to a printer.
+Text sent to disc can be loaded into any word processor and printed.
+
+If you print directly from the package note that you should set the
+options so that: Page length + Top margin + Bottom margin should be
+equal to the total length of your sheet of paper.
