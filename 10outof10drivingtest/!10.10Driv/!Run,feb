@@ -1,0 +1,21 @@
+RUN <Obey$Dir>.!SetUp
+WIMPSLOT -min 640K
+RUN <Obey$Dir>.ReadDisc
+SET Disc1$Dir <Obey$Dir>
+<Obey$Dir>.CompLoad
+RMLOAD <Disc1$Dir>.ScnLoad
+PRINT <Disc1$Dir>.Palette
+RMKILL ABC
+<Disc1$Dir>.Samples.10Sounds
+<Disc1$Dir>.Samples.Click
+<Disc1$Dir>.Samples.Clunk
+<Disc1$Dir>.Samples.Cymbal
+<Disc1$Dir>.Samples.False
+<Disc1$Dir>.Samples.Gong
+<Disc1$Dir>.Samples.Horn
+<Disc1$Dir>.Samples.Mirror
+<Disc1$Dir>.Samples.Right
+<Disc1$Dir>.Samples.Synth
+<Disc1$Dir>.Samples.Timer
+<Disc1$Dir>.Samples.Wipers
+<Disc1$Dir>.!RunImage
