@@ -1,0 +1,7 @@
+SET Disc1$Dir <Obey$Dir>
+RMENSURE SQUASH 0.07 RMLOAD <Disc1$Dir>.SqshReader
+RUN <Disc1$Dir>.ReadDisc
+WIMPSLOT -min 432K
+RMLOAD <Disc1$Dir>.Global.KeyMod
+WIMPSLOT -min 256K
+BASIC <Disc1$Dir>.!RunExtra

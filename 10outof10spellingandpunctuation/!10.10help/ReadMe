@@ -1,0 +1,130 @@
+10/10 Spelling & Punctuation.
+
+HELP NOTES
+
+
+GENERAL
+
+ALWAYS USE A BACKUP OF THE DISC as facts like the high scores are constantly
+being written to the disc. Alternatively, the programs can be installed on a 
+HARD DISC. All you need to do is to 'drag' the application to a directory 
+window on your hard disc.
+
+All high scores and results are saved to disc as you exit from the game.
+Ensure that you LEAVE THE GAMES USING THE EXIT OPTION, rather than pressing
+break, to ensure your facts are stored.
+
+
+MEMORY
+
+10 out of 10 will run on all Acorn 32-bit computers, but on a 1 Mb machine
+you may have to switch the computer off for a few seconds and then turn it
+back on.
+
+If "Application needs at least 432K to start up" occurs, even after turning
+the computer off and then on again, you will need to reorganise the memory
+allocation as displayed in the task display to give a combined value of at
+least 432K in NEXT and FREE. (Consult your computer manuals if you are not
+sure how to do this.)
+
+If "Not enough screen memory allocated" occurs, even after turning the
+computer off and then on again, you will need to adjust the screen memory
+in the task display to 160K. (Consult your computer manuals if you are not
+sure how to do this.)
+
+If "No room in RMA" occurs, even after turning the computer off and then on
+again, you may need to increase the MODULE AREA by as much as 160K through
+the task display. (Consult your computer manuals if you are not sure how to
+do this.)
+
+
+VGA MONITORS
+
+A utility is included on the disc to allow the package to run on most VGA
+monitors. It is called !ModeTrans and is inside the !10/10 application (hold
+down shift and double-click on the !10/10 application to see it). A help
+file for the utility is inside the !ModeTrans application (hold shift and
+double-click).
+
+
+CERTIFICATE PRINTING
+
+To print a certificate in graphic form you should select the disc option 
+followed by the graphic option after selecting print certificate. This saves 
+the graphic display to disc which can be loaded into Paint later and printed 
+in the usual way.
+
+If you are running the program from floppy disc, you should save it onto a 
+blank, formatted disc (there is not much room on the 10 out of 10 disc). The 
+saved file will have the name of the player followed by "-C" as the filename 
+(unless it was named otherwise when saved). After saving, the program disc 
+should be inserted before continuing.
+
+If you are running the program from hard disc, you will be given the choice 
+of saving to the hard disc or to a floppy. If saved to the hard disc the 
+file will be saved in a directory named "Certs" which is in the "!10/10SpPu" 
+directory. To access the saved file, exit the program, double click on the 
+"!10/10SpPu" icon with SHIFT held down, then double click on the "Certs" 
+directory.
+
+The saved graphic display can be loaded into Paint and printed in the usual 
+way. We've found that to print an A4 certificate on a laser printer the 
+parameters to set when you've chosen Print are:
+
+     Portrait
+     X scale       3:2
+     Y scale       3:2
+
+  Make sure the centimetre square is highlighted green then:
+
+     Corner X      -3.2   (note the minus)
+     Corner Y       4
+
+
+GAME HINTS
+
+The key controls for Lunarpede and Spheroids are as follows:-
+
+             Keys 1          Keys 2          Keys 3
+
+   Up          '               A           Cursor Up
+   Down        /               Z           Cursor down
+   Left        Z               .           Cursor left
+   Right       X               /           Cursor right
+
+All games can be paused using the P key. To resume, click the mouse or press 
+a key.
+
+Pressing the R key during a game reveals the "topic" currently being used.
+
+
+SPHEROIDS
+
+When using the mouse to guide Douglas, the cross pointer should be positioned
+North, South, East or West for Douglas to move towards the cross. If 
+positioned diagonally away from Douglas then he will not know in which 
+direction to move!
+
+The A icons that Douglas collects are colour coded to match the corresponding
+answer.
+
+The spheroids will automatically start to move after the length of time set 
+aside for reading the question. If you are ready before this time is up, 
+pressing a key or clicking the mouse will start the game immediately.
+
+
+
+LUNARPEDE
+
+Under mouse control, the Lunarpede only changes direction towards the pointer
+when a mouse button is pressed. To make him follow the pointer, keep the 
+mouse button pressed all the time.
+
+Under key control, pressing a direction key makes him turn in that direction.
+
+There is a short pause to enable you to read the question, but pressing a key
+or clicking the mouse will start the game immediately.
+
+The A icons that the Lunarpede collects are colour coded to match the 
+corresponding answer.
+
