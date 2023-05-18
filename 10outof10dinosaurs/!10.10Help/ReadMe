@@ -1,0 +1,69 @@
+Extra notes for 10/10 Dinosaurs
+
+GENERAL
+
+ALWAYS USE A BACKUP OF THE DISC as facts like the high scores are constantly
+being written to it. Alternatively, The programs can be installed on a HARD
+DISC. All you need to do is to 'drag' the application to a directory window
+on your hard disc.
+
+All high scores and results are saved to disc as you exit from the game.
+Ensure that you LEAVE THE GAMES USING THE EXIT OPTION rather than pressing
+break to ensure your facts are stored.
+
+Note that with the CURRENT PLAYER set to EMPTY, the achievement record is
+never altered and high scores are shown within the game being played but not
+saved to disc. If the current player is set to empty and several people
+enter their names for a multi-player game the high score tables are also not
+saved to disc.
+
+EXTRA FEATURE
+
+When on a game menu pressing 'I' will reveal a card index system which will
+show the details of each dinosaur in a database. Click on a dinosaur name to
+reveal its details. Click any button to return to the list of dinosaurs.
+Click on NEXT for the next list of dinosaurs, PREVIOUS for the previous list
+and EXIT to return to the game menu. Pressing ESCAPE has the same effect.
+
+MEMORY
+
+10 out of 10 will run on all Acorn 32-bit computers, but on a 1 Mb machine
+you may have to switch the computer off for a few seconds and then turn it
+back on.
+
+CERTIFICATE PRINTING
+
+To print a certificate in graphic form you should select the disc option
+after you've selected print certificate. You should save it onto a blank,
+formatted disc (there isn't room on the 10 out of 10 discs). The saved file
+will have the name of the player as the filename. This can be loaded into
+Paint and printed in the usual way. We've found that to print an A4
+certificate on a laser printer the parameters to set when you've chosen
+Print are:
+
+     Portrait
+     X scale       3:2
+     X scale       3:2
+
+  Make sure the centimetre square is highlighted green then:
+
+     Corner X      -3.2   (note the minus)
+     Corner Y       4
+
+SPARE RIBS
+
+The questions for the six grades are in files Q1 to Q6 in the Qfile
+directory. If you wish to use your own graded questions just use those names
+on a backup of the disc. Note that as they will become the new questions for
+the grades, the achievement chart will be altered as they are answered.
+
+All your own question files should go in the Qfiles directory and should not
+normally be called Q1 to Q6. When children use them the result will not be
+entered on the achievement chart but high scores will still be obtained.
+
+When you enter your own questions you MUST ensure that EVERY question and
+answer is followed by # and every question has ONE right answer preceded by
+!. If you use Edit to create the file, it's a good idea to move the cursor
+to the top of the file, press F4 and use COUNT to check that there are four
+times as many #s than !s. If the numbers do not match up the game will warn
+you as the file loads. The MAXIMUM number of questions in a file is 256.

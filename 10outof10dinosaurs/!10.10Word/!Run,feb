@@ -1,0 +1,9 @@
+RUN <Obey$Dir>.!SetCode
+WIMPSLOT -min 320K
+SET Words$Dir <Obey$Dir>
+RMRUN <Obey$Dir>.ScnLoad
+PRINT <Obey$Dir>.Palette
+RMKILL ABC
+<Words$Dir>.Screen
+<Words$Dir>.DinoSounds
+<Words$Dir>.!RunImage

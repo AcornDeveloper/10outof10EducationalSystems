@@ -1,0 +1,21 @@
+RUN <Obey$Dir>.!SetCode
+WIMPSLOT -min 512K
+SET 10Din1$Dir <Obey$Dir>
+<Obey$Dir>.CompLoad
+RMLOAD <Obey$Dir>.ScnLoad
+PRINT <Obey$Dir>.Palette
+RMKILL ABC
+<Obey$Dir>.Screen
+<Obey$Dir>.DinoSounds
+<Obey$Dir>.Bump
+<Obey$Dir>.Death
+<Obey$Dir>.Growl
+<Obey$Dir>.Jeep
+<Obey$Dir>.Laugh
+<Obey$Dir>.Mirror
+<Obey$Dir>.Right 
+<Obey$Dir>.Scream
+<Obey$Dir>.Synth
+<Obey$Dir>.Timer
+<Obey$Dir>.Wrong
+<Obey$Dir>.!RunImage
