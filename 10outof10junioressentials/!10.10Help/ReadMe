@@ -1,0 +1,58 @@
+Extra notes for 10/10 Junior Essentials
+
+GENERAL
+
+ALWAYS USE A BACKUP OF THE DISC as facts like the high scores are constantly
+being written to it. Alternatively, The programs can be installed on a HARD
+DISC. All you need to do is to 'drag' the application to a directory window
+on your hard disc.
+
+All high scores and results are saved to disc as you exit from the game.
+Ensure that you LEAVE THE GAMES USING THE EXIT OPTION rather than pressing
+break to ensure your facts are stored.
+
+Note that with the CURRENT PLAYER set to EMPTY, the achievement record is
+never altered and high scores are shown within the game being played but not
+saved to disc. If the current player is set to empty and several people
+enter their names for a multi-player game the high score tables are also not
+saved to disc.
+
+MEMORY
+
+10 out of 10 will run on all Acorn 32-bit computers, but on a 1 Mb machine
+you may have to switch the computer off for a few seconds and then turn it
+back on.
+
+CERTIFICATE PRINTING
+
+To print a certificate in graphic form you should select the disc option
+after you've selected print certificate. You should save it onto a blank,
+formatted disc (there isn't room on the 10 out of 10 discs). The saved file
+will have the name of the player as the filename. This can be loaded into
+Paint and printed in the usual way. We've found that to print an A4
+certificate on a laser printer the parameters to set when you've chosen
+Print are:
+
+     Portrait
+     X scale       3:2
+     X scale       3:2
+
+  Make sure the centimetre square is highlighted green then:
+
+     Corner X      -3.2   (note the minus)
+     Corner Y       4
+
+CUSTOMISING GAMES
+
+The data for all the games is in a directory called WORDS on the disc. You
+can add to or replace any of the word/question files but you must take care
+to follow the same data structure. A guide to the structure is given at the
+start of each file. Any line starting with $ is ignored so you can use these
+to put remarks in your files.
+
+Note that each grade is recognised by the label, for example, GRADE1. There
+is no space between the word and the number. The maximum number of questions
+in any individual grade is 1500, but disc space also limits the overall
+number of questions.
+
+There are no word files for ARTIST.

@@ -1,0 +1,145 @@
+$ Rat Race word file structure
+$ 4. <sub grade>/<correct sentence>/<incorrect sentence>
+$ 6. <sub grade>/<English>/<French>
+$ Grade 4 maximum sentence length 72 characters 
+$         and must contain at least 4 words
+$ Grade 6 maxmimum sentence length 32 characters
+$ Grade 4 and 6 maximum word length 12 characters
+$ sub grade 1-6
+
+GRADE4
+1/That would be excellent./That would be excellent, that.
+1/I've got a new T-shirt./I've got a new T-shirt, me.
+1/It doesn't matter to me./It dozen marrer to me.
+1/Would you say that again?/Come again. Y'what?
+1/This is nearly dry./It's nearly dry, this.
+1/I didn't do it./I didn't do it then, did I?
+1/Are you coming then?/Are you coming like?
+1/I am doing it./Well I'm doing it, aren't I?
+1/That is very good./That's well good, that is.
+1/We'll all come if you wish./Us lot'll come if you want.
+1/That woman's hat is unusual./That woman's hat's a bit nice.
+1/That is very good, Dave./Cor smart one, Dave.
+1/Did you hear that?/Did you 'ere that then?
+1/You're just like a baby./ You're a cry-baby you.
+1/What have you got?/What y'got there then?
+1/The food was all right./The scoff was alright like.
+1/Yes, that is rather nice./Oh aye yeah. That's a bit of alright.
+1/Let go. Let go of me./ Gerroff. You gerroff me, you.
+1/That's very good./ That's good that is.
+1/Be quiet and get into the car./Shut up and ger in the car.
+1/You're trying to fool me./You're jokin' me. 
+1/What are you thinking about now?/Worra ya thinkin about now?
+1/He was going very fast./He was going well fast.
+1/He was moving very fast./He was going dead fast.
+1/It was really cheap./It was dead cheap, it was.
+1/Will you scratch my back please?/Will you itch my back please?
+1/What have you done with it?/What've y'done wiv it?
+1/I haven't been yet./I 'aven't bin yet, have I?
+1/I haven't been there before./I never went there before.
+1/He thinks he's a tough guy./'E thinks 'e's well 'ard 'e does.
+2/You should have gone home./You should of gone home.
+2/We were going to the shops./We was going to the shops.
+2/May I borrow your rubber?/Can I lend your rubber?
+2/I didn't know you were there./I didn't know you was there.
+2/We won that game./We winned that game.
+2/Pass me those books./Pass me them books.
+2/We have seen nobody./We haven't seen nobody.
+2/We haven't seen anybody./We haven't seen nobody.
+2/We'll have these in next./We'll have these ones in next.
+2/Share it among the three of us./Share it between us three.
+2/He tried very hard./He tried well hard.
+2/He and I are going to town./Me and him are going to town, right?
+2/She and I are best friends now./Me and her are best friends now.
+2/I like those new jeans you have./I like them new jeans you got.
+2/You and I'll go./You and me'll go.
+2/I like those best./I like them ones best.
+2/I've got my foot stuck./I just got me foot stuck.
+2/I beat him in the race./I won 'im in the race.
+2/I'll see you all later./I'll see yous later.
+2/You should have gone to detention./You should ov gone to det.
+2/City could have won easily./City could ov won easy.  
+2/Pass me those books, please./Pass me them books, please.
+2/We won the last game./We winned the last game.
+2/I did my homework last night./I done my homework last night.
+2/That's my very best toy./That's my bestest toy.
+2/Can I borrow a pen from you?/Can I lend a pen off you?
+2/I got a present from Peter./I got a present off Peter.
+2/It doesn't matter any more./It don't matter no more.
+3/Their mission was to go boldly into the unknown./Their mission was to boldly go into the unknown. 
+3/The kitten was heard to cry loudly for its mother./The kitten was heard to loudly cry for its mother.
+3/They stopped briefly to watch the game./They stopped to briefly watch the game.
+3/The little pig worked quickly to build his house of straw./The little pig worked to quickly build his house of straw.
+3/The little pig worked to build his house of straw quickly./The little pig worked to quickly build his house of straw.
+3/She stepped forward very eagerly to receive her prize./She stepped forward to very eagerly receive her prize.
+3/She stepped forward to receive her prize very eagerly./She stepped forward to very eagerly receive her prize.
+3/The teacher agreed to extend slightly the time allowed for homework./The teacher agreed to slightly extend the time allowed for homework.
+3/The dog jumped up to growl fiercely at the stranger./The dog jumped up to fiercely growl at the stranger.
+3/To sing so sweetly is a rare talent./To so sweetly sing is a rare talent.
+3/We have time to listen to this CD once more./We have time to once more listen to this CD.
+3/I am not clever enough to work out the answers mentally./I am not clever enough to mentally work out the answers.
+3/It is my job once again to organise the disco./It is my job to  once again organise the disco.
+3/It is my job to organise the disco once again./It is my job to  once again organise the disco.
+3/It was decided not to allow eating in class./It was decided to not allow eating in class.
+3/We were taught always to wash our hands./We were taught to always wash our hands.
+3/The children were told never to talk to strangers./The children were told to never talk to strangers.
+3/You are not allowed to have only chips for dinner./You are not allowed to only have chips for dinner.
+3/John was told to go immediately and apologise./John was told to immediately go and apologise. 
+3/John was told to go and apologise immediately./John was told to immediately go and apologise. 
+3/It is wrong to answer back continually./It is wrong to continually answer back.
+GRADE6
+1/Ascenseur/Lift
+1/Attention/Caution
+1/Banque /Bank
+1/Caisse/Cashiers Desk
+1/Dames /Ladies
+1/Défense de fumer/No smoking 
+1/Eau non potable/water not for drinking
+1/Eau potable/Drinking water
+1/Entrée/Entrance
+1/Fermé/Closed
+1/Libre/Vacant
+1/Libre/unoccupied
+1/Messieurs/Gentlemen
+1/Ne pas toucher/Do not touch
+1/Occupe/Engaged
+1/Occupe/occupied
+1/Poussez/Push
+1/Privé/Private
+1/Renseignements/Information
+1/Sortie/Exit
+1/Sortiede secours/Emergency Exit
+1/Tirez/Pull
+1/Toilettes/Toilets
+2/Arrivée/Arrivals 
+2/Autobus/Buses
+2/Billets/Tickets
+2/C'est loin/Is it far?
+2/Change/Exchange
+2/Combien vous dois-je?/how much is it?
+2/Départ/Departures
+2/Est-ce que cette place libre?/Is this seat free?
+2/Location/Booking office
+2/Métro/Underground
+2/Où sont les toilettes?/Where are the toilets
+2/Quai/Platform
+2/Quel est le prix du billet?/What is the fare?
+2/Salle d'attente/Waiting room
+2/Y a-t-il un office du tourisme?/Is there a tourist office?
+3/Attention travaux/Road works ahead
+3/Feux/traffic lights
+3/Gravillons/Beware flying stones
+3/Piétons/Pedestrians
+3/Roulez lentement/Slow
+3/Route étroite/Narrow road
+3/Rue barrée/Road blocked
+3/Rue sans issue/Dead end
+3/Sens interdit/No entry
+3/Sens unique/One way
+3/Stationnement autorisé/Parking allowed
+3/Stationnement interdit/No parking 
+3/Tenez votre droite/keep right
+3/Toutes directions/Through traffic
+3/Virages/Curves; winding road
+3/Vitesse limite/Maximum speed
+3/Zone bleue/Restricted parking

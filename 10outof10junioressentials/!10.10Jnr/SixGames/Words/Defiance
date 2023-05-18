@@ -1,0 +1,480 @@
+$ Defiance word file structure
+$ 1. <sub grade>/<product>/<true shop>/<false shop> ...
+$          (true+false less than 17 parts )  
+$ 2. <sub grade>/<letter%letter>/<pair>/<pair>...    maximum word length 6
+$          (% shows where <pair> is missed from word - first <pair>
+$            only must make a real word)
+$ 3. <sub grade>/<sentence>
+$   % before words to swap (not first word), no punctuation except ? and .
+$ 4. <sub grade>/<substance>/<substance>
+$          (sub grades are solids, liquids and gases)
+$ 5. <sub grade>/<sentence>/<sentence>/<sentence>/<true 1>/<true 2>/<true 3>
+$          (be careful: decoy words are taken from elsewhere in the grade)
+$ maximum word length 12 characters
+$ maximum sentence, shop length 64 characters
+$ sub grade 1-3
+
+GRADE1
+1/a stamp/Post Office/Shoe Shop/Bakers/Hairdressers/Timber Yard/Florist
+1/an emerald ring/Jewellers/Newsagent/Post Office/Shoe Shop/Bakers/Butchers
+1/some nails/timber yard/Pet Shop/Toy Shop/Bakers/Post Office/Newsagent
+1/a hammer/DIY store/Garden Centre/Sweet Shop/Shoe Shop/Butchers/Greengrocers
+1/a lemon/Greengrocers/Sweet Shop/Jewellers/Pet Shop/Chemist/Bakers
+1/some ham/Butchers/Bakers/Book Shop/Hairdressers/Lauderette/Sweet Shop
+1/baked beans/supermarket/Butchers/Newsagent/Toy Shop/Pet Shop/Bakers 
+1/flowers/florist/Sweet Shop/Shoe Shop/Hairdressers/Pet Shop/Bakers
+1/toilet paper/Supermarket/Butchers/Bakers/Toy Shop/Pet Shop/Barbers
+1/toothpaste/Supermarket/Butchers/Bakers/Toy Shop/Pet Shop/Barbers
+1/a doll/Toy Shop/Sweet Shop/Pet Shop/Shoe Shop/Garden Centre/Butchers
+1/a cat/Pet Shop/Sweet Shop/Bakers/Shoe Shop/Supermarket/Florist
+1/a magazine/Newsagent/Garden Centre/Hairdressers/Bakers/Grocers/Butchers
+1/slippers/Shoe Shop/Garden Centre/Supermarket/Bakers/Florist/Chemist
+1/French bread/Bakers/Sweet Shop/Garden Centre/Butchers/Barbers/Chemist
+1/some paint/DIY store/Grocers/Butchers/Barbers/Florist/Carpet Shop
+1/cornflakes/Supermarket/Sweet Shop/Book Shop/Hairdressers/Bakers/Butchers
+1/a teddy/Toy Shop/Bakers/Butchers/Shoe Shop/Florist/Pet Shop
+1/a saw/DIY store/Garden Centre/Sweet Shop/Shoe Shop/Butchers/Grocers
+1/some pears/Greengrocers/Sweet Shop/Jewellers/Pet Shop/Chemist/Bakers
+1/bread/Bakers/Sweet Shop/Garden Centre/Butchers/Barbers/Chemist
+2/a melon/Greengrocers/Sweet Shop/Jewellers/Pet Shop/Chemist/Bakers
+2/some tablets/Chemist/Sweet Shop/Bakers/Butchers/Barbers/Garden Centre
+2/a bracelet/Jewellers/Garden Centre/Pet Shop/Hairdressers/Post Office/Butchers
+2/beef/Butchers/Toy Shop/Barbers/Bakers/Pet Shop/Book Shop
+2/ear-rings/Jewellers/Toy Shop/Garden Centre/Bakers/Pet Shop/Butchers
+2/an orange/Greengrocers/Sweet Shop/Jewellers/Pet Shop/Chemist/Bakers
+2/some medicine/Chemist/Sweet Shop/Bakers/Butchers/Barbers/Garden Centre
+2/a ruby ring/jewellers/Pet Shop/Shoe Shop/Chemist/Launderette/Bakers/Butchers
+2/pork/Butchers/Bakers/Sweet Shop/Book Shop/Hairdressers/Chemist
+2/a watch/Jewellers/Newsagent/Post Office/Shoe Shop/Bakers/Butchers
+2/chewing gum/Sweet Shop/Book Shop/Florist/Bakers/Butchers/Barbers
+2/a necklace/Jewellers/Garden Centre/Pet Shop/Hairdressers/Post Office/Butchers
+2/biscuits/Supermarket/Pet Shop/Book Shop/Butchers/Barbers/Lauderette
+2/a car/Garage/Sweet Shop/Hairdressers/Toy Shop/Bakers/Butchers
+2/some pasta/Supermarket/Sweet Shop/Book Shop/Hairdressers/Bakers/Butchers
+2/some pears/greengrocers/Post Office/Sweet Shop/Timber Yard/Butchers/Pet Shop
+2/wall paper/DIY store/Garden Centre/Sweet Shop/Shoe Shop/Butchers/Grocers
+2/wood/timber yard/Pet Shop/Toy Shop/Bakers/Post Office/Newsagent
+2/a hamster/Pet Shop/Sweet Shop/Barbers/Butchers/Bakers/Jewellers
+2/some petrol/garage/Sweet Shop/Hairdressers/Toy Shop/Bakers/Butchers
+3/a pencil/Stationers/Chemist/Off Licence/Sweet Shop/Bakers/Hairdressers
+3/a jar of jam/Supermarket/Sweet Shop/Book Shop/Hairdressers/Bakers/Butchers
+3/a dictionary/Book Shop/Sweet Shop/Bakers/Butchers/Jewellers/Barbers
+3/lemonade/Supermarket/Shoe Shop/Chemist/Pet Shop/Bakers/Hairdressers
+3/beer/Off Licence/Pet Shop/Book Shop/Chemist/Jewellers/Bakers
+3/a plant/Garden Centre/Sweet Shop/Chemist/Off Licence/Jewellers/Bakers
+3/a dog/Pet Shop/Shoe Shop/Garden Centre/Bakers/Butchers/Supermarket
+3/some wine/Off Licence/Pet Shop/Book Shop/Chemist/Jewellers/Bakers
+3/a card game/Toy Shop/Sweet Shop/Garden Centre/Bakers/Hairdressers/Butchers
+3/liquorice/Sweet Shop/Bakers/Garden Centre/Jewellers/Off Licence/Chemist
+3/some flour/Supermarket/Off Licence/Chemist/Jewellers/Sweet Shop/Hairdressers
+3/compost/Garden Centre/Pet Shop/Sweet Shop/Barbers/Butchers/Jewellers
+3/paper/Stationers/Chemist/Off Licence/Sweet Shop/Bakers/Hairdressers
+3/a diamond ring/Jewellers/Florist/Bakers/Butchers/Grocers/Sweet Shop
+3/mince meat/Butchers/Bakers/Book Shop/Hairdressers/Lauderette/Sweet Shop
+3/a puppy/Pet Shop/Sweet Shop/Bakers/Butchers/Supermarket/Jewellers
+3/mints/Sweet Shop/Bakers/Barbers/Garden Centre/Jewellers/Shoe Shop
+3/a newspaper/newsagent/Shoe Shop/Bakers/Hairdressers/Timber Yard/Florist
+3/some apples/grocers/Jewellers/Timber Yard/Toy Shop/Shoe Shop/Off Licence
+3/oil/garage/Sweet Shop/Lauderette/Shoe Shop/Toy Shop/Butchers
+3/food/supermarket/Jewellers/Florist/Timbers Yard/Shoe Shop/Toy Shop
+GRADE2
+1/%an/th/ch/da/ed/kn/sh/si/sk/sl/st/tr/tw
+1/%at/wh/cl/cr/da/ed/si/st/tr
+1/%ay/st/ba/ch/ed/kn/sc/sh/si/sk
+1/%em/th/ch/cl/cr/da/ed/kn/pl/sc/sh/si/sk/sl
+1/%en/th/ch/cl/cr/da/kn/pl/sh/sk/sl/sp/tr/tw
+1/%en/wh/ch/cl/cr/da/kn/pl/sc/sh/si/sl/sp
+1/%ip/sk/ba/cr/ed/sc/si/sp/st/th
+1/%is/th/ch/cl/cr/ed/kn/pl/sc/sh/si/sl/sp
+1/%om/fr/ba/cl/cr/ed/kn/sc/sh/si/sk/sl/sp/st/th/tr
+1/%op/st/ba/ed/kn/sc/si/sk/sp/th
+1/b%t/es/at/or/ow/re/ri/ro/ul/ur/os/il/is/uf
+1/d%n/ow/al/as/at/el/or/ra/re/ri/ro/ul/ur/us/ol/os/il
+1/h%p/el/al/an/at/in/or/ow/ra/re/ri/ro/ur/us/os/il/uf
+1/k%d/in/al/an/ar/as/at/el/or/ow/ra/re/ri/ro/us/ol/os
+1/m%y/an/al/as/at/el/in/ow/ra/re/ri/ro/ul/ur/us/ol/os
+1/s%d/an/al/ar/as/at/el/ra/re/ri/ro/ul/us/os/is/uf
+1/t%d/ol/an/as/at/el/in/or/ow/ra/ri/ul/us/os/il/is/uf
+1/t%k/al/ar/at/el/in/or/ow/ra/ro/ul/ol/os/il/is/uf
+1/w%h/it/al/an/ar/at/el/in/or/ow/ra/re/ri/ro/ul/ur/us
+1/w%t/an/al/as/in/ra/re/ro/ul/ur/us/ol/os/uf
+1/we%/nt/ck/ss/th/tt/ch/at/ew/ip/op/ow/am/im/od/un
+1/b%d/an/as/at/el/ri/ro/ul/ur/us/os/il/is/uf
+1/b%d/ir/as/at/el/ow/ri/ro/ul/ur/us/os/is/uf
+1/b%d/re/as/at/el/or/ri/ro/ul/ur/us/os/il/is/uf
+1/b%g/an/ar/as/at/el/or/ow/re/ro/ol/os/il/is/uf
+1/b%h/at/al/an/ar/el/in/or/ow/ra/re/ri/ro/ul/ur/ol/il
+1/b%k/an/al/at/el/in/or/ow/ra/re/ri/ro/ol/os/is
+1/b%k/ar/al/at/el/in/or/ow/ra/re/ri/ro/us/ol/os/is
+1/b%p/um/al/an/ar/as/at/el/in/or/ow/ra/re/ri/ro/ul/us
+1/b%t/oa/at/or/ow/re/ri/ro/ul/ur/os/il/is/uf
+1/c%d/ar/an/as/at/el/in/ow/ra/ri/ul/us/os/il/is/uf
+1/c%n/or/al/an/ar/as/at/el/in/ow/re/ri/ul/ur/ol/os/il
+1/d%k/ar/al/as/at/el/in/or/ow/ra/re/ri/ro/ul/ur/ol/os
+1/d%p/ri/al/an/ar/as/at/in/ow/ra/re/ul/ur/us/ol/os/il
+1/d%p/ro/al/an/ar/as/at/in/ow/ra/re/ul/ur/us/ol/os/il
+1/d%w/ra/al/an/ar/as/at/el/in/or/ow/ri/ro/ul/ur/us/ol
+1/g%w/ro/al/an/ar/as/at/el/in/or/ow/ra/ri/ul/ur/us/ol
+1/h%d/an/as/at/in/ow/ra/re/ri/ro/ul/ur/us/os/il/is/uf
+1/h%d/el/al/as/at/ow/ra/re/ri/ro/ul/ur/us/os/il/is/uf
+1/h%d/er/al/as/at/ow/ra/re/ri/ro/ul/ur/us/os/il/is/uf
+1/h%d/ol/al/as/at/ow/ra/re/ri/ro/ul/ur/us/os/il/is/uf
+1/l%d/en/al/as/at/el/in/ow/ra/re/ri/ro/ur/us/ol/os/il
+1/l%t/en/al/an/ar/at/el/or/ra/re/ri/ro/ul/ur/ol
+1/m%d/in/al/as/at/el/or/ow/ra/re/ri/ro/ul/ur/us/os/is
+1/m%k/il/al/at/el/or/ow/ra/re/ri/ro/ul/ol/os/is/uf
+1/n%t/ex/al/an/ar/as/el/in/or/ra/re/ri/ro/ul/ur/us/ol
+1/p%k/ar/al/an/as/at/el/ow/ra/re/ro/ul/ur/us/ol/os/il
+1/p%s/as/ar/el/or/ow/ra/ri/ul/ur/ol/uf
+1/p%t/ar/al/at/ow/re/ri/ro/ul/ur/us/ol/il/uf
+1/r%g/an/al/ar/as/at/el/or/ow/ra/re/ri/ro/ul/ur/us/ol
+1/r%g/in/al/ar/as/at/el/or/ow/ra/re/ri/ro/ul/ur/us/ol
+1/s%d/ol/al/ar/as/at/el/ra/re/ri/ro/ul/us/os/is/uf
+1/s%g/an/ar/as/at/el/or/ow/ra/re/ri/ro/ul/ur/us/ol/os
+1/s%k/an/as/at/el/or/ow/ra/re/ri/ro/ur/us/ol/os/is/uf
+1/t%k/an/ar/at/el/in/or/ow/ra/ro/ul/ol/os/il/is/uf
+1/t%n/or/al/as/at/el/re/ri/ro/ul/us/ol/os/il/is/uf
+1/w%d/in/as/at/ow/ra/re/ri/ro/ul/ur/us/os/is/uf
+1/w%h/as/al/an/ar/at/el/in/or/ow/ra/re/ri/ro/ul/ur/us
+1/w%m/ar/al/an/as/at/el/in/ow/ra/re/ri/ro/ul/ur/us/ol
+1/w%n/or/al/an/as/at/el/in/ow/ra/ri/ro/ul/ur/us/ol/os
+2/ba%/ll/tt/ch/an/ap/at/ew/ip/op/ow/am/im/od/ar/un
+2/be%/ll/tt/ch/ew/ip/it/op/ow/im/od/un
+2/bu%/ll/th/an/ap/at/ew/ip/it/op/ow/am/im/od/ar/un
+2/ca%/ll/tt/an/ap/at/ew/ip/it/op/ow/am/im/od/ar/un
+2/do%/ll/tt/ch/an/ap/at/ew/ip/it/op/ow/am/im/od/ar/un
+2/fa%/ll/ss/th/tt/an/ap/at/ew/ip/it/op/ow/am/im/od/ar
+2/fa%/st/ss/th/tt/an/ap/at/ew/ip/it/op/ow/am/im/od/ar
+2/fe%/ll/ck/th/tt/st/ch/an/ap/ew/ip/it/op/ow/am/im/od
+2/fi%/ll/ck/th/tt/ch/an/ap/ew/ip/it/op/ow/am/im/od/ar
+2/fi%/sh/ck/th/tt/ch/an/ap/ew/ip/it/op/ow/am/im/od/ar
+2/gi%/rl/ck/ss/th/tt/ch/an/ap/at/ew/ip/it/op/ow/am/im
+2/ki%/ck/tt/st/ch/an/ap/at/ew/ip/it/op/ow/am/im/od/ar
+2/la%/nd/ll/tt/ch/an/ap/at/ew/ip/it/op/ow/am/im/od/ar
+2/la%/st/ll/tt/ch/an/ap/at/ew/ip/it/op/ow/am/im/od/ar
+2/lo%/ng/tt/at/ew/ip/it/ow/im/od/ar/un
+2/me%/ss/ck/th/tt/st/ap/ew/ip/it/op/am/im/od/ar/un
+2/mo%/st/tt/ch/ap/ew/ip/it/op/ow/am/im/ar/un
+2/pl%/ay/ck/ll/ss/th/tt/st/ch/ap/at/ew/ip/it/am/im/ar
+2/pu%/ll/th/st/ch/an/ap/at/ew/ip/it/op/ow/am/im/od/ar
+2/ro%/ll/th/tt/st/ch/ap/at/ew/ip/it/op/ow/im/un
+2/so%/ck/ll/th/tt/st/ch/an/at/ew/ip/it/op/ow/am/im/od
+2/ta%/ll/ss/th/tt/st/ch/an/ap/at/ew/ip/it/op/ow/am/im
+2/te%/ll/ck/ss/th/tt/an/ap/ew/ip/it/op/ow/im/od/un
+2/ve%/ry/ck/ll/ss/th/tt/ch/an/ap/at/ew/ip/it/op/ow/am
+2/wa%/lk/ck/ss/th/ch/an/ap/at/ew/ip/op/ow/am/im/od/ar
+2/wa%/ll/ck/ss/th/an/ap/at/ew/ip/op/ow/am/im/od/ar/un
+2/we%/ll/ck/ss/th/tt/ch/at/ew/ip/op/ow/am/im/od/un
+2/wi%/ll/ss/tt/an/ap/at/ew/ip/it/op/ow/am/im/od/ar/un
+2/ba%/ck/tt/ch/an/ap/at/ew/ip/op/ow/am/im/od/ar/un
+2/bo%/lt/ck/tt/ch/an/ap/ew/ip/it/op/ow/am/im/od/un
+2/bo%/ss/ck/tt/ch/an/ap/ew/ip/it/op/ow/am/im/od/un
+2/du%/ck/ss/th/tt/an/ap/at/ew/ip/it/op/ow/am/im/od/ar
+2/fa%/rm/ss/th/tt/an/ap/at/ew/ip/it/op/ow/am/im/od/ar
+2/fe%/lt/ck/th/tt/st/ch/an/ap/ew/ip/it/op/ow/am/im/od
+2/fi%/nd/ck/th/tt/ch/an/ap/ew/ip/it/op/ow/am/im/od/ar
+2/fl%/ed/ck/ll/ss/th/tt/st/ch/am/im/od/ar/un
+2/fl%/ew/ck/ll/ss/th/tt/st/ch/am/im/od/ar/un
+2/fr%/og/ck/ll/ss/th/tt/st/ch/an/ap/at/op/am/im/od/ar
+2/fu%/ll/th/tt/st/ch/an/ap/at/ew/ip/it/op/ow/am/im/od
+2/ha%/ll/ss/tt/an/ap/at/ew/ip/it/op/ow/am/im/od/ar/un
+2/he%/lp/th/tt/st/ch/an/ew/ip/it/op/ow/am/im/od/un
+2/hi%/ll/th/tt/st/ch/an/ap/at/ew/ip/it/op/ow/am/im/od
+2/ki%/ll/tt/st/ch/an/ap/at/ew/ip/it/op/ow/am/im/od/ar
+2/ki%/ss/tt/st/ch/an/ap/at/ew/ip/it/op/ow/am/im/od/ar
+2/la%/ss/ll/tt/ch/an/ap/at/ew/ip/it/op/ow/am/im/od/ar
+2/lo%/st/tt/at/ew/ip/it/ow/im/od/ar/un
+2/lu%/ck/ss/th/tt/ch/an/ap/at/ew/ip/it/op/ow/am/im/od
+2/mi%/ll/th/ch/an/ap/at/ew/ip/it/op/ow/am/im/od/ar/un
+2/mu%/st/th/an/ap/at/ew/ip/it/op/ow/am/im/od/ar/un
+2/ne%/st/th/ch/an/ew/ip/it/op/ow/am/im/od/un
+2/pa%/ck/ch/an/ap/at/ew/ip/it/op/ow/am/im/od/ar/un
+2/pi%/ck/tt/ch/an/ap/at/ew/ip/it/op/ow/am/im/od/ar/un
+2/ro%/ck/tt/st/ch/ap/at/ew/ip/it/op/ow/im/un
+2/sa%/ck/ll/th/tt/st/ch/an/ap/at/ew/ip/it/op/ow/am/im
+2/se%/ll/ck/ss/st/ch/ew/ip/it/op/ow/im/od/un
+2/si%/ck/ss/th/tt/st/ch/ap/at/ew/ip/it/op/ow/im/od/ar
+2/su%/ch/ll/th/tt/st/an/ap/at/ew/ip/op/ow/am/im/od/ar
+2/ti%/ck/ss/st/an/ap/at/ew/ip/it/op/ow/am/im/od/ar/un
+2/tr%/ap/ck/ll/ss/th/tt/st/ch/an/ew/it/ar/un
+3/%ad/gl/cr/ed/kn/sc/sh/si/sk/sl/sp/st/th
+3/%ap/sl/ba/ed/sc/si/sk/sp/st/th
+3/%ar/st/ba/cl/cr/ed/kn/sh/si/sk/sl/th/tr
+3/%by/ba/ch/cl/cr/ed/kn/sc/sh/si/sk/sl/sp/st/th/tr
+3/%ed/bl/cl/da/ed/kn/sc/sk/th/tw
+3/%ep/st/ba/ch/cl/cr/ed/kn/sc/sh/si/sk/sl/sp/th/tr
+3/%ew/bl/da/ed/pl/sc/si/th/tr/tw
+3/%ig/tw/ch/cl/cr/da/ed/kn/pl/sc/sh/si/th
+3/%in/th/cl/cr/da/ed/kn/pl/sc/si/sl/st/tr
+3/%ip/sl/ba/cr/ed/sc/si/sp/st/th
+3/%ld/fo/ch/cl/cr/ed/kn/sc/sh/sk/sl/sp/st/th/tr
+3/%op/pl/ba/ed/kn/sc/si/sk/sp/th
+3/%op/sh/ba/ed/kn/sc/si/sk/sp/th
+3/%ot/sp/ba/ch/cr/ed/sc/si/sk/th
+3/%ow/bl/cl/da/ed/si/sk/sp/th/tw
+3/%ow/sh/ba/cl/ed/si/sk/sp/th
+3/%ow/sl/cl/da/ed/si/sk/sp/th/tw
+3/%ow/sn/cl/da/ed/si/sk/sp/th/tw
+3/%ud/th/ch/ed/kn/pl/sh/si/sl/tr/tw
+3/bi%/ll/ck/ss/th/st/an/ap/at/ew/ip/it/op/ow/am/im/od
+3/bo%/ld/ck/tt/ch/an/ap/ew/ip/it/op/ow/am/im/od/un
+3/bo%/th/ck/tt/ch/an/ap/ew/ip/it/op/ow/am/im/od/un
+3/bu%/zz/th/an/ap/at/ew/ip/it/op/ow/am/im/od/ar/un
+3/co%/ld/ss/ch/an/ap/ew/ip/it/ow/am/im/od/ar/un
+3/de%/sk/ss/st/ch/ap/at/ew/ip/it/op/ow/am/im/od/un
+3/di%/sh/tt/an/ap/at/ew/ip/it/op/ow/am/im/od/ar/un
+3/fi%/zz/ck/th/tt/ch/an/ap/ew/ip/it/op/ow/am/im/od/ar
+3/fu%/zz/th/tt/st/ch/an/ap/at/ew/ip/it/op/ow/am/im/od
+3/ga%/ng/ck/ss/th/tt/st/ch/an/ap/at/ew/ip/op/ow/am/im
+3/ju%/mp/ck/ll/ss/th/tt/ch/an/ap/at/ew/ip/it/op/ow/am
+3/ju%/st/ck/ll/ss/th/tt/ch/an/ap/at/ew/ip/it/op/ow/am
+3/li%/ck/ll/ss/th/tt/ch/an/ap/at/ew/ip/it/op/ow/im/od
+3/lo%/ck/tt/at/ew/ip/it/ow/im/od/ar/un
+3/lo%/rd/tt/at/ew/ip/it/ow/im/od/ar/un
+3/mu%/ch/th/an/ap/at/ew/ip/it/op/ow/am/im/od/ar/un
+3/pu%/nt/th/st/ch/an/ap/at/ew/ip/it/op/ow/am/im/od/ar
+3/pu%/sh/th/st/ch/an/ap/at/ew/ip/it/op/ow/am/im/od/ar
+3/ri%/ch/ss/th/tt/st/an/ap/at/ew/ip/it/op/ow/am/im/od
+3/si%/ng/ss/th/tt/st/ch/ap/at/ew/ip/it/op/ow/im/od/ar
+3/ye%/ll/ck/ss/th/tt/st/ch/an/ap/at/ew/ip/it/op/ow/am
+GRADE3
+1/I will swim in the %water at the %seaside.
+1/Away in a %manger no %crib for a bed.
+1/Did the %dog eat the %bone?
+1/Did the %leaf fall off the %tree?
+1/Is there %time for %play?
+1/My %train has one green %engine.
+1/The %dog ate the %bone.
+1/The %leaf fell off the %tree.
+1/The %man drove the %car.
+1/The big bad %wolf ate the little %pig.
+1/There was no %time for %play.
+1/Does Ian like %reading books about %cars?
+1/I know that %three twos make %six.
+1/I like %reading books about %flying.
+1/Tom is watching the %football on %TV.
+1/Are you %happy with the %arrangement?
+1/Elephants lift %branches using their %trunks.
+1/Is Jane's %diamond ring %genuine?
+1/Is the %science room full of %smoke?
+1/It's %shocking to hear %mocking birds cry.
+1/The %diamond ring was not %genuine.
+1/The %science %room is very interesting.
+1/The boy climbed the %tree near the %river.
+1/The fat boy %eats between his %meals.
+1/The policeman %stopped the %traffic.
+1/We are very %happy %here.
+2/I saw the %farmer plough the %field.
+2/Suji knew the %answer to every %question.
+2/An %egg fell off the %table.
+2/Did you see a %farmer plough the %field?
+2/Is it %time to have %dinner?
+2/It is %time to have %dinner.
+2/The %cuckoo sings in %June.
+2/The %flowers are growing on the %trees.
+2/The %girl is riding the %horse.
+2/The %little boy rode his %red bicycle.
+2/The %workman climbed up the %ladder.
+2/The tall %grass tickled the %boy.
+2/What %colour was the boy's %bicycle? 
+2/What %colour is David's %car?
+2/Why did %Roger climb up the %ladder?
+2/Why does the %cuckoo sing in %June?
+2/I can %hear the dog barking from %here.
+2/Julius %Caesar was a Roman %emperor.
+2/Mary %wrote a letter and %posted it.
+2/Every %year I go to Wales for my %holiday.
+2/I am %enjoying my %book.
+2/It is %too cold %to play outside.
+2/The day after %Wednesday is %Thursday.
+2/Where is the %man who mends their %shoes?
+2/Who %threw the stone %through the window?
+3/I hear a %barking dog and a %tooting horn.
+3/I hear a %hooting owl and a %tooting horn.
+3/I heard the %bells on Christmas %day.
+3/I want to have %sausages for my %lunch.
+3/A %kangaroo carries its young in a %pouch.
+3/A merry %heart goes all the %day.
+3/As the lion %roared the monkey %chattered.
+3/Did the cat squeal when %you stood on %it?
+3/Did you %miss the %train?
+3/Did you hear the %bells on %Christmas day?
+3/Do you want to have a %pie for your %lunch?
+3/He bought five %ties and a pair of %socks.
+3/It was %raining %heavily.
+3/The dress was in the %shop %window.
+3/The moon has a %face like a %clock.
+3/The old %moon laughed and %sang a song.
+3/The princess wears a %string of %beads.
+3/Was it %raining %heavily?
+3/Which %girl was carrying the %briefcase?
+3/Why did she %need five %ties?
+3/We were too %late to %catch the train.
+3/I read the %article in today's %newspaper.
+3/Ivy %stirred her tea before she %drank it.
+3/Golden %slumbers %kiss your eyes.
+3/In %Flanders fields the %poppies blow.
+3/In April the %frozen stream is %melted.
+3/Is Asim going %home %tomorrow?
+3/It depends %whether the %weather improves.
+3/It's nearly time to %go and %get ready.
+3/My cousin %John has a sister called %Mary
+3/Oh, to be in %England in %April.
+3/Put the book %on the table %by the fire.
+3/Is the %book on the table by the %fire?
+3/We %buried him darkly at %dead of night.
+3/We are going to %Spain for our %holiday.
+3/Where are %you going for %your holiday?
+3/Where the bee %sucks there %suck I.
+3/Would %you like to come with %me?
+GRADE4
+1/cheese
+1/clay
+1/sand
+1/cotton
+1/foam
+1/diamond
+1/ruby
+1/emerald
+1/silver
+1/gold
+1/leather
+1/plastic
+1/cardboard
+1/iron
+1/paper
+1/rubber
+1/soap
+1/stone
+1/meat
+1/potato
+1/copper
+1/iron
+1/candle
+1/beeswax
+1/steel
+1/glass
+1/string
+1/rope
+1/soil
+1/rock
+1/concrete
+1/celluloid
+1/aluminium
+1/dough
+1/bread
+1/cake
+1/biscuit
+1/butter
+1/toffee
+1/wood
+1/wire
+1/bakelite
+1/perspex
+1/carpet
+1/cling-film
+1/foil
+1/hard-board
+1/chipboard
+1/ice
+1/ice-lolly
+1/chalk
+1/limestone
+1/peat
+1/sugar
+1/flour
+1/zinc
+1/lead
+1/brass
+1/pot
+1/marble
+1/coral
+1/polystyrene
+1/PVC
+1/polythene
+2/lemonade
+2/orange juice
+2/coffee
+2/tea
+2/cocoa
+2/chocolate
+2/horlicks
+2/beer
+2/wine
+2/paint
+2/petrol
+2/diesel
+2/turpentine
+2/white spirits
+2/vinegar
+2/sauce
+2/mayonnaise
+2/water
+2/ink
+2/milk
+2/mercury
+2/paraffin
+2/ether
+2/chloroform
+2/honey
+2/olive oil
+2/antifreeze
+2/quicksilver
+2/methanol
+2/dettol
+3/steam
+3/oxygen
+3/ozone
+3/nitrogen
+3/nitrous oxide
+3/helium
+3/neon
+3/air
+3/ammonia
+3/radon
+3/hydrogen
+3/carbon dioxide
+3/carbon monoxide
+3/sulphur dioxide
+3/chlorine
+3/propane
+3/butane
+3/methane
+3/ethane
+3/krypton
+3/xenon
+3/florine
+GRADE5
+1/Rescue a infant/Rescue a male parent/Rescue a female parent/baby/father/mother
+1/Rescue a royal youth/Rescue a country's head/Rescue a king's wife/prince/king/queen
+1/Rescue a royal maiden/Rescue a royal sire/Rescue a king's spouse/princess/king/queen
+1/Save a young human/Save a daddy/Save a Mummy/child/father/mother
+1/Capture a small goat/Capture a male goat/Capture a female goat/kid/billy-goat/nanny-goat
+1/ Lift out a youthful cow/Lift out father cow/Lift out mother cow/calf/bull/cow
+1/Life-save the baby hen/Life-save the male hen/Life-save the female hen/chicken/cock/hen
+1/Rescue the young dog/Rescue the guard dog/Rescue the guard dog's wife/puppy/dog/bitch
+1/Net the baby lion/Net the male lion/Net the female lion/cub/lion/lioness
+1/Save a little cat/Save a boy-cat/Save a girl-cat/kitten/tom-cat/tabby-cat
+2/Scoop up a red-indian baby/Scoop up a red-indian dad/Scoop up a red-indian mama/papoose/brave/squaw
+2/Haul in a brother's son/Haul in a dad's brother/Haul in dad's sister/nephew/uncle/aunt
+2/Haul in a brother's daughter/Haul in a mum's brother/Haul in mum's sister/niece/uncle/aunt
+2/Haul in a sister's son/Haul in a dad's brother/Haul in dad's sister/nephew/uncle/aunt
+2/Haul in a sisters's daughter/Haul in a mum's brother/Haul in mum's sister/niece/uncle/aunt
+2/Net a baby bear/Net a father bear/Net a mother bear/cub/bear/she-bear
+2/Protect baby swan/Protect the husbandly swan/Protect the wifely swan/cygnet/cob/pen
+2/Scoop up the young duck/Scoop up the man-duck/Scoop up the woman-duck/duckling/drake/duck
+2/Gather up the baby goose/Gather up the father goose/Gather up the mother goose/gosling/gander/goose
+2/Snare the young tiger/Snare the male tiger/Snare the female tiger/cub/tiger/tigress
+2/Haul in a baby horse/Haul in a father horse/Haul in a mother horse/foal/stallion/mare
+2/Trap a young wolf/Trap a male wolf/Trap a female wolf/cub/wolf/she-wolf
+3/Catch a little pig/Catch Mr. Pig/Catch Mrs. Pig/piglet/boar/sow
+3/Save a young deer/Save a masculine deer/Save a feminine deer/fawn/buck/hind
+3/Fish out a young hare/Fish out 'old man hare'/Fish out mistress hare/leveret/buck/doe
+3/Net the young fox/Net Mr. Fox/Net Mrs. Fox/cub/dog-fox/vixen
+3/Hold the baby eagle/Hold the male eagle/Hold the female eagle/eaglet/eagle/eagle
+3/Pocket the baby ferret/Pocket the male ferret/Pocket the female ferret/hob/hold/jill
+3/Net the baby leopard/Net the male leopard/Net the female leopard/cub/leopard/leopardess
+3/Rescue the baby owl/Rescure the mother owl/Rescue father owl/owlet/owl/owl
+3/Gather up the baby sheep/Gather up daddy sheep/Gather up mummy sheep/lamb/ram/ewe
+3/Catch the baby deer/Catch Master deer/Catch Mistress deer/fawn/stag/hind
+3/Find the young of a bee/Find the male-type bee/Find the mother-bee/grub/drone/queen-bee

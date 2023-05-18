@@ -1,0 +1,386 @@
+$ Stones word file structure
+$ 1. <sub grade>/<time>/<time> ....
+$ 2. <sub grade>/<event>/<event> ....
+$ 4. <sub grade>/<sentence>/<member>/<member> ....
+$ 5. <sub grade>/<correct>/<false>
+$ 6. <sub grade>/<sentence>
+$ maximum length of each part must be 32 characters or less
+$ each entry must have from 4 to 16 parts to it except grade 6
+$ which has a normal sentence separated by spaces.
+$ On grade 4 care must be taken that members belong to one set only as
+$ false answers are taken from other questions.
+$ On grade 5 the correct words must be 4 to 16 characters long.
+
+GRADE1
+1/Apr/May/Jun/July/Aug
+1/Feb/Mar/Apr/May/Jun
+1/Jan/Feb/Mar/Apr/May
+1/Mar/Apr/May/Jun/July
+1/breakfast/elevenses/lunch/tea/supper
+1/spring/summer/autumn/winter
+1/sunrise/midday/afternoon/sunset/night
+1/Aug/Sept/Oct/Nov/Dec
+1/July/Aug/Sept/Oct/Nov
+1/Jun/July/Aug/Sept/Oct
+1/May/Jun/July/Aug/Sept
+1/New Year's Day/Easter/mid-summers day/All Hallows' Eve/bonfire night/Christmas
+1/baby/schoolgirl/mum/gran/great grandma
+1/cave/stone hut/wooden hut/thatched house/brick house
+1/dawn/morning/midday/evening/night
+1/rush light/candle/oil lamp/gas mantle /electic lamp
+1/second/minute/hour/day/week/month/year
+2/Black death/Great Plague/Great Fire/London Blitz/IRA bombings
+2/Town crier/broadsheet/newspapers/radio/TV
+2/balloon/air ship/aeroplane/jetplane/space shuttle
+2/camp fire/hearth fire/gas stove/electric stove/microwave oven
+2/club/spear/crossbow/musket/rifle
+2/horse/chariot/elephant/armoured car/tank
+2/hour/day/week/fortnight/month/year
+2/Nursery/Infant/Junior/Secondary/College
+2/Vikings/Romans/Saxons/Normans  
+2/baby/schoolboy/dad/grandad/great grandad
+2/egg/caterpillar/chrysalis/butterfly
+2/ice age/stone age/bronze age/iron age
+2/rub sticks/tinderbox/matches/petrol lighter/gas lighter/electronic ignition
+2/sling shot/cross-bow/cannon/AA gun/V1 rocket/guided missile
+2/stone/clay/papyrus/skins/paper
+3/78's/45's/lp's/tapes/cd's/cd roms
+3/foot/horse/hansom cab/train/bus/intercity train
+3/log/coracle/galleon/steam ship/ocean liner
+3/quill pen/nib pen/fountain pen/biro/fibre tip/cartridge pen
+3/Andrew/Edward/Anne/Charles
+3/George I/George II/George III/George IV/William IV
+3/James I/James II/Charles I/Charles II/William III
+3/crystal set/valve radio/transistor radio/TV/Satellite TV
+3/daily/weekly/monthly/annual/centennial
+3/horse-power/wind-power/steam engine/diesel engine/nuclear power
+GRADE2
+1/boil the egg/crack the shell/take off the top/eat the egg/throw the egg-shell away
+1/decide to clean your shoes/find the polish and brush/put polish on the shoes/brush the shoes/finish off with a soft cloth/put polish away.
+1/fill bath/test the water/undress/climb in/wash/climb out/get dry/get dressed
+1/find medicine/shake bottle/take off lid/pour onto spoon/swallow medicine/put medicine away
+1/find pen and paper/write your letter/find an envelope/address the envelope/put a stamp on/walk to the post box/post your letter.
+1/get plant-pot/fill with soil/plant bulb/water it/see green shoot/look at flower
+1/go to bed/go to sleep/wake up/get out of bed/wash and dress/have breakfast/off to school
+1/go to playground/think what to do/pick the slide/climb the steps/sit on slope/slide down/stand-up/have another go
+2/pack your things/climb into the car/go near the beach/leave the car in the car park/walk to the beach/take off your shoes/paddle in the water/dry your feet/put your shoes on/go home
+2/pick up your dice/shake them/throw them/add the numbers together/move that number of spaces
+2/set table/serve dinner/eat dinner/serve pudding/eat pudding/clear table
+2/take two slices of bread/spread them with butter/spread the jam on one piece /put the top slice on/cut into two sandwiches/eat them.
+2/take your bucket and spade/fill the bucket with sand/smooth it off/turn it upside down on the beach/hit the top with your spade/lift the bucket off/look at the sand pie.
+2/think what to do/decide to watch TV/switch on TV/choose the channel/watch the programme/turn off
+2/turn on tap/fill the bowl/put in some soap/wash the cups/dry the cups/put them away
+2/wash face/put on coat/leave house/lock door/walk to shops/do shopping/walk home
+2/go to library/choose book/go home/read story/return book/pick a new book
+2/find a button/thread needle/hold button on/sew it on/fasten off thread/cut thread
+2/sandpaper door/get paint and brush/remove lid of paint/stir paint/start at top of door/work to bottom/put lid on paint/clean brush/put paint and brush away
+2/get biscuit recipe/get what is needed/weigh ingredients/mix together/roll out dough/cut biscuit shapes/place on tin/put in oven/cook biscuits/remove from oven/cool/eat
+2/light oven to warm/scrub a potato/prick with fork/put in oven/test with knife/remove when cooked/cut open/add dab of butter/ready to eat
+2/find calculator/switch on/enter number/press add sign/enter second number/press equals sign/read off answer
+2/finger is cut/get plaster/clean cut/disinfect cut/fix on plaster/put plaster away
+2/put test tablet in mouth/chew up tablet/swish around mouth/spit out/wash out mouth/examine teeth in mirror/look for red patch
+2/fill kettle /boil water/warm tea pot/put tea into pot/add boiling water/allow to brew/pour out tea
+GRADE4
+1/Hop on some trees/oak/pine/willow/birch/sycamore/ash/beech/yew/elm
+1/Step on the cars/Astra/Chevette/Mini/Cadillac
+1/Walk on the furniture/chair/table/stool/bed
+1/Jump on some rivers/Thames/Severn/Aire/Ganges/Nid/Rhine
+1/Leap on some girls names/Rachel/Sara/Jill/Diana/Anne/Mary/Sonia/Lucy/Kitty
+1/Skip on some boys names/Jack/Bill/Tom/Pete/Mike/Dan/Tim/Ben
+1/Hop on some fruits/apples/pears/plums/lemons/bananas/peaches/grapes
+1/Walk on the vegetables/potatoes/carrots/turnips/cabbages/peas/beans/onions
+1/Find some animals/dog/cat/cow/rat/lion/tiger/crocodile/rabbit/fox/panda
+1/Hop on some clothes/jumper/shirt/jeans/skirt/vest/socks/pants/shorts/scarf
+1/Leap on the colours/red/green/yellow/blue/purple/brown/pink/scarlet
+1/Tread on the flowers/daffodil/daisy/buttercup/dandelion/rose/poppy/tulip/pansy
+1/Find some birds/robin/blackbird/magpie/crow/budgie/eagle/seagull/owl/canary
+1/Find some fish/salmon/cod/shark/goldfish/sardine/herring/trout/carp/pike
+1/Hop on some drinks/tea/coffee/juice/water/milk/lemonade/cola/beer
+1/Walk on the numbers/one/two/three/four/five/six/seven/eight/nine
+1/Hop on the letters/a/b/c/d/e/f/g
+1/Skip on the shapes/circle/square/triangle/rectangle/oval
+2/Find some food/cheese/chips/biscuit/bread/crackers/crisps/cornflakes/beans
+2/Discover parts of the body/hands/feet/legs/head/neck/arms/toes/chest/hips/knees
+2/Jump on some months/January/February/March/April/May/June/July
+2/Find members of the family/mother/father/sister/grandma/granddad/brother
+2/Look for some babies/kitten/puppy/foal/chicken/lamb/calf/duckling
+2/Leap on weather words/cold/hot/windy/sunny/rainy/cloudy/icy/snowy
+2/Jump on some metals/iron/copper/silver/gold/lead/tin/chromium
+2/Hop on gases/oxygen/nitrogen/argon/krypton/neon/chlorine
+2/Walk over some days/Monday/Tuesday/Wednesday/Thursday/Friday
+2/Step on sounds/quack/baa/cheep/meeow/woof/scream/caw/squeak/moo
+2/Leap on some water/pool/puddle/pond/lake/sea/ocean/loch/tarn
+2/Jump on some tools/saw/hammer/pliers/screwdriver/spanner
+2/Skip on musical instruments/drum/recorder/violin/trumpet/piano/keyboard
+GRADE5
+1/spring/the first season of the year
+1/drink/what you would like when thirsty
+1/sleep/you do this every night
+1/bread/used to make sandwiches
+1/paper/you can write on this
+1/father/your male parent
+1/water/this falls as rain
+1/kitten/this is a baby cat
+1/dinner/your main meal of the day
+1/snow/it may fall in winter
+1/chair/used for sitting on
+1/false/this is not true
+1/first/it comes before second
+1/stamps/you put them on envelopes
+1/blind/if you are you cannot see
+1/night/it follows day
+1/night/the time of darkness
+1/dream/what you do when you are asleep
+1/feast/a really grand meal
+1/saucer/your cup sits on this
+1/window/you can look out through this
+1/outside/this is not inside
+1/lucky/you are this if you win a raffle
+1/yesterday/the day before today
+1/basket/mother might carry shopping in it
+2/thunder/noise after a flash of lightning
+2/needle/used with thread when sewing
+2/Princess/daughter of the King and Queen
+2/music/a tuneful sound
+2/pillow/you rest your head on it in bed
+2/shallow/the opposite to deep
+2/stranger/someone you do not know
+2/crumb/a small piece of biscuit or bread
+2/pudding/what you eat after dinner
+2/gloves/these keep your hands warm
+2/shower/a short period of rain
+2/towel/you use this to dry yourself
+2/brain/ you need this to think with
+2/young/the opposite of old
+2/repair/mend something that is broken
+2/thief/someone who steals things
+2/blood/the red liquid inside your body
+2/friend/the one you like to play with
+2/breakfast/your first meal of the day
+2/wheel/a bicycle has two of these
+2/spider/a small creature with eight legs
+2/daisy/a small white flower
+2/answer/you hope that yours is right
+2/empty/there's nothing in it
+2/shadow/it follows you when it is sunny
+2/kettle/Polly put this on
+2/kettle/water is boiled in it
+2/smail/it carries its house with it
+3/coward/a person who is not brave
+3/dozen/there are 12 in it
+3/harvest/the gathering-in of the crops
+3/kitchen/where meals are cooked in your house
+3/serpent/another name for a snake
+3/orchard/there are a lot of fruit trees here
+3/curtains/they hang by the window
+3/wages/payment for a job done
+3/camel/an animal used in the desert
+3/fresh/the opposite of stale
+3/paddle/what you might do at the seaside
+3/paddle/what you might do in a canoe
+3/laugh/you usually do this when highly amused
+3/visitor/someone who comes to your house
+3/engine/this is needed to make your car move
+3/sparrow/this is a common garden bird
+3/distant/a long way away from you
+3/arrive/get to where you are going
+3/polish/make things shine
+3/alone/all by yourself
+3/potato/used to make chips
+3/believe/think something is true
+3/honey/food made by bees
+3/yolk/the yellow part of an egg
+3/crawl/move on hands and knees
+4/protect/shield from harm
+4/station/go here to catch a train
+4/prison/where criminals are put
+4/cousin/your aunt's child
+4/escape/avoid being caught
+4/peace/much wanted during wars
+4/thousand/this is ten times a hundred
+4/reward/a payment for help given
+4/wealthy/having a lot of money
+4/petrol/a fuel used to run an engine
+4/guest/someone invited to stay
+4/square/a shape which has four equal sides
+4/picnic/a meal eaten out-of-doors
+4/hedge/a closely planted row of bushes
+4/flour/used to make bread and cakes
+4/flour/made by grinding wheat and corn
+4/piano/a musical instrument with a keyboard
+4/weigh/find the mass of something
+4/people/all of mankind
+4/cruel/being very unkind
+4/pencil/you can draw or write with it
+4/address/this is where you live
+4/drawer/you might keep your clothes here
+5/arrange/put things neatly into order
+5/favourite/the one that you like best
+5/silence/the absence of sound
+5/branch/a limb of a tree
+5/regret/be sorry for what you have done
+5/confess/own up to a misdeed
+5/destroy/break beyond repair
+5/purse/you can keep money in this
+5/examine/look at very closely
+5/imagine/picture inside your head
+5/nursery/a place where young are cared for
+5/breeze/a light and gentle wind
+5/yawn/you do this when you are very tired
+5/pickle/preserve in vinegar
+5/improving/getting better all the time
+5/private/a junior rank in the army
+5/dismiss/send away from a place of work
+5/divide/separate into pieces
+5/mischief/a child's playful wrong-doing
+5/prevent/stop something happening
+5/squeeze/press out of shape
+6/spectator/someone who watches a game
+6/canal/a navigable man-made water-way
+6/failing/turning out badly and without success
+6/burglar/one who breaks into a house at night
+6/library/a collection of books
+6/dungeon/an old fashioned prison
+6/future/a time which has not yet come
+6/manufacture/produce man-made articles
+6/disappear/vanish suddenly from sight
+6/gradually/by regular and slow steps
+6/choir/many voices singing together
+6/encourage/urge someone into action
+6/frozen/made solid by cold
+6/impossible/it cannot be done
+6/approach/come near to
+6/several/more than two but not many
+6/search/hunt for what is missing
+6/mistake/an error made by accident
+6/accident/an unintended event
+6/distinct/very easy to see or understand
+6/buy/acquire with money
+6/paddle/this is found on some old river boats
+6/attack/it is said to be the best defence
+6/fortnight/this is two weeks
+6/voyage/a journey by sea
+GRADE6
+1/A stitch in time saves nine
+1/Barking dogs seldom bite
+1/Boys will be boys
+1/Charity begins at home
+1/Crime does not pay
+1/Curiosity killed the cat
+1/Easier said than done
+1/Fair exchange is no robbery
+1/First come first served
+1/Forgive and forget
+1/Honesty is the best policy
+1/In for a penny, in for a pound
+1/It never rains but it pours
+1/It takes two to tango
+1/Let sleeping dogs lie
+1/Like father, like son
+1/Like mother, like daughter
+1/Live and let live
+1/Look before you leap
+1/Many hands make light work
+1/New brooms sweep clean
+1/Old habits die hard
+1/Once bitten, twice shy
+1/Out of sight out of mind
+1/Practice makes perfect
+1/Revenge is sweet
+1/Seeing is believing
+1/Seek and ye shall find
+1/The exception proves the rule
+1/There's no place like home
+1/Third time lucky
+1/Time and tide wait for no man
+1/Tomorrow never comes
+1/Too many cooks spoil the broth
+1/Two heads are better than one
+1/Two's company three's a crowd
+1/Variety is the spice of life
+1/Waste not, want not
+1/You can't please everyone
+2/A bad workman always blames his tools
+2/A fool and his money are soon parted
+2/A leopard cannot change its spots
+2/A rolling stone gathers no moss
+2/Absence makes the heart grow fonder
+2/All good things must come to an end
+2/All is fair in love and war
+2/An apple a day keeps the doctor away
+2/Beauty is only skin deep
+2/Beggars cannot be choosers
+2/Cleanliness is next to godliness
+2/Don't put all your eggs in one basket
+2/Every cloud has a silver lining
+2/Every dog has his day
+2/Familiarity breeds contempt
+2/Garbage in, garbage out
+2/He laughs best who laughs last
+2/It's never too late to mend
+2/Jack of all trades, master of none
+2/Let bygones be bygones
+2/Make hay while the sun shines
+2/Money is the root of all evil
+2/More haste, less speed
+2/Never look a gift horse in the mouth
+2/No time like the present
+2/One cannot put back the clock
+2/One good turn deserves another
+2/One man's meat is another man's poison
+2/Practise what you preach
+2/The customer is always right
+2/The early bird catches the worm
+2/The first step is the hardest
+2/There is safety in numbers
+2/There's no smoke without fire
+2/There's no time like the present
+2/Things are not always what they seem
+2/Two wrongs do not make a right
+2/What you don't know can't hurt you
+2/What's worth doing is worth doing well
+2/When the cat's away the mice will play
+2/Where there's a will there's a way
+2/You can't get blood out of a stone
+3/A change is as good as a rest
+3/A friend in need is a friend indeed
+3/A thing of beauty is a joy forever
+3/Actions speak louder than words
+3/All's well that ends well
+3/Appearances are deceptive
+3/Ask a silly question, get a silly answer
+3/Beauty is in the eye of the beholder
+3/Blood is thicker than water
+3/Bread is the staff of life
+3/Children should be seen and not heard
+3/Civility costs nothing
+3/Courtesy costs nothing
+3/Cut your coat according to your cloth
+3/Do as you would be done by
+3/Do not wear out your welcome
+3/First impressions are the most lasting
+3/First think, and then speak
+3/Forbidden fruit is the sweetest
+3/Half a loaf is better than no bread
+3/Home is where the heart is
+3/It's better to be sure than sorry
+3/Knowledge is power
+3/Life is just a bowl of cherries
+3/Little things please little minds
+3/Look after number one
+3/Love is blind
+3/No man is indispensable
+3/Nothing ventured, nothing gained
+3/One swallow does not make a summer
+3/One wedding brings another
+3/Penny wise, pound foolish
+3/Possibilities are infinite
+3/Prevention is better than cure
+3/Set a thief to catch a thief
+3/Slow but sure wins the race
+3/Strike while the iron is hot
+3/The unexpected always happens
+3/Truth is stranger than fiction
+3/Well begun is half done
+3/Where there's muck there's money
+3/You can't have your cake and eat it

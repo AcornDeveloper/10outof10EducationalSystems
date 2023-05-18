@@ -1,0 +1,278 @@
+$ Break Up word file structure
+$ 2. <sub grade>/<word>/<word>
+$ 4. <sub grade>/<event>/<true date>/<false date> ...
+$ maximum word length 12 characters
+$ maximum event sentence length 32 characters 
+$ and must have four dates in total
+$ sub grade 1-6
+
+GRADE2
+1/big/little
+1/thin/fat
+1/first/last
+1/back/front
+1/fast/slow
+1/front/back
+1/full/empty
+1/hot/cold
+1/slow/fast
+1/more/less
+1/happy/sad
+1/rich/poor
+1/good/bad
+1/black/white
+1/up/down
+1/in/out
+1/old/new
+2/dry/wet
+2/right/wrong
+2/tall/short
+2/bottom/top
+2/large/small
+2/dead/alive
+2/awake/asleep
+2/pretty/ugly
+2/nice/nasty
+2/light/dark
+2/asleep/awake
+2/danger/safety
+2/like/dislike
+2/true/false
+2/begin/end
+2/push/pull
+2/wild/tame
+2/night/day
+2/open/shut
+2/young/old
+2/hello/good-bye
+2/come/go
+2/hard/soft
+3/empty/full
+3/buy/sell
+3/few/many
+3/dirty/clean
+3/child/adult
+3/sweet/sour
+3/dwarf/giant
+3/early/late
+3/east/west
+3/most/least
+3/glad/sorry
+3/lose/find
+3/backwards/forwards
+3/before/after
+3/borrow/lend
+3/bright/dull
+3/wide/narrow
+3quiet/noisy
+3/north/south
+3/rise/fall
+3/start/finish
+3/heavy/light
+3/bright/dull
+3/clean/dirty
+3/far/near
+3/first/last
+3/outside/inside
+3/few/many
+4/bitter/sweet
+4/able/unable
+4/afraid/unafraid
+4/agree/disagree
+4/appear/disappear
+4/approve/disapprove
+4/breakable/unbreakable
+4/certain/uncertain
+4/civilized/uncivilized
+4/comfortable/uncomfortable
+4/common/uncommon
+4/complete/incomplete
+4/connect/disconnect
+4/curable/incurable
+4/distinct/indistinct
+4/eatable/uneatable
+4/edible/inedible
+4/educated/uneducated
+4/employed/unemployed
+4/equal/unequal
+4/even/uneven
+4/expensive/inexpensive
+4/fair/unfair
+4/fortunate/unfortunate
+4/friendly/unfriendly
+4/grateful/ungrateful
+4/happy/unhappy
+4/healthy/unhealthy
+4/honest/dishonest
+4/important/unimportant
+4/interesting/uninteresting
+4/kind/unkind
+4/known/unknown
+4/lucky/unlucky
+4/mortal/immortal
+4/necessary/unnecessary
+4/obedient/disobedient
+4/patient/impatient
+4/pleasant/unpleasant
+4/polite/impolite
+4/popular/unpopular
+4/possible/impossible
+4/pure/impure
+4/regular/irregular
+4/responsible/irresponsible
+4/selfish/unselfish
+4/sense/nonsense
+4/trust/distrust
+4/visible/invisible
+5/busy/idle
+5/coward/hero
+5/deep/shallow
+5/bent/straight
+5/divide/multiply
+5/love/hate
+5/remember/forget
+5/arrive/depart
+5/attack/defend
+5/enemy/friend
+5/cool/warm
+5/wise/foolish
+5/fresh/stale
+5/future/past
+5/peace/war
+5/raise/lower
+5/victory/defeat
+5/here/there
+5/absent/present
+6/blunt/sharp
+6/bold/timid
+6/common/rare
+6/expand/contract
+6/attract/repel
+6/inhale/exhale
+6/inflate/deflate
+6/include/exclude
+6/humble/proud
+6/internal/external
+6/joy/sorrow
+6/generous/mean
+6/harden/soften
+6/difficult/easy
+6/natural/artificial
+6/ascend/descend
+6/entrance/exit
+6/loose/tight
+6/decrease/increase
+6/question/answer
+6/innocent/guilty
+6/stupid/clever
+6/create/destroy
+6/accept/refuse
+6/admit/deny
+6/advance/retreat
+6/rough/smooth
+6/broad/narrow
+GRADE4
+1/Battle Of Hastings/1066/1610/1892/1936
+1/Black Death Reaches Europe/1348/1892/1965/1822
+1/No children under 9 in factories/1833/1766/1677/1925
+1/The Birth Of Shakespeare/1564/1842/1912/1980
+1/The Fire Of London/1666/1942/1840/1921
+1/Bronze Age/1000 BC/5000 BC/1000/1960
+1/Elephants lived in England/8000 BC/100 BC/100/250
+1/Flint tools used in England/16,000 BC/1940/1724/1000
+1/Stonehenge built/2000 BC/10/100/1500
+1/Alfred the Great became king/871/450/900/1101
+1/Gunpowder plot/1605/1899/1914/1939  
+1/First Atomic bomb used/1945/1820/1768/1117
+1/Television invented/1926/1980/1962/1815
+1/Spartans defeated at Thermopylae/480 BC/55 BC/86/126
+1/Athenians win battle of Marathon/490 BC/87 BC/647/1043
+1/Britain conquered by Romans/55 BC/101 BC/200 BC/75
+1/Britain invented postage stamp/1840/1903/1751/1931
+1/First railway in world - Britain/1825/1936/1278/1741
+1/Captain Cooke explored Australia/1768/1542/1850/1938
+1/First car in Britain/1895/1795/1870/1919
+1/Great Pyramids built in Egypt/2500 BC/1000 BC/500/1928
+2/Bank Of England Founded/1694/1034/1920/1839
+2/The first Vikings arrive/790/1610/1823/1567
+2/Elizabeth I ascended the throne/1588/1965/1073/1852
+2/Industrial revolution starts/1750/1320/1624/1984
+2/Alfred became King/869/1645/145/1954
+2/Introduction -'The Mines Act'/1842/1943/1948/350
+2/Romans beat the Iceni uprising/47/150/15 BC/1650
+2/Boudicca lost. Iceni destroyed/61/100 BC/1400/1066
+2/Iceni used coins/10 BC/500 BC/300/750
+2/Romans left Britain/410/25/55 BC/750
+2/Bannockburn-Robert the Bruce/1314/1740/1912/1856
+2/Bone needles used in Britain/7000 BC/500/630/1850
+2/The Great Plague of London/1664/1936/1715/1957
+2/James I became king/1603/1920/354/1812
+2/The tank invented/1916/1740/1501/1963
+2/Aeroplanes invented/1903/100 BC/1699/1842
+2/Submarine invented/1884/1926/1651/1939
+2/Romans defeat Attila the Hun/451/1000 BC/980/1198
+2/Spanish Armada defeated/1588/1793/1800/1918
+2/Watt invented the Steam Engine/1769/1457/1142/1919
+3/Food rationing ended in Britain/1954/1985/1665/1992
+3/Margaret Thatcher became P.M./1979/1881/1954/1972
+3/Margaret Thatcher resigned/1990/1975/1982/1981
+3/First English settle in America/1607/1749/1834/1960
+3/First settlement in Australia/1788/1500/1908/1004
+3/Battle of Waterloo/1815/1942/1208/687
+3/Charles I beheaded/1649/1723/1870/1910
+3/Commonwealth- Oliver Cromwell/1649/1215/1010/1864
+3/Battle of Hastings/1066/942/540/1735
+3/Mayflower reached America/1620/1777/1801/1909
+3/First French steam car/1769/1800/1825/1850
+3/Black Death kills 1m people/1348/1666/1718/1923
+3/English civil war/1642/1735/1887/1960
+3/First practical steam ship sailed/1802/1276/1765/1934
+3/Suez canal built/1869/1969/1772/1433
+3/First overseas radio message/1901/1766/1822/1951
+4/Black Death Reaches Europe/1348/1292/1165/1422
+4/The Birth Of Shakespeare/1564/1442/1212/1310
+4/The Fire Of London/1666/1442/1540/1321
+4/Airship invented/1900/1800/1700/1500
+4/Bell invented the telephone/1876/1842/1900/1936
+4/Howe invented Sewing Machine/1841/1941/1741/1641
+4/Columbus discovered America/1492/1600/550/61
+4/Elizabeth I becomes Queen/1558/1690/1723/1930
+4/Quebec won from French/1759/1890/1911/1972
+4/General Wolfe captures Quebec/1759/1118/1312/1086
+4/East India Company abolished/1858/1900/1578/1652
+4/First Viceroy of India/1858/1900/1578/1652
+4/Queen Anne coronation/1702/1399/1502/1378
+4/British rule India/1760/1538/1893/1944
+4/Printing press invented/1450/1705/1659/1843
+4/Round the World sail (Magellan)1522/1690/1701/823
+5/Bank Of England Founded/1694/1534/1720/1239
+5/Alfred became King/869/1245/245/654
+5/Battle of Trafalgar/1805/1953/1810/1928
+5/Crimean War/1853/1913/1120/1366
+5/Battle of El Alemein/1942/1899/1702/1014
+5/Canada taken from the French/1759/1880/1920/1944
+5/Jenner introduces vaccination/1785/1865/1800/1938
+5/First mercury thermometer/1721/1840/1903/1922
+5/Shakespere died/1616/1790/1860/1912
+5/Edward VII coronation/1901/1874/1925/1936
+5/Queen Victoria coronation/1837/1880/1901/1915
+5/East India Company found Madras/1639/1241/1853/1748
+5/Ireland conquered by Henry II/1172/1450/1670/1860
+5/Napoleon defeated at Waterloo/1815/1915/1696/1134
+5/William IV King of England/1830/1928/1544/1899
+6/Margaret Thatcher became P.M./1979/1981/1978/1980
+6/Margaret Thatcher resigned/1990/1989/1992/1991
+6/Battle of Britain/1940/1025/1378/1612
+6/First Jet passenger flights/1952/1914/1944/1978
+6/First man in earth orbit/1961/1980/1975/1955
+6/George V coronation/1910/1954/1963/1972
+6/Elizabeth II becomes Queen 1952/1963/1945/1950
+6/First U.K. atom power station/1956/1910/1972/1990
+6/First CENSUS in Great Britain/1801/1670/1902/456
+6/World War II began/1939/1956/1867/1040
+6/World War I began/1914/1840/1931/23 BC
+6/Winston Churchill- P.M./1940/1823/1911/1935
+6/World War II ends/1945/1946/1954/1944
+6/World War I ends/1918/1914/1928/1911   
+6/D-day landings/1944/1943/1952/1941
+6/Pearl harbour attacked/1941/1931/1951/1961

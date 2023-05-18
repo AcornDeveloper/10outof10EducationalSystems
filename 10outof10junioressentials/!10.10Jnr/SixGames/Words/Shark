@@ -1,0 +1,445 @@
+$ Shark word file structure
+$ 2. <sub grade>/<sentence>/<true>/<false>/<false>
+$ 5. <sub grade>/<sentence>/<true>/<false>/<false>/<false>
+$ 6. <sub grade>/<true>/<false>/<false> ...
+$ max sentence length 128 characters use '&' to split at desired point
+$ or else programs splits where convenient
+$ true     maximum length 12 characters
+$ false    maximum length 12 characters 3 entries required
+$ max word length 12 characters, 32 characters in total
+$ sub grade 1-6
+
+GRADE2 
+1/Little Red-Riding Hood lived in the forest/fiction/fact/opinion
+1/There are seven days in a week/fact/opinion/fiction
+1/I used to be a little baby/fact/opinion/fiction
+1/I was a pretty little baby/opinion/fact/fiction
+1/England used to have a king/fact/fiction/opinion
+1/Queens are better than Kings/opinion/fact/fiction
+1/School dinners are nice/opinion/fiction/fact
+1/School is fun/opinion/fact/fiction
+1/Snow is not hot/fact/fiction/opinion
+1/Christmas Day is in December/fact/opinion/fiction
+1/It is too rainy in England/opinion/fiction/fact
+1/Cinderella went to the ball/fiction/fact/opinion
+1/Cinderella wore glass slippers/fiction/fact/opinion
+1/The Three Bears ate porridge for breakfast/fiction/opinion/fact
+1/Jack and Jill went for a pail of water/fiction/fact/opinion
+1/Jak and Jill were not very careful/opinion/fact/fiction
+1/Most children love corn-flakes/opinion/fiction/fact
+1/The dish ran away with the spoon/fiction/opinion/fact
+1/The frog turned into a handsome prince/fiction/opinion/fact
+1/I don't believe that the frog turned into a prince/opinion/fact/fiction
+1/It is going to rain today/opinion/fact/fiction
+1/It rained last week/fact/fiction/opinion
+1/Humpty Dumpty fell off the wall/fiction/opinion/fact
+1/Humpty Dumpty wasn't sensible sitting on a wall/opinion/fact/fiction
+1/Rapunzel had very long hair/fiction/fact/opinion
+1/The streets of London were paved with gold/fiction/fact/opinion
+1/Many children keep cats as pets/fact/opinion/fiction
+1/Puss-in-Boots was a clever cat/fiction/opinion/fact
+1/Cats eat too much food/opinion/fiction/fact
+1/Peter Rabbit wears a blue coat/fiction/fact/opinion
+2/The Romans came to England because it was nice and cool/opinion/fiction/fact
+2/All fireworks are dangerous/opinion/fact/fiction
+2/The Romans built many roads in Britain/fact/fiction/opinion
+2/The Romans built houses with central heating/fact/opinion/fiction
+2/The Vikings really came to settle down in England/opinion/fiction/fact
+2/Eggs are good for breakfast/opinion/fiction/fact
+2/People should not drink tea with their meals/opinion/fact/fiction
+2/Apples taste better than oranges/opinion/fiction/fact
+2/Dogs have four legs/fact/opinion/fiction
+2/Dogs make the best pets/opinion/fact/fiction
+2/The Ancient Britons didn't enjoy themselves/opinion/fact/fiction
+2/Some children like to ride horses/fact/opinion/fiction
+2/Horse-riding is good fun/opinion/fiction/fact
+2/Pegasus was a horse that could fly/fiction/opinion/fact
+2/The television has stopped children reading/opinion/fiction/fact
+2/Rabbits eat lettuce/fact/fiction/opinion
+2/Rabbits are hard to look after/opinion/fact/fiction
+2/People in England used to live in tribes/fact/opinion/fiction
+3/The Romans killed Christians/fact/fiction/opinion
+3/Rome is in Italy/fact/opinion/fiction
+3/Julius Caesar came to Britain/fact/opinion/fiction
+3/Julius Caesar was murdered/fact/fiction/opinion
+3/Julius Caesar came to Britain in 55 B.C./fact/opinion/fiction
+3/History is a very interesting subject/opinion/fiction/fact
+3/Hadrian's Walls runs from Newcastle to Carlisle/fact/fiction/opinion
+3/Strawberry ice-cream is better than vanilla/opinion/fact/fiction
+3/You must boil an egg for 3 minutes/opinion/fact/fiction
+3/Everybody likes chess/opinion/fiction/fact
+3/The Vikings came from Denmark/fact/opinion/fiction
+3/The Vikings sailed in Longboats/fact/fiction/opinion
+3/The Vikings were very brave/opinion/fact/fiction
+3/The Vikings raided England/fact/fiction/opinion
+3/Some Vikings came to live in England/fact/fiction/opinion
+3/Julius Caesar was a boastful man/opinion/fiction/fact
+3/Elephants have good memories/opinion/fiction/fact
+3/Wild elephants are found in Africa/fact/fiction/opinion
+3/Britannia was the Roman name for England/fact/fiction/opinion
+3/Brer Rabbit outwitted Brer Fox/fiction/fact/opinion
+4/Boudicca was queen of the Iceni tribe of Britons/fact/opinion/fiction
+4/Boudicca was a very brave queen/opinion/fiction/fact
+4/Wessex was a kingdom in England/fact/fiction/opinion
+4/Playing with fire is dangerous/fact/fiction/opinion
+4/People should go to church on Sundays/opinion/fact/fiction
+4/Children should be in bed at eight o'clock/opinion/fiction/fact
+4/Elizabeth I was Queen of England/fact/opinion/fiction
+4/Elizabeth I never left England/fact/fiction/opinion
+4/Elizabeth I was very clever/opinion/fact/fiction
+4/Elizabeth I could make people like her/opinion/fact/fiction
+4/Elizabeth I did not want to have children/opinion/fiction/fact
+4/Cyclops was a one-eyed giant/fiction/opinion/fact
+4/Atlanta won the golden apples/fiction/opinion/fact
+4/Icarus's wings melted in the heat of the sun/fiction/fact/opinion
+4/Pandora opened the box of "troubles"/fiction/opinion/fact
+4/Hercules was a strong man/fiction/opinion/fact
+4/Tom found the Secret Garden/fiction/opinion/fact
+4/Joan of Arc was very strong/opinion/fiction/fact
+4/Some people believe that St George killed a dragon/fact/opinion/fiction
+4/St George killed a dragon/fiction/fact/opinion
+4/People do not keep towns tidy nowadays/opinion/fiction/fact
+4/Canals were built to transport coal/fact/fiction/opinion
+4/Canals are better than railways/opinion/fact/fiction
+4/Some people think canals are better than railways/fact/fiction/opinion
+4/Black Beauty was a famous horse/fiction/opinion/fact
+4/Windsor Castle should not be repaired/opinion/fiction/fact
+4/People used to think that the earth was flat/fact/fiction/opinion
+5/Philip II of Spain wanted to capture England/fact/fiction/opinion
+5/Philip II could have beaten England/opinion/fiction/fact
+5/Drake was a very good bowls player/opinion/fiction/fact
+5/The Spanish Armada was defeated in 1588/fact/fiction/opinion
+5/Armada means a fleet of ships/fact/fiction/opinion
+5/Ethelred was King of Wessex in 870 A.D./fact/fiction/opinion
+5/World War I began in 1914/fact/opinion/fiction
+5/Pop music is too noisy/opinion/fiction/fact
+5/The Romans were a warlike people/opinion/fiction/fact
+5/Highwaymen deserved to be hanged/opinion/fact/fiction
+5/Women should not be sent to prison/opinion/fiction/fact
+5/Elizabeth I was Henry VIII's daughter/fact/fiction/opinion
+5/Guy Fawkes tried to blow-up the Houses of Parliament/fact/fiction/opinion
+5/James I was king of England in Guy Fawkes' time/fact/fiction/opinion
+5/Guy Fawkes was executed in 1606/fact/fiction/opinion
+5/Christopher Columbus was the best sailor of his time/opinion/fiction/fact
+5/Queen Isabella of Spain lent money to Colombus/fact/fiction/opinion
+5/Columbus set out with three ships/fact/fiction/opinion
+5/Columbus was looking for treasure/fact/fiction/opinion
+5/Columbus should have found America/opinion/fiction/fact
+5/Columbus might have found America/opinion/fact/fiction
+5/Queen Isabella really liked Columbus/opinion/fact/fiction
+6/The Great Fire of London started at Pudding Lane/fact/fiction/opinion
+6/The Great Fire of London ended at Pie Corner/fact/fiction/opinion
+6/The Great Fire of London helped stop the /opinion/fiction/fact
+6/Florence Nightingale was not very sensible/opinion/fiction/fact
+6/The Mayflower sailed to America in 1620/fact/fiction/opinion
+6/James I was king when the Mayflower sailed/fact/opinion/fiction
+6/The Puritans were sensible leaving England/opinion/fiction/fact
+6/The Puritans ought not to have left England/opinion/fact/fiction
+6/The Puritans lived on fish in America/opinion/fiction/fact
+6/The Puritans wanted to worship in their own way/fact/opinion/fiction
+6/Half of the Puritans died in the first year away/fact/opinion/fiction
+6/The Puritans are called The Pilgrim Fathers/fact/fiction/opinion
+6/The Puritans were like pilgrims/opinion/fiction/fact
+6/Young children used to work in coal mines/fact/fiction/opinion
+6/Young children hated working in coal mines/opinion/fiction/fact
+6/Aesop told many fables/fact/fiction/opinion
+6/Medusa's hair was living snakes/fiction/opinion/fact
+6/Henry VIII was Britain's most famous king/opinion/fiction/fact
+6/Henry VIII became King of England in 1509/fact/fiction/opinion
+6/Henry VIII was a good sportsman/opinion/fiction/fact
+6/Henry VIII was a good muscian/opinion/fiction/fact
+6/Henry VIII had 6 wives/fact/fiction/opinion
+6/Henry VIII spent too much money on wars/opinion/fact/fiction
+6/People who kill someone else should be hanged/opinion/fiction/fact
+6/Guy Fawkes was a terrorist/opinion/fact/fiction
+6/Guy Fawkes was a freedom fighter/opinion/fiction/fact
+6/Guy Fawkes was executed for treason/fact/opinion/fiction
+6/(Bloody) Mary I was a Defender of the Faith/opinion/fact/fiction
+6/(Bloody) Mary I was a ruthless murderess/opinion/fiction/fact
+6/Sir Francis Drake was a pirate/opinion/fiction/fact
+6/Sir Francis Drake was a hero/opinion/fiction/fact
+6/Sir Thomas Moore was a saint/opinion/fact/fiction
+6/Sir Thomas More was a fool/opinion/fact/fiction
+6/Oliver Cromwell was a harsh dictator/opinion/fact/fiction
+6/Oliver Cromwell wanted Parliament to rule/opinion/fact/fiction
+6/The Great Fire of London was a blessing/opinion/fiction/fact
+6/The Great Fire of London was a disaster/opinion/fiction/fact
+6/Sir Walter Raleigh discovering tobacco was a good thing/opinion/fact/fiction
+GRADE5
+1/% be ridiculous!/Don't/don't/do'nt/Do'nt/Dont'/Dont'
+1/% going to start all over again./I'm/i'm/Im'/im'/'im/'Im
+1/% new jacket is made of denim./Mary's/mary's/Marys'/marys'/Marys/marys
+1/A % egg is larger than a golf ball./duck's/ducks'/ducks/Duck's/Ducks'/Ducks
+1/Auntie % new hat is ridiculous./Fay's/fay's/Fays'/fays'/Fays/fays
+1/Finished at last, % glad to say./I'm/i'm/Im'/im'/'im/'Im
+1/For % a jolly good fellow./he's/he's'es/he's/hes'/hes'
+1/Given the choice % rather not go./I'd/i'd/Id'/id'/'id/'Id
+1/Have you seen Mr % new car?/Kalim's/kalim's/Kalims'/kalims'/Kalims/kalims
+1/Her dress was torn by her % dog./neighbour's/neighbours'/neighbours/Neighbour's/Neighbours'/Neighbours
+1/I % believe my friend is married./can't/Can't/ca'nt/Ca'nt/cant'/Cant'
+1/I bought the % collar./dog's/dogs'/dogs/Dog's/Dogs'/Dogs
+1/I like Sarah % new hairstyle./Simpson's/simpson's/Simpsons'/simpsons'/Simpsons/simpsons
+1/I'm going to Uncle % tonight./Bill's/bill's/Bills'/bills'/Bills/bills
+1/My % new T-shirt is 'trendy'./cousin's/cousins'/cousins/Cousin's/Cousins'/Cousins
+1/Please leave your % at the counter./bags/Bag's/bag's/Bags'/bags'/Bags
+1/Put the book on the % desk./teacher's/Teacher's/Teachers'/teachers'/Teachers/teachers
+1/The % coat is on the peg./girl's/girls'/girls/Girl's/Girls'/Girls
+1/The % dinner is in the oven./child's/childs'/childs/Child's/Childs'/Childs
+1/The % mother told her to hurry home./girl's/girls'/girls/Girl's/Girls'/Girls
+1/The Lord % chain was on display./Mayor's/mayor's/Mayors'/mayors'/Mayors/mayors
+1/The children % like rice pudding./don't/Don't/do'nt/Do'nt/Dont'/Dont'
+1/The lions % get out of the cage./can't/Can't/ca'nt/Ca'nt/Cant'/Cant'
+1/The little % hand was sore./girl's/girls'/girls/Girl's/Girls'/Girls
+1/The register lay on the % desk./teacher's/teachers'/teachers/Teacher's/Teachers'/Teachers
+1/This is % shell suit./Peter's/peters'/peters/peter's/Peters'/Peters
+2/% and pears are cheap this week./Apples/Apple's/apple's/Apples'/apples'/apples
+2/% really rather not have it./I'd/i'd/Id'/id'/'id/'Id
+2/% still much to be done./There's/theres'/their's/There's/Theres'/Their's
+2/% very brave generally./I'm/i'm/'Im/'im/Im/im/im'/Im'
+2/Abul % dad is a policeman./Manzoor's/manzoor's/Manzoors'/manzoors'/Manzoors/manzoors
+2/Another mark and % have passed./he'd/He'd/h'ed/He'd/Hed'/hed'
+2/Concentrate, % the trick./that's/That's/Thats'/thats'/thats/Thats
+2/Go % and find your tie./upstairs/Upstair's/upstair's/Upstairs'/upstairs'/Upstairs
+2/Hamelin % in Brunswick./town's/Town's/towns'/Towns'/towns/Towns
+2/He said % been there before./he'd/He'd/h'ed/He'd/Hed'/hed'
+2/It was a hard % work./day's/days'/days/Day's/Days'/Days
+2/It was hard work but % it finished./that's/That's/Thats'/thats'/thats/Thats
+2/Mike said % have come on Sunday./he'd/He'd/h'ed/He'd/Hed'/hed'
+2/Really, % rather not take it./I'd/i'd/Id'/id'/'id/'Id
+2/The % are singing in the trees./birds/Bird's/bird's/Birds'/birds'/Birds
+2/The % on the wing./bird's/Bird's/birds'/Birds'/birds/Birds
+2/The % surgery was not open on Saturday./dentist's/dentists'/dentists/Dentist's/Dentists'/Dentists
+2/The fans grabbed film % shirt./star's/Star's/Stars'/stars'/Stars/stars
+2/We had curry and % for dinner./chips/Chip's/chip's/Chips'/chips'/Chips
+2/We hope that % well with you./all's/All's/a'lls/A'lls/Al'ls/al'ls/alls'/Alls'
+2/We thought % agreed to join us./he'd/He'd/h'ed/He'd/Hed'/hed'
+2/We thought % have joined us./he'd/He'd/h'ed/He'd/Hed'/hed'
+2/Will you meet me at six % tonight?/o'clock/O'clock/o-clock/'oclock/oclock/oh'clock
+3/% a good chance if she keeps cool./She's/she's/sh'es/She's/Shes'/shes'
+3/% all go together when we go./We'll/Wel'l/we'll/wel'l/well'/Well'
+3/% certainly a cool customer./She's/she's/sh'es/She's/Shes'/shes'
+3/% draw the first straw?/Who'll/who'll/Whol'l/whol'l/W'holl/w'holl
+3/% fair in love and war./All's/all's/a'lls/A'lls/Al'ls/al'ls/alls'/Alls'
+3/% get there by hook or by crook./He'll/Hel'l/he'll/hel'l/hell'/Hell'
+3/% have to go!/He'll/Hel'l/he'll/hel'l/hell'/Hell'
+3/% regret not cleaning your teeth./You'll/Youl'l/you'll/youl'l/youll'/Youll'
+3/% that you say?/What's/what's/whats'/Whats'/whats/Whats
+3/% want a large deposit./They'll/they'll/Theyl'l/theyl'l/the'yll/The'yll/theyll'/Theyll'
+3/Dan % a chance of seeing the play./hasn't/Hasn't/has'nt/Has'nt/Hasnt'/Hasnt'
+3/Do that again and % scream./I'll/Il'l/i'll/il'l/ill'/Ill'
+3/Have you seen my %?/sandals/Sandal's/sandal's/Sandals'/sandals'/Sandals
+3/He % enough money to pay for it./hasn't/Hasn't/has'nt/Has'nt/Hasnt'/Hasnt'
+3/I could ask but I think % say no./they'll/They'll/Theyl'l/theyl'l/the'yll/The'yll/theyll'/Theyll'
+3/I know I % but I did it./shouldn't/Shouldn't/shouldnt/Shouldnt/should'nt/Should'nt
+3/If I go first % follow me?/who'll/Who'll/Whol'l/whol'l/W'holl/w'holl
+3/Jimmy % has not gone to school./Jones/Jones'/jones'/Jone's/jone's/Jones's/jones
+3/Mary % take it without sugar./won't/Won't/Wo'nt/wo'nt/w'ont/W'ont/wont/Wont
+3/The doctor said % written the note./he'd/He'd/h'ed/He'd/Hed'/hed'
+3/The % were told to hurry home./girls/Girl's/girl's/Girls'/girls'/Girls
+3/This week-end % all go to the fair./we'll/Wel'l/We'll/wel'l/well'/Well'
+3/Where are the Duke of % gloves?/Chester's/chester's/Chesters'/chesters'/Chesters/chesters
+4/% a good mind to tell her so./I've/i've/Iv'e/iv'e/'ive/'Ive
+4/% a very good player./You're/Your'e/you're/your'e/youre'/Youre'
+4/% keep at it until the job is done./I'll/Il'l/i'll/il'l/ill'/Ill'
+4/% take a cup before we part./Let's/let's/Lets/lets/Lets'/lets'
+4/I % answer the question./couldn't/Couldn't/couldnt/Couldnt/could'nt/Could'nt
+4/I % forget your kindness to me./shan't/sha'nt/shant'/Shan't/Sha'nt/Shant'
+4/I % have accepted the lift./shouldn't/Shouldn't/shouldnt/Shouldnt/should'nt/Should'nt
+4/I know % not much showing yet./there's/Theres'/their's/There's/Theres'/Their's
+4/If % coming, count me out./they're/They're/Theyr'e/theyr'r/the'yre/their/Their/there/There
+4/It % what I intended but it will do./isn't/Isn't/Is'nt/is'nt/I'snt/i'snt/isnt
+4/Lock all the % securely tonight./doors/Door's/door's/Doors'/doors'/Doors
+4/No doubt % looking for work./you're/You're/Your'e/your'e/youre'/Youre'
+4/Please wait until % all eaten./we've/We've/Wev'e/wev'e/W'eve/w'eve
+4/Sue said that % never do it./he'll/He'll/Hel'l/hel'l/hell'/Hell'
+4/Susan % go to town today./couldn't/couldn't/Couldn't/couldnt/Couldnt/could'nt/Could'nt
+4/Tell me % come and see me./you'll/You'll/Youl'l/youl'l/youll'/Youll'
+4/The % hair was soft as silk./baby's/babys'/babys/Baby's/Babys'/Babys/babie's/babies
+4/The accused said he % do it./didn't/Didn't/did'nt/Did'nt/Didnt'/Didnt'
+4/The twins % done their homework./haven't/Haven't/have'nt/Have'nt/Havent'/Havent'
+4/Together with the rest % just enough./I've/i've/Iv'e/iv'e/'ive/'Ive
+4/You % answer my last letter./didn't/Didn't/did'nt/Did'nt/Didnt'/Didnt'
+4/You like snakes but I % touch them./wouldn't/Wouldn't/Would'nt/would'nt/wouldnt/Wouldnnt
+5/% I told you I % any money./haven't/Haven't/have'nt/Have'nt/Havent'/Havent'
+5/% all there is to it./That's/that's/Thats'/thats'/thats/Thats
+5/% done very well so far./We've/we've/Wev'e/wev'e/W'eve/w'eve
+5/% is the best work in the class./Yours/your's/Yours'/yours'/Your's/yours
+5/% it a beautiful morning?/Isn't/isn't/Is'nt/is'nt/I'snt/i'snt/isnt
+5/% need all their wits about them./They'll/they'll/Theyl'l/theyl'l/the'yll/The'yll/theyll'/Theyll'
+5/% their own worst enemy./they're/They're/Theyr'e/theyr'r/the'yre/their/Their/there/There
+5/% to take all your books home./You're/you're/Your'e/your'e/youre'/Youre'
+5/% you come a little further?/Won't/won't/Wo'nt/wo'nt/w'ont/W'ont/wont/Wont
+5/% you like to own that dress?/Wouldn't/wouldn't/Would'nt/would'nt/wouldnt/Wouldnnt
+5/I must say it % seem right./doesn't/Doesn't/does'nt/Does'nt/Doesnt'/Doesnt'
+5/Stray dogs are sent to the % home./dogs'/dog's/dogs/Dog's/Dogs'/Dogs
+5/The % galloped across the field./horses/Horse's/horse's/Horses'/horses'/horses
+5/The % rattle was shaped like a duck./baby's/babys'/babys/Baby's/Babys'/Babys/babie's/babies
+5/The % swarmed up the rigging./sailors/Sailor's/sailor's/Sailors'/sailors'/Sailors
+5/There were three % nests in the tree./birds'/bird's/birds/Bird's/Birds'/Birds
+5/These are the men % won./who've/Who've/Whov'e/whov'e/W'hove/w'hove
+5/This bus % go to the airport./doesn't/Doesn't/does'nt/Does'nt/Doesnt'/Doesnt'
+5/This is my hat, where is %?/yours/Your's/your's/Yours'/yours'/Yours/yours
+5/We travel on % the night is dark./tho'/Tho'/th'o/Th'o/'Tho/'tho
+5/With that extra word % all right./it's/It's/i'ts/I'ts/ts'/its'/its/Its
+5/You % look so innocent either./needn't/Needn't/need'nt/Need'nt/nee'dnt/Neednt
+6/% all right now, but think ahead./It's/it's/i'ts/I'ts/ts'/its'/its/Its
+6/% funny to see her wearing that wig./It's/it's/i'ts/I'ts/ts'/its'/its/Its
+6/% is a nice house on a nice road./Ours/Our's/our's/Ours'/ours'/ours
+6/% nests are always built in trees./Crows'/Crow's/crow's/Crows's/crows'/Crows/crows/crows's
+6/% never too late to mend./It's/it's/i'ts/I'ts/its'/its'/its/Its
+6/% not what I wished to take./'Twas/'twas/T'was/t'was/Twas'/twas'/Tw'as/tw'as
+6/% the seven seas we roved./O'er/o'er/Ov'er/ov'er/Oe'r/oe'r
+6/% the tall mountains tremble./E'en/e'en/Ev'en/ev'en/Ee'n/ee/n
+6/All the % men fought bravely./king's/kings'/kings/King's/Kings'/Kings
+6/I like to read % poems./Keats'/keats'/keats/keat's/Keat's/Keats
+6/It took seven % work to finish the job./days'/day's/days/Day's/Days'/Days
+6/Joan said the pencil was %./hers/Her's/her's/Hers'/hers'/Hers
+6/Jump % the brook/my bonnie lass./o'er/O'er/Ov'er/ov'er/Oe'r/oe'r
+6/Mr Davis joined the % choir./men's/mens'/mens/Men's/Mens'/Mens
+6/My dad is taller than %./Winston's/winston's/Winstons'/winstons'/Winstons/winstons
+6/My rattlesnake has cast % skin./its/it's/Its/It's/Its'/its'
+6/The % books were left in my uncle's house./children's/childrens'/childrens/Children's/Childrens'/Childrens
+6/The % cat is a ginger tom./Robinsons'/Robinson's/robinson's/'/robinsons'/Robinsons's/robinsons's
+6/The % coat department is upstairs./ladies'/ladie's/ladies/Ladie's/Ladies'/Ladies/lady's/Lady's/ladys'
+6/The % hats were very cheap./women's/Womens'/womens/women's/womans'/Womens/woman's
+6/The car had % windscreen shattered./its/it's/Its/It's/Its'/its'
+6/The children claimed the cat was %./theirs/Their's/their's/Theirs'/theirs'/Theirs
+6/The red car with the open top is %./ours/Our's/our's/Ours'/ours'/Ours
+6/There is a sale in the % shoe department./men's/mens'/mens/Men's/Mens'/Mens
+6/Was Bleak House written by %?/Dickens/Dicken's/dicken's/Dickens'/dickens'/dickens
+GRADE6
+1/fall/forl/forll/fawl/fal/fawll/faul
+1/where/whear/wher/wer/werr/warr/wherr
+1/there/thear/therr/ther/theare/thier
+1/call/cawl/corl/corrl/cal/caule/cale
+1/tall/torl/torll/tawl/tal/tawll/taul
+1/wall/worl/worll/wawl/wal/wawll/waul
+1/they/theye/thay/thaye/thaay/theay
+1/sweet/sweeet/swete/sweete/sweate
+1/clean/cleen/kleen/kleen/clene/cleene/cleane
+1/white/wyte/whyte/wite/whight
+1.paper/papper/papar/payper/paypar/papor/paypor/pappar/pappor
+1/seven/sefen/sevven/sevin/sevan/sevyn/seffen
+1/hair/haar/har/haer/haire/hayr/hayre/haere
+1/chair/chaar/char/chaer/chaire/chayr/chayre/chaere
+1/fair/faar/fiar/faer/faire/fayr/faere/fer
+1/lady/ladey/laidy/laydy/laydie/ladie
+1/brother/bruther/bruthor/bruver/bruvver/brothor
+1/mother/muther/muthor/muver/muvver/mothor
+1/other/uther/uthor/uver/uvver/othor
+2/another/anuther/anuthor/anuver/anuvver/anothor
+2/church/chorch/chursh/curch/churche
+2/bright/brite/britgh/breit/briet/brigt
+2/right/riite/ritgh/reit/riet/rigt
+2/night/nite/nitgh/neit/niet/nigt
+2/light/lite/litgh/leit/liet/ligt
+2/cream/creem/creme/creame/kreem/kream
+2/dream/dreem/dreme/dreame/dreeme/draem
+2/walking/warking/whalking/wharking/warching/worlking/walkin/warkin
+2/talking/tarking/tawking/towking/torking/torlking/talkin/torkin
+2/cries/cryes/crighes/crise/creis/cryse
+2/tries/tryes/trighes/trise/treis/tryse
+2/flies/flyes/flighes/flise/fleis/flyse
+2/before/befor/befour/beafore/beefor/beefour/befaw
+2/these/thees/theese/theise/thease/theas/theeze/theez
+2/those/thoes/thoese/thoise/thoase/thoas/thoez/thoze
+2/loud/lowd/lowed/loued/loude/lowde
+2/cloud/clowd/clowed/cloued/cloude/clowde
+2/stairs/staires/sters/sterrs/stayrs/stayres
+2/upstairs/upstaires/upsters/upsterrs/upstayrs/upstayres
+2/downstairs/downstaires/dounstairs/downsterrs/downstayrs/downstayres
+3/daisy/daysy/daisey/daysey
+3/spider/spidar/spieder/spidder
+3/halves/harves/halfes/halfs
+3/thieves/theives/theeves/theaves
+3/knife/gnife/knyfe/nife
+3/building/bilding/biulding/billding
+3/bottle/botel/bottel/botle/bockle/bokle
+3/army/armey/ahmy/arrmy/armee
+3/because/becose/becouse/becos/beucose
+3/fasten/fassen/fassten/fasen/fastn
+3/friend/freind/frend/fiend/frent
+3/quiet/qwiet/queit/qyet/cwiet/cwyet
+3/cottage/cottege/cotage/cotege/cotteje/cotije/cottije
+3/brighter/briter/brigther/britgher/bryter
+3/stomach/stumach/stomack/stumick/stummick/stommach/stumac
+3/needle/neadle/needel/neadel/kneadle/neadel
+4/already/allready/alredy/allredy/alreddy/allreddy/awlreddy/awlready
+4/although/allthough/althow/allthow/althought/altho/awlthough
+4/kitchen/kichen/kitchin/citkhin/knitchen/kittchen/kittenshin
+4/spice/spyce/spisse/spise/spyse/spics/spiese
+4/police/polyce/polisse/polise/polyse/polics/poliese
+4/slice/slyce/slisse/slise/slyse/slics/sliese
+4/notice/notyce/notisse/notise/notyse/notics/notiese
+4/thistle/thissle/thissel/thistel/thislle/thisell/thiselle
+4/whistle/whissle/whissel/whistel/whislle/whisell/whiselle
+4/angel/anglle/anjel/anjle/angell/ayngell/aingel/anjl
+4/safely/safley/savely/saflee/saflea/saffely/sayfly/sayflee
+4/laugh/laff/laught/larf/lauhgf/lauff/loff/luagh/laffe/laughted
+4/enough/enuff/enouf/enowgh/eanough/eanouff/inouff/enouff
+4/brought/brougt/browt/brough/brawt/brorght/brort/brout
+4/bought/bougt/bowt/boutgh/bawt/borght/bort/boute
+4/ought/ougt/owt/ough/awt/orght/ort/orte
+4/fought/fougt/fowt/fough/fawt/forght/forrt/fout
+4/equator/equater/eqwator/eqwater/eqwaiter/equwaiter/equatter/equattor
+4/nasty/nasti/nastee/naztee/nastey/nasstey/nassty/nastie/nazi
+4/beautiful/beutiful/beautieful/beautifull/beautyful/bewtiful
+4/famous/fameous/famouse/famus/fammous/famuss/fammouse/faimous
+4/delight/delite/delitgh/deleit/deliet/deligt/dellite/dellight
+4/quarter/quorter/qwarter/qwartor/quawter/quartor/cwarter
+4/pleasure/plessure/pleasour/pleassure/plesure/playsure/pleaseure
+4/measure/messure/measour/meassure/mesure/maysure/measeure
+4/treasure/tressure/treasour/treassure/tresure/traysure/treaseure
+5/allowed/alloud/alowd/allowd/alloued/ellowed/elowd/alowed
+5/remembered/rembered/remebered/remmembered/rememberd/membered
+5/furniture/ferniture/furnichur/fernichoor/furnitur/furnityure
+5/disappear/dissapear/disapear/dissappear/disappeare/disipear
+5/gradual/graduall/gradul/graduel/gradduel/graddual/gradyouel
+5/usually/ussually/usualy/ussualy/usualey/usualley/usuallie/useuly
+5/equally/equaly/equaley/eqwelly/eqwally/equely/ecwelly/ecually
+5/failure/falure/faleyr/faylure/faylyore/failore/faillure/fallure
+5/breeze/breese/breaze/brease/breise/breize/breesse/brezze/breze
+5/freeze/freese/freaze/frease/freise/freize/freesse/frezze/freze
+5/squeeze/squeese/squeaze/squease/squeise/squeize/squeesse/squeze/squiz
+5/knuckle/nuckle/knukel/knuckel/nuckel/nuckele/gnuckle/knuckele
+5/pickle/pichle/pikel/pickel/pichel/picckel/picckle/pickele
+5/article/artical/articel/artycle/artticle/artickle/artickel/artikel
+5/fraction/frachun/frachion/fracsion/fracton/fractshun/fracshon
+5/possible/posible/posibel/possibel/possibul/possibl/possibble
+5/impossible/imposible/imposibel/impossibel/impossibul/immpossible
+5/courage/corrage/currige/courege/corage/courridge/courrage/courige
+5/encourage/encorrage/encurrige/encourege/encorage/encourridge/courige
+5/double/dubble/doubel/dubbel/dubel/dubell/doubble/doubell/duble
+5/trouble/trubble/troubel/trubbel/trubel/trubell/troubble/troubell
+5/couple/cupple/coupel/cuppel/cupel/cupell/coupple/coupell/cuple
+5/calendar/calander/calandar/calender/callendar/callender/callandar
+5/musical/musikal/musickle/musickel/musickal/mussical/musicel/musicle
+6/anxious/anchus/anchious/anxchus/anxous/anchous/anshus/anxsious
+6/various/verious/varyous/varrious/verrious/varius/varios/verrius
+6/curious/cureous/curyous/currious/currios/curius/curioss/currius
+6/furious/fureous/furyous/furrious/furrios/furius/furioss/furrius
+6/glorious/gloreous/gloryous/glorrious/glorrios/glorius/glorrius
+6/announce/anounce/anounse/announse/annownce/anounze/announze/
+6/pierce/pierse/pearse/pearce/peerse/peerce/peirce/peirse/peeers
+6/fierce/fierse/fearse/fearce/feerse/feerce/feirce/feirse/feeers
+6/priest/preist/preest/preeste/prieste/priesd/preast/prest/preste
+6/shriek/shreik/shreek/shreak/shrieck/shreeck/shreack/shreick
+6/biscuit/biskit/biskuit/bisciut/bisscuit/biscuet/bisket/biskette
+6/governor/governer/govenor/govener/guvenor/guvener/gufener/guffener
+6/criminal/crimmnel/criminel/crimminal/crimminel/crimnel/crimnal
+6/average/averidge/averige/aferige/aferige/averije/aferije/averije
+6/carriage/cariage/carrage/carrege/carrige/carrije.carije/carrije
+6/marriage/mariage/marrage/marrege/marreje/marrije.marije/marrije
+6/disease/dissese/diseese/diseasse/diseasce/disees/deseese/deceese
+6/assist/asist/asisst/ursist/ersist/erssist/acyst/ascist/assisst
+6/assistant/asistant/asisstant/ursistant/ersistant/assistent/ascistant
+6/attendance/attendence/atendance/atenndance/atendunce/attendunse
+6/ambition/ambision/ambishun/ambishon/ammbition/ambishen/ambityen
+6/choir/quier/qwire/qwyer/quirre/kwire/kwier/kwoir/cwoir/qwhire
+6/jealous/jelous/jellous/jeallous/gelous/gellous/jealus/jellus
+6/phrase/frase/fraise/phrayce/phrayse/frayse/frayce/fraisce/phras
+6/occasion/occassion/ocassion/ocasion/oksion/okshun/ocashun.occashun
+6/mischievous/mischeivous/mischevious/misciefous/mischiefuss/
+6/obedient/obdeeant/obdeiant/obediant/obediont/obediennt/
+6/offence/ofence/ofennce/offense/affence/effence/affence/ofense
+6/scissors/sissors/sissers/sisors/scisors/scissers/sissars/scisurs
