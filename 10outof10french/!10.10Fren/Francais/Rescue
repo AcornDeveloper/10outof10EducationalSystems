@@ -1,0 +1,381 @@
+$ Rescue word file structure
+$ 2. <sub grade>/<word>/<answer>/<true gender>/<false> ...
+$ 3. <sub grade>/<word>/<answer>/<true possessive>/<false> ...
+$ 4. <sub grade>/<sentence>/<answer>/<false> ...
+$ 5. <sub grade>/<sentence>/<answer>/<false> ...
+$ 6. <sub grade>/<sentence>/<answer>/<false> ...
+$ Grades 2-6 max. word length 12
+$ Grades 2-6 <true/answer>+<false> up to 16 entries
+$ Grades 5 and 6 need underline characters at least as long as the answer
+$ sub grade 1-4
+
+GRADE2
+1/anglais/l'anglais/l'/la/les/le
+1/français/le français/le/l'/la/les
+1/allemand/l'allemand/l'/la/les/le
+1/espagnol/l'espagnol/l'/la/les/le
+1/maths/les maths/les/l'/la/le
+1/histoire/l'histoire/l'/la/les/le
+1/géographie/la géographie/la/les/l'/le
+1/instruction religieuse/l'instruction religieuse/l'/la/les/le
+1/sciences/les sciences/les/l'/la/le
+1/biologie/la biologie/la/les/le/l'
+1/physique/la physique/la/les/le/l'
+1/chimie/la chimie/la/les/le/l'
+1/dessin/le dessin/le/l'/la/les
+1/sport/le sport/le/l'/la/les
+1/EPS/l'EPS/l'/la/les/le
+1/musique/la musique/la/les/le/l'
+1/TME/les TME/le/l'/la/les
+1/informatique/l'informatique/l'/la/les/le
+2/livre/un livre/un/une/des
+2/cahier/un cahier/un/une/des
+2/crayon/un crayon/un/une/des
+2/stylo/un stylo/un/une/des
+2/bic/un bic/un/une/des
+2/règle/une règle/une/des/un
+2/trousse/une trousse/une/des/un
+2/table/une table/une/des/un
+2/chaise/une chaise/une/des/un
+2/gomme/une gomme/une/des/un
+2/tableau noir/un tableau noir/un/une/des
+2/fenêtre/une fenêtre/une/des/un
+2/porte/une porte/une/des/un
+2/placard/un placard/un/une/des
+2/radiateur/un radiateur/un/une/des
+2/ordinateur/un ordinateur/un/une/des
+2/magnétophone/un magnétophone/un/une/des
+2/disquette/une disquette/une/des/un
+2/cassette/une cassette/une/des/un
+2/cassette vidéo/une cassette vidéo/une/des/un
+2/téléviseur/un téléviseur/un/une/des
+2/magnétoscope/un magnétoscope/un/une/des
+2/calculatrice/une calculatrice/une/des/un
+2/professeur/un professeur/un/une/des
+2/projecteur/un projecteur/un/une/des
+2/diapositif/un diapositif/un/une/des
+2/écran/un écran/un/une/des
+3/anglais/l'anglais/l'/la/les/le
+3/français/le français/le/l'/la/les
+3/allemand/l'alleallmand/l'/la/les/le
+3/espagnol/l'espagnol/l'/la/les/le
+3/maths/les maths/les/l'/la/le/les
+3/histoire/l'histoire/l'/la/les/le
+3/géographie/la géographie/la/les/l'/le
+3/instruction religieuse/l'instruction religieuse/l'/la/les/le
+3/sciences/les sciences/les/l'/la/le
+3/biologie/la biologie/la/les/le/l'
+3/physique/la physique/la/les/le/l'
+3/chimie/la chimie/la/les/le/l'
+3/dessin/le dessin/le/l'/la/les
+3/sport/le sport/le/l'/la/les
+3/EPS/l'EPS/l'/la/les/le
+3/musique/la musique/la/les/le/l'
+3/TME/le TME/le/l'/la/les
+3/informatique/l'informatique/l'/la/les/le
+4/livres/des livres/des/un/une
+4/cahiers/des cahiers/des/un/une
+4/crayons/des crayons/des/un/une
+4/stylos/des stylos/des/un/une
+4/bics/des bics/des/un/une
+4/règles/des règles/des/une/un
+4/trousses/des trousses/des/une/un
+4/tables/des tables/des/une/un
+4/chaises/des chaises/des/une/un
+4/gommes/des gommes/des/une/un
+4/tableaux noir/des tableaux noir/des/un/une
+4/fenêtres/des fenêtres/des/une/un
+4/portes/des portes/des/une/un
+4/placards/des placards/des/un/une
+4/radiateurs/des radiateurs/des/un/une
+4/ordinateurs/des ordinateurs/des/un/une
+4/magnétophones/des magnétophones/des/un/une
+4/disquettes/des disquettes/des/une/un
+4/cassettes/des cassettes/des/une/un
+4/cassettes vidéo/des cassettes vidéo/des/une/un
+4/téléviseurs/des téléviseurs/des/un/une
+4/magnétoscopes/des magnétoscopes/des/un/une
+4/calculatrices/des calculatrices/des/une/un
+4/professeurs/des professeurs/des/un/une
+4/projecteurs/des projecteurs/des/un/une
+4/diapositifs/des diapositifs/des/un/une
+4/écrans/des écrans/des/un/une
+GRADE3
+1/livre/mon livre/mon/ma/mes
+1/cahier/mon cahier/mon/ma/mes
+1/crayon/mon crayon/mon/ma/mes
+1/stylo/mon stylo/mon/ma/mes
+1/bic/mon bic/mon/ma/mes
+1/règle/ma règle/ma/mes/mon
+1/trousse/ma trousse/ma/mes/mon
+1/table/ma table/ma/mes/mon
+1/chaise/ma chaise/ma/mes/mon
+1/gomme/ma gomme/ma/mes/mon
+1/tableau noir/mon tableau noir/mon/ma/mes
+1/fenêtre/ma fenêtre/ma/mes/mon
+1/porte/ma porte/ma/mes/mon
+1/placard/mon placard/mon/ma/mes
+1/radiateur/mon radiateur/mon/ma/mes
+1/ordinateur/mon ordinateur/mon/ma/mes
+1/magnétophone/mon magnétophone/mon/ma/mes
+1/disquette/ma disquette/ma/mes/mon
+1/cassette/ma cassette/ma/mes/mon
+1/cassette vidéo/ma cassette vidéo/ma/mes/mon
+1/téléviseur/mon téléviseur/mon/ma/mes
+1/magnétoscope/mon magnétoscope/mon/ma/mes
+1/calculatrice/ma calculatrice/ma/mes/mon
+1/professeur/mon professeur/mon/ma/mes
+1/projecteur/mon projecteur/mon/ma/mes
+1/diapositif/mon diapositif/mon/ma/mes
+1/écran/mon écran/mon/ma/mes
+2/livre/ton livre/ton/ta/tes
+2/cahier/ton cahier/ton/ta/tes
+2/crayon/ton crayon/ton/ta/tes
+2/stylo/ton stylo/ton/ta/tes
+2/bic/ton bic/ton/ta/tes
+2/règle/ta règle/ta/tes/ton
+2/trousse/ta trousse/ta/tes/ton
+2/table/ta table/ta/tes/ton
+2/chaise/ta chaise/ta/tes/ton
+2/gomme/ta gomme/ta/tes/ton
+2/tableau noir/ton tableau noir/ton/ta/tes
+2/fenêtre/ta fenêtre/ta/tes/ton
+2/porte/ta porte/ta/tes/ton
+2/placard/ton placard/ton/ta/tes
+2/radiateur/ton radiateur/ton/ta/tes
+2/ordinateur/ton ordinateur/ton/ta/tes
+2/magnétophone/ton magnétophone/ton/ta/tes
+2/disquette/ta disquette/ta/tes/ton
+2/cassette/ta cassette/ta/tes/ton
+2/cassette vidéo/ta cassette vidéo/ta/tes/ton
+2/téléviseur/ton téléviseur/ton/ta/tes
+2/magnétoscope/ton magnétoscope/ton/ta/tes
+2/calculatrice/ta calculatrice/ta/tes/ton
+2/professeur/ton professeur/ton/ta/tes
+2/projecteur/ton projecteur/ton/ta/tes
+2/diapositif/ton diapositif/ton/ta/tes
+2/écran/ton écran/ton/ta/tes
+3/livre/son livre/son/sa/ses
+3/cahier/son cahier/son/sa/ses
+3/crayon/son crayon/son/sa/ses
+3/stylo/son stylo/son/sa/ses
+3/bic/son bic/son/sa/ses
+3/règle/sa règle/sa/ses/son
+3/trousse/sa trousse/sa/ses/son
+3/table/sa table/sa/ses/son
+3/chaise/sa chaise/sa/ses/son
+3/gomme/sa gomme/sa/ses/son
+3/tableau noir/son tableau noir/son/sa/ses
+3/fenêtre/sa fenêtre/sa/ses/son
+3/porte/sa porte/sa/ses/son
+3/placard/son placard/son/sa/ses
+3/radiateur/son radiateur/son/sa/ses
+3/ordinateur/son ordinateur/son/sa/ses
+3/magnétophone/son magnétophone/son/sa/ses
+3/disquette/sa disquette/sa/ses/son
+3/cassette/sa cassette/sa/ses/son
+3/cassette vidéo/sa cassette vidéo/sa/ses/son
+3/téléviseur/son téléviseur/son/sa/ses
+3/magnétoscope/son magnétoscope/son/sa/ses
+3/calculatrice/sa calculatrice/sa/ses/son
+3/professeur/son professeur/son/sa/ses
+3/projecteur/son projecteur/son/sa/ses
+3/diapositif/son diapositif/son/sa/ses
+3/écran/son écran/son/sa/ses
+4/livre/notre livre/notre/vos/nos
+4/cahier/notre cahier/notre/vos/nos
+4/crayon/notre crayon/notre/vos/nos
+4/stylo/notre stylo/notre/vos/nos
+4/bic/notre bic/notre/vos/nos
+4/règle/votre règle/vos/nos/notre
+4/trousse/votre trousse/votre/nos/vos
+4/table/votre table/votre/nos/vos
+4/chaise/votre chaise/votre/nos/vos
+4/gomme/votre gomme/votre/nos/vos
+4/tableau noir/notre tableau noir/notre/vos/nos
+4/fenêtre/votre fenêtre/votre/nos/vos
+4/porte/votre porte/votre/nos/vos
+4/placard/notre placard/notre/nos/vos
+4/radiateur/notre radiateur/notre/vos/nos
+4/ordinateur/notre ordinateur/notre/vos/nos
+4/magnétophone/notre magnétophone/notre/vos/nos
+4/disquette/votre disquette/votre/nos/vos
+4/cassette/votre cassette/votre/nos/vos
+4/cassette vidéo/votre cassette vidéo/votre/nos/vos
+4/téléviseur/notre téléviseur/notre/vos/nos
+4/magnétoscope/notre magnétoscope/notre/vos/nos
+4/calculatrice/votre calculatrice/votre/nos/vos
+4/professeur/notre professeur/notre/vos/nos
+4/projecteur/notre projecteur/notre/vos/nos
+4/écran/notre écran/notre/vos/nos
+GRADE4
+1/C'est une leçon dans laquelle on fait des expériences./les sciences/les mathématiques/une bibliothèque/un gymnase/le sport/l'histoire/la géographie
+1/C'est une leçon dans laquelle on écrit des histoires./l'anglais/les mathématiques/une bibliothèque/la musique/les sciences/le sport
+1/C'est une leçon dans laquelle on apprend des choses sur le passé./l'histoire/les mathêmatiques/le sport/la musique/les sciences
+1/Dans cette leçon on fait des exercises physiques./le sport/les mathématiques/une bibliothèque/la géographie/l'anglais/les sciences
+1/Dans cette leçon on peut apprendre à jouer d'un instrument de musique./la musique/un gymnase/le sport/l'histoire/l'anglais/les mathématiques
+1/Dans cette leçon on étudie les autres pays./la géographie/les mathématiques/une bibliothèque/le sport/la musique/l'histoire/les sciences
+1/C'est une leçon dans laquelle on apprend à compter et à faire des calculs./les mathêmatiques/le sport/la géographie/la musique/l'histoire
+1/C'est une salle où on fait des expériences./un laboratoire/les mathématiques/la musique/un gymnase/l'histoire/le sport/une bibliothèque
+1/C'est une grande salle où on fait de la gymnastique./un gymnase/un laboratoire/les mathêmatiques/la musique/l'anglais/les sciences/le sport
+1/C'est une salle où il y a beaucoup de livres./une bibliothèque/le sport/un laboratoire/un gymnase/l'histoire/la géographie/l'anglais/les sciences
+2/Un homme qui distibue les lettres, c'est un .../facteur/comptable/infirmier/infirmière/hôtelière/serveuse/fermière/fermier/étudiant/étudiante/acteur
+2/Une femme qui travaille dans la comptabilité c'est une .../comptable/facteur/infirmier/infirmière/hôtelière/serveuse/étudiant/étudiante/acteur/actrice
+2/Un homme qui travaille dans un hôpital et qui aide les médecins à soigner les malades c'est un .../infirmier/infirmière/serveuse/acteur/actrice/patron
+2/Une femme qui travaille dans un hôpital et qui aide les médecins à soigner les malades c'est une.../infirmière/serveuse/fermier/acteur/patron/écrivain
+2/Une femme qui gère un hôtel c'est une .../hôtelière/serveuse/fermière/fermier/étudiant/étudiante/acteur/actrice/patron/pharmacien/écrivain
+2/Une femme qui sert les clients dans un c'est une .../serveuse/facteur/comptable/infirmier/infirmière/hôtelière/fermière/étudiant/acteur/pharmacien
+2/Une femme qui gère une ferme c'est une.../fermière/fermier/facteur/comptable/infirmier/infirmière/hôtelière/serveuse/étudiant/actrice/patron/pharmacien
+2/Un homme qui gère une ferme c'est un.../fermier/facteur/comptable/infirmier/infirmière/hôtelière/serveuse/acteur/actrice/pharmacien/écrivain/routier
+2/Un homme qui étudie à plein temps c'est un .../étudiant/hôtelière/serveuse/fermière/fermier/étudiante/actrice/patron/pharmacien/écrivain/chômeur
+2/Une femme qui étudie à plein temps c'est une .../étudiante/serveuse/facteur/comptable/infirmier/infirmière/hôtelière/fermière/patron/pharmacien/routier
+2/Un homme qui joue dans des pièces de théâtre c'est un .../acteur/actrice/serveuse/facteur/comptable/infirmier/infirmière/hôtelière/fermière/écrivain
+2/Une femme qui joue dans des pièces de théâtre c'est une .../actrice/serveuse/facteur/comptable/infirmier/infirmière/hôtelière/fermière/pharmacien/chômeur
+2/Un homme qui répare les voitures dans un garage c'est un .../mécanicien/actrice/serveuse/facteur/comptable/infirmier/infirmière/hôtelière/fermière
+2/Une femme qui prépare les plats dans un restaurant c'est une .../cuisinière/facteur/comptable/infirmier/infirmière/hôtelière/fermière/étudiant/acteur/écrivaine
+2/Un homme qui prépare les plats dans un restaurant c'est un .../chef/étudiant/hôtelière/serveuse/fermière/fermier/étudiante/actrice/patron/pharmacien/écrivain/routier
+2/Une femme qui gère un café c'est la .../patronne/chef/étudiant/telière/serveuse/fermière/fermier/étudiante/actrice/patron/pharmacien/routier/chômeur
+2/Une femme qui contrôle la circulaton sur les routes c'est une .../femme-agent/pharmacienne/pharmacien/routier/caissier/chômeur/chirugien/actrice/acteur
+2/Un homme qui contrôle la circulaton sur les routes c'est un .../agent de police/mécanicien/actrice/serveuse/facteur/comptable/chômeur/chirugien/fermier
+3/On l'utilise pour dessiner une ligne droite./une règle/un magnétophone/un ordinateur/une trousse/un cahier/le tableau noir/un livre
+3/On l'utilise si on veut écouter une cassette./un magnétophone/le tableau noir/un ordinateur/une trousse/une règle/un cahier/un cartable/une livre
+3/On écrit là-dessus avec de la craie./le tableau noir/un classeur/une trousse/un cahier/un cartable/un livre
+3/Les élèves écrivent là-dedans./un cahier/un livre/un ordinateur/une trousse/un magnétophone/un cartable/le tableau noir
+3/On l'utilise si on veut effacer quelque chose de la page./une gomme/une trousse/un cartable/le tableau noir/un livre/un cahier/un classeur
+3/Les élèves mettent leurs affaires là-dedans./un cartable/un livre/une règle/une trousse/un magnétophone/une règle/le tableau noir
+3/Ceci aide quand on veut faire des calculs./une calculatrice/un livre/un cartable/un magnétophone/une règle/le tableau noir/un cahier/un classeur
+3/Ceci fonctionne avec des disquettes./un ordinateur/un livre/un classeur/un cartable/un magnétophone/une règle/un cahier/le tableau noir
+3/On s'assied là-dessus./une chaise/un livre/un cahier/un cartable/une règle/un cartable/le tableau noir/une gomme/un classeur
+3/On l'ouvre si on a trop chaud./une fenêtre/un livre/un cartable/une règle/une gomme/un ordinateur/une trousse/un cahier/le tableau noir
+3/Les élèves mettent leurs stylos et crayons là-dedans./une trousse/un classeur/un cartable/une règle/une gomme/un ordinateur/un cahier
+3/On le lit./un livre/un cahier/un classeur/une règle/une gomme/un ordinateur/une trousse/un cartable/un magnétophone/un crayon/un bic/un stylo
+3/On range les feuilles de papier là-dedans/un classeur/un livre/un cahier/le tableau noir/une règle/une gomme/un ordinateur
+4/Un homme qui gère un café c'est le .../patron/etudiant/telière/serveuse/fermière/fermier/étudiante/actrice/pharmacien/écrivaine/routier/chômeur/facteur
+4/Une femme qui enseigne dans une école primaire c'est une .../institutrice/caissière/pharmacien/écrivain/routier/chômeur/femme-agent/hôtelière/facteur
+4/Un homme qui enseigne dans une primaire c'est un .../instituteur/caissière/caissier/pharmacien/écrivain/routier/chômeur/femme-agent/hôtelière/fermier
+4/Une femme qui travaille à la caisse d'un supermarché c'est une .../caissière/caissier/pharmacien/écrivain/chirugienne/femme-agent/facteur
+4/Un homme qui travaille à la caisse d'un supermarché c'est un .../caissier/caissière/pharmacien/écrivain/routier/chirugienne/facteur/fermier
+4/Un homme qui travaille dans une bibliothèque c'est un .../bibliothécaire/écrivain/routier/chômeur/chirugienne/chirugien/hôtelière/fermier
+4/Une femme qui écrit des articles pour un journal c'est une .../journaliste/bibliothécaire/pharmacien/écrivaine/hôtelière/facteur/fermier/étudiante
+4/Une femme qui prépare les ordonnances c'est une .../pharmacienne/pharmacien/routier/caissier/chômeur/chirugien/femme-agent/fermière/étudiante/acteur
+4/Un homme qui prépare les ordonnances c'est un .../pharmacien/écrivain/routier/caissier/chirugienne/femme-agent/fermière/serveuse/facteur
+4/Un homme qui écrit des livres c'est un .../écrivain/fermière/fermier/étudiante/actrice/patron/femme-agent/fermière/serveuse/facteur/hôtelière
+4/Un homme qui conduit des poids lourds c'est un .../routier/caissier/caissière/pharmacien/écrivain/femme-agent/fermière/acteur/hôtelière
+4/Un homme qui enseigne dans un collège c'est un .../professeur/routier/caissier/caissière/pharmacien/écrivaine/écrivain/fermière/chômeur/hôtelière
+4/Une personne qui veut travailler mais qui ne trouve pas d'emploi c'est un .../chômeur/bibliothécaire/écrivaine/écrivain/routier/actrice/acteur/patron
+4/Une femme qui opère sur les malades c'est une.../chirugienne/chirugien/patronne/chef/étudiant/mécanicien/actrice/serveuse/facteur/comptable/acteur
+4/Un homme qui opère sur les malades c'est un.../chirugien/chirugienne/patronne/chef/étudiant/mécanicien/actrice/serveuse/facteur/comptable/caissier
+4/Un homme qui essaie d'éteindre les incendies c'est un .../pompier/pharmacienne/pharmacien/routier/caissier/chômeur/chirugien/actrice/fermier/acteur
+GRADE5
+1/Plus tard je _____ dentiste./serai/seras/sera/serons/serez/seront
+1/Plus tard elle ____ comptable./sera/seras/serai/serons/serez/seront
+1/Plus tard ils ______ pompiers./seront/seras/serai/serons/serez/sera
+1/Plus tard tu _____ électricien./seras/seront/serai/serons/serez/sera
+1/Plus tard il ____ routier./sera/seras/serai/serons/serez/seront
+1/Plus tard elle ____ dessinatrice./sera/seras/serai/serons/serez/seront
+1/Plus tard nous _____ probablement au chomage./serons/sera/seras/serai/serez/seront
+1/Plus tard vous _____ cuisinier./serez/sera/seras/serai/serons/seront
+1/Plus tard ils ______ dans un bureau./seront/sera/seras/serai/serons/serez
+1/Plus tard elles ______ à l'étranger./seront/sera/seras/serai/serons/serez
+2/Au mois de juin je _________ le collège./quitterai/quitter/quitteras
+2/Que _____-tu l'année prochaine?/feras/ferai/ferez/feront
+2/Marc ___ à l'université l'année prochaine./ira/irez/iront/iras
+2/Sylvie ________ un emploi bientôt./trouvera/trouveront/trouverez/trouveras
+2/Nous _________ tous en première./entrerons/entrer/entrerez/entrera
+2/__________-vous un travail en septembre?/Chercherez/Chercherons/Chercheront
+2/Les étudiants _________ les résultats des examens au mois d'août./recevront/recevra/recevras/recevrons
+2/Je ________ mes examens au mois de juin./passerai/passera/passerons 
+2/Luc __________ à travailler la semaine prochaine./commencera/commencerons/commenceras/commencerez
+2/Nous ____________ à réviser pour les examens demain./commencerons/commencerez/commencerai/commenceras
+3/J'ai envie de __________ avec les enfants./travailler/travaille/travailles/travailleras 
+3/As-tu l'intention de _________ tes études?/continuer/continuera/continunueront/continue
+3/Philippe va ______ une année à l'étranger./passer/passeras/passeront/passe 
+3/Sophie pense __________ comme au pair l'année prochaine./travailler/travailleras/travailleront/travailles
+3/Nous voudrions _______ le collège le plus vite possible./quitter/quittons/quitterons/quitterez
+3/Voulez-vous _____ des études supérieures?/faire/font/faites/faisons/ferez
+3/L'idée de __________ avec les animaux m'intéresse./travailler/travailleras/travailleront/travaille
+3/Je ne sais pas ce que je voudrais _____ plus tard./faire/ferez/feras/fait/fais
+3/L'idee de __________ dans une fabrique ne me plaît pas./travailler/travaille/travaillons/travaillerons
+3/Je voudrais __________ dans une agence de voyages./travailler/travailleras/travaillerez/travailles
+3/J'ai envie de __________ avec les enfants./travailler/travaille/travailles/travaillons
+4/Nadine aimerait _____ de la recherche dans la physique nucléaire./faire/ferez/ferons/fais/fait
+4/L'idée de __________ en plein air me plaît./travailler/travaillera/travaillerons/travaillons
+4/L'idée de __________ en milieu ferme ne me dit rien./travailler/travaille/travaillons  
+4/Tu espères _____ à l'université, n'est-ce pas?/aller/allons/allez/ira/irez
+4/Elle compte _____ un stage pendant les vacances./faire/fais/fait/faites/font
+4/J'espère ______ une carrière paramédicale./suivre/suis/suit/suivons
+4/Il faut _______ pendant quatre ans pour être professeur./étudier/étudiez/étudies/étudions
+4/Sandrine pourrait ____ programmeuse./être/sera/serez/seront
+4/Elle a toujours voulu _______ infirmière./devenir/deviendra/deviendras/deviendrons
+GRADE6
+1/J'ai décidé __ faire des études supérieures./de/à/pour/d'/que/avant
+1/Suite à votre annonce je vous écris ____ offrir mes services./pour/de/qui/que/d'
+1/Je vous écris ____ vous demander de me fournir plus de détails./pour/de/qui/que/à/avant
+1/Serait-il possible __ me préciser les conditions de ce poste?/de/pour/d'/à/avant/afin
+1/Je viens __ faire un stage de six mois./de/d'/à/pour/qui
+1/Ma mère m'a persuadé __ étudier la législation du travail./d'/de/à/qui/que/ne
+1/C'est trop difficile _ faire!/à/de/d'/qui/que/sans
+1/Il est impossible __ fixer un rendez-vous./de/d'/à/aant/pour/qui/que
+1/Elle a l'intention __ travailler dans l'informatique./de/à/pour/qui/que
+1/Il a hésité _____ de demander une augmentation de salaire./avant/de/sans/à/qui/que
+1/Elle a passé tout le weekend _ bûcher pour les examens./à/avant/qui/que/pour
+1/Il a essayé __ exercer une profession./d'/de/qui/avant/que/à
+1/Nous sommes obligés __ prendre un jour de congé./de/avant/sans/à/que/qui
+1/Nous avons refusé __ faire des heures supplémentaires./de/d'/qu'/que/avant
+1/Les ouvriers ont le droit __ se mettre en grève./de/avant/qui/à/pour/que
+1/Je l'ai empêché __ donner sa démission./de/à/d'/pour/qui/que
+1/J'ai conseillé à la directrice __ le congédier./de/d'/pour/à/avant
+1/Je dois réussir mes examens _____ de partir en vacances./avant/de/à/d'/qui/que
+1/Elle apprend _ gérer la société./à/de/d'/qui/que/avant
+1/Nous commençons _ nous entraîner./à/avant/pour/qui/que
+1/Je ne m'intéresse pas du tout _ faire des études scientifiques./à/pour/de/d'/qui/avant
+1/Nous devons faire des économies ____ ne pas faire faillite./pour/à/de/d'/qui/que/mais
+1/_____ de faire la publicité, nous devrions améliorer le produit./Avant/Pour/A/sans/qui
+1/Je dois beaucoup travailler ____ de recevoir de bonnes notes./afin/à/de/d'/qui/que
+1/Je suis des études supérieures ____ de pouvoir exercer une profession libérale./afin/de/d'/qui/que
+1/J'ai choisi ce stage ____ hesiter./sans/avant/pour/de/d'
+1/Elle travaille dur ____ se plaindre./sans/avant/pour/de/d'/à
+1/Il a quitté ses études ____ bien réfléchir sur son avenir./sans/à/de/d'
+1/Je vais en France ____ améliorer mes connaissances en français./pour/avant/de/d'
+2/C'est ma soeur ___ m'a conseillé de trouver un emploi./qui/que/qu'
+2/Je fais un travail ___ est très intéressant./qui/que/qu'
+2/Au mois de juin je vais passer des examens ___ sont très importants./qui/qu'/que
+2/C'est mon frère ___ m'a proposé un repas au restaurant./qui/que/qu'
+2/C'est une décision ___ je dois prendre./que/qui/qu'
+2/C'est un travail ___ je voudrais bien faire./que/qui/qu'
+2/C'est l'occasion ___ je ne dois pas manquer./que/qui/qu'
+2/C'est une femme pour ___ j'ai beaucoup de respect./qui/qu'/que
+2/C'est la femme ___ j'admire le plus./que/qu'/qui
+2/De nos jours il y a beaucoup plus de jeunes filles ___ suivent des études supérieures./qui/que/qu'
+2/Il y a des jeunes gens ___ organisent des activités./qui/que/qu'
+2/Il y a le personnel ___ s'occupe de la cuisine./qui/que/qu'
+3/Je n'ai ______ voulu travailler dans une banque./jamais/aucun/aucunes/que/qui
+3/Je ne fais ______ assez de révision pour mes examens./jamais/rien/aucun/qui/que
+3/L'idée de travailler en milieu fermé ne m'intéresse ___ du tout./pas/jamais/guère/personne/qui/que
+3/Il n'a ___ encore choisi son orientation./pas/jamais/personne/que/qui
+3/Il n'y a ________ qui pense comme moi./personne/jamais/que/aucun/aucune
+3/Je n'ai vu ________ à l'usine./personne/jamais/que/pas/qui
+3/Je n'ai ______ idée au sujet de mon avenir./aucune/jamais/personne/pas
+3/Il n'a _____ projet pour les vacances./aucun/aucune/jamais/personne/pas
+3/Il ne me reste ___ dix francs./que/personne/aucune/qui
+3/Tu n'as ___ à faire encore un effort./qu'/que/rien/personne/qui
+3/Depuis un mois je suis au chômage, je ne travaille ____. /plus/personne/rien/que/qui
+3/Pour une semaine je ne ferai ____ rien./plus/personne/pas/aucun
+3/Il ne fait ____ pour améliorer son français./rien/pas/jamais/qui/que
+3/Je n'ai ____ appris au collège./rien/personne/que/qu'/aucun
+3/Récemment je ne suis _____ sorti à cause du travail./guère/personne/aucune/que
+3/En ce moment je ne lis _____ pour le plaisir./guère/personne/que/aucune
+4/Après _____ passé mes examens, je quitterai le collège./avoir/être/ayant/étant
+4/Après _____ quitté l'école, je ferai un long voyage./avoir/être/ayant/étant
+4/Après _____ présenté ma candidature, je l'ai tout de suite regretté./avoir/être/ayant/étant
+4/Après _____ lu la documentation, j'ai écrit la lettre./avoir/être/ayant/étant
+4/Après ____ arrivé au bureau, j'ai commencé à travailler./être/avoir/étant/ayant
+4/Après ____ venus de si loin, nous avons dû nous coucher./être/avoir/ayant/étant
+4/Après ____ entrée dans l'entreprise, la nouvelle patronne a augmenté les salaires./être/avoir/ayant/étant
+4/Même après _____ fait des études, Nadine fait du travail à la chaîne dans une usine./avoir/être/ayant/étant
+4/_____ éprouvé de la difficulté à trouver un emploi, je me suis remis à étudier./Ayant/Etant/Avoir/Etre
+4/_____ cherché en vain un emploi en rapport avec ses qualifications, Luc s'est inscrit au chômage./Ayant/Etant/Avoir/Etre
+4/_____ trouvé un poste, j'ai l'intention de bien travailler./Ayant/Etant/Avoir/Etre
+4/_____ toujours voulu devenir médecin, j'ai changé d'avis récemment./Ayant/Etant/Avoir/Etre
+4/_____ né dans une famille de professeurs, je n'ai jamais voulu entrer dans l'enseignement./Etant/Ayant/Etre/Avoir
+4/_____ venu voir l'entreprise , j'ai été très déçu./Etant/AyantAvoir/Etre

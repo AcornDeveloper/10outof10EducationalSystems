@@ -1,0 +1,417 @@
+$ The Cop word file structure
+$ 2. <sub grade>/<quantity/container>/<true>/<false> ...
+$ 3. <sub grade>/<French word> ... <*><English word> ...
+$ 4. <sub grade>/<phrase>/<true>/<false> ...<*><English translation>
+$ 5. <sub grade>/<definition>/<true><*><English translation>
+$ 6. <sub grade>/<phrase>/<true>/<false> ...<*><English translation>
+$ Grades 2-6 maximum word length 13
+$ Grade 3 French and English sentences split by '*'
+$ Grades 2,4,6 <true>+<false> up to 16 entries
+$ Grade 5 be careful as false answers are taken from anywhere in the grade
+$ Grade 4 and 6 need underline characters at least as long as the answer
+$ sub grade 1-4
+
+GRADE2
+1/une bouteille/de vin rouge/d'oeufs/de pommes/de raisins/de pêches/de riz
+1/une bouteille/de vin blanc/d'oeufs/de pommes/de nectarines/de riz/de thé
+1/une boîte/de sardines/de confiture/d'oeufs/de dentifrice/de pizza/de gâteau
+1/une boîte/de petits pois/de marmelade/de cidre/de pommes/de Perrier/d'huile
+1/une boîte/d'haricots verts/de lait/de coca/de cidre/de bière/d'oeufs/d'eau
+1/un pot/de confiture/de lait/de coca/de cidre/de bière/d'oeufs/de pommes
+1/un pot/de marmelade/de lait/de coca/de cidre/de bière/d'oeufs/de pommes
+1/un litre/de lait/d'oeufs/d'aspirines/de dentifrice/de poires/de raisins
+1/un litre/de vinaigre/d'oeufs/d'aspirines/de dentifrice/de poires/de raisins
+1/un litre/de coca/d'oeufs/d'aspirines/de dentifrice/de poires/de raisins
+1/un litre/de cidre/d'oeufs/d'aspirines/de dentifrice/de poires/de raisins
+1/un litre/de jus de pommes/d'oeufs/d'aspirines/de dentifrice/de poires
+1/un litre/de Perrier/d'oeufs/d'aspirines/de dentifrice/de poires/de raisins
+1/une douzaine/d'oeufs/de lait/de vinaigre/de bière/d'eau minérale/d'huile
+1/un tube/de dentifrice/d'oeufs/de lait/de vinaigre/de bière/d'eau minérale
+1/un tube/d'aspirines/d'oeufs/de lait/de vinaigre/de bière/d'eau minérale
+1/un litre/de bière/de dentifrice/d'oeufs/de marmelade/de prunes/de carottes
+1/un litre/d'huile/de riz/de pêches/de courgettes/de café/de sucre/de påtes
+1/un litre/de limonade/de riz/de pêches/de courgettes/de café/de sucre/de riz
+1/un litre/d'eau minérale/de dentifrice/d'oeufs/de marmelade/de café/de sucre
+1/un kilo/de pommes/d'eau minérale/de dentifrice/d'oeufs/de vinaigre/de lait
+1/un kilo/de poires/de vin rouge/d'oeufs/de vin blanc/de jus de pommes/d'eau
+1/un kilo/de cerises/d'aspirines/de bière/d'huile/d'oeufs/de Perrier/de lait
+1/un kilo/de raisins/de vin rouge/d'oeufs/de vin blanc/de jus de pommes/d'eau
+1/un kilo/de pêches/d'aspirines/de bière/d'huile/d'oeufs/de Perrier/de lait
+1/un kilo/de nectarines/de vin rouge/d'oeufs/de vin blanc/de jus de pommes
+1/un kilo/de prunes/d'aspirines/de bière/d'huile/d'oeufs/de Perrier/de lait
+1/un kilo/d'abricots/de vin rouge/d'oeufs/de vin blanc/de jus de pommes/d'eau
+1/un kilo/de pommes de terre/de lait/de vin rouge/d'oeufs/de vin blanc/d'eau
+1/un kilo/de tomates/de vin rouge/d'oeufs/de vin blanc/de jus de pommes/d'eau
+1/un kilo/de carottes/d'aspirines/de bière/d'huile/d'oeufs/de Perrier/de lait
+1/un kilo/de poireaux/de vin rouge/d'oeufs/de vin blanc/de jus de pommes
+1/un kilo/de courgettes/d'aspirines/de bière/d'huile/d'oeufs/de Perrier/d'eau
+1/un kilo/d'aubergines/de vin rouge/d'oeufs/de vin blanc/de jus de pommes
+1/un kilo/d'haricots verts/d'eau minérale/de dentifrice/de vin rouge/de pizza
+1/un kilo/d'oignons/d'eau minérale/de dentifrice/d'huile/de bière/de limonade
+1/un kilo/de sucre/de vin rouge/d'eau minérale/de cidre/de lait/de pizza
+1/un kilo/de farine/d'aspirines/de bière/d'huile/d'oeufs/de Perrier/de lait
+1/un kilo/de riz/de vin rouge/d'oeufs/de vin blanc/de jus de pommes/de pizza
+1/un kilo/de påtes/d'aspirines/de bière/d'huile/d'oeufs/de Perrier/de lait
+1/un kilo/de beurre/d'eau minérale/de dentifrice/d'huile/de bière/de limonade
+1/un kilo/de thé/d'aspirines/de bière/d'huile/d'oeufs/de Perrier/de lait
+1/un kilo/de café/de vin rouge/d'oeufs/de vin blanc/de jus de pommes/de pizza
+2/un demi-kilo/de pommes/de dentifrice/d'oeufs/de lait/de quiche/de Perrier
+2/un demi-kilo/de poires/de bière/de quiche/de Perrier/de limonade/de frites
+2/un demi-kilo/de cerises/de vinaigre/de bière/d'eau minérale/d'huile/de lait
+2/un demi-kilo/de raisins/de bière/de dentifrice/d'oeufs/de lait/de pizza
+2/un demi-kilo/de pêches/d'aspirines/de chocolat chaud/de limonade/de lait
+2/un demi-kilo/de nectarines/de vin rouge/d'oeufs/de vin blanc/de pizza/d'eau
+2/un demi-kilo/de prunes/de vinaigre/de bière/d'eau minérale/d'huile/de lait
+2/un demi-kilo/d'abricots/de dentifrice/d'oeufs/de lait/de moutarde
+2/un demi-kilo/de pommes de terre/de pizza/de tarte/de frites/
+2/un demi-kilo/de tomates/de pizza/de moutarde/de tarte/d'aspirines/de lait
+2/un demi-kilo/de carottes/de dentifrice/d'oeufs/de lait/de pizza/de frites
+2/un demi-kilo/de poireaux/d'huile/de lait/d'oeufs/de tarte/d'eau
+2/un demi-kilo/de courgettes/de dentifrice/d'oeufs/de lait/de moutarde/d'eau
+2/un demi-kilo/d'aubergines/de vin rouge/d'oeufs/de vin blanc/d'aspirines
+2/un demi-kilo/d'haricots verts/de vinaigre/de bière/d'eau minérale/d'huile
+2/un demi-kilo/d'oignons/de cidre/d'huile/de lait/de tarte/de vinaigre/d'eau
+2/un demi-kilo/de sucre/d'aspirines/de pizza/de tarte/de vinaigre/de chips
+2/un demi-kilo/de farine/de vin rouge/d'oeufs/de vin blanc/de jus de pommes
+2/un demi-kilo/de riz/de vinaigre/de bière/d'eau minérale/d'huile/de lait
+2/un demi-kilo/de påtes/de bière/de cidre/de tarte/de vinaigre/de chips/d'eau
+2/un demi-kilo/de beurre/d'aspirines/d'huile/de lait/de chips/d'oeufs/d'eau
+2/un demi-kilo/de thé/de vinaigre/de bière/d'eau minérale/d'huile/de lait
+2/un demi-kilo/de café/de pizza/de chips/de cidre/de lait/d'oeufs
+2/un pot/d'olives/de bière/de frites/de dentifrice/de fromage
+2/un pot/de moutarde/de lait/de chips/de frites/de dentifrice
+2/une boîte/de coeurs d'artichaut/de chips/d'eau
+2/une boîte/de mais/de pizza/d'eau minérale/de dentifrice
+2/une boîte/de thon/de pizza/d'eau minérale/de dentifrice/de chips/d'eau
+2/une barquette/de fraises/de quiche/de vinaigre/de bière/d'eau minérale
+2/une barquette/de frambioses/de quiche/de vinaigre/de bière/d'eau minérale
+2/une botte/de persil/de lait/de chips/de café/de pizza/de vin rouge/d'eau
+2/un morceau/de quiche/de vinaigre/de bière/d'eau minérale/d'huile/de lait
+2/un morceau/de pizza/d'eau minérale/de dentifrice/de vin rouge/de cidre
+2/un morceau/de tarte/de vinaigre/de bière/d'eau minérale/d'huile/de lait
+2/un morceau/de fromage/de vin rouge/de vin blanc/de limonade/de Perrier
+2/un paquet/de chips/de confiture/de lait/de sardines/de Perrier/d'olives
+2/un paquet/de bonbons/d'oeufs/de cidre/de quiche/de pizza/d'eau
+2/un paquet/de spaghettis/de confiture/de lait/de limonade/de marmelade/d'eau
+2/un paquet/de påtes/d'oeufs/de sardines/de limonade
+2/un paquet/de riz/de confiture/de lait/de cidre/de limonade/de marmelade
+2/un paquet/de thé/de vin rouge/de vin blanc/de limonade/de Perrier/de quiche
+2/un paquet/de café/de pizza/de vin rouge/d'oeufs/de cidre/de marmelade/d'eau
+3/une tranche/de jambon/de vin rouge/de vin blanc/de limonade/de frites/d'eau
+3/une tranche/de pizza/d'huile/de vin rouge/de cidre/de riz
+3/une tranche/de fromage/de vin rouge/d'huile/de lait/de vin blanc/de cidre
+3/une tranche/de saucisson/de vin rouge/de sucre/d'oignons/de sardines/de riz
+3/une tranche/de salami/de vin rouge/de vin blanc/de limonade/de frites
+3/une rondelle/de salami/d'aspirines/de dentifrice/d'huile/d'oignons/de riz
+3/une rondelle/de saucisson/de vinaigre/de sucre/d'huile/de lait/de cidre
+4/une portion/de salade de tomates/de Perrier/d'olives/de jus de pommes
+4/une portion/de taboulet/de Perrier/d'eau minérale/de cidre/d'huile
+4/une portion/de pizza/d'aspirines/de dentifrice/d'olives/de limonade
+4/une portion/de quiche/de Perrier/de sucre/d'eau minérale/de lait/de cidre
+4/une portion/de carottes råpées/de vinaigre/de limonade/de jus de pommes
+4/une portion/de frites/d'aspirines/de dentifrice/de limonade/d'huile
+4/un verre/de vin rouge/de raisins/de nectarines/de poires/de pêches/de riz
+4/un verre/de vin blanc/de café/de chocolat chaud/de tilleul/de verveine
+4/un verre/de lait/d'aubergines/de tomates/d'abricots/de raisins/de pêches
+4/un verre/de limonade/de farine/d'aspirines/de raisins/de poires/de sucre
+4/un verre/de coca/d'aubergines/de tomates/d'abricots/de nectarines/de pêches
+4/un verre/d'eau minérale/de café/de chocolat chaud/de tilleul/de verveine
+4/un verre/de jus d'orange/d'abricots/d'oeufs
+4/un verre/de jus de pomme/d'aspirines/de dentifrice/de poires/de raisins
+4/un verre/de Perrier/de sardines/de confiture/de marmelade/d'huile
+4/une tasse/de café/de confiture/de coca/de cidre/de bière/d'oeufs
+4/une tasse/de thé/de sardines/de confiture/de marmelade/d'huile
+4/une tasse/de chocolat chaud/d'abricots/de vin rouge/d'oeufs/de vin blanc
+4/une tasse/de verveine/d'aspirines/de dentifrice/de poires/de raisins/de riz
+4/une tasse/de tilleul/de confiture/de coca/de cidre/de bière/d'oeufs
+GRADE3
+1/Je/voudrais/une/baguette.*I/would/like/a/French/loaf.
+1/Avez-vous/des/pommes?*Do/you/have/any/apples?
+1/Vendez-vous/des/artichauts?*Do/you/sell/artichokes?
+1/Je/voudrais/un/kilo/de/poires.*I/would/like/a/kilo/of/pears.
+1/Je/voudrais/deux/tranches/de/jambon.*I/would/like/two/slices/of/ham.
+1/Donnez-moi/une/bouteille/de/limonade.*Give/me/a/bottle/of/lemonade.
+1/Donnez-moi/une/botte/de/radis.*Give/me/a/bunch/of/radishes.
+1/Je/voudrais/cinq/cent/grammes/de/raisins*I/would/like/500/grammes/of/grapes.
+1/Vendez-vous/des/olives?*Do/you/sell/olives?
+1/Et/avec/ceci?*And/with/that?
+1/C'est/tout?*Is/that/all?
+1/C'est/combien?*How/much/is/it?
+1/C'est/combien/en/tout?*How/much/is/it/altogether?
+1/Je/voudrais/un/paquet/de/bonbons.*I/would/like/a/packet/of/sweets.
+1/Je/vais/prendre/un/litre/de/vin/rouge.*I'll/take/a/litre/of/red/wine.
+1/Donnez-moi/une/bouteille/de/vin/blanc.*Give/me/a/bottle/of/white/wine.
+1/Nous/voudrions/une/portion/de/salade/de/tomates.*We/would/like/a/portion/of/tomato/salad.
+1/Je/vais/prendre/dix/rondelles/de/salami.*I'll/take/ten/slices/of/salami.
+1/Avez-vous/du/vinaigre/de/vin?*Have/you/got/any/wine/vinegar?
+1/Je/vais/prendre/un/pot/de/confiture/à/la/fraise.*I'll/take/a/jar/of/strawberry/jam.
+1/Je/vais/prendre/un/pot/de/moutarde/de/Dijon.*I'll/take/a/pot/of/Dijon/mustard.
+1/Je/voudrais/une/boîte/de/thon/à/l'huile.*I/would/like/a/tin/of/tuna/in/oil.
+1/Donnez-moi/une/boïte/de/sardines/à/la/sauce/tomate.*Give/me/a/tin/of/sardines/in/tomato/sauce.
+1/Donnez-moi/cinq/tranches/de/jambon*Give/me/five/slices/of/ham.
+1/Je/voudrais/deux/cent/cinquante/grammes/de/pâté/de/campagne.*I/would/like/250/grammes/of/country/pâté
+1/Je/regrette,/je/n'ai/plus/de/pain.*I'm sorry,/I've/got/no/more/bread.
+1/Désolé,/il/n'/y/a/plus/de/croissants.*Sorry,/there/are/no/more/croissants.
+1/Avez-vous/une/barquette/de/fraises?*Have/you/got/a/punnet/of/strawberries?
+1/Désolé,/il/n'y/a/plus/de/petits/pains/au/chocolat.*Sorry/there/are/no/more/chocolate/rolls.
+1/Je/regrette,/je/n'ai/plus/de/fraises.*I'm/sorry/I've/got/no/more/strawberries.
+2/Vous/désirez?*What/would/you/like?
+2/Vous/avez/choisi?*Have/you/chosen?
+2/Et/pour/vous?*And/what/would/you/like?
+2/Voici/la/carte!*Here/is/the/menu!
+2/Et/comme/boisson?*What/would/you/like/to/drink?
+2/Et/comme/viande?*What/would/you/like/for/the/meat/course?
+2/Et/comme/légumes?*Which/vegetables/would/you/like?
+2/Et/comme/dessert?*Which/dessert/would/you/like?
+2/Je/vais/prendre/un/grand/café-crème.*I'll/have/a/large/coffee/with/milk.
+2/Je/voudrais/un/petit-crème.*I/would/like/a/small/coffee/with/milk.
+2/Je/vais/prendre/un/diabolo/fraise.*I'll/have/a/fizzy/strawberry.
+2/Je/voudrais/un/diabolo/cassis.*I'll/have/a/fizzy/blackcurrant.
+2/Donnez-moi/un/citron/pressé,/s'il/vous/plaît.*Give/me/a/fresh/lemon/drink/please.
+2/Je/vais/prendre/un/thé/au/citron.*I'll/have/a/lemon/tea.
+2/Je/voudrais/de/la/monnaie/pour/le/juke-box.*I'd/like/some/change/for/the/juke-box.
+2/Avez-vous/de/la/monnaie/pour/le/flipper?*Have/you/any/change/for/the/pinball/machine?
+2/J'ai/besoin/de/la/monnaie/pour/le/babyfoot.*I/need/some/change/for/the/table/football.
+2/Où/sont/les/toilettes?*Where/are/the/toilets?
+2/Vous/avez/un/téléphone?*Do/you/have/a/telephone?
+2/Qu'est-ce/que/vous/avez/comme/glaces?*What/sort/of/ice/creams/do/you/have?
+2/Qu'est-ce/que/vous/avez/comme/sandwichs?*What/sort/of/sandwiches/do/you/have?
+2/Qu'est-ce/que/vous/avez/comme/infusions?*What sort/of/herb/teas/do/you/have?
+2/Qu'est-ce/que/vous/avez/comme/bières?*What/sort/of/beers/do/you/have?
+2/Qu'est-ce/que/c'est/le/plat/du/jour?*What/is/the/dish/of/the/day?
+2/Nous/allons/prendre/le/menu/à/cent/francs.*We'll/have/the/100/franc/menu.
+2/Nous/allons/prendre/le/menu/à/quatre-vingt-dix/francs.*We'll/have/the/90/franc/menu.
+2/Je/voudrais/un/sandwich/au/jambon.*I/would/like/a/ham/sandwich.
+2/Je/voudrais/un/sandwich/au/saucisson.*I/would/like/a/continental/sausage/sandwich.
+2/Je/voudrais/un/sandwich/au/fromage.*I/would/like/a/cheese/sandwich.
+2/Je/voudrais/payer.*I/would/like/to/pay.
+2/Je/voudrais/régler/tout/de/suite.*I/would/like/to/pay/straight/away.
+2/Voulez-vous/m'apporter/l'addition.*Would/you/bring/me/the/bill.
+2/Je/vais/prendre/une/glace/au/chocolat.*I'll/have/a/chocolate/ice/cream.
+2/Je/voudrais/la/salade/de/fruits/de/mer.*I/would/like/the/sea-food/salad.
+2/Je/voudrais/une/salade/composée.*/would/like/a/mixed/salad.
+2/Je/vais/prendre/les/crudités.*I'll/have/the/raw/mixed/vegetables.
+2/Je/voudrais/une/pizza.*I/would/like/a/pizza.
+2/Une/table/pour/deux/personnes.*A/table/for/two.
+2/Donnez-moi/une/carafe/d'eau.*Give/me/a/carafe/of/water.
+2/J'ai/téléphoné/pour/réserver/une/table.*I/phoned/to/reserve/a/table.
+3/Qu'y/a-t-il/pour/votre/service?*How/can/I/be/of/service?
+3/Puis-je/vous/aider?*May/I/help/you?
+3/Où/est/le/rayon/pour/hommes?*Where/is/the/men's/department?
+3/Où/est/le/rayon/pour/femmes?*Where/is/the/women's/department?
+3/Où/est/le/rayon/pour/enfants?*Where/is/the/chidren's/department?
+3/Je/cherche/un/T-shirt/pour/mon/frère.*I'm/looking/for/a/T-shirt/for/my/brother.
+3/Je/cherche/un/sweatshirt/pour/une/fillede/treize/ans.*I'm/looking/for/a/sweat-shirt/for/a/13/year/old/girl.
+3/Je/cherche/une/écharpe/pour/mon/père.*I'm/looking/for/a/scarf/for/my/father.
+3/Je/voudrais/une/paire/de/gants/pour/un/enfant/de/quatre/ans.*I/would/like/a/pair/of/gloves/for/a/4/year/old.
+3/Je/voudrais/un/T-shirt/en/petit.*I/would/like/a/T-shirt/size/small.
+3/Je/voudrais/un/sweat-shirt/en/moyen.*I/would/like/a/sweat-shirt/size/medium.
+3/Je/voudrais/un/short/en/grand.*I/would/like/a/pair/of/shorts/size/large.
+3/Avez-vous/la/même/chose/en/bleu-marine?*Do/you/have/the/same/in/navy/blue?
+3/Avez-vous/la/même/chose/en/vert?*Do/you/have/the/same/thing/in/green?
+3/Avez-vous/la/même/chose/en/noir?*Do/you/have/the/same/thing/in/black?
+3/C'est/trop/grand.*It's/too/big.
+3/C'est/trop/petit.*It's/too/small.
+3/C'est/trop/court.*It's/too/short.
+3/C'est/trop/long.*It's/too/long
+3/C'est/trop/étroit.*It's/too/narrow.
+3/C'est/trop/cher.*It's/too/expensive.
+3/Est-ce/que/je/peux/essayer/cette/robe?*Can/I/try/on/this/dress?
+3/Est-ce/que/je/peux/essayer/cette/jupe?*Can/I/try/on/this/skirt?
+3/Est-ce/que/je/peux/essayer/ce/pantalon?*Can/I/try/on/these/trousers?
+3/Est-ce/que/je/peux/essayer/cette/veste?*Can/I/try/on/this/jacket?
+3/Les/cabines/d'essayage/sont/par/là.*The/changing/rooms/are/over/there.
+3/Je/cherche/un/manteau/en/cuir.*I'm/looking/for/a/leather/coat.
+3/Je/voudrais/une/chemise/en/coton.*I/would/like/a/cotton/shirt.
+3/Vous/pouvez/laver/cette/veste/à/la/machine.*You/can/machine/wash/this/jacket.
+3/Vous/pouvez/laver/ce/chapeau/à/la/machine.*You/can/machine/wash/this/hat.
+3/Ceci/me/va/très/bien.*This/fits/me/well.
+3/Ceci/vous/va/bien.*This/fits/you/well.
+3/C'est/très/à/la/mode.*It's/very/fashionable.
+4/Où/est/le/rayon/de/parfumerie?*Where/is/the/perfume/section?
+4/Où/est/le/rayon/des/disques?*Where/is/the/record/department?
+4/Où/est/le/rayon/des/vêtements?*Where/is/the/clothes/department?
+4/Où/est/le/rayon/des/jouets?*Where/is/the/toy/department?
+4/Où/est/le/rayon/de/souvenirs/?*Where/is/the/souvenir/department?
+4/Je/cherche/un/cadeau/pour/ma/soeur.*I'm/looking/for/a/present/for/my/sister.
+4/Je/cherche/un/cadeau/pour/mon/frère.*I'm/looking/for/a/present/for/my/brother.
+4/Je/cherche/un/cadeau/pour/ma/grand-mère.*I'm/looking/for/a/present/for/my/grandmother.
+4/Je/voudrais/acheter/un/souvenir/pour/mes/parents.*I/would/like/to/buy/a/souvenir/for/my/parents.
+4/Je/voudrais/acheter/un/souvenir/pour/mon/père.*I/would/like/to/buy/a/souvenir/for/my/father.
+4/Avez-vous/quelque chose/pour/une/fille/de/dix/ans?*Do/you/have/anything/for/a/10/year/old/girl?
+4/Avez-vous/quelque chose/pour/un/garçon/de/sept*Do/you/have/anything/for/a/7/year/old/boy.
+ans?
+4/Je/voudrais/mettre/environ/vingt/francs.*I/would/like/to/spend/about/20/francs.
+4/Je/voudrais/mettre/environ/trente/francs.*I/would/like/to/spend/about/30/francs.
+4/Je/voudrais/mettre/cent/francs/au/plus.*I/would/like/to/spend/no/more/than/100/francs.
+4/Je/voudrais/voir/des/posters.*I/would/like/to/see/the/posters.
+4/J'ai/vu/des/T-shirts/dans/la/vitrine.*I've/seen/some/T-shirts/in/the/window.
+4/J'ai/vu/des/posters/dans/la/vitrine.*I've/seen/some/posters/in/the/window.
+4/Je/voudrais/un/paquet/de/bonbons.*I/would/like/a/packet/of/sweets.
+4/Je/voudrais/une/boîte/de/pralinés.*I/would/like/a/box/of/chocolates.
+4/Je/voudrais/un/paquet/de/nougat/de/la/région.*I/would/like/a/packet/of/nougat/from/the/area.
+4/Je/voudrais/un/guide/de/la/région.*I/would/like/a/guide/to/the/area.
+4/Je/vais/prendre/un/pot/de/miel/de/la/région.*I'll/take/a/jar/of/local/honey.
+4/Je/vais/prendre/du/fromage/de/la/région.*I'll/take/some/cheese/from/the/area.
+4/Je/voudrais/ce/porte-monnaie/en/cuir.*I/would/like/this/leather/purse.
+GRADE4
+1/____-vous du pain?/Avez/As/Es/Ont/Sont/A/Y/Et/Avons/Tu*Have you got any bread?
+1/J'__ deux baguettes./ai/a/sont/es/y/tu/ont/avons/et/y*I've got two French loaves.
+1/Marie, tu __ un crayon?/as/ai/es/tu/sont/y/avons*Marie, have you got a pencil?
+1/Mes parents ___ deux voitures./ont/sont/es/y/tu/avons*My parents have got two cars.
+1/Est-ce que Jean _ du fromage?/a/ont/sont/es/y/tu/avons*Has Jean got any cheese?
+1/Il y _ une pharmacie rue de la Gare./a/ont/sont/es/y/tu/avons*There is a chemist on Station street.
+1/Il y _ trois enfants dans la salle de classe./a/ont/sont/es/y/tu/avons*There are three children in the classroom.
+1/J'__ une nouvelle veste./ai/es/tu/sont/y/avons/ont*I've got a new jacket.
+1/Tu __ encore de la viande?/as/ai/es/tu/sont/y/avons/ont*Do you have any more meat?
+1/Pierre n'_ pas de stylo./a/ai/es/tu/sont/y/avons/ont/sommes*Pierre has not got a pen.
+1/Nous _____ un cadeau pour toi./avons/as/ai/es/tu/sont/y/êtes/sommes*We have got a present for you.
+1/Ils n'___ pas de vin./ont/sont/es/y/tu/avons/ai/et/a/êtes*They have not got any wine.
+1/En France __ a un repas chaud à midi./on/ont/sont/es/y/tu/avons/ai/et/a/êtes*In France they have a hot meal at midday.
+1/Je regrette, nous n'_____ plus de pain./avons/as/ai/es/tu/sont/y/êtes*I'm sorry ,we have no more bread.
+1/Je ____ en troisième./suis/avons/as/ai/es/tu/sont/y/êtes/ont/a/sommes*I'm in Year 10.
+1/Tu __ en quelle classe?/es/tu/sont/y/êtes/ont/a/suis/avons*Which year are you in ?
+1/Tu __ toujours en retard!/es/tu/sont/y/êtes/ont/a/suis/avons*You are always late!
+1/Je regrette, je ____ en retard./suis/es/tu/sont/y/êtes/ont/a/avons*I'm sorry, I'm late.
+1/L'hypermarché ___ à l'extérieur de la ville./est/suis/es/tu/sont/y/êtes/ont/a/avons*The hypermarket is on the edge of the town.
+1/Nous ______ trois pour manger./sommes/on/ont/sont/es/y/tu/avons/ai/et/a/êtes*There are three of us to eat.
+1/Vous ____ en retard!/êtes/sommes/on/ont/sont/es/y/tu/avons/ai/suis*You are late!
+1/Vous ____ Monsieur Lebrun?/êtes/sommes/on/ont/sont/es/y/tu/avons/ai/suis*Are you Mr. Lebrun?
+1/Les grands magasins ____ au centre-ville./sont/êtes/sommes/on/ont/es/y/tu/avons*The department stores are in the town centre.
+2/J'____ les frites./aime/aimez/aimons/aiment*I like chips.
+2/Je n'____ pas les oeufs./aime/aimez/aimons/aiment*I do not like eggs.
+2/_____-tu les pizzas?/Aimes/Aimez/Aimons/Aiment*Do you like pizzas?
+2/Tu _____ le jambon, n'est-ce pas?/aimes/aimez/aimons/aiment*You like ham don't you?
+2/Marc ____ les spaghettis./aime/aimez/aimons/aiment*Marc likes spaghetti.
+2/Il n'____ pas le riz./aime/aimez/aimons/aiment*He does not like rice.
+2/Nadine n'____ pas la viande./aime/aimez/aimons/aiment*Nadine does not like meat.
+2/Elle ____ le saumon fumé./aime/aimez/aimons/aiment*She like smoked salmon.
+2/En France on ____ beaucoup les fruits de mer./aime/aimez/aimons/aiment*In France they like sea food a lot.
+2/En Angleterre on ____ beaucoup le thé./aime/aimez/aimons/aiment*In England they like tea a lot.
+2/Nous ______ manger en plein air./aimons/aime/aimez/aiment*We like eating outside.
+2/Nous n'______ pas manger trop tard./aimons/aime/aimez/aiment*We do not like eating too late.
+2/_____-vous les plats végétariens?/Aimez/Aimons/Aime/Aiment*Do you like vegetarian dishes?
+2/_____-vous les plats épicés?/Aimez/Aime/Aimons/Aiment*Do you like spicey dishes?
+2/Les enfants ______ les gaufres./aiment/aime/aimons/aimez*Children like waffles.
+2/Mes parents ______ la cuisine française./aiment/aime/aimez/aimons*My parents like French cooking
+3/Tu ____ encore de la viande?/veux/veut/voulons/voulez/veulent*Do you want some more meat?
+3/Tu ____ aller en ville?/veux/veut/voulons/voulez/veulent*Do you want to go into town?
+3/Tu ____ prendre un café?/veux/veut/voulons/voulez/veulent*Do you want to have a coffee?
+3/Marc ____ manger à l'italienne./veut/voulons/voulez/veulent/veux*Marc wants to eat Italian food.
+3/Sophie ____ manger à l'espagnole./veut/voulons/voulez/veulent/veux*Sophie wants to eat Spanish food.
+3/Il ____ manger à l'anglaise./veut/voulons/voulez/veulent/veux*He wants to eat English food
+3/Nous _______ faire des achats./voulons/voulez/veulent/veux/veut*We want to go shopping.
+3/Nous _______ acheter un cadeau./voulons/voulez/veulent/veux/veut*We want to buy a present.
+3/Vous ______ encore du pain?/voulez/veulent/veux/veut/voulons*Do you want some more bread?
+3/Vous ______ du thé ou du café?/voulez/veulent/veux/veut/voulons*Do you want tea or coffee?
+3/Les enfants _______ manger une glace./veulent/voulez/veux/veut/voulons*The children want to eat ice cream.
+3/Les clients _______ voir le menu./veulent/voulez/veux/veut/voulons*The customers want to see the menu.
+3/Je ____ aller aux magasins./veux/veut/voulons/voulez/veulent*I want to go to the shops.
+3/Je ____ aller au restaurant./veux/veut/voulons/voulez/veulent*I want to go to a restaurant.
+4/Je _____ ma voiture./vends/vend/vendons/vendez/vendent*I'm selling my car.
+4/Est-ce que tu _____ ton vélo./vends/vend/vendons/vendez/vendent*Are you selling your bike?
+4/François ____ sa platine-laser./vend/vends/vendons/vendez/vendent*François is selling his CD player.
+4/Je pense qu'elle ____ appartment./vend/vends/vendons/vendez/vendent*I think that she is selling her flat.
+4/On ____ des spécialités de la région ici./vend/vends/vendons/vendez/vendent*They sell regional specialities here.
+4/Nous _______ le fromage du chèvre ici./vendons/vend/vends/vendez/vendent*We sell goats' cheese here.
+4/______-vous des cartes routières?/Vendez/Vendons/Vend/Vends/Vendent*Do you sell road maps?
+4/Les Dupont _______ leur maison./vendent/vend/vends/vendons/vendez*The Duponts are selling their house.
+4/Je _____ mon travail à huit heures./finis/finit/finissons/finissent*I finish my work at 8 o'clock.
+4/Tu _____ ton travail à quelle heure en génêral?/finis/finit/finissons/finissent*At what time do you generally finish your work?
+4/Eliane _____ ses devoirs à neuf heures./finit/finis/finissons/finissent*Eliane finishes her homework at 9 o'clock.
+4/La pièce _____ à onze heures./finit/finis/finissons/finissent/finissez*The play finishes at 11 o'clock.
+4/En France on _____ le travail plus tard qu'en Angleterre./finit/finis/finissons/finissent*In France they finish work later than in England.
+4/Nous _________ généralement vers cinq heures./finissons/finit/finis/finissent/finissez*We generally finish towards 5 o'clock.
+4/________-vous votre travail avant moi?/Finissez/Finit/Finis/Finissons/Finissent*Do you finish your work before me?
+4/Les employés d'usine _________ leur travail tard./finissent/finissons/finit/finis/finissez*The factory workers finish their work late.
+GRADE5
+1/C'est une spécialité italienne souvent en forme de cercle./une pizza*It's an Italian speciality often in the shape of a circle.
+1/C'est une spécialité allemande faite avec le chou et les saucisses./la choucroute*It's a German speciality made with cabbage and sausauges.
+1/C'est une spécialité provençale faite avec le poisson cuit dans de l'eau et du vin blanc./la bouillabaisse*It's a speciality from Provence made with fish cooked in water and white wine.
+1/C'est une spécialité espagnole faite avec du riz, des légumes et des fruits de mer./la paëlla*It's a Spanish speciality made with rice, vegetables and sea food.
+1/C'est un plat français typique où on fait cuire du poulet dans du vin./le coq au vin.*It's a typical French dish in which you cook chicken in wine.
+1/C'est un plat typique de la région toulousaine faite avec des haricots blancs, des saucisses et souvent du confit d'oie./le cassoulet*It's a typical dish from the Toulouse area made with haricot beans, sausages and often goose meat.
+1/C'est du boeuf mijoté dans du vin rouge avec des onions et des champignons./boeuf bourgignon*It's beef simmered in red wine with onions and mushrooms.
+1/C'est un plat français où on sert du boeuf haché cru avec un oeuf cru./Steak Tartare*It's a French dish in which raw minced steak is served with a raw egg.
+1/C'est une salade composée de tomates, d'olives, de poivrons rouges et verts, du thon, de concombres et des oeufs durs./la salade niçoise*It's a a salad containing tomatoes, olives, red and green peppers, tuna, cucumber and hard boiled eggs.
+1/C'est un plat où on mijote ensemble des tomates, des aubergines, des poivrons, des courgettes et de l'ail./la ratatouille*It's a dish in which tomatoes, aubergines, peppers, courgettes and garlic are simmered together.
+2/On y va si on veut acheter des boucles d'oreilles./une bijouterie*You go there if you want to buy some ear rings.
+2/On y va si on a besoin de faire réparer ses chaussures./une cordonnerie*You go there if you need to have your shoes repaired.
+2/On y va si on a besoin d'acheter du papier à lettres./une papeterie*You go there if you need to buy some writing paper.
+2/On y va si on veut acheter du bois et des vis./une menuiserie*You go there if you want to buy wood and screws.
+2/On y va si on veut se faire nettoyer à sec des vêtements./le pressing*You go there if you want to dry clean some clothes.
+2/On y va si on veut se faire couper les cheveux./le coiffeur*You go there if you want to have your hair cut.
+2/On y va si on veut acheter une pellicule./le magasin de photo*You go there if you want to buy a film.
+2/On y va si on a besoin de timbres et de cartes postales./le tabac*You go there if you need stamps and post cards.
+2/On y va si on veut acheter un cadeau d'anniversaire pour un enfant./le magasin de jouets*You go there if you want to buy a birthday present for a child.
+3/Elle est très froide; on la trouve à plusieurs parfums et elle est à base de crème./la glace*It is very cold; it is found in several flavours and its basis is cream.
+3/Il est très froid; on le trouve à plusieurs parfums et il est à base d'eau./le sorbet*It is very cold; it is found in several flavours and its basis is water.
+3/Ce sont des produits alimentaires qu'on a cultivés sans engrais chimiques./les produits biologiques*These are food products that have been cultivated without chemical fertilisers.
+3/Si on ne mange pas d'aliments qui contiennent de la viande on dit qu'on est .../vegetarien*If you do not eat food which contains meat you are said to be ...
+3/C'est une boisson qui contient beaucoup de calcium./le lait*It's a drink which contains a lot of calcium.
+3/On en boit beaucoup en France pour augmenter sa ration de minérales./l'eau minérale*A lot of it is drunk in France to increase ones mineral intake.
+3/Ce sont des aliments qui sont riches en vitamines./fruits et légumes*These are foods which are rich in vitamins.
+3/Si on veut maigrir il faut suivre un .../régime*If you want to slim you must follow a ...
+3/C'est un aliment qui est riche en protéine./la viande*It's a food that is rich in protein.
+4/On y va si on a envie de manger des crevettes, des huitres, des langoustines, des moules etc./Spécialités fruits de mer*You go there if you want to eat prawns, oysters, crayfish, mussels etc.
+4/On y va si on veut manger des påtes ou les spaghettis à la sauce bolognaise./Cuisine italienne*You go there if you want to eat pasta or spaghetti bolognaise.
+4/On y va si on ne mange pas de viande./Plats végétariens*You go there if you do not eat meat.
+4/On y va si on n'a pas beaucoup de temps et si on veut manger vite./Le Self*You go there if you have not got much time and you want to eat quickly.
+4/On y va si on est en famille./Menu enfant 40F*You go there if you are a family.
+4/Vous êtes au café et vous voulez prendre une casse-croûte./Croque -monsieur 18F*You are in the French cafe and you want to have a snack.
+4/Ce soir vous avez envie de manger des plat exotiques et épicés./Spécialités vietnamiennes*To-night you want to eat exotic and spicey dishes.
+4/La semaine prochaine vous allez fêter l'anniversaire d'un oncle très riche./Menu gastronomique*Next week you are going to celebrate your very rich uncle's birthday.
+4/Vos amis veulent manger des plats nord africains./Coucous 80F*Your friends want to eat North African dishes.
+4/Vous voulez manger des crêpes et boire du cidre./Crêperie Bretonne*You want to eat pancakes and drink cider.
+GRADE6
+1/Je suis ______ de vous déranger./désolé/regrette/mal/non/tranquil*I am sorry to bother you.
+1/Je suis désolé d'être en ______ ./retard/regrette/gêné/sortie/de bonne heure*I am sorry to be late.
+1/Je n'avais pas l'_________ de le casser./intention/exprès/cassé/espoir/retard*I did not intend to break it.
+1/Ce n'est pas de ma _____ ./faute/exprès/regrette/désolé/retard*It's not my fault.
+1/J'ai fait de mon _____ pour arriver à l'heure./mieux/regrette/désolé/exprès/retard*I did my best to arrive on time.
+1/Je ne me rendais pas ... que je vous dérangeais./compte/retard/exprès/regrette/faute*I did not realise that I was disturbing you.
+1/_______-moi pour ce que j'ai dit./Excusez/Regrettez/Désolé/Laissez/Retard*Excuse me for what I said.
+1/Je regrette mais j'ai _____ le vase./cassé/tombé/voulu/casse/casser*I'm sorry but I've broken the vase.
+1/Je regrette mais j'ai _____ la moquette./taché/cassé/tombé/désolé/fait*I'm sorry but I've stained the carpet.
+1/Je regrette mais j'ai ... la nappe./sâli/cassé/mangé/regrette/désolé*I'm sorry but I've dirtied the table cloth.
+2/Il a dû y avoir une ______ ./erreur/regrette/réparé/devoir/casser*There must have been a mistake.
+2/Je suis désolé d'apprendre que cela n'a pas été ______ ./réparé/cassé/manger/réparer*I'm sorry to learn that it's not been repaired.
+2/J'aimerais parler au ___________ ./responsable/patronne/réparation/restaurant/casser*I would like to speak to the person in charge.
+2/J'ai une _______ à formuler au sujet du comportement de votre employé./plainte/faute/réparation/sale/mauvais*I have a complaint to make about the behaviour of your employee.
+2/Je crois que vous vous êtes ______ ./trompé/levé/casser/regretter/erreur*I think that you are mistaken.
+2/Je dois vous rendre ce jeu parce qu'il y a un ______ ./défaut/réparer/casser/erreur/faute*I have to return this toy to you because there is a fault.
+2/Serait-il possible de me ... ?/rembourser/casser/remboursement/remboursé/erreur*Would it be possible to reimburse me?
+2/Je ne suis pas du tout _________ ./satisfait/satisfaits/contents/regrette/désolé*I am not at all satisfied.
+2/Je voudrais être _________ ./remboursé/rembourser/erreur/regrette/faute*I would like to be reimbursed.
+3/Je prends beaucoup de _______ à jouer de la guitarre./plaisir/aime/goût/adore/envie*I derive a lot pleasure from playing the guitar. 
+3/Ils sont ____ de tennis de table./fous/fou/adorer/détester/amateur*They are mad about table tennis.
+3/Ça te ___ de passer un weekend à Paris?/dit/aime/envie/plaisir/adore*Do you fancy spending the weekend in Paris?
+3/Ça me _____ de porter des vêtememts décontractes./plaît/aime/envie/plaire/déteste*I like wearing casual clothes.
+3/L'idée de faire un voyage aux Etats-Unis m'_________ ./intéresse/intéressent/aime/envie/dit*I am interested in the idea of travelling to the United States.
+3/Elle ne prend pas de _______ à nager./plaisir/aimer/envie/adorer/intéresse*She takes no pleasure in swimming.
+3/L'____ de faire les courses au hypermarché ne m'intéresse pas./idée/intéresse/plaisir/envie/vouloir*I am not interested in shopping in the hypermarket.
+3/Je m'_________ beaucoup au sport./intéresse/intéressent/envie/plaisir/aimer*I am very interested in sport.
+3/Je ne peux pas _________ le football./supporter/supportent/aime/plaisir/envie*I cannot stand football.
+3/Je ne peux pas ________ ce genre de musique./souffrir/supporte/aime/plaisir/envie*I cannot stand this type of music.
+3/Il a _______ des films d'amour./horreur/plaisir/vouloir/passer/aimer*He has a horror of love films.
+3/Je n'ai pas _____ de sortir ce soir./envie/aime/voulu/plaisir/horreur*I do not want to go out this evening.
+3/Je commence à en avoir _____ de lui./assez/plaisir/aller/aimer/détester*I am beginning to have had enough of him.
+3/J'__ ai assez de faire les devoirs tous les soirs./en/y/avoir/commence/a*I have had enough of doing homework every night.
+3/Je n'__________ pas ça./accepterai/accepter/acceptera/envie/peux*I will not accept that.
+3/Tu dois admettre que ce n'est pas très ________!/agréable/envie/content/agréables/stupide*You must admit that it is not very pleasant.
+4/Nous t'________ à venir passer huit jours chez nous./invitons/inviter/envie/invite/vacances*We invite you to spend a week with us. 
+4/Si on _______ ce soir?/sortait/sortir/manger/allions/sortion*How about going out to-night? 
+4/Si on ______ au cinéma ce soir?/allait/allais/allons/aller/sorti*How about going to the cinema to-night?
+4/________ ne pas rester un peu plus longtemps./Pourquoi/Quand/Combien/Que/Qui*Why not stay a bit longer?
+4/Voulez-vous venir _____ chez nous demain soir?/dîner/sortir/envie/regretter/vouloir*Do you want to come and eat with us tomorrow evening?
+4/Je suis ______ mais je ne peux pas ce soir./désolé/regrette/désoler/envie/aimer*I am sorry but I cannot to-night.
+4/Nous sommes désolés mais nous ne pouvons pas ________./accepter/accepté/venu/aimer/envie*We are sorry but we cannot accept.
+4/Je ne suis pas _____ samedi prochain./libre/envie/regrette/sortir/venir*I am not free next Saturday.
+4/Je te ________ de ta gentille invitation mais je ne peux pas venir./remercie/remercier/merci/plaisir/inviter*I thank you for your kind invitation but I cannot come.
+4/Vous ne _____ pas stationner ici./devez/devoir/interdit/interdiction/dois*You must not park here.
+4/Il est ________ de marcher sur la pelouse./interdit/devez/devoir/défense/interdire*It is forbidden to walk on the lawn.
+4/Il est interdit de __________ ici./stationner/gare/voiture/devoir/dois*It is forbidden to park here.
+4/Mes parents ne me __________ pas sortir ce soir./laisseront/laisser/doivent/interdit/envie*My parents will not let me go out to-night.
+4/Nous n'avons pas le _____ de nous servir du chauffage central./droit/devoir/interdit/envie/doit*We are not allowed to use the central heating.
+4/Je n'ai pas le _____ de conduire le minibus./droit/droite/doi/devoir/interdit*I am not allowed to drive the minibus.
+4/Vous ne ______ pas rester ici./pouvez/droit/pouvoir/interdit/regrette*You cannot stay here.

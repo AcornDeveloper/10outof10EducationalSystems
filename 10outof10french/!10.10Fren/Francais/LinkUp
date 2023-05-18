@@ -1,0 +1,482 @@
+$ Link Up word file structure
+$ 2. <sub grade>/<time in numbers>/<time in words>
+$ 3. <sub grade>/<sentence>/<sprite name>
+$ 4. <sub grade>/<question>/<answer>
+$ 5. <sub grade>/<part>/<verb>
+$ 6. <sub grade>/<paraphrase>/<synonym>
+$ maximum length of each part 128 characters
+$ grade 3 requires only the first two sub grades
+$ and should NOT be user modified
+$ sub grade 1-4
+
+GRADE2
+1/01.00/Il est une heure
+1/02.00/Il est deux heures
+1/03.00/Il est trois heures
+1/04.00/Il est quatre heures
+1/05.00/Il est cinq heures
+1/06.00/Il est six heures
+1/07.00/Il est sept heures
+1/08.00/Il est huit heures
+1/09.00/Il est neuf heures
+1/10.00/Il est dix heures
+1/11.00/Il est onze heures
+1/12.00/Il est douze heures
+1/12.00/Il est minuit
+1/01.30/Il est une heure et demie
+1/02.30/Il est deux heures et demie
+1/03.30/Il est trois heures et demie
+1/09.30/Il est neuf heures et demie
+1/12.30/Il est douze heures trente
+1/04.15/Il est quatre heures et quart
+1/05.15/Il est cinq heures et quart
+1/06.15/Il est six heures et quart
+1/07.15/Il est sept heures et quart
+1/08.15/Il est huit heures et quart
+1/09.15/Il est neuf heures et quart
+1/10.15/Il est dix heures et quart
+1/11.15/Il est onze heures et quart
+2/01.45/Il est deux heures moins le quart
+2/02.45/Il est trois heures moins le quart
+2/03.45/Il est quatre heures moins le quart
+2/04.45/Il est cinq heures moins le quart
+2/05.05/Il est cinq heures cinq
+2/06.10/Il est six heures dix
+2/07.20/Il est sept heures vingt
+2/07.25/Il est sept heures vingt -cinq
+2/08.25/Il est huit heures vingt -cinq
+2/08.35/Il est neuf heures moins vingt -cinq
+2/09.35/Il est dix heures moins vingt -cinq
+2/10.40/Il est onze heures moins vingt
+2/01.40/Il est deux heures moins vingt
+2/02.40/Il est trois heures moins vingt
+2/03.50/Il est quatre heures moins dix
+2/04.50/Il est cinq heures moins dix
+2/05.55/Il est six heures moins cinq
+2/06.55/Il est sept heures moins cinq
+2/09.45/Il est dix heures moins le quart
+2/10.45/Il est onze heures moins le quart
+3/01.05/une heure cinq
+3/01.10/une heure dix
+3/02.15/deux heures quinze
+3/02.20/deux heures vingt
+3/03.25/trois heures vingt -cinq
+3/03.30/trois heures trente
+3/04.35/quatre heures trente -cinq
+3/05.40/cinq heures quarante
+3/06.45/six heurs quarante -cinq
+3/07.50/sept heures cinquante
+3/07.55/sept heures cinquante -cinq
+3/08.15/huit heures quinze
+3/08.30/huit heures trente
+3/09.45/neuf heures quarante -cinq
+3/10.45/dix heures quarante -cinq
+3/12.15/douze heures quinze
+3/12.30/douze heures trente
+3/12.40/douze heures quarante
+3/12.45/douze heures quarante -cinq
+3/12.50/douze heures cinquante
+4/13.05/treize heures cinq
+4/13.10/treize heures dix
+4/14.15/quatorze heures quinze
+4/14.20/quatorze heures vingt
+4/15.25/quinze heures vingt -cinq
+4/15.30/quinze heures trente
+4/16.35/seize heures trente -cinq
+4/16.40/seize heures quarante
+4/17.45/dix-sept heures quarante -cinq
+4/18.50/dix-huit heures cinquante
+4/18.55/dix-huit heures cinquante -cinq
+4/19.05/dix-neuf heures cinq
+4/19.10/dix-neuf heures dix
+4/20.00/vingt heures
+4/20.30/vingt heures trente
+4/21.00/vingt et une heures
+4/21.30/vingt et une heure trente
+4/22.40/vingt-deux heures quarante
+4/22.45/vingt-deux heures quarante -cinq
+4/23.15/vingt-trois heures quinze
+4/23.30/vingt-trois heures trente
+GRADE3
+1/passez devant l'église/chur
+1/passez devant les docks/dock
+1/passez devant le cimetière/grav
+1/passez devant la banque/bank
+1/passez devant la gare SNCF/rail
+1/passez devant la fabrique/fact
+1/passez devant la påtisserie/bake
+1/passez devant la boulangerie/bred
+1/passez devant la boucherie/butc
+1/passez devant le café/cafe
+1/passez devant le tabac/toba
+1/passez devant l'épicerie/groc
+1/passez derrière l'église/chur
+1/passez derrière les docks/dock
+1/passez derrière le cimetière/grav
+1/passez derrière la banque/bank
+1/passez derrière la gare SNCF/rail
+1/passez derrière la fabrique/fact
+1/passez derrière la påtisserie/bake
+1/passez derrière le tabac/toba
+1/passez derrière la boucherie/butc
+1/passez derrière le café/cafe
+1/passez derrière l'épicerie/groc
+1/passez devant l'église/chur
+1/passez devant les docks/dock
+1/passez devant le cimetière/grav
+1/passez devant la banque/bank
+1/passez devant la gare SNCF/rail
+1/passez devant la fabrique/fact
+1/passez devant la påtisserie/bake
+1/passez devant la boulangerie/bred
+1/passez devant la boucherie/butc
+1/passez devant le café/cafe
+1/passez devant la påtisserie/bake
+1/passez devant l'épicerie/groc
+1/passez devant l'église/chur
+2/à côté de l'église/chur
+2/à côté des docks/dock
+2/à côté du cimetière/grav
+2/à côté de la banque/bank
+2/à côté de la gare SNCF/rail
+2/à côté de la fabrique/fact
+2/à côté du jardin public/park
+2/à côté de la boulangerie/bred
+2/à côté de la boucherie/butc
+2/à côté du café/cafe
+2/à côté de la cordonnerie/cobb
+2/à côté de l'épicerie/groc
+2/en face de l'église/chur
+2/en face des docks/dock
+2/en face du cimetière/grav
+2/en face de la banque/bank
+2/en face de la gare SNCF/rail
+2/en face de la fabrique/fact
+2/en face du jardin public/park
+2/en face de la boulangerie/bred
+2/en face de la boucherie/butc
+2/en face du café/cafe
+2/en face de la cordonnerie/cobb
+2/en face de l'épicerie/groc
+2/près de l'église/chur
+2/près des docks/dock
+2/près du cimetière/grav
+2/près de la banque/bank
+2/près de la gare SNCF/rail
+2/près de la fabrique/fact
+2/près du jardin public/park
+2/près de la boulangerie/bred
+2/près de la boucherie/butc
+2/près du café/cafe
+2/près de la cordonnerie/cobb
+2/près de l'épicerie/groc
+2/loin de l'église/chur
+2/loin des docks/dock
+2/loin du cimetière/grav
+2/loin de la banque/bank
+2/loin de la gare SNCF/rail
+2/loin de la fabrique/fact
+2/loin du jardin public/park
+2/loin de la boulangerie/bred
+2/loin de la boucherie/butc
+2/loin du café/cafe
+2/loin de la cordonnerie/cobb
+2/loin de l'épicerie/groc
+GRADE4
+1/C'est la capitale de la France./Paris
+1/C'est le fleuve qui traverse Paris./la Seine
+1/C'est le fleuve qui traverse Toulouse./la Garonne
+1/C'est le fleuve qui se verse dans la mer Méditerrané près de Marseille./le Rhône
+1/C'est la cathédrale située sur Liile de la Cité à Paris./Notre-Dame de Paris
+1/C'est la fleuve qui traverse une vallée où il y a beaucoup d'anciens châteaux construits par les rois de la France./la Loire
+1/C'est la chaîne de montagnes qui sépare la France de l'Espagne./les Pyrénées
+1/C'est la chaîne de montagnes qui sépare la France de la Suisse et de l'Italie./les Alpes
+1/C'est la mer entre la France et l'Angleterre./la Manche
+1/C'est la mer à l'ouest de la France./l'Océan Atlantique
+1/C'est la mer au sud de la France./la mer Méditerranée
+1/C'est un grand bâtiment moderne au centre de Paris où on trouve le Musée National d'Art Moderne./le Centre Pompidou
+2/C'est une grande ville connue pour la fabrication de la moutarde./Dijon
+2/C'est une grande ville au sud qui est devenue le premier port de la France./Marseille
+2/C'est la ville où les Anglais ont brûlé Jean d'Arc./Orléans
+2/C'est la grande ville située au confluent du Rhône et de la Saône./Lyon
+2/C'est un port important au nord de la France où la Seine se verse dans la Manche./Le Havre 
+2/C'est une ville connue pour l'art de la porcelaine./Limoges
+2/C'est une ville au sud de la France connue pour la fabrication du parfum./Grasse
+2/C'est le vin mousseux découvert au dix-huitième par le moine, Dom Pérignon./le champagne 
+2/C'est un petit port touristique au sud de la France fréquenté par les gens riches et célèbres./St. Tropez
+2/C'est une ville sur la côte d'Azur connue pour son Festival de Film./Cannes
+3/C'est la célèbre université située dans le quartier Latin à Paris./la Sorbonne
+3/C'est une petite ville connue pour sa course d'automobiles./Le Mans
+3/C'est une petite ville en Normandie connue pour sa tapisserie qui dépeint l'histoire de Guillaume le Conquérant./Bayeux
+3/C'est une grande ville industrielle au nord de la France près de la Belgique./Liile
+3/C'est un port au sud de la France où est basée la marine militaire française./Toulon
+3/C'est une grande ville à l'est de la France où est basé le parlement européen./Strasbourg
+3/C'est une course de velos qui a lieu au mois de juin chaque année./le Tour de France
+3/C'est une station thermale connue pour son eau minérale./Evian-les-Bains
+3/C'est une région dont les spécialités comprennent le cidre et les crêpes./la Bretagne
+3/C'est un plat typique de l'Alsace contenant beaucoup de chou ,de la saucisse et du jambon./la choucroute
+3/C'est un plat typique de la Côte d'Azur fait de différents poissons cuits dans de l'eau et du vin blanc./la bouillabaisse.
+4/C'est un plat typique de Toulouse préparé avec des haricots, de la saucisse, du confit d'oie, du mouton./le cassoulet
+4/C'est une grande ville dans le sud-est de la France près des Alpes connue pour ses recherches nucléaires./Grenoble
+4/C'est une ville dans le sud-est de la France dans les Alpes où a eu lieu les Jeux Olympiques d'hiver en 1992./Albertville
+4/C'est une petite ville dans les Alpes au pied du Mont Blanc où on peut entrer dans le tunnel qui va jusqu'en Italie./Chamonix 
+4/C'est un petit pays dans les Pyrénées entre la France et l'Espagne./Andorre
+4/C'est un petit pays près de l'Italie mais à l'intérieur de la France où il y a beaucoup de casinos./Monaco
+4/C'est une île dans la Mer Méditerranée./la Corse.
+4/C'est une ville près de la vallée du Rhône connue pour ses arènes romaines./Nîmes
+4/C'est la plus belle et la plus célèbre avenue de Paris. On y trouve beaucoup de grands cafés et de cinémas./les Champs-Elysées.
+4/C'est un monument célèbre à Paris, achevé en 1836 pour commémorer les victoires de Napoléon./l'Arc de Triomphe
+4/C'est la tour édifiée à Paris à l'occasion de l'Exposition universelle en 1889./la Tour Eiffel
+4/C'est le grand château construit par Louis XIV, le Roi Soleil qui se trouve à l'extérieur de Paris./Versailles
+GRADE5
+1/je/joue
+1/nous/jouons
+1/vous/jouez
+1/ils/jouent
+1/je/regarde
+1/nous/regardons
+1/vous/regardez
+1/ils/regardent
+1/je/finis
+1/nous/finissons
+1/vous/finissez
+1/ils/finissent
+1/je/remplis
+1/nous/remplissons
+1/vous/remplissez
+1/ils/remplissent
+1/j'/attends
+1/nous/attendons
+1/vous/attendez
+1/ils/attendent
+1/je/rends
+1/nous/rendons
+1/vous/rendez
+1/ils/rendent
+1/je/mange
+1/nous/mangeons
+1/vous/mangez
+1/ils/mangent
+1/je/commence
+1/nous/commençons
+1/vous/commencez
+1/ils/commencent
+1/je/quitte
+1/nous/quittons
+1/vous/quittez
+1/ils/quittent
+1/je/perds
+1/nous/perdons
+1/vous/perdez
+1/ils/perdent
+1/je/vomis
+1/nous/vomissons
+1/vous/vomissez
+1/ils/vomissent
+1/je/tue
+1/nous/tuons
+1/vous/tuez
+1/ils/tuent
+1/je/vends
+1/nous/vendons
+1/vous/vendez
+1/ils/vendent
+1/j'entends
+1/nous/entendons
+1/vous/entendez
+1/ils/entendent
+1/je me/lave
+1/nous nous/lavons
+1/vous vous/lavez
+1/ils se/lavent
+1/je me/réveille
+1/nous nous/réveillons
+1/vous vous/réveillez
+1/ils se/réveillent
+1/je me/couche
+1/nous nous/couchons
+1/vous vous/couchez
+1/ils se/couchent
+1/je me/lève
+1/nous nous/levons
+1/vous vous/levez
+1/ils se/lèvent
+2/je/vais
+2/elle/va
+2/nous/allons
+2/elles/vont
+2/j'/ai
+2/elle/a
+2/nous/avons
+2/elles/ont
+2/je/fais
+2/elle/fait
+2/nous/faisons
+2/elles/font
+2/je/suis
+2/elle/est
+2/nous/sommes
+2/elles/sont
+2/je/peux
+2/elle/peut
+2/nous/pouvons
+2/elles/peuvent
+2/je/dois
+2/elle/doit
+2/nous/devons
+2/elles/doivent
+2/je/sais
+2/elle/sait
+2/nous/savons
+2/elles/savent
+2/je/veux
+2/elle/veut
+2/nous/voulons
+2/elles/veulent
+2/j'/ouvre
+2/elle/ouvre
+2/nous/ouvrons
+2/elles/ouvrent
+2/je/tiens
+2/elle/tient
+2/nous/tenons
+2/elles/tiennent
+2/je/tiens
+2/elle/tient
+2/nous/tenons
+2/elles/tiennent
+3/tu/bois
+3/elle/boit
+3/vous/buvez
+3/ils/boivent
+3/tu/conduis
+3/elle/conduit
+3/vous/conduisez
+3/ils/conduisent
+3/tu/crois
+3/elle/croit
+3/vous/croyez
+3/ils/croient
+3/tu/dis
+3/elle/dit
+3/vous/dites
+3/ils/disent
+3/tu/reçois
+3/elle/reçoit
+3/vous/recevez
+3/ils/reçoivent
+3/tu/ris
+3/elle/rit
+3/vous/riez
+3/ils/rient
+3/tu/vois
+3/elle/voit
+3/vous/voyez
+3/ils/voient
+3/tu/es
+3/elle/suit
+3/vous/suivez
+3/ils/suivent
+3/tu/souris
+3/elle/sourit
+3/vous/souriez
+3/ils/sourient
+4/tu/vis
+4/il/vit
+4/nous/vivons
+4/vous/vivez
+4/tu/bats
+4/il/bat
+4/nous/battons
+4/vous/battez
+4/tu/mets
+4/il/met
+4/nous/mettons
+4/vous/mettez
+4/tu/prends
+4/il/prend
+4/nous/prenons
+4/vous/prenez
+4/tu/comprends
+4/il/comprend
+4/nous/comprenons
+4/vous/comprenez
+4/tu/connais
+4/il/connaît
+4/nous/connaissons
+4/vous/connaissez
+4/tu/pars
+4/il/part
+4/nous/partons
+4/vous/partez
+4/tu/sors
+4/il/sort
+4/nous/sortons
+4/vous/sortez
+4/tu/meurs
+4/il/meurt
+4/nous/mourons
+4/vous/mourez
+4/tu/dors
+4/il/dort
+4/nous/dormons
+4/vous/dormez
+4/tu/cours
+4/il/court
+4/nous/courons
+4/vous/courez
+GRADE6
+1/une bagnole/une voiture
+1/un flic/un gendarme
+1/des sous/de l'argent
+1/les pompes/les chaussures
+1/une piaule/une chambre
+1/un pépin/un problème
+1/pénard/tranquille
+1/le truc/la chose
+1/un frangin/un frère
+1/une frangine/une soeur
+1/vachement/très
+1/faire pipi/uriner
+1/faire dodo/dormir
+1/faire bobo/faire mal
+1/un mec/un homme
+2/les gosses/les enfants
+2/un copain/un ami
+2/une copine/une amie
+2/marrant/drôle
+2/un minou/un chat
+2/la bouffe/la nourriture
+2/faignant/paresseux
+2/un bouquin/un livre
+2/le boulot/le travail
+2/bosser/travailler
+2/chouette/superbe
+2/dingue/fou
+2/le bec/le nez
+2/la patte/la jambe
+2/fauché/sans argent
+3/Si quelque chose est très légère, c'est léger.../...comme une plume.
+3/Si on est très malade, on est malade.../...comme un chien.
+3/Si on est très maigre, on est maigre.../... comme un clou.
+3/Si on a l'air bien reposé, on est frais.../... comme une rose.
+3/Si on est complètement nu, on est nu.../... comme un ver.
+3/Si quelque chose est bien propre, c'est propre.../... comme un sou neuf.
+3/Si un enfant est très sage, il est sage.../... comme une image.
+3/Si quelque chose va bien à quelqu'un, cela lui va.../... comme un gant.
+3/Si on connaît très bien une région, on la connaît.../... comme sa poche.
+3/Si on a pris plus qu'on peut manger, on a.../... les yeux plus grands que le ventre.
+3/Si on tombe amoureux à première vue, on a../.. le coup de foudre.
+3/Si on doit limiter ses dépenses, on doit.../... se serrer la ceinture.
+4/Si on parle en faisant très attention à ce qu'on dit, on.../... pèse ses mots.
+4/S'il fait très froid, il fait un froid.../... de canard.
+4/Si on frissone parce qu'on a très froid, on a.../... la chair de poule. 
+4/Si on est triste, on a.../... le cafard.
+4/Si quelque chose arrive au bon moment, cela.../... tombe bien.
+4/Si on part sans faire du bruit, on part.../... sur la pointe des pieds.
+4/Si on s'en va avec toutes ses affaires on.../... plie bagages.
+4/Si on ne se sent pas du tout responsable de quelque chose , on.../... s'en lave les mains.
+4/Si on regrette vivement d'avoir fait quelque chose, on.../... s'en mord les doigts.
+4/Si on a un frère stupide, on lui dirait, .../..."comme tu es bête!"
+4/Si on veut que quelqu'un cesse de parler, on lui dirait .../... "tais-toi!"
+4/Si on ne peut plus supporter quelque chose, on dirait, .../... "j'en ai marre!"

@@ -1,0 +1,343 @@
+$ Stones word file structure
+$ 1. <sub grade>/<word>/<word> ...
+$ 2. <sub grade>/<word>/<anagram>
+$ 3. <sub grade>/<phrase>
+$ 4. <sub grade>/<French phrase>*<English translation>
+$ 5. <sub grade>/<French phrase>/<false word> ...
+$ 6. <sub grade>/<French phrase>/<false word> ...
+$ Grade 1 maximum word length 12
+$ Grade 2 maximum word length 16
+$ maximum length of each phrase or section 32 characters
+$ each entry must have from 4 to 16 parts to it except grade 2
+$ Grade 5 use # to denote where word space to be up to the first space
+$ The missing words are taken from there and false words
+$ are used as table fillers (there must be at least one). 
+$ Missing words plus false words must be from 4 to 16 parts.
+$ sub grade 1-4
+
+GRADE1
+1/lundi/mardi/mercredi/jeudi/vendredi/samedi/dimanche
+1/lundi/mardi/mercredi/jeudi
+1/jeudi/vendredi/samedi/dimanche
+1/mardi/mercredi/jeudi/vendredi/samedi/dimanche
+1/dimanche/samedi/vendredi/jeudi/mercredi
+1/mercredi/jeudi/vendredi/samedi/dimanche
+1/vendredi/samedi/dimanche
+1/lundi/mercredi/vendredi/dimanche
+1/mardi/jeudi/samedi/dimanche
+1/lundi/mardi/vendredi/samedi/dimanche
+1/mardi/jeudi/vendredi/samedi
+1/lundi/mardi/jeudi/samedi
+2/janvier/février/mars/avril/mai/juin/juillet/août/septembre/octobre/novembre/décembre
+2/janvier/février/mars/avril/mai/juin
+2/juillet/août/septembre/octobre/novembre/décembre
+2/avril/mai/juin/juillet/août/septembre
+2/décembre/novembre/octobre/septembre/août/juillet/juin/mai/avril/mars/février/janvier
+2/février/mars/avril/mai/juin/juillet
+2/avril/mai/juin/juillet/août/septembre
+2/juin/juillet/août/septembre/octobre
+2/janvier/mars/mai/juillet/septembre/novembre
+2/février/avril/juin/août/octobre/décembre
+2/janvier/avril/juillet/octobre
+3/un/deux/trois/quatre/cinq/six/sept/huit/neuf/dix
+3/onze/douze/treize/quatorze/quinze/seize/dix-sept/dix-huit/dix-neuf/vingt
+3/trois/quatre/cinq/six/sept/huit/neuf/dix/onze/douze
+3/vingt/dix-neuf/dix-huit/dix-sept/seize/quinze/quatorze/treize/douze/onze
+3/dix/neuf/huit/sept/six/cinq/quatre/trois/deux/un
+3/premier/deuxième/troisième/quatrième/cinquième/sixième/septième
+3/huitième/neuvième/dixième/onzième/douzième/treizième
+3/quatrième/cinquième/sixième/septième/huitième/neuvième/dixième/onzième
+3/un/trois/cinq/sept/neuf/onze/treize/quinze
+3/dix/douze/quatorze/seize/dix-huit/vingt
+3/deux/quatre/six/huit/dix/douze/quatorze
+3/un/quatre/sept/dix/treize/seize/dix-neuf
+3/trois/six/neuf/douze/quinze/dix-huit
+3/douze/treize/quatorze/quinze/seize
+3/treize/quatorze/quinze/seize/dix-sept
+3/huit/neuf/dix/onze/douze/treize/quatorze
+3/cinq/six/sept/huit/neuf/dix/onze/douze/treize
+3/troisième/quatrième/cinquième/sixième/huitième
+3/neuvième/dixième/onzième/douzième
+3/premier/deuxième/troisième/quatrième
+3/premier/troisième/cinquième/sixième/septième/neuvième
+3/deuxième/quatrième/sixième/huitième/dixième/douzième
+4/deux/douze/vingt -deux/trente -deux/quarante -deux/cinquante -deux
+4/treize/vingt -trois/trente -trois/quarante -trois/cinquante -trois
+4/soixante -huit/soixante -dix/soixante -dix-huit/quatre -vingt-un/cent
+4/vingt -sept/trente -deux/cinquante -six/soixante et un/quatre -vingts
+4/huit/trente -trois/quarante -cinq/cinquante -quatre/quatre -vingt-cinq
+4/quarante -huit/cinquante -six/soixante -dix/soixante et onze/cent
+4/trente-deux/trente-cinq/cinquante -sept/cinquante -neuf/soixante
+4/soixante/soixante -huit/soixante -quinze/soixante -seize/quatre -vingts
+4/soixante et un/soixante et onze/soixante -dix-neuf/quatre -vingt-un
+4/quatre -vingts/quatre -vingt-huit/quatre- vingt-seize/quatre-vingt -dix-huit
+4/vingt-cinq/trente/trent-cinq/quarante/quarante-cinq/cinquante
+4/neuf/vingt -neuf/trente-neuf/quarante/cinquante-sept/soixante
+4/zéro/dix/vingt/trente/quarante/cinquante/soixante/soixante -dix/quatre -vingts/quatre -vingt-dix/cent
+4/cent/quatre -vingt-dix/quatre -vingts/soixante -dix/soixante/cinquante/quarante/trente/vingt/dix/zéro
+4/trente/quarante/cinquante/soixante/soixante -dix/quatre -vingts
+4/soixante -dix/soixante/cinquante/quarante/trente/vingt
+4/cinquante/soixante/soixante -dix/quatre -vingts/quatre -vingt-dix/cent
+GRADE2
+1/France/ranfce
+1/Angleterre/terranglee
+1/Ecosse/sseeco
+1/Pays de Galles/sapy ed lesgal
+1/Irelande du Nord/elandire ud dorn
+1/Irelande du Sud/elandire ud uds
+1/Belgique/giquebel
+1/Italie/alieit
+1/Allemagne/magmealle
+1/Espagne/pagesne
+1/Luxembourg/bourgxulem
+1/Suisse/issesu
+1/Autriche/richeaut
+1/Danemark/marknade
+1/Portugal/ugalpotr
+1/Suède/èdesu
+1/Grèce/cegrè
+1/Norwège/wègenor
+2/une tente/neu entet
+2/une caravane/nue vanecara
+2/un hôtel/nu ôtelh
+2/une pension/enu siopenn
+2/une chambre/nue brechma
+2/un mobile home/nu bilemo mohe
+2/une maison/eun sonmai
+2/un appartement/nu ementapptar
+2/une ferme/uen mefer
+2/une remorque/uen rqueremo
+2/un refuge/nu fugere
+2/une auberge/uen bergeau
+3/le train/el aintr
+3/le car/el rac
+3/l'autobus/autol'sub
+3/la voiture/al urevoit
+3/l'auto/aul'to
+3/la moto/al otom
+3/le vélo/le élov
+3/la bicyclette/al lettebicyc
+3/l'avion/avil'on
+3/l'hélicopteur/opteurl'hélic
+3/le bateau/el eaubat
+3/le ferry/el rryfe
+3/le voilier/el liervoi
+3/le canoë/el noëac
+3/le kayak/el yakka
+3/à pied/pide à
+4/une valise/uen iseval
+4/un sac/nu csa
+4/un sac à main/naim nu à cas
+4/les bagages/sel gesagab
+4/une serviette/eun etteservi
+4/la crème solaire/al airesol mecrè
+4/maillot de bain/ed naib lotmail
+4/un bikini/nu kiniib
+4/un chapeau/nu eauchap
+4/une casquette/uettecasq nue
+4/un passeport/portasspe nu
+4/carte de crédit/ed ratce dircré
+4/chèque de voyage/agevoy ed èquech
+4/un traveller/ellertrav nu
+4/porte-monnaie/terop-naiemon
+4/un portefeuille/feuilleporte nu
+4/un short/nu ortsh
+4/un bermuda/nu mudaber
+4/des sandales/sed alessand
+4/des espadrilles/dse rillesespa
+4/un T-shirt/irt-Tsh nu
+GRADE3
+1/Il fait du brouillard.
+1/Il fait du soleil.
+1/Il y a des nuages.
+1/Il y a un orage.
+1/Il y a des vents forts.
+2/Je voudrais une chambre avec douche.
+2/Je voudrais une chambre avec salle de bain.
+2/Je voudrais une chambre avec grand lit.
+2/Je voudrais une chambre pour une personne.
+2/Je voudrais une chambre avec deux lits.
+2/J'ai réservé une chambre pour ce soir.
+2/Nous voudrions rester deux nuits.
+2/Nous voudrions rester huit jours.
+2/C'est combien par personne?
+2/Vous avez une chambre de libre pour cette nuit?
+2/Avez-vous quelque chose de moins cher?
+2/Où est la salle à manger?
+2/Où sont les toilettes?
+2/Il n'y a pas de serviettes dans ma chambre.
+2/Il n'y a pas de savon dans ma chambre.
+2/Pouvez-vous me donner ma clé?
+3/Avez-vous de la place pour cette nuit?
+3/C'est pour deux tentes.
+3/C'est pour une caravane.
+3/C'est combien par personne?
+3/C'est combien pour la tente?
+3/Où sont les toilettes?
+3/Où sont les poubelles?
+3/Où est-ce que je peux garer ma voiture?
+3/Voiture ma garer où je peux ce que est?
+3/Où est le magasin le plus proche?
+3/J'ai besoin d'un ouvre-boîtes.
+3/J'ai besoin d'une bouteille de camping gaz.
+3/Je voudrais des piles pour ma lampe électrique.
+4/Avez-vous une liste des campings?
+4/Avez-vous une liste des hôtels?
+4/Avez-vous un guide de la région?
+4/Je voudrais un plan de la ville.
+4/Je voudrais une carte de la région.
+4/Je voudrais des renseignements sur la ville.
+4/Je voudrais un dépliant sur les monuments historiques.
+4/Voudrais dépliant sur historiques un je monuments les sites.
+4/Nous voudrions une liste des excursions.
+4/Qu'y a-t-il à faire le soir?
+4/Qu'y a-t-il d'intéressant à faire pour les jeunes?
+4/Avez-vous une liste des restaurants?
+4/Avez-vous une liste des musées?
+GRADE4
+1/J'ai visité beaucoup de châteaux*I visited a lot of castles
+1/Tu n'as pas nagé dans la rivière!*You didn't swim in the river!
+1/Mon frère a trouvé des crabes*My brother found some crabs
+1/Nous avons acheté des souvenirs*We bought some souvenirs
+1/Avez-vous essayé les spécialités de la région?*Did you try the regional specialities?
+1/Nos parents ont mangé des calamars*Our parents ate squid
+1/Le voyage a duré seize heures*The journey lasted sixteen hours
+1/Nous avons voyagé par le train*We travelled by train
+1/J'ai joué au tennis*I played tennis.
+1/Nous avons rencontré des Hollandais*We met some Dutch people
+1/Nadine a passé ses vacances en France*Nadine spent her holidays in France
+1/Luc a dressé sa tente près de la rivière*Luc put up his tent near the river
+2/J'ai été en France*I've been to France
+2/Tu as pris beaucoup de photos*You have taken a lot of photos
+2/Yves a pris des bains de soleil*Yves sun bathed
+2/Nous avons fait des pique-niques*We had some picnics
+2/Nous avons vu beaucoup de monuments*We saw a lot of monuments
+2/Il a plu tous les jours*It rained every day
+2/Avez-vous fait des excursions?*Did you go on any excursions?
+2/Mes soeurs ont écrit dix cartes postales*My sisters wrote ten post cards
+2/Nous avons pu nager dans la mer*We were able to swim in the sea
+2/Mon père a été piqué par une méduse*My father was stung by a jelly fish
+2/Ils ont voulu rester plus longtemps*They wanted to stay longer
+2/Ma copine a dû aller à l'hôpital*My friend had to go to hospital
+2/Nous avons bu du vin français*We drank French wine
+3/Je suis allé à la montagne*I went to the mountains
+3/Tu es resté à la maison*You stayed at home
+3/Marc est resté chez ses grands-parents*Marc stayed with his grandparents
+3/Sophie est allée en Espagne*Sophie went to Spain
+3/Nous sommes arrivés en retard*We arrived late
+3/Etes-vous entrés dans la grotte?*Did you go into the cave?
+3/Ils sont sortis tous les soirs*They went out every night
+3/Nous sommes revenus au même endroit*We went back to the same spot
+3/Je suis descendu dans un hôtel de luxe*I stayed in a luxurious hotel
+3/Nous sommes montés à la Tour Eiffel*We went up the Eiffel Tower
+3/Tu es parti plus tard que nous*You left later than us
+3/Un touriste est mort dans un accident*A tourist died in an accident
+3/Nous sommes allés deux fois en France*We went twice to France
+3/Je ne suis jamais allé à l'étranger*I have never been abroad
+3/Elle est restée chez sa correspondante*She stayed with her penfriend
+4/Je me suis bien amusé*I enjoyed myself
+4/Tu t'es promené au bord de la mer*You had a walk by the sea
+4/Elle s'est bronzée à la plage*She got a tan on the beach
+4/Pierre s'est régalé dans la mer*Pierre enjoyed himself in the sea
+4/Nous nous sommes couchés très tard*We went to bed very late
+4/Vous vous êtes levés très tôt*You got up very early
+4/Ils se sont approchés de la foule*They went up to the crowd
+4/Je me suis trouvé tout seul*I found myself all alone
+4/Nous nous sommes déshabillés sur la plage*We got undressed on the beach
+4/Le car s'est arrêté devant le camping*The coach stopped outside the campsite
+4/Je me suis douché à l'eau froide*I showered in cold water
+4/Nous nous sommes réveillés au lever du soleil*We woke up at dawn
+GRADE5
+1/L'année #dernière je #suis allé en France avec ma famille. Nous avons #voyagé en voiture. Nous avons #fait du camping et il a fait très beau./dernier
+1/Pendant les vacances de Påques je suis allée en France pour #rendre visite à ma correspondante. Nous #nous sommes très bien #amusées./amusé
+1/Au mois de mai nous #sommes allés rendre visite à mes grands-parents en Ecosse. Nous y sommes restés huit jours et il a #plu beaucoup./pleuvoir/resté
+1/L'été #dernier je suis allée avec des amis en France. Nous #avons fait du camping et nous avons #fait la #connaissance d'autres jeunes./dernière/sommes/faire
+1/Il y a deux ans nous avons #passé une quinzaine de jours dans un hôtel à Tenby. Nous avons #joué sur la plage et #nagé dans la mer./nager/jouer/passez
+1/Il y a trois ans nous sommes #allés au sud de la France. Nous #avons goûté les #spécialités de la région #que j'ai beaucoup appréciées./sommes/allé/spécial/qui
+1/L'an dernier après avoir #passé mes examens je #suis allée au Pays de Galles où #nous avons fait des randonnées dans les #montagnes./je/campagne/passez
+1/L'an dernier après #avoir quitté le collège je #me suis reposé à la maison. Je #ne suis pas #parti en vacances et je me suis ennuyé./nous/partir/se/nous/avez
+1/Pendant les #vacances dernières j'ai #fait beaucoup de sport. J'ai #joué au tennis et j'ai #appris à faire de la planche à voile./vacance/joue/faite
+1/Il #y a un an je suis allée en Autriche pour #faire des vacances de ski. Au début je suis #tombée souvent #mais j'ai vite amélioré./en/parce que/tombé
+1/#Cette année nous avons #loué une caravane à Skegness. Il #a plu presque tout le temps et #nous étions tous de mauvaise humeur./cet/avoir/ont/louer
+1/Cette année nous sommes #partis en vacances sans #réserver à l'avance et malheureusement presque #tous les hôtels étaient #complets./toutes/complet/parti
+2/Cette année nous avons #réservé un gîte en Ecosse. Nous avons #eu de la chance #parce qu'il a fait du #soleil./plu/pu/quand/réserver
+2/J'ai beaucoup aimé nos vacances cette #année. Nous #sommes restés dans une #région pittoresque et #nous nous sommes bien reposés./ans/avons/village/je
+2/Cette année nous sommes #allés au Pays de Galles; nous avons #visité des châteaux et nous avons #fait plusieurs #excursions./visiter/faire
+2/Nous sommes allés à la #plage tous les jours. Je #me suis baigné dans la #mer et je me suis #bronzé./bronzage/baigné/mère
+2/Je #suis parti en vacances avec des amis. Nous nous #sommes bien entendus et nous avons #passé des #vacances fantastiques./me/passer/avons
+2/Je suis #parti en vacances avec des amis. Nous nous sommes #disputés tout le temps et #nous avons donc passé des vacances #affreuses./affreux/je/disputes
+2/Cette #année nous avons dû faire des #économies et nous ne sommes #pas partis en vacances. #Nous avons fait quelques excursions./an/vous/économique
+2/Cette année #nous avons #décidé d'aller en Espagne où nous avons #passé des vacances superbes. Nous sommes #sortis dans plusieurs restaurants./je/ils/décider
+2/Le #voyage s'est bien passé. La #mer était calme et il n'y avait pas beaucoup de #circulation sur les #autoroutes./voyager/route/voyager
+2/Le voyage #était un désastre. Il y #avait beaucoup de #circulation sur les routes et la voiture est #tombée en panne./avaient/étaient
+2/Le voyage était très #long. Nous avons #pris le train et le bateau. La #mer était très #agitée et j'ai eu le mal de mer./vol/agité/longue/prise
+3/Nous sommes bien #arrivés lundi. Hier nous #avons fait une excursion à la montagne. #Aujourd'hui nous nous #reposons./demain/sommes
+3/#Nous sommes arrivés à l'hôtel très tard hier et nous #étions très #fatigués. L'hôtel est splendide et il fait un temps #merveilleux./vous/été/fatigué
+3/#Hier nous avons fait une longue #promenade au bord de la #mer .Aujourd'hui j'ai #décidé de passer une journée tranquille./demain/promené/décidé
+3/Notre #hôtel est affreux. La #cuisine est mauvaise. Les #chambres sont sales et le #personnel est impoli. Il fait mauvais temps./camping/chambre
+3/Nous #avons visité le château, le musée et la cathédrale. Heureusement #demain nous #irons au parc d'#attractions./allez/avez
+3/Hier soir #nous avons mangé #dans un bon petit restaurant.J'ai #goûté les spécialités de la #région./ils/sur
+3/Hier nous avons #passé la #journée à la plage. J'ai #essayé de #faire de la planche à voile. J'ai un #coup de soleil aujourd'hui./jour/passer/essayer
+3/Je suis allée à la plage ce #matin. J'ai fait les achats cet #après-midi et ce #soir nous #irons à la boîte de nuit./soirée/nuit/allez
+3/Ce #matin j'ai #fait la grasse matinée. Ce soir nous allons #manger au restaurant et demain nous #ferons une randonnée./faire/mangé/faite
+3/Nous #avons fait un pique-nique au #bord de la rivière. Aujourd'hui il #fait très chaud et le paysage #est pittoresque./avait/était/fera
+3/#Ce matin j'ai #joué au tennis, #cet après-midi je vais #jouer au volley et ce soir je #ferai une partie de boules avec nos voisins./ferez/jouet
+3/Le gîte est #petit mais confortable. Il fait #beau. Nous avons #rencontré une famille qui #vient de tout près de chez nous./petite/venu/raconté
+4/L'année #prochaine j'ai l'intention de #rendre visite à mon #correspondant allemand parce que je voudrais #améliorer mon allemand./prochain/de
+4/Pendant les #grandes vacances j'#irai en Ecosse avec des amis pour #faire des randonnées et #de l'alpinisme./grands/ferai/ira
+4/Au #mois de février je #partirai en vacances de #neige avec un groupe du collège. Nous #allons rester huit jours dans un hôtel./moi/ea/février/partira
+4/Pendant les vacances de Pâques je #passerai une #quinzaine de jours #à réviser pour mes #examens en juin./examen/passer/de
+4/Une fois mes examens #finis je partirai avec des amis #faire du camping dans le sud de la France. J'#attends les vacances avec #impatience./finir/attendu
+4/Après #avoir terminé mes examens je #partirai avec ma #famille faire des vacances au bord de la #mer au sud de l'Angleterre./montagne/partira/avez
+4/Comme l'année dernière #nous ne sommes #pas #partis en vacances, cet été nous allons #passer un mois à la montagne./je/partir/passerons
+4/Cet été nous ne #partirons pas en vacances parce que nous #faisons des économies pour #pouvoir passer un mois aux Etats-Unis l'année #prochaine./faire/pu/partir
+4/Comme nous #aimons beaucoup le soleil, cet été nous #allons #passer trois semaines à #faire du camping en Espagne./aller/passé/aimer
+4/L'idée d'#apprendre à #faire du ski m'#intéresse ,alors nous #irons dans les Alpes pendant les vacances de février./irez/appris
+4/J'#ai beaucoup de #projets pour les grandes vacances. D'abord je #rendrai visite à ma tante en France et puis j'#irai en Ecosse./irez/rendre/avez
+4/Comme j'#adore le soleil j'#irai en Espagne où j'#ai l'intention de me baigner dans la mer et de me #bronzer sur la plage./adorer/avoir/bronzé
+GRADE6
+1/Je #serais très reconnaissante si vous #auriez la gentillesse de m'#envoyer des brochures sur la région et une #liste des hôtels./sera/aura/enverrai
+1/Je #serais très #reconnaissante si vous #pourriez m'envoyer des renseignements sur les monuments principaux de la #région./serait/pouvoir
+1/Voulez-vous me #faire savoir si on #organise des #activités sportives et des excursions en car dans la #région./département/organiser/peut
+1/#Veuillez m'#envoyer un plan de la ville, une #liste des gîtes et des brochures sur la #ville./enverra/vouloir/listes
+1/Vous #trouverez ci-inclus un coupon-réponse #international et je vous #remercie d'#avance./internationale/trouver/remercier
+1/Je vous #remercie d'avance et je vous #prie d'agréer, Monsieur, l'expression de mes sentiments #distingués./remercier/distingué/prier
+1/#Pourriez-vous m'#envoyer une petite documentation sur la ville et la région surtout au sujet des possibilités d'#herbergement./envoie/pourrions/campings
+1/Voulez-#vous me faire #savoir s'il y a des #visites guidées de la ville pendant le #mois de novembre./semaine/nous/dire/visite
+1/Vous #trouverez ci-#joint un #coupon réponse international. Je vous prie d'#agréer, Madame, l'expression de mes sentiments distingués./agréez/joindre/trouver
+1/#Pourriez-vous me #faire savoir les #heures d'ouverture du musée de la ville et les #prix d'entrées au château?/faites/pourrions/pouvoir/heure
+1/Pendant les vacances d'octobre je #pense #passer quelques jours dans votre région; je vous #demande de m'#envoyer une petite documentation./passe/penser/demander
+1/Je m'#intéresse surtout à la #peinture et je #voudrais savoir s'il y a des #exemples d'art médiéval dans la région./art/intéressé/voudrait
+1/Comme nous #avons des enfants nous #voudrions #savoir s'il est dangereux de se #baigner dans le lac./avions/nager/vouloir
+1/Nous ne #connaissons pas du #tout la ville et nous nous demandions ce qu'il y #avait d'intéressant à #faire et à voir./fait/avoir/tous/connaître
+1/Nous vous demandons de bien #vouloir nous #recommander un bon hôtel et de nous #envoyer des renseignements sur la #location de voitures./voulez/envoyez
+2/Je vous #écris pour vous #demander de me #réserver un #emplacement pour une tente et une voiture pour les nuits du 3 au 6 juin./écrit/demandez/réservation
+2/Je #vous écris pour vous demander de m'#indiquer le tarif de votre camping et de me #faire savoir si vous #faites des réservations./nous/indiquez/fais
+2/Nous #sommes cinq #personnes: deux adultes et trois enfants de moins de huit ans. #Veuillez me #confirmer la réservation./suis/confirmation
+2/Je vous #envoie cinq cents francs à titres d'#arrhes et je vous #demande de bien #vouloir me confirmer la réservation./envoyer/voudrais/demandez
+2/Je #vous prie de bien #vouloir nous #réserver une chambre pour deux personnes avec douche et de nous #envoyer le tarif avec demi-pension./me/nous/voulez/réservation
+2/Je vous #ai déjà écrit pour vous #demander de nous réserver une chambre au début mai. Malheureusement je #dois annuler la #réservation./avez/demandez/réservé/devez
+2/#Pourriez-vous #nous réserver deux #chambres dont une avec un grand lit et #une avec deux petits lits./un/vous/se/chambre/avez
+2/#Pourriez-vous nous #indiquer le #tarif avec demi-pension et #avec pension-complète./pouvoir/indiqué/vous
+2/Je vous #écris pour vous #demander si vous #auriez un gîte à #louer pas trop loin de la côte au mois d'août./demandé/loué/avez
+3/Je vous #écris pour vous #indiquer que nous n'avons pas #été contents de notre #séjour dans votre hôtel./séjours/écrivez/indiquez
+3/Je #regrette mais je #dois vous écrire pour me #plaindre du service que le personel de votre établissement nous #a accordé./regretter/devoir/plaint/ont
+3/Nous venons de #passer le #weekend dans votre hôtel et j'ai le regret de vous #indiquer que la chambre #était sale ainsi que la douche./étaient/passez/semaine
+3/Hier soir nous avons #mangé dans votre restaurant et nous avons #dû attendre une heure #avant d'#être servis./manger/devoir/après/été
+3/Je #voudrais vous #indiquer que le comportement du gardien #était très impoli; sans aucune raison il nous a #parlé d'un ton agressif./indiquez/voudrait/parler
+3/J'#ai le regret de vous #informer que nous n'avons pas #été contents de notre #séjour dans le camping./avais/informez/était
+3/Malheureusement il me #faut vous #faire savoir que la #qualité des plats, qu'on nous a servis hier soir, #était mauvaise./qualités/fait/étaient
+3/Nous #venons de manger dans votre restaurant et j'#ai le regret de vous faire #savoir que la nourriture #était mal préparée./avons/viens/être
+3/Nous venons #de passer un séjour dans votre hôtel et nous #voudrions vous indiquer que la #qualité du service était #insuffisante./à/voudrais/qualités
+4/J'ai #perdu mon porte-feuille samedi #dernier à la Gare d'Austerlitz. Il est rouge et en #cuir et il y #avait cinq cents francs là-dedans./mangé/dernière/avaient
+4/J'#ai perdu ma valise la semaine #dernière. J'ai #pris le vol de Paris Charles de Gaulles et je ne l'ai pas #récupérée à Londres./récupérer/avons/dernier
+4/On m'#a volé mon sac à main vers dix #heures dans la bijouterie "Chez Baille".J'#avais posé mon sac sur le comptoir et puis il a #disparu./avait/avoir/disparaître
+4/L'appareil-photo #était dans ma voiture. J'avais #fermé la voiture à clef mais quand je suis #revenu j'ai vu que la fenêtre avait #été forcée./fermer/revenus/être
+4/Nous avons #laissé nos #affaires sur la plage et nous sommes #allés nager dans la mer.Quand nous #sommes revenus il n'y avait plus #rien à notre endroit./que/perdu/allé
+4/J'ai #laissé mon parapluie dans votre restaurant vendredi dernier. Si vous l'#avez trouvée #veuillez me le #faire savoir./avoir/fait/vouloir
+4/J'ai #oublié ma #serviette dans le train Paris-Lyon mardi le 8 mai. Je #suis descendu du train à Lyon à quinze heures. La serviette est en cuir #noir./oublier/sont/ai/grise
+4/On m'a #volé mon porte-feuille samedi le 5 juin. Je l'#avais dans mon sac mais quand j'ai voulu #payer quelque chose je ne #pouvais plus le trouver./perdu/avoir/payez/pu
+4/Nous avons #garé notre voiture dans le parking du cinéma et quand nous #sommes revenus nous #avons découvert que la porte #avait été forcée./gare/avez/était/eu
+4/J'ai #laissé mes affaires au bord de la piscine et quand je suis #revenu j'ai #découvert que ma montre n'#était plus à sa place./étaient/laisser/revenir
+4/J'#ai laissé une #bague de valeur sentimentale dans le vestiaire de votre restaurant mardi dernier. Si vous l'avez trouvée, #veuillez m'#écrire./suis/écrivez/vouloir
+4/Je ne #sais pas quand j'ai perdu ma montre mais je me #rappelle que je l'#avais hier soir en #sortant du collège./sortir/sait/rappellé/avait

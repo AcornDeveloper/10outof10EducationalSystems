@@ -1,0 +1,17 @@
+RUN <Obey$Dir>.!SetCode
+WIMPSLOT -min 512K
+SET 10Fren1$Dir <Obey$Dir>
+<Obey$Dir>.CompLoad
+RMLOAD <Obey$Dir>.ScnLoad
+PRINT <Obey$Dir>.Palette
+RMKILL ABC
+<Obey$Dir>.Screen
+<Obey$Dir>.FrenSounds
+<Obey$Dir>.Bass
+<Obey$Dir>.Cymbal
+<Obey$Dir>.Death
+<Obey$Dir>.Laugh
+<Obey$Dir>.Steam
+<Obey$Dir>.Synsmajs
+<Obey$Dir>.Timer
+<Obey$Dir>.!RunImage

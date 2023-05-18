@@ -1,0 +1,290 @@
+$ Word Search word file structure
+$ 1. <sub grade>/<category question>/<lower case>/<upper case> ...
+$ 2. <sub grade>/<category question>/<lower case>/<upper case> ...
+$ 3. <sub grade>/<category question>/<lower case>/<upper case> ...
+$ 4. <sub grade>/<phrase>/<missing word>/<false> ...
+$ 5. <sub grade>/<phrase>/<missing word>/<false> ...
+$ 6. <sub grade>/<phrase with clue>/<noun>
+
+$ Grade 1-3 category question maximum length 128 characters, lower/upper 
+$           maximum length 20 characters and they need exactly 10 pairs 
+$           of lower/upper entries. Grid words in upper case
+$ Grade 4-6 need underline characters for the answer space,
+$           maximum lengths as above and up to 15 false words to help fill
+$           the board. Answers in lower case
+$ Grade 5   use # to highlight a portion of text and to turn off again
+$ Grade 6   caution as false words are taken from else where in the grade
+$ sub grade 1-4
+
+GRADE1
+1/Trouvez dix femmes dans la famille/mother/MERE/sister/SOEUR/aunt/TANTE/cousin/COUSINE/grandmother/GRAND-MERE/daugther/FILLE/granddaugther/PETITE FILLE/mother in law/BELLE-MERE/niece/NIECE/great grandmother/ARRIERE GRAND MERE
+1/Trouvez dix femmes dans la famille/mother/MERE/sister/SOEUR/aunt/TANTE/cousin/COUSINE/grandmother/GRAND-MERE/daugther/FILLE/granddaugther/PETITE FILLE/mother in law/BELLE-MERE/niece/NIECE/great grandmother/ARRIERE GRAND MERE
+2/Trouvez dix hommes dans la famille/father/PERE/brother/FRERE/uncle/ONCLE/cousin/COUSIN/grandfather/GRAND PERE/son/FILS/grandson/PETIT-FILS/father in law/BEAU-PERE/nephew/NEVEU/great grandfather/ARRIERE GRAND-PERE
+2/Trouvez dix hommes dans la famille/father/PERE/brother/FRERE/uncle/ONCLE/cousin/COUSIN/grandfather/GRAND PERE/son/FILS/grandson/PETIT-FILS/father in law/BEAU-PERE/nephew/NEVEU/great grandfather/ARRIERE GRAND-PERE
+3/Trouvez dix animaux domestiques/cat/CHAT/dog/CHIEN/horse/CHEVAL/pony/PONEY/rabbit/LAPIN/fish/POISSON/gold fish/POISSON ROUGE/hamster/HAMSTER/guinea pig/COCHON D'INDE/tortoise/TORTUE
+3/Trouvez dix animaux domestiques/fish/POISSON/gold fish/POISSON ROUGE/hamster/HAMSTER/guinea pig/COCHON D'INDE/tortoise/TORTUE/mouse/SOURIS/gerbil/GERBOISE/bird/OISEAU/budgerigar/PERRUCHE/parrot/PERROQUET
+3/Trouvez dix animaux domestiques/bird/OISEAU/budgerigar/PERRUCHE/parrot/PERROQUET/hamster/HAMSTER/horse/CHEVAL/guinea pig/COCHON D'INDE/pony/PONEY/dog/CHIEN/mouse/SOURIS/fish/POISSON
+3/Trouvez dix animaux domestiques/hamster/HAMSTER/horse/CHEVAL/tortoise/TORTUE/fish/POISSON/cat/CHAT/dog/CHIEN/bird/OISEAU/rabbit/LAPIN/mouse/SOURIS/budgerigar/PERRUCHE
+4/Trouvez dix couleurs/blue/BLEU/green/VERT/red/ROUGE/yellow/JAUNE/white/BLANC/brown/BRUN/red-ginger/ROUX
+4/Trouvez dix couleurs/black/NOIR/grey/GRIS/red-ginger/ROUX/purple/VIOLET/pink/ROSE/mauve/MAUVE/blue/BLEU/dark/FONCE/multi-coloured/MULTI COLORE/orange/ORANGE
+4/Trouvez dix couleurs/red/ROUGE/yellow/JAUNE/white/BLANC/black/NOIR/grey/GRIS/mauve/MAUVE/purple/VIOLET/blue/BLEU/multi-coloured/MULTI COLORE/red-ginger/ROUX
+4/Trouvez dix couleurs/black/NOIR/grey/GRIS/mauve/MAUVE/blue/BLEU/orange/ORANGE/green/VERT/yellow/JAUNE/dark/FONCE/purple/VIOLET/pink/ROSE
+GRADE2
+1/Trouvez dix parties du corps/head/TETE/body/CORPS/neck/COU/arm/BRAS/elbow/COUDE/hand/MAIN/finger/DOIGT/thumb/POUCE/wrist/POIGNET/chest/POITRINE
+1/Trouvez dix parties du corps/breast/SEIN/stomach/L'ESTOMAC/belly-abdomen/VENTRE/back/DOS/bottom/FESSES/bottom-behind/DERRIERE/leg/JAMBE/knee/GENOU/ankle/CHEVILLE/foot/PIED
+1/Trouvez dix parties du corps/back/DOS/bottom/FESSES/bottom-behind/DERRIERE/knee/GENOU/ankle/CHEVILLE/foot/PIED/toe/DOIGT DE PIED/nail/L'ONGLE/throat/GORGE/stomach/SEIN
+1/Trouvez dix parties du corps/finger/DOIGT/elbow/COUDE/hand/MAIN/breast/SEIN/bottom/FESSES/body/CORPS/chest/POITRINE/leg/JAMBE/knee/GENOU/foot/PIED
+2/Trouvez dix traits du visage/head/TETE/hair/CHEVEUX/eye/L'OEIL/eyes/YEUX/nose/NEZ/mouth/BOUCHE/tooth/DENT/lip/LEVRE/tongue/LANGUE/ear/L'OREILLE
+2/Trouvez dix traits du visage/eye brow/SOURCIL/cheek/JOUE/chin/MENTON/nostril/NARINE/tooth/DENT/head/TETE/hair/CHEVEUX/eye/L'OEIL/eyes/YEUX/nose/NEZ
+2/Trouvez dix traits du visage/tooth/DENT/lip/LEVRE/nose/NEZ/mouth/BOUCHE/wrinkle/RIDE/eye/L'OEIL/tongue/LANGUE/ear/L'OREILLE/hair/CHEVEUX/cheek/JOUE
+2/Trouvez dix traits du visage/nose/NEZ/mouth/BOUCHE/wrinkle/RIDE/tooth/DENT/eyes/YEUX/tongue/LANGUE/cheek/JOUE/head/TETE/hair/CHEVEUX/eye brow/SOURCIL
+3/Trouvez dix mots au subjet des maladies/health/SANTE/tiredness/FATIGUE/cough/TOUX/cold/RHUME/'flu/GRIPPE/sunburn/COUP DE SOLEIL/burn/BRULURE/diarrhoea/DIARRHEE/constipation/CONSTIPATION/indigestion/INDIGESTION
+3/Trouvez dix mots au subjet des maladies/high temperature-fever/FIEVRE/thirsty/SOIF/hot/CHAUD/cold/FROID/hungry/FAIM/to cough/TOUSSER/to tremble-shiver/TREMBLER/to drink/BOIRE/to eat/MANGER/doctor/MEDECIN
+3/Trouvez dix mots au subjet des maladies/hungry/FAIM/to cough/TOUSSER/to tremble-shiver/TREMBLER/to drink/BOIRE/to eat/MANGER/doctor/MEDECIN/dressing/PANSEMENT/aspirin/ASPIRINE/medicine/MEDICAMENT/twisted ankle/ENTORSE
+3/Trouvez dix mots au subjet des maladies/constipation/CONSTIPATION/indigestion/INDIGESTION/doctor/MEDECIN/to cough/TOUSSER/to tremble-shiver/TREMBLER/to drink/BOIRE/to eat/MANGER/diarrhoea/DIARRHEE/cold/FROID/sunburn/COUP DE SOLEIL
+4/Trouvez dix mots au sujet des fêtes/Christmas/NOEL/Easter/PAQUES/Whitsuntide/PENTECOTE/birthday/ANNIVERSAIRE/wedding/MARIAGE/Christening/BAPTEME/saint's name day/FETE/birth/NAISSANCE/death/MORT/burial-funeral/ENTERREMENT
+4/Trouvez dix mots au sujet des fêtes/saint's name day/FETE/birth/NAISSANCE/death/MORT/burial-funeral/ENTERREMENT/long summer holidays/GRANDES VACANCES/return to school/RENTREE/confirmation/CONFIRMATION/14th July/QUATORZE JUILLET/French National Day/FETE NATIONALE/All Saints' Day/TOUSSAINT
+4/Trouvez dix mots au sujet des fêtes/New Year/NOUVEL AN/New Year's Eve/SYLVESTRE/Christmas Eve/REVEIILLON/death/MORT/burial-funeral/ENTERREMENT/Christmas/NOEL/Easter/PAQUES/saint's name day/FETE/return to school/RENTREE/confirmation/CONFIRMATION
+4/Trouvez dix mots au sujet des fêtes/Easter/PAQUES/Whitsuntide/PENTECOTE/birthday/ANNIVERSAIRE/death/MORT/birth/NAISSANCE/saint's name day/FETE/long summer holidays/GRANDES VACANCES/return to school/A RENTREE/14th July/QUATORZE JUILLET/French National Day/FETE NATIONALE
+GRADE3
+1/Trouvez dix adjectifs pour décrire quelqu'un physiquement/tall/GRAND/small/PETIT/pretty/JOLI/beautiful/BEAU/thin/MINCE/fat/GROS/plump/DODU/strong/FORT/weak/FAIBLE/curly/FRISE
+1/Trouvez dix adjectifs pour décrire quelqu'un physiquement/thin/MINCE/fat/GROS/plump/DODU/strong/FORT/weak/FAIBLE/curly/FRISE/long/LONG/short/COURT/straight/RAID/bald/CHAUVE
+1/Trouvez dix adjectifs pour décrire quelqu'un physiquement/tall/GRAND/small/PETIT/pretty/JOLI/beautiful/BEAU/thin/MINCE/curly/FRISE/long/LONG/short/COURT/straight/RAID/bald/CHAUVE
+1/Trouvez dix adjectifs pour décrire quelqu'un physiquement/fat/GROS/plump/DODU/strong/FORT/weak/FAIBLE/curly/FRISE/long/LONG/short/COURT/straight/RAID/bald/CHAUVE/thin/MINCE
+2/Trouvez dix descriptions de personnalité/pleasant/AGREABLE/agressive/AGRESSIF/likeable/AIMABLE/ambitious/AMBITIEUX/fun/AMUSANT/stupid/BETE/quiet/CALME/difficult/DIFFICILE/clever/INTELLIGENT/lazy/PARESSEUX
+2/Trouvez dix descriptions de personnalité/skilful/HABILE/shy/TIMIDE/nice/SYMPATHIQUE/kind/GENTIL/sporty/SPORTIF/sensitive/SENSIBLE/well behaved/SAGE/dreadful/TERRIBLE/proud/FIER/impatient/IMPATIENT
+2/Trouvez dix descriptions de personnalité/pleasant/AGREABLE/agressive/AGRESSIF/likeable/AIMABLE/ambitious/AMBITIEUX/fun/AMUSANT/skilful/HABILE/shy/TIMIDE/nice/SYMPATHIQUE/kind/GENTIL/sporty/SPORTIF
+2/Trouvez dix descriptions de personnalité/stupid/BETE/quiet/CALME/difficult/DIFFICILE/clever/INTELLIGENT/lazy/PARESSEUX/sensitive/SENSIBLE/well behaved/SAGE/dreadful/TERRIBLE/proud/FIER/impatient/IMPATIENT
+3/Trouvez dix mots au sujet de la religion on de la situation de famille/single/CELIBATAIRE/divorced/DIVORCE/married/MARIE/separated/SEPARE/widowed/VEUF/widowed/VEUVE/catholic/CATHOLIQUE/Christian/CHRETIEN/Hindu/HINDOU/Jewish/JUIF
+3/Trouvez dix mots au sujet de la religion on de la situation de famille/Muslim/MUSULMAN/protestant/PROTESTANT/agnostic/SANS RELIGION/Sikh/SIKH/atheist/ATHEE/Muslim/MUSULMANE/protestant/PROTESTANTE/Jewish/JUIVE/Jewish/JUIF/married/MARIE
+3/Trouvez dix mots au sujet de la religion on de la situation de famille/single/CELIBATAIRE/divorced/DIVORCE/married/MARIE/separated/SEPARE/widowed/VEUF/Muslim/MUSULMAN/protestant/PROTESTANT/agnostic/SANS RELIGION/Sikh/SIKH/atheist/ATHEE
+3/Trouvez dix mots au sujet de la religion on de la situation de famille/single/CELIBATAIRE/divorced/DIVORCE/married/MARIE/separated/SEPARE/widowed/VEUF/Muslim/MUSULMANE/protestant/PROTESTANTE/Jewish/JUIVE/Jewish/JUIF/atheist/ATHEE
+4/Trouvez dix nationalités au féminin/English/ANGLAISE/Scottish/ECOSSAISE/Irish/IRLANDAISE/Spanish/ESPAGNOLE/Italian/ITALIENNE/German/ALLEMANDE/Belgian/BEIGE/Swiss/SUISSE/Greek/GREQUE/American/AMERICAINE
+4/Trouvez dix nationalités au masculin/English/ANGLAIS/Scottish/ECOSSAIS/Irish/IRLANDAIS/Spanish/ESPAGNOL/Italian/ITALIEN/German/ALLEMAND/Belgian/BEIGE/Swiss/SUISSE/Greek/GREC/American/AMERICAINE
+4/Trouvez dix nationalités au masculin/English/ANGLAIS/Scottish/ECOSSAIS/Irish/IRLANDAIS/Spanish/ESPAGNOL/Italian/ITALIEN/Chinese/CHINOIS/Japanese/JAPONAIS/Swiss/SUISSE/Greek/GREC/American/AMERICAINE
+4/Trouvez dix nationalités au féminin/French/FRANCAISE/Welsh/GALLOISE/African/AFRICAINE/Austrailian/AUSTRALIENNE/Indian/INDIENNE/Chinese/CHINOISE/Japanese/JAPONAISE/Belgian/BEIGE/Swiss/SUISSE/Greek/GREQUE
+GRADE4
+1/La soeur de votre mère est votre ___/tante/cousine/nièce/grand-mère/grand-père/neveu/cousins
+1/La fille de votre oncle est votre ___/cousine/nièce/grand-mère/tante/grand-père/neveu
+1/Le mari de votre tante est votre ___/oncle/cousine/nièce/grand-mère/tante/grand-père/neveu/cousins
+1/Les enfants de votre oncle sont vos ___/cousins/nièce/grand-mère/tante/grand-père/neveu
+1/Le père de votre mère est votre ___/grand-père/cousine/nièce/grand-mère/tante/neveu/cousins
+1/La femme de votre grand-père est votre ___/grand-mère/cousine/tante/grand-père/neveu/cousins
+1/Le fils de votre belle-soeur est votre ___/neveu/cousine/nièce/grand-mère/tante/grand-père/cousins
+1/La fille de votre soeur est votre ___/nièce/cousine/grand-mère/tante/grand-père/neveu/cousins
+1/Votre copain part en vacances.Vous dites "___ vacances!"/bonnes/Année/Félicitions!/Joyeux/Chance
+1/C'est le jour de l'an. Vous dites "Bonne ___!"/Année/Bonnes/Joyeux
+1/Une amie vient d'être reçu à un examen. Vous dites, "___"/Félicitions!/Année/bonnes/Joyeux/Chance
+1/C'est l'anniversaire de votre copain français. Vous dites, " ___ anniversaire!"/Bon/Année/Bonnes/Joyeux/Chance
+1/Vous êtes sur le point de commencer un repas chez une famille française. Vous dites, "Bon ___!"/appétit/Année/Bonnes/Chance
+1/C'est le jour de Noël. Vous dites," ___ Noël!"/Joyeux/Année/Félicitions!/Chance
+1/Votre ami français va passer son permis de conduire. Vous dites, "Bonne ___ !"/chance/Année/Bonnes/Joyeux
+2/On achète les médicaments ici./pharmacie/dentifrice/mouchoir/aspirines/dentiste/régime/indigestion/gorge/la tête/les malades/kinésithérapeute
+2/La femme qui prépare les ordonnances, c'est une ___./pharmacienne/hôpital/pharmacie/dentifrice/mouchoir/aspirines/dentiste/régime/indigestion
+2/On y va si on est gravement malade./hôpital/pharmacie/dentifrice/mouchoir/aspirines/dentiste/régime/uchoir/indigestion/gorge/la tête/kinésithérapeute
+2/Un homme qui opère sur les malades, c'est un ___./chirugien/pharmacie/mouchoir/aspirines/dentiste/régime/indigestion/gorge/la tête/kinésitthérapeute
+2/On s'en sert quand on se brosse les dents./dentifrice/pharmacie/mouchoir/aspirines/dentiste/indigestion/kinéthérapeute/régime/chirugien
+2/On s'en sert pour se moucher./mouchoir/hôpital/pharmacie/aspirines/dentiste/indigestion/kinésithérapeute/chirugien/dentiste/régime
+2/On les prend si on a mal à la tête./aspirines/hôpital/dentifrice/dentiste/indigestion/gorge/les malades/kinéthérapeute/pharmacienne/chirugien
+2/On va chez lui si on a mal aux dents./dentiste/pharmacie/mouchoir/aspirines/la tête/les malades/kinéthérapeute/pharmacienne/personne/chirugien
+2/Si on est trop gros il faut se mettre au ___./régime/hôpital/dentifrice/mouchoir/aspirines/dentiste/gorge/la tête/les malades/pharmacienne/personne
+2/Une personne qui aide les blessés en les faisant faire des exercises ,c'est un ___./kinéthérapeute/pharmacie/dentifrice/mouchoir/aspirines/dentiste
+2/Le choléra, le SIDA et la grippe sont tous des ___./maladies/pharmacie/dentifrice/mouchoir/aspirines/dentiste/régime/la tête/pharmacienne
+2/Si on se sent bien et on a beaucoup d'energie on dit qu'on est en bonne ___./santé/dentifrice/mouchoir/aspirines/dentiste/indigestion/pharmacienne
+2/Si on crie trop fort on peut avoir mal à la ___./gorge/hôpital/pharmacie/dentifrice/mouchoir/aspirines/dentiste/régime/tête/pharmacienne
+2/Si on mange trop vite on peut souffrir d'une ___./indigestion/dentifrice/mouchoir/aspirines/dentiste/régime/tête/kinéthérapeute/kinésithérapeute/gorge
+2/Si on reste trop longtemps au soleil on peut attraper un coup de ___./soleil/pharmacie/dentifrice/mouchoir/aspirines/dentiste/régime/indigestion
+2/Si on tombe maladroitement on peut se donner une ___./entorse/hôpital/pharmacie/dentifrice/mouchoir/aspirines/dentiste/régime/indigestion/tête/gorge
+3/Quel est le contraire de grand?/petit/jeune/vieux/gros/mince/généreux/egoïste/long/court/difficile/facile/chaud/froid/amusant/ennuyeux
+3/Quel est le contraire de patient?/impatient/triste/heureux/difficile/facile/chaud/froid/sage/vilain/indépendant/dépendant
+3/Quel est le contraire de beau?/laid/jeune/vieux/gros/mince/long/court/difficile/facile/chaud/froid/indépendant/dépendant
+3/Quel est le contraire de gros?/mince/triste/heureux/généreux/egoïste/difficile/facile/chaud/froid/indépendant/dépendant
+3/Quel est le contraire de difficile?/facile/jeune/vieux/gros/mince/sage/vilain/indépendant/dépendant/amusant/ennuyeux
+3/Quel est le contraire de amusant?/ennuyeux/triste/heureux/généreux/egoïste/difficile/facile/sage/vilain
+3/Quel est le contraire de indépendant?/dépendant/jeune/vieux/gros/mince/difficile/facile/chaud/froid/amusant/ennuyeux
+3/Quel est le contraire de sociable?/timide/triste/heureux/long/court/difficile/facile/chaud/froid/indépendant/dépendant
+3/Quel est le contraire de généreux?/egoïste/jeune/vieux/gros/mince/long/court/difficile/facile/indépendant/dépendant
+3/Quel est le contraire de triste?/heureux/triste/heureux/généreux/egoïste/chaud/froid/sage/vilain
+3/Quel est le contraire de jeune?/vieux/gros/mince/long/court/difficile/facile/chaud/froid/sage/vilain
+3/Quel est le contraire de moderne?/ancien/triste/heureux/difficile/facile/sage/vilain/indépendant/dépendant
+3/Quel est le contraire de sale?/propre/jeune/vieux/gros/mince/long/court/sage/vilain/indépendant/dépendant
+3/Quel est le contraire de sage?/vilain/triste/heureux/généreux/egoïstelong/court/difficile/facile/indépendant/dépendant
+3/Quel est le contraire de chaud?/froid/jeune/vieux/gros/mince/long/court/sage/vilain/indépendant/dépendant
+3/Quel est le contraire de long?/court/triste/heureux/chaud/froid/sage/vilain/indépendant/dépendant/noir
+3/Quel est le contraire de frisé?/raid/jeune/vieux/gros/mince/généreux/egoïste/long/court/chaud/froid/sage/vilain/étroit/large
+4/Quel est le contraire de étroit?/large/féminin/masculin/gentil/méchant/haut/bas/doux/agressif/noir/blanc/responsable/irresponsable
+4/Quel est le contraire de intelligent?/stupide/gentil/méchant/haut/bas/noir/blanc/étroit/large/bas/méchant/noir
+4/Quel est le contraire de doux?/agressif/féminin/masculin/gentil/méchant/étroit/large/impoli/soucieux/bas/noir
+4/Quel est le contraire de féminin?/masculin/intelligent/stupide/haut/bas/noir/blanc/responsable/irresponsable
+4/Quel est le contraire de gentil?/méchant/gentil/méchant/haut/bas/doux/agressif/noir/blanc/étroit/large/impoli
+4/Quel est le contraire de noir?/blanc/féminin/masculin/intelligent/stupide/étroit/large/impoli
+4/Quel est le contraire de haut?/bas/intelligent/stupide/gentil/méchant/doux/agressif/responsable/irresponsable/noir
+4/Quel est le contraire de agréable?/désagréable/féminin/masculin/haut/bas/noir/blanc/responsable/irresponsable/méchant
+4/Quel est le contraire de responsable?/irresponsable/intelligent/stupide/soucieux/insoucieux/mauvais/bas/méchant
+4/Quel est le contraire de bon?/mauvais/féminin/masculin/gentil/méchant/noir/blanc/étroit/large/bas/méchant
+4/Quel est le contraire de poli?/impoli/intelligent/stupide/haut/bas/doux/agressif/noir/blanc/responsable/irresponsable
+4/Quel est le contraire de célibataire?/marié/féminin/masculin/haut/bas/noir/blanc/étroit/large/impoli/insoucieux
+4/Quel est le contraire de soucieux?/insoucieux/intelligent/stupide/doux/agressif/responsable/irresponsable/étroit/large
+4/Quel est le contraire de nerveux?/calme/féminin/masculin/gentil/méchant/haut/bas/doux/agressif/impoli/mauvais/méchant
+4/Quel est le contraire de fort?/faible/féminin/masculin/intelligent/stupide/haut/bas/doux/agressif/noir/blanc/étroit/large
+4/Quel est le contraire de riche?/pauvre/intelligent/stupide/gentil/méchant/haut/bas/noir/blanc/responsable/irresponsable/étroit/large/insoucieux
+GRADE5
+1/Mon oncle qui a beaucoup d'argent est très ____./riche/bonne/gourmand/egoïste/sympathique/fatiguée/confiant
+1/Il a perdu beaucoup de cheveux; il est ______./chauve/gourmand/riche/bonne/célibataire/bonne/confiant/egoïste/sympathique/fatiguée
+1/Il est content; il est de _____ humeur./bonne/gourmand/egoïste/sympathique/confiantparesseuse/paresseux/sérieuse/gauche
+1/Elle n'aime pas travailler; elle est __________./paresseuse/paresseux/bonne/egoïste/sympathique/fatiguée/confiant
+1/Il apprécie les bonnes choses à manger; il est ________./gourmand/sérieuse/paresseuse/paresseux/gauche/fière/fier
+1/Elle pose beaucoup de questions; elle est ________./curieuse/sérieuse/opportuniste/bonne/gourmand/fière/fier/confiant
+1/Il n'est pas marié; il est ___________./célibataire/bonne/paresseuse/paresseux/sérieuse/fatiguée/fière/fier/opportuniste
+1/Elle est très gentille; elle est ___________./sympathique/gourmand/fatiguée/fière/fier/bonne/célibataire/opportuniste
+1/Elle est maladroite; elle est ______./gauche/bonne/gourmand/paresseuse/paresseux/sérieuse/sympathique/célibataire
+1/Elle affecte un air hautain; elle est _____./fière/fier/bonne/paresseuse/paresseux/sérieuse/gauche/sympathique/gourmand/célibataire
+1/Il est sûr de lui; il est ________./confiant/sérieuse/gourmand/riche/bonne/fatiguée/fière/fier/paresseuse/paresseux
+1/Elle a l'air grave; elle est ________./sérieuse/gourmand/riche/bonne/fatiguée/fière/fier/sympathique/gourmand
+1/Elle profite des circonstances; elle est ____________./opportuniste/gauche/bonne/gourmand/paresseuse/paresseux/sérieuse/confiant
+1/Il ne pense pas aux autres; il est _______./égoïste/sympathique/gourmand/paresseuse/paresseux/riche/bonne
+1/Elle a fait une nuit blanche; elle est ________./fatiguée/fière/fier/bonne/paresseuse/paresseux/sérieuse/confiant/gauche
+2/Elle peut le faire sans problèmes; le travail est ______./facile/rangée/amusant/intéressant/complet/délabrée
+2/Comme elle la lave chaque semaine, sa voiture est ______./propre/facile/rangée/amusant/intéressant/complet/délabrée
+2/Le film nous fait rire; il est _______./amusant/facile/rangée/intéressant/complet/délabrée
+2/Le prix n'est pas cher; il est ___________./intéressant/délabrée/italienne/française/fertile/complet
+2/Il n'y a plus de place sur le camping; il est _______./complet/délabrée/italienne/française/fertile/complet
+2/La maison est en ruines; elle est ________./délabrée/italienne/française/fertile/complet/facile
+2/Tous les jouets sont à leur place alors la chambre est __________./bien rangée/délabrée/italienne/française/fertile/complet/facile
+2/La ville est assez grande alors c'est une ville __________./importante/délabrée/italienne/française/fertile/complet/facile
+2/Dans le jardin il y a beaucoup de légumes parce que la terre est _______./fertile/complet/intéressant/amusant/propre
+2/Notre voiture est une Fiat ; c'est une voiture _________./italienne/française/fertile/complet/intéressant/amusant/propre/délabrée
+2/Notre voiture est une Renault; c'est une marque _________./française/italienne/fertile/complet/intéressant/amusant/propre/délabrée
+2/Elle le fait difficilement; le travail est _________./difficile/fertile/complet/intéressant/amusant/propre/délabrée
+2/La leçon n'est pas intérssante; elle est _________./ennuyeuse/fertile/complet/intéressant/amusant/propre/délabrée
+3/Il s'habille #d'une manière bizarre.#/bizarrement/soudain/correctement/impatiemment/soigneusement/rarement
+3/Il le fait #sans difficultés#./facilement/soudain/correctement/soigneusement/généralement/drôlement
+3/Elle le fait #avec beaucoup de difficultés.#/difficilement/soudain/impatiemment/soigneusement/drôlement
+3/Il a commencé à pleuvoir #tout à coup.#/soudain/bizarrement/correctement/impatiemment/soigneusement/rarement
+3/Nous mangeons vers six heures #d'habitude.#/généralement/difficilement/impatiemment/soigneusement/drôlement
+3/Il parle #d'une façon drôle.#/drôlement/difficilement/bizarrement/correctement/impatiemment/soigneusement
+3/Il dessine #avec beaucoup de soin.#/soigneusement/difficilement/bizarrement/rarement
+3/Il fait le travail #comme il faut.#/correctement/bizarrement/soudain/drôlement/rarement
+3/Il attend #avec impatience.#/impatiemment/difficilement/bizarrement/correctement/soigneusement/généralement
+3/J'écoute #très peu la radio.#/rarement/difficilement/bizarrement/soudain/soigneusement/généralement/drôlement
+3/Il conduit #très vite et sans faire attention.#/dangereusement/bizarrement/soudain/correctement/impatiemment/soigneusement
+4/L'enfant ne marche pas très vite; elle marche _________./lentement/ennuyeuse/fertile/complet/intéressant/amusant/propre/délabrée
+4/Je ne chante pas très bien; je chante ____./faux/ennuyeuse/fertile/complet/intéressant/amusant/propre/délabrée
+4/La ligne est mauvaise - parlez plus ____./fort/ennuyeuse/fertile/complet/intéressant/amusant/propre/délabrée
+4/Elle a tout compris; elle comprends ____________./parfaitement/ennuyeuse/fertile/complet/intéressant/amusant/propre/délabrée
+4/Elle est rentrée vers deux heures du matin; elle est rentrée ____./tard/ennuyeuse/fertile/complet/intéressant/amusant/propre/délabrée
+4/Il écrit chaque jour; il écrit _____________./régulièrement/ennuyeuse/fertile/complet/intéressant/amusant/propre/délabrée
+4/Je me suis levé #de bonne heure.#/tôt/dangereusement/bizarrement/soudain/correctement/impatiemment/soigneusement/correctement/bizarrement/soudain/drôlement/rarement
+4/Ils vont #souvent au cinéma.#/fréquemment/rarement/difficilement/bizarrement/soudain/soigneusement/généralement/drôlement
+4/Elle a parlé #avec tristesse.#/tristement/correctement/bizarrement/soudain/drôlement/rarement
+4/Il a chanté #avec joie.#/joyeusement/dangereusement/bizarrement/soudain/correctement/impatiemment/soigneusement
+GRADE6
+1/Trouvez le substantif - fêter/la fête
+1/Trouvez le substantif - jouer/le jeu
+1/Trouvez le substantif - danser/la danse
+1/Trouvez le substantif - cuisiner/la cuisine
+1/Trouvez le substantif - préparer/la préparation
+1/Trouvez le substantif - sortir/la sortie
+1/Trouvez le substantif - chanter/le chant
+1/Trouvez le substantif - coller/la colle
+1/Trouvez le substantif - créer/la création
+1/Trouvez le substantif - demander/la demande
+1/Trouvez le substantif - découvrir/la découverte
+1/Trouvez le substantif - déguster/la dégustation
+1/Trouvez le substantif - fonctionner/la fonction
+1/Trouvez le substantif - ouvrir/l'ouverture
+1/Trouvez le substantif - voyager/le voyage
+1/Trouvez le substantif - travailler/le travail
+1/Trouvez le substantif - boire/la boisson
+1/Trouvez le substantif - attendre/l'attente
+1/Trouvez le substantif - choisir/le choix
+1/Trouvez le substantif - dessiner/le dessin
+2/Trouvez le verbe - la perte/perdre
+2/Trouvez le verbe - la vente/vendre
+2/Trouvez le verbe - le risque/risquer
+2/Trouvez le verbe - la construction/construire
+2/Trouvez le verbe - la couture/coudre
+2/Trouvez le verbe - le débarquement/débarquer
+2/Trouvez le verbe - la réponse/répondre
+2/Trouvez le verbe - la dépense/dépenser
+2/Trouvez le verbe - l'habitation/habiter
+2/Trouvez le verbe - la naissance/naître
+2/Trouvez le verbe - la mort/mourir
+2/Trouvez le verbe - la montée/monter
+2/Trouvez le verbe - le chauffage/chauffer
+2/Trouvez le verbe - le fait/faire
+2/Trouvez le verbe - la vue/voir
+2/Trouvez le verbe - le regard/regarder
+2/Trouvez le verbe - l'augmentation/augmenter
+2/Trouvez le verbe - la réduction/réduire
+2/Trouvez le verbe - le remboursement/rembourser
+2/Trouvez le verbe - le service/servir
+2/Trouvez le verbe - la pensée/penser
+3/Trouvez l'adjectif - grandir/grand
+3/Trouvez l'adjectif - jaunir/jaune
+3/Trouvez l'adjectif - noircir/noir
+3/Trouvez l'adjectif - rougir/rouge
+3/Trouvez l'adjectif - vieillir/vieux
+3/Trouvez l'adjectif - blanchir/blanc
+3/Trouvez l'adjectif - pâlir/pâle
+3/Trouvez l'adjectif - grossir/gros
+3/Trouvez l'adjectif - meubler/meublé
+3/Trouvez l'adjectif - ouvrir/ouvert
+3/Trouvez l'adjectif - fermer/fermé
+3/Trouvez l'adjectif - salir/sale 
+3/Trouvez l'adjectif - ranger/rangé
+3/Trouvez l'adjectif - serrer/serré
+3/Trouvez l'adjectif - réfléchir/réfléchi
+3/Trouvez l'adjectif - offrir/offert
+3/Trouvez l'adjectif - découvrir/découvert
+3/Trouvez l'adjectif - comprendre/compris
+3/Trouvez l'adjectif - cacher/caché
+3/Trouvez l'adjectif - perdre/perdu
+3/Trouvez l'adjectif - vendre/vendu
+3/Trouvez l'adjectif - vivre/vivant
+3/Trouvez l'adjectif - suivre/suivant
+3/Trouvez l'adjectif - sourire/souriant
+3/Trouvez l'adjectif - écrire/écrit
+3/Trouvez l'adjectif - rire/riant
+3/Trouvez l'adjectif - éteindre/éteint
+4/Trouvez le participe passé - aller/allé
+4/Trouvez le participe passé - avoir/eu
+4/Trouvez le participe passé - battre/battu
+4/Trouvez le participe passé - boire/bu
+4/Trouvez le participe passé - comprendre/compris
+4/Trouvez le participe passé - conduire/conduit
+4/Trouvez le participe passé - connaître/connu
+4/Trouvez le participe passé - coudre/cousu
+4/Trouvez le participe passé - courir/couru
+4/Trouvez le participe passé - craindre/craint
+4/Trouvez le participe passé - croire/cru
+4/Trouvez le participe passé - ouvrir/ouvert
+4/Trouvez le participe passé - dire/dit
+4/Trouvez le participe passé - écrire/écrit
+4/Trouvez le participe passé - être/été
+4/Trouvez le participe passé - faire/fait
+4/Trouvez le participe passé - lire/lu
+4/Trouvez le participe passé - mettre/mis
+4/Trouvez le participe passé - mourir/mort
+4/Trouvez le participe passé - naître/né
+4/Trouvez le participe passé - offrir/offert
+4/Trouvez le participe passé - pleuvoir/plu
+4/Trouvez le participe passé - pouvoir/pu
+4/Trouvez le participe passé - prendre/pris
+4/Trouvez le participe passé - recevoir/reçu
+4/Trouvez le participe passé - rire/ri
+4/Trouvez le participe passé - savoir/su
+4/Trouvez le participe passé - tenir/tenu
+4/Trouvez le participe passé - venir/venu
+4/Trouvez le participe passé - vivre/vécu
+4/Trouvez le participe passé - voir/vu
+4/Trouvez le participe passé - vouloir/voulu
+4/Trouvez le participe passé - donner/donné
+4/Trouvez le participe passé - chanter/chanté
+4/Trouvez le participe passé - trouver/trouvé
+4/Trouvez le participe passé - finir/fini
+4/Trouvez le participe passé - choisir/choisi
+4/Trouvez le participe passé - remplir/rempli
+4/Trouvez le participe passé - vendre/vendu
+4/Trouvez le participe passé - perdre/perdu
+4/Trouvez le participe passé - attendre/attendu
