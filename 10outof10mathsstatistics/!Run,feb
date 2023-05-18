@@ -1,0 +1,25 @@
+RUN <Obey$Dir>.!SetCode
+WIMPSLOT -min 544K
+RMRUN <Obey$Dir>.ReadDisc
+SET Disc1$Dir <Obey$Dir>
+RMLOAD <Obey$Dir>.ScnLoad
+PRINT <Obey$Dir>.Palette
+RMKILL ABC
+<Obey$Dir>.Sound.Beep
+<Obey$Dir>.Sound.Bell
+<Obey$Dir>.Sound.BigBang
+<Obey$Dir>.Sound.Dice
+<Obey$Dir>.Sound.Frog
+<Obey$Dir>.Sound.Mirror
+<Obey$Dir>.Sound.Piano
+<Obey$Dir>.Sound.Right
+<Obey$Dir>.Sound.Shot
+<Obey$Dir>.Sound.Splash1
+<Obey$Dir>.Sound.Splash2
+<Obey$Dir>.Sound.Synsmajs
+<Obey$Dir>.Sound.Timer
+<Obey$Dir>.Sound.Throw
+<Obey$Dir>.Sound.Turbulent
+<Obey$Dir>.Sound.Wrong
+<Obey$Dir>.Screen
+<Obey$Dir>.!RunImage
