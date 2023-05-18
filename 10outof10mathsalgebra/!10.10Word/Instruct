@@ -1,0 +1,39 @@
+Word Fit
+
+Spelling is important in all subjects - including Algebra. WordFit gives you
+the chance to practise the spelling of words connected with the subject
+while trying to achieve a high score. You can choose whether you want a
+random selection from all the words or just a few for practice and to learn
+by clicking on the "Status" box on the Main Menu. The practice words are
+graded from A to F.
+
+The aim of WordFit is simple - fit as many of the words you are given onto
+the grid as you can. They can be fitted vertically or horizontally - rotate
+them with the right-hand mouse button and fit them with the left-hand one. 
+
+The first word can be placed anywhere, but after that every word must cross
+one that is already on the grid and there are extra points if it crosses
+two. Every letter placed on a grey square scores you points and green ones
+give you an extra bonus too. Beware of the red ones because you'll lose
+points as letters fall on them. Words that do not fit can be dropped in to
+the dustbin but your score will be decreased each time you do this.
+
+However there is a catch - SOME OF THE  WORDS ARE SPELT INCORRECTLY! These
+MUST BE BANKED. They must not be dropped in the dustbin or used on the grid.
+The score is increased for correctly banked words and reduced for mistakes.
+As with all the games, you can obtain higher scores with the timer on but
+you need to be quick!
+
+Pressing CTRL+S saves the display to disk. This can then be printed using a
+paint program. This allows analysis of the game and the way the words were
+fitted.
+
+If you're not too good at spelling, use a dictionary to confirm
+uncertainties. You'll soon learn the words and be on your way to high
+scores.  
+
+When Loads of questions are selected, the percentage is calculated from the
+number banked and the number of possible bankings. The player must decide
+when to end. More words means a higher score but as the grid fills more have
+to be thrown away thus losing points. Note that THE PERCENTAGE REMAINS AT
+ZERO until at least 10 words have been or should have been banked.
