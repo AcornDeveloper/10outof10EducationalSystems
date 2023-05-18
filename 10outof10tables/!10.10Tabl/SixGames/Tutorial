@@ -1,0 +1,103 @@
+$ Tutorial file structure
+$ <game>
+$ <@page>
+$ <#x text coordinate,y text coordinate>
+$ <text>
+$ <*x,y start coordinates, x,y end coordinates>
+$ game   1-6
+$ page   1-4
+$ @      Up to 4 pages can be displayed separately under programmer control.
+$ #      Indicates where following block of text is to be positioned
+$        on screen x=0 to 79 and y=0 to 31. This must be followed by at
+$        least one line of text.
+$ text   Plain ASCII characters
+$        Software will draw box for text in white with black shadow and
+$        black text. Teacher graphic will appear at either left or right
+$        and speech lines attached to box depending on the space available.
+$ *      Line plotted from x,y start to x,y end.
+$        Lines are plotted after ALL the text has been displayed.
+$        Screen size 80x32, origin 0,0 at top left hand corner.
+
+$ Tutorial will generally appear after the prompt on the mouse for the
+$ player and will remain on screen until the mouse is pressed. The tutorial
+$ will appear once only for each player on each game, a corresponding flag
+$ being set in the players achievement record to indicate this.
+$ Multiple players will receive no tutorial as it is deemed that challenges
+$ take place when all players are familiar with the game.
+
+GAME1
+@1
+#14,19
+Your moon lander is coming into land. Using the mouse
+buttons to fire your rocket and the mouse to move
+left and right make your lander land on the crater that
+has the correct answer to the question below.
+ 
+At higher difficulty levels watch out for the asteroids
+that will destroy your ship if you crash into them.
+GAME2
+@1
+#14,2
+Use the mouse to search through the heavens for the
+correct answer to the question below. When you have
+found the correct answer click a mouse button.
+ 
+When the game is at a higher difficulty level clouds
+and other objects will obscure your view of the
+numbers.
+GAME3
+@1
+#14,6
+Using your skill make your frog jump from the
+bottom of the screen to the safe area at the
+top of the screen landing on correct answers
+to the question at the bottom.
+ 
+You can only jump to the next row of logs once
+you have jumped on the correct log in the row
+before it.
+@2
+#14,6
+To control your frog move the mouse left and
+right, click on the left hand mouse button
+to jump forward and the right hand button to
+jump back.
+ 
+You may also use the keys Z,X and K,M to move
+the frog if you find the mouse too difficult.
+ 
+The logs will move faster and there will be
+less boxes at the top to jump on the more
+difficult the game setting.
+GAME4
+@1
+#14,14
+This game involves matching items according to
+the question below. Click on an item with the
+left hand mouse button.
+@2
+#14,14
+Then you will have to catch the matching item in
+the opposite rectangle by clicking on it.
+ 
+If you want to drop the currently selected item
+press the right hand mouse button.
+ 
+The items move faster the greater the difficulty
+setting on the game menu.
+GAME5
+@1
+#14,9
+Fish for the right answer by moving the mouse left
+and right and press a mouse button when above it to
+drop your line.
+ 
+Watch out for the water rats who will cut your line
+if you are not quick enough.
+GAME6
+@1
+#14,14
+The invaders are coming!!!. Move your ship using the
+mouse and fire at one of the four possible answers to
+the question below. Beware the invaders who will try
+and destroy you by dropping bombs.

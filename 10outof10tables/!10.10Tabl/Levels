@@ -1,0 +1,50 @@
+$ 10/10 Tables word file structure
+$ This file may be edited by parents and teachers so that the 10/10 tables
+$ may be customised to exactly meet any child's needs.
+$ Take care if you edit this file as the program may fail if you do not have
+$ all the required data in exactly the form shown.
+$ We suggest that you backup this file before you make any changes.
+$ You can restore the original if you have problems.
+$ Lines commencing with $ are ignored.
+
+$ The first command line dictates which way questions are presented.
+$ FORMAT 1 presents the 2 times table as 1x2=, 2x2=, 3x2=, 4x2= etc.
+$ FORMAT 2 presents the 2 times table as 2x1=, 2x2=, 2x3=, 2x4= etc.
+
+FORMAT 1
+
+$ The next six lines dictate the content of the six levels.
+$ They are in the form - table(lowest,highest)/table(lowest,highest)/...
+$ Restrictions.
+$ The "table" number must be 2 or more.
+$ The "lowest" number is 0 and the "highest" must be 2 or more.
+$ The result from a multiplication must not exceed 999.
+
+$ Level 1
+2(0,10)
+$ Level 2
+2(0,10)/5(0,10)/10(0,10)
+$ Level 3
+1(0,10)/2(0,10)/3(0,10)/4(0,10)/5(0,10)
+$ Level 4
+2(0,10)/3(0,10)/4(0,10)/5(0,10)/6(0,10)/7(0,10)/8(0,10)/9(0,10)/10(1,10)
+$ Level 5
+11(1,12)/12(1,12)
+$ Level 6
+2(0,12)/3(0,12)/4(0,12)/5(0,12)/6(0,12)/7(0,12)/8(0,12)/9(0,12)/10(1,12)/11(1,12)/12(1,12)
+
+$ The following number selects the lowest question asked if practise
+$ is selected from the game menu. Currently 0x8 will be the lowest if
+$ you practise the 8 times table.
+0
+
+$ The following number selects the highest question asked if practise
+$ is selected from the game menu. Currently 10x8 will be the highest if
+$ you practise the 8 times table.
+10
+  
+$ Restrictions.
+$ The lowest question asked is 0 and the highest question asked must be 2 or
+$ more.
+$ Finally, remember to edit the file called "Info" to match the above
+$ challenges.
