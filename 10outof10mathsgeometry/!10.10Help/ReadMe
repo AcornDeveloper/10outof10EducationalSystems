@@ -1,0 +1,139 @@
+Extra notes for 10/10 Mathematics (Geometry)
+
+GENERAL
+
+ALWAYS USE A BACKUP OF THE DISC as facts like the high scores are constantly
+being written to it. Alternatively, The programs can be installed on a HARD
+DISC. All you need to do is to 'drag' the application to a directory window
+on your hard disc. The discs may only be backed up for your own use on a
+single computer. Copying discs for any other reason is tantamount to theft
+and could lead to prosecution. Site licences are available for
+establishments with more than one computer or with a network.
+
+All high scores and results are saved to disc as you exit from the game.
+Ensure that you LEAVE THE GAMES USING THE EXIT OPTION rather than pressing
+break to ensure your facts are stored.
+
+MEMORY
+
+10 out of 10 will run on all Acorn 32-bit computers, but on a 1 Mb machine
+you may have to switch the computer off for a few seconds and then turn it
+back on.
+
+VGA MONITORS
+
+A utility is included on the disc to allow the package to run on most VGA
+monitors. It is called !ModeTrans and is inside the !10/10 application (hold
+down shift and double-click on the !10/10 application to see it). A help
+file for the utility is inside the !ModeTrans application (hold shift and
+double-click).
+
+CERTIFICATE PRINTING
+
+To print a certificate in graphic form you should select the disc option
+after you've selected print certificate. You should save it onto hard disc
+or a blank formatted disc. You can enter your own filename using the
+standard Acorn "Path.filename" structure.
+
+Depending on your system, a default path or filename is given. If the
+default ends in a dot it is a path and you should enter a filename before
+pressing Return. Note that floppy disc users must leave the default path of
+the floppy drive - usually ADFS::0.$. - in front of the chosen filename.
+
+The saved file will have the name of the player as the filename. This can be
+loaded into Paint and printed in the usual way. We've found that to print an
+A4 certificate on a laser printer the parameters to set when you've chosen
+Print are:
+
+     Portrait
+     X scale       3:2
+     X scale       3:2
+
+  Make sure the centimetre square is highlighted green then:
+
+     Corner X      -3.2   (note the minus)
+     Corner Y       4
+
+
+CHEERS - Using your own questions
+
+The questions for the six grades are in files Text3a to Text3f in the
+Game3Info directory, which is in the SixGames directory. If you wish to use
+your own graded questions just use those names on a backup of the disc. Note
+that as they will become the new questions for the grades, the achievement
+chart will be altered as they are answered.
+
+All your own question files should go in the Game3Info directory and should
+NOT normally be called Text3a to Text3f. When children use them the result
+will not be entered on the achievement chart but high scores will still be
+obtained. There is a file of questions called PUZZLES already in the
+Game3Info directory. You can try it in Cheers with the USER option and look
+at it using !Edit to see how you should create your own files.
+
+When you enter your own questions you MUST ensure that EVERY question and
+answer is followed by # and every question has ONE right answer preceded by
+!. If you use Edit to create the file, it's a good idea to move the cursor
+to the top of the file, press F4 and use COUNT to check that there are four
+times as many #s than !s. If the numbers do not match up the game will warn
+you as the file loads. The MAXIMUM number of questions in a file is 100.
+
+There are several SPECIAL CHARACTERS you can use in your own Cheers files
+for powers and fractions. To use them, create the file in Edit and where you
+need a fraction or power, use the code given below. Once you have finished
+you need to search and replace several times to change the file to the
+correct form (You need one search for each code you are changing). In Edit,
+press F4 and click on Magic Characters (it will highlight with a *). Then
+search and replace the codes with the values given. Remember to put the
+cursor to the top of the file between each search. All the codes will be
+replaced with single characters, but as the character set is not defined
+correctly THEY WILL LOOK STRANGE. Don't worry, they will appear OK in 10 
+out of 10.
+
+Power         Use Code          Replace with
+0                ^0                    \x8C
+1                ^1                    \x8D
+2                ^2                    \x8E
+3                ^3                    \x8F 
+4                ^4                    \x90
+5                ^5                    \x91
+6                ^6                    \x92
+7                ^7                    \x93
+8                ^8                    \x94
+9                ^9                    \x95
+
+Fraction        Use Code          Replace with
+1/4                ^A                    \xBC
+1/2                ^B                    \xBD
+3/4                ^C                    \xBE
+1/3                ^D                    \xBF 
+2/3                ^E                    \xC0
+1/5                ^F                    \xC1
+2/5                ^G                    \xC2
+3/5                ^H                    \xC3
+4/5                ^I                    \xC4
+1/8                ^J                    \xC5
+3/8                ^K                    \xC6
+5/8                ^L                    \xC7
+7/8                ^M                    \xC8
+1/6                ^N                    \xC9 
+5/6                ^O                    \xCA
+1/7                ^P                    \xCB
+2/7                ^Q                    \xCC
+3/7                ^R                    \xCD
+4/7                ^S                    \xCE
+5/7                ^T                    \xCF
+6/7                ^U                    \xD0
+1/9                ^V                    \xD1
+2/9                ^W                    \xD2
+4/9                ^X                    \xD3
+5/9                ^Y                    \xD4
+7/9                ^Z                    \xD5
+8/9                ^&                    \xD6
+
+CUSTOMISING THE OTHER GAMES
+
+Unlike Cheers, the other games are NOT DESIGNED to be customised by the
+user. With care, however, they can be but you should note that even a minor
+change from the EXACT file format may cause the game to fail. For example, a
+carriage return after the last question is not needed and, if present, will
+prevent the program from detecting the end of the file.

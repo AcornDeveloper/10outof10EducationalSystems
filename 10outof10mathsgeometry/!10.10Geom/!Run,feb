@@ -1,0 +1,24 @@
+RUN <Obey$Dir>.!SetCode
+WIMPSLOT -min 544K
+SET 10Geom$Dir <Obey$Dir>
+<Obey$Dir>.CompLoad
+RMLOAD <Obey$Dir>.ScnLoad
+PRINT <Obey$Dir>.Palette
+RMKILL ABC
+<Obey$Dir>.Bell
+<Obey$Dir>.BigBang
+<Obey$Dir>.Cymbal
+<Obey$Dir>.Danger
+<Obey$Dir>.Hook
+<Obey$Dir>.Mirror
+<Obey$Dir>.Piano
+<Obey$Dir>.Sequence
+<Obey$Dir>.Shot
+<Obey$Dir>.Sounds
+<Obey$Dir>.Synsmajs
+<Obey$Dir>.Throw
+<Obey$Dir>.Timer
+<Obey$Dir>.Wrong
+ECHO <23><216><0><255><102><102><102><102><102><0>
+<Obey$Dir>.Screen
+<Obey$Dir>.!RunImage

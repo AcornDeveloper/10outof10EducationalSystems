@@ -1,0 +1,2 @@
+WIMPSLOT -min 32K
+RUN <Obey$Dir>.!RunImage
