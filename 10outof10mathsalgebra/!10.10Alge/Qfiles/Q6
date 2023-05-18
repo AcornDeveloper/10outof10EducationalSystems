@@ -1,0 +1,288 @@
+Rearrange  xé + 3x + 2  into "nested form".#
+(x+3) + 2 ?#
+!(x+3)x + 2 ?#
+(2+3x)x + 2x ?#
+Rearrange  3yè - 5yé + 6y - 1  into "nested form".#
+![(3y-5)y+6]y-1#
+[(3y-5)y+6]y#
+[(3y-5) + 6]y - 1#
+Rearrange  zè - 7zé - 6z + 4  into "nested form".#
+[(z+7)z+6]z-4#
+[(z-7)z+4#
+![(z-7)z-6]z+4#
+Rearrange  2aè - 3aé + 8a - 7  into "nested form".#
+![(2a-3)a+8]a-7#
+[(2a-3)a+7]a#
+[2a-3a+8]a-7#
+Rearrange  bè - bé + b - 1  into "nested form".#
+[(b-1b+1b]-1#
+[(b+1)b+-]b+1#
+![(b-1)b+1]b-1#
+Rearrange  cè - 6cé + 12c - 8  into "nested form".#
+![(c-6)c+12]c-8#
+[(c-6)+12c-8#
+[(c-c+6]c+12#
+Rearrange  2dè - 5dé - d + 6  into "nested form".#
+[(2d-5)d]d+6#
+![(2d-5)d-1]d+6#
+[(2d-5)d-1]d#
+Rearrange  mè + 4mé - 2m + 1  into "nested form".#
+[(m+4)m-2]#
+[(m+4)m-2]+m#
+![(m+4)m-2]m+1#
+Rearrange  nè + 3né - 2n + 1  into "nested form".#
+![(n+3)n-2]n+1#
+(n+3)-2n-1#
+[(n-3)+2]n+1#
+Rearrange  2pè + 7pé - 4p  into "nested form".#
+[(2p+7)p-4]p-4#
+![(2p+7)p-4]p#
+[(p+7)p-4]p#
+Rearrange  6pé - 4p + 11  into "nested form".#
+(6p - 4p + 11)#
+!(6p - 4)p + 11#
+(6p - 4) + 11p#
+Rearrange  5xé + x - 6  into "nested form".#
+!(5x+1)x - 6#
+(x+1)x - 6#
+(5x+1)x - 6x#
+Rearrange  4ré - 3r  into "nested form".#
+(4r - 3)r - 3#
+!(4r - 3)r#
+(4r - 3)ré#
+Rearrange  6wé - w + 8  into "nested form".#
+(6w-1)w+8w#
+(6w+1)w-8#
+!(6w-1)w+8#
+Rearrange  sé - 3s + 2  into "nested form".#
+!(s-3)s + 2#
+(s-2)s + 3#
+(s-3)s #
+What is the value of (a+3)a + 2 when a = 2 ?#
+!12#
+10#
+2#
+What is the value of [(3a-5)a+6]a-1 when a = 1 ?#
+1#
+!3#
+0#
+What is the value of [(f-7)f-6]f+4 when f = 8 ?#
+!20#
+16#
+4#
+What is the value of [(2z-3)z+8]z-7 when z = 3 ?#
+58#
+10#
+!44#
+What is the value of [(g-1)g+1]g-1 when g = -2 ?#
+!-15#
+15#
+5#
+What is the value of [(a-6)a+11]a-8 when a = 0 ?#
+0#
+!-8#
+8#
+What is the value of [(2b-5)b-1]b+6 when b = - 1 ?#
+12#
+6#
+!0#
+What is the value of [(c+4)c-2]c+1 when c = 10 ?#
+!1381#
+21#
+140#
+What is the value of [(d+3)d-2]d+1 when d = -3 ?#
+10#
+!7#
+49#
+What is the value of [(2u+7)u-4]u when u = -4 ?#
+32#
+4#
+!0#
+What is the value of (6p-4)p + 11 when p = 2 ?#
+!27#
+16#
+5#
+What is the value of (5w+1)w - 6 when w = -2 ?#
+-24#
+!12#
+-30#
+What is the value of (4x-3)x when x = 4 ?#
+13#
+26#
+!52#
+What is the value of (6v-1)v + 8 when v = 0 ?#
+!8#
+13#
+-8#
+What is the value of (u-3)u + 2 when u = 5 ?#
+!12#
+10#
+42#
+What is the value of (n+3)n + 2 when n = -2.1&(Estimate or use a calculator)#
+!0.11#
+10#
+2#
+What is the value of [(3s-5)s+6]s-1 when s = 1.5&(Estimate or use a calculator)#
+12.120#
+!6.875#
+120#
+What is the value of [(t-7)t-6]t+4 when t = 7.1&(Estimate or use a calculator)#
+2.125#
+16.002#
+!-33.559#
+What is the value of [(2z-3)z+8]z-7 when z = 2.2&(Estimate or use a calculator)#
+!17.376#
+1.045#
+44.101#
+What is the value of [(y-1)y+1]y-1 when y = -2.5&(Estimate or use a calculator)#
+-150#
+!-25.375#
+5.000#
+What is the value of [(x-6)x+12]x-8 when x = 1.8&(Estimate or use a calculator)#
+0.001#
+-8#
+!-0.008#
+What is the value of [(2a-5)a-1]a+6 when a = - 1.75&(Estimate or use a calculator)#
+!-18.281#
+-6.236#
+052.142#
+What is the value of [(b+4)b-2]b+1 when b = 0.1&(Estimate or use a calculator)#
+1381#
+!0.841#
+14.072#
+What is the value of [(c+3)c-2]c+1 when c = -0.5&(Estimate or use a calculator)#
+-10.201#
+77.159#
+!2.625#
+What is the value of [(2m+7)m-4]m when m = -3.33&(Estimate or use a calculator)#
+!17.090#
+-4.999#
+0.000#
+What is the value of (6r-4)r + 11 when r = 2.25&(Estimate or use a calculator)#
+-27.684#
+!32.375#
+5.333#
+What is the value of (5t+1)t - 6 when t = -0.2&(Estimate or use a calculator)#
+-24.314#
+.746#
+!-6.000#
+What is the value of (4x-3)x when x = ¿&(Estimate or use a calculator)#
+!-0.222#
+64.577#
+152.281#
+What is the value of (6k-1)k+8 when k = 2.5&(Estimate or use a calculator)#
+8.242#
+!43.000#
+-8.237#
+What is the value of (s-3)s + 2 when s = 4.375&(Estimate or use a calculator)#
+42.741#
+!8.016#
+-3.142#
+Find the Solution set for:& 2z-3 ñ 5 where z is a whole number greater than zero.#
+{ 2, 3, 5 }#
+{ 6, 5 }#
+!{ 1, 2, 3, 4 }#
+Find the Solution set for:& n+7 < 3 such that n is a integer and  > -10#
+!{ -9, -8, -7, -6, -5 }#
+{ -11, -12, -13 }#
+{ 3, 4, 5, 6, 7 }#
+Find the Solution set for:& 4 > 2p-16 where p is > 0 and a multiple of 2.#
+{ 2, 4, 6, 8, 10, 12 }#
+!{ 2, 4, 6, 8 }#
+{ 1, 3, 5, 7 }#
+Find the Solution set for:& 3t+7 ó 34 where t < 21 and a multiple of 3.#
+{ 3 }#
+{ 3, 6, 9, 12, 15 }#
+!{ 9, 12, 15, 18 }#
+Find the Solution set for:& 3(f+2) > 6 where f is a multiple of 5 and less than 30.#
+!{ 5, 10, 15, 20, 25 }#
+{ 1, 5, 10, 15 }#
+{ 2, 4, 6, 8, 10 }#
+Find the Solution set for:& 3(s-2) < 15 where s > 0 and a multiple of 6.#
+{ 6, 12, 18, 21 }#
+{ 6, 12 }#
+!{ 6 }#
+Find the Solution set for:& 2(n-2) ñ 24 where n > 0  and a multiple of 7.#
+!{ 7, 14 }#
+{ 7, 14, 21 }#
+{ -7 }#
+Find the Solution set for:& p+3 > 67 where p < 100 and a multiple of 8.#
+{ 2, 4, 6, 8 }#
+{ 8, 16, 24 }#
+!{ 72, 80, 88, 96 }#
+Find the Solution set for:& 8c-3 < -3 where c is a multiple of 10 and greater than -50#
+!{ -10, -20, -30, -40 }#
+{ 10, 20, 30, 40, 50 }#
+{ -50, -60, -70 }#
+Solve the inequality y+4 > 6#
+y < 3#
+!y > 2#
+Y=10#
+Solve the inequality x-5 ñ 10#
+!x ñ 15#
+x > 15#
+x < 5#
+Solve the inequality 2p > 10#
+p > 20#
+!p > 5#
+p=5#
+Solve the inequality 3n+5 > 14#
+3n < 9#
+n < 11#
+!n > 3#
+Solve the inequality 3r < r+6#
+!r < 3#
+r > 2#
+r=3#
+Solve the inequality 3s-4 > 2s#
+s > 3#
+!s > 4#
+s < 12#
+Solve the inequality 2x-4 > x+8#
+x > 14#
+x < 6#
+!x > 12#
+Solve the inequality d-3 ñ 8#
+!d ñ 11#
+d < 5#
+d > 5#
+Solve the inequality 2y-3 < 9#
+y > 18#
+!y < 6#
+2y > 9#
+Solve the inequality 3g < 2(g+1)#
+g < 0.5#
+g > 6#
+!g < 2#
+Using  { -5,-4,-3,-2,-1,0,+1,+2,+3,+4,+5 } as your 'working set',&find the solution set of: n + (+7) = (+9)#
+!{ +2 }#
+{ +3, +4 }#
+{ +1, +2 }#
+Using { -5,-4,-3,-2,-1,0,+1,+2,+3,+4,+5 } as your 'working set',&find the solution set of: 3p + (+2) = (-7)#
+{ -1, -2, -3 }#
+!{ -3 }#
+{ +1 }#
+Using { -5,-4,-3,-2,-1,0,+1,+2,+3,+4,+5 } as your 'working set',&find the solution set of: (+3) + c < (+1)#
+{ -2 }#
+{ +1, +2, +3 }#
+!{ -5, -4, -3 }#
+Using { -5,-4,-3,-2,-1,0,+1,+2,+3,+4,+5 } as your 'working set',&find the solution set of: (7) - g < 0#
+!{ } (the empty set)#
+{ 7 }#
+{ -7 }#
+Using { -5,-4,-3,-2,-1,0,+1,+2,+3,+4,+5 } as your 'working set',&find the solution set of: (0.5x) + (+3) = (+5)#
+{ +1, +2 }#
+!{ +4 }#
+{ 0, (-1, -2 }#
+Using { -5,-4,-3,-2,-1,0,+1,+2,+3,+4,+5 } as your 'working set',&find the solution set of: 4p - (+7) < (+10)#
+{ } (the empty set)#
+{ -5, -4, -3, -2, -1, 0 }#
+!{ -5, -4, -3, -2, -1, 0, +1, +2, +3, +4 }#
+Using { -5,-4,-3,-2,-1,0,+1,+2,+3,+4,+5 } as your 'working set',&find the solution set of: (+21) - w = (+21)#
+!{ 0 }#
+{ +1 }#
+{ -1 }#
+Using { -5,-4,-3,-2,-1,0,+1,+2,+3,+4,+5 } as your 'working set',&find the solution set of: 13m = (-13)#
+{ } (the empty set)#
+!{ -1 }#
+{ +1 }#

@@ -1,0 +1,163 @@
+$ HookIt! word file structure GRADE 3
+$ <sub grade>,<descriptor>,<answer>,<false> ...
+$ sub grade  1-4
+$ descriptor if contains "&" then max length 128 characters else 64 characters
+$ answer   maximum length 12 characters
+$ false    maximum length 12 characters up to 16 entries
+$ Leading and trailing spaces are stripped from questions and answers
+
+1,Catch a MULTIPLE of 3,3,22,17,19,11,13,32,20,25,29,28,16,35,14,23,10,26
+1,Hook a MULTIPLE of 3,6,11,32,25,14,22,35,23,34,13,19,10,31,17,26,16,29
+1,Snatch a MULTIPLE of 3,9,10,16,20,25,31,35,11,17,22,26,32,13,19,23,29,34
+1,Pick up a MULTIPLE of 3,12,13,19,25,32,14,20,28,35,10,17,23,31,14,20,26
+1,Get hold of a MULTIPLE of 3,15,19,22,26,29,32,35,10,13,16,20,23,28,31,34
+1,Jump at a MULTIPLE of 3,18,19,26,35,17,25,34,13,22,31,11,20,29,16,23,32
+1,Search for a MULTIPLE of 3,21,14,22,10,26,31,7,16,11,25,19,8,29,5,13,35
+1,Fish for a MULTIPLE of 3,24,25,34,5,16,29,17,35,13,20,26,11,7,19,32,23
+1,Choose a MULTIPLE of 3,27,14,8,28,5,34,22,17,11,26,35,19,13,32,25,29,16
+1,Hunt for a MULTIPLE of 3,30,25,17,28,34,5,13,22,29,14,10,8,32,16,26,20,7
+1,Snatch a MULTIPLE of 4,4,34,17,10,39,6,22,14,27,33,31,19,9,13,38,25,11,7
+1,Pick up a MULTIPLE of 4,8,15,31,22,37,10,26,19,35,7,29,39,13,18,25,11,34
+1,Get hold of a MULTIPLE of 4,12,11,37,17,31,22,10,38,25,14,6,30,19,27,13
+1,Jump at a MULTIPLE of 4,16,30,7,17,21,35,15,27,12,38,22,14,33,29,17,13,6
+1,Search for a MULTIPLE of 4,20,18,21,13,23,26,15,31,29,34,17,27,37,39,10
+1,Fish for a MULTIPLE of 4,24,11,18,23,14,19,26,35,38,31,21,34,29,10,37,17
+1,Choose a MULTIPLE of 4,28,10,18,14,21,35,22,33,25,31,27,39,15,29,11,13,9
+1,Catch a MULTIPLE of 4,32,17,19,14,31,25,27,10,29,38,34,11,18,22,39,23,35
+1,Hook a MULTIPLE of 4,36,37,19,13,21,26,34,30,15,22,10,27,35,17,31,33,23
+1,Hunt for a MULTIPLE of 4,40,18,39,11,14,25,21,31,29,10,17,23,38,34,27,5
+1,Snatch a MULTIPLE of 5,5,36,19,11,43,16,48,41,12,29,23,13,38,28,32,17,33
+1,Pick up a MULTIPLE of 5,10,11,37,21,14,22,36,24,32,27,39,26,42,34,29,47
+1,Get hold of a MULTIPLE of 5,15,12,19,17,13,43,23,41,16,33,31,46,49,28,24
+1,Jump at a MULTIPLE of 5,20,36,11,32,21,26,17,29,24,47,44,38,42,37,34,13
+1,Search for a MULTIPLE of 5,25,33,12,31,22,18,16,34,46,49,27,23,19,41,38
+1,Fish for a MULTIPLE of 5,30,39,17,14,32,29,21,47,28,49,43,38,13,36,12,31
+1,Choose a MULTIPLE of 5,35,11,37,16,41,19,44,23,18,26,46,17,39,34,12,22,7
+1,Catch a MULTIPLE of 5,40,14,21,42,47,28,43,27,17,13,33,31,16,46,48,19,36
+1,Hook a MULTIPLE of 5,45,37,18,44,23,41,12,29,33,21,49,47,24,19,17,39,36
+1,Hunt for a MULTIPLE of 5,50,34,14,42,22,27,48,46,19,16,11,13,39,21,37,44
+1,Snatch a MULTIPLE of 6,6,53,14,40,23,37,10,47,20,57,31,16,27,43,34,51,49
+1,Pick up a MULTIPLE of 6,12,32,44,20,34,11,50,57,21,38,15,26,58,47,22,17
+1,Get hold of a MULTIPLE of 6,18,59,13,39,23,56,10,14,57,43,25,19,37,40,26
+1,Jump at a MULTIPLE of 6,24,50,28,31,34,16,20,41,27,45,38,33,11,37,19,43
+1,Search for a MULTIPLE of 6,30,22,17,32,51,26,47,23,19,25,14,10,49,40,16
+1,Fish for a MULTIPLE of 6,36,58,14,22,41,38,11,50,28,19,44,25,27,46,40,9
+1,Choose a MULTIPLE of 6,42,52,33,15,43,23,47,28,51,49,34,37,20,17,13,57,8
+1,Catch a MULTIPLE of 6,48,50,11,16,40,58,22,44,19,14,55,33,31,21,45,27,17
+1,Hook a MULTIPLE of 6,54,28,56,49,15,41,25,47,40,35,13,51,22,46,39,50,29
+1,Hunt for a MULTIPLE of 6,60,16,43,27,17,11,49,10,15,19,58,59,23,13,53,31
+1,Snatch a MULTIPLE of 7,7,57,18,40,12,64,25,58,15,52,10,39,66,27,61,11,69
+1,Pick up a MULTIPLE of 7,14,34,16,53,13,62,24,46,19,59,36,10,22,68,44,58
+1,Get hold of a MULTIPLE of 7,21,37,20,57,23,69,66,15,52,33,38,64,25,18,12
+1,Jump at a MULTIPLE of 7,28,34,19,65,27,61,38,17,13,53,30,12,40,24,62,59
+1,Search for a MULTIPLE of 7,35,60,23,18,57,32,29,44,26,64,39,16,54,11,51
+1,Fish for a MULTIPLE of 7,42,33,17,41,69,46,25,64,19,58,15,12,53,31,50,39
+1,Choose a MULTIPLE of 7,49,20,38,15,54,51,24,43,61,18,53,57,27,68,23,62,9
+1,Catch a MULTIPLE of 7,56,40,13,34,18,68,24,59,32,51,27,65,25,22,60,57,17
+1,Hook a MULTIPLE of 7,63,38,15,64,23,48,40,16,11,54,62,29,19,33,25,66,39
+1,Hunt for a MULTIPLE of 7,70,41,10,30,51,34,17,67,44,61,18,26,20,58,33,52
+1,Snatch a MULTIPLE of 8,8,53,19,41,78,12,65,44,50,75,14,62,25,57,15,71,28
+1,Pick up a MULTIPLE of 8,16,37,13,61,26,39,77,69,11,33,57,42,23,67,79,55
+1,Get hold of a MULTIPLE of 8,24,30,29,37,21,66,39,17,74,13,71,38,43,62,9
+1,Jump at a MULTIPLE of 8,32,35,11,73,65,22,60,17,54,70,20,26,67,18,51,28
+1,Search for a MULTIPLE of 8,40,55,13,73,21,42,60,37,27,68,54,52,29,70,14
+1,Fish for a MULTIPLE of 8,48,61,57,11,28,71,15,69,22,47,65,38,17,75,31,19
+1,Choose a MULTIPLE of 8,56,70,14,59,26,62,18,49,20,58,66,21,37,30,74,25,9
+1,Catch a MULTIPLE of 8,64,69,14,43,79,35,12,27,41,36,10,74,39,17,67,22,60
+1,Hook a MULTIPLE of 8,72,52,35,61,18,49,23,59,28,15,77,25,68,62,21,19,58
+1,Hunt for a MULTIPLE of 8,80,54,33,20,25,62,71,14,37,43,76,12,26,67,38,77
+1,Snatch a MULTIPLE of 9,9,61,38,24,53,10,86,47,59,76,14,64,74,71,55,12,80
+1,Pick up a MULTIPLE of 9,18,57,33,62,28,13,73,50,61,58,16,75,88,44,21,39
+1,Get hold of a MULTIPLE of 9,27,35,41,46,22,17,71,10,76,59,23,86,64,38,77
+1,Jump at a MULTIPLE of 9,36,15,42,80,75,12,51,20,67,44,49,22,78,37,53,31
+1,Search for a MULTIPLE of 9,45,20,82,65,39,16,55,70,13,61,24,83,58,15,59
+1,Fish for a MULTIPLE of 9,54,48,21,78,16,34,32,51,33,77,22,66,29,87,62,40
+1,Choose a MULTIPLE of 9,63,64,67,46,71,49,44,61,38,56,12,30,79,25,87,42
+1,Catch a MULTIPLE of 9,72,77,62,19,34,53,32,11,50,41,58,16,85,28,66,23,60
+1,Hook a MULTIPLE of 9,81,47,88,29,86,64,22,61,39,17,57,15,55,13,31,73,70
+1,Hunt for a MULTIPLE of 9,90,56,33,79,21,65,26,85,42,19,82,58,35,10,73,37
+2,Lift the SQUARE of 1,1,-1,2,4,3,9,100,mé,xé,25,36,49,64,81,16,121
+2,Move to the SQUARE of 2,4,-2,9,2xé,16,25,1,22,1+1,36,49,64,81,100,x+y
+2,Search for the SQUARE of 3,9,1,4,xé,16,25,36,49,64,81,100,xè,2x,2m,6,12
+2,Fish for the SQUARE of 4,16,1,xé,9,16,25,36,49,64,81,100,xê,4x,4f,8,2
+2,Catch the SQUARE of 5,25,1,4,9,16,cé,36,49,64,81,100,5x,5y,5x+y,10,20,15
+2,Hook the SQUARE of 6,36,4,9,16,25,pé,49,64,81,100,xé,12,24,3,6+6,18,60,x
+2,Snatch the SQUARE of 7,49,1,4,9,16,25,36,yé,64,81,100,14,21,7+7,SQ7,7,35
+2,Pick the SQUARE of 8,64,1,4,9,16,25,36,49,gé,81,100,8+8,10,16,4,98,88,80
+2,Get hold of the SQUARE of 9,81,1,4,9,16,25,36,49,64,né,100,9+9,18,99,90
+2,Search for the SQUARE of ab,(ab)é,ab+ab,2ab,2a+2b,4ab,2a2b,axb,ba,16,1
+2,Fish for the SQUARE of ab,aébé,ab+ab,2ab,2a+2b,4ab,2a2b,axb,ba,64,81,1
+2,Choose the SQUARE of ab,(ab)(ab),ab+ab,2ab,2a+2b,4ab,2a2b,axb,ba,100,2,4
+2,Search for the SQUARE of xy,(xy)é,xy+xy,2xy,2x+2y,4xy,2x2y,xxy,yx,25,1
+2,Fish for the SQUARE of xy,xéyé,xy+xy,2xy,2x+2y,4xy,2x2y,xxy,yx,64,49,1
+2,Choose the SQUARE of xy,(xy)(xy),xy+xy,2xy,2x+2y,4xy,2x2y,xxy,yyx,36,2,4
+2,Choose the SQUARE of n,né,2n,n+n,4n,n+n+n+n,1,4,9,16,25,36,49,64,81,100
+2,Search for the SQUARE of 2n,4né,4n,2n+2n,2né,1,4,9,16,25,36,49,64,81
+2,Fish for the SQUARE of 3n,9né,6n,3n+3n,3né,1,4,9,16,25,36,49,64,81,100
+2,Catch the SQUARE of 4n,16né,8n,4n+4n,4né,1,4,9,16,25,36,49,64,81,100
+2,Snatch the SQUARE of 5n,25né,10n,5n+5n,5né,1,4,9,16,25,36,49,64,81,100
+2,Pick the SQUARE of 6n,36né,12n,6n+6n,6né,1,4,9,16,25,36,49,64,81,100
+2,Get hold of the SQUARE of 7n,49né,7n+7n,7né,1,4,9,16,25,36,49,64,81,100
+2,Hook the SQUARE of 8n,64né,8n+8n,8né,1,4,9,16,25,36,49,64,81,100,16n
+2,Sieze the SQUARE of 9n,81né,9n+9n,9né,1,4,9,16,25,36,49,64,81,100,81n
+2,Lift the SQUARE of 10n,100né,20n,10né,1,4,9,16,25,36,49,64,81,100,100n 
+2,Choose the SQUARE of a,aé,2a,a+a,4a,a+a+a+a,1,4,9,16,25,36,49,64,81,100
+2,Search for the SQUARE of 2x,4xé,4x,2x+2x,2xé,1,4,9,16,25,36,49,64,81
+2,Fish for the SQUARE of 3x,9xé,6x,3x+3x,3xé,1,4,9,16,25,36,49,64,81,100
+2,Catch the SQUARE of 4x,16xé,8x,4x+4x,4xé,1,4,9,16,25,36,49,64,81,100
+2,Snatch the SQUARE of 5p,25pé,10p,5p+5p,5pé,1,4,9,16,25,36,49,64,81,100
+2,Pick the SQUARE of 6x,36xé,12x,6x+6x,6xé,1,4,9,16,25,36,49,64,81,100
+2,Get hold of the SQUARE of 7x,49xé,7x+7x,7xé,1,4,9,16,25,36,49,64,81,100
+2,Hook the SQUARE of 8x,64xé,8x+8x,8xé,1,4,9,16,25,36,49,64,81,100,16x
+2,Sieze the SQUARE of 9y,81yé,9y+9y,9yé,1,4,9,16,25,36,49,64,81,100,81y
+2,Lift the SQUARE of 10x,100xé,20x,10xé,1,4,9,16,25,36,49,64,81,100,100x
+3,Which is NOT a FACTOR of 24?,48,2,3,4,6,8,12,24,1
+3,Which is NOT a FACTOR of 30?,25,1,2,3,5,6,10,15,30
+3,Which is NOT a FACTOR of 36?,19,1,2,3,4,6,9,12,18,36
+3,Which is NOT a FACTOR of 40?,80,1,2,4,5,8,10,20,40
+3,Which is NOT a FACTOR of 42?,17,1,2,3,6,7,14,21,42
+3,Which is NOT a FACTOR of 48?,9,1,2,3,4,6,8,12,16,24,48
+3,Which is NOT a FACTOR of 54?,14,1,2,3,6,9,18,27,54
+3,Which is NOT a FACTOR of 56?,18,1,2,4,7,8,14,28,56
+3,Which is NOT a FACTOR of 70?,21,1,2,5,7,10,14,35,70
+3,Which is NOT a FACTOR of 64?,12,1,2,4,8,16,32,64
+3,Which is NOT a FACTOR of 72?,5,1,2,3,4,6,8,9,12,18,24,36,72
+3,Which is NOT a FACTOR of 90?,4,1,2,3,5,6,9,10,15,18,30,45,90
+3,Which is NOT a FACTOR of 80?,9,1,2,4,5,8,10,16,20,40,80
+3,Which is NOT a FACTOR of 66?,16,1,2,3,6,11,22,33,66
+3,Which is NOT a FACTOR of 84?,8,1,2,3,4,6,7,12,14,21,28,42,84
+3,Which is NOT a FACTOR of 96?,9,1,2,3,4,6,8,12,16,24,32,48,96
+3,Which is NOT a FACTOR of 108?,8,1,2,3,4,6,9,12,18,27,36,54,108
+3,Which is NOT a FACTOR of 120?,7,1,2,3,4,5,6,8,10,12,15,20,24,30,40,60,120
+3,Which is NOT a FACTOR of 132?,8,1,2,3,4,6,11,12,22,33,44,66,132
+3,Which is NOT a FACTOR of 144?,11,1,2,3,4,6,8,9,12,16,18,24,36,48,72,144
+4,Which is the CORRECT expansion of&3(y-1)?,3y-3,3y-1,y-3,3y+3,3y+1,y+3,3y,(y/3)-(1/3),(y/3)+(1/3)
+4,Which is the CORRECT expansion of&2(x+3)?,2x+6,x+6,2x+3,2x-6,x-6,2x-3,2x,(x/2)+(3/2),(x/2)-(3/2)
+4,Which is the CORRECT expansion of&4(x-2)?,4x-8,x-8,4x-2,4x+8,x+8,4x+2,4x,(x/4)-(2/4),(x/4)+(2/4)
+4,Which is the CORRECT expansion of&5(a+4)?,5a+20,5a+4,a+20,5a-20,5a-4,a-20,(a/5)+(4/5),(a/5)-(4/5)
+4,Which is the CORRECT expansion of&2(x-5)?,2x-10,x-10,2x-5,2x+10,x+10,2x+5,2x,(x/2)-(5/2),(x/2)+(5/2)
+4,Which is the CORRECT expansion of&3(2x+7)?,6x+21,6x+7,3x+21,6x-21,6x-7,3x-21,6x,(2x/3)+(7/3),(6x/3)-(7/3)
+4,Which is the CORRECT expansion of&2(5f+3)?,10f+6,10f+3,5f+6,10f-6,10f-3,5f-6,10f,(5f/2)+(3/2),(5f/2)-(3/2)
+4,Which is the CORRECT expansion of&3(5x-1)?,15x-3,15x-1,5x-3,15x+3,15x+1,5x+3,15x,(5x/3)-(1/3),(5x/3)+(1/3)
+4,Which is the CORRECT expansion of&4(3x-2)?,12x-8,3x-8,12x-2,12x+8,3x+8,12x+2,12x,(3x/4)-(2/4),(3x/4)+(2/4)
+4,Which is the CORRECT expansion of&3(2r-5)?,6r-15,6r-5,2r-15,6r+15,6r+5,2r+15,6r,(2r/3)-(5/3),(2r/3)+(5/3)
+4,Which is the CORRECT expansion of&2x(x-4)?,2xé-8x,2xé-4,xé-8x,2xé+8x,2xé+4,xé+8x,2xé,2x-8,xé-8 
+4,Which is the CORRECT expansion of&3x(x+5)?,3xé+15x,3xé+5,xé+15x,3xé-15x,3xé-5,xé-15x,3xé,3x-5,xé-15
+4,Which is the CORRECT expansion of&4s(s+3)?,4sé+12s,4sé+3s,sé+12s,4sé-12s,4sé-3s,sé-12s,4sé,4s-12,sé-3
+4,Which is the CORRECT expansion of&5b(b-2)?,5bé-10b,5bé-2b,bé-10b,5bé+10b,5bé+2b,bé+10b,5bé,5b-2,bé-10
+4,Which is the CORRECT expansion of&7x(x-1)?,7xé-7x,7xé-1,xé-7,7xé+7x,7xé+1,xé+7,7xé,7x-7,xé-1
+4,Which is the CORRECT expansion of&3(x-1)?,3x-3,3x-1,x-3,3x+3,3x+1,x+3,3x,(x/3)-(1/3),(x/3)+(1/3)
+4,Which is the CORRECT expansion of&2(y+3)?,2y+6,y+6,2y+3,2y-6,y-6,2y-3,2y,(y/2)+(3/2),(y/2)-(3/2)
+4,Which is the CORRECT expansion of&4(x-2)?,4x-8,x-8,4x-2,4x+8,x+8,4x+2,4x,(x/4)-(2/4),(x/4)+(2/4)
+4,Which is the CORRECT expansion of&5(h+4)?,5h+20,5h+4,h+20,5h-20,5h-4,h-20,(h/5)+(4/5),(h/5)-(4/5)
+4,Which is the CORRECT expansion of&2(x-5)?,2x-10,x-10,2x-5,2x+10,x+10,2x+5,2x,(x/2)-(5/2),(x/2)+(5/2)
+4,Which is the CORRECT expansion of&3(2q+7)?,6q+21,6q+7,3q+21,6q-21,6q-7,3q-21,6q,(2q/3)+(7/3),(6q/3)-(7/3)
+4,Which is the CORRECT expansion of&2(5r+3)?,10r+6,10r+3,5r+6,10r-6,10r-3,5r-6,10r,(5r/2)+(3/2),(5r/2)-(3/2)
+4,Which is the CORRECT expansion of&3(5x-1)?,15x-3,15x-1,5x-3,15x+3,15x+1,5x+3,15x,(5x/3)-(1/3),(5x/3)+(1/3)
+4,Which is the CORRECT expansion of&4(3x-2)?,12x-8,3x-8,12x-2,12x+8,3x+8,12x+2,12x,(3x/4)-(2/4),(3x/4)+(2/4)
+4,Which is the CORRECT expansion of&3(2t-5)?,6t-15,6t-5,2t-15,6t+15,6t+5,2t+15,6t,(2t/3)-(5/3),(2t/3)+(5/3)
+4,Which is the CORRECT expansion of&2x(x-4)?,2xé-8x,2xé-4,xé-8x,2xé+8x,2xé+4,xé+8x,2xé,2x-8,xé-8 
+4,Which is the CORRECT expansion of&3u(u+5)?,3ué+15u,3ué+5,ué+15u,3ué-15u,3ué-5,ué-15u,3ué,3u-5,ué-15
+4,Which is the CORRECT expansion of&4v(v+3)?,4vé+12v,4vé+3v,vé+12v,4vé-12v,4vé-3v,vé-12v,4vé,4v-12,vé-3
+4,Which is the CORRECT expansion of&5x(x-2)?,5xé-10x,5xé-2x,xé-10x,5xé+10x,5xé+2x,xé+10x,5xé,5x-2,xé-10
+4,Which is the CORRECT expansion of&7z(z-1)?,7zé-7z,7zé-1,zé-7,7zé+7z,7zé+1,zé+7,7zé,7z-7,zé-1

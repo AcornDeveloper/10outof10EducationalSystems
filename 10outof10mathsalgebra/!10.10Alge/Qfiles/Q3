@@ -1,0 +1,220 @@
+What will the output from the following BASIC program be?&FOR loop = 1 TO 10:PRINT 2*loop:NEXT#
+!Prints the even numbers up to and including 20#
+Prints the odd numbers up to 19#
+Prints the even numbers up to 10#
+What will the output from the following BASIC program be?&FOR loop = 1 TO 10:PRINT 2*loop-1:NEXT#
+Prints the odd numbers up to 9#
+!Prints the odd numbers up to and includung 19#
+Prints the even numbers up to 20#
+What will the output from the following BASIC program be?&FOR loop = 1 TO 10:PRINT loop:NEXT#
+Prints the integers LESS THAN 10#
+Draws a circle with radius 10#
+!Prints the integers LESS THAN or EQUAL TO 10#
+What will the output from the following BASIC program be?&FOR loop = 10 TO 20:PRINT loop:NEXT#
+!Prints the integers between 9 and 21#
+Prints the integers between 10 and 20#
+Prints the integers between 10 and 21#
+What will the output from the following BASIC program be?&FOR numb=1 TO 10:PRINT numb;" x 2 = ";numb*2:NEXT#
+!Prints the 2 times table#
+Prints   1,2,4,6,8,10,12,14,16,18,20#
+Prints   numb;" x2 = ";numb*2      TEN times#
+What will the output from the following BASIC program be?&FOR numb=1 TO 10:PRINT numb;" x 3 = ";numb*3:NEXT#
+Prints   1,3,6,9,12,15,18,21,24,27,30#
+!Prints the 3 times table#
+Prints   numb;" x3 = ";numb*3      TEN times#
+What will the output from the following BASIC program be?&FOR numb=1 TO 10:PRINT numb;" x 5 = ";numb*5:NEXT#
+Prints   1,5,10,15,20,25,30,35,40,45,50#
+Prints   numb;" x5 = ";numb*5      TEN times#
+!Prints the 5 times table#
+What will the output from the following BASIC program be?&INPUT number:number = number*2:PRINT number#
+!Prints out the double of the number you enter#
+Prints a random EVEN number#
+Prints a random ODD number#
+What will the output from the following BASIC program be?&FOR dummy = 0 TO 5:PRINT "fred":NEXT#
+Prints the word   fred   5 times#
+!Prints the word   fred   6 times#
+Prints the word   Fred   5 times#
+What will the output from the following BASIC program be?&PRINT"What price";:INPUT p:p=p*1.175:PRINT"Total = "p#
+Works out the VAT (17.5 per cent) on a price#
+!Adds VAT (17.5 per cent) to a price#
+Takes off the VAT (17.5 per cent) from a price#
+What will the output from the following BASIC program be?&tot=0:FOR loop = 1 TO 10:tot=tot+loop:PRINT tot:NEXT#
+Prints the first 10 prime numbers#
+Prints the first 10 square numbers#
+!Prints the first 10 triangular numbers#
+What will the output from the following BASIC program be?&INPUT num:IF num/2 = INT (num/2) THEN PRINT "IT IS"#
+!Prints IT IS if an even number is entered#
+Prints IT IS if an ODD number is entered#
+Prints IT IS if ANY number is entered#
+What will the output from the following BASIC program be?&INPUT num:IF (num+1)/2 = INT ((num+1)/2) THEN PRINT "IT IS"#
+Prints IT IS if an even number is entered#
+!Prints IT IS if an ODD number is entered#
+Prints IT IS if ANY number is entered#
+What will the output from the following BASIC program be?&FOR number=1 TO 5:PRINT number*number:NEXT#
+!Prints five SQUARE numbers#
+Prints five EVEN numbers#
+Prints the series 2, 4, 6, 8, 10#
+What will the output from the following BASIC program be?&a=1:b=1:FOR loop=1 TO 5:temp=a:a=b:b=b+temp:PRINT b:NEXT#
+Prints the series    1,1,2,3,5,8,13#
+Prints the series    2,3,5,8,13,21#
+!Prints the series    2,3,5,8,13#
+What will the output from the following BASIC program be?&FOR num=1 TO 5:PRINT 2*(num+2):NEXT#
+!Prints the series    6,8,10,12,14#
+Prints the series    0,6,8,10,12#
+Prints the series    4,6,8,10,12#
+What would a turtle do if it followed these LOGO instructions?&repeat 2 [fd 200 rt 70 fd 400 rt 110]#
+!Walk round a PARALLELOGRAM#
+Walk round a RECTANGLE#
+Walk backwards and forwards twice rotating its head#
+What would a turtle do if it followed these LOGO instructions?&repeat 2 [fd 200 rt 70 fd 200 rt 110]#
+!Walk round a RHOMBUS in a clockwise direction#
+Walk round a SQUARE#
+Walk round a RHOMBUS in an anti-clockwise direction#
+What would a turtle do if it followed these LOGO instructions?&repeat 2 [fd 300 rt 90 fd 200 rt 90]#
+!Walk round a RECTANGLE in a clockwise direction#
+Walk round a SQUARE#
+Walk round a RECTANGLE in an anti-clockwise direction#
+What would a turtle do if it followed these LOGO instructions?&rt 45 repeat 20 [lt 90 fd 10 rt 90 fd 10]#
+!Walk forward following a ZIGZAG path#
+Go round in circles#
+Walk round a 20-sided shape 45 times.#
+What would a turtle do if it followed these LOGO instructions?&repeat 6 [fd 200 rt 60]#
+Walk round a TRIANGLE#
+Walk round a PENTAGON#
+!Walk round a HEXAGON#
+What would a turtle do if it followed these LOGO instructions?&repeat 5 [fd 100 rt 72]#
+Walk round a TRIANGLE#
+!Walk round a PENTAGON#
+Walk round a HEXAGON#
+What would a turtle do if it followed these LOGO instructions?&fd 100 rt 120 fd 100 rt 120 fd 100 rt 120#
+!Walk round a TRIANGLE#
+Walk round a PENTAGON#
+Walk round a HEXAGON#
+What would a turtle do if it followed these LOGO instructions?&fd 100 rt 90 fd 100 rt 90 fd 100 rt 90 fd 100 rt 90#
+!Walk round a SQUARE in a clockwise direction#
+Walk TWICE round a SQUARE#
+Walk round a SQUARE in an anti-clockwise direction#
+What would a turtle do if it followed these LOGO instructions?&repeat 360 [fd 4 rt 1]#
+!Walk round an almost circular shape#
+Walk round a circle#
+Walk round a semi-circle#
+Given    1     4     9     16     25        &How do you find the next number?#
+Add the last two numbers. #
+!Count its place and 'square that number#
+Multiply the last number by five#
+Given    3     7    11     15     19        &How do you find the next number?#
+Find the next ODD number.#
+The rule is ADD 1 to 19.#
+!The rule is always ADD 4 to the last number.#
+Given    99    92    85    78   71          &How do you find the next number?#
+Use your tables.#
+Look in the "Sixties"#
+!Always subtract 7 to make the next.#
+Given    96    48    24    12               &How do you find the next number?#
+Take 12 off the last number.#
+!Halve the last number.#
+Take 50 off the first number.#
+Given    1   11   20   28   35              &How do you find the next number?#
+It is the next in the 7 times table.#
+Add 7 to the last number.#
+!Add one less than the number that was added last time.#
+Given   100    99    97    94    90         &How do you find the next number?#
+!Take off one more than was taken off last time.#
+Subtract four from the last number#
+It is one less every time.#
+The following numbers follow a rule EXCEPT for one. Find it. &3     7     11     13     15     19     23#
+3#
+23#
+!13#
+The following numbers follow a rule EXCEPT for one. Find it. &18    15    14    12    9    6   3#
+12#
+!14#
+15#
+The following numbers follow a rule EXCEPT for one. Find it. &44    33    22    15    11    #
+11#
+!15#
+22#
+The following numbers follow a rule EXCEPT for one. Find it. &10  20   30  35   40   50#
+10#
+50#
+!35#
+Given   5  7  9  11&What is the rule to find the next number?#
+!Count on in twos.#
+Add 2 to ten.#
+Look for an EVEN number.#
+Given   5   6   7   8   9&What is the rule to find the next number?#
+Use the three times table.#
+!Add on one each time.#
+Add something on.#
+Given   4   5   7   10   14&What is the rule to find the next number?#
+Keep adding 4 each time.#
+Add on 7.#
+!Always add one more than last time.#
+Given   5   10   15   20   25&What is the rule to find the next number?#
+!Always increase the last number by 5.#
+Look for a SQUARE number.#
+Take the next PRIME number.#
+Given   49   42   35   28   21&What is the rule to find the next number?#
+Take an EVEN number.#
+!Subract 7 each time.#
+The pattern is ODD/EVEN/ODD.#
+Given   0   2   6   8   12&What is the rule to find the next two numbers?#
+Count on in EVEN numbers.#
+Use the 7 times table.#
+!ADD 2, THEN add 4. Keep doing this.#
+Given   7   4   6   3   5&What is the rule to find the next two numbers?#
+!First take off 3 THEN add 2 to the next number.#
+Just keep counting backwards.#
+ODD number, EVEN number and so on.#
+Given   1   6   11   16   21&What is the rule to find the next number?#
+Find the next number in the 7's table.#
+!Keep ADDING 5 to the last number.#
+Add on 6.#
+Given   19   17   15   13   11&What rule ALWAYS finds the next number?#
+Take TEN off the first number.#
+Keep DOUBLING.#
+!Always take 2 off the last number.#
+Given  2   3   5   7   11   13&What is the rule to find the next number?#
+!Find the next PRIME number.#
+Follow the ODD numbers.#
+ADD an ODD number each time.#
+Which term does not fit the pattern?&6   12   15   24   30   36#
+!15#
+30#
+6#
+Which term does not follow the rule?&224   112   56   28   14   8#
+224#
+!8#
+56#
+Which term does not follow the rule?&64   57   50   42   36#
+64#
+36#
+!42#
+Which term does not follow the rule?&1   6   11   16   21   36#
+!36#
+16#
+21#
+Which number comes next?&11   101   1001#
+10101#
+11011#
+!10001#
+Which number is the odd one out?&210   121   300   111  12   21#
+!121#
+21#
+12#
+Which number does not fit the pattern?&1   3   6   10   15   22#
+10#
+!22#
+1#
+What is the rule for adding terms to the pattern&17   19   16   18   15#
+!Starting at 17 ADD 2 then SUBTRACT 3.#
+The number must be a 'TEEN'#
+The last number must follow 5,6,7,8,9.#
+What is the rule for adding terms to the pattern?&1   5   11   19   29#
+Only 1,2,5,9's allowed.#
+!Start by adding 4. Increase by 2 each time.#
+Add 1 more than 5 and 1 less than 10.#
+What are the next two terms of the series?&2   4   5   10   11   22   23#
+!46  47#
+24  48#
+32  33#

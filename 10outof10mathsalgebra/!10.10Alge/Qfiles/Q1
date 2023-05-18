@@ -1,0 +1,364 @@
+In the pattern    (10+0) (9+1) (8+2)....    What comes next?#
+!(7+3)#
+(3+7)#
+(9+1)#
+In the pattern    (9+1) (8+2) (7+3)....     What comes next?#
+(9+1)#
+!(6+4)#
+(0+10)#
+In the pattern    (8+2) (7+3) (6+4)....     What comes next?#
+(7+3)#
+(8+2)#
+!(5+5)#
+In the pattern    (7+3) (6+4) (5+5)....     What comes next?#
+!(4+6)#
+(6+4)#
+(0+10)#
+In the pattern    (6+4) (5+5) (4+6)....     What comes next?#
+(4+6)#
+!(3+7)#
+(5+5)#
+In the pattern    (5+5) (4+6) (3+7)....     What comes next?#
+(7+3)#
+(1+9)#
+!(2+8)#
+In the pattern    (4+6) (3+7) (2+8)....     What comes next?#
+!(1+9)#
+(9+1)#
+(7+3)#
+In the pattern    (3+7) (2+8) (1+9)....     What comes next?#
+(2+8)#
+!(0+10)#
+(8+2)#
+In the pattern    (0+10) (1+9) (2+8)....    What comes next?#
+(7+3)#
+!(3+7)#
+(6+4)#
+In the pattern    (1+9) (2+8) (3+7)....     What comes next?#
+(6+4)#
+(8+2)#
+!(4+6)#
+In the pattern    (2+8) (3+7) (4+6)....     What comes next?#
+!(5+5)#
+(4+6)#
+(8+2)#
+In the pattern    (3+7) (4+6) (5+5)....     What comes next?#
+(5+5)#
+!(6+4)#
+(9+1)#
+In the pattern    (4+6) (5+5) (6+4)....     What comes next?#
+(4+6)#
+(0+10)#
+!(7+3)#
+In the pattern    (5+5) (6+4) (7+3)....     What comes next?#
+!(8+2)#
+(10+0)#
+(0+10)#
+In the pattern    (6+4) (7+3) (8+2)....     What comes next?#
+(5+5)#
+!(9+1)#
+(10+0)#
+In the pattern    (7+3) (8+2) (9+1)....     What comes next?#
+(2+8)#
+(1+9)#
+!(10+0)#
+In the pattern    (10+0) (8+2) (6+4)....    What comes next?#
+!(4+6)#
+(5+5)#
+(0+10)#
+In the pattern    (8+2) (6+4) (4+6)....     What comes next?#
+(3+7)#
+!(2+8)#
+(10+0)#
+In the pattern    (6+4) (4+6) (2+8)....     What comes next?#
+(8+2)#
+(7+3)#
+!(0+10)#
+In the pattern    (9+1) (7+3) (5+5)....     What comes next?#
+!(3+7)#
+(4+6)#
+(6+4)#
+In the pattern    (7+3) (5+5) (3+7)....     What comes next?#
+(2+8)#
+!(1+9)#
+(6+4)#
+In the pattern    (0+10) (2+8) (4+6)....    What comes next?#
+(5+5)#
+(1+9)#
+!(6+4)#
+In the pattern    (2+8) (4+6) (6+4)....     What comes next?#
+!(8+2)#
+(7+3)#
+(9+1)#
+In the pattern    (4+6) (6+4) (8+2)....     What comes next?#
+(7+3)#
+!(10+0)#
+(5+5)#
+In the pattern    (1+9) (3+7) (5+5)....     What comes next?#
+(4+6)#
+(10+0)#
+!(7+3)#
+In the pattern    (3+7) (5+5) (7+3)....     What comes next?#
+!(9+1)#
+(6+4)#
+(2+8)#
+In the pattern    (10-0) (10-1) (10-2)....  What comes next?#
+(10-8)#
+!(10-3)#
+(10-4)#
+In the pattern    (10-1) (10-2) (10-3)....  What comes next?#
+(10-6)#
+(10-2)#
+!(10-4)#
+In the pattern    (10-2) (10-3) (10-4)....  What comes next?#
+!(10-5)#
+(10-7)#
+(10-0)#
+In the pattern    (10-3) (10-4) (10-5)....  What comes next?#
+(10-8)#
+!(10-6)#
+(10-10)#
+In the pattern    (10-4) (10-5) (10-6)....  What comes next?#
+(10-9)#
+(10-1)#
+!(10-7)#
+In the pattern    (10-5) (10-6) (10-7)....  What comes next?#
+!(10-8)#
+(10-0)#
+(10-4)#
+In the pattern    (10-7) (10-8) (10-9)....  What comes next?#
+(10-8)#
+!(10-10)#
+(10-2)#
+In the pattern    (10-10) (10-9) (10-8).... What comes next?#
+(10-6)#
+(10-2)#
+!(10-7)#
+In the pattern    (10-9) (10-8) (10-7)....  What comes next?#
+!(10-6)#
+(10-7)#
+(10-0)#
+In the pattern    (10-8) (10-7) (10-6)....  What comes next?#
+(10-2)#
+!(10-5)#
+(10-7)#
+In the pattern    (10-7) (10-6) (10-5)....  What comes next?#
+(10-10)#
+(10-8)#
+!(10-4)#
+In the pattern    (10-6) (10-5) (10-4)....  What comes next?#
+!(10-3)#
+(10-8)#
+(10-2)#
+In the pattern    (10-5) (10-4) (10-3)....  What comes next?#
+(10-9)#
+!(10-2)#
+(10-0)#
+In the pattern    (10-4) (10-3) (10-2)....  What comes next?#
+(10-10)#
+(10-4)#
+!(10-1)#
+In the pattern    (10-3) (10-2) (10-1)....  What comes next?#
+!(10-0)#
+(10-4)#
+(10-7)#
+Which number does NOT belong in this set ... { 17,9,13,10,1 } ?#
+!10#
+9#
+1#
+Which number does NOT belong in this set ... { 10,6,4,15,12 } ?#
+6#
+!15#
+10#
+Which number does NOT belong in this set ... { 9,18,14,6,2 } ?#
+2#
+14#
+!9#
+Which number does NOT belong in this set ... { 11,9,1,7,4 } ?#
+!4#
+1#
+7#
+Which number does NOT belong in this set ... { 2,6,17,16,12 } ?#
+6#
+!17#
+12#
+Which number does NOT belong in this set ... { 16,19,20,14,4 } ?#
+14#
+4#
+!19#
+Which number does NOT belong in this set ... { 4,19,10,14,2 } ?#
+!19#
+10#
+14#
+Which number does NOT belong in this set ... { 2,8,16,12,11 } ?#
+2#
+!11#
+16#
+Which number does NOT belong in this set ... { 12,16,3,10,8 } ?#
+12#
+16#
+!3#
+Which number does NOT belong in this set ... { 9,6,3,1,13 } ?#
+!6#
+9#
+1#
+Which number does NOT belong in this set ... { 2,20,14,18,5} ?#
+18#
+!5#
+14#
+Which number does NOT belong in this set ... { 5,14,19,7,15 } ?#
+7#
+5#
+!14#
+Which number does NOT belong in this set ... { 19,4,7,15,3 } ?#
+!4#
+19#
+3#
+Which number does NOT belong in this set ... { 18,2,6,16,11 } ?#
+2#
+!11#
+6#
+Which number does NOT belong in this set ... { 9,1,11,16,13 } ?#
+11#
+1#
+!16#
+Which number does NOT belong in this set ... { 13,19,1,7,4 } ?#
+!4#
+19#
+7#
+Which number does NOT belong in this set ... { 4,9,11,15,3 } ?#
+15#
+!4#
+11#
+Which number does NOT belong in this set ... { 4,18,10,11,8 } ?#
+10#
+18#
+!11#
+Which number does NOT belong in this set ... {  5,15,13,6,11 } ?#
+!6#
+15#
+5#
+Which number does NOT belong in this set ... { 5,4,14,18,2 } ?#
+18#
+!5#
+14#
+Which number does NOT belong in this set ... { 18,3,15,11,19 } ?#
+11#
+19#
+!18#
+Which number does NOT belong in this set ... { 20,8,11,10,16 } ?#
+!11#
+8#
+16#
+Which number does NOT belong in this set ... { 19,1,7,13,10 } ?#
+7#
+!10#
+1#
+Which number does NOT belong in this set ... { 17,10,14,2,12 } ?#
+10#
+14#
+!17#
+Which number does NOT belong in this set ... { 16,14,9,10,8 } ?#
+!9#
+16#
+10#
+Which number does NOT belong in this set ... { 5,17,3,4,15 } ?#
+3#
+!4#
+5#
+Which number does NOT belong in this set ... { 15,1,14,17,9 } ?#
+17#
+15#
+!14#
+Which number does NOT belong in this set ... { 6,14,17,18,2 } ?#
+!17#
+6#
+2#
+Which number does NOT belong in this set ... { 6,5,1,3,7 } ?#
+5#
+!6#
+7#
+Which number does NOT belong in this set ... { 14,18,16,9,12 } ?#
+14#
+18#
+!9#
+Which number does NOT belong in this set ... { 6,12,14,20,5 } ?#
+!5#
+14#
+6#
+Which number does NOT belong in this set ... { 4,14,19,2,8 } ?#
+14#
+!19#
+2#
+Which number does NOT belong in this set ... { 3,6,20,14,8 } ?#
+6#
+8#
+!3#
+Which number does NOT belong in this set ... { 5,17,12,11,3 } ?#
+!12#
+3#
+5#
+Which number does NOT belong in this set ... { 9,12,18,8,14 } ?#
+18#
+!9#
+12#
+Which number does NOT belong in this set ... { 3,15,11,1,18 } ?#
+11#
+15#
+!18#
+Which number does NOT belong in this set ... { 7,2,1,17,19 } ?#
+!2#
+1#
+7#
+Which number does NOT belong in this set ... { 20,7,14,6,12 } ?#
+12#
+!7#
+14#
+Which number does NOT belong in this set ... { 1,9,15,6,13 } ?#
+1#
+9#
+!6#
+Which number does NOT belong in this set ... { 10,14,20,7,6 } ?#
+!7#
+10#
+20#
+Which number does NOT belong in this set ... { 5,1,13,7,6 } ?#
+1#
+!6#
+7#
+Which number does NOT belong in this set ... { 6,13,7,9,3 } ?#
+9#
+7#
+!6#
+Which number does NOT belong in this set ... { 6,9,4,18,2 } ?#
+!9#
+6#
+18#
+Which number does NOT belong in this set ... { 7,19,1,13,16 } ?#
+19#
+!16#
+1#
+Which number does NOT belong in this set ... { 19,10,12,6,14 } ?#
+6#
+10#
+!19#
+Which number does NOT belong in this set ... { 12,17,19,13,7 } ?#
+!12#
+13#
+17#
+Which number does NOT belong in this set ... { 18,6,20,8,13 } ?#
+8#
+!13#
+20#
+Which number does NOT belong in this set ... { 5,13,4,3,9 } ?#
+3#
+9#
+!4#
+Which number does NOT belong in this set ... { 14,8,4,15,16 } ?#
+!15#
+4#
+8#
+Which number does NOT belong in this set ... { 7,12,20,6,16 } ?#
+6#
+!7#
+12#

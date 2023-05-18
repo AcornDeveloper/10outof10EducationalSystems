@@ -1,0 +1,20 @@
+RUN <Obey$Dir>.!SetCode
+WIMPSLOT -min 544K
+RUN <Obey$Dir>.ReadDisc
+SET Disc1$Dir <Obey$Dir>
+RMLOAD <Obey$Dir>.ScnLoad
+PRINT <Obey$Dir>.Palette
+RMKILL ABC
+<Obey$Dir>.Screen
+<Obey$Dir>.Samples.AlgeSounds
+<Obey$Dir>.Samples.Cymbal
+<Obey$Dir>.Samples.Danger
+<Obey$Dir>.Samples.Death
+<Obey$Dir>.Samples.End
+<Obey$Dir>.Samples.Hook
+<Obey$Dir>.Samples.Laugh
+<Obey$Dir>.Samples.Skid
+<Obey$Dir>.Samples.Steam
+<Obey$Dir>.Samples.Synsmajs
+<Obey$Dir>.Samples.Timer
+<Obey$Dir>.!RunImage

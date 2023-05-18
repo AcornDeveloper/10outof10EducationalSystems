@@ -1,0 +1,312 @@
+The difference between two numbers is 10. x is the bigger.&What is the other?#
+!x-10#
+7#
+2+x#
+The difference between two numbers is 25. y is the smaller.&What is the bigger?#
+25+y#
+!25-y#
+15#
+What number is bigger than x by 5?#
+10#
+5-x#
+!x+5#
+What quantity is less than 15 by t?#
+!15-t#
+t+15#
+2#
+What amount is less than x by y?#
+x+y#
+y-x#
+!x-y#
+What number divided by z will give 15?#
+!15z#
+15 divided by z#
+z divided by 15#
+The sum of two numbers is t. s is the smaller.&What is the larger?#
+l#
+!t-s#
+s+l#
+What number is greater than 6 by 7?#
+6-7#
+!13#
+7-6#
+What number is greater than p by q?#
+p-q#
+q-p#
+!p+q#
+A man walks x miles and then x miles.&How many miles has he walked altogether?#
+!2x miles#
+x miles#
+He is where he started#
+A man walks g kilometres and then h kilometres.&How far has he walked?#
+g-h kilometres#
+!g+h kilometres#
+h-g kilometres#
+An old woman took t pigs to market and returned with 2s pigs.&How many did she sell?#
+2s pigs#
+2s+t pigs#
+!t-2s#
+Find the number which added to 10 gives 17.#
+!7#
+-7#
+27#
+Find the number which added to 10 gives x.#
+10x#
+10+x#
+!x-10#
+x is a number. Make it 3 times bigger and increase it by 5.#
+x+8#
+x+15#
+!3x+5#
+n is a number. Make it twice as big and increase it by 35.#
+!2n+35#
+n+70#
+2(n+35)#
+x is a number. Make it 5 times bigger and decrease it by 5.#
+25-x#
+!5x-5#
+x-25#
+If w is a whole number,&what is the next higher consecutive number?#
+x#
+w+x#
+!w+1#
+If I is an integer,&what is the next higher consecutive integer?#
+!I+1#
+J#
+10#
+If r is a whole number, what is the number before r?#
+q#
+!r-1#
+q-r#
+How many hours are equal to m minutes?#
+60m hours#
+m+60 hours#
+!m divided by 60 hours#
+How many minutes are equal to h hours?#
+!60h minutes#
+h divided by 60 minutes#
+60-h minutes#
+A girl is 13 years old. How old was she 5 years ago?#
+x years old#
+!8 years old#
+13+5 years old#
+A boy is 14 years old. How old was he 5 years ago?#
+!9 years old#
+y years old#
+5-14 years old#
+A boy is 14 years old. How old was he y years ago?#
+13 years old#
+!14-y years old#
+10+y years old#
+A man is 24 years old. How old was he z years ago?#
+13 years old#
+!24-z years old#
+24+z years old#
+What number must be added to x-7 to leave just x?#
+!7#
+7x#
+7-x#
+15 is greater than y by 4. What is y?#
+19#
+!11#
+y+4#
+25 is greater than x by 7. What is x?#
+x+25#
+7x#
+!18#
+11 is greater than v by 4. What is v?#
+!7#
+v+11 #
+11#
+24 is less than d by 3. What is d?#
+21#
+!27#
+d+3#
+What must be done to x-3 to be left with just x?#
+take off 3#
+add 6#
+!add 3#
+How far can I travel in 3 hours if my car does 70 mph?#
+!210 miles#
+73 miles#
+67 miles#
+How far can I travel in x hours if my car does 70 mph?#
+!70x miles#
+70+x miles#
+70 divided by x miles#
+If x plus three equals 14. What is x?#
+x+3#
+!11#
+14-x#
+If 2 added to y equals 8. What is y?#
+2+y#
+10#
+!6#
+You are told that x less three is 10. What is x?#
+!13#
+x+10#
+x-10#
+A question tells you that 12 take away x comes to 4. What is x?#
+12-x#
+!8#
+16#
+Three is the same as eight added to x. What is this in symbols?#
+3+8=x#
+x+3=8#
+!3=8+x #
+When written in symbols,half the sum of N and 8 becomes :-#
+!Ω(N+8)#
+ΩN+8#
+N+4#
+Multiply x by 5 and add 3.&What is the result when written symbolically?#
+x+15#
+!5x+3#
+x+15#
+In a triangle, one angle is x degrees and another is y degrees.&What is the third angle? (Angle sum of triangle = 180 degrees)#
+x+y+180 degrees#
+x+y+z degrees#
+!180-x-y degrees#
+A row of houses is 150 metres long. Each house is x metres&wide. How many houses are in the row?#
+!150 divided by x houses#
+150x houses#
+150 + x houses#
+What is the next of two consecutive numbers if (x+1)&is the smaller number?#
+1#
+!(x+2)#
+x#
+What is the next of two consecutive numbers if x is the&smaller number?#
+x,#
+2#
+!(x+1)#
+x is the middle of three consecutive numbers. What are they?#
+!(x-1),x,(x+1)#
+1+x+3#
+(1), (x), (3)#
+Oranges are x pence each. What would I pay for 15?#
+15+x pence#
+!15x pence#
+15 pence#
+Oranges are 5 pence each. What would I pay for x oranges?#
+x+5 pence#
+50 pence#
+!5x pence#
+A 2 kg. bag of sugar costs x pence. What would I pay for 8 kg?#
+!4x pence#
+8x pence#
+2x pence#
+500g of butter costs x pence. What would I pay for 2Ω kg?#
+5 kg#
+!5x pence#
+2 Ωx pence#
+Eggs cost 7 pence each. What would I pay for x dozen?#
+7x pence#
+7+x pence#
+!84x pence#
+Fairy cakes cost x  pence each. What would I pay for 2 dozen?#
+!24x pence#
+2x pence#
+about 24 pence#
+Find the TOTAL cost of n stamps at 15p each.#
+!T = 15n pence#
+T = 15n#
+T = 15 pence#
+Find the TOTAL cost (C pence) of x cakes at 20 pence each AND y cans&of drink at 25 pence each.#
+C = 25x+ y#
+C = 25x + 20y#
+!C = 20x + 25y#
+Find the cost of b bolts at 9 pence each.#
+90 pence#
+£900b#
+!9b pence#
+I buy t tapes at £6.75 each. What is the change (£M) from £20?#
+!M = 20 - 6.75t#
+M = £13.25#
+M = 20 - t#
+How much change (£M), from £50, do I receive when I buy c CDs at 9.55 each?#
+M = 50 - CD#
+!M = 50 - 9.55c#
+M = 50 - 955#
+A repairman charges £10.50 a visit AND £20 for every hour he&works. What is your total bill (£T) if he works for h hours?#
+T = 30.50#
+T = 30h + TV#
+!T = 10.50 + 20h#
+A computer expert charges £11 a visit AND £15 for every hour&he works. What is your total bill (£T) if he works for h hours?#
+T = 25#
+T = 25h + computer cost#
+!T = 11 + 15h#
+An electrician charges £8 a visit AND THEN £12 for every hour&he works. What is your total bill (£T) if he works for h hours?#
+T = 30#
+T = 30h + HP#
+!T = 8 + 12h#
+A plumber charges £9 a visit AND THEN £14 for every hour he&works. What is your total bill (£T) if he works for h hours?#
+!T = 9 + 14h#
+T = 9h + 14#
+T = £23#
+A joiner charges £5 a visit AND £11 for every hour he works.&What is your total bill (£T) if he works for h hours?#
+T = 11#
+!T = 5 + 11h#
+T = 16h#
+A carpenter charges £6 a visit AND £15 for each hour he works.&What is your total bill (£T) if he works for h hours?#
+T = 21 + h#
+!T = 6 + 15h#
+T = 20h#
+A physiotherapist charges £10 a visit AND £10 for every hour&she works. What is your  bill (£T) if she works for h hours?#
+!T = 10 + 10h#
+T = 20#
+T = 300#
+A mechanic charges £8 a visit AND £12 for every hour he works.&What is your total bill (£T) if he works for h hours?#
+!T = 8 + 12h#
+T = 12+h#
+T = 8h#
+Glass costs £2 per square foot. What is the cost of a piece of&glass x ft long by y ft wide?#
+!2xy pounds#
+xy + 2 pounds#
+2 divided by xy pounds#
+It costs f pence to go into the fair. Rides cost r pence a go.&How many rides can I have for my £5 pocket money? HINT £5=500p#
+!(500 - f)/r#
+(500 -fr)#
+500 rides#
+An oil tank with a square base of side x metres is 2 metres&high. What is the volume (V) of the tank?#
+V=4x metres#
+V=x+x+x+x+x cubic metres#
+!V=2xé metresè#
+Which is the ODD number?#
+2x + 24#
+Double x plus 10#
+!2x-1#
+Which is the ODD number?#
+2x + 24#
+Twice x plus 10#
+!2x+1#
+Which is ALWAYS  an  EVEN number?#
+x + 24#
+!2(x+1)#
+2x-1#
+Which number is ALWAYS positive?#
+x + y#
+xè#
+!cé#
+In three boxes there are 21, 13 and x apples.&How many apples have I altogether?#
+!34+x#
+16#
+x-34#
+There are 21 apples in one box and x apples in another.&What is the value of x if I have T apples altogether?#
+21= T - x#
+T = x + 21#
+!x = T - 21#
+There are 27 apples in one box and a apples in another.&How many apples are there in the second box if I have T altogether?#
+Total = a + 27#
+27 altogether#
+!a = T - 27#
+What number is 5 more than the sum of x and y?#
+10#
+!x+y+5#
+The number you first thought of.#
+A elephant is 7 years old and his mouse friend is m years old.&What algebraic number do you get if you add their ages?#
+e years#
+7m years#
+!7 + m years#
+I cycle x kilometres and then walk w kilometres.&How far have I travelled?#
+xw000 metres#
+(X + W) hectares#
+!x + w kilometres#

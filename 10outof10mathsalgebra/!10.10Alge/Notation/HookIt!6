@@ -1,0 +1,124 @@
+$ HookIt! word file structure GRADE 6
+$ <sub grade>,<question>,<answer>,<false> ....
+$ sub grade  1-4
+$ question if contains "&" then max length 128 characters else 64 characters
+$ answer   maximum length 12 characters when printed out 
+$          "/" will shorten a line
+$ false    maximum length as above up to 16 entries
+$ Leading and trailing spaces are stripped from questions and answers
+
+1,Which is NOT a rearrangement of&3+t = 9,t+9 = 6,t+3 = 9,9 = t+3,9 = 3+t,t = 9-3,9-3 = t,3 = 9-t,9-t = 3,3+t-9 = 0,9-t-3 = 0 
+1,Which is NOT a rearrangement of&a+6 = 8,2a+6 = 8,6+a = 8,8 = a+6,8 = 6+a,a = 8-6,8-6 = a,6 = 8-a,8-a = 6,a+6-8 = 0,8-a-6 = 0
+1,Which is NOT a rearrangement of&x+4 = 5,x+4x = 5,4+x = 5,5 = x+4,5 = 4+x,x = 5-4,5-4 = x,4 = 5-x,5-4 = x,x+4-5 = 0,5-4-x = 0
+1,Which is NOT a rearrangement of&f+7 = 9,2 = f+7,7+f = 9,9 = f+7,9 = 7+f,f = 9-7,9-7 = f,7 = 9-f,9-f = 7,f+7-9 = 0,9-f-7 = 0
+1,Which is NOT a rearrangement of&x+3 = 15,x+12 = 3,3+x = 15,15 = x+3,15 = 3+x,x = 15-3,15-3 = x,3 = 15-x,15-x = 3,x+3-15 = 0,15-x-3 = 0
+1,Which is NOT a rearrangement of&g+1 = 10,g+1 = 20,1+g = 10,10 = 1+g,10 = g+1,g = 10-1,10-1 = g,1 = 10-g,10-g = 1,g+1-10 = 0,10-g-1 = 0
+1,Which is NOT a rearrangement of&5+x = 7,5-x = 17,x+5 = 7,7 = x+5,7 = 5+x,x = 7-5,7-5 = x,5 = 7-x,7-x = 5,5+x-7 = 0,7-x-5 = 0
+1,Which is NOT a rearrangement of&9+h = 10,h+19 = 0,h+9 = 10,10 = 9+h,10 = h+9,h = 10-9,10-9 = h,9 = 10-h,10-h = 9,9+h-10 = 0,10-h-9 = 0
+1,Which is NOT a rearrangement of&1+r = 4,r = 5+0,r+1 = 4,4 = r+1,4 = 1+r,r = 4-1,4-1 = r,1 = 4-r,4-r = 1,r+1-4 = 0,4-r-1 = 0
+1,Which is NOT a rearrangement of&8 = x+4,x-4 = 12,x+4 = 8,4+x = 8,8 = 4+x,x = 8-4,8-4 = x,4 = 8-x,8-x = 4,x+4-8 = 0,8-x-4 = 0
+1,Which is NOT a rearrangement of&7 = y+7,y+14 = 0,y+7 = 7,7+y = 7,7 = 7+y,y = 7-7,7-7 = y,7 = 7-y,7-y = 7,y+7-7 = 0,7-y-7 = 0
+1,Which is NOT a rearrangement of&10 = 3+x,10 = 3+3x,x+3 = 10,3+x = 10,10 = x+3,x = 10-3,10-3 = x,3 = 10-x,10-x = 3,x+3-10 = 0,10-x-3 = 0
+1,Which is NOT a rearrangement of&9 = 5+b,4 = b+9,b+5 = 9,5+b = 9,9 = b+5,b = 9-5,9-5 = b,5 = 9-b,9-b = 5,b+5-9 = 0,9-b-5 = 0
+1,Which is NOT a rearrangement of&16 = 4+c,16c = 4+1,c+4 = 16,4+c = 16,16 = c+4,c = 16-4,16-4 = c,4 = 16-c,16-c = 4,c+4-16 = 0,16-c-4 = 0
+1,Which is NOT a rearrangement of&x-1 = 5,x = 15,5 = x-1,x = 5+1,x = 1+5,5+1 = x,1+5 = x,x-5 = 1,1 = x-5,x-1-5 = 0,5-x+1 = 0
+1,Which is NOT a rearrangement of&z-9 = 2,2z = 18,2 = z-9,z = 9+2,z = 2+9,9+2 = z,2+9 = z,z-2 = 9,9 = z-2,z-9-2 = 0,2-z+9 = 0
+1,Which is NOT a rearrangement of&6 = x-2,x = 4+0,x-2 = 6,x = 6+2,x = 2+6,6 = 2 = x,2+6 = x,x-6 = 2,2 = x-6,x-2-6 = 0,6-x+2 = 0
+1,Which is NOT a rearrangement of&x-5 = 3,3x = 5-1,3 = x-5,x = 5+3,x = 3+5,3+5 = x,x-3 = 5,5 = x-3,5+3 = x,x-5-3 = 0,3-x+5 = 0
+1,Which is NOT a rearrangement of&4 = t-7,t = 2+1,t-7 = 4,t = 4+7,t = 7+4,4+7 = t,7+4 = t,t-4 = 7,7 = t-4,t-7-4 = 0,4-t+7 = 0
+1,Which is NOT a rearrangement of&3-u = 8,3u = 8-1,8 = 3-u,3-8 = u,u = 3-8,3-u-8 = 0,8-3+u = 0,3 = 8+u,3 = u+8,u+8 = 3,8+u = 3
+1,Which is NOT a rearrangement of&3v = 12,v = 12-3,12 = 3v,[12/ 3] = v,v = [12/ 3],[12/ v] = 3,3 = [12/ v],3v-12 = 0,0 = 12-3v
+1,Which is NOT a rearrangement of&4x = 12,2x = 6-2,12 = 4x,[12/ 4] = x,x = [12/ 4],[12/ x] = 4,4 = [12/ x],4x-12 = 0,0 = 12-4x
+1,Which is NOT a rearrangement of&3w = 15,w = 45,15 = 3w,[15/ 3] = w,w = [15/ 3],[15/ w] = 3,3 = [15/ w],3w-15 = 0,0 = 15-3w
+1,Which is NOT a rearrangement of&2t = 10,t = 5+1,10 = 2t,t = [10/ 2],[10/ 2] = t,[10/ t] = 2,2 = [10/ t],2t-10 = 0,0 = 10-2t
+1,Which is NOT a rearrangement of&4x = 7,x = 3+1,7 = 4x,[7/4] = x,x = [7/4],[7/x] = 4,4 = [7/x],4x-7 = 0,0 = 7-4x
+1,Which is NOT a rearrangement of&5n = 8,n = 1+5,8 = 5n,[8/5] = n,n = [8/5],[8/n] = 5,5 = [8/n],5n-8 = 0,0 = 8-5n
+1,Which is NOT a rearrangement of&6q = 12,q+6 = 12,12 = 6q,[12/ 6] = q,q = [12/ 6],[12/ q] = 6,6 = [12/ q],6q-12 = 0,0 = 12-6q
+1,Which is NOT a rearrangement of&3x = 9,x = 9-3,9 = 3x,[9/3] = x,x = [9/3],[9/x] = 3,3 = [9/x],3x-9 = 0,0 = 9-3x
+1,Which is NOT a rearrangement of&2g = 14,7g = 2,14 = 2g,[14/ 2] = g,g = [14/ 2],[14/ g] = 2,2 = [14/ g],2g-14 = 0,0 = 14-2g
+1,Which is NOT a rearrangement of&20 = 5x,[ 5/20] = x,5x = 20,[20/ 5] = x,x = [20/ 5],[20/ x] = 5,5 = [20/ x],5x-20 = 0,0 = 20-5x
+1,Which is NOT a rearrangement of&Ωj = 5,2j+2 = 5,5 = [j/2],2(5) = j,j = 5(2),[j/2] - 5 = 0,0 = 5 - [j/2],2 = [j/5],[j/5] = 2
+1,Which is NOT a rearrangement of&øk = 1,k-3 = 1,1 = [k/3],3(1) = k,k = 1(3),[k/3] - 1 = 0,0 = 1 - [k/3],3 = [k/1],[k/1] = 3
+1,Which is NOT a rearrangement of&ºn = 3,4n = 3,3 = [n/4],3(4) = n,n = 4(3),[n/4] - 3 = 0,0 = 3 - [n/4],[n/3] = 4,4 = [n/3]
+1,Which is NOT a rearrangement of&¡x = 7,7x-5 = 0,7 = [x/5],5(7) = x,x = 7(5),[x/5] - 7 = 0,0 = 7 - [x/5],5 = [x/7],[x/7] = 5
+1,Which is NOT a rearrangement of&…z = 5,6 = 5z-1,5 = [6/z],6(5) = z,z = 5(6),[z/6] - 5 = 0,0 = 5 - [z/6],6 = [z/5],[z/5] = 6
+1,Which is NOT a rearrangement of&Àu = 2,14 = u-1,2 = [u/7],2(7) = u,u = 7(2),[u/7] - 2 = 0,0 = 2 - [u/7],7 = [u/2],[u/2] = 7
+1,Which is NOT a rearrangement of&≈x = 3,3 = 8x-1,3 = [x/8],8(3) = x,x = 3(8),[x/8] - 3 = 0,0 = 3 - [x/8],8 = [x/3],[x/3] = 8
+1,Which is NOT a rearrangement of&—p = 5,[p/9] = p,5 = [p/9],5(9) = p,p = 9(5),[p/9] - 5 = 0,0 = 5 - [p/9],9 = [p/5],[p/5] = 9
+1,Which is NOT a rearrangement of&Ωq = 7,2q-1 = 7,7 = [q/2],2(7) = q,q = 7(2),[q/2] - 7 = 0,0 = 7 - [q/2],2 = [q/7],[q/7] = 2
+1,Which is NOT a rearrangement of&øx = 8,8 = (3)x-3,8 = [x/3],3(8) = x,x = 8(3),[x/3] - 8 = 0,0 = 8 - [x/3],3 = [x/8],[x/8] = 3
+2,Which is NOT a rearrangement of&2m+1 = 3?,mé+3 = 1,-2m-1 = -3,0 = 3-2m-1,2m+1-3 = 0,2m = 3-1,m = [3-1/ 2],2 = [3-1/ m],1 = 3-2m,1 = [ 1/3-2m]
+2,Which is NOT a rearrangement of&2c+3 = 5?,5c = 2+3,-2c-3 = -5,0 = 5-2c-3,2c+3-5 = 0,2c = 5-3,c = [5-3/ 2],2 = [5-3/ c],3 = 5-2c,[1/3] = [ 1/5-2c]
+2,Which is NOT a rearrangement of&2d+5 = 7?,2d = 35,-2d-5 = -7,7-2d-5 = 0,0 = 2d+5-7,2d = 7-5,d = [7-5/ 2],2 = [7-5/ d],5 = 7-2d,[1/5] = [ 1/7-2d]
+2,Which is NOT a rearrangement of&2x+7 = 9?,7+9 = [x/2],-2x-7 = -9,9-2x-7 = 0,0 = 2x+7-9,2x = 9-7,x = [9-7/ 2],2 = [9-7/ x],7 = 9-2x,[1/7] = [ 1/9-2x]
+2,Which is NOT a rearrangement of&2a-1 = 7?,2a+7 = 5,1-2a = -7,0 = 7-2a+1,2a-1-7 = 0,2a = 7+1,a = [7+1/ 2],2 = [7+1/ a],1 = 2a-7,1 = [ 1/2a-7]
+2,Which is NOT a rearrangement of&2s-3 = 5?,2s = 15-1,3-2s = -5,0 = 5-2s+3,2s-3-5 = 0,2s = 5+3,s = [5+3/ 2],2 = [5+3/ s],3 = 2s-5,[1/3] = [ 1/2s-5]
+2,Which is NOT a rearrangement of&2t-5 = 3?,5t-3 = 4,5-2t = -3,0 = 3+5-2t,2t-5-3 = 0,2t = 3+5,t = [3+5/ 2],2 = [3+5/ t],5 = 2t-3,[1/5] = [ 1/2t-3]
+2,Which is NOT a rearrangement of&2u-7 = 1?,14+u = 0,7-2u = -1,1-2u+7 = 0,0 = 2u-7-1,2u = 1+7,u = [1+7/ 2],7 = 2u-1,[1/7] = [ 1/2u-1],2 = [1+7/ u]
+2,Which is NOT a rearrangement of&3t+1 = 4?,2t = 5,-3t-1 = -4,0 = 4-3t-1,3t+1-4 = 0,3t = 4-1,t = [4-1/ 3],3 = [4-1/ t],1 = 4-3t,1 = [ 1/4-3t]
+2,Which is NOT a rearrangement of&3m+2 = 5?,m = 3-4,-3m-2 = -5,0 = 5-3m-2,3m+2-5 = 0,3m = 5-2,m = [5-2/ 3],3 = [5-2/ m],2 = 5-3m,[1/2] = [ 1/5-3m]
+2,Which is NOT a rearrangement of&3v+4 = 7?,v+1 = 1,-3v-4 = -7,0 = 7-3v-4,3v+4-7 = 0,3v = 7-4,v = [7-4/ 3],3 = [7-4/ v],4 = 7-3v,[1/4] = [ 1/7-3v]
+2,Which is NOT a rearrangement of&3x+5 = 8?,8x+5 = 3,-3x-5 = -8,8-3x-5 = 0,0 = 3x+5-8,3x = 8-5,x = [8-5/ 3],3 = [8-5/ x],5 = 8-3x,[1/5] = [ 1/8-3x]
+2,Which is NOT a rearrangement of&3x+7 = 10?,xè+7 = 10,-3x-7 = -10,0 = 10-3x-7,3x+7-10 = 0,3x = 10-7,x = [10-7/ 3],3 = [10-7/ x],7 = 10-3x,[1/7] = [  1/10-3x]
+2,Which is NOT a rearrangement of&4c-1 = 3?,2cé-3 = 6,1-4c = -3,0 = 3-4c+1,4c-1-3 = 0,4c = 3+1,c = [3+1/ 4],4 = [3+1/ c],1 = 4c-3,1 = [ 1/4c-3]
+2,Which is NOT a rearrangement of&4x-2 = 2?,x-1 = 2,2-4x = -2,2-4x+2 = 0,0 = 4x-2-2,4x = 2+2,x = [2+2/ 4],4 = [2+2/ x],2 = 4x-2,[1/2] = [ 1/4x-2]
+2,Which is NOT a rearrangement of&4t-3 = 1?,12t = 1,3-4t = -1,0 = 1-4t+3,4t-3-1 = 0,4t = 1+3,t = [1+3/ 4],4 = [1+3/ t],3 = 4t-1,[1/3] = [ 1/4t-1]
+2,Which is NOT a rearrangement of&5c+2 = 7?,10c+7 = 0,-5c-2 = -7,0 = 7-5c-2,5c+2-7 = 0,5c = 7-2,c = [7-2/ 5],5 = [7-2/ c],2 = 7-5c,[1/2] = [ 1/7-5c]
+2,Which is NOT a rearrangement of&5p+3 = 8?,p = 0,-5p-3 = -8,8-5p-3 = 0,0 = 5p+3-8,5p = 8-3,p = [8-3/ 5],5 = [8-3/ p],3 = 8-5p,[1/3] = [ 1/8-5p]
+2,Which is NOT a rearrangement of&5t+4 = 9?,4t+5 = 0,-5t-4 = -9,0 = 9-5t-4,5t+4-9 = 0,5t = 9-4,t = [9-4/ 5],5 = [9-4/ t],4 = 9-5t,[1/4] = [ 1/9-5t]
+2,Which is NOT a rearrangement of&5r+6 = 11?,r = 6+16,-5r-6 = -11,11-5r-6 = 0,0 = 5r+6-11,5r = 11-6,r = [11-6/ 5],5 = [11-6/ r],6 = 11-5r,[1/6] = [  1/11-5r]
+3,Which is NOT a rearrangement of&yé+y-2 = 0?,yè-2 = 0,(y+1)y-2 = 0,yé = 2-y,y = 2-yé,y = [2-y/ y],yé+y = 2,2 = y(y+1),2 = yé+y,(y-1)(y+2)=0
+3,Which is NOT a rearrangement of&xé+2x-3 = 0?,(3x+1)(x+1)=0,x(x+2)-3 = 3,xé = 3-2x,2x = 3-xé,x = [3-xé/ 2],xé+2x = 3,(x+2)x = 3,(x-1)(x+3)=0,x = [ 3/x+2]
+3,Which is NOT a rearrangement of&xé+2x-8 = 0?,(2+2)(x+8)=0,(x-2)(x+4)=0,x(x+2)-8 = 0,xé = 8-2x,2x = 8-xé,x = [8-xé/ 2],xé+2x = 8,(x+2)x = 8,x = [ 8/x+2]
+3,Which is NOT a rearrangement of&aé+3a-10 = 0?,3aé+a+10 = 0,(a-2)(a+5)=0,a(a+3)-10=0,aé = 10-3a,3a = 10-aé,a = [10-aé/  3],aé+3a = 10,(a+3)a = 10,a = [10/a+3]
+3,Which is NOT a rearrangement of&aé+3a-4 = 0?,3aé = 4-a,a(a+3)-4 = 0,aé = 4-3a,3a = 4-aé,a = [4-aé/ 3],aé+3a = 4,(a+3)a = 4,(a-1)(a+4)=0,a = [ 4/a+3]
+3,Which is NOT a rearrangement of&bé+4b-12 = 0?,b+bê-12 = 0,(b-2)(b+6)=0,b(b+4)-12=0,bé = 12-4b,4b = 12-bé,b = [12-bé/  4],bé+4b = 12,(b+4)b = 12,b = [12/b+4] 
+3,Which is NOT a rearrangement of&pé+4p-5 = 0?,4pé+p-5 = 0,p(p+4)-5 = 0,pé = 5-4p,4p = 5-pé,p = [5-pé/ 4],pé+4p = 5,(p+4)p = 5,(p-1)(p+5)=0,4pé = 5-p,p = [ 5/p+4]
+3,Which is NOT a rearrangement of&té+5t-6 = 0?,té+5t = 36,(t-1)(t+6)=0,t(t+5)-6 = 0,té = 6-5t,5t = 6-té,t = [6-té/ 5],té+5t = 6,(t+5)t = 6,t = [ 6/t+5]
+3,Which is NOT a rearrangement of&ré+r-6 = 0?,3r(2-ré)=2,(r-2)(r+3)=0,r(r+1)-6 = 0,ré = 6-r,r = 6-ré,-r = ré-6,ré+r = 6,(r+1)r = 6,r = [ 6/r+1]
+3,Which is NOT a rearrangement of&xé-2x+1 = 0?,xé-x = 10,(x-1)(x-1)=0,x(x-2)+1 = 0,xé = 2x-1,2x = xé+1,(x-1)é = 0,x = [1+xé/ 2],(x-2)x+1 = 0,x = [-1/x-2]
+3,Which is NOT a rearrangement of&mé-3m+2 = 0?,(2m-1)(3m-2)=0,(m-1)(m-2)=0,m(m-3)+2 = 0,mé = 3m-2,3m = mé+2,m = [mé+2/ 3],mé-3m = -2,(m-3)m = -2,m = [-2/m-3]
+3,Which is NOT a rearrangement of&xé-4x+3 = 0?,xé-x = 12,(x-1)(x-3)=0,x(x-4)+3 = 0,xé = 4x-3,4x = xé+3,x = [xé+3/ 4],xé-4x = -3,(x-4)x = -3,x = [-3/x-4]
+3,Which is NOT a rearrangement of&té-4t+4 = 0?,(t-4)(t-4)=0,(t-2)é = 0,t(t-4)+4 = 0,té = 4t-4,4t = té+4,t = [té+4/ 4],té-4t = -4,(t-4)t = -4,t = [-4/t-4]
+3,Which is NOT a rearrangement of&xé-5x+4 = 0?,5xé = 4-x,(x-1)(x-4)=0,x(x-5)+4 = 0,xé = 5x-4,5x = 4+xé,x = [4+xé/ 5],xé-5x = -4,(x-5)x = -4,x = [-4/x-5]
+3,Which is NOT a rearrangement of&né-5n+6 = 0?,(n-6)é = 0,(n-2)(n-3)=0,n(n-5)+6 = 0,né = 5n-6,5n = né+6,n = [6+né/ 5],né-5n = -6,(n-5)n = -6,n = [-6/n-5]  
+3,Which is NOT a rearrangement of&sé-6s+5 = 0?,-6(sé-2)=5,(s-1)(s-5)=0,s(s-6)+5 = 0,sé = -5+6s,6s = sé+5,s = [sé+5/ 6],sé-6s = -5,(s-6)s = -5,s = [-5/s-6]
+3,Which is NOT a rearrangement of&vé-6v+8 = 0?,2(v-6) = 8,(v-2)(v-4)=0,v(v-6)+8 = 0,vé = 6v-8,6v = vé+8,v = [8+vé/ 6],vé-6v = -8,(v-6)v = -8,v = [-8/v-6]
+3,Which is NOT a rearrangement of&xé-6x+9 = 0?,xé(x-3) = 0,(x-3)(x-3)=0,x(x-6)+9 = 0,xé = 6x-9,(x-3)é = 0,6x = xé+9,x = [9+xé/ 6],xé-6x = -9,(x-6)x+9 = 0
+3,Which is NOT a rearrangement of&zé-7z+10 = 0?,10zé+2z = 7,(z-2)(z-5)=0,z(z-7)+10=0,zé = 7z-10,7z = 10+zé,z = [zé+10/  7],zé-7z = -10,(z-7)z+10 = 0,z = [-10/z-7]
+3,Which is NOT a rearrangement of&mé-7m+6 = 0?,3mè+2m-3 = 0,(m-1)(m-6)=0,m(m-7)+6 = 0,mé = 6+7m,7m = mé+6,m = [mé+6/ 7],mé-7m = -6,(m-7)m = -6,m = [-6/m-7]
+3,Which is NOT a rearrangement of&té-8t+12 = 0?,4(t-4+3)=0,(t-2)(t-6)=0,t(t-8)+12=0,té = 8t-12,8t = té+12,t = [12+té/  8],té-8t = -12,(t-8)t+12=0,t = [-12/t-8]
+3,Which is NOT a rearrangement of&yé-y-56 = 0?,3yé-y = 56,yé = y+56,y(y-1) = 56,y = [56/y-1],(y-8)(y+7)=0,y = yé-56,y-yé = -56,y(1-y) = -56
+4,Which is NOT a rearrangement of&s = Ω(a+b+c)?,aé+bé+cé = s,s = [a/2]+[b/2]+[c/2],2s = a+b+c,2s-a = b+c,2s-b = a+c,2s-c = b+c,2s-b-c = a,2s-a-b = c,2s-a-c = b,s = [a+b+c/  2]  
+4,Which is NOT a rearrangement of&A+B+C = 180?,(A+B+C)180=1,A+B = 180-C,A+C = 180-B,B+C = 180-A,A = 180-B-C,B = 180-A-C,C = 180-A-B,A=180-(B+C),B=180-(A+C),C=180-(A+B),[(A+B+C)/  180] = 1
+4,Which is NOT a rearrangement of&A = ~{s(s-a)(s-b)(s-c)}?,Asé = (s-a)(s-b)(s-c),Aé = s(s-a)(s-b)(s-c),[ Aé/(s-a)] = s(s-b)(s-c),[ Aé/(s-b)] = s(s-a)(s-c),[ Aé/(s-c)] = s(s-a)(s-b),[   Asé/(s-a)(s-b)] = s(s-c),[   Aé/(s-b)(s-c)] = s(s-a),[   Aé/(s-a)(s-c)] = s(s-b),[      Aé/(s-a)(s-b)(s-c)] = s
+4,Which is NOT a rearrangement of&A = ΩabsinC?,A=[abc/sinC],2A = absinC,[2A/ab] = sinC,[ 2A/asinC] = b,[ 2A/bsinC] = a,A = [absinC/  2],A = [b/2]asinC,A = ab[sinC/ 2],A = [a/2]bsinC,2 = [absinC/  a],ab = [ 2A/sinC]
+4,Which is NOT a rearrangement of&A = ÿré?,C = 2ÿr,[A/ÿ] = ré,[~A/~ÿ] = r,[A/ré] = ÿ,A-ÿré = 0,0 = ÿré-A,[A/ÿr] = r,[A/r] = ÿr
+4,Which is NOT a rearrangement of&C = 2ÿr?,2C = ÿré,[C/r] = 2ÿ,[C/ÿ] = 2r,r = [C/2ÿ],ÿ = [C/2r],[ÿr/C] = [1/2],2ÿr-C = 0,C-2ÿr = 0,[C/ÿr] = 2
+4,Which is NOT a rearrangement of&D = SöT?,SöTöD = 100,SöT-D = 0,[ D/SöT] = 1,S = [D/T],T = [D/S],S - [D/T] = 0,T - [D/S] = 0,[SöT/ D] = 1
+4,Which is NOT a rearrangement of&550H = FV?,550 = [FVé/Hé],H = [FV/550],V = [550H/ F],F = [550H/ V],[H/V] = [ F/550],[H/F] = [ V/550],FV-550H = 0,550H-FV = 0,[V/H] = [550/ F],[F/H] = [550/ V]
+4,Which is NOT a rearrangement of&I = PRT˜100?,I/T = PRé,100I = PRT,[100I/ P] = RT,[100I/ R] = PT,[100I/ T] = PR,[100I/ PR] = T,[100I/ PT] = R,[100I/ RT] = P,I - [PRT/100] = 0,[PRT/100] - I = 0
+4,Which is NOT a rearrangement of&P = 2(l+b)?,P = [lb/2],P = 2l+2b,[ P/l+b] = 2,[l+b/ P] = [1/2],P-2(l+b) = 0,P-2l-2b = 0,[P/2] = (l+b),ΩP-l = b,ΩP-b = l,2l+2b-P = 0,P = l+l+b+b
+4,Which is NOT a rearrangement of&R = ab˜(a+b)?,R = [a+b/ab],R(a+b) = ab,[R(a+b)/  a] = b,[R(a+b)/  b] = a,aR+bR = ab,[R+bR/  a] = b,[aR/b] + R = a,[1/R] = [a+b/ab],[1/R] = [1/a] + [1/b]
+4,Which is NOT a rearrangement of&S = Ωn(n+1)?,S-[n/2]=(n-1),2S = n(n+1),[2S/n] = (n+1),2S = né+n,[ 2S/(n+1)] = n,[2S/n] - n = 1,[n/2](n+1)-S = 0,0 = S - [n/2](n+1),2S-n = né
+4,Which is NOT a rearrangement of&T = Ω(a+b)h?,hT = 2(a+b),T = [h(a+b)/  2],2T = (a+b)h,2T = ah+bh,[ 2T/(a+b)] = h,2T-bh = ah,2T-ah = bh,[(2T-bh)/   h] = a,[(2T-ah)/   h] = b
+4,Which is NOT a rearrangement of&T = Ωbh?,T = 2bh,T = b[h/2],T = h[b/2],T = [bh/2],2T = bh,[2T/b] = h,[2T/h] = b,2 = [bh/T],T = [b/2]h
+4,Which is NOT a rearrangement of&T = ◊x˜a ?,a = ◊x+T,Ta = ◊x,[Ta/◊] = x,[Ta/x] = ◊,a = [◊x/T],[1/T] = [a/◊x],T  - [◊x/a] = 0  
+4,Which is NOT a rearrangement of&T = a+(n-1)d?,n = and+1,a-T+(n-1)d=0,0=T-a-(n-1)d,T-a = (n-1)d,[ T-a/(n-1)] = d,[T-a/ d] = (n-1),[T-a/ d] + 1 = n,a = T-(n-1)d
+4,Which is NOT a rearrangement of&V = øbh?,v = (bh)è,3V = bh,[3V/b] = h,[3V/h] = b,[1/3V] = [1/bh],[1/3] = [V/bh],3 = [bh/V],V - [bh/3] = 0,øV = [1/bh],ø = [V/bh]
+4,Which is NOT a rearrangement of&V = ÿréh,V = ÿ+réh,[V/ÿ] = réh,[V/h] = ÿré,[V/hr] = ÿr,[V/ÿr] = hr,h = [ V/ÿré],ÿ = [ V/hré],V-ÿréh = 0
+4,Which is NOT a rearrangement of&V = lbh?,V = (lbh)è,[V/l] = bh,[V/b] = lh,[V/h] = lb,[V/lb] = h,[V/lh] = b,[V/bh] = l,V-lbh = 0,lbh-V = 0
+4,Which is NOT a rearrangement of& s = Ωgté?,s = gété,s = [gté/ 2],[1/s] = [ 2/gté],1 = [2s/gté],[2s/g] = té,[s/g] = [té/2],[g/s] = [2/té],2s-gté = 0
+4,Which is NOT a rearrangement of&v = u+at?,vat-u = 0,v-u = at,[v-u/ t] = a,[v-u/ a] = t,v-at = u,v-u-at = 0,u+at-v = 0,at-v+u = 0
+4,Which is NOT a rearrangement of&y = ax+b?,xé+3 = 1,-y = -ax-b,0 = ax+b-y,y-ax-b = 0,y-b = ax,[y-b/ a] = x,[y-b/ x] = a,y-ax = b,[1/y] = [ 1/ax+b]
+4,Which is NOT a rearrangement of&y = mx+c?,yc = mx-1,-y = -mx-c,y-c = mx,[y-c/ m] = x,[y-c/ x] = m,c = y-mx,mx+c-y = 0,0 = y-mx-c,[1/y] = [ 1/mx+c]
+4,Which is NOT a rearrangement of&W = mg,Wmg = 0,W = gm,m = [W/g],g = [W/m],[W/m] = g,[W/g] = m,W-mg = 0,mg-W = 0,[W/mg] = 1,[mg/W] = 1
+4,Which is NOT a rearrangement of&F = µR,FµR = 0,F = Rµ,µ = [F/R],R = [F/µ],[F/µ] = R,[F/R] = µ,F-µR = 0,µR-F = 0,[F/µR] = 1,[µR/F] = 1
+4,Which is NOT a rearrangement of&P = hd,Phd = 0,P = dh,h = [P/d],d = [P/h],[P/h] = d,[P/d] = h,P-hd = 0,hd-P = 0,[P/hd] = 1,[hd/P] = 1
+4,Which is NOT a rearrangement of&I = Pt,IPt = 0,I = tP,P = [I/t],t = [I/P],[I/P] = t,[I/t] = P,I-Pt = 0,Pt-I = 0,[I/Pt] = 1,[Pt/I] = 1
+4,Which is NOT a rearrangement of&v = n◊,vn◊ = 0,v = ◊n,n = [v/◊],◊ = [v/n],[v/n] = ◊,[v/◊] = n,v-n◊ = 0,n◊-v = 0,[v/n◊] = 1,[n◊/v] = 1
+4,Which is NOT a rearrangement of&P = 1/v,Pv = 0,[1/v] = P,Pv = 1,[1/P] = v,[1/Pv] = 1,P-[1/v] = 0,v-[1/P] = 0,[1/P]-v = 0,0 = [1/v]-P
+4,Which is NOT a rearrangement of&M = L/E,ME = 0,[L/E] = M,ME = L,[L/M] = E,[L/ME] = 1,M-[L/E] = 0,E-[L/M] = 0,[L/M]-E = 0,0 = [L/E]-M
+4,Which is NOT a rearrangement of&I = KL/dé,2I = [KL/d],Idé = KL,[Idé/K] = L,[Idé/L] = K,dé = [KL/I],[1/I] = [dé/KL],I - [KL/dé] = 0  
+4,Which is NOT a rearrangement of&T = ◊x˜l ?,l = T + ◊x,Tl = ◊x,[Tl/◊] = x,[Tl/x] = ◊,l = [◊x/T],[1/T] = [l/◊x],T  - [◊x/l] = 0
+4,Which is NOT a rearrangement of&E = mgh?,Em = gh,[E/m] = gh,[E/g] = mh,[E/h] = mg,[E/mg] = h,[E/mh] = g,[E/gh] = m,E-mgh = 0,mgh-E = 0
