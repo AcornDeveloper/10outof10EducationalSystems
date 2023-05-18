@@ -1,0 +1,78 @@
+$ Stones word file structure
+$ <sub grade>,<phrase>,<phrase>, ...
+$ maximum length of each phrase must be 32 characters or less
+$ each entry must have from 4 to 16 parts to it
+$ practice Grade 1 are alphabetic and other common sequences
+$ practice Grade 2 are numeric sequences
+$ practice Grade 3 are based on order
+$ practice Grade 4 are everyday routines
+$ Super Grade are tricky and harder questions
+
+1,Jan,Feb,Mar,Apr,May,June,July,Aug,Sept,Oct,Nov,Dec
+1,January,February,March,April,May,June,July,August,September,October,November,December
+1,Sun,Mon,Tues,Wed,Thu,Fri,Sat
+1,Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday
+1,a,b,c,d,e,f,g,h
+1,a,e,i,o,u
+1,doh,ray,me,fa,soh,la,te,DOH
+1,f,g,h,i,j,k,l,m,n
+1,g,h,i,j,k,l,m,n
+1,m,n,o,p,q,r,s,t
+1,o,p,q,r,s,t,u,v
+1,s,t,u,v,w,x,y,z
+2,1+0+0,0+2+0,1+1+1,2+1+1,2+1+2,3+0+3,4+1+2,4+2+2
+2,1+0+0,1+0+1,0+1+2,2+2+0,2+1+2,3+1+2,0+3+4,4+4+0
+2,eleven,twelve,thirteen,fourteen,fifteen,sixteen,seventeen,eightteen,nineteen,twenty
+2,five,ten,fifteen,twenty,twenty-five
+2,one,three,five,seven,nine,eleven
+2,one,two,three,four,five,six,seven,eight,nine,ten
+2,ten,twenty,thirty,forty,fifty,sixty,seventy,eighty,ninety
+2,ten,twenty,thirty,forty,fifty,sixty,seventy,eighty,ninety,one hundred
+2,two,four,six,eight,ten,twelve
+2,ten,nine,eight,seven,six,five,four,three,two,one
+2,twelve,ten,eight,six,four,two
+2,eleven,nine,seven,five,three,one
+3,baby,toddler,child,teenager,dad,grand-dad
+3,bike car,van,lorry,train
+3,calm,breeze,windy,gale,hurricane
+3,crying,sad,straight-faced,smiling,grinning,laughing
+3,finger nail,stamp,postcard,librarybook,newspaper,desk-top,carpet
+3,grape,plum,peach,orange,grapefruit,melon
+3,house,street,town,country,world,universe
+3,icy,cool,warm,hot,boiling
+3,leaf,twig,branch,trunk,tree,forest
+3,plant-pot,flower-bed,garden,field,farm
+3,raindrop,spoonful,cup,jug,bucket,barrel,bath,pond,lake,sea
+3,rice grain,dice,match box,bag of sugar,shoe box,TV,tool shed,house
+3,seed,shoot,plant,flower,fruit
+3,tiny,small,medium,big,giant
+4,boil the egg,crack the shell,take off the top,eat the egg,throw the egg-shell away
+4,decide to clean your shoes,find the polish and brush,put polish on the shoes,brush the shoes,finish off with a soft cloth,put polish away.
+4,fill bath,test the water,undress,climb in,wash,climb out,get dry,get dressed
+4,find medicine,shake bottle,take off lid,pour onto spoon,swallow medicine,put medicine away
+4,find pen and paper,write your letter,find an envelope,address the envelope,put a stamp on,walk to the post box,post your letter.
+4,get plant-pot,fill with soil,plant bulb,water it,see green shoot,look at flower
+4,go to bed,go to sleep,wake up,get out of bed,wash and dress,have breakfast,off to school
+4,go to playground,think what to do,pick the slide,climb the steps,sit on slope,slide down,stand-up,have another go
+4,pack your things,climb into the car,go near the beach,leave the car in the car park,walk to the beach,take off your shoes,paddle in the water,dry your feet,put your shoes on,go home
+4,pick up your dice,shake them,throw them,add the numbers together,move that number of spaces
+4,set table,serve dinner,eat dinner,serve pudding,eat pudding,clear table
+4,take two slices of bread,spread them with butter,spread the jam on on one piece,put the top slice on,cut into two sandwiches,eat them.
+4,take your bucket and spade,fill the bucket with sand,smooth it off,turn it upside down on the beach,hit the top with your spade,lift the bucket off,look at the sand pie.
+4,think what to do,decide to watch TV,switch on TV,choose the channel,watch the programme,turn off
+4,turn on tap,fill the bowl,put in some soap,wash the cups,dry the cups,put them away
+4,wash face,put on coat,leave house,lock door,walk to shops,do shopping,walk home
+6,1,1,2,3,5,8,13,21,34
+6,ant,bee,cat,dog,egg,fan,goat
+6,bl,br,ch,cl,cr,dr,fr,gr,pr,sh,th
+6,h,g,f,e,d,c,b,a
+6,J,F,M,A,M,J,J,A,S,O,N,D
+6,mercury,venus,earth,mars,saturn,jupiter,neptune,uranus,pluto
+6,o,t,t,f,f,s,s,e,n,t
+6,red,orange,yellow,green,blue,indigo,violet
+6,S,M,T,W,T,F,S
+6,two,three,five,seven,eleven,thirteen,seventeen,twenty-three
+6,violet,indigo,blue,green,yellow,orange,red 
+6,z,y,x,w,v,u,t
+6,letter,word,sentence,paragraph,chapter,book,library
+6,letter,line,page,chapter,book,library

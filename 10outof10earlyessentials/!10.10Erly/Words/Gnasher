@@ -1,0 +1,76 @@
+$ Gnasher word file structure
+$ <Practice (or Super) grade>,<name>,<property 1..4>,<false>,<false> ...
+$ maximum word length of each entry must be 12 characters or less
+$ maximum question length must be 29 characters or less
+$ combined length of properties 1..4 must be 36 characters or less
+
+1,COLOURS,red,yellow,green,blue,dark,light,paint,rock,pen,paper,pencil,book
+1,different sorts of WATER,hailstone,snow,rain,ice,play,milk,pin,oil,bag,nail,soap,push,red
+1,words for HOT,heated,warm,sunny,burning,play,milk,pin,oil,bag,nail,soap,push,red
+1,things you know about MUD,wet,sticky,paste,cold,hot,land,jump,wind,play,do,hard,not
+1,words about RUBBER,springy,bendy,bouncy,elastic,out,cut,pin,weed,dig,week,bag,gun
+1,things about SUGAR,sweet,white,food,gritty,baby,sun,bee,tin,sand,sun,blue,sing
+1,things about TIN,shiny,hard,cold,metal,light,happy,ring,zig-zag,lip,yes,train,flag
+1,things about SOAP,slippy,smooth,bubbly,cleans,ring,tin,doll,peg,bed,pond,moon,run
+1,things that FALL from the SKY,snow,rain,hail,sleet,lemon,dust,sun,star,rug,frog,cat,dog
+1,things that were NEVER ALIVE,rock,glass,gold,wind,cat,dog,frog,bird,hen,cow,ant,bee
+1,things that keep you WARM,vests,blankets,socks,coats,brick,ice,stone,egg,glass,leaf,bark,wood
+2,things about DOUGH,wet,sticky,soft,bendy,not,dry,gritty,pour,flower,gold,horn,paper
+2,words that go with PAPER,tissue,bags,news,brown,men,skip,drink,clear,breakfast,south,sleep,hose-pipe
+2,words about CLAY,wet,heavy,squashy,paste,cold,dry,sharp,misty,bubbly,fir,bags,sweet
+2,things about MILK,white,liquid,drink,food,kitten,solid,smoke,green,baby,zoo,blow,bird
+2,things about SALT,white,salty,gritty,eatable,street,wet,oil,face,smoke,snow,grass,clay
+2,CLOUDY things,mist,fog,haze,smoke,toy,rain,tree,bag,tooth,hot,tap,wash
+2,things about the WIND,breeze,blows,calm,gale,door,buzz,call,clock,blue,sharp,white,lid
+2,things about ICE,cold,water,floats,clear,hot,tree,kitten,hunt,wool,bud,grab,apple
+2,words about GOLD,shiny,yellow,heavy,metal,dark,fun,find,fish,game,leaf,grab,milk
+2,things that POUR,oil,water,milk,lemonade,swim,clay,gold,silver,dull,pencil,fur,flag
+2,bits of a PLANT,leaf,stem,flower,seeds,leg,finger,neck,soil,pot,garden,toe,fork,nose
+2,bits of YOU,foot,neck,leg,head,leaf,paw,hoof,shoe,branch,fin,tail,horn
+3,things that mean WET,damp,water,soaked,soggy,big,bone,food,cat,candle,bean,bell,sunny
+3,LIQUIDS,lemonade,oil,milk,water,wood,cold,push,arms,blue,flower,stem,solid
+3,things made of WATER,ice,frost,icicle,snow,light,bunch,glass,blue,grip,metal,sound,sugar
+3,things about the SKY,dull,cloudy,blue,dark,plant,food,cry,cow,cats,sinks,bow,wool,sweet
+3,things made of WOOD,pencils,matches,doors,trees,brown,water,need,sand,ox,cloud,flame,out
+3,things about the SKY,dull,cloudy,blue,dark,plant,food,cry,cow,cats,sinks,bow,wool,sweet
+3,things that MAKE LIGHT,sun,star,torch,candle,brown,heavy,iron,cotton,milk,plastic,float,breeze
+3,things that were NEVER ALIVE,flags,pebbles,clay,sand,leaf,ant,horn,wool,cotton,paper,dog,bee
+3,things made of METAL,paper-clip,pin,needle,drawing-pin,book,bread,brick,pencil,head,pole,shell,misty
+3,bits of YOU,nose,toe,heel,arm,leaf,jeans,shorts,shirt,trunk,fin,tail,horn
+3,words that join with TIME,breakfast,dinner,play,bed,wish,foot,water,speak,sheet,sing,push,pull
+3,words about MAKING SOUNDS,whisper,shout,sing,speak,walk,float,creep,read,listen,see,taste,bite,snow
+4,things about IRON,heavy,sinks,cold,hard,soft,light,runny,me,shell,seed,rice,stink
+4,SEASONS,spring,summer,autumn,winter,salt,calm,time,pepper,blows,wind,rain,sun
+4,words about FEATHERS,light,warm,float,fluffy,pounce,iron,gold,milk,sugar,mist,bee,clay
+4,things that have SEEDS,apples,grapes,tomatoes,oranges,leaf,twig,stem,leg,petal,shell,straw,roots
+4,hard PLASTIC things,lego,pegs,drain-pipes,plant-pots,bag,clear,rain,polish,rubber,candle,shine,smell
+4,things made of GLASS,glasses,windows,mirror,light-bulb,clear,smell,dough,mud,heavy,horn,ice,skin
+4,BENDY PLASTICS,hose-pipe,wellies,raincoats,bags,needle,pen,rubber,worm,glass,wire,nail,plant-pot
+4,bits of YOU,hand,wrist,ankle,knee,leaf,paw,hoof,sock,twig,fin,tail,horn
+4,things that LIQUIDS will do,pour,splash,sprinkle,run,jump,skip,walk,read,sleep,twinkle,peep,die
+4,bits of YOU,lips,finger,sole,chest,leaf,claw,hoof,shoe,branch,fin,tail,tusk
+4,things to do with WOOD,nail,saw,polish,cut,pour,spring,taste,plastic,cook,drink,sink,splash
+4,TREES,oak,beech,ash,fir,tulip,flower,scent,bird,autumn,wood,table,stick
+4,words that can end in LIGHT,moon,day,sun,torch,flag,pea,heavy,frog,snow,ice,wind,tomato
+4,words about SMELL,scent,stink,odour,sniff,taste,sweet,hear,touch,eye,peanut,compass,steam
+5,things about COTTON,light,warm,plant,fibres,jumps,calm,house,silver,beetle,evening,sea,mine
+5,TASTES of VINEGAR,sharp,sour,acid,liquid,dull,stop,late,straw,butter,chip,toes,sweet
+5,words about LIGHT,glow,flame,shine,dazzle,liquid,gas,dull,solid,tissue,rubber,shove,acid
+5,words about TIME OF DAY,dawn,sunset,evening,noon,spring,summer,autumn,winter,north,south,sun,moon
+5,things MADE from TREES,paper,sticks,boxes,cardboard,rice,water,oil,mirror,plant-pot,lemonade,spider,ant
+5,bits of YOU,ear,thigh,waist,mouth,leaf,paw,hoof,shoe,branch,fin,tail,horn
+5,things that FEEL WARM,wool,paper,rubber,clothes,chill,icicle,cheer,paint,bog,powder,soft,star
+6,words meaning NOT CLEAR,fuzzy,cloudy,blurred,misty,bright,shine,glass,water,winter,window,blizzard,icicle
+6,things that ONCE GREW,rice,oats,currants,raisins,stone,frost,whisper,winter,day,dazzle,sunset,silver
+6,words about LIGHT,twinkle,flicker,gleam,glare,brown,heavy,iron,cotton,milk,plastic,float,breeze
+6,things that were ONCE LIVING,skins,straw,shells,rubber,blurred,drink,plastic,cloudy,fuzzy,plate,flicker,brick
+6,things about BREAD,food,plant,light,squashy,soon,hard,metal,stem,fir,stone,pull,brick
+6,POINTS OF THE COMPASS,north,south,east,west,summer,spring,winter,autumn,up,down,pointed,draws
+6,words for HOT and WET,sweaty,steam,humid,boiling,elastic,tissue,liquid,solid,metal,gas,leather,currants
+6,words about FORCE,push,pull,press,shove,strong,light,cold,gale,floats,mirror,sprinkle,dazzle
+6,things about PLASTICS,light,waterproof,warm,solid,tomato,supper,face,sweet,talk,fire,sky,dawn
+6,things that WERE ALIVE,leather,wood,cork,wool,rock,flag,clay,pebbles,iron,copper,cardboard,compass
+6,things that WERE ALIVE,horn,ivory,fur,leather,water,bright,starlight,leather,hailstone,force,press,pull
+6,bits of YOU,stomach,tongue,shoulder,eyebrow,anorak,footstep,hoof,trainer,branch,scales,leather,antler
+6,things to look THROUGH,glass,ice,window,sellotape,wood,iron,stone,gold,silver,cardboard,rock,rubber
+6,things with SIX LEGS,fly,beetle,bee,ladybird,spider,chicken,cat,dog,worm,frog,snake,boy
