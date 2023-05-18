@@ -1,0 +1,27 @@
+RUN <Obey$Dir>.!SetCode
+WIMPSLOT -min 512K
+SET 10EsIT1$Dir <Obey$Dir>
+<Obey$Dir>.Compload
+RMLOAD <Obey$Dir>.ScnLoad
+ECHO <19><0><16><255><255><255><19><1><16><221><221><221>
+ECHO <19><2><16><187><187><187><19><3><16><153><153><153>
+ECHO <19><4><16><251><185><233><19><5><16><85><85><85>
+ECHO <19><6><16><55><55><55><19><7><16><0><0><0>
+ECHO <19><8><16><0><68><153><19><9><16><238><238><0>
+ECHO <19><10><16><0><204><0><19><11><16><221><0><0>
+ECHO <19><12><16><238><238><187><19><13><16><85><136><0>
+ECHO <19><14><16><255><187><0><19><15><16><0><187><255>
+RMKILL ABC
+<Obey$Dir>.Screen
+<Obey$Dir>.Cymbal
+<Obey$Dir>.Line
+<Obey$Dir>.Pipe
+<Obey$Dir>.Right
+<Obey$Dir>.Rotate
+<Obey$Dir>.Scream
+<Obey$Dir>.Sequence
+<Obey$Dir>.Uff
+<Obey$Dir>.Warp
+<Obey$Dir>.Wrong
+<Obey$Dir>.Yep
+<Obey$Dir>.!RunImage

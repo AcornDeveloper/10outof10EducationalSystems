@@ -1,0 +1,79 @@
+Extra notes for 10/10 Essential Information Technology
+
+GENERAL
+
+ALWAYS USE A BACKUP OF THE DISK as facts like the high scores are constantly
+being written to it. Alternatively, The programs can be installed on a HARD
+DISK. All you need to do is to 'drag' the application to a directory window
+on your hard disk. The disks may only be backed up for your own use on a
+single computer. Copying disks for any other reason is tantamount to theft
+and could lead to prosecution. Site licences are available for
+establishments with more than one computer or with a network.
+
+All high scores and results are saved to disk as you exit from the game.
+Ensure that you LEAVE THE GAMES USING THE EXIT OPTION rather than pressing
+break to ensure your facts are stored.
+
+MEMORY
+
+10 out of 10 will run on all Acorn 32-bit computers, but on a 1 Mb machine
+you may have to switch the computer off for a few seconds and then turn it
+back on.
+
+VGA MONITORS
+
+A utility is included on the disk to allow the package to run on most VGA
+monitors. It is called !ModeTrans and is inside the !10/10 application (hold
+down shift and double-click on the !10/10 application to see it). A help
+file for the utility is inside the !ModeTrans application (hold shift and
+double-click).
+
+CERTIFICATE PRINTING
+
+To print a certificate in graphic form you should select the disk option
+after you've selected print certificate. You should save it onto hard disk
+or a blank formatted disk. You can enter your own filename using the
+standard Acorn "Path.filename" structure.
+
+Depending on your system, a default path or filename is given. If the
+default ends in a dot it is a path and you should enter a filename before
+pressing Return. Note that floppy disk users must leave the default path of
+the floppy drive - usually ADFS::0.$. - in front of the chosen filename.
+
+The saved file will have the name of the player as the filename. This can be
+loaded into Paint and printed in the usual way. We've found that to print an
+A4 certificate on a laser printer the parameters to set when you've chosen
+Print are:
+
+     Portrait
+     X scale       3:2
+     X scale       3:2
+
+  Make sure the centimetre square is highlighted green then:
+
+     Corner X      -3.2   (note the minus)
+     Corner Y       4
+
+END OF GAME CHALLENGE
+
+The aim of the challenge is to convert the binary (base 2) number into a
+decimal number and then press the mouse button when the changing decimal
+number is the same.
+
+To do this simply add up the numbers above - 8 4 2 1 - if there as a '1'
+below it. Then you will have your decimal equivalent. The values displayed
+in the challenge are...
+
+                     0000 - 0    1000 - 8
+                     0001 - 1    1001 - 9
+                     0010 - 2    1010 - 10
+                     0011 - 3    1011 - 11
+                     0100 - 4    1100 - 12
+                     0101 - 5    1101 - 13
+                     0110 - 6    1110 - 14
+                     0111 - 7    1111 - 15
+
+TYPO
+
+Due to the nature of this game pressing 'R' to reveal the current challenge
+and pressing 'P' to pause are not used.

@@ -1,0 +1,67 @@
+    ********  THIS VERSION OF MODETRANS IS ONLY COMPATIBLE WITH  ********    
+    ********                 '10 out of 10'                      ********
+    ********          SOFTWARE RUNNING IN MODE 12.               ********
+
+
+Because of the differences that exist between monitors there are two levels
+of mode substitution offered:
+
+        Level:1  This level produces the best screen aspect ratio but
+                 requires a certain flexibility from the monitor hardware.
+
+        Level:2  This level will work on a much wider range of monitors but
+                 has a slightly elongated display in modes 9,12 and 15.
+
+
+Before using ModeTrans with any software you should test which level of mode
+substitution you need. To do this follow the following procedure:
+
+        After loading the ModeTrans application click on the 'Test' option
+        that you will find in the ModeTrans menu.  The desktop display will
+        then change to a substituted mode 12 at level:1 and then, after
+        about 5 seconds, it will return to the original mode. If during this
+        process the display disappears or becomes corrupted you will need to
+        select level:2 by clicking on the 'Level' menu option. A further
+        selection of 'Test' will confirm the suitability of level:2  
+
+The Maxmem option in the ModeTrans menu will remove the application from the
+icon bar whilst retaining the VGA screen mode. This ensures the maximum
+memory space for any software that you wish to use.
+
+
+The Full version of ModeTrans will enable many games to be played on a VGA
+monitor.  It will also provide a VGA desktop that uses only half the memory
+of modes 27 or 28, this saving of up to 160K can be invaluable, even on a 2
+or 4 Mb machine. ModeTrans is also compatible with multisync monitors.
+
+
+ModeTrans should be compatible with any game that does not attempt to clear
+the computers memory and does not use a specially designed screen mode.
+
+Send your cheque / postal order for £8.95 to:
+
+                   KeySoft
+                   'Ferndorf'
+                   Tarporley Road
+                   Norcott Brook
+                   Warrington
+                   Cheshire
+                   WA4 4DY
+
+If you enclose a Formatted (800K) disc and a stamped addressed envelope the
+price is only £6.50.  (we recommend that you send a padded envelope)
+
+
+ModeTrans has been tested with and found to be compatible with the following
+4D Games :
+
+     Birds of War                Break147 / SuperPool
+     Black Angel                 Dungeon
+     Stunt racer 2000            Drop Ship
+     Chopperforce                X-Fire
+     Galactic Dan                Powerband
+     Carnage Inc                 Pandoras box
+     Demons Lair                 Inertia
+     Cataclysm                   Pandoras Box * requires small change to !Run *
+     Apocalypse                  Enter the Realm  * requires small change to !Run *
+     Nevryon
