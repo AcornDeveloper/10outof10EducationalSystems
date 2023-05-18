@@ -1,0 +1,144 @@
+$ Telescope word file structure
+$ This file may be edited by parents and teachers so that the 10/10
+$ vocabulary may be customised to exactly meet any child's needs.
+$ Take care if you edit this file as the program may fail if you do not have
+$ all the required data in exactly the form shown.
+$ We suggest that you backup this file before you make any changes.
+$ You can restore the original if you have problems.
+$ Lines commencing with $ are ignored.
+
+$ The first command line dictates the level and which way the questions are
+$ presented.
+
+$ Type 1: picture to word    <word>/<graphic name>
+$ Maximum length <word> 12 characters
+$ Type 2: word to picture    <word>/<graphic name>
+$ Maximum length <word> 12 characters
+$ Type 3: word to definition <word>/<definition>/<FALSE>/<FALSE>/<FALSE>
+
+LEVEL1TYPE1
+shirt/shirt
+tie/tie
+scarf/scarf
+jacket/jacket
+trousers/trousers
+socks/socks
+shorts/shorts
+t-shirt/t-shirt
+suit/suit
+vest/vest
+skirt/skirt
+dress/dress
+cardigan/cardigan
+jumper/jumper
+raincoat/raincoat
+cap/cap
+underpants/underpts
+blouse/blouse
+umbrella/umbrella
+gloves/gloves
+LEVEL2TYPE1
+teddy/teddy
+doll/doll
+bat/bat
+hoop/hoop
+ball/ball
+football/football
+bike/bike
+scooter/scooter
+skipping rope/skiprop
+bricks/bricks
+computer/computer
+kite/kite
+soldier/soldiers
+railway track/railtrk
+frisbee/frisbee
+bucket/bucket
+spade/spade
+roller-skates/rolrskt
+car/car
+gun/gun
+LEVEL3TYPE2
+potato/potato
+carrot/carrot
+peas/peas
+cauliflower/cauli
+sprouts/sprouts
+apple/apple
+orange/oran
+pear/pear
+banana/banana
+grapes/grapes
+beef/beef
+bacon/bacon
+fried egg/friedegg
+chocolate/choc
+biscuits/biscuit
+crisps/crisps
+sandwich/sandwich
+pie/pie
+sausage/sausage
+bread/bread
+LEVEL4TYPE3
+potato/you can eat this mashed or baked/pie/apple/biscuit
+carrot/it's good for your eyes and rabbits like them/biscuit/sausage/crisps
+peas/they are green and grow in pods/bananas/cabbage/crisps
+cauliflower/a white vegetable/sprouts/carrot/peas
+apple/one a day keeps the doctor away/biscuit/sausage/egg
+orange/a fruit that is also a colour/peas/bread/carrot
+pear/a fruit that sounds like two/orange/apple/peas
+banana/be careful you don't slip on its skin!/peas/pear/chocolate
+grapes/a fruit that you buy in bunches/apple/orange/sprouts
+beef/a meat from a cow/bacon/chicken/chocolate
+bacon/the meat from a pig/beef/chicken/pie
+fried eggs/they can be boiled or poached/peas/carrot/pie
+chocolate/it's used to make Easter eggs/bacon/bread/apple
+biscuits/they are great with tea/grapes/bacon/bananas
+crisps/they come in lots of flavours/pie/grapes/bacon
+sandwich/a snack made with two slices of bread/pie/chocolate/pear
+pie/food in a crust/sandwich/crisps/eggs
+sausages/squashed meat often called "bangers"/bacon/beef/ham
+bread/this comes in loaves or sticks/banana/crisps/pie
+sprouts/vegetables called Brussels/peas/carrots/beans
+LEVEL5TYPE3
+dog/Which is the odd one out?/swan/whale/shark
+Gillian/Which is the odd one out?/Neale/Peter/David
+ruler/Which is the odd one out?/pen/pencil/crayon
+left/Which is the odd one out?/north/south/west
+America/Which is the odd one out?/Scotland/France/Germany
+black/Which is the odd one out?/red/yellow/blue
+penguin/Which is the odd one out?/thrush/blackbird/robin
+lion/Which is the odd one out?/sheep/cow/pig
+triangle/Which is the odd one out?/square/rectangle/rhombus
+turnip/Which is the odd one out?/apple/orange/pear
+window/Which is the odd one out?/ball/bat/doll
+table/Which is the odd one out?/chair/stool/bench
+grass/Which is the odd one out?/rose/buttercup/daffodil
+bee/Which is the odd one out?/horse/cow/dog
+seagull/Which is the odd one out?/cod/herring/trout
+Tuesday/Which is the odd one out?/April/August/December
+shy/Which is the odd one out?/right/honest/sensible
+France/Which is the odd one out?/England/Scotland/Wales
+orange/Which is the odd one out?/beer/wine/whiskey
+comet/Which is the odd one out?/Earth/Saturn/Pluto
+LEVEL6TYPE3
+Finns/People from Finland are?/French/Asians/Finnians
+Asians/People from Asia are?/Afghans/Algerians/Asyians
+Americans/People from America are?/Argentineans/Africans/Australians
+British/People from Britain are?/Belgians/Brazilians/Burmese
+Burmese/People from Burma are?/British/Brazilians/Burmians
+Belgians/People from Belgium are?/British/Brazilian/Belgiums
+Cubans/People from Cuba are?/Cypriots/Canadians/Cubes
+Cypriots/People from Cyprus are?/Cubans/Chileans/Cypriese
+English/People from England are?/Egyptians/Europeans/Englandars
+Dutch/People from Holland are?/Hollanders/Hungarians/Hollandaise
+Mexicans/People from Mexico are?/Maltese/Moroccans/Mexicoers
+Scots/People from Scotland are?/Swedes/Syrians/Scottys
+Spaniards/People from Spain are?/Scots/Swedes/Spanishers
+Poles/people from Poland are?/Pomanders/Portuguese/Polanders
+Thai/People from Thailand are?/Thailand's/Turks/Thailanders
+Turks/People from Turkey are?/Turkeys/Turkinians/Thai
+Swedes/People from Sweden are?/Sweden's/Swedinians/Swiss
+Swiss/People from Switzerland are?/Swedes/Scots/Switzs
+Irish/People from Ireland are?/Irelands/Italians/Indians
+Maltese/People from Malta are?/Maltase/Maltese's/Maltinians

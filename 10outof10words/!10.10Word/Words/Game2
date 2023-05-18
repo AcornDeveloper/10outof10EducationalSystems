@@ -1,0 +1,144 @@
+$ Crazy Golf word file structure
+$ This file may be edited by parents and teachers so that the 10/10
+$ vocabulary may be customised to exactly meet any child's needs.
+$ Take care if you edit this file as the program may fail if you do not have
+$ all the required data in exactly the form shown.
+$ We suggest that you backup this file before you make any changes.
+$ You can restore the original if you have problems.
+$ Lines commencing with $ are ignored.
+
+$ The first command line dictates the level and which way the questions are
+$ presented.
+
+$ Type 1: picture to word    <word>/<graphic name>
+$ Maximum length <word> 12 characters
+$ Type 2: word to picture    <word>/<graphic name>
+$ Maximum length <word> 12 characters
+$ Type 3: word to definition <word>/<definition>/<FALSE>/<FALSE>/<FALSE>
+
+LEVEL1TYPE1
+cup/cup
+glass/glass
+plate/plate
+saucer/saucer
+knife/knife
+fork/fork
+spoon/spoon
+table/table
+chair/chair
+lamp/lamp
+television/tv
+bucket/bucket
+mop/mop
+brush/brush
+spade/spade
+house/house
+ball/ball
+bat/batt
+sun/sun
+rug/rug
+LEVEL2TYPE1
+alligator/alligatr
+ant/ant
+badger/badger
+bat/bat
+bear/bear
+bee/bee
+bull/bull
+butterfly/butterfly
+camel/camel
+cat/cat
+caterpillar/catpllr
+chicken/chicken
+cow/cow
+dog/dog
+giraffe/giraffe
+elephant/elephant
+mouse/mouse
+monkey/monkey
+parrot/parrot
+sheep/sheep
+LEVEL3TYPE2
+one/one
+two/two
+three/three
+four/four
+five/five
+six/six
+seven/seven
+eight/eight
+nine/nine
+ten/ten
+eleven/eleven
+twelve/twelve
+thirteen/thirteen
+fourteen/fourteen
+fifteen/fifteen
+sixteen/sixteen
+seventeen/seventn
+eighteen/eighteen
+nineteen/nineteen
+twenty/twenty
+LEVEL4TYPE3
+house/where people live/school/office/disco
+school/where children learn/home/grocery/bank
+bank/where people keep their money/office/library/station
+library/where you can borrow books/butchery/bakery/supermarket
+postoffice/where you post letters and parcels/church/disco/home
+disco/where you dance to music/jail/office/bank
+jail/where criminals are taken/disco/school/library
+butchery/where you buy meat/bakery/grocery/office
+garage/where you can buy petrol/grocery/home/flat
+flats/homes built on top of each other/supermarkets/garages/bungalows
+bungalow/a house on one level/garage/church/prison
+church/where people go to pray/garage/cinema/station
+grocery/where you can buy vegetables/bakery/church/library
+restaurant/where you go to eat/supermarket/church/prison
+supermarket/a big shop that sells lots of food/garage/school/disco
+bakery/where you go to buy bread/grocery/butchery/newsagent
+newsagent/where you go to buy newspapers/hairdressers/butchers/takeaway
+takeaway/where you buy cooked food/hairdresser/prison/estate agent
+estate agent/a place that sells houses/supermarket/library/station
+hospital/where people go when they are sick/office/station/bank
+LEVEL5TYPE3
+herd/A _____ of cows/field/gang/flock
+flock/A _____ of sheep/field/herd/wool
+pack/A _____ of dogs/basket/run/walk
+shoal/A _____ of fish/flock/swarm/sea
+swarm/A _____ of bees/school/hive/shoal
+class/A _____ of children/school/pack/bunch
+team/A _____ of players/gang/bunch/gathering
+bevy/A _____ of beauties/group/stage/bunch
+litter/A _____ of puppies/basket/bunch/gang
+forest/A _____ of trees/clump/branch/row
+bed/A _____ of roses/clump/group/bunch
+pride/A _____ of lions/pack/herd/flock
+bunch/A _____ of keys/ring/group/lock
+pack/A _____ of cards/bunch/set/flush
+plague/A _____ of locusts/swarm/flock/shoal
+galaxy/A _____ of stars/sky/atmosphere/comet
+herd/A _____ of elephants/tribe/family/crush
+fleet/A _____ of cars/car park/group/crush
+flock/A _____ of birds/flight/garden/swarm
+company/A _____ of actors/show/stage/production
+LEVEL6TYPE3
+baby/A young human is called a _____/nipper/sprog/kid
+calf/A young cow is called a _____/cow/bull/bullock
+piglet/A young pig is called a _____ /pig/porker/pug
+leveret/A young hare is called a _____/hare/bunny/piglet
+puppy/A young dog is called a _____/bitch/dog/kitten
+kitten/A young cat is called a _____/cat/tom/puppy
+calf/A young elephant is called a _____/baby/kid/cub
+tadpole/A young frog is called a _____/frog/spawn/toad
+chick/A young hen is called a _____/duck/duckling/drake
+gosling/A young goose is called a _____/chick/swan/gander
+calf/A young whale is called a _____/pod/fish/pup
+foal/A young horse is called a _____/donkey/stallion/kid
+lamb/A young sheep is called a _____/kid/sheep/baby
+cub/A young bear is called a _____/barney/calf/foal
+caterpillar/A young butterfly is called a _____/pupa/cocoon/fly
+cub/A young tiger is called a _____/tiger/foal/kitten
+cub/A young wolf is called a _____/pup/dog/kid
+joey/A young kangaroo is called a _____/roo/kid/cub
+kid/A young goat is called a _____/foal/billy/lamb
+duckling/A young duck is called a _____/drake/chick/gosling

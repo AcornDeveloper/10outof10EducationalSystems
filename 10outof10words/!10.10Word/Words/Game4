@@ -1,0 +1,143 @@
+$ Moon Lander word file structure
+$ This file may be edited by parents and teachers so that the 10/10
+$ vocabulary may be customised to exactly meet any child's needs.
+$ Take care if you edit this file as the program may fail if you do not have
+$ all the required data in exactly the form shown.
+$ We suggest that you backup this file before you make any changes.
+$ You can restore the original if you have problems.
+$ Lines commencing with $ are ignored.
+
+$ The first command line dictates the level and which way the questions are
+$ presented.
+
+$ Type 1: picture to word    <word>/<graphic name>
+$ Maximum length <word> 12 characters
+$ Type 2: word to picture    <word>/<graphic name>
+$ Maximum length <word> 12 characters
+$ Type 3: word to definition <word>/<definition>/<FALSE>/<FALSE>/<FALSE>
+
+LEVEL1TYPE1
+car/car
+bus/bus
+minibus/minibus
+coach/coach
+train/train
+tram/tram
+submarine/submrin
+rowing boat/rowing
+speedboat/speedbt
+yacht/yacht
+liner/liner
+bike/bike
+tandem/tandem
+motorbike/mbike
+roller-skates/rolrskt
+ice-skates/iceskt
+plane/plane
+balloon/balloon
+rocket/rocket
+lorry/lorry
+LEVEL2TYPE1
+bucket/bucket
+spade/spade
+towel/towel
+sand/sand
+ice-cream/icecrm
+sea/sea
+sun/sun
+pier/pier
+windbreak/wndbrk
+umbrella/umbrella
+basket/basket
+shorts/shorts
+trunks/trunks
+ball/ball
+sunglasses/sunglses
+boat/boat
+armbands/armbands
+hat/hat
+gull/gull
+LEVEL3TYPE2
+cup/cup
+glass/glass
+plate/plate
+saucer/saucer
+knife/knife
+fork/fork
+spoon/spoon
+table/table
+chair/chair
+lamp/lamp
+television/tv
+bucket/bucket
+mop/mop
+brush/brush
+spade/spade
+house/house
+ball/ball
+bat/batt
+sun/sun
+rug/rug
+LEVEL4TYPE3
+vast/Which is the odd one out?/beautiful/gorgeous/attractive
+sweet/Which is the odd one out?/big/vast/heavy
+order/Which is the odd one out?/angry/cross/furious
+sulky/Which is the odd one out?/request/ask/question
+false/Which is the odd one out?/about/nearly/roughly
+tip/Which is the odd one out?/bare/empty/vacant
+hungry/Which is the odd one out?/end/finish/complete
+right/Which is the odd one out?/fall/drop/crash
+touch/Which is the odd one out?/fast/quick/brisk
+fast/Which is the odd one out?/feel/touch/sense
+solve/Which is the odd one out?/flow/leak/drip
+flood/Which is the odd one out?/fix/mend/cure
+gather/Which is the odd one out?/loyal/good/kind
+attractive/Which is the odd one out?/old/ancient/antique
+plain/Which is the odd one out?/piece/lump/part
+proper/Which is the odd one out?/quiet/still/restful
+harsh/Which is the odd one out?/make/invent/assemble
+understand/Which is the odd one out?/leave/depart/abandon
+spoon/Which is the odd one out?/hammer/chisel/saw
+bright/Which is the odd one out?/red/yellow/green
+LEVEL5TYPE3
+teacher/A person who educates children is a ../baker/butcher/policeman
+baker/A person who makes bread is a ../butcher/engineer/grocer
+optician/A person who looks after your eyes is a ../baker/teacher/grocer
+policeman/A person who catches criminals is a ../teacher/optician/doctor
+doctor/A person who helps you when you are sick is a ../plumber/lawyer/florist
+plumber/A person who fixes pipes is a ../doctor/dentist/lawyer
+grocer/A person who sells fruit and vegetables is a ../caretaker/teacher/doctor
+butcher/A person who sells meat is a ../baker/grocer/tailor
+lawyer/A person who defends you in court/grocer/soldier/tailor
+fireman/A person who puts out fires/florist/hairdresser/author
+author/A person who writes books/journalist/chemist/accountant
+chemist/A person who sells medicines/doctor/florist/magician
+journalist/A person who writes for newspapers/author/florist/newsagent
+librarian/A person who works in a library/florist/teacher/plumber
+tailor/A person who makes peoples clothes/secretary/newsagent/lawyer
+artist/A person who paints pictures/decorator/electrician/plumber
+pilot/A person who flies an aeroplane/waitress/conductor/artist
+stationer/A person who sells paper and pens/author/dentist/conductor
+florist/A person who sells flowers/gardener/teacher/blacksmith
+milliner/A person who makes hats/blacksmith/author/musician
+LEVEL6TYPE3
+ram/A male sheep is a ../ewe/sheep goat
+ewe/A female sheep is a ../ram/sheep/lamb
+man/A male human is a ../woman/girl/buck
+woman/A female human is a ../man/boy/baby
+cows/female cattle are ../bulls/bitches/ewes
+bulls/male cattle are ../cows/stags/dogs
+nanny-goat/A female goat is a ../kid/ewe/doe
+billy-goat/A male goat is a ../kid/joey/ram
+bull/A male elephant is a ../stag/elephant/ram
+cow/A female elephant is a ../bull/sow/bitch
+sow/A female pig is a ../piglet/cow/ewe
+boar/A male pig is a ../cow/ram/dog
+bull/A male whale is a ../whale/ram/dog
+cow/A female whale is a ../ewe/sow/bitch
+dog/A male dog is a ../stag/man/bull
+bitch/A female dog is called a ../dog/sow/ewe
+drake/A male duck is a ../duck/gander/swan
+hen/A female fowl is a ../chicken/duck/rooster
+rooster/A male fowl is a ../chicken/cock/duck
+gander/A male goose is a ../goose/drake/swan

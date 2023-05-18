@@ -1,0 +1,35 @@
+RUN <Obey$Dir>.!SetCode
+WIMPSLOT -min 640K
+SET Words$Dir <Obey$Dir>
+<Words$Dir>.CompLoad
+RMLOAD <Words$Dir>.ScnLoad
+ECHO <19><0><16><255><255><255><19><1><16><221><221><221>
+ECHO <19><2><16><187><187><187><19><3><16><153><153><153>
+ECHO <19><4><16><251><185><233><19><5><16><85><85><85>
+ECHO <19><6><16><55><55><55><19><7><16><0><0><0>
+ECHO <19><8><16><0><68><153><19><9><16><238><238><0>
+ECHO <19><10><16><0><204><0><19><11><16><221><0><0>
+ECHO <19><12><16><238><238><187><19><13><16><85><136><0>
+ECHO <19><14><16><255><187><0><19><15><16><0><187><255>
+RMKILL ABC
+<Words$Dir>.Screen
+<Words$Dir>.Sound.Club
+<Words$Dir>.Sound.Dart
+<Words$Dir>.Sound.Drop
+<Words$Dir>.Sound.End 
+<Words$Dir>.Sound.Explode
+<Words$Dir>.Sound.Frog
+<Words$Dir>.Sound.Holed
+<Words$Dir>.Sound.Metal
+<Words$Dir>.Sound.Missile
+<Words$Dir>.Sound.Raspberry
+<Words$Dir>.Sound.Right
+<Words$Dir>.Sound.Scream
+<Words$Dir>.Sound.Sounds
+<Words$Dir>.Sound.Splash
+<Words$Dir>.Sound.Synth
+<Words$Dir>.Sound.Swim
+<Words$Dir>.Sound.Throw
+<Words$Dir>.Sound.Wrong
+<Words$Dir>.Sound.Yep
+<Words$Dir>.!RunImage

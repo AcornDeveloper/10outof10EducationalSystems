@@ -1,0 +1,29 @@
+$ Custom word file structure
+$ This file may be edited by parents and teachers so that the 10/10
+$ vocabulary may be customised to exactly meet any child's needs.
+$ Take care if you edit this file as the program may fail if you do not have
+$ all the required data in exactly the form shown.
+$ We suggest that you backup this file before you make any changes.
+$ You can restore the original if you have problems.
+$ Lines commencing with $ are ignored.
+
+$ The first command line dictates which way the questions are
+$ presented and there must be at least 10 questions or an error message will
+$ result.
+
+$ Type 1: picture to word    <word>/<graphic name>
+$ Maximum length <word> 12 characters
+$ Type 2: word to picture    <word>/<graphic name>
+$ Maximum length <word> 12 characters
+$ Type 3: word to definition <word>/<definition>/<FALSE>/<FALSE>/<FALSE>
+
+TYPE1
+cat/cat
+dog/dog
+horse/horse
+turtle/turtle
+tortoise/tortois
+rabbit/rabbit
+fish/fish
+hamster/hamstr
+mouse/mouse

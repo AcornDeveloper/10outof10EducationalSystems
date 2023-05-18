@@ -1,0 +1,116 @@
+Extra notes for 10/10 Words
+
+GENERAL
+
+ALWAYS USE A BACKUP OF THE DISK as facts like the high scores are constantly
+being written to it. Alternatively, The programs can be installed on a HARD
+DISK. All you need to do is to 'drag' the application to a directory window
+on your hard disk. The disk may only be backed up for your own use on a
+single computer. Copying disks for any other reason is tantamount to theft
+and could lead to prosecution. Site licences are available for
+establishments with more than one computer or with a network.
+
+All high scores and results are saved to disk as you exit from the game.
+Ensure that you LEAVE THE GAMES USING THE EXIT OPTION rather than pressing
+break to ensure your facts are stored.
+
+MEMORY
+
+10 out of 10 will run on all Acorn 32-bit computers, but on a 1 Mb machine
+you may have to switch the computer off for a few seconds and then turn it
+back on.
+
+VGA MONITORS
+
+A utility is included on the disk to allow the package to run on most VGA
+monitors. It is called !ModeTrans and is inside the !10/10 application (hold
+down shift and double-click on the !10/10 application to see it). A help
+file for the utility is inside the !ModeTrans application (hold shift and
+double-click).
+
+CERTIFICATE PRINTING
+
+To print a certificate in graphic form you should select the disk option
+after you've selected print certificate. You should save it onto hard disk
+or a blank formatted disk. You can enter your own filename using the
+standard Acorn "Path.filename" structure.
+
+Depending on your system, a default path or filename is given. If the
+default ends in a dot it is a path and you should enter a filename before
+pressing Return. Note that floppy disk users must leave the default path of
+the floppy drive - usually ADFS::0.$. - in front of the chosen filename.
+
+The saved file will have the name of the player as the filename. This can be
+loaded into Paint and printed in the usual way. We've found that to print an
+A4 certificate on a laser printer the parameters to set when you've chosen
+Print are:
+
+     Portrait
+     X scale       3:2
+     X scale       3:2
+
+  Make sure the centimetre square is highlighted green then:
+
+     Corner X      -3.2   (note the minus)
+     Corner Y       4
+
+USER FILES
+
+Inside the 10/10 application directory there is a text file. To find it,
+hold down Shift and double-click on the !10/10Words icon.
+
+The file is called 'Info'. This file holds the information text for the six
+levels which can be altered if you change the challenges.
+
+There is a directory here called 'Words'. Inside this directory there are 7
+files. Six of these refer to the questions for each of the 6 games and each
+has a self-explanatory header. The remaining file is called 'Custom' which
+also has a self-explanatory header and this is the file which is used when
+'WORDS' is selected on the game level from the game menu.
+
+The following are the graphics available for TYPE1 questions...
+
+ alligatr (alligator),ant,apple,armbands
+ bacon,badger,ball,balloon
+ banana,basket,bat,batt
+ bear,bee,beef,bike
+ biscuit,black,blouse,blue
+ boat,bread,bricks,brown
+ brush,bucket,budgie,bull
+ bus,butterfly,camel,cap
+ car,cardigan,carrot,cat
+ catpllr,cauli,chair,chicken
+ choc,coach,computer,cow
+ cricket,crisps,cup,dog
+ doll,dress,eight,eighteen
+ elephant,eleven,fifteen,fish
+ five,football,fork,four
+ fourteen,egg,frisbee,frog
+ gfish,giraffe,glass,gloves
+ gold,grapes,green,grey
+ guineap,gull,gun,hamstr (hamster)
+ hat,hoop,horse,house
+ icecrm (icecream),icskt (iceskates),jacket,jumper
+ kite,knife,lamp,liner
+ lizard,lorry,mbike (motorbike),minibus
+ monkey,mop,mouse,navy
+ nine,nineteen,one,oran (orange fruit)
+ orange (colour),parrot,pear,peas
+ pie,pier,plane,plate
+ potato,purple,rabbit,railtrk (railtrack)
+ raincoat,rat,red,rocket
+ rolrskt (rollerskates),rowing,rug,sand
+ sandwich,saucer,sausage,scarf
+ scooter,sea,seven,seventn (seventeen)
+ sheep,shirt,shorts,silver
+ six,sixteen,skiprop (skipping rope),skirt
+ snake,socks,soldiers,spade
+ speedbt (speed boat),spider,spoons,sprouts
+ submrin (submarine),suit,sun,sunglses (sunglasses)
+ t-shirt,table,tandem,teddy
+ ten,terrapin,thirteen,three
+ tie,tortois (tortoise),towel,train
+ tram,trousers,trunks,turtle
+ tv,twelve,twenty,two
+ umbrella,underpts (underpants),vest,white
+ wndbrk (windbreak),yacht,yellow

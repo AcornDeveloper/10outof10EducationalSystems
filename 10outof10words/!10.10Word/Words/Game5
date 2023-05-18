@@ -1,0 +1,144 @@
+$ Cliffhanger word file structure
+$ This file may be edited by parents and teachers so that the 10/10
+$ vocabulary may be customised to exactly meet any child's needs.
+$ Take care if you edit this file as the program may fail if you do not have
+$ all the required data in exactly the form shown.
+$ We suggest that you backup this file before you make any changes.
+$ You can restore the original if you have problems.
+$ Lines commencing with $ are ignored.
+
+$ The first command line dictates the level and which way the questions are
+$ presented.
+
+$ Type 1: picture to word    <word>/<graphic name>
+$ Maximum length <word> 12 characters
+$ Type 2: word to picture    <word>/<graphic name>
+$ Maximum length <word> 12 characters
+$ Type 3: word to definition <word>/<definition>/<FALSE>/<FALSE>/<FALSE>
+
+LEVEL1TYPE1
+teddy/teddy
+doll/doll
+bat/bat
+hoop/hoop
+ball/ball
+football/football
+bike/bike
+scooter/scooter
+skipping rope/skiprop
+bricks/bricks
+computer/computer
+kite/kite
+soldier/soldier
+railway track/railtrk
+frisbee/frisbee
+bucket/bucket
+spade/spade
+roller-skates/rolrskt
+cars/cars
+gun/guns
+LEVEL2TYPE1
+shirt/shirt
+tie/tie
+scarf/scarf
+jacket/jacket
+trousers/trousers
+socks/socks
+shorts/shorts
+t-shirt/t-shirt
+suit/suit
+vest/vest
+skirt/skirt
+dress/dress
+cardigan/cardigan
+jumper/jumper
+raincoat/raincoat
+cap/cap
+underpants/underpts
+blouse/blouse
+umbrella/umbrella
+gloves/gloves
+LEVEL3TYPE2
+cat/cat
+dog/dog
+horse/horse
+turtle/turtle
+tortoise/tortois
+rabbit/rabbit
+fish/fish
+hamster/hamstr
+mouse/mouse
+guinea pig/guineap
+goldfish/gfish
+spider/spider
+snake/snake
+lizard/lizard
+rat/rat
+budgie/budgie
+ant/ant
+terrapin/terrapin
+parrot/parrot
+frog/frog
+LEVEL4TYPE3
+sad/The opposite of happy is ../good/keen/well
+white/The opposite of black is ../red/grey/orange
+day/The opposite of night is ../evening/morning/happy
+girl/The opposite of boy is ../man/woman/uncle
+aunt/The opposite of uncle is ../ant/mum/sister
+brother/The opposite of sister is ../cousin/gran/uncle
+dry/The opposite of wet is ../moist/damp/soggy
+forget/The opposite of remember is ../friend/family/future
+go/The opposite of stop is ../freeze/remain/glower
+short/The opposite of long is ../show/sheep/shower
+low/The opposite of high is ../land/last/lamp
+sea/The opposite of land is ../earth/soil/ground
+moon/The opposite of sun is ../cloudy/sky/planets
+loud/The opposite of quiet is ../land/low/faint
+cry/The opposite of laugh is ../chuckle/giggle/snigger
+full/The opposite of empty is ../fast/finished/vacant
+lose/The opposite of win is ../loose/draw/compete
+solid/The opposite of liquid is ../runny/soft/pliable
+buy/The opposite of sell is ../steal/store/barter
+late/The opposite of early is ../lazy/present/away
+LEVEL5TYPE3
+cunning/As ______ as a fox/smelly/fast/slow
+pillar/A ______ of the church/roof/priest/pew
+black/As ______ as coal/heavy/dirty/lumpy
+hare/He runs like a _______/cow/elephant/tortoise
+deaf/As ______ as a post/hard/wooden/tall
+quiet/As ______ as a church mouse/loud/small/noisy
+bold/As ______ as brass/shiny/heavy/valuable
+cool/As ______ as a cucumber/green/long/stiff
+brown/As ______ as berries/prickly/soft/squashy
+feather/As light as a ______/brick/post/rock
+warm/As ______ as toast/crumbly/burnt/tasty
+nails/As hard as ______/porridge/putty/playdo
+rain/As right as ______/left/you/wrong
+dodo/As dead as a ______/man/ghost/chicken
+regular/As ______ as clockwork/slow/old/noisy
+pleased/As ______ as Punch/Judy/daft/hard
+sheet/As white as a ______/tree/snow/rose
+board/As stiff as a ______/rake/jelly/rock
+fly/A ______in the ointment/finger/lump/spider
+rake/As thin as a ______/door/spade/pencil
+LEVEL6TYPE3
+kennel/A dog sleeps in a ______/hutch/sty/nest
+stable/A horse sleeps in a ______/kennel/sty/den
+nest/A bird sleeps in a ______/hive/burrow/stable
+warren/A wild rabbit sleeps in a ______/hutch/nest/sty
+hive/Bees build a ______/nest/sty/den
+cub/A young lion is a ______/lion/lioness/pup
+lamb/A young sheep is a ______/ewe/cub/cow
+herd/A ______ of cattle/flock/gaggle/pack
+pack/A ______ of wolves/herd/swarm/pod
+gaggle/A ______ of geese/flock/pride/pack
+pride/A ______ of lions/pack/herd/gang
+swarm/A ______ of bees/army/flock/litter
+pod/A ______ of seals/swarm/colony/family
+colony/A ______ of ants/nest/swarm/army
+army/An ______ of caterpillars/swarm/colony/school
+drake/A male duck is a ______/duck/gander/swan
+boar/A male pig is a ______/sow/pig/bull
+doe/A female deer is a ______/stag/cow/bitch
+ewe/A female sheep is a ______/ram/sow/bitch
+cygnet/A young swan is a ______/joey/chick/gosling

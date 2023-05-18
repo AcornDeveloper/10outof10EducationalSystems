@@ -1,0 +1,137 @@
+$ Invaders word file structure
+$ This file may be edited by parents and teachers so that the 10/10
+$ vocabulary may be customised to exactly meet any child's needs.
+$ Take care if you edit this file as the program may fail if you do not have
+$ all the required data in exactly the form shown.
+$ We suggest that you backup this file before you make any changes.
+$ You can restore the original if you have problems.
+$ Lines commencing with $ are ignored.
+
+$ The first command line dictates the level and which way the questions are
+$ presented.
+
+$ Type 1: picture to word    <word>/<graphic name>
+$ Maximum length <word> 12 characters
+$ Type 2: word to picture    <word>/<graphic name>
+$ Maximum length <word> 12 characters
+$ Type 3: word to definition <word>/<definition>/<FALSE>/<FALSE>/<FALSE>
+
+LEVEL1TYPE1
+cat/cat
+dog/dog
+horse/horse
+turtle/turtle
+tortoise/tortois
+rabbit/rabbit
+fish/fish
+hamster/hamstr
+mouse/mouse
+guinea pig/guineap
+goldfish/gfish
+spider/spider
+snake/snake
+lizard/lizard
+frog/frog
+budgie/budgie
+ant/ant
+terrapin/terrapin
+parrot/parrot
+rat/rat
+LEVEL2TYPE1
+cup/cup
+glass/glass
+plate/plate
+saucer/saucer
+knife/knife
+fork/fork
+spoon/spoon
+table/table
+chair/chair
+lamp/lamp
+television/tv
+bucket/bucket
+mop/mop
+brush/brush
+spade/spade
+house/house
+ball/ball
+bat/bat
+sun/sun
+rug/rug
+LEVEL3TYPE1
+white/white
+black/black
+red/red
+blue/blue
+orange/orange
+green/green
+purple/purple
+yellow/yellow
+grey/grey
+silver/silver
+pink/pink
+brown/brown
+gold/gold
+navy/navy
+LEVEL4TYPE3
+mouse/a tiny animal with a long tail/cat/dog/horse
+octopus/it lives in the sea and has eight arms/otter/duck/monkey
+hedgehog/a small animal with prickles on its back/bird/fish/horse
+fox/it looks like a dog with a long bushy tail/elephant/goat/gorilla
+cat/it has 4 legs and a tail/fish/snake/hedgehog
+ant/a tiny insect/hippopotamus/camel/alligator
+camel/it lives in the desert and has 1 or 2 humps/badger/canary/cow
+butterfly/an insect with 4 large wings/ant/camel/bear
+cow/a large farm animal which gives us milk/deer/crab/giraffe
+giraffe/an animal with a very long neck and legs/ant/frog/hare
+kangaroo/an animal that hops on its back legs/cow/shark /snake
+shark/a very large sea fish with lots of teeth/frog/slug/rat
+sheep/a farm animal kept for its wool and meat/cow/snail/tiger
+squirrel/a small animal with a bushy tail/crocodile/spider/worm
+tiger/a large fierce animal from Africa/tortoise/wasp/donkey
+tortoise/a slow animal with a shell on its back/turkey/hare/horse
+ladybird/a red and black spotted beetle/hedgehog/dog/panda
+penguin/a sea bird that can swim but not fly/owl/prawn/polar bear
+spider/a creature that makes a web to catch its food/toad/squirrel/cat
+LEVEL5TYPE3
+white/The opposite of black is ______/red/blue/green
+dark/The opposite of light is ______/faint/blue/bulb
+night/The opposite of day is ______/morning/afternoon/sunny
+dry/The opposite of wet is ______/water/slimy/wash
+smooth/The opposite of rough is ______/bumpy/jagged/clean
+hard/The opposite of soft is ______/fresh/dirty/faint
+no/The opposite of yes is ______/maybe/sometime/always
+clean/The opposite of dirty is ______/messy/filthy/rubbish
+winter/The opposite of summer is ______/Monday/spring/autumn
+calm/The opposite of windy is ______/blow/gust/gale
+sweet/The opposite of bitter is ______/tangy/tart/horrible
+cold/The opposite of hot is ______/warm/strong/spicy
+fast/The opposite of  slow is ______/never/old/finish
+question/The opposite of an answer is a ______ /reply/refusal/response
+forget/The opposite of remember is to ______/remind/tell/whisper
+good/The opposite of bad is ______/beauty/dangerous/body
+young/The opposite of old is ______/yesterday/broken/tarnished
+stay/The opposite of leave is ______/depart/give/abandon
+break/The opposite of fix is ______/cure/solve/mend
+boiling/The opposite of freezing is ______/bending/bowing/basking
+LEVEL6TYPE3
+cats/The plural of cat is ______/catses/cates/caties
+dogs/The plural of dog is ______/doggies/doges/dogses
+sheep/The plural of sheep is ______/sheeps/sheepies/sheps
+mice/The plural of mouse is ______/mouses/mousies/mouseys
+men/The plural of man is ______/mans/mens/manies
+women/The plural of woman is ______/womans/womens/womanies
+lorries/The plural of lorry is ______/lorys/lorryies/lorrys
+families/The plural of family is ______/familys/familyies/family
+foxes/The plural of fox is ______/foxs/foxies/fox
+teeth/The plural of tooth is ______/tooths/toothes/toothies
+leaves/The plural of leaf is ______/leafs/leafes/leafies
+thieves/The plural of thief is ______/thiefs/thiefes/thiefies
+roofs/The plural of roof is ______/roofes/roofies/rooves
+chiefs/The plural of chief is ______/chiefes/chiefies/chieves
+cod/The plural of cod is ______/cods/codes/codeys
+pairs/The plural of pair is ______/paires/pears/paireys
+feet/The plural of foot is ______/foots/fotes/footies
+tomatoes/The plural of tomato is ______/tomatos/tomatoses/tomatoies
+Januarys/The plural of January is ______/Januaries/Januaryses/January
+Mercedes/The plural of Mercedes is ______/Mercedess/Mercedies/Mercedeses

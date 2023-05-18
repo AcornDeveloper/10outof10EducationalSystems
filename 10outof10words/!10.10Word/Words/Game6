@@ -1,0 +1,143 @@
+$ Shark Island word file structure
+$ This file may be edited by parents and teachers so that the 10/10
+$ vocabulary may be customised to exactly meet any child's needs.
+$ Take care if you edit this file as the program may fail if you do not have
+$ all the required data in exactly the form shown.
+$ We suggest that you backup this file before you make any changes.
+$ You can restore the original if you have problems.
+$ Lines commencing with $ are ignored.
+
+$ The first command line dictates the level and which way the questions are
+$ presented.
+
+$ Type 1: picture to word    <word>/<graphic name>
+$ Maximum length <word> 12 characters
+$ Type 2: word to picture    <word>/<graphic name>
+$ Maximum length <word> 12 characters
+$ Type 3: word to definition <word>/<definition>/<FALSE>/<FALSE>/<FALSE>
+
+LEVEL1TYPE1
+alligator/alligatr
+ant/ant
+badger/badger
+bat/bat
+bear/bear
+bee/bee
+bull/bull
+butterfly/butterfly
+camel/camel
+cat/cat
+caterpillar/catpllr
+chicken/chicken
+cow/cow
+dog/dog
+giraffe/giraffe
+elephant/elephant
+mouse/mouse
+monkey/monkey
+parrot/parrot
+sheep/sheep
+LEVEL2TYPE1
+car/car
+bus/bus
+minibus/minibus
+coach/coach
+train/train
+tram/tram
+submarine/submrin
+rowing boat/rowing
+speedboat/speedbt
+yacht/yacht
+liner/liner
+bike/bike
+tandem/tandem
+motorbike/mbike
+roller-skates/rolrskt
+ice-skates/iceskt
+plane/plane
+balloon/balloon
+rocket/rocket
+lorry/lorry
+LEVEL3TYPE2
+bucket/bucket
+spade/spade
+towel/towel
+sand/sand
+ice-cream/icecrm
+sea/sea
+sun/sun
+pier/pier
+windbreak/wndbrk
+umbrella/umbrella
+basket/basket
+shorts/shorts
+trunks/trunks
+ball/ball
+sunglasses/sunglses
+boat/boat
+armbands/armbands
+hat/hat
+gull/gull
+LEVEL4TYPE3
+cake/tea goes with ../bread/hat/supper
+clip/paper goes with ../elephant/box/string
+fall/water goes with ../coat/toy/man
+drops/rain goes with ../man/splashes/bend
+bell/door goes with ../wood/back/trip
+quake/earth goes with ../soil/shiver/planet
+brush/tooth goes with ../cap/gums/tongue
+board/black goes with ../hair/chalk/bend
+room/bath goes with ../sink/carpet/paste
+chair/arm goes with ../leg/foot/hand
+boy/cow goes with ../pig/sheep/lamb
+shelf/book goes with ../magazine/comic/paper
+boy/ball goes with ../racket/net/bounce
+side/sea goes with ../sand/pier/fish
+alarm/fire goes with ../burn/flames/water
+bow/rain goes with ../wet/soak/soggy
+track/train goes with ../car/bus/plane
+house/green goes with ../man girl/bungalow
+dog/bull goes with ../cow/pig/sheep
+dresser/hair goes with ../wig/hat/here
+LEVEL5TYPE3
+mouth/straight from the horse's ______/ear/nose/tail
+dumps/down in the ______/bottom/mouth/pocket
+mole hill/make a mountain out of a ______/hill/rock/dune
+leaf/turn over a new ______/shoe/hat/coin
+head/hit the nail on the ______/table/hammer/wood
+hot/strike whilst the iron is ______/on/cold/out
+white/a ______ elephant/blue/green/yellow
+red/a ______ herring/green/smelly/grey
+share/the lion's ______/paw/mane/teeth
+square/back to ______ one/triangle/rectangle/circle
+moon/to be over the ______ /hedge/hurdle/worst
+horse/to flog a dead ______/cat/dog/monkey
+water/to get into hot ______/trouble/soup/coffee
+beans/he spilled the ______/tea/soup/dinner
+game/he gave the ______ away/sweet/ball/cake
+wet/a ______ blanket/big/old/tartan
+trumpet/to blow your own ______/bugle/recorder/saxophone
+nine/a ______ days' wonder/ten/eight/six
+fence/she sat on the ______/chair/stool/table
+Coventry/to be sent to ______/Manchester/Newcastle/Liverpool
+LEVEL6TYPE3
+remote/______ means the same as lonely/busy/enjoy/admire
+prefer/______ means the same as like/hate/detest/pretend
+shrill/______ means the same as loud/quiet/faint/peaceful
+vintage/______ means the same as old/valuable/varnish/vanish
+arrange/______ means the same as order/arrive/cancel/clean
+rough/______ means the same as rowdy/ready/range/rent
+ascend/______ means the same as rise/drop/collapse/decrease
+cheerful/______ means the same as happy/sad/miserable/dangle
+discover/______ means the same as find/display/discontent/dissatisfied
+quarrel/______ means the same the same as argue/quiet/quit/agree
+bother/______ means the same as disturb/brother/barter/basket
+resent/______ means the same as hate/reply/enjoy/remorse
+exchange/______ means the same as change/charge/remain/continue
+gorgeous/______ means the same as beautiful/gregarious/ogre/gangly
+consult/______ means the same as ask/contend/condition/complete
+calm/______ means the same as smooth/cranky/calamity/cautious
+certain/______ means the same as sure/contain/condition/uncertain
+feeble/______ means the same as weak/fable/further/fancy
+swivel/______ means the same as turn/straight/move/sure
+false/______ means the same as wrong/fancy/faint/fear
