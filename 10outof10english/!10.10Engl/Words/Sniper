@@ -1,0 +1,1492 @@
+$ Sniper word file structure
+$ 1. <sub grade>,<word>                    maximum word length 4 
+$ 2. <sub grade>,<phrase>                  maximum word length 6 
+$ 3. <sub grade>,<sentence>                maximum word length 12 
+$   % before words to swap, no punctuation except ? and .
+$ 4. <sub grade>,<abbr>,<answer>,<spare>   maximum word length 12 
+$ 5. <sub grade>,<proverb>                 maximum word length 12 
+$ 6. <sub grade>,<active>,<passive>        maximum word length 12 
+
+GRADE1
+1,ago
+1,am
+1,an
+1,and
+1,as
+1,away
+1,bat
+1,bat
+1,be
+1,bed
+1,been
+1,big
+1,bit
+1,can
+1,cow
+1,did
+1,fed
+1,five
+1,foot
+1,four
+1,fun
+1,gave
+1,get
+1,glad
+1,good
+1,had
+1,hat
+1,hen
+1,her
+1,here
+1,hid
+1,hide
+1,him
+1,his
+1,hit
+1,home
+1,hop
+1,if
+1,in
+1,is
+1,it
+1,led
+1,let
+1,like
+1,look
+1,lot
+1,man
+1,mat
+1,me
+1,men
+1,met
+1,mud
+1,mum
+1,nine
+1,of
+1,or
+1,our
+1,out
+1,pet
+1,put
+1,ran
+1,red
+1,rug
+1,run
+1,sat
+1,sea
+1,see
+1,seem
+1,seen
+1,she
+1,six
+1,soon
+1,sum
+1,sun
+1,the
+1,them
+1,then
+1,they
+1,took
+1,try
+1,want
+1,wet
+1,why
+1,yes
+1,you
+1,your
+1,zoo
+2,age
+2,bag
+2,ball
+2,ban
+2,bee
+2,beg
+2,bell
+2,bet
+2,bid
+2,bite
+2,bone
+2,book
+2,boot
+2,box
+2,boy
+2,bug
+2,bull
+2,cake
+2,call
+2,cap
+2,cook
+2,cry
+2,cub
+2,cube
+2,cut
+2,cute
+2,data
+2,day
+2,dig
+2,dine
+2,dip
+2,doll
+2,door
+2,dot
+2,down
+2,dug
+2,fall
+2,fan
+2,feed
+2,fell
+2,few
+2,fib
+2,fig
+2,fill
+2,fin
+2,fish
+2,fit
+2,food
+2,four
+2,fox
+2,gag
+2,gap
+2,gate
+2,gem
+2,girl
+2,hag
+2,ham
+2,hay
+2,help
+2,hem
+2,hike
+2,hog
+2,hole
+2,hope
+2,hour
+2,hum
+2,hut
+2,ice
+2,jam
+2,jet
+2,job
+2,jog
+2,joy
+2,jug
+2,key
+2,kick
+2,kid
+2,kind
+2,king
+2,kit
+2,land
+2,lay
+2,line
+2,lip
+2,lit
+2,log
+2,long
+2,many
+2,mess
+2,mice
+2,mix
+2,mob
+2,nag
+2,nun
+2,old
+2,open
+2,oven
+2,pad
+2,paw
+2,peg
+2,pen
+2,pile
+2,pine
+2,pip
+2,pipe
+2,play
+2,pod
+2,pop
+2,pull
+2,rag
+2,ray
+2,rim
+2,rip
+2,rod
+2,roll
+2,rug
+2,rum
+2,safe
+2,sand
+2,say
+2,seed
+2,sew
+2,sip
+2,sob
+2,sock
+2,soot
+2,stay
+2,talk
+2,tall
+2,tell
+2,than
+2,that
+2,toy
+2,tube
+2,tune
+2,upon
+2,van
+2,very
+2,wag
+2,walk
+2,wall
+2,wax
+2,web
+2,weed
+2,week
+2,well
+2,will
+2,win
+2,yet
+3,ace
+3,alas
+3,ask
+3,baby
+3,back
+3,band
+3,bang
+3,bank
+3,bark
+3,bath
+3,bay
+3,beam
+3,beef
+3,belt
+3,bird
+3,blew
+3,boil
+3,bold
+3,both
+3,bow
+3,bump
+3,buzz
+3,cage
+3,card
+3,coat
+3,code
+3,cog
+3,coke
+3,corn
+3,cry
+3,dark
+3,date
+3,dead
+3,desk
+3,dig
+3,din
+3,dish
+3,drip
+3,duck
+3,dug
+3,exit
+3,fame
+3,farm
+3,fen
+3,find
+3,fine
+3,fir
+3,fix
+3,fizz
+3,fled
+3,flew
+3,fly
+3,fog
+3,fold
+3,fool
+3,frog
+3,full
+3,gala
+3,gang
+3,gas
+3,glad
+3,grow
+3,hail
+3,hall
+3,hand
+3,have
+3,haze
+3,head
+3,heel
+3,held
+3,hell
+3,herd
+3,hill
+3,hold
+3,hood
+3,hook
+3,hub
+3,huge
+3,jab
+3,jail
+3,jaw
+3,jay
+3,jig
+3,jump
+3,kill
+3,lend
+3,lent
+3,lick
+3,lock
+3,lop
+3,luck
+3,menu
+3,milk
+3,mill
+3,mime
+3,mind
+3,mole
+3,mow
+3,mule
+3,neat
+3,next
+3,noon
+3,oar
+3,pack
+3,park
+3,pave
+3,peel
+3,peep
+3,pew
+3,pick
+3,pie
+3,pike
+3,poke
+3,pun
+3,rake
+3,rang
+3,rice
+3,rich
+3,rid
+3,rig
+3,row
+3,rung
+3,rut
+3,sank
+3,see
+3,seen
+3,sees
+3,sell
+3,show
+3,sick
+3,size
+3,sold
+3,sow
+3,such
+3,tail
+3,tank
+3,thud
+3,tick
+3,tile
+3,torn
+3,try
+3,twig
+3,vow
+3,wait
+3,warm
+3,wash
+3,wave
+3,weep
+3,wide
+3,wind
+3,wine
+3,wipe
+3,wise
+3,wit
+3,woke
+3,wood
+3,worn
+3,wove
+3,yell
+4,acid
+4,aim
+4,ajar
+4,bald
+4,base
+4,bash
+4,bend
+4,bent
+4,boar
+4,boat
+4,body
+4,bomb
+4,born
+4,brew
+4,brim
+4,brow
+4,burn
+4,calf
+4,camp
+4,cart
+4,cash
+4,cave
+4,chew
+4,chip
+4,chop
+4,clap
+4,claw
+4,clip
+4,copy
+4,cord
+4,crew
+4,crow
+4,cue
+4,cuff
+4,curl
+4,dark
+4,dash
+4,dead
+4,deck
+4,deed
+4,deep
+4,die
+4,died
+4,dirt
+4,dock
+4,doze
+4,drag
+4,drew
+4,drum
+4,dry
+4,dull
+4,edge
+4,elm
+4,even
+4,fair
+4,fake
+4,fawn
+4,film
+4,firm
+4,flag
+4,flan
+4,flap
+4,flat
+4,flaw
+4,flip
+4,flop
+4,fly
+4,foam
+4,foil
+4,fond
+4,fork
+4,fort
+4,fry
+4,fuss
+4,gain
+4,gale
+4,gave
+4,gaze
+4,germ
+4,give
+4,glow
+4,glum
+4,gold
+4,gram
+4,grew
+4,grey
+4,grip
+4,gull
+4,hake
+4,half
+4,hang
+4,hard
+4,harm
+4,harp
+4,heap
+4,hive
+4,holy
+4,hoof
+4,hoot
+4,horn
+4,hove
+4,hump
+4,hung
+4,hush
+4,inn
+4,join
+4,joke
+4,junk
+4,kept
+4,lack
+4,lady
+4,lard
+4,lawn
+4,less
+4,lice
+4,lie
+4,lily
+4,load
+4,loan
+4,loss
+4,lout
+4,lute
+4,mail
+4,main
+4,mask
+4,maze
+4,melt
+4,mend
+4,mild
+4,mint
+4,mist
+4,moan
+4,moth
+4,muck
+4,mute
+4,neck
+4,oak
+4,paid
+4,pant
+4,path
+4,peak
+4,peer
+4,pill
+4,pink
+4,pint
+4,plan
+4,plod
+4,plot
+4,pork
+4,port
+4,pour
+4,pray
+4,push
+4,rest
+4,road
+4,roar
+4,roof
+4,rook
+4,root
+4,rude
+4,rung
+4,rush
+4,sane
+4,self
+4,shed
+4,shin
+4,shy
+4,sky
+4,soda
+4,sofa
+4,soul
+4,sped
+4,stem
+4,stir
+4,suck
+4,suit
+4,sulk
+4,sunk
+4,tack
+4,tart
+4,term
+4,tidy
+4,tiny
+4,toad
+4,toe
+4,toss
+4,town
+4,trim
+4,trip
+4,trod
+4,true
+4,turn
+4,twin
+4,type
+4,ugly
+4,vice
+4,wage
+4,whip
+4,wife
+4,wild
+4,wing
+4,wink
+4,wish
+4,word
+4,work
+4,worm
+4,wren
+4,yoke
+4,zone
+5,aid
+5,axed
+5,back
+5,bail
+5,bait
+5,bawl
+5,bind
+5,bond
+5,buff
+5,bulk
+5,bung
+5,bunk
+5,buoy
+5,butt
+5,cell
+5,city
+5,clad
+5,clan
+5,club
+5,coma
+5,comb
+5,coot
+5,cosy
+5,crab
+5,curb
+5,damp
+5,dell
+5,died
+5,dreg
+5,drey
+5,due
+5,dump
+5,dusk
+5,dye
+5,fail
+5,fang
+5,fend
+5,fern
+5,foe
+5,folk
+5,ford
+5,foul
+5,fray
+5,fret
+5,fund
+5,glen
+5,glut
+5,gong
+5,gown
+5,grim
+5,grub
+5,hark
+5,haul
+5,hawk
+5,heed
+5,helm
+5,herb
+5,high
+5,hoax
+5,hock
+5,hoe
+5,howl
+5,hulk
+5,hunt
+5,hurl
+5,husk
+5,jazz
+5,jeer
+5,jerk
+5,jove
+5,judo
+5,kilt
+5,lark
+5,lash
+5,lava
+5,limb
+5,limp
+5,lobe
+5,lull
+5,lurk
+5,malt
+5,meek
+5,mere
+5,mink
+5,moss
+5,mown
+5,muff
+5,musk
+5,noun
+5,null
+5,obey
+5,oil
+5,omit
+5,oval
+5,owed
+5,pain
+5,pair
+5,pawn
+5,poll
+5,pony
+5,prim
+5,pulp
+5,pump
+5,quit
+5,quiz
+5,rash
+5,rile
+5,rind
+5,rink
+5,risk
+5,roam
+5,rump
+5,rusk
+5,rye
+5,sash
+5,semi
+5,sigh
+5,silk
+5,skim
+5,slim
+5,slum
+5,soap
+5,soft
+5,spur
+5,sump
+5,talc
+5,task
+5,taxi
+5,text
+5,thug
+5,tilt
+5,toil
+5,toll
+5,tong
+5,trek
+5,tuft
+5,turf
+5,tusk
+5,tyre
+5,unit
+5,vain
+5,view
+5,view
+5,wail
+5,warn
+5,weep
+5,wept
+5,whom
+5,wick
+5,wisp
+5,wool
+5,yarn
+5,yawn
+6,ail
+6,barb
+6,bask
+6,bass
+6,bony
+6,byte
+6,cent
+6,chef
+6,cull
+6,debt
+6,dozy
+6,duel
+6,duet
+6,duly
+6,dumb
+6,duty
+6,dyke
+6,echo
+6,fact
+6,foxy
+6,fury
+6,gift
+6,gild
+6,gill
+6,gilt
+6,gnaw
+6,gulf
+6,hazy
+6,hull
+6,hymn
+6,iris
+6,jilt
+6,jolt
+6,jowl
+6,jury
+6,kerb
+6,kiwi
+6,knew
+6,knit
+6,knob
+6,know
+6,lazy
+6,lint
+6,loam
+6,loch
+6,loft
+6,loll
+6,lung
+6,lush
+6,lynx
+6,maim
+6,matt
+6,mock
+6,monk
+6,myth
+6,navy
+6,nosy
+6,numb
+6,opal
+6,oral
+6,pelt
+6,pied
+6,pith
+6,pity
+6,ply
+6,posy
+6,pout
+6,prow
+6,putt
+6,pyro
+6,racy
+6,rein
+6,rosy
+6,ruin
+6,scum
+6,slew
+6,tint
+6,tomb
+6,vend
+6,vent
+6,verb
+6,void
+6,volt
+6,wart
+6,wavy
+6,waxy
+6,welt
+6,whey
+6,writ
+6,yolk
+6,zest
+6,zinc
+GRADE2
+1,BOYS TOILET
+1,BUS STOP
+1,CUT HERE
+1,DANGER TRAINS
+1,FIRE ALARM
+1,FIRE EXIT
+1,GENTS TOILET
+1,GIRLS TOILET
+1,GIVE WAY
+1,KEEP OUT
+1,LOOK LEFT
+1,Low Bridge
+1,PUBLIC TOILET
+1,Press Here
+1,SCHOOL OFFICE
+1,SWITCH OFF
+2,Best Before
+2,Bus lane
+2,CLOSE THE GATE
+2,Cross roads
+2,First Class
+2,Fused plug
+2,KEEP CLEAR
+2,LADIES TOILET
+2,LOOK BOTH WAYS
+2,NO ENTRY
+2,ONE WAY
+2,PUSH BAR TO OPEN
+2,Road works
+2,SAVE IT!
+2,SMOKE ALARM
+2,Second Class
+3,BEWARE GUARD DOG
+3,BEWARE OF THE DOG
+3,BEWARE THE TRAINS
+3,DANGER KEEP OUT
+3,Home Watch Area
+3,NO MILK TODAY
+3,No U turns
+3,No left turn
+3,No right turn
+3,ONE WAY STREET
+3,Press to Ring
+3,QUEUE HERE
+3,RETURN THIS BOTTLE
+3,ROAD CLOSED
+3,SAVE ENERGY
+3,SHUT THE GATE
+3,Sharp Bend Ahead
+3,Zone Ends
+4,BABY ON BOARD
+4,BREAK THE GLASS
+4,Cut along the line
+4,Eat by date
+4,GOODS TO REAR
+4,HOUSE TO LET
+4,Handle with Care
+4,KEEP OFF THE GRASS
+4,KEEP TO THE LEFT
+4,KEEP TO THE RIGHT
+4,NO WAY OUT
+4,PLEASE SWITCH OFF
+4,STICK NO BILLS
+4,Sell by date
+4,This Side Up
+4,USE THIS TILL
+5,Cycle route ahead
+5,DANGER Cattle Grid
+5,DANGER MEN AT WORK
+5,DRY CLEAN ONLY
+5,Do NOT X-ray
+5,Doctor on call
+5,HYMNS FOR TODAY
+5,IAN'S ROOM KEEP OUT
+5,LOCAL CALLS ONLY
+5,POST EARLY FOR XMAS
+5,REDUCE SPEED NOW
+5,Return to Sender
+5,SELECT LOW GEAR NOW
+5,STORE UNDER WATER
+5,Single track road
+5,Steep hill ahead
+6,CALL AGAIN NEXT WEEK
+6,CHANGE DOWN NOW
+6,DANGER RAISED COVERS
+6,DO NOT FEED THE BEAR
+6,Do NOT Stack
+6,GIRLS POWDER ROOM
+6,Hump backed bridge
+6,LOWEST PRICES HERE
+6,Lane closed ahead
+6,Low bridge ahead
+6,REPORT TO MAIN GATE
+6,ROAD UP AHEAD
+6,Video camera active
+GRADE3
+1,I will swim in the %water at the %seaside.
+1,away in a %manger no %crib for a bed.
+1,did the %dog eat the %bone?
+1,did the %leaf fall off the %tree?
+1,is there %time for %play?
+1,my %train has one green %engine.
+1,the %dog ate the %bone.
+1,the %leaf fell off the %tree.
+1,the %man drove the %car.
+1,the big bad %wolf ate the little %pig.
+1,there was no %time for %play.
+2,%all things bright and %beautiful.
+2,%mother is carrying the %baby.
+2,%rabbits like to eat %carrots.
+2,I saw the %farmer plough the %field.
+2,Suji knew the %answer to every %question.
+2,an %egg fell off the %table.
+2,did you see a %farmer %plough the %field?
+2,is it %time to have %dinner?
+2,it is %time to have %dinner.
+2,the %cuckoo sings in %June.
+2,the %flowers are growing on the %trees.
+2,the %girl is riding the %horse.
+2,the %little boy rode his %red bicycle.
+2,the %workman climbed up the %ladder.
+2,the tall %grass tickled the %boy.
+2,what %colour was the boy's %bicycle? 
+2,what colour is David's car?
+2,why did %Roger climb up the %ladder?
+2,why does the %cuckoo sing in %June?
+3,%Grasshopper Green is a comical %chap.
+3,%May comes before %October.
+3,%Paris is the capital of %France.
+3,I hear a %barking dog and a %tooting horn.
+3,I hear a %hooting owl and a %tooting horn.
+3,I heard the %bells on Christmas %day.
+3,I want to have %sausages for my %lunch.
+3,a %kangaroo carries its young in a %pouch.
+3,a merry %heart goes all the %day.
+3,as the lion %roared the monkey %chattered.
+3,did the cat squeal when %you stood on %it?
+3,did you %miss the %train?
+3,did you hear the %bells on %Christmas day?
+3,do you want to have %a pie for your%lunch?
+3,he bought five %ties and a pair of %socks.
+3,it was %raining %heavily.
+3,the dress was in the %shop %window.
+3,the moon has a %face like a %clock.
+3,the old %moon laughed and %sang a song.
+3,the princess wears a %string of %beads.
+3,was it %raining %heavily?
+3,which %girl was carrying the %briefcase?
+3,why did she %need five %ties?
+3,we were too %late to %catch the train.
+4,%it's clear that the cat likes %its home.
+4,%rubber tyres have %metal rims.
+4,%you're not going to drive %your car now.
+4,Does Ian like %reading books about %cars?
+4,I know that %three twos make %six.
+4,I like %reading books about %flying.
+4,Tom is watching the %football on %TV.
+4,are you %happy with the %arrangement?
+4,elephants lift %branches using %trunks.
+4,is Jane's %diamond ring %genuine?
+4,is the %science room full of %smoke?
+4,it's %shocking to hear %mocking birds cry.
+4,the %diamond ring was not %genuine.
+4,the %science %room is very interesting.
+4,the boy climbed the %tree near the %river.
+4,the fat boy %eats between his %meals.
+4,the policeman %stopped the %traffic.
+4,we are very %happy %here.
+5,%Tom invited %Sally to his party.
+5,%there is the man who mends %their shoes.
+5,%where will you go if you %wear that?
+5,%why are %you doing that?
+5,I can %hear the dog barking from %here.
+5,Julius %Caesar was a Roman %emperor.
+5,Mary %wrote a letter and %posted it.
+5,every %year I go to Wales for my %holiday.
+5,I am %enjoying my %book.
+5,it is %too cold %to play outside.
+5,the day after %Wednesday is %Thursday.
+5,where is the %man who mends their %shoes?
+5,who %threw the stone %through the window?
+6,%William won the battle of %Hastings.
+6,%is %his tea ready yet?
+6,%you are going %home tomorrow.
+6,I read the %article in today's %newspaper.
+6,Ivy %stirred her tea before she %drank it.
+6,golden %slumbers %kiss your eyes.
+6,in %Flanders fields the %poppies blow.
+6,in April the %frozen stream is %melted.
+6,is Asim going %home %tomorrow?
+6,it depends %whether the %weather improves.
+6,it's nearly time to %go and %get ready.
+6,my cousin %John has a sister called %Mary
+6,oh, to be in %England in %April.
+6,put the book %on the table %by the fire.
+6,is the %book on the table by the %fire?
+6,we %buried him darkly at %dead of night.
+6,we are going to %Spain for our %holiday.
+6,where are %you going for %your holiday?
+6,where the bee %sucks there %suck I.
+6,would %you like to come with %me?
+GRADE4
+1,AD,Anno Domini,Advertisement,Add,Duty,Adjective,After,Dinner,Domino
+1,B.C.,Before Christ,By,Christmas,Bachelor,of,Chemistry,buried,cable,broken,or,cracked,Burns,Coal
+1,BBC,British Broadcasting Corporation,Best,Baking,Chocolate,Before,Came,Bonzai,Council,Bachelor,of,Constitution
+1,NC,National Curriculum,Non,compos-mentis,No,Callers,Council,Note,Carefully
+1,P.S.,Postscript,Pass,to,Sender,Pole,Star,Pets',Society,Postage,Stamp,possible,solution,
+1,P.T.O.,please turn over,Post,and,Telegraph,Office,Point,to,one,Pay,Order,Public,Transport,Officer
+1,Sept.,September,Seven,Septimus,Septic,Instead,of
+1,TV,Television,Talk,and,Visit,Take,a,Vacation,Telling,Version,Transmitted,Visually
+1,Tue.,Tuesday,Try,upper,end,Trade,union,engagement,Tuberculosis,examination,Tutor,Test,under
+1,Vet.,Veterinary Surgeon,Veto,Vegetable,Veteran,Value,Extra,Tax
+1,Wed.,Wednesday,married,we,would,Women's,equality,Workers',education
+1,a.m.,morning,am,motoring,access,medium,axial,movement,all,made
+1,e.g.,for example,extra,good,excellent,grade,even,ground,extramural,group,elegant,gown,
+1,i.e., that is,in,evidence,interest,extended,inedible,international,event
+1,i/c,in charge,internal,combustion,inert,condition,if,carried,inter,continental
+1,km,kilometres,knitting,material,known,man,keen,as,mustard,key,money
+1,lang.,language,langsyne,letters,and,notes,generally,lowest,angle,
+1,p.m.,afternoon,Prime,Minister,place,mat,please,meet,personnel,manager,paper,mate,maker
+1,r.p.m.,revolutions per minute,relax,this,afternoon,regimental,police,mascot,Regulation,Paris,Metre,readily,pliable,metal
+1,y.,year,yellow,Yorkshire,young,Yo-yo
+2,B & B,bed and breakfast,bedknobs,broomsticks,bits,bobs,bright,breezy,better
+2,C.I.D.,Criminal Investigation Department,Central,Identification,Division,Children's,Information,Desk,Cool,it,down,Child's,1st,Dictionary
+2,CD,Compact Disk,Corps,Diplomatique,Change,Down,Commissioner,Detective,Cyanide!,Central,District,current,directory,Crown,Duty,can,do,Collected,Daily,cost,deducted
+2,DIY,Do it yourself,Dinghy,in,Yacht,Did,Yesterday,Yeah!,Disuria,in,Yaks,Dales,Yorkshire
+2,LCD,Liquid Crystal Display,Landing,,Craft,,Displacement,Low,Centigrade,Degrees,Low,Cloud,Density,Lower,Crate,Down,Litter,Cart,Drive
+2,RAM,Random Access Memory,Royal,Artillery,Man,Range,and,Measure,Repeat,Accidental,Movement,Release,Auto,Mechanism,Reply,to,All,Messages
+2,ROM,Read Only Memory,Read,out,Minimum, off,Maximum,Regulations,on,Motorways,Royal,Order,of,Merit,Regulation,Members,Road,or,Motorway
+2,S.A.S.,Special Air Service,Save,all,Souls,sent,as,seen,,at,sixes,and,sevens,Stars, Stripes
+2,Univ.,University,Universal,univalent,one,voice,only,single,National,in,vehicle
+2,V.I.P.,Very Important Person,Valid,in,principle,Value,in,Price,Verify,if,Precise,Villain,Prison,Vacuum,Process
+2,VAT,Value Added Tax,Vatican,State,View,and,Take,Vehicle,for,Animal,Transportation,Vacant,Trouble
+2,col.,column,collectable,city,of,London,Catalogue,of,Losses,colour,colony,colporteur
+2,contd.,continued,controlled,contradiction,contra,indicated,counted
+2,hr.,hour,hear,here,highly,reactive,hanger,hire,purchase
+2,w.p.m.,words per minute,warning,post,marker,woman,policeman,waterproof,mac.,works,personnel,manager
+3,B.R.,British Rail,By,return,brief,report,breakfast,ready,belly,rumble,became,redundant,biannual,report
+3,BT,British Telecom,By,Train,Before,That,Beta,Therapy,Buttered,Toast,Brain,Treatment,British,Time,Best,Today
+3,Bros.,Brothers,British,Rail,Overseas,bend,round,outside,surface,broth/soup
+3,EC,European Community,Extra-celestial,Easy,Come..,Repeat,again,ecclesiastical,Light,Speed
+3,Pk.,park,keeper,petite,kilometre,Parking,allowed,Pecking,Phone,kiosk
+3,R.S.V.P.,please reply,Royal,Society,of,Veterinary,Practitioners,Retail,Sales,Vetting,Policy,Royal,Society,Veteran,Paratroopers,Random,Survey,Vehicles,in,Progress,Royal,School,Victorian,Painting
+3,T.B.,Tuberculosis,tennis,balls,table,taken,back,tug,boat,tree,branch,time,bomb
+3,UFO,Unidentified Flying Object,Upward!,Forward!,Onward!,Uniformed,Officer,Unexpected,Field,Operation
+3,UN,United Nations,Unknown,Upper,Nile,Underneath,Union,Uniform
+3,YHA,Youth Hostels Association,Yak,Herders',Association,Yellow,Headed,Antelope,Young,Hopefuls,Anonymous,Yearly,Horological,Annual
+3,advt.,advertisement,adventure,advice,to,a,double,vision,test,doubtful,verb,transformation
+3,b.p.,boiling point,British,Petroleum,before,people,by,post,brilliant,performance,brainy,person
+3,cert.,certificate,current,electricity,return,track,mentally,deficient,Campaign,European,for,Return,of,Treasures
+3,chap.,chapter,a,good,fellow,sore,hands,cheap,rubbish,church,apparel,change,appearance
+3,esp.,especially,extra,sensory,perception,Spanish,emit,signal,pulse,escape,emergency,supply,point
+3,ff,extra loud,females,first,freezing,fog,fan-fare,farewell,flourish,fixed,fount
+3,fwd.,forward,fast,word,display,foreign,wood,first,winner,drawn,flood,water,drain,
+3,ha.,hectare,half,half,acre,hardy,annual,hushed-up,affaire,high,altitude
+3,pkt.,packet,please,keep,ticket,parking,ticket,passed,keeping,time,purl,and,knit,one,stitch
+3,s.a.e.,stamped addressed envelope,state,air,emergency,smart,and,elegant,stand,at,ease,shake,empty
+3,tsp.,teaspoon,technical,support,this,side,please,transparent,test,site,procedure
+3,u/s,unserviceable,upper,side,upside,down,unseemly,United,States
+3,vol.,volume,volunteer,voluntary,volvo,voice,only,line,view,on,location
+3,wt.,weight,wait,wrong,turning,watertight,wind,tunnel,wellie,throwing
+4,C.O.D.,Cash on Delivery,Change,Order,Day,change,of,date,Chronic,Olfactory,Disease,Choice,Disk,Clarity,Diction,Catalogue,Disasters
+4,CIA,Central Intelligence Agency,Camera,in,Action,Companies,Internal,Accounts,Call,in,Again,Carburetter,Action,Convert,into,Array
+4,ERM,Exchange Rate Mechanism,Electron,Radiation,Measure,Extra,Rapid,Motion, Room,Electronic,Radio,Mechanic,Eating,Ready,Meals,Relation,Maintenance
+4,GMT.,Greenwich Mean Time,General,Motors,Turbo,Golf,Master's,Tournament,Gipsy,Moth,II,Graduate,Master,Technician
+4,IQ,Intelligence Quotient,Intellectual,Quality,Is,Qualified,Informal,Quarters,Internal,Query
+4,Pres.,President,pressure,prefects,pressings,Personal,responsibility,
+4,TT,Tuberculin Tested,Tea,Time,Table,Tennis,Taste,Tested,Teacher,Tutor,Tall,Tale
+4,TUC,Trades Union Congress, Tasty,United,Cracker,,Undercover,Take,Up,Control,Test,Under,Charge,Tip,Up,Carefully
+4,UHF,Ultra High Frequency,under,her,feet,unhealthy,food,unhappy,fellow,Universal,Faith,and,Hope,United,in,Faith,Hope
+4,UV,Ultra Violet,Upper,Vertex,United,Voices,Unanimous,Vote,Undersea,Vessel,Unknown,Variables
+4,V.H.F.,Very High Frequency,Hot,Fat,Holy,Father,Handy,Fellow,Vegetarian,Health,Food,Vacant,Holiday,Flatlet
+4,VC,Victoria Cross,Voice,Control,Vision,Correct,Vehicle,Control,Value,Charge ,vowel,consonant,Victorian
+4,adj.,adjective,adjudged,guilty,adjacent,to,a,dull,joke, dreary,jest
+4,asst.,assistant,a,sob,story,assistant,teacher,as,stated,asked,all,shipshape,&,tidy
+4,av.,average,have,aver,all,verified,as,vouched,vacant
+4,encl.,enclosure,end,class,enclave,European,National,Community,Links,economics,class
+4,etc.,and the rest,evangelical,teaching,college,easy,terms,considered,ectoplasm,
+4,fol.,following,foolishly,failure,of,lustre,first,on,line,famous,old,lad
+4,in.,inch(es),not,out,fashionable,international,batting
+4,info.,information,in,for,a,penny,Internal,Note,for,Foreign,Office,infinity,infolded
+4,lb,pound,one,ball,legs,bandy,lex,brittanicus,first,born
+4,pp.,pages,possible,persons,polite,person,plump,persons,pigeon,post,prandial
+4,yd.,yard,yesterday,yodel,yacht dingy,yearly,due
+5,Bit,Binary digit,Bitter,Bury,it,Bought,in,Town,Ball,in,touch
+5,CPU,Central Processing Unit,Cash,per,Unit,Communist,Party,Union,Cycle,Peddlers,Counter,position,UP
+5,DOS,Disk Operating System,Double,or,Submit,Down,off,Summit,Discount,Seconds,Dust,sheets,Department,of,Security
+5,ECT,Electro Convulsive Therapy,and,the,rest,Eastern,Centre,Time,Electrolysed,Condenser,Tube,ectoplasm,evicted,Employee,Control,Tax
+5,ETD,estimated time of departure,Essential,Trades,Department,Extra,terrestrial,Division,today,please,Evening,Teacher's,Diploma,
+5,F.M.,Frequency Modulation,fixed,mark,For,Monday,Flying,Missile,Former,Mrs,Frame,Mounted
+5,H.P.,Hire Purchase,horse,power,high,potential,highly,pleasant,Holy,Place
+5,R and D.,Research and Development,Read,and,transfer,to,Disk,Rolling,Drilling,Read,Digest,Restless,Depressed
+5,admin.,administration,to,a,minimum,admiral,at,home,had,too,little,I've,mine
+5,anon.,anonymous,a,number,of,names,annoyance,name,of,a,nobody
+5,cps,characters per second,cancelled,please,sell,carriage,steamer,cupsful,Control,Program,Sent,Critical,path,selection
+5,incl.,included,inclusive,inclosed,in,the,clear,incorporated,licence
+5,inst.,instant,instructor,institutional,popular,street,inches,and,stones,if,not steady,test
+5,pH,acidity,post,House,pica,Henry,post,haste,place,HERE,please,Help,
+5,pl.,plural,plume,placing,plank,plot,post,letter,
+5,rep.,representative,reproduction,really,easy,peasy,Report,on,arrival
+5,tbs.,tablespoon,Trustee,Bank,Savings,tablets,Tabloid,Press,Tibetans,back,scratcher,television,broadcasting,station
+5,usu.,usually,moneylender,university,students',union,under-employed,unsuited,ultra,sonic,ufo
+5,viz.,namely,vulture,in,zoo,visibility,zero,vizier.Varigated,Indian,Zebra
+6,C.A.B.,Citizens Advice Bureau,taxi,cardboard,Confederation,of,Allied,Bricklayers,Conservative,Association,Broadcast,
+6,CAT,College of Advanced Technology.Computer,Orientated,Technology,College,of,Art,and,Technology,Capitals,,alL,Titles,Case,as,Typed
+6,D,500,deceased,decimal,doctor,dead,died
+6,D.E.S.,Department of Education and Science,Department,Employment,Services,Double,English,Sentence,Director,Electrical,Stations,Danger,Electric,Shock
+6,DFE,Department for Education,English,Defeated,Director of Further,Down,entry,DISABLED,FIRE,EXIT,
+6,I.C.B.M.,Intercontinental Ballistic Missile,Internal,Call,by,Members,Information,Can,Be,Managed, Conference,on,Basic,Medicine,Institution,of,City,Bankers,Inter,Computer,Balancing,Method
+6,IMF,International Monetary Fund,Medical,Force,Internal,Manipulation,Forceps,In,Micro,Farads,Inter,Married,Families,Interrupted,Marriage
+6,ISBN, International Standard Book Number,Station,Break,Note,Signal,Band,is,born,is,brand,new
+6,SEN,State Enrolled Nurse,Senior,Citizen,Start,Exam,Now,,S.E,of,North,Sentence
+6,SRN,State Registered Nurse,Scottish,Royal,Navy,Send,Round,Now,Signal/Ratio,Noise,Sister
+6,UCCA,University Central Clearing Agency,Universal,Calling,Card,Arrangement,yoU,Can,Call,Again,Upper,Class,Clients',Association,Candidate,Control,Agreement
+6,V,five,valuable,vacant,victim,vitamin,valid
+6,VSO,Voluntary Service Overseas,Very,Small,Object,Valiant,Serving,Officer,Vertically,Stable,Operation,Visa,Office
+6,X,ten,X-ray,cross-roads,battle-site,spot
+6,YUPPIE,Young Upwardly Mobile Person,Cry of Elation,Yale,University,People, Male,Yak,American,Little,Chef,Invitation
+6,d.o.a.,dead on arrival,don't,always,answer,desk,operator,away,doubt,of,authenticity,description,affair,discomfort,on,aircraft,
+6,et al.,and the others,all,is,eaten,up,with,aluminium,entertainment,allowance,easy,terms,allowed
+6,poly.,Polytechnic,College,polygon,polythene,polygonum,polyplegic
+6,pro tem.,for the time being,proposed,temporary,vote,provisional,and,tentative,provoking,temptation,Provision,of,Temporary,accommodation
+6,q.t.,on the quiet,queer,tempo,quoits,table,quality,tape,quest,for,treasure
+6,sic,exactly what was written,ill,sea-sick,command,to,a,dog,strategic,international,command
+6,stet,cancel alteration,headache,stated,quietly,number,in,group,stetson
+6,trig.,trigonometry,test,rig,try,in,garden,trigamy,test,gravity
+GRADE5
+1,A new broom sweeps clean
+1,A stitch in time saves nine
+1,Barking dogs seldom bite
+1,Boys will be boys
+1,Care killed the cat
+1,Charity begins at home
+1,Crime does not pay
+1,Curiosity killed the cat
+1,Easier said than done
+1,Exchange is no robbery
+1,First come first served
+1,Forgive and forget
+1,Honesty is the best policy
+1,In for a penny\ in for a pound
+1,It never rains but it pours
+1,It takes two to tango
+1,Let sleeping dogs lie
+1,Like father\ like son
+1,Like mother\ like daughter
+1,Live and let live
+1,Look before you leap
+1,Many hands make light work
+1,New brooms sweep clean
+1,Old habits die hard
+1,Once bitten\ twice shy
+1,Out of sight out of mind
+1,Practice makes perfect
+1,Revenge is sweet
+1,Seeing is believing
+1,Seek and ye shall find
+1,The exception proves the rule
+1,There's no place like home
+1,Third time lucky
+1,Time and tide wait for no man
+1,Tomorrow never comes
+1,Too many cooks spoil the broth
+1,Two heads are better than one
+1,Two's company three's a crowd
+1,Variety is the spice of life
+1,Waste not\ want not
+1,You can't please everyone
+2,A bad workman always blames his tools
+2,A fool and his money are soon parted
+2,A leopard cannot change its spots
+2,A rolling stone gathers no moss
+2,Absence makes the heart grow fonder
+2,All good things must come to an end
+2,All is fair in love and war
+2,An apple a day keeps the doctor away
+2,Beauty is only skin deep
+2,Beggars cannot be choosers
+2,Christmas comes but once a year
+2,Cleanliness is next to godliness
+2,Don't put all your eggs in one basket
+2,Every cloud has a silver lining
+2,Every dog has his day
+2,Familiarity breeds contempt
+2,Garbage in\ garbage out
+2,He laughs best who laughs last
+2,It's never too late to mend
+2,Jack of all trades\ master of none
+2,Let bygones be bygones
+2,Make hay while the sun shines
+2,Money is the root of all evil
+2,More haste\ less speed
+2,Never look a gift horse in the mouth
+2,No time like the present
+2,One cannot put back the clock
+2,One good turn deserves another
+2,One man's meat is another man's poison
+2,Practise what you preach
+2,The customer is always right
+2,The early bird catches the worm
+2,The first step is the hardest
+2,There is safety in numbers
+2,There's no smoke without fire
+2,There's no time like the present
+2,Things are not always what they seem
+2,Two wrongs do not make a right
+2,What you don't know can't hurt you
+2,What's worth doing is worth doing well
+2,When the cat's away the mice will play
+2,Where there's a will there's a way
+2,You can't get blood out of a stone
+3,A change is as good as a rest
+3,A friend in need is a friend indeed
+3,A thing of beauty is a joy forever
+3,Actions speak louder than words
+3,All's well that ends well
+3,Appearances are deceptive
+3,Ask a silly question\ get a silly answer
+3,Beauty is in the eye of the beholder
+3,Blood is thicker than water
+3,Bread is the staff of life
+3,Children should be seen and not heard
+3,Civility costs nothing
+3,Courtesy costs nothing
+3,Cut your coat according to your cloth
+3,Do as you would be done by
+3,Do not wear out your welcome
+3,First impressions are the most lasting
+3,First think\ and then speak
+3,Forbidden fruit is the sweetest
+3,Half a loaf is better than no bread
+3,Home is where the heart is
+3,It's better to be sure than sorry
+3,Knowledge is power
+3,Life is just a bowl of cherries
+3,Little things please little minds
+3,Look after number one
+3,Love is blind
+3,No man is indispensable
+3,Nothing ventured\ nothing gained
+3,One swallow does not make a summer
+3,One wedding brings another
+3,Penny wise\ pound foolish
+3,Possibilities are infinite
+3,Prevention is better than cure
+3,Set a thief to catch a thief
+3,Slow but sure wins the race
+3,Strike while the iron is hot
+3,The unexpected always happens
+3,Truth is stranger than fiction
+3,Two wrongs do not make a right
+3,Well begun is half done
+3,Where there's muck there's brass
+3,You can't have your cake and eat it
+4,A bad penny always turns up
+4,A drowning man will clutch at straw
+4,A good beginning makes a good ending
+4,A good dog deserves a good bone
+4,A little knowledge is a dangerous thing
+4,A penny saved is a penny gained
+4,All men are mortal
+4,All that glisters is not gold
+4,Ask no questions and hear no lies
+4,Better suffer ill than do ill
+4,Borrowed garments never fit well
+4,Children and fools cannot lie
+4,Dead men tell no tales
+4,Death is a great leveller
+4,Discretion is the better part of valour
+4,Don't change horses in midstream
+4,Fools rush in where angels fear to tread
+4,Handsome is as handsome does
+4,Hard work breaks no bones
+4,Health is better than wealth
+4,Keep your mouth shut and your ears open
+4,Little pitchers have great ears
+4,Manners maketh the man
+4,Misfortunes never come singly
+4,Money makes the pot boil
+4,Nature will have her course
+4,Never judge from appearances
+4,Never refuse a good offer
+4,Never speak ill of the dead
+4,No pleasure without pain
+4,Nothing is given so freely as advice
+4,Old shoes are easiest
+4,Opportunity seldom knocks twice
+4,Spare the rod and spoil the child
+4,Still waters run deep
+4,Talk of the devil and he will appear
+4,There is nothing new under the sun
+4,Throw dirt enough\ and some will stick
+4,Times change and we with them
+4,Work won't kill\ but worry will
+5,A cat may look at the king
+5,A fool may give counsel to a wise man
+5,A good winter brings a good summer
+5,A guilty conscience needs no accuser
+5,A hungry man is an angry man
+5,A man is known by the company he keeps
+5,A miss is as good as a mile
+5,All cats are grey in the dark
+5,As well be hanged for a sheep as a lamb
+5,Better be alone than in bad company
+5,Do not cast pearls before swine
+5,Everything comes to him who waits
+5,Faith can move mountains
+5,Fire is a good servant but a bad master
+5,First catch your hare
+5,Fortune knocks once at everyone's door
+5,Give the devil his due
+5,God helps those who help themselves
+5,Idleness is the root of all evil
+5,It's a long lane that has no turning
+5,Least said\ soonest mended
+5,Listeners seldom hear good of themselves
+5,Loyalty is worth more than money
+5,Necessity is the mother of all invention
+5,Never buy a pig in a poke
+5,Northern wind brings weather fair
+5,Nothing enters into a closed hand
+5,Nothing seek nothing find
+5,Nothing so certain as death
+5,Nothing succeeds like success
+5,Poor men go to heaven as soon as rich
+5,Pride goes before a fall
+5,Servants make the worst masters
+5,Speech is silver\ silence is golden
+5,The best things come in small parcels
+5,The more you have\ the more you want
+5,Think on the end before you begin
+5,We live by laws\ not by examples
+5,When need is highest\ help is nighest
+5,You can't make bricks without straw
+6,A blithe heart makes a blooming visage
+6,A bully is always a coward
+6,A cobbler should stick to his last
+6,A liar should have a good memory
+6,A soft answer turneth away wrath
+6,Adversity makes for strange bedfellows
+6,Better to wear out than rush out
+6,Cruelty deserves no mercy
+6,Empty vessels make the most noise
+6,Enough is as good as a feast
+6,Every why has a wherefore
+6,Faint heart never won fair lady
+6,Fear is stronger than love
+6,Fine feathers make fine birds
+6,Good council has no price
+6,Habit is second nature
+6,He who hesitates is lost
+6,He who pays the piper calls the tune
+6,High places have their precipices
+6,Hope springs eternal in the human breast
+6,Hunger is the best sauce
+6,Let the buyer beware
+6,Live not to eat\ but eat to live
+6,Lucky at cards\ unlucky in love
+6,Marry in haste and repent at leisure
+6,Nothing crave\ nothing have
+6,The absent are always in the wrong
+6,The best advice is found on the pillow
+6,The cowl does not make the monk
+6,The devil sometimes speaks the truth
+6,The greatest talkers are the least doers
+6,The world is full of fools
+6,There's many a slip 'twixt cup and lip
+6,Valour is born with us\ not acquired
+6,Weeds want no sowing
+6,When the wine's in the wit's out
+6,When wrath speaks\ wisdom veils her face
+GRADE6
+1,Donna washed the dirty dishes.,The dirty dishes were washed by Donna.
+1,James has repaired the puncture.,The puncture has been repaired by James.
+1,Lightning struck the church.,The church was struck by lightning.
+1,The birds called morning reveille.,Morning reveille was called by the birds.
+1,The elephant lifted the logs.,The logs were lifted by the elephant.
+1,The vicar is holding the service.,The service is being held by the vicar.
+1,The wave of a flag ended the race.,The race was ended by the wave of a flag.
+1,The witch changed him into a toad.,He was changed into a toad by the witch.
+1,Thieves set upon the traveller.,The traveller was set upon by thieves.
+1,Where did Pedro put the book?,Where was the book put by Pedro?
+2,Dad is meeting Jane at the station.,Jane is being met by dad at the station.
+2,Did the corpse make that sound?,Was that sound made by the corpse?
+2,Russia beat the USA at chess.,The USA was beaten at chess by Russia.
+2,Ten artists visited the display.,The display was visited by ten artists.
+2,The butler always opens the door.,The door is always opened by the butler.
+2,The chef sliced the roast beef.,The roast beef was sliced by the chef.
+2,The soprano sang the first aria.,The first aria was sung by the soprano.
+2,This is the house that Ian built.,This is the house that was built by Ian.
+2,Two workmen built my extension.,My extension was built by two workmen.
+2,Will the violin take the lead?,Will the lead be taken by the violin?
+3,Did Bell invent the telephone?,Was the telephone invented by Bell?
+3,Did Mother bake the bread?,Was the bread baked by Mother?
+3,Did your aunt paint that picture?,Was that picture painted by your aunt?
+3,Many people will read the book.,The book will be read by many people.
+3,Nina will cook the dinner.,The dinner will be cooked by Nina.
+3,Rust does not corrode aluminium.,Aluminium is not corroded by rust.
+3,The Duke will open the new wing.,The new wing will be opened by the Duke.
+3,The Government did pass the law.,The law was passed by the Government.
+3,The Queen will launch the ship.,The ship will be launched by the Queen.
+3,What mark did Raj score in the test?,What mark was scored by Raj in the test?
+4 ,I wrote the letter to The Sun.,The letter to The Sun was written by me.
+4,David wrote a Computer Manual.,A Computer Manual was written by David.
+4,Did Aesop write the fables?,Were the fables written by Aesop?
+4,Dr. Aziz will not give the talk.,The talk will not be given by Dr. Aziz.
+4,How much did Abu earn last year?,How much was earned by Abu last year?
+4,The wolf ate the little Pig.,The little pig was eaten by the wolf.
+4,The dog did not steal the meat.,The meat was not stolen by the dog.
+4,The knave did not steal the tarts.,The tarts were not stolen by the knave.
+4,The teenager wrote-off the car.,The car was written-off by the teenager.
+4,When did Azra borrow my car?,When was my car borrowed by Azra?
+5,Hal has broken the table.,The table has been broken by Hal.
+5,Iram spilled lemonade on her sari.,Lemonade was spilt on her sari by Iram.
+5,Lord Hill's valet was shaving him.,Lord Hill was being shaved by his valet.
+5,Mr Kipling makes beautiful cakes.,Beautiful cakes are made by Mr Kipling.
+5,Piggott rode the winning horse.,The winning horse was ridden by Piggott.
+5,Six girls were sharing the flat.,The flat was being shared by six girls.
+5,The boy did the work diligently.,The work was done diligently by the boy.
+5,The crocodile ate the explorer.,The explorer was eaten by the crocodile.
+5,What did Emma give Jolene?,What was given to Jolene by Emma?
+5,When did Mme. Curie discover radium?,When was radium discovered by Mme.Curie?
+6,A workman will build my extension.,My extension will be built by a workman.
+6,I am returning these books.,These books are being returned by me.
+6,I never send birthday cards.,Birthday cards are never sent by me.
+6,I shall never divulge the secret.,The secret will never be divulged by me. 
+6,Jill put a mug into baby's hand.,A mug was put into baby's hand by Jill.
+6,The farrier shoes the horse.,The horse is shod by the farrier.
+6,The boy is carrying the bags.,The bags are being carried by the boy.
+6,The union forbade me to vote.,I was forbidden to vote by the union.
+6,Who answered the letter?,By whom was the letter answered?
+6,Who wrote the book?,By whom was the book written?

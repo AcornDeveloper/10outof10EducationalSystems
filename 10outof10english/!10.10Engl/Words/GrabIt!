@@ -1,0 +1,605 @@
+$ GrabIt! word file structure
+$ 1. <sub grade>,<phrase>                            
+$ 2. <sub grade>,<letter%letter>,<pair>,<pair>...    maximum word length 6
+$          (% shows where <pair> is missed from word - 1st <pair>
+$            only must make a real word)
+$ 3. <sub grade>,<word>,<word>                       maximum word length 12 
+$ 4. <sub grade>,<sentence>,<word>,<word>            maximum word length 12 
+$         Use \ in place of , and | in place of " in <sentence>
+$ 5. <sub grade>,<phrase>,<word>                     maximum word length 12 
+$ 6. <sub grade>,<word>,<word>,<word> ...            maximum word length 12
+$         (first must be odd one out)
+
+GRADE1
+1,Ding dong bell
+1,Girls and boys come out to play
+1,Hickory, Dickory, Dock
+1,I love little pussy
+1,Jack and Jill went up the hill
+1,Little Miss Muffet
+1,Little Tommy Tucker sings for his supper
+1,London bridge is broken down
+1,Mary had a little lamb
+1,One, two, buckle my shoe
+1,Polly, put the kettle on
+1,Rub a dub dub
+1,Three blind mice, three blind mice
+2,Baa, baa, black sheep have you any wool?
+2,Dickory, dickory, dare
+2,Hey le diddle the cat and the fiddle
+2,Humpty Dumpty sat on a wall
+2,Little Bo-peep has lost her sheep
+2,Mary, Mary, quite contrary
+2,Old Mother Goose
+2,Ring-a-ring of roses
+2,Sing a Song of Sixpence
+2,The Queen of Hearts
+2,Tom, Tom, the piper's son
+3,Diddle, diddle, dumpling, my son John
+3,Goosey, goosey, gander
+3,Hush-a-bye, baby on the tree top
+3,I had a little nut tree
+3,Little Jack Horner
+3,Old King Cole was a merry old soul
+3,Old mother Hubbard
+3,Pussy-cat pussy-cat where have you been?
+3,Simple Simon met a pieman
+3,The man in the moon
+3,Twinkle, twinkle little star
+3,Where are you going to, my pretty maid?
+4,Baby, baby bunting
+4,Georgie Porgie, pudding and pie
+4,Hot cross buns
+4,I saw a ship a-sailing
+4,Little Boy Blue, come blow your horn!
+4,Little Polly Flinders
+4,Pat-a-cake, pat-a-cake, baker's man!
+4,See-saw, Margery Daw
+4,The north wind doth blow
+4,There was an old woman
+5,As I was going to St. Ives
+5,I saw three ships come sailing by
+5,Jack Sprat could eat no fat
+5,Ladybird, ladybird, fly away home
+5,Monday's child is fair of face
+5,The grand old Duke of York
+5,The king was in his counting-house
+5,There was a crooked man
+5,Thirty days hath september
+5,This is the house that Jack built
+5,Who killed Cock Robin?
+6,Doctor Foster went to Gloster
+6,Half a pound of tuppeny rice
+6,Higgledy, piggledy, my black hen
+6,Lucy Locket lost her pocket
+6,Oh where oh where has my little dog gone?
+6,Please to remember the Fifth of November
+6,Ride a cock-horse to Banbury Cross
+6,The lion and the unicorn
+6,Three little kittens lost their mittens
+6,Tweedle-dum and Tweedle-dee
+6,Wee Willie Winkie runs through the town
+GRADE2
+1,%an,th,ch,da,ed,kn,sh,si,sk,sl,st,tr,tw
+1,%at,cl,cr,da,ed,si,sk,st,tr
+1,%at,wh,cl,cr,da,ed,si,st,tr
+1,%ay,st,ba,ch,ed,kn,sc,sh,si,sk
+1,%em,th,ch,cl,cr,da,ed,kn,pl,sc,sh,si,sk,sl
+1,%en,th,ch,cl,cr,da,kn,pl,sh,sk,sl,sp,tr,tw
+1,%en,wh,ch,cl,cr,da,kn,pl,sc,sh,si,sl,sp
+1,%ip,sk,ba,cr,ed,sc,si,sp,st,th
+1,%is,th,ch,cl,cr,ed,kn,pl,sc,sh,si,sl,sp
+1,%om,fr,ba,cl,cr,ed,kn,sc,sh,si,sk,sl,sp,st,th,tr
+1,%op,st,ba,ed,kn,sc,si,sk,sp,th
+1,b%t,es,at,or,ow,re,ri,ro,ul,ur,os,il,is,uf
+1,d%n,ow,al,as,at,el,or,ra,re,ri,ro,ul,ur,us,ol,os,il,is,uf
+1,h%p,el,al,an,at,in,or,ow,ra,re,ri,ro,ur,us,os,il,uf
+1,k%d,in,al,an,ar,as,at,el,or,ow,ra,re,ri,ro,us,ol,os,il,uf
+1,m%y,an,al,as,at,el,in,ow,ra,re,ri,ro,ul,ur,us,ol,os,il,is,uf
+1,s%d,an,al,ar,as,at,el,ra,re,ri,ro,ul,us,os,is,uf
+1,t%d,ol,an,as,at,el,in,or,ow,ra,ri,ul,us,os,il,is,uf
+1,t%k,al,ar,at,el,in,or,ow,ra,ro,ul,ol,os,il,is,uf
+1,w%h,it,al,an,ar,at,el,in,or,ow,ra,re,ri,ro,ul,ur,us,ol,os,il,uf
+1,w%t,an,al,as,in,ra,re,ro,ul,ur,us,ol,os,uf
+1,we%,nt,ck,ss,th,tt,ch,at,ew,ip,op,ow,am,im,od,un
+2,ba%,ll,tt,ch,an,ap,at,ew,ip,op,ow,am,im,od,ar,un
+2,be%,ll,tt,ch,ew,ip,it,op,ow,im,od,un
+2,bu%,ll,th,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+2,ca%,ll,tt,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+2,do%,ll,tt,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+2,fa%,ll,ss,th,tt,an,ap,at,ew,ip,it,op,ow,am,im,od,ar
+2,fa%,st,ss,th,tt,an,ap,at,ew,ip,it,op,ow,am,im,od,ar
+2,fe%,ll,ck,th,tt,st,ch,an,ap,ew,ip,it,op,ow,am,im,od,un
+2,fi%,ll,ck,th,tt,ch,an,ap,ew,ip,it,op,ow,am,im,od,ar,un
+2,fi%,sh,ck,th,tt,ch,an,ap,ew,ip,it,op,ow,am,im,od,ar,un
+2,gi%,rl,ck,ss,th,tt,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+2,ki%,ck,tt,st,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+2,la%,nd,ll,tt,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+2,la%,st,ll,tt,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+2,lo%,ng,tt,at,ew,ip,it,ow,im,od,ar,un
+2,me%,ss,ck,th,tt,st,ap,ew,ip,it,op,am,im,od,ar,un
+2,mo%,st,tt,ch,ap,ew,ip,it,op,ow,am,im,ar,un
+2,pl%,ay,ck,ll,ss,th,tt,st,ch,ap,at,ew,ip,it,am,im,ar,un
+2,pu%,ll,th,st,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+2,ro%,ll,th,tt,st,ch,ap,at,ew,ip,it,op,ow,im,un
+2,so%,ck,ll,th,tt,st,ch,an,at,ew,ip,it,op,ow,am,im,od,un
+2,ta%,ll,ss,th,tt,st,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+2,te%,ll,ck,ss,th,tt,an,ap,ew,ip,it,op,ow,im,od,un
+2,ve%,ry,ck,ll,ss,th,tt,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+2,wa%,lk,ck,ss,th,ch,an,ap,at,ew,ip,op,ow,am,im,od,ar,un
+2,wa%,ll,ck,ss,th,an,ap,at,ew,ip,op,ow,am,im,od,ar,un
+2,we%,ll,ck,ss,th,tt,ch,at,ew,ip,op,ow,am,im,od,un
+2,wi%,ll,ss,tt,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+3,%ad,gl,cr,ed,kn,sc,sh,si,sk,sl,sp,st,th
+3,%ap,sl,ba,ed,sc,si,sk,sp,st,th
+3,%ar,st,ba,cl,cr,ed,kn,sh,si,sk,sl,th,tr
+3,%by,ba,ch,cl,cr,ed,kn,sc,sh,si,sk,sl,sp,st,th,tr
+3,%ed,bl,cl,da,ed,kn,sc,sk,th,tw
+3,%ep,st,ba,ch,cl,cr,ed,kn,sc,sh,si,sk,sl,sp,th,tr
+3,%ew,bl,da,ed,pl,sc,si,th,tr,tw
+3,%ig,tw,ch,cl,cr,da,ed,kn,pl,sc,sh,si,th
+3,%in,th,cl,cr,da,ed,kn,pl,sc,si,sl,st,tr
+3,%ip,sl,ba,cr,ed,sc,si,sp,st,th
+3,%ld,fo,ch,cl,cr,ed,kn,sc,sh,sk,sl,sp,st,th,tr
+3,%op,pl,ba,ed,kn,sc,si,sk,sp,th
+3,%op,sh,ba,ed,kn,sc,si,sk,sp,th
+3,%ot,sp,ba,ch,cr,ed,sc,si,sk,th
+3,%ow,bl,cl,da,ed,si,sk,sp,th,tw
+3,%ow,sh,ba,cl,ed,si,sk,sp,th
+3,%ow,sl,cl,da,ed,si,sk,sp,th,tw
+3,%ow,sn,cl,da,ed,si,sk,sp,th,tw
+3,%ud,th,ch,ed,kn,pl,sh,si,sl,tr,tw
+4,b%d,an,as,at,el,ri,ro,ul,ur,us,os,il,is,uf
+4,b%d,ir,as,at,el,ow,ri,ro,ul,ur,us,os,is,uf
+4,b%d,re,as,at,el,or,ri,ro,ul,ur,us,os,il,is,uf
+4,b%g,an,ar,as,at,el,or,ow,re,ro,ol,os,il,is,uf
+4,b%h,at,al,an,ar,el,in,or,ow,ra,re,ri,ro,ul,ur,ol,il,uf
+4,b%k,an,al,at,el,in,or,ow,ra,re,ri,ro,ol,os,is
+4,b%k,ar,al,at,el,in,or,ow,ra,re,ri,ro,us,ol,os,is
+4,b%p,um,al,an,ar,as,at,el,in,or,ow,ra,re,ri,ro,ul,us,ol,os
+4,b%t,oa,at,or,ow,re,ri,ro,ul,ur,os,il,is,uf
+4,c%d,ar,an,as,at,el,in,ow,ra,ri,ul,us,os,il,is,uf
+4,c%n,or,al,an,ar,as,at,el,in,ow,re,ri,ul,ur,ol,os,il,is,uf
+4,d%k,ar,al,as,at,el,in,or,ow,ra,re,ri,ro,ul,ur,ol,os,il,uf
+4,d%p,ri,al,an,ar,as,at,in,ow,ra,re,ul,ur,us,ol,os,il,is,uf
+4,d%p,ro,al,an,ar,as,at,in,ow,ra,re,ul,ur,us,ol,os,il,is,uf
+4,d%w,ra,al,an,ar,as,at,el,in,or,ow,ri,ro,ul,ur,us,ol,os,il,uf
+4,g%w,ro,al,an,ar,as,at,el,in,or,ow,ra,ri,ul,ur,us,ol,os,il,is,uf
+4,h%d,an,as,at,in,ow,ra,re,ri,ro,ul,ur,us,os,il,is,uf
+4,h%d,el,al,as,at,ow,ra,re,ri,ro,ul,ur,us,os,il,is,uf
+4,h%d,er,al,as,at,ow,ra,re,ri,ro,ul,ur,us,os,il,is,uf
+4,h%d,ol,al,as,at,ow,ra,re,ri,ro,ul,ur,us,os,il,is,uf
+4,l%d,en,al,as,at,el,in,ow,ra,re,ri,ro,ur,us,ol,os,il,is,uf
+4,l%t,en,al,an,ar,at,el,or,ra,re,ri,ro,ul,ur,ol
+4,m%d,in,al,as,at,el,or,ow,ra,re,ri,ro,ul,ur,us,os,is,uf
+4,m%k,il,al,at,el,or,ow,ra,re,ri,ro,ul,ol,os,is,uf
+4,n%t,ex,al,an,ar,as,el,in,or,ra,re,ri,ro,ul,ur,us,ol,os,il,is,uf
+4,p%k,ar,al,an,as,at,el,ow,ra,re,ro,ul,ur,us,ol,os,il,is,uf
+4,p%s,as,ar,el,or,ow,ra,ri,ul,ur,ol,uf
+4,p%t,ar,al,at,ow,re,ri,ro,ul,ur,us,ol,il,uf
+4,r%g,an,al,ar,as,at,el,or,ow,ra,re,ri,ro,ul,ur,us,ol,os,il,is,uf
+4,r%g,in,al,ar,as,at,el,or,ow,ra,re,ri,ro,ul,ur,us,ol,os,il,is,uf
+4,s%d,ol,al,ar,as,at,el,ra,re,ri,ro,ul,us,os,is,uf
+4,s%g,an,ar,as,at,el,or,ow,ra,re,ri,ro,ul,ur,us,ol,os,il,is,uf
+4,s%k,an,as,at,el,or,ow,ra,re,ri,ro,ur,us,ol,os,is,uf
+4,t%k,an,ar,at,el,in,or,ow,ra,ro,ul,ol,os,il,is,uf
+4,t%n,or,al,as,at,el,re,ri,ro,ul,us,ol,os,il,is,uf
+4,w%d,in,as,at,ow,ra,re,ri,ro,ul,ur,us,os,is,uf
+4,w%h,as,al,an,ar,at,el,in,or,ow,ra,re,ri,ro,ul,ur,us,ol,os,il,uf
+4,w%m,ar,al,an,as,at,el,in,ow,ra,re,ri,ro,ul,ur,us,ol,os,il,is,uf
+4,w%n,or,al,an,as,at,el,in,ow,ra,ri,ro,ul,ur,us,ol,os,il,is,uf
+5,ba%,ck,tt,ch,an,ap,at,ew,ip,op,ow,am,im,od,ar,un
+5,bo%,lt,ck,tt,ch,an,ap,ew,ip,it,op,ow,am,im,od,un
+5,bo%,ss,ck,tt,ch,an,ap,ew,ip,it,op,ow,am,im,od,un
+5,du%,ck,ss,th,tt,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+5,fa%,rm,ss,th,tt,an,ap,at,ew,ip,it,op,ow,am,im,od,ar
+5,fe%,lt,ck,th,tt,st,ch,an,ap,ew,ip,it,op,ow,am,im,od,un
+5,fi%,nd,ck,th,tt,ch,an,ap,ew,ip,it,op,ow,am,im,od,ar,un
+5,fl%,ed,ck,ll,ss,th,tt,st,ch,am,im,od,ar,un
+5,fl%,ew,ck,ll,ss,th,tt,st,ch,am,im,od,ar,un
+5,fr%,og,ck,ll,ss,th,tt,st,ch,an,ap,at,op,am,im,od,ar,un
+5,fu%,ll,th,tt,st,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+5,ha%,ll,ss,tt,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+5,he%,lp,th,tt,st,ch,an,ew,ip,it,op,ow,am,im,od,un
+5,hi%,ll,th,tt,st,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+5,ki%,ll,tt,st,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+5,ki%,ss,tt,st,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+5,la%,ss,ll,tt,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+5,lo%,st,tt,at,ew,ip,it,ow,im,od,ar,un
+5,lu%,ck,ss,th,tt,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+5,mi%,ll,th,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+5,mu%,st,th,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+5,ne%,st,th,ch,an,ew,ip,it,op,ow,am,im,od,un
+5,pa%,ck,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+5,pi%,ck,tt,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+5,ro%,ck,tt,st,ch,ap,at,ew,ip,it,op,ow,im,un
+5,sa%,ck,ll,th,tt,st,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+5,se%,ll,ck,ss,st,ch,ew,ip,it,op,ow,im,od,un
+5,si%,ck,ss,th,tt,st,ch,ap,at,ew,ip,it,op,ow,im,od,ar,un
+5,su%,ch,ll,th,tt,st,an,ap,at,ew,ip,op,ow,am,im,od,ar,un
+5,ti%,ck,ss,st,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+5,tr%,ap,ck,ll,ss,th,tt,st,ch,an,ew,it,ar,un
+6,bi%,ll,ck,ss,th,st,an,ap,at,ew,ip,it,op,ow,am,im,od,un
+6,bo%,ld,ck,tt,ch,an,ap,ew,ip,it,op,ow,am,im,od,un
+6,bo%,th,ck,tt,ch,an,ap,ew,ip,it,op,ow,am,im,od,ar,un
+6,bu%,zz,th,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+6,co%,ld,ss,ch,an,ap,ew,ip,it,ow,am,im,od,ar,un
+6,de%,sk,ss,st,ch,ap,at,ew,ip,it,op,ow,am,im,od,un
+6,di%,sh,tt,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+6,fi%,zz,ck,th,tt,ch,an,ap,ew,ip,it,op,ow,am,im,od,ar,un
+6,fu%,zz,th,tt,st,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+6,ga%,ng,ck,ss,th,tt,st,ch,an,ap,at,ew,ip,op,ow,am,im,od,ar,un
+6,ju%,mp,ck,ll,ss,th,tt,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+6,ju%,st,ck,ll,ss,th,tt,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+6,li%,ck,ll,ss,th,tt,ch,an,ap,at,ew,ip,it,op,ow,im,od,un
+6,lo%,ck,tt,at,ew,ip,it,ow,im,od,ar,un
+6,lo%,rd,tt,at,ew,ip,it,ow,im,od,ar,un
+6,mu%,ch,th,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+6,pu%,nt,th,st,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+6,pu%,sh,th,st,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+6,ri%,ch,ss,th,tt,st,an,ap,at,ew,ip,it,op,ow,am,im,od,ar,un
+6,si%,ng,ss,th,tt,st,ch,ap,at,ew,ip,it,op,ow,im,od,ar,un
+6,ye%,ll,ck,ss,th,tt,st,ch,an,ap,at,ew,ip,it,op,ow,am,im,od,un
+GRADE3
+1,bananas,bunch
+1,bees,swarm
+1,cards,pack
+1,cows,herd
+1,milk,crate
+1,mountains,range
+1,rags,bundle
+1,sheep,flock
+1,singers,choir
+1,stamps,collection
+1,workmen,gang
+2,ants,nest
+2,beads,string
+2,books,library
+2,bullets,hail
+2,firemen,crew
+2,footballers,team
+2,geese,gaggle
+2,pupils,class
+2,soldiers,army
+2,soldiers,squad
+2,tools,set
+3,actors,company
+3,deer,herd
+3,fish,shoal
+3,gypsies,tribe
+3,kittens,litter
+3,musicians,band
+3,pearls,string
+3,seamen,crew
+3,steps,flight
+3,thieves,band
+3,whales,school
+4,bells,peal
+4,chessmen,set
+4,flowers,bouquet
+4,hounds,pack
+4,merchantmen,convoy
+4,seals,colony
+4,ships,fleet
+4,spectators,crowd
+4,stones,heap
+4,tables,nest
+4,yachts,flotilla
+5,angels,host
+5,chickens,brood
+5,clothes,suit
+5,eggs,clutch
+5,gulls,colony
+5,lions,pride
+5,locusts,plague
+5,racehorses,string
+5,teachers,staff
+5,trees,copse
+6,beauties,bevy
+6,corn,sheaf
+6,cutlery,canteen
+6,dancers,troupe
+6,diamonds,cluster
+6,directors,board
+6,drawers,chest
+6,monkeys,troupe
+6,oxen,yoke
+6,poultry,run
+6,rooms,suite
+GRADE4
+1,% be ridiculous!,Don't,don't,do'nt,Do'nt,Dont',Dont'
+1,% going to start all over again.,I'm,i'm,Im',im','im,'Im
+1,% new jacket is made of denim.,Mary's,mary's,Marys',marys',Marys,marys
+1,A % egg is larger than a golf ball.,duck's,ducks',ducks,Duck's,Ducks',Ducks
+1,Auntie % new hat is ridiculous.,Fay's,fay's,Fays',fays',Fays,fays
+1,Finished at last\ % glad to say.,I'm,i'm,Im',im','im,'Im
+1,For % a jolly good fellow.,he's,he's'es,he's,hes',hes'
+1,Given the choice % rather not go.,I'd,i'd,Id',id','id,'Id
+1,Have you seen Mr % new car?,Kalim's,kalim's,Kalims',kalims',Kalims,kalims
+1,Her dress was torn by her % dog.,neighbour's,neighbours',neighbours,Neighbour's,Neighbours',Neighbours
+1,I % believe my friend is married.,can't,Can't,ca'nt,Ca'nt,cant',Cant'
+1,I bought the % collar.,dog's,dogs',dogs,Dog's,Dogs',Dogs
+1,I like Sarah % new hairstyle.,Simpson's,simpson's,Simpsons',simpsons',Simpsons,simpsons
+1,I'm going to Uncle % tonight.,Bill's,bill's,Bills',bills',Bills,bills
+1,My % new T-shirt is 'trendy'.,cousin's,cousins',cousins,Cousin's,Cousins',Cousins
+1,Please leave your % at the counter.,bags,Bag's,bag's,Bags',bags',Bags
+1,Put the book on the % desk.,teacher's,Teacher's,Teachers',teachers',Teachers,teachers
+1,The % coat is on the peg.,girl's,girls',girls,Girl's,Girls',Girls
+1,The % dinner is in the oven.,child's,childs',childs,Child's,Childs',Childs
+1,The % mother told her to hurry home.,girl's,girls',girls,Girl's,Girls',Girls
+1,The Lord % chain was on display.,Mayor's,mayor's,Mayors',mayors',Mayors,mayors
+1,The children % like rice pudding.,don't,Don't,do'nt,Do'nt,Dont',Dont'
+1,The lions % get out of the cage.,can't,Can't,ca'nt,Ca'nt,Cant',Cant'
+1,The little % hand was sore.,girl's,girls',girls,Girl's,Girls',Girls
+1,The register lay on the % desk.,teacher's,teachers',teachers,Teacher's,Teachers',Teachers
+1,This is % shell suit.,Peter's,peters',peters,peter's,Peters',Peters
+1,|I % get no satisfaction.|,can't,Can't,ca'nt,Ca'nt,Cant',Cant'
+2,% and pears are cheap this week.,Apples,Apple's,apple's,Apples',apples',apples
+2,% really rather not have it.,I'd,i'd,Id',id','id,'Id
+2,% still much to be done.,There's,theres',their's,There's,Theres',Their's
+2,% very brave generally.,I'm,i'm,'Im,'im,Im,im,im',Im'
+2,Abul % dad is a policeman.,Manzoor's,manzoor's,Manzoors',manzoors',Manzoors,manzoors
+2,Another mark and % have passed.,he'd,He'd,h'ed,He'd,Hed',hed'
+2,Concentrate\ % the trick.,that's,That's,Thats',thats',thats,Thats
+2,Go % and find your tie.,upstairs,Upstair's,upstair's,Upstairs',upstairs',Upstairs
+2,Hamelin % in Brunswick.,town's,Town's,towns',Towns',towns,Towns
+2,He said % been there before.,he'd,He'd,h'ed,He'd,Hed',hed'
+2,It was a hard % work.,day's,days',days,Day's,Days',Days
+2,It was hard work but % it finished.,that's,That's,Thats',thats',thats,Thats
+2,Mike said % have come on Sunday.,he'd,He'd,h'ed,He'd,Hed',hed'
+2,Really,% rather not take it.,I'd,i'd,Id',id','id,'Id
+2,The % are singing in the trees.,birds,Bird's,bird's,Birds',birds',Birds
+2,The % on the wing.,bird's,Bird's,birds',Birds',birds,Birds
+2,The % surgery was not open on Saturday.,dentist's,dentists',dentists,Dentist's,Dentists',Dentists
+2,The fans grabbed film % shirt.,star's,Star's,Stars',stars',Stars,stars
+2,We had curry and % for dinner.,chips,Chip's,chip's,Chips',chips',Chips
+2,We hope that % well with you.,all's,All's,a'lls,A'lls,Al'ls,al'ls,alls',Alls'
+2,We thought % agreed to join us.,he'd,He'd,h'ed,He'd,Hed',hed'
+2,We thought % have joined us.,he'd,He'd,h'ed,He'd,Hed',hed'
+2,Will you meet me at six % tonight?,o'clock,O'clock,o-clock,'oclock,oclock,oh'clock
+3,% a good chance if she keeps cool.,She's,she's,sh'es,She's,Shes',shes'
+3,% all go together when we go.,We'll,Wel'l,we'll,wel'l,well',Well'
+3,% certainly a cool customer.,She's,she's,sh'es,She's,Shes',shes'
+3,% draw the first straw?,Who'll,who'll,Whol'l,whol'l,W'holl,w'holl
+3,% fair in love and war.,All's,all's,a'lls,A'lls,Al'ls,al'ls,alls',Alls'
+3,% get there by hook or by crook.,He'll,Hel'l,he'll,hel'l,hell',Hell'
+3,% have to go!,He'll,,Hel'l,he'll,hel'l,hell',Hell'
+3,% regret not cleaning your teeth.,You'll,Youl'l,you'll,youl'l,youll',Youll'
+3,% that you say?,What's,what's,whats',Whats',whats,Whats
+3,% want a large deposit.,They'll,they'll,Theyl'l,theyl'l,the'yll,The'yll,theyll',Theyll'
+3,Dan % a chance of seeing the play.,hasn't,Hasn't,has'nt,Has'nt,Hasnt',Hasnt'
+3,Do that again and % scream.,I'll,,Il'l,i'll,il'l,ill',Ill'
+3,Have you seen my %?,sandals,Sandal's,sandal's,Sandals',sandals',Sandals
+3,He % enough money to pay for it.,hasn't,,Hasn't,has'nt,Has'nt,Hasnt',Hasnt'
+3,I could ask but I think % say no.,they'll,They'll,Theyl'l,theyl'l,the'yll,The'yll,theyll',Theyll'
+3,I know I % but I did it.,shouldn't,Shouldn't,shouldnt,Shouldnt,should'nt,Should'nt
+3,If I go first % follow me?,who'll,Who'll,Whol'l,whol'l,W'holl,w'holl
+3,Jimmy % has not gone to school.,Jones,Jones',jones',Jone's,jone's,Jones's,jones
+3,Mary % take it without sugar.,won't,Won't,Wo'nt,wo'nt,w'ont,W'ont,wont,Wont
+3,The doctor said % written the note.,he'd,He'd,h'ed,He'd,Hed',hed'
+3,The girls were told to hurry home.,girls,Girl's,girl's,Girls',girls',Girls
+3,This week-end % all go to the fair.,we'll,Wel'l,We'll,wel'l,well',Well'
+3,Where are the Duke of % gloves?,Chester's,chester's,Chesters',chesters',Chesters,chesters
+4,% a good mind to tell her so.,I've,i've,Iv'e,iv'e,'ive,'Ive
+4,% a very good player.,You're,Your'e,you're,your'e,youre',Youre'
+4,% keep at it until the job is done.,I'll,,Il'l,i'll,il'l,ill',Ill'
+4,% take a cup before we part.,Let's,let's,Lets,lets,Lets',lets'
+4,I % answer the question.,couldn't,Couldn't,couldnt,Couldnt,could'nt,Could'nt
+4,I % forget your kindness to me.,shan't,sha'nt,shant',Shan't,Sha'nt,Shant'
+4,I % have accepted the lift.,shouldn't,Shouldn't,shouldnt,Shouldnt,should'nt,Should'nt
+4,I know % not much showing yet.,there's,Theres',their's,There's,Theres',Their's
+4,If % coming\ count me out.,they're,They're,Theyr'e,theyr'r,the'yre,their,Their,there,There
+4,It % what I intended but it will do.,isn't,Isn't,Is'nt,is'nt,I'snt,i'snt,isnt
+4,Lock all the % securely tonight.,doors,Door's,door's,Doors',doors',Doors
+4,No doubt % looking for work.,you're,You're,Your'e,your'e,youre',Youre'
+4,Please wait until % all eaten.,we've,We've,Wev'e,wev'e,W'eve,w'eve
+4,Sue said that % never do it.,he'll,He'll,,Hel'l,hel'l,hell',Hell'
+4,Susan % go to town today.,couldn't,couldn't,Couldn't,couldnt,Couldnt,could'nt,Could'nt
+4,Tell me % come and see me.,you'll,You'll,Youl'l,youl'l,youll',Youll'
+4,The % hair was soft as silk.,baby's,babys',babys,Baby's,Babys',Babys,babie's,babies
+4,The accused said he % do it.,didn't,,Didn't,did'nt,Did'nt,Didnt',Didnt'
+4,The twins % done their homework.,haven't,,Haven't,have'nt,Have'nt,Havent',Havent'
+4,Together with the rest % just enough.,I've,i've,Iv'e,iv'e,'ive,'Ive
+4,You % answer my last letter.,didn't,,Didn't,did'nt,Did'nt,Didnt',Didnt'
+4,You like snakes but I % touch them.,wouldn't,Wouldn't,Would'nt,would'nt,wouldnt,Wouldnnt
+5,% I told you I % any money.,haven't,Haven't,have'nt,Have'nt,Havent',Havent'
+5,% all there is to it.,That's,that's,Thats',thats',thats,Thats
+5,% done very well so far.,We've,we've,Wev'e,wev'e,W'eve,w'eve
+5,% is the best work in the class.,Yours,your's,Yours',yours',Your's,yours
+5,% it a beautiful morning?,Isn't,isn't,Is'nt,is'nt,I'snt,i'snt,isnt
+5,% need all their wits about them.,They'll,they'll,Theyl'l,theyl'l,the'yll,The'yll,theyll',Theyll'
+5,% their own worst enemy.,they're,They're,Theyr'e,theyr'r,the'yre,their,Their,there,There
+5,% to take all your books home.,You're,you're,Your'e,your'e,youre',Youre'
+5,% you come a little further?,Won't,won't,Wo'nt,wo'nt,w'ont,W'ont,wont,Wont
+5,% you like to own that dress?,Wouldn't,wouldn't,Would'nt,would'nt,wouldnt,Wouldnnt
+5,I must say it % seem right.,doesn't,,Doesn't,does'nt,Does'nt,Doesnt',Doesnt'
+5,Stray dogs are sent to the % home.,dogs',dog's,dogs,Dog's,Dogs',Dogs
+5,The % galloped across the field.,horses,Horse's,horse's,Horses',horses',horses
+5,The % rattle was shaped like a duck.,baby's,babys',babys,Baby's,Babys',Babys,babie's,babies
+5,The % swarmed up the rigging.,sailors,Sailor's,sailor's,Sailors',sailors',Sailors
+5,There were three % nests in the tree.,birds',bird's,birds,Bird's,Birds',Birds
+5,These are the men % won.,who've,Who've,Whov'e,whov'e,W'hove,w'hove
+5,This bus % go to the airport.,doesn't,,Doesn't,does'nt,Does'nt,Doesnt',Doesnt'
+5,This is my hat\ where is %?,yours,Your's,your's,Yours',yours',Yours,yours
+5,We travel on % the night is dark.,tho',Tho',th'o,Th'o,'Tho,'tho
+5,With that extra word % all right.,it's,It's,i'ts,I'ts,ts',its',its,Its
+5,You % look so innocent either.,needn't,Needn't,need'nt,Need'nt,nee'dnt,Neednt
+6,% all right now\ but think ahead.,It's,it's,i'ts,I'ts,ts',its',its,Its
+6,% funny to see her wearing that wig.,It's,it's,i'ts,I'ts,ts',its',its,Its
+6,% is a nice house on a nice road.,Ours,Our's,our's,Ours',ours',ours
+6,% many a slip 'twixt cup and lip.,'twixt,twixt','Twixt,be'twixt,twix't,betwix't,twixt
+6,% nests are always built in trees.,Crows',Crow's,crow's,Crows's,crows',Crows,crows,crows's
+6,% never too late to mend.,It's,it's,i'ts,I'ts,its',its',its,Its
+6,% not what I wished to take.,'Twas,'twas,T'was,t'was,Twas',twas',Tw'as,tw'as
+6,% the seven seas we roved.,O'er,o'er,Ov'er,ov'er,Oe'r,oe'r
+6,% the tall mountains tremble.,E'en,e'en,Ev'en,ev'en,Ee'n,ee,n
+6,All the % men fought bravely.,king's,kings',kings,King's,Kings',Kings
+6,I like to read % poems.,Keats',keats',keats,keat's,Keat's,Keats
+6,It took seven % work to finish the job.,days',day's,days,Day's,Days',Days
+6,Joan said the pencil was %.,hers,Her's,her's,Hers',hers',Hers
+6,Jump % the brook,my bonnie lass.,o'er,O'er,Ov'er,ov'er,Oe'r,oe'r
+6,Mr Davis joined the % choir.,men's,mens',mens,Men's,Mens',Mens
+6,My dad is taller than %.,Winston's,winston's,Winstons',winstons',Winstons,winstons
+6,My rattlesnake has cast % skin.,its,it's,Its,It's,Its',its'
+6,The % books were left in my uncle's house.,children's,childrens',childrens,Children's,Childrens',Childrens
+6,The % cat is a ginger tom.,Robinsons',Robinson's,robinson's,',robinsons',Robinsons's,robinsons's
+6,The % coat department is upstairs.,ladies',ladie's,ladies,Ladie's,Ladies',Ladies,lady's,Lady's,ladys'
+6,The % hats were very cheap.,women's,Womens',womens,women's,womans',Womens,woman's
+6,The car had % windscreen shattered.,its,it's,Its,It's,Its',its'
+6,The children claimed the cat was %.,theirs,Their's,their's,Theirs',theirs',Theirs
+6,The red car with the open top is %.,ours,Our's,our's,Ours',ours',Ours
+6,There is a sale in the % shoe department.,men's,mens',mens,Men's,Mens',Mens
+6,Was Bleak House written by %?,Dickens,Dicken's,dicken's,Dickens',dickens',dickens
+GRADE5
+1,a group of musicians,orchestra
+1,all by yourself,alone
+1,liked by everyone,popular
+1,looks exactly like,identical
+1,not able to be seen,invisible
+1,not telling the truth,lying
+1,not wearing shoes,barefooted
+1,speak very very quietly,whisper
+1,the first meal of the day,breakfast
+1,unable to see,blind
+2,looks very much like,resembles
+2,most of the people,majority
+2,not very long ago,recently
+2,once a year,annually
+2,putting pressure on others,masterful
+2,the learner of a craft,apprentice
+2,thinks of something that happened,remembers
+2,thoughtful for others,considerate
+2,to make things worse,aggravate
+2,visited by ghosts,haunted
+2,watch what is happening,spectate
+3,about to happen,imminent,
+3,equal in value,equivalent
+3,fond of company,gregarious
+3,long lasting and unpleasant,chronic
+3,the first of two,former
+3,the last of two,latter
+3,the only one of its kind,unique
+3,thoughtless of others,selfish
+3,to indulge a desire,gratify
+3,to recover,recuperate
+4,able to be believed,credible
+4,brief in expression,concise
+4,happening at the same time,concurrent
+4,intending to do good,benevolent
+4,ready to be guided,amenable
+4,to become worse,deteriorate
+4,to emphasize,accentuate
+4,to free from blame,exonerate
+4,to lessen in value,depreciate
+4,to picture in the mind,envisage
+5,a mutual attraction,affinity
+5,a noisy argument,altercation
+5,aggressively warlike,belligerent
+5,deeply moved,impassioned
+5,given for nothing,gratuitous
+5,holding in temporary disuse,abeyance
+5,items to be considered,agenda
+5,liable to make mistakes,fallible
+5,of uncertain meaning,ambiguous
+5,unwilling to take a risk,chary
+6,a choice among unpleasant alternatives,dilemma
+6,a feeling of deep disappointment,chagrin
+6,difficult to please,fastidious
+6,happening by chance,fortuitous
+6,intense in feeling,fervent
+6,of the same kind,homogeneous
+6,quoted exactly,sic
+6,to alter to make better,amend
+6,to criticize unfavourably,censure
+6,very clear,unequivocal
+6,wanting in self confidence,diffident
+GRADE6
+1,assist,wed,marry,match,pair,consort,unite,partner,link
+1,champion,overlook,ignore,disregard,neglect,forget,slight,drop
+1,cheer,clown,jester,comic,wag,comedian,joker,merryman
+1,clasp,tug,lug,pull,drag,haul,push,draw
+1,corporation,fat,obese,chubby,tubby,podgy,plump,corpulent
+1,druid,church,chapel,synagogue,mosque,temple,cathedral,kirk
+1,dull,bright,brainy,clever,astute,acute,sharp,gifted
+1,dustbin,garbage,junk,offal,rubbish,waste,jetsam,litter,debris
+1,escape,lock,fasten,bar,peg,pin,tie,screw,secure,latch
+1,hale,sick,sickly,ailing,ill,unwell,feeble,infirm,diseased
+1,overtake,have,possess,retain,own,keep,preserve,hold
+1,pull,grip,grasp,clasp,clutch,grab,hold
+1,rifle,missile,bullet,shot,shell,rocket,cannon-ball,torpedo
+1,running,hot,heated,warm,fiery,burning,flaming,blazing,scorching
+1,scream,patter,gabble,chatter,gibber,babble,prattle,jabber
+1,slide,blunder,botch,mistake,bungle,muff,error,slip
+1,telephone,peal,clang,ring,jingle,jangle,clash,tinkle
+1,temporary,persistent,continuing,chronic,constant,unremitting,lasting
+2,amend,amiable,friendly,cordial,congenial,agreeable,pleasant,nice
+2,bag,loot,fleece,strip,plunder,pillage,sack,steal,raid
+2,cards,risk,gamble,speculate,chance,bet,hazard,wager
+2,centre,regulate,control,govern,manage,run,operate,order
+2,conceited,savage,fierce,brutal,mean,vicious,cruel,ruthless
+2,define,put,place,set,stand,plant,perch,situate,locate
+2,difficult,dark,dusky,gloomy,dismal,dreary,sombre,murky
+2,entomb,grieve,mourn,bemoan,lament,bewail,rue,pine,fret
+2,extend,evade,elude,dodge,shun,avoid,escape,bypass
+2,fly,fall,drop,sink,descend,lapse,slip,slide,plummet
+2,froth,body,form,mass,bulk,frame,shape
+2,lively,careless,reckless,unheeding,rash,impulsive,thoughtless,unwary
+2,missile,revolt,mutiny,defy,strike,refuse,rebel,disobey
+2,noted,rancid,sour,putrid,rotten,musty,mouldy,nauseous,nasty
+2,roast,grind,crush,powder,crunch,pulverise,granulate,crumble
+2,soothing,cutting,biting,piercing,stinging,searing,smarting,searing
+2,vital,slack,listless,lethargic,indolent,lazy,idle,torpid,sleepy
+2,vote,argue,discuss,dispute,disagree,debate,differ,oppose
+2,warehouse,hold,keep,conserve,save,store,amass,stow,accumulate
+3,cold,dim,muted,faded,faint,inaudible,thin,muffled
+3,command,implore,beg,beseech,entreat,plead,ask,urge
+3,flag,regular,normal,usual,customary,accustomed,habitual,standard
+3,gutless,hungry,starving,famished,empty,starved,ravenous
+3,loll,pause,stop,stay,halt,respite,breather,recess,lull
+3,minuscule,gigantic,big,great,huge,enormous,colossal,monstrous
+3,pleased,gentle,kind,soft,serene,placid,genial,affable,humane
+3,rhythmic,quick,fast,fleet,speedy,hurried,swift,rapid
+3,secondary,premier,initial,first,earliest,original,primary,starter
+3,strong,odd,peculiar,funny,weird,strange,cranky,bizarre
+3,ugly,hostile,adverse,opposed,against,aggressive,militant
+4,easy,simple,plain,modest,stark,spartan,untrimmed,unadorned
+4,extend,repair,fix,patch,doctor,restore,reassemble,remedy
+4,fighting,bitter,envious,sullen,venomous,obnoxious,surly,vengeful
+4,huge,sturdy,rugged,hefty,husky,burly,brawny,strapping
+4,implacable,eager,avid,keen,earnest,intent,assiduous,sedulous
+4,imprudent,uncivil,brash,impudent,pert,cheeky,rude,tactless
+4,inhale,attract,draw,entice,invite,tempt,lure,charm,entice
+4,justify,express,announce,proclaim,state,declare,assert,avow
+4,manure,thrive,prosper,improve,better,succeed,blossom,bloom
+4,paint,bright,witty,smart,alert,clever,quick
+4,rank,repulsive,repellent,offensive,rotten,putrid,horrible,loathsome
+4,smell,hit,pound,knock,strike,bruise,beat,thrash,club
+4,stretch,shorten,abridge,curtail,lessen,slim,contract,compress
+4,weight,remainder,leavings,grounds,lees,dregs,crust,slag,scum
+5,able,clear,sharp,explicit,lucid,coherent,intelligible,understandable
+5,accurate,gauge,approximate,estimate,judge,weight,rate,rank
+5,cloth,banter,joke,jest,rag,gag,chaff
+5,deciduous,insipid,colourless,anaemic,monotonous,humdrum,boring,prosaic
+5,elevated,eminent,celebrated,renowned,illustrious,prominent,notable,venerable,esteemed,
+5,event,mistake,error,fallacy,fault,inaccuracy,oversight,flaw
+5,flexible,tenacious,relentless,indomitable,inexorable,unflagging,dogged,unswerving
+5,harden,bully,harass,worry,heckle,torment,pester,bait
+5,peddled,quiet,soft,hushed,damped,muffled,dulled,deadened
+5,reduce,abate,lessen,weaken,enlarge,diminish
+5,synthesise,criticize,appraise,evaluate,analyse,survey,assess,adjudge
+5,tepid,ardent,fervent,zealous,irate,spirited,vehement,passionate
+5,terseness,wordiness,circumlocution,tautology,verbiage,verbosity,loquacity,garrulity
+5,upstanding,unbiased,unprejudiced,unbigoted,impartial,detached,equitable,impersonal,neutral
+5,vocational,abhorrence,abomination,detestation,rancour,aversion,revulsion
+6,consistent,ambivalent,indecisive,irresolute,dubious,vacillating,equivocal
+6,hindsight,presage,augur,portend,foreshadow,forebode,foreshow,betoken,foretoken
+6,implore,prescribe,recommend,advise,counsel,advocate,suggest,exhort
+6,insufferable,deference,submission,compliance,humbleness,sufferance,modesty,complaisance
+6,martyred,authoritative,official,certified,licensed,accredited,validated,attested,endorsed
+6,pacification,vexation,annoyance,irritation,aggravation,perturbation,resentment,rankling
+6,penurious,imprudent,impolitic,injudicious,undiplomatic,tactless,impetuous,unwise
+6,photocopy,pattern,paradigm,prototype,paragon,standard,norm,criterion,exemplar
+6,propitiatory,irascible,churlish,choleric,petulant,perverse,cantankerous,querulous
+6,reject,ask,inquire,request,invite,seek,solicit
+6,satiate,satire,irony,virulence,acerbity,harshness,bitterness,acidity
+6,visit,delay,defer,tarry,dally,linger,retard,suspend,table,shelve

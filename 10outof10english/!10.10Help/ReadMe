@@ -1,0 +1,154 @@
+Extra notes for 10/10 English
+
+GENERAL
+
+ALWAYS USE A BACKUP OF THE DISC as facts like the high scores are constantly
+being written to it. Alternatively, The programs can be installed on a HARD
+DISC. All you need to do is to 'drag' the application to a directory window
+on your hard disc.
+
+All high scores and results are saved to disc as you exit from the game.
+Ensure that you LEAVE THE GAMES USING THE EXIT OPTION rather than pressing
+break to ensure your facts are stored.
+
+Note that with the CURRENT PLAYER set to EMPTY, the achievement record is
+never altered and high scores are shown within the game being played but not
+saved to disc. If the current player is set to empty and several people
+enter their names for a multi-player game the high score tables are also not
+saved to disc.
+
+MEMORY
+
+10 out of 10 will run on all Acorn 32-bit computers, but on a 1 Mb machine
+you may have to switch the computer off for a few seconds and then turn it
+back on.
+
+CERTIFICATE PRINTING
+
+To print a certificate in graphic form you should select the disc option
+after you've selected print certificate. You should save it onto a blank,
+formatted disc (there isn't room on the 10 out of 10 discs). The saved file
+will have the name of the player as the filename. This can be loaded into
+Paint and printed in the usual way. We've found that to print an A4
+certificate on a laser printer the parameters to set when you've chosen
+Print are:
+
+     Portrait
+     X scale       3:2
+     X scale       3:2
+
+  Make sure the centimetre square is highlighted green then:
+
+     Corner X      -3.2   (note the minus)
+     Corner Y       4
+
+CHEERS
+
+Note that if a question is answered wrong you fall back one. Then you fall
+one more if you landed on a "down" graphic. However if you answer a question
+wrong and fall back to an "up" graphic you won't go up.
+
+You can use your own set of questions in the Cheers game. To do this you
+first need to create a file using !Edit that was supplied with your
+computer. Just type each question together with the three answers in the
+following form:
+
+Question#%answer#answer#answer#
+
+The maximum length of the questions and answers is 64 characters. Use # to
+separate each part and % is used to show the correct answer (it can precede
+any of the three). Every question and answer must end in # (Returns are
+optional). The MAXIMUM number of questions in a file is 100.
+
+When you enter your own questions you MUST ensure that EVERY question and
+answer is followed by # and every question has ONE right answer preceded by
+%. If you use !Edit to create the file, it's a good idea to move the cursor
+to the top of the file, press F4 and use COUNT to check that there are four
+times as many #s than %s. If the numbers do not match up the game will warn
+you as the file loads. 
+
+When you've finished, SAVE the questions in the QFiles directory on a backup
+of the disc (or on your hard disc). To show you the format of the file
+you'll find a demonstration one called Easy_Fun already there.
+
+The supplied questions for the six grades are in files Q1 to Q6 in the Qfile
+directory. If you wish to use your own graded questions just use those names
+on a backup of the disc. Note that as they will become the new questions for
+the grades, the achievement chart will be altered as they are answered.
+
+All your own question files should go in the Qfile directory and should not
+normally be called Q1 to Q6. When children use them the result will not be
+entered on the achievement chart but high scores will still be obtained.
+
+To use this or your own questions first load the Cheers game and cycle
+through the various grades by clicking the mouse with the pointer on Grades.
+Select USER. Now, when you select PLAY a list of the files in the QFile
+directory will be displayed and you can select the one you want. Give
+Easy_Fun a try!
+
+Note that the question order is selected at random and the answers will
+usually be in the order they were entered in your file. However, if there
+are insufficient questions in the file some will be repeated and, in that
+case, the order of the answers will be randomly mixed up to minimise exact
+repeats.
+
+CUSTOMISING OTHER GAMES
+
+The data for all the other games is in a directory called WORDS on the disc.
+You can add to or replace any of the word/question files but you must take
+care to follow the same data structure. A guide to the structure is given at
+the start of each file. Any line starting with $ is ignored so you can use
+these to put remarks in your files.
+
+Note that each grade is recognised by the label, for example, GRADE1. There
+is no space between the word and the number. The maximum number of questions
+in any individual grade is 1000, but disc space also limits the overall
+number of questions.
+
+FURTHER DISCUSSION
+
+Many of the games and levels of 10 out of 10 should lead to further
+discussion and reading. For example, as children play Grade 1 of Grab it
+they can be asked to recite the whole Nursery rhyme. As they play Grade 5 of
+Sniper they can be asked what the proverb means and so on. In Cheers, Grade
+6, they should be encouraged to research into where some of the lines come
+from and to read the complete poems. Here is a list to help with that task:
+
+"Winds whisper gently whilst she sleeps."
+   In Memoriam - Lord Tennyson
+
+"Breath as hush't as Lovers sigh;"
+   "Laura Sleeping" - Charles Cotton
+
+No; 'twas but the wind, Or the car rattling o'er the stony
+street
+   Waterloo - Lord Byron
+
+A rolling organ harmony, Swells up and shakes and falls.
+   Sir Galahad - Lord Tennyson
+
+Low, Low, breathe and blow, Wind of the western sea!
+   The Princess - Lord Tennyson
+
+"Anything like the sound of a rat makes my heart pit-a-pat!"
+   The Pied Piper - R Browning
+
+"With knees well bent, Fingers a-flicking, They dancing
+went."
+   Off the Ground - Walter De la Mare
+
+"Hush! a rustling wing stirs, methinks, the air:"
+Silent is the House - Emily Bronte
+
+"Or hear old Triton blow his wreathed horn."
+   Sonnet - W.Wordsworth
+
+" Buzz said the Bee, and away he flew."
+   The Bee and the Lily - Thomas Westwood
+
+"Swings his arms holds up his head, Left, right, left,
+right."
+   Action Rhyme - E.H.Adams
+
+"My leather shoes go Pit-pat, pit-pat."
+   Boots and Shoes - L McCrea
